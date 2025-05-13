@@ -1,0 +1,14 @@
+name: Online Product Quantization (O-PQ)
+description: Online Product Quantization (O-PQ) is a variant of product
+  quantization designed to support dynamic or streaming data. It enables
+  adaptive updating of quantization codebooks and codes in real-time, making it
+  suitable for vector databases that handle evolving datasets.
+source_url: https://ieeexplore.ieee.org/document/6875797
+category: concepts-definitions
+tags:
+  - ann
+  - dynamic-data
+  - vector-search
+  - real-time
+markdown: ""
+updated_at: 2025-05-13 22:29
