@@ -1,0 +1,16 @@
+name: pymilvus
+description: pymilvus is the official Python SDK for Milvus, allowing developers
+  to interact programmatically with the Milvus vector database. It provides
+  utilities for transforming unstructured data into vector embeddings and
+  supports advanced features such as reranking for optimized search results. The
+  pymilvus[model] variant includes utilities for generating vector embeddings
+  from text using built-in models.
+source_url: https://github.com/milvus-io/pymilvus
+category: sdks-libraries
+tags:
+  - python
+  - milvus
+  - vector-embeddings
+  - sdk
+markdown: ""
+updated_at: 2025-05-13 22:29
