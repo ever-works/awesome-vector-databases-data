@@ -1,0 +1,14 @@
+name: Optimized Product Quantization (OPQ)
+description: Optimized Product Quantization (OPQ) enhances Product Quantization
+  by optimizing space decomposition and codebooks, leading to lower quantization
+  distortion and higher accuracy in vector search. OPQ is widely used in
+  advanced vector databases for improving recall and search quality.
+source_url: https://ieeexplore.ieee.org/document/6619216
+category: concepts-definitions
+tags:
+  - ann
+  - optimization
+  - vector-search
+  - accuracy
+markdown: ""
+updated_at: 2025-05-13 22:29
