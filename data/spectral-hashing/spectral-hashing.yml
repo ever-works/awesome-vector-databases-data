@@ -1,0 +1,14 @@
+name: Spectral Hashing
+description: Spectral Hashing is a method for approximate nearest neighbor
+  search that uses spectral graph theory to generate compact binary codes, often
+  applied in vector databases to enhance retrieval efficiency on large-scale,
+  high-dimensional data.
+source_url: https://beta.iopscience.iop.org/article/10.1088/1742-6596/2506/1/012001/pdf
+category: concepts-definitions
+tags:
+  - ann
+  - similarity-search
+  - compression
+  - optimization
+markdown: ""
+updated_at: 2025-05-13 22:29
