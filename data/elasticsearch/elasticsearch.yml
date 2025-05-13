@@ -1,53 +1,101 @@
 name: Elasticsearch
-description: Elasticsearch provides vector similarity search in addition to its
-  full-text search capabilities, making it suitable for hybrid search scenarios
-  involving both structured and unstructured data. The Elasticsearch Vector
-  Similarity Plugin extends Elasticsearch, enabling it to perform efficient
-  vector similarity searches. This plugin makes Elasticsearch suitable for
-  generative AI and retrieval augmented generation (RAG) applications by
-  allowing high-dimensional vector queries for tasks like image and text
-  retrieval.
-source_url: https://www.elastic.co/guide/en/elasticsearch/reference/current/dense-vector.html
+description: Elasticsearch is a distributed search engine supporting various
+  data types, including vectors, and provides scalable vector search
+  capabilities, making it a popular choice for modern AI-powered applications.
+  It can be extended with the k-NN plugin to provide scalable vector search
+  using HNSW and Lucene, enabling hybrid semantic and keyword search
+  capabilities.
+source_url: https://www.elastic.co/elasticsearch/
 category: vector-database-engines
 tags:
-  - hybrid-search
-  - vector-search
-  - full-text-search
   - open-source
-  - rag
-markdown: |
+  - vector-search
+  - hybrid-search
+  - scalable
+markdown: >
   # Elasticsearch
 
-  [Elasticsearch Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/dense-vector.html)
 
-  Elasticsearch is a search and analytics engine that supports hybrid search scenarios, including both full-text and vector similarity search, making it suitable for applications such as generative AI and retrieval augmented generation (RAG).
+  [Elasticsearch](https://www.elastic.co/elasticsearch/) is an open source,
+  distributed, RESTful search and analytics engine, scalable data store, and
+  vector database. It is at the core of the Elastic Stack and is widely used for
+  a range of search, analytics, and monitoring applications.
 
-  ## Category
-  - Vector Database Engines
-
-  ## Tags
-  - hybrid-search
-  - vector-search
-  - full-text-search
-  - open-source
-  - rag
 
   ## Features
-  - **Dense Vector Field Type**: Supports storing dense vectors (arrays of numeric values) for k-nearest neighbor (kNN) search.
-  - **kNN Search**: Efficient approximate kNN retrieval using the HNSW algorithm.
-  - **Similarity Metrics**: Supports various similarity metrics for vector search including cosine, dot_product, l2_norm, and max_inner_product.
-  - **Vector Quantization**: Reduces memory footprint using int8 (4x), int4 (8x), or bbq (32x, technical preview) quantization strategies for vector storage.
-  - **Bit Vectors**: Supports bit vectors for very high-dimensional data, using efficient storage and Hamming distance for similarity.
-  - **Indexing Options**:
-    - Multiple kNN indexing algorithms: hnsw, int8_hnsw, int4_hnsw, bbq_hnsw (preview), flat, int8_flat, int4_flat, bbq_flat (preview).
-    - Adjustable parameters for indexing, such as number of neighbors (m), ef_construction, and confidence interval for quantization.
-  - **Flexible Field Configuration**: Set element type (float, byte, bit), dimensionality (up to 4096), similarity metric, and whether to index the field for kNN search.
-  - **Update Indexing Strategy**: Supports updating the kNN indexing algorithm for dense vector fields via the Update Mapping API (with some restrictions).
-  - **Hybrid Search**: Enables combining full-text search and vector similarity search in a single query.
-  - **Script Score Queries**: Use custom scripts to rank documents by similarity to a query vector.
-  - **Dynamic Mapping**: Unmapped arrays of floats (128-4096 elements) are dynamically mapped as dense_vector fields.
-  - **Synthetic Source Support**: Dense vector fields support synthetic _source (generally available for TSDB indices, technical preview for others).
+
+  - **Distributed and Scalable**: Handles data from a single node up to hundreds
+  of nodes, managing large datasets (hundreds of TBs, billions of vectors) with
+  horizontal scalability.
+
+  - **Vector Search**: Native support for vector data and scalable vector search
+  capabilities, including integration with the k-NN plugin for efficient
+  similarity search using HNSW and Lucene.
+
+  - **Hybrid Search**: Supports combining vector (semantic) search with keyword
+  (lexical) search for advanced information retrieval.
+
+  - **Full-Text Search**: Fast and relevant full-text search with fine-tuned
+  relevancy and support for structured, unstructured, geo, and metric data.
+
+  - **Analytics**: Aggregations and analytics on large datasets, enabling trends
+  and pattern analysis.
+
+  - **Elasticsearch Query Language (ES|QL)**: Advanced query language for
+  transforming and simplifying data investigation and workflows.
+
+  - **AI Integration**: The Elasticsearch Relevance Engine™ enables semantic
+  search, integration with LLMs (Large Language Models), hybrid search, and use
+  of transformer models.
+
+  - **Resiliency**: Built-in fault tolerance, cross-cluster replication, and
+  high availability features.
+
+  - **Flexible Data Storage**: Supports local fast queries or remote storage
+  (e.g., S3) for cost-effective data management; runtime fields for flexible
+  data onboarding.
+
+  - **Machine Learning**: Automate anomaly detection and analytics on data.
+
+  - **Security**: Features for securing data and cluster access.
+
+  - **Monitoring**: Tools for monitoring the health and performance of the
+  Elastic Stack.
+
+  - **Time Series Data Management**: Automate data lifecycle with index
+  lifecycle management, frozen indices, and rollups.
+
+  - **Client Libraries**: Official and community-supported clients for multiple
+  programming languages (Java, Python, .NET, SQL, PHP, etc.), with RESTful API
+  and JSON support.
+
+  - **Deployment Options**: Available as open source, on-premises, hosted on
+  Elastic Cloud (AWS, GCP, Azure), and as a fully managed serverless offering.
+
+  - **Use Cases**: Log monitoring, infrastructure monitoring, APM, synthetic
+  monitoring, search and discovery, geospatial analysis, SIEM, and endpoint
+  security.
+
+
+  ## Category
+
+  - Vector Database Engines
+
+
+  ## Tags
+
+  - Open-source
+
+  - Vector search
+
+  - Hybrid search
+
+  - Scalable
+
 
   ## Pricing
-  - Pricing information is **not provided** in the available content. Please refer to the [official pricing page](https://www.elastic.co/pricing/) for details.
+
+  - **Not specified in provided content.** (Elastic offers open source
+  downloads, hosted cloud, and serverless options; specific pricing details can
+  be found on their website.)
 updated_at: 2025-05-13 22:29
