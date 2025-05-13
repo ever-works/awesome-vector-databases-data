@@ -1,0 +1,13 @@
+name: HNSWLIB
+description: HNSWLIB is a C++ library with Python bindings for fast approximate
+  nearest neighbor search using Hierarchical Navigable Small World (HNSW)
+  graphs, commonly used in vector database backends.
+source_url: https://github.com/nmslib/hnswlib
+category: sdks-libraries
+tags:
+  - open-source
+  - ann
+  - hnsw
+  - vector-search
+markdown: ""
+updated_at: 2025-05-13 22:29
