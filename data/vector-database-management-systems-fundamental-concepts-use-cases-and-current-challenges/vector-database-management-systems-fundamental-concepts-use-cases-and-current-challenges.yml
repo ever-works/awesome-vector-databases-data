@@ -1,0 +1,14 @@
+name: "Vector database management systems: Fundamental concepts, use-cases, and
+  current challenges"
+description: A comprehensive research paper outlining the fundamental concepts,
+  practical use-cases, and current challenges in the field of vector database
+  management systems.
+source_url: https://doi.org/10.1016/J.COGSYS.2024.101216
+category: research-papers-surveys
+tags:
+  - vector-databases
+  - use-cases
+  - challenges
+  - survey
+markdown: ""
+updated_at: 2025-05-13 22:29
