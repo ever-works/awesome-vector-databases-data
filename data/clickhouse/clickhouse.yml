@@ -1,53 +1,89 @@
 name: ClickHouse
-description: ClickHouse is a column-oriented OLAP database that now supports
-  vector search capabilities, enabling users to perform fast similarity searches
-  and analytical queries on high-dimensional data.
-source_url: https://clickhouse.com/docs/knowledgebase/vector-search
+description: ClickHouse is an open-source column-oriented database that supports
+  vectorized computation and now offers vector search features. Its architecture
+  enables efficient real-time analytics and vector operations, making it a
+  relevant choice for vector database use cases.
+source_url: https://clickhouse.com/
 category: vector-database-engines
 tags:
-  - olap
-  - vector-search
-  - similarity-search
+  - open-source
   - analytics
+  - vector-search
+  - real-time
 markdown: >-
   # ClickHouse
 
 
-  **Category:** Vector Database Engines  
-
-  **Tags:** olap, vector-search, similarity-search, analytics  
-
-  **Source:** [ClickHouse Vector Search
-  Documentation](https://clickhouse.com/docs/knowledgebase/vector-search)
-
-
-  ## Description
-
-  ClickHouse is a column-oriented OLAP database that supports vector search
-  capabilities. It enables users to perform fast similarity searches and
-  analytical queries on high-dimensional data.
+  [ClickHouse](https://clickhouse.com/) is an open-source, column-oriented
+  database management system (DBMS) designed for online analytical processing
+  (OLAP) and real-time analytics. It is optimized for high performance and
+  efficient use of system resources, making it suitable for scenarios that
+  require fast data ingestion and querying, including analytics, machine
+  learning, observability, and more.
 
 
   ## Features
 
-  - Column-oriented OLAP database designed for analytical workloads
+  - **Column-Oriented Storage**: Data is stored by columns, providing high
+  performance for analytical queries.
 
-  - Supports vector search for similarity queries on high-dimensional data
+  - **Open Source**: Available as a free and open-source project.
 
-  - Allows storing embeddings (from documents, images, or structured data) as
-  rows, with optional metadata for filtering and analytics
+  - **Real-Time Analytics**: Designed for ultra-fast query performance on
+  large-scale data in real time.
 
-  - Compatible with embeddings generated from sources like OpenAI Embeddings API
-  or SentenceTransformers
+  - **Vector Search and Operations**: Supports vectorized computation and vector
+  search, enabling use cases in machine learning and generative AI.
 
-  - Provides distance functions (e.g., cosineDistance) for searching related
-  items by vector similarity
+  - **Best-in-Class Compression**: Efficient data compression for reduced
+  storage requirements and improved performance.
 
-  - Capable of combining vector search with ClickHouse's native filtering,
-  aggregation, and analytics features
+  - **Resource Optimized**: Maximizes use of available system resources to
+  accelerate analytical queries.
+
+  - **Scalability**: Proven to handle trillions of data points and millions of
+  rows ingested per second.
+
+  - **Developer Friendly**: Uses intuitive SQL for complex analytics.
+
+  - **Multiple Deployment Options**:
+    - **ClickHouse Cloud**: Managed service available on AWS, GCP, and Azure.
+    - **Bring Your Own Cloud**: Managed service deployed in your own cloud account.
+    - **Self-Hosted ClickHouse**: Free to run on your own infrastructure.
+    - **ClickHouse Local**: Run fast analytical queries on local files without a server.
+  - **100+ Integrations**: Broad ecosystem for data ingestion, visualization,
+  and language clients.
+
+  - **Security and Compliance**: Features for enterprise security and compliance
+  (details on the website).
+
+  - **Proven at Scale**: Used by large organizations for mission-critical
+  analytics workloads.
+
+  - **Supports Various Use Cases**: Real-time analytics, business intelligence,
+  observability/logs, machine learning, fraud detection, financial services,
+  gaming, and more.
 
 
   ## Pricing
 
-  No pricing information provided in the available content.
-updated_at: 2025-05-13 22:29
+  - **ClickHouse Open Source**: Always free to download and run on your own
+  infrastructure.
+
+  - **ClickHouse Cloud**: Managed service, pricing details available on the
+  [pricing page](https://clickhouse.com/pricing) (not specified in provided
+  content).
+
+  - **Bring Your Own Cloud**: Managed service in your own cloud account, see
+  website for pricing.
+
+
+  ## Tags
+
+  open-source, analytics, vector-search, real-time
+
+
+  ## Category
+
+  vector-database-engines
+updated_at: 2025-05-13 22:30
