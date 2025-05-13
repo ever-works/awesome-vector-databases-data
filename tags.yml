@@ -1,0 +1,196 @@
+- id: vector-search
+  name: vector search
+- id: research
+  name: research
+- id: papers
+  name: papers
+- id: ann
+  name: ANN
+- id: vector-databases
+  name: vector databases
+- id: blogs
+  name: blogs
+- id: semantic-search
+  name: semantic search
+- id: in-memory
+  name: in-memory
+- id: real-time
+  name: real-time
+- id: hybrid-search
+  name: hybrid search
+- id: open-source
+  name: open-source
+- id: full-text-search
+  name: full-text search
+- id: rag
+  name: RAG
+- id: graph-database
+  name: graph database
+- id: enterprise
+  name: enterprise
+- id: cloud-native
+  name: cloud-native
+- id: document-database
+  name: document database
+- id: knn
+  name: KNN
+- id: scalable
+  name: scalable
+- id: managed-service
+  name: managed service
+- id: ai
+  name: AI
+- id: testing
+  name: testing
+- id: roadmap
+  name: roadmap
+- id: reliability
+  name: reliability
+- id: use-cases
+  name: use-cases
+- id: challenges
+  name: challenges
+- id: survey
+  name: survey
+- id: applications
+  name: applications
+- id: technologies
+  name: technologies
+- id: anns
+  name: ANNS
+- id: architecture
+  name: architecture
+- id: definition
+  name: definition
+- id: similarity-search
+  name: similarity search
+- id: commercial
+  name: commercial
+- id: machine-learning
+  name: machine learning
+- id: benchmark
+  name: benchmark
+- id: performance
+  name: performance
+- id: scalability
+  name: scalability
+- id: retrieval
+  name: retrieval
+- id: datasets
+  name: datasets
+- id: evaluation
+  name: evaluation
+- id: resources
+  name: resources
+- id: tutorials
+  name: tutorials
+- id: tools
+  name: tools
+- id: awesome-list
+  name: awesome list
+- id: libraries
+  name: libraries
+- id: nosql
+  name: NoSQL
+- id: olap
+  name: OLAP
+- id: analytics
+  name: analytics
+- id: vector-data
+  name: vector data
+- id: migration
+  name: migration
+- id: integration
+  name: integration
+- id: milvus
+  name: Milvus
+- id: postgresql
+  name: PostgreSQL
+- id: gpu-acceleration
+  name: GPU acceleration
+- id: python
+  name: Python
+- id: vector-embeddings
+  name: vector embeddings
+- id: sdk
+  name: SDK
+- id: data-synchronization
+  name: data synchronization
+- id: cli
+  name: CLI
+- id: management
+  name: management
+- id: sizing
+  name: sizing
+- id: resource-estimation
+  name: resource estimation
+- id: backup
+  name: backup
+- id: restore
+  name: restore
+- id: disaster-recovery
+  name: disaster recovery
+- id: apache-spark
+  name: Apache Spark
+- id: sql
+  name: SQL
+- id: redis
+  name: Redis
+- id: multimodal
+  name: multimodal
+- id: langchain
+  name: LangChain
+- id: opensearch
+  name: OpenSearch
+- id: clustering
+  name: clustering
+- id: multi-language
+  name: multi-language
+- id: distributed
+  name: distributed
+- id: hnsw
+  name: HNSW
+- id: high-dimensional
+  name: high-dimensional
+- id: dynamic-data
+  name: dynamic data
+- id: llm
+  name: LLM
+- id: proprietary
+  name: proprietary
+- id: high-performance
+  name: high-performance
+- id: data-structure
+  name: data structure
+- id: nearest-neighbor
+  name: nearest neighbor
+- id: spatial-indexing
+  name: spatial indexing
+- id: metric-space
+  name: metric space
+- id: dynamic-updates
+  name: dynamic updates
+- id: compression
+  name: compression
+- id: optimization
+  name: optimization
+- id: accuracy
+  name: accuracy
+- id: weaviate
+  name: Weaviate
+- id: examples
+  name: examples
+- id: lightweight
+  name: lightweight
+- id: rust
+  name: Rust
+- id: gui
+  name: GUI
+- id: debugging
+  name: debugging
+- id: vector-stores
+  name: vector stores
+- id: topic-modeling
+  name: topic modeling
+- id: nlp
+  name: NLP

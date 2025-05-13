@@ -1,0 +1,14 @@
+- id: curated-resource-lists
+  name: Curated Resource Lists
+- id: vector-database-engines
+  name: Vector Database Engines
+- id: research-papers-surveys
+  name: Research Papers & Surveys
+- id: concepts-definitions
+  name: Concepts & Definitions
+- id: benchmarks-evaluation
+  name: Benchmarks & Evaluation
+- id: data-integration-migration
+  name: Data Integration & Migration
+- id: sdks-libraries
+  name: SDKs & Libraries
