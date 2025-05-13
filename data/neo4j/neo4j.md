@@ -1,0 +1,37 @@
+# Neo4j
+
+[Neo4j Documentation](https://neo4j.com/docs/)
+
+## Description
+Neo4j is a graph database that supports integrated vector search capabilities (since version 5.11), enabling hybrid graph and vector-based similarity search. It is widely used for building knowledge graphs, advanced querying, and integrating with generative AI and data science workflows.
+
+## Features
+- **Graph Database:** Native property graph storage and querying.
+- **Vector Search:** Integrated vector search and indexing for similarity search within graph data (since v5.11).
+- **Hybrid Search:** Combine graph-based and vector-based queries for advanced retrieval.
+- **Cypher Query Language:** Declarative language for graph querying and manipulation.
+- **Deployment Options:** Supports self-managed (on-premises), fully managed cloud (Neo4j Aura), Docker, and Kubernetes deployments.
+- **Data Import:** Tools for importing data from various sources, including CSV, relational databases, and cloud data warehouses.
+- **Visualization Tools:** Neo4j Bloom and Browser for data exploration and visualization.
+- **Graph Data Science Library:** Built-in algorithms and machine learning models for graph analytics.
+- **Developer Tools:** Official drivers (Python, Java, JavaScript, Go, .NET), APIs, and libraries for application development.
+- **Connectors:** Integration with Apache Spark, Kafka, BigQuery, Google Cloud, and more.
+- **Change Data Capture (CDC):** Real-time monitoring of data changes.
+- **Security:** User, role, and privilege management, Kerberos support.
+- **Backup and Restore:** Tools for data backup, export, and restore.
+- **Monitoring:** Database monitoring and management tools.
+- **Extensibility:** Support for plugins (APOC, Neosemantics, etc.), custom procedures, and integrations with frameworks (Spring Data, GraphQL, etc.).
+- **RDF & Linked Data:** RDF and semantic web capabilities via Neosemantics and RDFLib-Neo4j.
+- **GenAI Integrations:** Tools and libraries for integrating with LLMs and generative AI (LangChain, LlamaIndex, etc.).
+
+## Category
+- Vector Database Engines
+
+## Tags
+- graph-database
+- vector-search
+- hybrid-search
+- enterprise
+
+## Pricing
+No specific pricing details provided in the documentation content above. Neo4j offers both self-managed and fully managed (Aura) options, with free trials available. For detailed pricing, refer to their [official pricing page](https://neo4j.com/pricing/).
