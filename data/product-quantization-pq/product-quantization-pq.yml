@@ -1,0 +1,15 @@
+name: Product Quantization (PQ)
+description: Product Quantization (PQ) is a technique for compressing
+  high-dimensional vectors into compact codes, enabling efficient approximate
+  nearest neighbor (ANN) search in vector databases. PQ reduces memory footprint
+  and search time, making it a foundational algorithm for large-scale vector
+  search systems.
+source_url: https://ieeexplore.ieee.org/document/5540013
+category: concepts-definitions
+tags:
+  - ann
+  - compression
+  - vector-search
+  - scalability
+markdown: ""
+updated_at: 2025-05-13 22:29
