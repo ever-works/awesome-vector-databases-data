@@ -1,0 +1,13 @@
+name: A Brief Survey of Vector Databases
+description: This survey paper provides an overview of the landscape,
+  technologies, and applications of vector databases, making it a valuable
+  resource for understanding the field.
+source_url: https://doi.org/10.1109/BigDIA60676.2023.10429609
+category: research-papers-surveys
+tags:
+  - vector-databases
+  - survey
+  - applications
+  - technologies
+markdown: ""
+updated_at: 2025-05-13 22:29
