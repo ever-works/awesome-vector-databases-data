@@ -1,0 +1,14 @@
+name: Li, Wen, et al. "Approximate nearest neighbor search on high dimensional
+  data—experiments, analyses, and improvement."
+description: An influential paper analyzing and improving approximate nearest
+  neighbor search methods for high-dimensional data, highly relevant for
+  developing and understanding vector databases.
+source_url: https://ieeexplore.ieee.org/document/8752052
+category: research-papers-surveys
+tags:
+  - ann
+  - high-dimensional
+  - vector-search
+  - research
+markdown: ""
+updated_at: 2025-05-13 22:29
