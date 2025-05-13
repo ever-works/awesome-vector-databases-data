@@ -1,0 +1,30 @@
+name: Vexvault
+description: Vexvault is an open-source vector database designed for efficient
+  storage, management, and similarity search of high-dimensional vector data.
+source_url: https://usefulai.com/tools/vector-databases
+category: vector-database-engines
+tags:
+  - open-source
+  - vector-databases
+  - similarity-search
+  - high-dimensional
+markdown: |-
+  # Vexvault
+
+  **Category:** Vector Database Engines  
+  **Tags:** open-source, vector-databases, similarity-search, high-dimensional
+
+  ## Description
+  Vexvault is an open-source vector database designed for efficient storage, management, and similarity search of high-dimensional vector data.
+
+  ## Features
+  - Open-source vector database.
+  - Efficient storage and management of high-dimensional vector data.
+  - Supports similarity search operations.
+
+  ## Pricing
+  No pricing information is provided; Vexvault is open-source.
+
+  ## Source
+  [usefulai.com/tools/vector-databases](https://usefulai.com/tools/vector-databases)
+updated_at: 2025-05-13 22:30
