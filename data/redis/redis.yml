@@ -1,0 +1,91 @@
+name: Redis
+description: Redis, with its Search module, offers in-memory vector similarity
+  search capabilities, enabling real-time vector retrieval for AI-driven
+  applications. Redis Vector Similarity Search (VSS) extends Redis with vector
+  search capabilities via its Search module, enabling low-latency hybrid search
+  for both vector-based and traditional data. Redis offers vector similarity
+  search capabilities, allowing for high-performance vector storage and
+  retrieval within the popular in-memory data structure store. It extends Redis
+  for AI and vector search workloads.
+source_url: https://redis.io/docs/stack/search/reference/vectors/
+category: vector-database-engines
+tags:
+  - in-memory
+  - vector-search
+  - real-time
+  - hybrid-search
+  - open-source
+markdown: >-
+  # Redis
+
+
+  [Redis](https://redis.io/docs/stack/search/reference/vectors/) is a popular
+  in-memory data structure store that, with its Search module, provides advanced
+  vector similarity search capabilities for AI-driven and information retrieval
+  applications. It enables real-time, low-latency vector storage and retrieval,
+  supporting both vector-based and traditional hybrid search scenarios.
+
+
+  ## Features
+
+
+  - **Vector Similarity Search (VSS):** Perform high-performance vector
+  similarity searches using k-nearest neighbors (KNN) and range queries.
+
+  - **Indexing Algorithms:** Supports two index types:
+    - **FLAT:** Exact search, best for datasets < 1M vectors or when perfect accuracy is required.
+    - **HNSW (Hierarchical Navigable Small World):** Approximate nearest neighbor search, scalable for large datasets (> 1M vectors), with tunable accuracy and performance parameters (`M`, `EF_CONSTRUCTION`, `EF_RUNTIME`, `EPSILON`).
+  - **Vector Types:** Supports multiple vector data types: `BFLOAT16`,
+  `FLOAT16`, `FLOAT32`, `FLOAT64`.
+
+  - **Custom Dimensions:** Define vectors of arbitrary dimensions, as required
+  by your embeddings.
+
+  - **Distance Metrics:** Choose between L2 (Euclidean), Inner Product (IP), and
+  Cosine distance metrics for similarity calculations.
+
+  - **Flexible Storage:** Store vectors and metadata using Redis Hashes (raw
+  bytes) or JSON (arrays of floats), with support for multi-value indexing in
+  JSON.
+
+  - **Hybrid Search:** Augment vector searches with filtering on text, numeric,
+  geospatial, and tag metadata fields.
+
+  - **Advanced Filtering:** Combine vector queries with complex filters (e.g.,
+  by text, tags, numeric ranges, geospatial shapes) for precise results.
+
+  - **Runtime Query Tuning:** Override default search parameters at query time
+  for HNSW indexes (e.g., `EF_RUNTIME`, `EPSILON`), and control filter modes
+  (`HYBRID_POLICY`, `BATCH_SIZE`).
+
+  - **Pagination & Sorting:** Results can be paginated and sorted by vector
+  similarity score or document score.
+
+  - **Multi-cloud and Self-managed:** Available as a fully managed service
+  (integrated with Google Cloud, Azure, AWS) and as self-managed software.
+
+  - **Real-time Data Synchronization:** Supports near real-time data sync
+  without code for fast data access.
+
+  - **In-memory Performance:** Leverages Redis’s in-memory architecture for
+  low-latency vector search and data retrieval.
+
+  - **Open Source:** Redis and its vector search capabilities are open source.
+
+
+  ## Pricing
+
+  No specific pricing information is provided in the available content. Redis is
+  open source and available in managed (cloud) and self-managed offerings;
+  pricing depends on deployment type and provider.
+
+
+  ## Tags
+
+  `in-memory`, `vector-search`, `real-time`, `hybrid-search`, `open-source`
+
+
+  ## Category
+
+  **Vector Database Engines**
+updated_at: 2025-05-13 22:29
