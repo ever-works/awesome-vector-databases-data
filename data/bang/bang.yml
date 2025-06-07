@@ -1,0 +1,14 @@
+name: BANG
+description: BANG is a billion-scale approximate nearest neighbor search system
+  optimized for single GPU execution, enabling high-performance vector search in
+  vector database environments at massive scale.
+source_url: https://arxiv.org/pdf/2401.11324
+category: research-papers-surveys
+tags:
+  - ann
+  - gpu-acceleration
+  - high-performance
+  - vector-search
+  - research
+markdown: ""
+updated_at: 2025-06-07 14:17
