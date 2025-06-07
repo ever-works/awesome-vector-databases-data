@@ -1,0 +1,13 @@
+name: "LANNS: a web-scale approximate nearest neighbor lookup system"
+description: A scalable system for approximate nearest neighbor search at
+  web-scale, relevant for implementing and understanding vector database
+  infrastructure for high-dimensional data.
+source_url: https://arxiv.org/pdf/2010.09426.pdf
+category: research-papers-surveys
+tags:
+  - ann
+  - scalability
+  - vector-search
+  - research
+markdown: ""
+updated_at: 2025-06-07 14:17
