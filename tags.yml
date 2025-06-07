@@ -194,3 +194,53 @@
   name: topic modeling
 - id: nlp
   name: NLP
+- id: directory
+  name: directory
+- id: learning
+  name: learning
+- id: vector-indexing
+  name: vector indexing
+- id: neural-search
+  name: neural search
+- id: intelligent-storage
+  name: intelligent storage
+- id: data-integration
+  name: data integration
+- id: vector-database
+  name: vector database
+- id: data-science
+  name: data science
+- id: search-library
+  name: search library
+- id: sqlite
+  name: SQLite
+- id: embedding
+  name: embedding
+- id: quantization
+  name: quantization
+- id: vector-compression
+  name: vector compression
+- id: search-system
+  name: search system
+- id: predicate-agnostic
+  name: predicate-agnostic
+- id: graph-index
+  name: graph index
+- id: graph-construction
+  name: graph construction
+- id: hashing
+  name: hashing
+- id: tree-based
+  name: tree-based
+- id: systems
+  name: systems
+- id: blog
+  name: blog
+- id: time-series
+  name: time series
+- id: ml
+  name: ML
+- id: search-engine
+  name: search engine
+- id: java
+  name: Java
