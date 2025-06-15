@@ -1,0 +1,32 @@
+name: KShivendu/awesome-vector-search
+description: A curated list of awesome projects and research related to vector
+  search, including dedicated vector databases, vector search libraries,
+  performance benchmarks, and cost analysis resources.
+source_url: https://github.com/KShivendu/awesome-vector-search
+category: curated-resource-lists
+tags:
+  - awesome-list
+  - vector-search
+  - resources
+  - open-source
+markdown: |-
+  # KShivendu/awesome-vector-search
+
+  A curated list of projects and research related to vector search, including databases, libraries, benchmarks, and cost analysis.
+
+  ## Features
+  - Compilation of dedicated vector databases
+  - Collection of vector search libraries and extensions
+  - Performance benchmarks for vector search systems
+  - Resources for cost analysis of vector search solutions
+  - Ongoing updates with additional resources and research
+
+  ## Category
+  Curated Resource Lists
+
+  ## Tags
+  awesome-list, vector-search, resources, open-source
+
+  ## Source
+  [https://github.com/KShivendu/awesome-vector-search](https://github.com/KShivendu/awesome-vector-search)
+updated_at: 2025-06-07 14:17

@@ -1,0 +1,14 @@
+name: Cagra
+description: Cagra provides highly parallel graph construction and approximate
+  nearest neighbor search for GPUs, supporting large-scale vector database
+  operations and efficient similarity search.
+source_url: https://arxiv.org/pdf/2308.15136
+category: research-papers-surveys
+tags:
+  - graph-construction
+  - ann
+  - gpu-acceleration
+  - similarity-search
+  - research
+markdown: ""
+updated_at: 2025-06-07 14:17

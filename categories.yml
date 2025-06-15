@@ -12,3 +12,7 @@
   name: Data Integration & Migration
 - id: sdks-libraries
   name: SDKs & Libraries
+- id: commerce
+  name: Commerce
+- id: open-sources
+  name: Open Sources
