@@ -244,3 +244,85 @@
   name: search engine
 - id: java
   name: Java
+- id: extension
+  name: extension
+- id: relational-database
+  name: relational database
+- id: vector-store
+  name: vector store
+- id: embeddings
+  name: embeddings
+- id: serverless
+  name: serverless
+- id: pgvector
+  name: pgvector
+- id: hugging-face
+  name: Hugging Face
+- id: tokenization
+  name: tokenization
+- id: aws
+  name: AWS
+- id: mongodb
+  name: MongoDB
+- id: openai
+  name: OpenAI
+- id: api
+  name: API
+- id: jina
+  name: Jina
+- id: framework
+  name: framework
+- id: local
+  name: local
+- id: tool
+  name: tool
+- id: cassandra
+  name: Cassandra
+- id: cloud
+  name: cloud
+- id: mlops
+  name: MLOps
+- id: platform
+  name: platform
+- id: embedded
+  name: embedded
+- id: edge
+  name: edge
+- id: mobile
+  name: mobile
+- id: azure
+  name: Azure
+- id: multi-model
+  name: multi-model
+- id: k-nn
+  name: k-NN
+- id: data-warehousing
+  name: data warehousing
+- id: knowledge-graph
+  name: knowledge graph
+- id: vector-indexes
+  name: vector indexes
+- id: security
+  name: security
+- id: encryption
+  name: encryption
+- id: data-privacy
+  name: data privacy
+- id: data-governance
+  name: data governance
+- id: compliance
+  name: compliance
+- id: analytical-engine
+  name: analytical engine
+- id: vector-processing
+  name: vector processing
+- id: emerging
+  name: emerging
+- id: data-engineering
+  name: data engineering
+- id: mysql
+  name: MySQL
+- id: re-ranking
+  name: re-ranking
+- id: search
+  name: search
