@@ -1,0 +1,33 @@
+name: HeatWave
+description: A feature for MySQL that integrates vector store capabilities,
+  allowing users to store and process vector embeddings for AI applications.
+source_url: https://docs.oracle.com/en-us/iaas/mysql-database/home.htm
+featured: false
+category: vector-database-extensions
+tags:
+  - mysql
+  - vector-store
+  - extension
+markdown: >-
+  # HeatWave
+
+
+  HeatWave is a feature for MySQL that integrates vector store capabilities,
+  allowing users to store and process vector embeddings for AI applications.
+
+
+  ## Features
+
+
+  *   Integrates vector store capabilities with MySQL.
+
+  *   Enables storage and processing of vector embeddings.
+
+  *   Designed for AI applications.
+
+
+  ## Pricing
+
+
+  Pricing information is not available from the provided content.
+updated_at: 2025-07-01 00:28
