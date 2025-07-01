@@ -1,0 +1,32 @@
+name: Cohere's re-ranker
+description: A re-ranking tool provided by Cohere, which can be integrated into
+  LLM applications via frameworks like LangChain to improve the relevance and
+  order of retrieved documents from search systems, including those utilizing
+  vector databases.
+source_url: https://cohere.com
+featured: true
+category: llm-tools
+tags:
+  - re-ranking
+  - llm
+  - search
+markdown: >-
+  Cohere's re-ranker is a re-ranking tool provided by Cohere. It is a powerful
+  model designed to be integrated into LLM applications via frameworks like
+  LangChain.
+
+
+  ### Features
+
+  *   Provides a semantic boost to search quality.
+
+  *   Improves the relevance and order of retrieved documents from search
+  systems.
+
+  *   Supports integration with systems utilizing vector databases.
+
+
+  ### Pricing
+
+  Pricing details are not available in the provided content.
+updated_at: 2025-07-01 00:28
