@@ -1,0 +1,44 @@
+name: Couchbase
+description: A database platform that includes vector support, aiming to enhance
+  developer productivity with AI tools like Capella IQ.
+source_url: https://www.couchbase.com/
+featured: false
+category: multi-model-hybrid-databases
+tags:
+  - nosql
+  - vector-data
+  - ai
+markdown: >-
+  # Couchbase
+
+
+  **Description:** Couchbase is a developer data platform designed for critical
+  applications in an AI-driven world. It functions as a multipurpose NoSQL
+  database, supporting transactional, analytical, mobile, and AI applications.
+
+
+  **Features:**
+
+  *   Multipurpose NoSQL database
+
+  *   Supports transactional workloads
+
+  *   Supports analytical workloads
+
+  *   Supports mobile applications
+
+  *   Supports AI applications
+
+  *   Includes vector support
+
+  *   Integrates with AI tools such as Capella IQ
+
+  *   Available as a self-managed solution
+
+  *   Offers platform services
+
+
+  **Pricing:**
+
+  Pricing information is not available in the provided content.
+updated_at: 2025-07-01 00:28
