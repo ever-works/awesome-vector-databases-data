@@ -1,0 +1,23 @@
+name: Photon Engine
+description: A general-purpose analytical engine with built-in vector processing
+  capabilities, excelling at traditional analytical workloads and efficient
+  handling of vector operations. It is an example of a vector engine.
+source_url: https://tzuchieh.github.io/Photon-v2-site/engine_docs/v2.0.0-beta/Engine/html/index.html
+featured: false
+category: vector-database-engines
+tags:
+  - analytical-engine
+  - vector-processing
+  - performance
+markdown: |-
+  **Photon Engine**
+
+  Photon Engine 2.0.0-beta is described as a physically based renderer, serving as the underlying engine for ultra-realistic image synthesis. This site is primarily intended for individuals interested in diving into the implementation details of the renderer.
+
+  **Features**
+  *   Physically based rendering capabilities.
+  *   Engine for ultra-realistic image synthesis.
+
+  **Releases**
+  *   **v2.0.0 beta**: [Documentation](https://tzuchieh.github.io/Photon-v2-site/engine_docs/v2.0.0-beta/Engine/html/index.html)
+updated_at: 2025-07-01 00:28
