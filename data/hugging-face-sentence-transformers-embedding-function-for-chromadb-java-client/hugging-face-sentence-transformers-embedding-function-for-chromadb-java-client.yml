@@ -1,0 +1,25 @@
+name: Hugging Face Sentence Transformers Embedding Function for ChromaDB Java Client
+description: An embedding function implementation within the ChromaDB Java
+  client (tech.amikos.chromadb.embeddings.hf.HuggingFaceEmbeddingFunction) that
+  utilizes Hugging Face's cloud-based inference API to generate vector
+  embeddings for documents.
+source_url: https://github.com/amikos-tech/chromadb-java-client
+featured: false
+category: sdks-libraries
+tags:
+  - embeddings
+  - java
+  - hugging-face
+markdown: "**Hugging Face Sentence Transformers Embedding Function for ChromaDB
+  Java Client**This item describes an embedding function designed for the
+  ChromaDB Java client. It specifically implements
+  `tech.amikos.chromadb.embeddings.hf.HuggingFaceEmbeddingFunction` to provide
+  vector embedding capabilities.### Features*   **ChromaDB Java Client
+  Integration:** Provides an embedding function
+  (`tech.amikos.chromadb.embeddings.hf.HuggingFaceEmbeddingFunction`) for
+  seamless use within the ChromaDB Java client.*   **Hugging Face Inference API
+  Utilization:** Leverages Hugging Face's cloud-based inference API for
+  generating embeddings.*   **Vector Embedding Generation:** Capable of
+  generating vector embeddings for documents.### PricingPricing information is
+  not available."
+updated_at: 2025-07-01 00:28

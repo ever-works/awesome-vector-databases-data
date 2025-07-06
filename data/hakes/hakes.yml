@@ -1,0 +1,13 @@
+name: HAKES
+description: HAKES is a system designed for efficient data search using
+  embedding vectors at scale, making it a relevant solution for vector database
+  applications.
+source_url: https://www.comp.nus.edu.sg/~dbsystem/hakes
+featured: false
+category: vector-database-engines
+tags:
+  - vector-search
+  - scalable
+  - embeddings
+markdown: ""
+updated_at: 2025-07-01 00:28

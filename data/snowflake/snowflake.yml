@@ -1,0 +1,38 @@
+name: Snowflake
+description: A cloud data platform that offers capabilities for storing and
+  querying various data types, including vector embeddings, often used in
+  conjunction with its data warehousing features.
+source_url: https://www.snowflake.com/
+featured: false
+category: cloud-services
+tags:
+  - cloud
+  - data-warehousing
+  - vector-embeddings
+markdown: >-
+  Snowflake is a cloud data platform designed for storing and querying various
+  data types, including vector embeddings, often integrated with its data
+  warehousing functionalities.
+
+
+  ### Features
+
+  *   Analytics
+
+  *   AI/ML Capabilities
+
+  *   Data Engineering
+
+  *   Collaboration Tools
+
+  *   Cloud Integration
+
+  *   Data Migration
+
+  *   Partner Network Access
+
+
+  ### Pricing
+
+  Pricing details are not available in the provided content.
+updated_at: 2025-07-01 00:28

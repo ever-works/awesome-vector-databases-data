@@ -1,0 +1,12 @@
+name: JaguarDB
+description: JaguarDB is a database solution, identified as a vector database in
+  the context of the provided research.
+source_url: http://jaguardb.com/
+featured: false
+category: vector-database-engines
+tags:
+  - vector-database
+  - commercial
+  - high-performance
+markdown: ""
+updated_at: 2025-07-01 00:28

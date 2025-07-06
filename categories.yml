@@ -11,8 +11,26 @@
 - id: data-integration-migration
   name: Data Integration & Migration
 - id: sdks-libraries
-  name: SDKs & Libraries
+  name: Sdks & Libraries
 - id: commerce
   name: Commerce
 - id: open-sources
   name: Open Sources
+- id: cloud-services
+  name: Cloud Services
+- id: llm-frameworks
+  name: Llm Frameworks
+- id: llm-tools
+  name: Llm Tools
+- id: machine-learning-models
+  name: Machine Learning Models
+- id: managed-vector-databases
+  name: Managed Vector Databases
+- id: multi-model-hybrid-databases
+  name: Multi Model & Hybrid Databases
+- id: relational-databases
+  name: Relational Databases
+- id: security-governance
+  name: Security & Governance
+- id: vector-database-extensions
+  name: Vector Database Extensions

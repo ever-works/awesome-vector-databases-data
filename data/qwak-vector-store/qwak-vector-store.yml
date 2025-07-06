@@ -1,0 +1,41 @@
+name: Qwak Vector Store
+description: Qwak provides a vector store solution engineered for optimized
+  storage and querying of vector embeddings, offering efficient search
+  capabilities, high performance, scalability, and data retrieval by identifying
+  similarities among data points.
+source_url: https://www.qwak.com/platform/vector-store
+featured: false
+category: vector-database-engines
+tags:
+  - vector-store
+  - scalable
+  - embeddings
+markdown: >-
+  **Qwak Vector Store**
+
+
+  Qwak provides a vector store solution engineered for optimized storage and
+  querying of vector embeddings, offering efficient search capabilities, high
+  performance, scalability, and data retrieval by identifying similarities among
+  data points.
+
+
+  **Features**
+
+
+  *   Optimized storage of vector embeddings
+
+  *   Efficient querying of vector embeddings
+
+  *   High-performance search capabilities
+
+  *   Scalability
+
+  *   Data retrieval by identifying similarities among data points
+
+
+  **Pricing**
+
+
+  Pricing information is not available in the provided content.
+updated_at: 2025-07-01 00:28

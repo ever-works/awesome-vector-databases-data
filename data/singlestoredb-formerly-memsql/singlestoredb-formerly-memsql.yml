@@ -1,0 +1,35 @@
+name: SingleStoreDB (formerly MemSQL)
+description: SingleStoreDB is an enterprise database that has supported vectors
+  since 2017, in addition to exact keyword match, and recently announced support
+  for additional vector indexes.
+source_url: https://www.singlestore.com/blog/-ultimate-guide-vector-database-landscape-2024/
+featured: false
+category: multi-model-hybrid-databases
+tags:
+  - enterprise
+  - sql
+  - vector-indexes
+markdown: >-
+  ### SingleStoreDB (formerly MemSQL)
+
+
+  SingleStoreDB is an enterprise database that has supported vectors since 2017,
+  in addition to exact keyword match, and recently announced support for
+  additional vector indexes.
+
+
+  #### Features
+
+
+  *   **Vector Support**: Supports vectors since 2017.
+
+  *   **Exact Keyword Match**: Includes exact keyword match capabilities.
+
+  *   **Vector Indexes**: Offers support for additional vector indexes.
+
+
+  #### Pricing
+
+
+  Pricing information for SingleStoreDB is not detailed in the provided content.
+updated_at: 2025-07-01 00:28

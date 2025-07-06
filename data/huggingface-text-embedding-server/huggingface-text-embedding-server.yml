@@ -1,0 +1,20 @@
+name: HuggingFace Text Embedding Server
+description: A server that provides text embeddings, serving as a backend for
+  embedding functions used with vector databases.
+source_url: https://github.com/huggingface/text-embeddings-inference
+featured: true
+category: llm-tools
+tags:
+  - embeddings
+  - hugging-face
+  - api
+markdown: |-
+  ### HuggingFace Text Embedding Server
+  A blazing fast inference solution for text embeddings models.
+
+  #### Features
+  Information about specific features is not available in the provided content.
+
+  #### Pricing
+  Pricing information is not available in the provided content.
+updated_at: 2025-07-01 00:28
