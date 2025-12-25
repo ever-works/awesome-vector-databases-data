@@ -1,0 +1,17 @@
+name: Foundations of Multidimensional and Metric Data Structures
+description: Technical book covering theory and practice of multidimensional and
+  metric data structures for similarity search, forming a theoretical basis for
+  index structures used in vector databases.
+source_url: https://www.researchgate.net/publication/275023439_Engineering_Efficient_and_Effective_Non-metric_Space_Library
+featured: false
+brand: morgan-kaufmann
+brand_logo_url: /
+images:
+  - https://m.media-amazon.com/images/I/41QcbV7ofqV._SX379_BO1,204,203,200_.jpg
+category: concepts-definitions
+tags:
+  - similarity-search
+  - metric-space
+  - data-structure
+markdown: ""
+updated_at: 2025-12-25 16:52

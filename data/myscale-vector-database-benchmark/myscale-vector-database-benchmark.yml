@@ -1,0 +1,14 @@
+name: MyScale Vector Database Benchmark
+description: Benchmark framework and results from MyScale for comparing vector
+  database and ANN index performance using large‑scale datasets and common query
+  workloads relevant to AI applications.
+source_url: https://myscale.github.io/benchmark/#/benchmark
+featured: false
+brand: myscale
+brand_logo_url: https://myscale.com/images/logo-dark.svg
+images:
+  - https://myscale.github.io/benchmark/static/media/banner.9799d2fd.png
+category: curated-resource-lists
+tags: []
+markdown: ""
+updated_at: 2025-12-25 16:52

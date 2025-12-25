@@ -1,0 +1,65 @@
+name: HNSW (Rust)
+description: A Rust implementation of the HNSW (Hierarchical Navigable Small
+  World) approximate nearest neighbor search algorithm, useful for building
+  high-performance, memory-safe vector search components in Rust-based AI and
+  retrieval systems.
+source_url: https://github.com/rust-cv/hnsw
+featured: false
+brand: rust-cv
+brand_logo_url: null
+images:
+  - https://opengraph.githubassets.com/1/rust-cv/hnsw
+category: sdks-libraries
+tags:
+  - ann
+  - rust
+  - vector-search
+markdown: >-
+  # HNSW (Rust)
+
+
+  **Category:** SDKs & Libraries  
+
+  **Brand:** rust-cv  
+
+  **Website/Source:** https://github.com/rust-cv/hnsw  
+
+  **License:** MIT  
+
+  **Slug:** `hnsw-rust`
+
+
+  ## Description
+
+  A Rust implementation of the Hierarchical Navigable Small World (HNSW)
+  approximate nearest neighbor (ANN) search algorithm, designed for fast,
+  memory-safe vector search in Rust-based AI, retrieval, and search systems.
+
+
+  ## Features
+
+  - **Hierarchical Navigable Small World (HNSW) graph implementation** for
+  efficient approximate nearest neighbor search.
+
+  - **Fast ANN search** optimized for high-performance vector similarity
+  queries.
+
+  - **Rust-native library** leveraging Rust’s safety and performance guarantees.
+
+  - **`serde` integration (optional feature flag)**: enable the `serde` feature
+  to serialize and deserialize HNSW data structures.
+
+  - **Examples and benches** included in the repository (`examples`, `benches`
+  folders) to demonstrate usage patterns and performance.
+
+  - **Tests and implementation notes** (`tests`, `implementation.md`)
+  documenting and validating the algorithm behavior.
+
+  - **No-std compatibility checks** via `ensure_no_std` directory, indicating
+  attention to usage in constrained environments (where applicable).
+
+
+  ## Pricing
+
+  - Open-source under the **MIT License** (no usage fee).
+updated_at: 2025-12-25 16:52

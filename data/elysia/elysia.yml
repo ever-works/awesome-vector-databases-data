@@ -1,0 +1,62 @@
+name: Elysia
+description: Elysia is an open-source, decision-tree-based agentic system built
+  on top of Weaviate that orchestrates tools and vector-search workflows,
+  demonstrating how to build complex AI agents that leverage a vector database
+  as a core component.
+source_url: https://elysia.weaviate.io/
+featured: false
+brand: weaviate
+brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5f2b6b9b.svg
+images: null
+category: llm-tools
+tags:
+  - rag
+  - tools
+  - vector-search
+markdown: >-
+  # Elysia
+
+
+  **Website:** https://elysia.weaviate.io/  
+
+  **Category:** LLM Tools  
+
+  **Brand:** Weaviate
+
+
+  ## Description
+
+  Elysia is an open-source, decision-tree-based agentic system built on top of
+  Weaviate. It orchestrates tools and vector-search workflows to demonstrate how
+  to build complex AI agents that use a vector database as a core component.
+
+
+  ## Features
+
+  - Open-source agentic system
+
+  - Built on top of the Weaviate vector database
+
+  - Decision-tree-based orchestration of agent behavior
+
+  - Tool orchestration for complex workflows
+
+  - Vector-search-based workflows for retrieval and reasoning
+
+  - Designed as a reference/blueprint for building complex AI agents with a
+  vector database at the core
+
+
+  ## Tags
+
+  - RAG
+
+  - Tools
+
+  - Vector Search
+
+
+  ## Pricing
+
+  Pricing information is not provided in the available content.
+updated_at: 2025-12-25 16:52

@@ -1,0 +1,18 @@
+name: SISAP Indexing Challenge
+description: An annual competition focused on similarity search and indexing
+  algorithms, including approximate nearest neighbor methods and
+  high-dimensional vector indexing, providing benchmarks and results relevant to
+  vector database research.
+source_url: https://sisap-challenges.github.io/#sisap_indexing_challenge
+featured: false
+brand: sisap
+brand_logo_url: /images/sisap-logo.png
+images:
+  - https://sisap-challenges.github.io/assets/img/logo.png
+category: benchmarks-evaluation
+tags:
+  - benchmark
+  - similarity-search
+  - evaluation
+markdown: ""
+updated_at: 2025-12-25 16:52
