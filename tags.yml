@@ -326,3 +326,17 @@
   name: re-ranking
 - id: search
   name: search
+- id: go
+  name: Go
+- id: julia
+  name: Julia
+- id: product-quantization
+  name: product quantization
+- id: vector-quantization
+  name: vector quantization
+- id: parallel
+  name: parallel
+- id: indexing
+  name: indexing
+- id: architectures
+  name: architectures
