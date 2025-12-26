@@ -340,3 +340,5 @@
   name: indexing
 - id: architectures
   name: architectures
+- id: single-node
+  name: single-node
