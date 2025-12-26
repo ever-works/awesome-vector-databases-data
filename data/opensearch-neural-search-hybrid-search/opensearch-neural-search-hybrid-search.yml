@@ -1,0 +1,20 @@
+name: OpenSearch Neural Search / Hybrid Search
+description: Neural and hybrid search capability in OpenSearch that combines
+  lexical queries with vector-based neural search using a pipeline of
+  normalization and score combination techniques. It enables semantic (vector)
+  search and hybrid search over indices such as `neural_search_pqa`, suitable
+  for AI and vector database-style retrieval use cases.
+source_url: https://opensearch.org/docs/latest/search-plugins/neural-search/
+featured: false
+brand: opensearch
+brand_logo_url: https://opensearch.org/assets/img/opensearch-logo.svg
+images:
+  - https://opensearch.org/assets/img/hero/opensearch-dashboards.png
+  - https://opensearch.org/assets/img/hero/home-top-left.png
+category: vector-database-extensions
+tags:
+  - hybrid-search
+  - semantic-search
+  - vector-search
+markdown: ""
+updated_at: 2025-12-26 16:56
