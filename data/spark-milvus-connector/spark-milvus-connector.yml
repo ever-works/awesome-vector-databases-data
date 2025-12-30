@@ -1,0 +1,17 @@
+name: Spark-Milvus Connector
+description: The Spark-Milvus Connector is an integration that allows Apache
+  Spark jobs to read from and write to Milvus, enabling scalable ETL and
+  analytics workflows for vector data.
+source_url: https://data-intelligence.hashnode.dev/ai-architecture-vector-db-comparison-ibm-data-prep
+featured: false
+brand: milvus
+brand_logo_url: https://milvus.io/images/milvus-logo.svg
+images:
+  - https://milvus.io/images/docs/spark/spark-milvus-connector.png
+category: data-integration-migration
+tags:
+  - integration
+  - apache-spark
+  - vector-data
+markdown: ""
+updated_at: 2025-12-30 18:03
