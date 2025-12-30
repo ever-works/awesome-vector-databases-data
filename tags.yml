@@ -342,3 +342,11 @@
   name: architectures
 - id: single-node
   name: single-node
+- id: etl
+  name: ETL
+- id: services
+  name: services
+- id: diskann
+  name: diskANN
+- id: ruby
+  name: Ruby

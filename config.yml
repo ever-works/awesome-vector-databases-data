@@ -56,6 +56,22 @@ metadata:
       - similarity search
       - embedding database
       - ANN
+      - vector search
+      - similarity search
+      - embedding database
+      - ANN
+      - vector search
+      - similarity search
+      - embedding database
+      - ANN
+      - vector search
+      - similarity search
+      - embedding database
+      - ANN
+      - vector search
+      - similarity search
+      - embedding database
+      - ANN
   pr_update:
     branch: feature-1751329627639-0lrita
     title: Update data - 07/01/2025 00:27
