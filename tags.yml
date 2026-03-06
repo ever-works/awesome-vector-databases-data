@@ -5,7 +5,7 @@
 - id: papers
   name: papers
 - id: ann
-  name: ANN
+  name: Ann
 - id: vector-databases
   name: vector databases
 - id: blogs
@@ -15,19 +15,19 @@
 - id: in-memory
   name: in-memory
 - id: real-time
-  name: real-time
+  name: Real Time
 - id: hybrid-search
-  name: hybrid search
+  name: Hybrid Search
 - id: open-source
-  name: open-source
+  name: Open Source
 - id: full-text-search
   name: full-text search
 - id: rag
-  name: RAG
+  name: Rag
 - id: graph-database
   name: graph database
 - id: enterprise
-  name: enterprise
+  name: Enterprise
 - id: cloud-native
   name: cloud-native
 - id: document-database
@@ -37,7 +37,7 @@
 - id: scalable
   name: scalable
 - id: managed-service
-  name: managed service
+  name: Managed Service
 - id: ai
   name: AI
 - id: testing
@@ -65,7 +65,7 @@
 - id: similarity-search
   name: similarity search
 - id: commercial
-  name: commercial
+  name: Commercial
 - id: machine-learning
   name: machine learning
 - id: benchmark
@@ -91,11 +91,11 @@
 - id: libraries
   name: libraries
 - id: nosql
-  name: NoSQL
+  name: Nosql
 - id: olap
   name: OLAP
 - id: analytics
-  name: analytics
+  name: Analytics
 - id: vector-data
   name: vector data
 - id: migration
@@ -105,9 +105,9 @@
 - id: milvus
   name: Milvus
 - id: postgresql
-  name: PostgreSQL
+  name: Postgresql
 - id: gpu-acceleration
-  name: GPU acceleration
+  name: Gpu Acceleration
 - id: python
   name: Python
 - id: vector-embeddings
@@ -133,11 +133,11 @@
 - id: apache-spark
   name: Apache Spark
 - id: sql
-  name: SQL
+  name: Sql
 - id: redis
   name: Redis
 - id: multimodal
-  name: multimodal
+  name: Multimodal
 - id: langchain
   name: LangChain
 - id: opensearch
@@ -147,9 +147,9 @@
 - id: multi-language
   name: multi-language
 - id: distributed
-  name: distributed
+  name: Distributed
 - id: hnsw
-  name: HNSW
+  name: Hnsw
 - id: high-dimensional
   name: high-dimensional
 - id: dynamic-data
@@ -181,7 +181,7 @@
 - id: examples
   name: examples
 - id: lightweight
-  name: lightweight
+  name: Lightweight
 - id: rust
   name: Rust
 - id: gui
@@ -213,11 +213,11 @@
 - id: search-library
   name: search library
 - id: sqlite
-  name: SQLite
+  name: Sqlite
 - id: embedding
-  name: embedding
+  name: Embedding
 - id: quantization
-  name: quantization
+  name: Quantization
 - id: vector-compression
   name: vector compression
 - id: search-system
@@ -241,7 +241,7 @@
 - id: ml
   name: ML
 - id: search-engine
-  name: search engine
+  name: Search Engine
 - id: java
   name: Java
 - id: extension
@@ -253,7 +253,7 @@
 - id: embeddings
   name: embeddings
 - id: serverless
-  name: serverless
+  name: Serverless
 - id: pgvector
   name: pgvector
 - id: hugging-face
@@ -261,13 +261,13 @@
 - id: tokenization
   name: tokenization
 - id: aws
-  name: AWS
+  name: Aws
 - id: mongodb
   name: MongoDB
 - id: openai
   name: OpenAI
 - id: api
-  name: API
+  name: Api
 - id: jina
   name: Jina
 - id: framework
@@ -285,9 +285,9 @@
 - id: platform
   name: platform
 - id: embedded
-  name: embedded
+  name: Embedded
 - id: edge
-  name: edge
+  name: Edge
 - id: mobile
   name: mobile
 - id: azure
@@ -347,6 +347,22 @@
 - id: services
   name: services
 - id: diskann
-  name: diskANN
+  name: Diskann
 - id: ruby
   name: Ruby
+- id: collaborative
+  name: Collaborative
+- id: data-lake
+  name: Data Lake
+- id: microsoft
+  name: Microsoft
+- id: multilingual
+  name: Multilingual
+- id: cpp
+  name: Cpp
+- id: nvidia
+  name: Nvidia
+- id: multi-cloud
+  name: Multi Cloud
+- id: google-cloud
+  name: Google Cloud

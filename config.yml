@@ -37,8 +37,14 @@ metadata:
     website_repository_creation_method: duplicate
     slug: awesome-vector-databases
     name: Awesome Vector Databases
-    prompt: A curated list of vector database solutions, libraries, and resources
-      for AI applications.
+    prompt: >-
+      A curated list of vector database solutions, libraries, and resources for
+      AI applications.
+
+      Please make sure each item has in description indication if it's OSS or
+      commercial (and of course use tags).
+
+      If it's commercial, try to write what tiers of pricing exists.
     target_keywords:
       - vector search
       - similarity search
@@ -104,6 +110,16 @@ metadata:
       - similarity search
       - embedding database
       - ANN
+    providers:
+      pipeline: claude-code
+    pluginConfig:
+      target_items: 50
+      capture_screenshots: false
+      comparison_enabled: false
+      comparison_cadence: use_directory
+      comparison_max_mode: custom
+      comparison_max: 50
+    _processedPluginConfig: {}
   pr_update:
     branch: feature-1751329627639-0lrita
     title: Update data - 07/01/2025 00:27
@@ -141,3 +157,4 @@ settings:
 custom_menu:
   header: []
   footer: []
+version: 0.1.0
