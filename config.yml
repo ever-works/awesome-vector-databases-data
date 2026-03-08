@@ -37,75 +37,9 @@ metadata:
     website_repository_creation_method: duplicate
     slug: awesome-vector-databases
     name: Awesome Vector Databases
-    prompt: >-
-      A curated list of vector database solutions, libraries, and resources for
-      AI applications.
-
-      Please make sure each item has in description indication if it's OSS or
-      commercial (and of course use tags).
-
-      If it's commercial, try to write what tiers of pricing exists.
+    prompt: A curated list of vector database solutions, libraries, and resources
+      for AI applications.
     target_keywords:
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
-      - vector search
-      - similarity search
-      - embedding database
-      - ANN
       - vector search
       - similarity search
       - embedding database
@@ -157,4 +91,4 @@ settings:
 custom_menu:
   header: []
   footer: []
-version: 0.1.0
+version: 0.1.1

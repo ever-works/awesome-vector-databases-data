@@ -1,7 +1,7 @@
 - id: vector-search
   name: vector search
 - id: research
-  name: research
+  name: Research
 - id: papers
   name: papers
 - id: ann
@@ -69,17 +69,17 @@
 - id: machine-learning
   name: machine learning
 - id: benchmark
-  name: benchmark
+  name: Benchmark
 - id: performance
-  name: performance
+  name: Performance
 - id: scalability
-  name: scalability
+  name: Scalability
 - id: retrieval
-  name: retrieval
+  name: Retrieval
 - id: datasets
-  name: datasets
+  name: Datasets
 - id: evaluation
-  name: evaluation
+  name: Evaluation
 - id: resources
   name: resources
 - id: tutorials
@@ -125,11 +125,11 @@
 - id: resource-estimation
   name: resource estimation
 - id: backup
-  name: backup
+  name: Backup
 - id: restore
   name: restore
 - id: disaster-recovery
-  name: disaster recovery
+  name: Disaster Recovery
 - id: apache-spark
   name: Apache Spark
 - id: sql
@@ -143,7 +143,7 @@
 - id: opensearch
   name: OpenSearch
 - id: clustering
-  name: clustering
+  name: Clustering
 - id: multi-language
   name: multi-language
 - id: distributed
@@ -155,11 +155,11 @@
 - id: dynamic-data
   name: dynamic data
 - id: llm
-  name: LLM
+  name: Llm
 - id: proprietary
   name: proprietary
 - id: high-performance
-  name: high-performance
+  name: High Performance
 - id: data-structure
   name: data structure
 - id: nearest-neighbor
@@ -169,11 +169,11 @@
 - id: metric-space
   name: metric space
 - id: dynamic-updates
-  name: dynamic updates
+  name: Dynamic Updates
 - id: compression
-  name: compression
+  name: Compression
 - id: optimization
-  name: optimization
+  name: Optimization
 - id: accuracy
   name: accuracy
 - id: weaviate
@@ -193,7 +193,7 @@
 - id: topic-modeling
   name: topic modeling
 - id: nlp
-  name: NLP
+  name: Nlp
 - id: directory
   name: directory
 - id: learning
@@ -251,7 +251,7 @@
 - id: vector-store
   name: vector store
 - id: embeddings
-  name: embeddings
+  name: Embeddings
 - id: serverless
   name: Serverless
 - id: pgvector
@@ -279,7 +279,7 @@
 - id: cassandra
   name: Cassandra
 - id: cloud
-  name: cloud
+  name: Cloud
 - id: mlops
   name: MLOps
 - id: platform
@@ -337,7 +337,7 @@
 - id: parallel
   name: parallel
 - id: indexing
-  name: indexing
+  name: Indexing
 - id: architectures
   name: architectures
 - id: single-node
@@ -366,3 +366,47 @@
   name: Multi Cloud
 - id: google-cloud
   name: Google Cloud
+- id: graph-based
+  name: Graph Based
+- id: filtering
+  name: Filtering
+- id: on-premises
+  name: On Premises
+- id: offline
+  name: Offline
+- id: visual-search
+  name: Visual Search
+- id: competition
+  name: Competition
+- id: deep-learning
+  name: Deep Learning
+- id: metadata
+  name: Metadata
+- id: best-practices
+  name: Best Practices
+- id: observability
+  name: Observability
+- id: prompt-management
+  name: Prompt Management
+- id: opentelemetry
+  name: Opentelemetry
+- id: late-interaction
+  name: Late Interaction
+- id: algorithm
+  name: Algorithm
+- id: disk-based
+  name: Disk Based
+- id: data-quality
+  name: Data Quality
+- id: monitoring
+  name: Monitoring
+- id: ranking
+  name: Ranking
+- id: sparse
+  name: Sparse
+- id: cost-optimization
+  name: Cost Optimization
+- id: comparison
+  name: Comparison
+- id: sharding
+  name: Sharding
