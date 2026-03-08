@@ -1,0 +1,70 @@
+name: BGE-VL
+description: State-of-the-art multimodal embedding model from BAAI supporting
+  text-to-image, image-to-text, and compositional visual search. Trained on the
+  MegaPairs dataset with over 26 million retrieval triplets.
+source_url: https://github.com/FlagOpen/FlagEmbedding
+category: Machine Learning Models
+tags:
+  - multimodal
+  - open-source
+  - visual-search
+featured: true
+markdown: >-
+  ## Overview
+
+
+  BGE-VL is a State-Of-The-Art multimodal embedding model that supports any
+  visual search applications, including text-to-image, image-to-text,
+  image&prompt-to-image, text-to-image&text, and more. Released by BAAI in March
+  2025.
+
+
+  ## Model Variants
+
+
+  Based on the MegaPairs dataset, the BAAI BGE team trained three multi-modal
+  retrieval models:
+
+  - BGE-VL-Base
+
+  - BGE-VL-Large
+
+  - BGE-VL-MLLM
+
+
+  ## Performance
+
+
+  - Achieved optimal performance in 36 multi-modal embedding evaluation tasks of
+  the Massive Multimodal Embedding Benchmark (MMEB)
+
+  - Excels in both zero-shot and supervised fine-tuning scenarios
+
+  - BGE-VL-MLLM-S1 shows 8.1% improvement on CIRCO benchmark (mAP@5) over
+  previous state-of-the-art
+
+  - Sets new benchmark for compositional image retrieval tasks
+
+
+  ## MegaPairs Dataset
+
+
+  BAAI released MegaPairs, a massive synthetic dataset containing over 26
+  million multimodal retrieval instruction-tuning triplets that powers BGE-VL.
+
+
+  ## License
+
+
+  Released under MIT license - completely free for both academic and commercial
+  use.
+
+
+  ## Availability
+
+
+  Models and documentation available on GitHub, Hugging Face, and the official
+  BGE documentation site.
+brand: Beijing Academy of Artificial Intelligence
+brand_logo_url: https://avatars.githubusercontent.com/u/61888993
+updated_at: 2026-03-08 17:56

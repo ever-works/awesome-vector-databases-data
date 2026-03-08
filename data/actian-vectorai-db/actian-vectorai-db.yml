@@ -1,0 +1,60 @@
+name: Actian VectorAI DB
+description: Edge-native vector database designed for deployment at remote
+  locations and edge devices with no cloud dependency. Supports real-time
+  decision making with sub-15ms query latency and operates independently during
+  network outages.
+source_url: https://www.actian.com/databases/vectorai-db/
+category: Vector Database Engines
+tags:
+  - edge
+  - on-premises
+  - offline
+featured: false
+markdown: >-
+  ## Overview
+
+
+  VectorAI DB is designed to run vector search wherever your application lives -
+  on your laptop, at the edge, in your data center, or in air-gapped
+  environments. It has no cloud dependency and no connectivity assumptions.
+
+
+  ## Key Features
+
+
+  - Single-node deployment at remote locations and edge devices
+
+  - Sub-15ms query latency for real-time decision making
+
+  - Operates independently during network outages with optional synchronization
+
+  - Facial recognition for security, access control, and identity verification
+  at the edge
+
+  - Processes biometric data locally without cloud dependencies for privacy and
+  compliance
+
+  - No network round-trips or cloud API delays required
+
+
+  ## Use Cases
+
+
+  - Store checkout hardware with unstable connectivity
+
+  - Factory-floor machinery and industrial IoT
+
+  - Air-gapped environments requiring local data analytics
+
+  - Edge devices requiring autonomous behavior
+
+  - Security and access control systems
+
+
+  ## Availability
+
+
+  VectorAI DB addresses the native edge deployment gap with a database that
+  accounts for the physical and network realities of offline scenarios.
+brand: Actian
+updated_at: 2026-03-08 17:56
