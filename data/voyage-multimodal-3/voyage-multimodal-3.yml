@@ -1,0 +1,54 @@
+name: voyage-multimodal-3
+description: Voyage AI's first all-in-one multimodal embedding model supporting
+  interleaved text and content-rich images including screenshots, PDFs, slide
+  decks, tables, and figures.
+source_url: https://blog.voyageai.com/2024/11/12/voyage-multimodal-3/
+category: Machine Learning Models
+tags:
+  - multimodal
+  - embeddings
+  - visual-search
+featured: false
+markdown: >-
+  ## Overview
+
+
+  voyage-multimodal-3 is Voyage AI's first multimodal embedding model that
+  supports text and content-rich images such as screenshots of texts, figures,
+  tables, PDFs, slide decks, and more.
+
+
+  ## Features
+
+
+  - Supports interleaved text and images in a single embedding
+
+  - Processes content-rich visual documents (PDFs, presentations, screenshots)
+
+  - Handles tables, figures, and complex document layouts
+
+  - Unified embedding space for text and visual content
+
+  - Optimized for document retrieval and multimodal search
+
+
+  ## Use Cases
+
+
+  - Document search across PDFs and presentations
+
+  - Visual question answering over documents
+
+  - Multimodal RAG applications
+
+  - Content-rich screenshot retrieval
+
+  - Technical documentation search
+
+
+  ## Pricing
+
+
+  API-based pricing with flexible usage tiers
+brand: Voyage AI
+updated_at: 2026-03-10 11:58
