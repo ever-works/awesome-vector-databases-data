@@ -51,7 +51,7 @@
 - id: challenges
   name: challenges
 - id: survey
-  name: survey
+  name: Survey
 - id: applications
   name: applications
 - id: technologies
@@ -63,7 +63,7 @@
 - id: definition
   name: definition
 - id: similarity-search
-  name: similarity search
+  name: Similarity Search
 - id: commercial
   name: Commercial
 - id: machine-learning
@@ -83,7 +83,7 @@
 - id: resources
   name: resources
 - id: tutorials
-  name: tutorials
+  name: Tutorials
 - id: tools
   name: tools
 - id: awesome-list
@@ -101,7 +101,7 @@
 - id: migration
   name: migration
 - id: integration
-  name: integration
+  name: Integration
 - id: milvus
   name: Milvus
 - id: postgresql
@@ -119,7 +119,7 @@
 - id: cli
   name: CLI
 - id: management
-  name: management
+  name: Management
 - id: sizing
   name: sizing
 - id: resource-estimation
@@ -139,7 +139,7 @@
 - id: multimodal
   name: Multimodal
 - id: langchain
-  name: LangChain
+  name: Langchain
 - id: opensearch
   name: OpenSearch
 - id: clustering
@@ -185,7 +185,7 @@
 - id: rust
   name: Rust
 - id: gui
-  name: GUI
+  name: Gui
 - id: debugging
   name: debugging
 - id: vector-stores
@@ -197,7 +197,7 @@
 - id: directory
   name: directory
 - id: learning
-  name: learning
+  name: Learning
 - id: vector-indexing
   name: vector indexing
 - id: neural-search
@@ -205,7 +205,7 @@
 - id: intelligent-storage
   name: intelligent storage
 - id: data-integration
-  name: data integration
+  name: Data Integration
 - id: vector-database
   name: vector database
 - id: data-science
@@ -265,7 +265,7 @@
 - id: mongodb
   name: MongoDB
 - id: openai
-  name: OpenAI
+  name: Openai
 - id: api
   name: Api
 - id: jina
@@ -275,7 +275,7 @@
 - id: local
   name: local
 - id: tool
-  name: tool
+  name: Tool
 - id: cassandra
   name: Cassandra
 - id: cloud
@@ -323,7 +323,7 @@
 - id: mysql
   name: MySQL
 - id: re-ranking
-  name: re-ranking
+  name: Re Ranking
 - id: search
   name: search
 - id: go
@@ -335,7 +335,7 @@
 - id: vector-quantization
   name: vector quantization
 - id: parallel
-  name: parallel
+  name: Parallel
 - id: indexing
   name: Indexing
 - id: architectures
@@ -410,3 +410,23 @@
   name: Comparison
 - id: sharding
   name: Sharding
+- id: chunking
+  name: Chunking
+- id: text-processing
+  name: Text Processing
+- id: metrics
+  name: Metrics
+- id: kubernetes
+  name: Kubernetes
+- id: loaders
+  name: Loaders
+- id: ocr
+  name: Ocr
+- id: document-parsing
+  name: Document Parsing
+- id: market
+  name: Market
+- id: trends
+  name: Trends
+- id: certification
+  name: Certification
