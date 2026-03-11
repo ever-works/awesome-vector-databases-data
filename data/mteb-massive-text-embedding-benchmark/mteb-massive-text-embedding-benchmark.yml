@@ -1,33 +1,94 @@
-name: "MTEB: Massive Text Embedding Benchmark"
-description: A massive text embedding benchmark for evaluating the quality of
-  text embedding models, crucial for vector database applications.
-source_url: https://github.com/embeddings-benchmark/mteb
-featured: false
-category: vector-database-engines
+name: MTEB (Massive Text Embedding Benchmark)
+description: Comprehensive benchmark evaluating universal text embedding models
+  across 1000+ languages and 58 datasets over 8 tasks. The industry standard for
+  comparing embedding model performance.
+source_url: https://huggingface.co/spaces/mteb/leaderboard
+category: Benchmarks & Evaluation
 tags:
-  - embeddings
-  - evaluation
   - benchmark
+  - evaluation
+  - embeddings
 markdown: >-
-  # MTEB: Massive Text Embedding Benchmark
+  ## Overview
 
 
-  ## Description
-
-  A massive text embedding benchmark for evaluating the quality of text
-  embedding models, crucial for vector database applications.
-
-
-  ## Features
-
-  *   Provides a massive benchmark for text embedding models.
-
-  *   Evaluates the quality of text embedding models.
-
-  *   Crucial for applications involving vector databases.
+  MTEB (Massive Text Embedding Benchmark) is the comprehensive standard for
+  evaluating text embedding models, covering over 1000 languages and diverse
+  tasks from classification to specialized domains like legal, code, and
+  healthcare retrieval.
 
 
-  ## License
+  ## Benchmark Structure
 
-  The project includes a LICENSE file, indicating its licensing terms.
-updated_at: 2025-07-01 00:28
+
+  ### English Leaderboard
+
+
+  - **58 datasets** across 8 embedding tasks
+
+  - Standardized evaluation protocols
+
+  - Task-specific metrics (accuracy, Spearman correlation, nDCG@10)
+
+
+  ### Task Categories
+
+
+  1. **Bitext Mining**: Finding parallel sentences across languages
+
+  2. **Classification**: Document categorization
+
+  3. **Clustering**: Grouping similar texts
+
+  4. **Pair Classification**: Determining text pair relationships
+
+  5. **Reranking**: Refining search result order
+
+  6. **Retrieval**: Finding relevant documents
+
+  7. **STS (Semantic Textual Similarity)**: Measuring text similarity
+
+  8. **Summarization**: Evaluating summary quality
+
+
+  ## Top Performing Models (2026)
+
+
+  - **NV-Embed (NVIDIA)**: Score 69.32, new accuracy record
+
+  - **gte-Qwen3-8B**: Top performer on multilingual and English leaderboards
+
+  - **BGE Models (BAAI)**: Consistent top rankings
+
+  - **Instructor**: Strong performance across tasks
+
+
+  ## Use Cases
+
+
+  - Model selection for applications
+
+  - Comparing embedding approaches
+
+  - Tracking SOTA performance
+
+  - Research benchmarking
+
+  - Deployment decision-making
+
+
+  ## Access
+
+
+  - **Leaderboard**: huggingface.co/spaces/mteb/leaderboard
+
+  - **GitHub**: embeddings-benchmark/mteb
+
+  - **Results Data**: embeddings-benchmark/results
+
+
+  ## Pricing
+
+
+  Free and open-source benchmark.
+updated_at: 2026-03-11 12:14

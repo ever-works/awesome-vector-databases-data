@@ -1,62 +1,53 @@
 name: chromem-go
-description: chromem-go is a Go client and implementation for Chroma-like vector
-  database functionality, enabling embedding storage and similarity search in Go
-  applications.
+description: Embeddable vector database for Go with Chroma-like interface and
+  zero third-party dependencies. In-memory with optional persistence, designed
+  for simplicity and performance in Go applications.
 source_url: https://github.com/philippgille/chromem-go
-featured: false
-brand_logo_url: null
-images: null
-category: curated-resource-lists
-tags: []
+category: SDKs & Libraries
+tags:
+  - golang
+  - embedded
+  - in-memory
 markdown: >-
-  # chromem-go
+  ## Overview
 
 
-  **Website:** https://github.com/philippgille/chromem-go  
-
-  **Category:** Curated Resource Lists  
-
-  **Type:** Go library / embeddable vector database
+  chromem-go is an embeddable vector database for Go applications with a
+  Chroma-like interface. It's a standalone database (not a Chroma client) with
+  zero third-party dependencies, operating in-memory with optional persistence.
 
 
-  ## Description
-
-  chromem-go is an embeddable, in-memory vector database for Go that implements
-  Chroma-like functionality. It enables storing embeddings and performing
-  similarity search directly within Go applications, without third-party
-  dependencies, with optional persistence.
+  ## Key Features
 
 
-  ## Features
+  ### Embeddability
 
-  - **Chroma-like interface**
-    - API modeled after the Chroma vector database for familiarity and easier porting of existing code.
-  - **Embeddable in Go applications**
-    - Runs as a Go library inside your process; no separate server required.
-  - **In-memory storage**
-    - Keeps vectors and metadata in memory for fast similarity search.
-  - **Optional persistence**
-    - Supports persisting data so collections can be stored and reloaded instead of being purely ephemeral.
-  - **Embedding storage**
-    - Store vector embeddings along with associated documents/metadata.
-  - **Similarity search**
-    - Perform similarity queries over stored embeddings to retrieve the most relevant items.
-  - **Zero third-party dependencies**
-    - Implemented using only the Go standard library, reducing external dependency management.
-  - **Collections abstraction**
-    - Organize embeddings/documents into logical collections for separate indexing and querying.
-  - **Examples included**
-    - `examples/` directory with usage examples.
-  - **WebAssembly support directory**
-    - `wasm/` directory indicating experimental/auxiliary support for WebAssembly-related usage.
 
-  ## Licensing
+  - **No Separate Database**: Runs inside your Go application
 
-  - Licensed under the **MPL-2.0** (Mozilla Public License 2.0).
+  - **Zero Dependencies**: No external libraries required
+
+  - **RAG Enablement**: Add retrieval-augmented generation to Go apps
+
+  - **Simple Integration**: Import and use as a Go package
+
+
+  ### Performance
+
+
+  Optimized for common use cases:
+
+  - **1,000 documents**: 0.3 ms query time
+
+  - **100,000 documents**: 40 ms query time
+
+  - Tested on mid-range 2020 Intel laptop CPU
+
+  - Focus on simplicity over massive scale
 
 
   ## Pricing
 
-  - Open-source library; no pricing information provided (usable under MPL-2.0
-  license terms).
-updated_at: 2025-12-25 16:52
+
+  Free and open-source.
+updated_at: 2026-03-11 12:14
