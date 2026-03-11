@@ -11,7 +11,7 @@
 - id: blogs
   name: blogs
 - id: semantic-search
-  name: semantic search
+  name: Semantic Search
 - id: in-memory
   name: In Memory
 - id: real-time
@@ -35,13 +35,13 @@
 - id: knn
   name: KNN
 - id: scalable
-  name: scalable
+  name: Scalable
 - id: managed-service
   name: Managed Service
 - id: ai
   name: Ai
 - id: testing
-  name: testing
+  name: Testing
 - id: roadmap
   name: roadmap
 - id: reliability
@@ -59,7 +59,7 @@
 - id: anns
   name: ANNS
 - id: architecture
-  name: architecture
+  name: Architecture
 - id: definition
   name: definition
 - id: similarity-search
@@ -67,7 +67,7 @@
 - id: commercial
   name: Commercial
 - id: machine-learning
-  name: machine learning
+  name: Machine Learning
 - id: benchmark
   name: Benchmark
 - id: performance
@@ -151,7 +151,7 @@
 - id: hnsw
   name: Hnsw
 - id: high-dimensional
-  name: high-dimensional
+  name: High Dimensional
 - id: dynamic-data
   name: dynamic data
 - id: llm
@@ -201,7 +201,7 @@
 - id: vector-indexing
   name: vector indexing
 - id: neural-search
-  name: neural search
+  name: Neural Search
 - id: intelligent-storage
   name: intelligent storage
 - id: data-integration
@@ -237,7 +237,7 @@
 - id: blog
   name: blog
 - id: time-series
-  name: time series
+  name: Time Series
 - id: ml
   name: ML
 - id: search-engine
@@ -255,7 +255,7 @@
 - id: serverless
   name: Serverless
 - id: pgvector
-  name: pgvector
+  name: Pgvector
 - id: hugging-face
   name: Hugging Face
 - id: tokenization
@@ -518,3 +518,27 @@
   name: Ai Agents
 - id: memory
   name: Memory
+- id: tensor
+  name: Tensor
+- id: datalog
+  name: Datalog
+- id: fine-tuning
+  name: Fine Tuning
+- id: computer-vision
+  name: Computer Vision
+- id: cpu
+  name: Cpu
+- id: format
+  name: Format
+- id: colbert
+  name: Colbert
+- id: streaming
+  name: Streaming
+- id: ai-gateway
+  name: Ai Gateway
+- id: caching
+  name: Caching
+- id: typescript
+  name: Typescript
+- id: multi-provider
+  name: Multi Provider
