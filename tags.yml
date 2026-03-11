@@ -1,5 +1,5 @@
 - id: vector-search
-  name: vector search
+  name: Vector Search
 - id: research
   name: Research
 - id: papers
@@ -13,7 +13,7 @@
 - id: semantic-search
   name: semantic search
 - id: in-memory
-  name: in-memory
+  name: In Memory
 - id: real-time
   name: Real Time
 - id: hybrid-search
@@ -25,11 +25,11 @@
 - id: rag
   name: Rag
 - id: graph-database
-  name: graph database
+  name: Graph Database
 - id: enterprise
   name: Enterprise
 - id: cloud-native
-  name: cloud-native
+  name: Cloud Native
 - id: document-database
   name: document database
 - id: knn
@@ -39,7 +39,7 @@
 - id: managed-service
   name: Managed Service
 - id: ai
-  name: AI
+  name: Ai
 - id: testing
   name: testing
 - id: roadmap
@@ -47,13 +47,13 @@
 - id: reliability
   name: reliability
 - id: use-cases
-  name: use-cases
+  name: Use Cases
 - id: challenges
   name: challenges
 - id: survey
   name: Survey
 - id: applications
-  name: applications
+  name: Applications
 - id: technologies
   name: technologies
 - id: anns
@@ -273,7 +273,7 @@
 - id: framework
   name: framework
 - id: local
-  name: local
+  name: Local
 - id: tool
   name: Tool
 - id: cassandra
@@ -299,7 +299,7 @@
 - id: data-warehousing
   name: data warehousing
 - id: knowledge-graph
-  name: knowledge graph
+  name: Knowledge Graph
 - id: vector-indexes
   name: vector indexes
 - id: security
@@ -321,11 +321,11 @@
 - id: data-engineering
   name: data engineering
 - id: mysql
-  name: MySQL
+  name: Mysql
 - id: re-ranking
   name: Re Ranking
 - id: search
-  name: search
+  name: Search
 - id: go
   name: Go
 - id: julia
@@ -343,7 +343,7 @@
 - id: single-node
   name: single-node
 - id: etl
-  name: ETL
+  name: Etl
 - id: services
   name: services
 - id: diskann
@@ -430,3 +430,91 @@
   name: Trends
 - id: certification
   name: Certification
+- id: cost-efficient
+  name: Cost Efficient
+- id: redis-compatible
+  name: Redis Compatible
+- id: information-retrieval
+  name: Information Retrieval
+- id: keyword-search
+  name: Keyword Search
+- id: golang
+  name: Golang
+- id: document-processing
+  name: Document Processing
+- id: context
+  name: Context
+- id: similarity
+  name: Similarity
+- id: distance-metric
+  name: Distance Metric
+- id: dimensions
+  name: Dimensions
+- id: models
+  name: Models
+- id: neural-networks
+  name: Neural Networks
+- id: google
+  name: Google
+- id: temporal
+  name: Temporal
+- id: nodejs
+  name: Nodejs
+- id: javascript
+  name: Javascript
+- id: hybrid
+  name: Hybrid
+- id: fusion
+  name: Fusion
+- id: instruction-based
+  name: Instruction Based
+- id: task-specific
+  name: Task Specific
+- id: managed
+  name: Managed
+- id: local-llm
+  name: Local Llm
+- id: single-file
+  name: Single File
+- id: cross-modal
+  name: Cross Modal
+- id: visualization
+  name: Visualization
+- id: pq
+  name: Pq
+- id: privacy
+  name: Privacy
+- id: hybrid-cloud
+  name: Hybrid Cloud
+- id: cost-reduction
+  name: Cost Reduction
+- id: document-understanding
+  name: Document Understanding
+- id: reranking
+  name: Reranking
+- id: cross-encoder
+  name: Cross Encoder
+- id: semantics
+  name: Semantics
+- id: sparse-embeddings
+  name: Sparse Embeddings
+- id: learned
+  name: Learned
+- id: interpretable
+  name: Interpretable
+- id: object-storage
+  name: Object Storage
+- id: cost-effective
+  name: Cost Effective
+- id: operations
+  name: Operations
+- id: algorithms
+  name: Algorithms
+- id: vectors
+  name: Vectors
+- id: pipeline
+  name: Pipeline
+- id: ai-agents
+  name: Ai Agents
+- id: memory
+  name: Memory
