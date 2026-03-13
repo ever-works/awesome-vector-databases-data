@@ -1,0 +1,70 @@
+name: VectorDBZ
+description: Enterprise-grade desktop application for managing and analyzing
+  vector databases with interactive visualizations, supporting Qdrant, Weaviate,
+  Milvus, ChromaDB, Pinecone, pgvector, and Elasticsearch.
+source_url: https://vectordbz.com/
+category: LLM Tools
+tags:
+  - visualization
+  - management
+  - gui
+featured: false
+markdown: >-
+  ## Overview
+
+
+  VectorDBZ is an enterprise-grade desktop application for managing and
+  analyzing vector databases with interactive visualizations.
+
+
+  ## Supported Databases
+
+
+  - Qdrant
+
+  - Weaviate
+
+  - Milvus
+
+  - ChromaDB
+
+  - Pinecone
+
+  - pgvector
+
+  - Elasticsearch
+
+
+  ## Key Features
+
+
+  ### Interactive Visualizations
+
+
+  Powered by ECharts for analyzing vector space relationships through
+  dimensionality reduction, providing insights into how vectors are distributed
+  and clustered.
+
+
+  ### Live Monitoring
+
+
+  Monitor analysis progress in real-time, helping understand performance
+  characteristics and identify bottlenecks.
+
+
+  ### Management Capabilities
+
+
+  - Manage multiple vector databases from a single interface
+
+  - Analyze vector space relationships
+
+  - Optimize query performance
+
+
+  ## Pricing
+
+
+  Commercial product with enterprise pricing.
+updated_at: 2026-03-13 12:21

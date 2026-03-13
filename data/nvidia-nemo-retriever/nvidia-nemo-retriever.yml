@@ -1,0 +1,72 @@
+name: NVIDIA NeMo Retriever
+description: Collection of industry-leading Nemotron RAG models delivering 50%
+  better accuracy, 15x faster multimodal PDF extraction, and 35x better storage
+  efficiency for building enterprise-grade retrieval-augmented generation
+  pipelines.
+source_url: https://developer.nvidia.com/nemo-retriever
+category: LLM Frameworks
+tags:
+  - rag
+  - multimodal
+  - microservices
+featured: false
+markdown: >-
+  ## Overview
+
+
+  NVIDIA NeMo™ Retriever is a collection of industry-leading Nemotron RAG models
+  delivering 50% better accuracy, 15x faster multimodal PDF extraction, and 35x
+  better storage efficiency, enabling enterprises to build retrieval-augmented
+  generation (RAG) pipelines.
+
+
+  ## Microservices Architecture
+
+
+  NeMo Retriever is a collection of microservices that present a single API for
+  indexing and querying of user data, using specialized NVIDIA NIM microservices
+  to find, contextualize, and extract text, tables, and images for downstream
+  generative applications.
+
+
+  ## Performance Improvements
+
+
+  - 15x throughput increase in multimodal data extraction
+
+  - 3x better embedding throughput
+
+  - 1.6x better reranking throughput compared to open-source alternatives
+
+  - Capable of processing hundreds of thousands of documents at scale
+
+
+  ## Enterprise-Ready Capabilities
+
+
+  NeMo Retriever exhibits a high level of accuracy when retrieving across
+  various modalities through enterprise documents. The NVIDIA RAG Blueprint is a
+  reference solution and foundational starting point for building
+  Retrieval-Augmented Generation (RAG) pipelines with NVIDIA NIM microservices,
+  designed to be decomposable and configurable for enterprise needs.
+
+
+  ## Use Cases
+
+
+  - AI chatbots
+
+  - Customer service applications
+
+  - Security analysis
+
+  - Supply chain insights
+
+
+  ## Pricing
+
+
+  Enterprise pricing available through NVIDIA AI Enterprise.
+brand: NVIDIA
+brand_logo_url: https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-d@2x.png
+updated_at: 2026-03-13 12:21

@@ -1,77 +1,89 @@
 name: ColPali
-description: State-of-the-art image-based multi-vector retrieval model for PDF
-  documents, enabling effective document search without text extraction by
-  processing visual document representations.
-source_url: https://huggingface.co/vidore/colpali
+description: Vision Language Model trained to produce high-quality multi-vector
+  embeddings from document page images for efficient retrieval, eliminating need
+  for OCR pipelines with ColBERT-style late interaction.
+source_url: https://github.com/illuin-tech/colpali
 category: Machine Learning Models
 tags:
   - multimodal
-  - visual-search
-  - late-interaction
-featured: true
+  - document-retrieval
+  - vision
+featured: false
 markdown: >-
   ## Overview
 
 
-  ColPali is an image-based equivalent of ColBERT that is currently
-  state-of-the-art in PDF retrieval, allowing effective PDF search without
-  extracting text first by processing visual document representations.
+  ColPali is a Vision Language Model trained to produce high-quality
+  multi-vector embeddings from images of document pages for efficient document
+  retrieval.
 
 
-  ## Features
+  ## Key Features
 
 
-  - Visual document understanding without OCR
-
-  - State-of-the-art PDF retrieval performance
-
-  - Processes documents as images
-
-  - Handles complex layouts, tables, and figures
-
-  - Multi-vector representation for fine-grained matching
-
-  - Late interaction architecture similar to ColBERT
+  ### Architecture
 
 
-  ## Technical Approach
+  ColPali uses PaliGemma-3B to encode images by:
+
+  - Splitting images into patches fed to a vision transformer (SigLIP-So400m)
+
+  - Patch embeddings linearly projected as "soft" tokens to a language model
+  (Gemma 2B)
+
+  - Creating contextualized patch embeddings projected to lower dimension
+  (D=128)
 
 
-  - Image-based document encoding
+  ### Main Advantage
 
-  - Multi-vector representations for each document
 
-  - Late interaction matching mechanism
+  ColPali removes the need for potentially complex and brittle layout
+  recognition and OCR pipelines with a single model that can take into account
+  both the textual and visual content (layout, charts, etc.) of a document.
 
-  - Preserves visual layout information
 
-  - No text extraction required
+  ### Retrieval Method
+
+
+  ColPali runs a ColBERT-style "late interaction" operation to efficiently match
+  query tokens to document patches, computing a score by searching for the
+  document patch with the most similar representation for each query term.
+
+
+  ## Performance
+
+
+  Combined with a late interaction matching mechanism, ColPali largely
+  outperforms modern document retrieval pipelines while being drastically
+  simpler, faster and end-to-end trainable.
+
+
+  ## Benchmark
+
+
+  The Visual Document Retrieval Benchmark (ViDoRe) was introduced to assess
+  retrievers on their capacity to retrieve visually rich information in docs,
+  with tasks spanning various topics, modalities (figures, tables, text), and
+  languages.
 
 
   ## Use Cases
 
 
-  - PDF document search and retrieval
+  - Visual document search
 
-  - Technical document analysis
+  - PDF retrieval without OCR
 
-  - Form and table understanding
+  - Multimodal RAG systems
 
-  - Visually complex document search
+  - Document understanding pipelines
 
-  - Multi-modal document QA
-
-
-  ## Advantages
+  - Enterprise document search
 
 
-  - Avoids lossy text extraction process
+  ## Pricing
 
-  - Handles documents with complex layouts
 
-  - Preserves formatting and visual structure
-
-  - Works with scanned documents
-
-  - Superior performance on PDF benchmarks
-updated_at: 2026-03-10 11:58
+  Free and open-source.
+updated_at: 2026-03-13 12:21

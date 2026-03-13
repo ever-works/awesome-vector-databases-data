@@ -1,143 +1,101 @@
 name: Semantic Chunking
-description: Advanced chunking strategy grouping sentences by embedding
-  similarity to detect topic shifts, splitting when similarity drops below
-  threshold for content-aware text segmentation.
-source_url: https://medium.com/the-ai-forum/semantic-chunking-for-rag-f4733025d5f5
+description: Advanced text splitting technique using embeddings to divide
+  documents based on semantic content instead of arbitrary positions, preserving
+  cohesive ideas within chunks for improved RAG performance.
+source_url: https://www.pinecone.io/learn/chunking-strategies/
 category: Concepts & Definitions
 tags:
   - chunking
-  - embeddings
-  - nlp
+  - rag
+  - text-processing
 featured: false
 markdown: >-
   ## Overview
 
 
-  Semantic chunking splits text by grouping sentences based on the semantic
-  similarity of their embeddings, detecting topic shifts mathematically using
-  embedding similarity thresholds.
+  Semantic chunking, sometimes called intelligent chunking, focuses on
+  preserving the document's meaning and structure. Instead of using a fixed
+  chunk size, it strategically divides the document at meaningful
+  breakpoints—like paragraphs, sentences, or thematically linked sections.
 
 
   ## How It Works
 
 
-  1. Generate embeddings for each sentence
-
-  2. Calculate similarity between consecutive sentences
-
-  3. Detect significant similarity drops (topic shifts)
-
-  4. Split at points where similarity difference exceeds threshold
-
-  5. Default: 95th percentile threshold
+  Semantic chunking is an advanced technique that uses text embeddings to split
+  documents based on their semantic content instead of arbitrary positions or
+  formatting cues. Rather than slicing at fixed intervals, the algorithm looks
+  for meaningful transitions in content and tries to preserve cohesive ideas
+  within each chunk.
 
 
-  ## Example Detection
+  ## Methods
 
 
-  - Most sentences: 0.85 similar
+  ### Percentile-Based Chunking
 
-  - Two consecutive sentences: 0.65 similar
 
-  - Split triggered due to significant drop
+  Splits occur when differences between sentences exceed a set percentile.
 
-  - Indicates topic boundary
+
+  ### Standard Deviation-Based Chunking
+
+
+  Chunks form when semantic differences go beyond a certain number of standard
+  deviations, isolating major content shifts.
+
+
+  ### Interquartile-Based Chunking
+
+
+  Splits text using the interquartile range, focusing on significant differences
+  while ignoring minor variations.
 
 
   ## Advantages
 
 
-  - Content-aware segmentation
+  Semantic chunking is one of the most accurate RAG chunking strategies for
+  multi-topic documents:
 
-  - Respects natural topic boundaries
+  - Related ideas remain grouped together
 
-  - Adapts to content structure
+  - Improves both recall quality and generation coherence
 
-  - Preserves semantic coherence within chunks
+  - Better context preservation
 
-  - Language model aware
-
-
-  ## Challenges
+  - Higher recall (91-92% vs 85-90% for recursive splitting)
 
 
-  ### Performance Considerations
-
-  - Vecta 2026 benchmark: 54% accuracy
-
-  - Produces very small chunks (avg 43 tokens)
-
-  - Higher embedding costs
-
-  - More complex implementation
+  ## Trade-offs
 
 
-  ### Practical Issues
-
-  - Requires embedding generation for all sentences
-
-  - Computational overhead
-
-  - Variable chunk sizes
-
-  - May need post-processing to meet size constraints
+  Semantic chunking gives higher recall but costs more to run, as it requires
+  embedding every sentence in your documents.
 
 
-  ## When to Use
+  ## Recommended Starting Points
 
 
-  - Content with clear topic shifts
-
-  - High-budget applications
-
-  - Precision-critical use cases
-
-  - Research and experimentation
-
-  - Documents with natural semantic boundaries
+  Recursive character splitting at 400-512 tokens with 10-20% overlap works well
+  for most text content and is the recommended starting point before investing
+  in semantic chunking.
 
 
-  ## When to Avoid
+  ## Performance
 
 
-  - Cost-sensitive applications
+  Chroma's research showed:
 
-  - Need for consistent chunk sizes
+  - Recursive splitting: 85-90% recall at 400 tokens
 
-  - Simple, well-structured content
+  - Semantic chunking: 91-92% recall
 
-  - Production systems requiring proven reliability
-
-
-  ## Implementation Approaches
+  - The 2-3% improvement costs embedding every sentence
 
 
-  - LangChain SemanticChunker variants:
-    - LLMSemanticChunker: 0.919 recall
-    - ClusterSemanticChunker: 0.913 recall
-  - Custom embedding-based implementations
-
-  - Threshold tuning required
+  ## Pricing
 
 
-  ## Best Practices
-
-
-  - Test against simpler methods first
-
-  - Monitor chunk size distribution
-
-  - Consider hybrid approaches
-
-  - Budget for embedding costs
-
-  - Validate against metrics
-
-
-  ## 2026 Recommendation
-
-
-  Move to semantic chunking only if metrics show need for extra performance and
-  budget allows costs; start with RecursiveCharacterTextSplitter for most use
-  cases.
-updated_at: 2026-03-10 11:58
+  Implementation available in various RAG frameworks (LangChain, etc.)
+updated_at: 2026-03-13 12:21
