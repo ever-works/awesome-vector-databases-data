@@ -161,7 +161,7 @@
 - id: high-performance
   name: High Performance
 - id: data-structure
-  name: data structure
+  name: Data Structure
 - id: nearest-neighbor
   name: nearest neighbor
 - id: spatial-indexing
@@ -229,9 +229,9 @@
 - id: graph-construction
   name: graph construction
 - id: hashing
-  name: hashing
+  name: Hashing
 - id: tree-based
-  name: tree-based
+  name: Tree Based
 - id: systems
   name: systems
 - id: blog
@@ -289,7 +289,7 @@
 - id: edge
   name: Edge
 - id: mobile
-  name: mobile
+  name: Mobile
 - id: azure
   name: Azure
 - id: multi-model
@@ -303,9 +303,9 @@
 - id: vector-indexes
   name: vector indexes
 - id: security
-  name: security
+  name: Security
 - id: encryption
-  name: encryption
+  name: Encryption
 - id: data-privacy
   name: data privacy
 - id: data-governance
@@ -542,3 +542,21 @@
   name: Typescript
 - id: multi-provider
   name: Multi Provider
+- id: experimental
+  name: Experimental
+- id: document-retrieval
+  name: Document Retrieval
+- id: vision
+  name: Vision
+- id: binary
+  name: Binary
+- id: ivf
+  name: Ivf
+- id: hierarchical
+  name: Hierarchical
+- id: matryoshka
+  name: Matryoshka
+- id: microservices
+  name: Microservices
+- id: video
+  name: Video
