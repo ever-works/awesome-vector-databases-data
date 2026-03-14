@@ -187,7 +187,7 @@
 - id: gui
   name: Gui
 - id: debugging
-  name: debugging
+  name: Debugging
 - id: vector-stores
   name: vector stores
 - id: topic-modeling
@@ -560,3 +560,33 @@
   name: Microservices
 - id: video
   name: Video
+- id: multi-vector
+  name: Multi Vector
+- id: reranker
+  name: Reranker
+- id: browser
+  name: Browser
+- id: webassembly
+  name: Webassembly
+- id: graph
+  name: Graph
+- id: bm25
+  name: Bm25
+- id: zero-shot
+  name: Zero Shot
+- id: leaderboard
+  name: Leaderboard
+- id: bert
+  name: Bert
+- id: sparse-vectors
+  name: Sparse Vectors
+- id: tracing
+  name: Tracing
+- id: rbac
+  name: Rbac
+- id: preprocessing
+  name: Preprocessing
+- id: normalization
+  name: Normalization
+- id: distance
+  name: Distance
