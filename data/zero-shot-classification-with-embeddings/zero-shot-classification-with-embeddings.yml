@@ -1,0 +1,96 @@
+name: Zero-Shot Classification with Embeddings
+description: Using vector embeddings to classify items into categories without
+  training data for those specific categories. Leverages semantic similarity
+  between text and category descriptions for instant classification.
+source_url: https://huggingface.co/tasks/zero-shot-classification
+category: Concepts & Definitions
+tags:
+  - classification
+  - zero-shot
+  - embeddings
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Zero-shot classification uses embeddings to categorize items without
+  category-specific training examples. Works by computing similarity between
+  item and category descriptions.
+
+
+  ## How It Works
+
+
+  1. Embed category descriptions
+
+  2. Embed item to classify
+
+  3. Find most similar category
+
+  4. Return classification
+
+
+  ## Example
+
+
+  ```python
+
+  categories = [
+      "product complaint",
+      "shipping inquiry",
+      "billing question"
+  ]
+
+
+  # Embed categories
+
+  cat_embeddings = [model.encode(c) for c in categories]
+
+
+  # Classify new message
+
+  message = "Where is my package?"
+
+  msg_embedding = model.encode(message)
+
+
+  # Find closest category
+
+  similarities = [cosine_similarity(msg_embedding, c) for c in cat_embeddings]
+
+  category = categories[np.argmax(similarities)]  # "shipping inquiry"
+
+  ```
+
+
+  ## Advantages
+
+
+  - No training data needed
+
+  - Instant deployment
+
+  - Easy to add new categories
+
+  - Works across domains
+
+
+  ## Use Cases
+
+
+  - Customer support routing
+
+  - Content moderation
+
+  - Document classification
+
+  - Intent detection
+
+  - Product categorization
+
+
+  ## Pricing
+
+
+  Depends on embedding model used.
+updated_at: 2026-03-15 12:39
