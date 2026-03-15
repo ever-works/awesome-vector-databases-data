@@ -45,11 +45,11 @@
 - id: roadmap
   name: roadmap
 - id: reliability
-  name: reliability
+  name: Reliability
 - id: use-cases
   name: Use Cases
 - id: challenges
-  name: challenges
+  name: Challenges
 - id: survey
   name: Survey
 - id: applications
@@ -99,7 +99,7 @@
 - id: vector-data
   name: vector data
 - id: migration
-  name: migration
+  name: Migration
 - id: integration
   name: Integration
 - id: milvus
@@ -113,7 +113,7 @@
 - id: vector-embeddings
   name: vector embeddings
 - id: sdk
-  name: SDK
+  name: Sdk
 - id: data-synchronization
   name: data synchronization
 - id: cli
@@ -145,7 +145,7 @@
 - id: clustering
   name: Clustering
 - id: multi-language
-  name: multi-language
+  name: Multi Language
 - id: distributed
   name: Distributed
 - id: hnsw
@@ -165,7 +165,7 @@
 - id: nearest-neighbor
   name: nearest neighbor
 - id: spatial-indexing
-  name: spatial indexing
+  name: Spatial Indexing
 - id: metric-space
   name: metric space
 - id: dynamic-updates
@@ -311,7 +311,7 @@
 - id: data-governance
   name: data governance
 - id: compliance
-  name: compliance
+  name: Compliance
 - id: analytical-engine
   name: analytical engine
 - id: vector-processing
@@ -319,7 +319,7 @@
 - id: emerging
   name: emerging
 - id: data-engineering
-  name: data engineering
+  name: Data Engineering
 - id: mysql
   name: Mysql
 - id: re-ranking
@@ -590,3 +590,31 @@
   name: Normalization
 - id: distance
   name: Distance
+- id: complexity
+  name: Complexity
+- id: recommendation
+  name: Recommendation
+- id: pagination
+  name: Pagination
+- id: data-management
+  name: Data Management
+- id: mips
+  name: Mips
+- id: multi-tenant
+  name: Multi Tenant
+- id: graphrag
+  name: Graphrag
+- id: qdrant
+  name: Qdrant
+- id: query
+  name: Query
+- id: threshold
+  name: Threshold
+- id: splade
+  name: Splade
+- id: schema
+  name: Schema
+- id: design
+  name: Design
+- id: classification
+  name: Classification
