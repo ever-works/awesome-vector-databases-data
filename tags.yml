@@ -618,3 +618,27 @@
   name: Design
 - id: classification
   name: Classification
+- id: elasticsearch
+  name: Elasticsearch
+- id: macos
+  name: Macos
+- id: chromadb
+  name: Chromadb
+- id: token-level
+  name: Token Level
+- id: sparse-encoding
+  name: Sparse Encoding
+- id: access-control
+  name: Access Control
+- id: visual-documents
+  name: Visual Documents
+- id: state-of-the-art
+  name: State Of The Art
+- id: sparse-retrieval
+  name: Sparse Retrieval
+- id: dimensionality-reduction
+  name: Dimensionality Reduction
+- id: manifold-learning
+  name: Manifold Learning
+- id: no-code
+  name: No Code
