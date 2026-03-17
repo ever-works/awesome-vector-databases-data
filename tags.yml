@@ -642,3 +642,11 @@
   name: Manifold Learning
 - id: no-code
   name: No Code
+- id: lmdb
+  name: Lmdb
+- id: docarray
+  name: Docarray
+- id: lsh
+  name: Lsh
+- id: wasm
+  name: Wasm
