@@ -281,7 +281,7 @@
 - id: cloud
   name: Cloud
 - id: mlops
-  name: MLOps
+  name: Mlops
 - id: platform
   name: platform
 - id: embedded
@@ -650,3 +650,91 @@
   name: Lsh
 - id: wasm
   name: Wasm
+- id: multi-agent
+  name: Multi Agent
+- id: conversational-ai
+  name: Conversational Ai
+- id: cold-start
+  name: Cold Start
+- id: recommendations
+  name: Recommendations
+- id: bootstrapping
+  name: Bootstrapping
+- id: context-window
+  name: Context Window
+- id: autonomous
+  name: Autonomous
+- id: distance-metrics
+  name: Distance Metrics
+- id: selection
+  name: Selection
+- id: visual-builder
+  name: Visual Builder
+- id: relationships
+  name: Relationships
+- id: validation
+  name: Validation
+- id: safety
+  name: Safety
+- id: quality-control
+  name: Quality Control
+- id: structured-outputs
+  name: Structured Outputs
+- id: biomedical
+  name: Biomedical
+- id: graph-of-thoughts
+  name: Graph Of Thoughts
+- id: production
+  name: Production
+- id: rest-api
+  name: Rest Api
+- id: modular
+  name: Modular
+- id: clip
+  name: Clip
+- id: image-search
+  name: Image Search
+- id: prompting
+  name: Prompting
+- id: red-teaming
+  name: Red Teaming
+- id: query-optimization
+  name: Query Optimization
+- id: checklist
+  name: Checklist
+- id: knowledge-intensive
+  name: Knowledge Intensive
+- id: ibm
+  name: Ibm
+- id: visual-programming
+  name: Visual Programming
+- id: agents
+  name: Agents
+- id: orchestration
+  name: Orchestration
+- id: self-training
+  name: Self Training
+- id: domain-adaptation
+  name: Domain Adaptation
+- id: synthetic-data
+  name: Synthetic Data
+- id: timescale
+  name: Timescale
+- id: benchmarking
+  name: Benchmarking
+- id: economics
+  name: Economics
+- id: storage
+  name: Storage
+- id: data-transfer
+  name: Data Transfer
+- id: multi-tenancy
+  name: Multi Tenancy
+- id: saas
+  name: Saas
+- id: distributed-systems
+  name: Distributed Systems
+- id: qa
+  name: Qa
+- id: edge-computing
+  name: Edge Computing
