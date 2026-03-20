@@ -1,0 +1,44 @@
+name: Cloudflare Vectorize
+description: Cloudflare's globally-distributed vector database running on their
+  edge network. Provides low-latency vector search with automatic global
+  replication and serverless pricing starting at $0.31/month.
+source_url: https://developers.cloudflare.com/vectorize/
+category: Cloud & Managed
+tags:
+  - edge
+  - serverless
+  - cloud
+  - global
+markdown: >-
+  ## Overview
+
+
+  Cloudflare Vectorize provides globally-distributed vector search on
+  Cloudflare's edge network with serverless pricing and automatic worldwide
+  replication.
+
+
+  ## Features
+
+
+  - 300+ city global distribution
+
+  - Edge computing integration
+
+  - Cloudflare Workers compatible
+
+  - Automatic scaling
+
+
+  ## Pricing
+
+
+  $0.31/month for 10K vectors + 30K queries
+
+
+  ## Availability
+
+
+  Cloudflare dashboard
+brand: Cloudflare
+updated_at: 2026-03-20 13:13

@@ -1,0 +1,33 @@
+name: Neo4j Vector Search
+description: Vector similarity search in Neo4j enabling GraphRAG by combining
+  knowledge graphs with vector embeddings.
+source_url: https://neo4j.com/docs/cypher-manual/current/indexes-for-vector-search/
+category: Integrations & Extensions
+tags:
+  - graph-database
+  - knowledge-graph
+  - rag
+markdown: >-
+  ## Overview
+
+
+  Neo4j vector search enables GraphRAG applications combining graph structure
+  with semantic search.
+
+
+  ## Features
+
+
+  - Store vectors on nodes
+
+  - Cypher query integration
+
+  - Relationship-aware retrieval
+
+
+  ## Availability
+
+
+  Neo4j 5.x
+brand: Neo4j
+updated_at: 2026-03-20 13:13

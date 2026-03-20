@@ -1,0 +1,42 @@
+name: Hybrid Search Techniques
+description: Best practices for combining vector and keyword search using RRF
+  and weighted fusion for improved retrieval accuracy in RAG systems.
+source_url: https://www.assembled.com/blog/better-rag-results-with-reciprocal-rank-fusion-and-hybrid-search
+category: Concepts & Definitions
+tags:
+  - hybrid-search
+  - best-practices
+  - rag
+markdown: >-
+  ## Overview
+
+
+  Hybrid search combines vector and keyword search for better accuracy than
+  either alone.
+
+
+  ## Fusion Methods
+
+
+  - Reciprocal Rank Fusion (RRF)
+
+  - Weighted combination
+
+  - Reranking
+
+
+  ## Best Practices
+
+
+  - Start with RRF
+
+  - 60-40 vector-keyword weight
+
+  - Apply reranking
+
+
+  ## Performance
+
+
+  10-30% recall improvement
+updated_at: 2026-03-20 13:13

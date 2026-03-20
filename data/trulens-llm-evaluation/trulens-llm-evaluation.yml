@@ -1,0 +1,98 @@
+name: TruLens
+description: An evaluation framework for LLM applications including RAG systems,
+  providing observability, debugging, and guardrails. TruLens tracks retrieval
+  quality, LLM performance, and hallucinations with detailed tracing.
+source_url: https://www.trulens.org/
+category: Tools
+tags:
+  - evaluation
+  - observability
+  - rag
+  - debugging
+markdown: >-
+  ## Overview
+
+
+  TruLens is a comprehensive evaluation and observability platform for LLM
+  applications, with strong support for RAG system assessment and debugging.
+
+
+  ## Core Features
+
+
+  **Evaluation**:
+
+  - Context relevance scoring
+
+  - Groundedness detection
+
+  - Answer relevance metrics
+
+  - Custom feedback functions
+
+
+  **Observability**:
+
+  - Trace all components
+
+  - Track retrieval paths
+
+  - Monitor LLM calls
+
+  - Visualize data flow
+
+
+  **Guardrails**:
+
+  - Detect hallucinations
+
+  - Filter inappropriate content
+
+  - Enforce quality thresholds
+
+
+  ## RAG-Specific Features
+
+
+  - Retrieval quality assessment
+
+  - Context utilization tracking
+
+  - Chunk relevance scoring
+
+  - Multi-hop reasoning evaluation
+
+
+  ## Integration
+
+
+  Works with:
+
+  - LangChain
+
+  - LlamaIndex
+
+  - OpenAI
+
+  - Anthropic
+
+  - HuggingFace
+
+
+  ## Use Cases
+
+
+  - Production RAG monitoring
+
+  - Development debugging
+
+  - Quality assurance
+
+  - Performance optimization
+
+
+  ## Availability
+
+
+  Open-source with managed service option
+updated_at: 2026-03-20 13:13
