@@ -34,9 +34,3 @@
   name: Security & Governance
 - id: vector-database-extensions
   name: Vector Database Extensions
-- id: tools
-  name: Tools
-- id: cloud-managed
-  name: Cloud & Managed
-- id: integrations-extensions
-  name: Integrations & Extensions

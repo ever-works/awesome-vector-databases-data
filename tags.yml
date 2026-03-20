@@ -163,7 +163,7 @@
 - id: data-structure
   name: Data Structure
 - id: nearest-neighbor
-  name: Nearest Neighbor
+  name: nearest neighbor
 - id: spatial-indexing
   name: Spatial Indexing
 - id: metric-space
@@ -175,7 +175,7 @@
 - id: optimization
   name: Optimization
 - id: accuracy
-  name: Accuracy
+  name: accuracy
 - id: weaviate
   name: Weaviate
 - id: examples
@@ -263,7 +263,7 @@
 - id: aws
   name: Aws
 - id: mongodb
-  name: Mongodb
+  name: MongoDB
 - id: openai
   name: Openai
 - id: api
@@ -331,7 +331,7 @@
 - id: julia
   name: Julia
 - id: product-quantization
-  name: Product Quantization
+  name: product quantization
 - id: vector-quantization
   name: vector quantization
 - id: parallel
@@ -656,37 +656,31 @@
   name: Context Engine
 - id: federated-search
   name: Federated Search
-- id: automated
-  name: Automated
-- id: storage
-  name: Storage
-- id: developer-tools
-  name: Developer Tools
-- id: global
-  name: Global
+- id: data-processing
+  name: Data Processing
+- id: distributed-computing
+  name: Distributed Computing
+- id: data-preparation
+  name: Data Preparation
+- id: embedding-model
+  name: Embedding Model
+- id: visual-retrieval
+  name: Visual Retrieval
+- id: document-ai
+  name: Document Ai
+- id: llm-optimization
+  name: Llm Optimization
+- id: on-device
+  name: On Device
+- id: embedding-inference
+  name: Embedding Inference
 - id: onnx
   name: Onnx
-- id: diversity
-  name: Diversity
-- id: large-model
-  name: Large Model
-- id: parsing
-  name: Parsing
-- id: theory
-  name: Theory
-- id: training
-  name: Training
-- id: code
-  name: Code
-- id: database
-  name: Database
-- id: distillation
-  name: Distillation
-- id: pricing
-  name: Pricing
-- id: benchmarking
-  name: Benchmarking
-- id: data-pipeline
-  name: Data Pipeline
-- id: ingestion
-  name: Ingestion
+- id: workshop
+  name: Workshop
+- id: academic
+  name: Academic
+- id: agent-memory
+  name: Agent Memory
+- id: rest-api
+  name: Rest Api
