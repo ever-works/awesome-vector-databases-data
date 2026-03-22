@@ -23,7 +23,7 @@
 - id: full-text-search
   name: full-text search
 - id: rag
-  name: Rag
+  name: RAG
 - id: graph-database
   name: Graph Database
 - id: enterprise
@@ -105,7 +105,7 @@
 - id: milvus
   name: Milvus
 - id: postgresql
-  name: Postgresql
+  name: PostgreSQL
 - id: gpu-acceleration
   name: Gpu Acceleration
 - id: python
@@ -155,7 +155,7 @@
 - id: dynamic-data
   name: dynamic data
 - id: llm
-  name: Llm
+  name: LLM
 - id: proprietary
   name: proprietary
 - id: high-performance
@@ -193,7 +193,7 @@
 - id: topic-modeling
   name: topic modeling
 - id: nlp
-  name: Nlp
+  name: NLP
 - id: directory
   name: directory
 - id: learning
@@ -531,7 +531,7 @@
 - id: format
   name: Format
 - id: colbert
-  name: Colbert
+  name: ColBERT
 - id: streaming
   name: Streaming
 - id: ai-gateway
@@ -567,11 +567,11 @@
 - id: browser
   name: Browser
 - id: webassembly
-  name: Webassembly
+  name: WebAssembly
 - id: graph
   name: Graph
 - id: bm25
-  name: Bm25
+  name: BM25
 - id: zero-shot
   name: Zero Shot
 - id: leaderboard
@@ -684,3 +684,31 @@
   name: Agent Memory
 - id: rest-api
   name: Rest Api
+- id: placeholder
+  name: Placeholder
+- id: approximate
+  name: Approximate
+- id: challenge
+  name: Challenge
+- id: system-design
+  name: System Design
+- id: prompt-engineering
+  name: Prompt Engineering
+- id: automated
+  name: Automated
+- id: latency
+  name: Latency
+- id: efficient
+  name: Efficient
+- id: memory-optimization
+  name: Memory Optimization
+- id: fundamental
+  name: Fundamental
+- id: saas
+  name: SaaS
+- id: maintenance
+  name: Maintenance
+- id: mathematics
+  name: Mathematics
+- id: quality
+  name: Quality
