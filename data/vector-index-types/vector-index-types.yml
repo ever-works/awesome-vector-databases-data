@@ -1,90 +1,276 @@
 name: Vector Index Types
-description: Overview of indexing structures for approximate nearest neighbor
-  search including HNSW (graph-based), IVF (clustering), LSH (hashing), and
-  tree-based approaches.
-source_url: https://superlinked.com/vectorhub/articles/vector-indexes
+description: Different indexing strategies for vector databases including HNSW,
+  IVF, LSH, and flat indexes. Each type offers different trade-offs between
+  query speed, build time, accuracy, and memory usage. Understanding index types
+  is crucial for optimizing vector database performance at scale.
+source_url: https://zilliz.com/learn/vector-index
 category: Concepts & Definitions
 tags:
   - indexing
+  - performance
   - algorithms
-  - ann
 markdown: >-
   ## Overview
 
 
-  Vector indexes accelerate similarity search by organizing vectors for
-  efficient retrieval, trading perfect accuracy for speed.
+  Vector indexes are data structures that enable fast approximate nearest
+  neighbor (ANN) search. Different index types offer various trade-offs between
+  speed, accuracy, memory, and update capability.
 
 
-  ## Index Categories
+  ## Index Type Categories
 
 
-  ### Graph-Based
+  ### Graph-Based Indexes
 
 
-  - **HNSW**: Hierarchical navigable small world
+  **HNSW (Hierarchical Navigable Small World)**
 
-  - **NSG**: Navigable Small World Graph
+  - **Best For**: General-purpose, high recall
 
-  - **Vamana**: DiskANN algorithm
+  - **Pros**: Excellent speed/accuracy, fast queries
 
+  - **Cons**: High memory usage, slow builds
 
-  Best for: High recall, fast queries
+  - **Used By**: Weaviate, Qdrant, Milvus
 
-
-  ### Clustering-Based
-
-
-  - **IVF**: Inverted File Index
-
-  - **IVF-PQ**: With product quantization
-
-  - **IVF-FLAT**: No compression
+  - **Typical Recall**: 95-99% at high speed
 
 
-  Best for: Large scale, memory efficiency
+  **NSW (Navigable Small World)**
+
+  - **Best For**: Smaller datasets
+
+  - **Pros**: Simpler than HNSW
+
+  - **Cons**: Slower than HNSW
+
+  - **Used By**: Older implementations
 
 
-  ### Hash-Based
+  ### Clustering-Based Indexes
 
 
-  - **LSH**: Locality-Sensitive Hashing
+  **IVF (Inverted File)**
 
-  - **Random Projection**: Dimensionality reduction
+  - **Best For**: Large datasets, lower memory
 
+  - **Pros**: Memory efficient, good for static data
 
-  Best for: Very high dimensions, streaming data
+  - **Cons**: Slower than HNSW, requires training
 
+  - **Used By**: FAISS, Pinecone
 
-  ### Tree-Based
-
-
-  - **Annoy**: Approximate Nearest Neighbors Oh Yeah
-
-  - **KD-Tree**: K-dimensional trees
-
-  - **Ball-Tree**: Metric trees
+  - **Parameters**: nlist (clusters), nprobe (search)
 
 
-  Best for: Low-medium dimensions
+  **IVF-PQ (Inverted File + Product Quantization)**
+
+  - **Best For**: Huge datasets, memory constraints
+
+  - **Pros**: 8-64x compression, scalable
+
+  - **Cons**: Lower accuracy than non-compressed
+
+  - **Used By**: FAISS, Milvus
+
+  - **Compression**: Down to 1/64th original size
 
 
-  ## Selection Criteria
+  ### Tree-Based Indexes
 
 
-  - **Dataset size**: Billions vs millions
+  **Annoy (Approximate Nearest Neighbors Oh Yeah)**
 
-  - **Dimensionality**: Low vs high
+  - **Best For**: Read-heavy workloads, static data
 
-  - **Query latency**: Real-time vs batch
+  - **Pros**: Memory-mapped files, no RAM needed
 
-  - **Memory constraints**: RAM availability
+  - **Cons**: Slower than HNSW
 
-  - **Update frequency**: Static vs dynamic
+  - **Used By**: Spotify (legacy), some specialized apps
+
+
+  **KD-Trees / Ball Trees**
+
+  - **Best For**: Low dimensions (<20)
+
+  - **Pros**: Simple, interpretable
+
+  - **Cons**: Ineffective in high dimensions
+
+  - **Used By**: Sklearn, traditional ML
+
+
+  ### Hash-Based Indexes
+
+
+  **LSH (Locality-Sensitive Hashing)**
+
+  - **Best For**: Very high dimensions (>1000)
+
+  - **Pros**: Sublinear query time
+
+  - **Cons**: Lower accuracy, complex tuning
+
+  - **Used By**: Specialized applications
+
+
+  ### Disk-Based Indexes
+
+
+  **DiskANN**
+
+  - **Best For**: Billion-scale, SSD storage
+
+  - **Pros**: Scales beyond RAM, fast
+
+  - **Cons**: Requires SSD, complex
+
+  - **Used By**: Azure Cosmos DB, pgvectorscale
+
+
+  ### Flat (Brute Force)
+
+
+  **Flat Index**
+
+  - **Best For**: Small datasets (<10K), 100% recall
+
+  - **Pros**: Perfect accuracy, simple
+
+  - **Cons**: O(n) search time
+
+  - **Used By**: All databases (baseline)
+
+
+  ## Comparison Matrix
+
+
+  | Index | Query Speed | Build Time | Memory | Accuracy | Updates |
+
+  |-------|-------------|------------|--------|----------|--------|
+
+  | HNSW | ⭐⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+
+  | IVF | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ |
+
+  | IVF-PQ | ⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐ |
+
+  | Annoy | ⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐ |
+
+  | DiskANN | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ |
+
+  | Flat | ⭐ | ⭐⭐⭐⭐⭐ | ⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+
+
+  ## Selection Guide
+
+
+  ### By Dataset Size
+
+
+  **Small (<100K vectors)**
+
+  - Use: Flat or HNSW
+
+  - Reason: Simplicity, speed
+
+
+  **Medium (100K-10M vectors)**
+
+  - Use: HNSW
+
+  - Reason: Best balance
+
+
+  **Large (10M-100M vectors)**
+
+  - Use: HNSW or IVF-PQ
+
+  - Reason: Performance vs memory
+
+
+  **Huge (>100M vectors)**
+
+  - Use: IVF-PQ or DiskANN
+
+  - Reason: Scale beyond RAM
+
+
+  ### By Use Case
+
+
+  **High Accuracy Critical**
+
+  - Use: HNSW (with high ef_search)
+
+  - Alternative: Flat (if small enough)
+
+
+  **Memory Constrained**
+
+  - Use: IVF-PQ or DiskANN
+
+  - Compression essential
+
+
+  **Fast Writes/Updates**
+
+  - Use: HNSW
+
+  - Avoid: IVF (requires retraining)
+
+
+  **Read-Only, Static**
+
+  - Use: Annoy or IVF
+
+  - Memory-mapped files
+
+
+  ## Key Parameters
+
+
+  ### HNSW
+
+  - `M`: Links per node (16-64 typical)
+
+  - `ef_construction`: Build quality (100-500)
+
+  - `ef_search`: Query recall (50-500)
+
+
+  ### IVF
+
+  - `nlist`: Number of clusters (√n typical)
+
+  - `nprobe`: Clusters to search (1-100)
+
+
+  ### IVF-PQ
+
+  - `nlist`: Cluster count
+
+  - `m`: Subvector count (8-64)
+
+  - `nbits`: Bits per code (8 typical)
+
+
+  ## Hybrid Approaches
+
+
+  Some databases use multiple indexes:
+
+  - HNSW + Flat (exact reranking)
+
+  - IVF + PQ (clustering + compression)
+
+  - HNSW + Quantization (speed + memory)
 
 
   ## Pricing
 
 
-  Algorithms, no licensing.
-updated_at: 2026-03-11 12:14
+  Index type impacts compute and storage costs.
+updated_at: 2026-03-22 13:28

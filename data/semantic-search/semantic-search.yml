@@ -1,96 +1,160 @@
 name: Semantic Search
-description: Search technique understanding meaning and context rather than
-  exact keyword matching. Uses vector embeddings to find semantically similar
-  content even with different wording.
-source_url: https://www.pinecone.io/learn/semantic-search/
+description: A search approach that understands the meaning and intent of
+  queries rather than just matching keywords. Using vector embeddings and
+  similarity measures, semantic search finds conceptually relevant results even
+  when exact terms don't match, enabling natural language queries and
+  cross-lingual retrieval.
+source_url: https://en.wikipedia.org/wiki/Semantic_search
 category: Concepts & Definitions
 tags:
   - search
+  - NLP
   - embeddings
-  - semantics
 markdown: >-
   ## Overview
 
 
-  Semantic search understands query intent and content meaning, retrieving
-  relevant results based on semantic similarity rather than keyword matching.
+  Semantic search finds results based on meaning and context rather than exact
+  keyword matching. By representing queries and documents as vector embeddings,
+  semantic search captures conceptual similarity and enables more intuitive,
+  natural language search experiences.
 
 
   ## How It Works
 
 
-  1. **Encode**: Convert queries and documents to vector embeddings
+  1. **Encode Query**: Convert search query to vector embedding
 
-  2. **Compare**: Compute similarity (typically cosine)
+  2. **Encode Documents**: Pre-compute embeddings for all documents
 
-  3. **Rank**: Order by relevance
+  3. **Similarity Search**: Find documents with closest embeddings (cosine
+  similarity, etc.)
 
-  4. **Return**: Top-k most similar results
-
-
-  ## vs Keyword Search
+  4. **Rank Results**: Return top-k most similar documents
 
 
-  ### Keyword Search (BM25)
-
-  - Exact term matching
-
-  - Misses synonyms
-
-  - Word-level matching
-
-  - Fast and interpretable
+  ## Key Advantages
 
 
-  ### Semantic Search
+  - **Conceptual Matching**: Finds semantically similar content, not just
+  keywords
 
-  - Meaning-based matching
+  - **Synonym Handling**: Automatically understands different ways to express
+  ideas
 
-  - Handles paraphrases
+  - **Natural Language**: Works with conversational queries
 
-  - Context-aware
+  - **Cross-Lingual**: Can match across languages with multilingual models
 
-  - Finds conceptually similar content
-
-
-  ## Components
+  - **Context Aware**: Considers word sense and context
 
 
-  - **Embedding Model**: Converts text to vectors
+  ## Example
 
-  - **Vector Database**: Stores and searches embeddings
 
-  - **Similarity Metric**: Measures relevance
+  Traditional keyword search:
+
+  - Query: "best laptop for programming"
+
+  - Matches: Documents with exact words "laptop" and "programming"
+
+
+  Semantic search:
+
+  - Query: "best laptop for programming"
+
+  - Matches: Documents about "developer machines," "coding computers," "software
+  engineering workstations"
 
 
   ## Use Cases
 
 
-  - Document search
+  - **Enterprise Search**: Finding relevant documents in knowledge bases
 
-  - Question answering
+  - **E-commerce**: Product discovery beyond keyword matching
 
-  - Product recommendations
+  - **Customer Support**: Matching questions to similar resolved tickets
 
-  - Content discovery
+  - **Academic Research**: Finding conceptually related papers
 
-  - RAG systems
+  - **Content Recommendation**: Suggesting similar articles or videos
+
+  - **Legal/Medical**: Finding precedents or similar cases
 
 
-  ## Best Practices
+  ## Implementation Components
 
 
-  - Use quality embedding models
+  ### Embedding Models
 
-  - Combine with keyword search (hybrid)
+  - Sentence Transformers
 
-  - Fine-tune for domain
+  - OpenAI embeddings
 
-  - Monitor and iterate
+  - Cohere embed
+
+  - BGE, GTE, E5 models
+
+
+  ### Vector Databases
+
+  - Pinecone, Weaviate, Qdrant
+
+  - Elasticsearch, OpenSearch
+
+  - PostgreSQL with pgvector
+
+
+  ### RAG Integration
+
+  - LangChain
+
+  - LlamaIndex
+
+  - Haystack
+
+
+  ## Hybrid Approach
+
+
+  Best practice combines semantic + keyword search:
+
+  - BM25 for exact term matching
+
+  - Vector search for semantic similarity
+
+  - Reciprocal Rank Fusion to merge results
+
+
+  ## Limitations
+
+
+  - Requires good embedding model
+
+  - Computational overhead for embeddings
+
+  - May miss exact matches if not hybrid
+
+  - Quality depends on training data
+
+  - Less effective for rare/technical terms
+
+
+  ## Performance Considerations
+
+
+  - Pre-compute document embeddings offline
+
+  - Use ANN indexes for fast retrieval
+
+  - Cache frequently used query embeddings
+
+  - Consider quantization for storage
 
 
   ## Pricing
 
 
-  Concept, implemented via embeddings + vector DB.
-updated_at: 2026-03-11 12:14
+  Varies by embedding API and vector database platform.
+updated_at: 2026-03-22 13:28

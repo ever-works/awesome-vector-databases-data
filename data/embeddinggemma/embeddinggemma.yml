@@ -1,414 +1,98 @@
 name: EmbeddingGemma
-description: Google's 308M parameter multilingual text embedding model based on
-  Gemma 3 that runs in less than 200MB RAM with quantization, generates
-  embeddings in under 22ms on EdgeTPU, and ranks highest on MTEB for models
-  under 500M parameters.
-source_url: https://ai.google.dev/gemma/docs/embeddinggemma
+description: Google's text embedding model based on the Gemma architecture,
+  available through Ollama and other platforms. Designed for generating
+  high-quality embeddings for semantic search, retrieval, and various NLP tasks
+  with efficient resource utilization.
+source_url: https://ollama.com/library
 category: Machine Learning Models
 tags:
-  - embedding-model
-  - on-device
-  - multilingual
-featured: true
+  - embeddings
+  - Google
+  - efficient
 markdown: >-
   ## Overview
 
 
-  EmbeddingGemma is Google's 308M parameter multilingual text embedding model
-  based on Gemma 3, designed specifically for on-device and edge deployments
-  with exceptional efficiency.
+  EmbeddingGemma is a text embedding model from Google based on the Gemma model
+  architecture. It's designed to generate high-quality vector embeddings for
+  various NLP tasks.
 
 
-  ## Key Performance Metrics
+  ## Key Features
 
 
-  - **Highest Ranking**: #1 open multilingual text embedding model under 500M on
-  MTEB
+  - **Gemma Architecture**: Built on Google's efficient Gemma foundation
 
-  - **Ultra Lightweight**: Runs in less than 200MB RAM with quantization
+  - **Ollama Integration**: Easy local deployment through Ollama
 
-  - **Fast Inference**: Less than 22ms on EdgeTPU
+  - **Production Ready**: Designed for real-world applications
 
-  - **Context Window**: 2,048 tokens
-
-  - **Languages**: 100+ languages supported
+  - **Resource Efficient**: Optimized for performance with reasonable
+  computational requirements
 
 
-  ## Technical Architecture
+  ## Technical Specifications
 
 
-  ### Modified Gemma 3 Backbone
-
-  EmbeddingGemma builds on Gemma 3 but with key modifications:
-
-  - **Bi-directional Attention**: Instead of causal (one-way) attention
-
-  - **Encoder Architecture**: Effectively converts decoder to encoder
-
-  - **Optimized for Embeddings**: Purpose-built for representation learning
+  The model generates dense vector representations suitable for:
 
 
-  ### Matryoshka Representation Learning
+  - Semantic similarity search
 
-  - Customize output dimensions from 768 to 128
+  - Document retrieval
 
-  - Trade speed and storage for minor accuracy
+  - Clustering and classification
 
-  - Flexible deployment scenarios
+  - RAG applications
 
-  - Runtime dimension selection
-
-
-  ## On-Device Excellence
-
-
-  ### Resource Efficiency
-
-  - **RAM**: Under 200MB with quantization
-
-  - **Speed**: Sub-22ms inference on EdgeTPU
-
-  - **Power**: Optimized for battery life
-
-  - **Storage**: Compact model size
-
-
-  ### Edge Computing Optimized
-
-  - Mobile phone deployment
-
-  - IoT devices
-
-  - Edge AI accelerators
-
-  - Embedded systems
+  - Question answering systems
 
 
   ## Use Cases
 
 
-  ### Mobile RAG Pipelines
+  - Building RAG pipelines
 
-  - Works with Gemma 3n for on-device RAG
+  - Semantic search applications
 
-  - No internet connection required
+  - Content recommendation
 
-  - Complete privacy preservation
+  - Document similarity analysis
 
-  - Real-time processing
-
-
-  ### On-Device Search
-
-  - Search personal files
-
-  - Query text messages
-
-  - Find emails
-
-  - Search notifications
-
-  - All without internet connectivity
-
-
-  ### Semantic Applications
-
-  - Document similarity
-
-  - Duplicate detection
-
-  - Content classification
-
-  - Recommendation systems
+  - Cross-lingual retrieval
 
 
   ## Integration
 
 
-  ### Sentence Transformers
+  - Available through Ollama for local inference
 
-  Native support in sentence-transformers:
+  - Compatible with standard embedding frameworks
 
-  ```python
+  - Works with vector databases like Milvus, Qdrant, and Weaviate
 
-  from sentence_transformers import SentenceTransformer
+  - Integration with LangChain and LlamaIndex
 
 
-  model = SentenceTransformer("google/embeddinggemma-300m")
+  ## Performance
 
-  embeddings = model.encode(["Hello world"])
 
-  ```
+  EmbeddingGemma provides a good balance between embedding quality and
+  computational efficiency, making it suitable for both development and
+  production environments.
 
 
-  ### Ollama
+  ## Deployment
 
-  Available through Ollama for easy deployment:
 
-  ```bash
+  Can be deployed locally using Ollama or through cloud platforms that support
+  Google's model ecosystem.
 
-  ollama pull embeddinggemma
 
-  ```
+  ## Pricing
 
 
-  ### Hugging Face
-
-  Direct access via Transformers:
-
-  ```python
-
-  from transformers import AutoModel
-
-
-  model = AutoModel.from_pretrained("google/embeddinggemma-300m")
-
-  ```
-
-
-  ## Quantization Support
-
-
-  ### Available Quantization
-
-  - INT8 for balanced performance
-
-  - INT4 for ultra-low memory
-
-  - Dynamic quantization options
-
-  - Post-training quantization
-
-
-  ### Benefits
-
-  - Reduced model size
-
-  - Lower memory footprint
-
-  - Faster inference
-
-  - Minimal accuracy loss
-
-
-  ## Multilingual Capabilities
-
-
-  - Trained on 100+ languages
-
-  - Strong cross-lingual transfer
-
-  - Unified embedding space
-
-  - Zero-shot language support
-
-
-  ## Hardware Acceleration
-
-
-  ### EdgeTPU
-
-  - Optimized for Google Edge TPU
-
-  - 22ms inference time
-
-  - Low power consumption
-
-  - High throughput
-
-
-  ### Mobile GPUs
-
-  - Android GPU support
-
-  - iOS Metal optimization
-
-  - Qualcomm NPU compatibility
-
-  - Mali GPU support
-
-
-  ### CPU
-
-  - Efficient CPU inference
-
-  - SIMD optimizations
-
-  - Multi-threading support
-
-  - Cross-platform compatibility
-
-
-  ## Comparison to Alternatives
-
-
-  ### vs. Cloud-Based Models
-
-  - **Privacy**: All data stays on device
-
-  - **Latency**: No network roundtrip
-
-  - **Cost**: No API fees
-
-  - **Availability**: Works offline
-
-
-  ### vs. Larger Models
-
-  - **Efficiency**: 308M parameters vs 7B+
-
-  - **Speed**: Much faster inference
-
-  - **Resources**: Fits on mobile devices
-
-  - **Quality**: Competitive on MTEB
-
-
-  ## Gemma 3n Integration
-
-
-  Designed to work seamlessly with Gemma 3n:
-
-  - Complete on-device RAG stack
-
-  - Embedding generation + LLM inference
-
-  - No cloud dependency
-
-  - Full privacy guarantee
-
-
-  ## Deployment Options
-
-
-  ### Mobile Applications
-
-  - Android apps (Java/Kotlin)
-
-  - iOS apps (Swift)
-
-  - React Native integration
-
-  - Flutter support
-
-
-  ### Edge Devices
-
-  - Raspberry Pi
-
-  - NVIDIA Jetson
-
-  - Google Coral
-
-  - Custom hardware
-
-
-  ### Embedded Systems
-
-  - Industrial IoT
-
-  - Smart cameras
-
-  - Voice assistants
-
-  - Wearables
-
-
-  ## Model Versions
-
-
-  - **300M Base**: Standard version
-
-  - **Quantized Variants**: INT8, INT4
-
-  - **Fine-tuned Models**: Domain-specific versions
-
-  - **Instruction-tuned**: Coming soon
-
-
-  ## Training and Fine-Tuning
-
-
-  - Trained on multilingual corpus
-
-  - Contrastive learning objective
-
-  - Hard negative mining
-
-  - Domain adaptation possible
-
-
-  ## Performance Benchmarks
-
-
-  ### MTEB Leaderboard
-
-  - Highest under 500M parameters
-
-  - Strong multilingual performance
-
-  - Consistent across tasks
-
-  - Competitive with larger models
-
-
-  ### Speed Benchmarks
-
-  - EdgeTPU: <22ms
-
-  - Mobile CPU: <100ms
-
-  - Server CPU: <10ms
-
-  - Batch processing optimized
-
-
-  ## Privacy and Security
-
-
-  - **On-Device Processing**: Data never leaves device
-
-  - **No Network Calls**: Complete offline capability
-
-  - **GDPR Compliant**: No data transmission
-
-  - **Secure**: No cloud vulnerabilities
-
-
-  ## Licensing
-
-
-  - Open source
-
-  - Apache 2.0 license
-
-  - Free for commercial use
-
-  - Community supported
-
-
-  ## Release Timeline
-
-
-  - **September 2025**: Initial release
-
-  - **Q4 2025**: Optimizations and improvements
-
-  - **2026**: Continued development and support
-
-
-  ## Future Roadmap
-
-
-  - More quantization options
-
-  - Additional language support
-
-  - Domain-specific fine-tunes
-
-  - Hardware optimizations
-
-  - Integration with more frameworks
+  Free and open-source under Google's model licensing.
 brand: Google
-brand_logo_url: https://www.gstatic.com/devrel-devsite/prod/v3f0b1d2bb35726c82e8b73c6c20bf4f3a8755655fb7e4e35f49f235ecf9da138/developers/images/touchicon-180.png
-updated_at: 2026-03-20 13:25
+brand_logo_url: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+updated_at: 2026-03-22 13:28

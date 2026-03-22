@@ -1,110 +1,209 @@
 name: Approximate Nearest Neighbors (ANN)
-description: Family of algorithms trading perfect accuracy for speed in
-  high-dimensional similarity search. Enables sub-linear query time with 90%+
-  recall on billion-scale datasets.
-source_url: https://www.geeksforgeeks.org/machine-learning/approximate-nearest-neighbor-ann-search/
+description: Algorithms and techniques for finding nearest neighbors in
+  high-dimensional vector spaces with speed-accuracy trade-offs. ANN methods
+  like HNSW, IVF, and DiskANN enable billion-scale vector search by sacrificing
+  small amounts of recall for massive performance gains over exact search.
+source_url: https://en.wikipedia.org/wiki/Nearest_neighbor_search#Approximate_nearest_neighbor
 category: Concepts & Definitions
 tags:
   - algorithm
-  - ann
-  - search
+  - approximate
+  - scalability
 markdown: >-
   ## Overview
 
 
-  Approximate Nearest Neighbors (ANN) algorithms find near-neighbors quickly by
-  sacrificing perfect accuracy for speed, essential for large-scale vector
-  search.
+  Approximate Nearest Neighbor (ANN) search is a family of algorithms that find
+  nearest neighbors with high probability while being orders of magnitude faster
+  than exact search. ANN is essential for large-scale vector search
+  applications.
 
 
   ## Why ANN?
 
 
-  ### Exact Search Problems
+  Exact nearest neighbor search has O(n×d) complexity:
 
-  - Linear scan: O(N) complexity
+  - n = dataset size
 
-  - Infeasible for billions of vectors
+  - d = vector dimensions
 
-  - Prohibitive latency
-
-
-  ### ANN Solution
-
-  - Sub-linear search: O(log N) or better
-
-  - 90-99% recall typical
-
-  - Millisecond latencies
+  - Impractical for >1M vectors
 
 
-  ## Algorithm Categories
+  ## ANN achieves O(log n) or better by:
+
+  - Building specialized index structures
+
+  - Searching a subset of the dataset
+
+  - Accepting near-perfect (95-99%) recall
 
 
-  ### Graph-Based
-
-  - HNSW, NSW, Vamana
-
-  - Best recall-speed tradeoff
+  ## Major ANN Approaches
 
 
-  ### Clustering
+  ### Graph-Based Methods
 
-  - IVF, SPANN
+  **HNSW (Hierarchical Navigable Small World)**
 
-  - Partitions space
+  - Most popular ANN algorithm
+
+  - Excellent recall-speed trade-off
+
+  - Fast queries, moderate build time
+
+  - Used in: Weaviate, Qdrant, Milvus
 
 
-  ### Hashing
+  **DiskANN/Vamana**
 
-  - LSH
+  - SSD-optimized graph index
 
-  - Very high dimensions
+  - Billion-scale capability
+
+  - Used in: Azure Cosmos DB, PostgreSQL
 
 
-  ### Trees
+  ### Clustering-Based Methods
 
-  - Annoy, KD-Tree
+  **IVF (Inverted File Index)**
 
-  - Lower dimensions
+  - Partitions space into clusters
+
+  - Fast for very large datasets
+
+  - Used in: Pinecone, FAISS
+
+
+  **IVF-PQ (with Product Quantization)**
+
+  - Combines clustering + compression
+
+  - Memory-efficient
+
+  - Used in: FAISS, Milvus
+
+
+  ### Tree-Based Methods
+
+  **Annoy (Approximate Nearest Neighbors Oh Yeah)**
+
+  - Random projection trees
+
+  - Memory-efficient
+
+  - Created by Spotify
+
+
+  **KD-trees / Ball trees**
+
+  - Classical spatial data structures
+
+  - Less effective in high dimensions
+
+
+  ### Hash-Based Methods
+
+  **LSH (Locality-Sensitive Hashing)**
+
+  - Hash similar items to same buckets
+
+  - Sublinear query time
+
+  - Good for very high dimensions
 
 
   ## Key Metrics
 
 
-  - **Recall**: % of true neighbors found
+  ### Recall
 
-  - **Latency**: Query time
+  Fraction of true nearest neighbors found:
 
-  - **Throughput**: Queries per second
+  - 100% = exact search
 
-  - **Memory**: Storage requirements
+  - 95-99% = typical ANN target
 
-
-  ## Tradeoffs
-
-
-  - Accuracy vs Speed
-
-  - Memory vs Performance
-
-  - Build time vs Query time
-
-  - Update efficiency
+  - 90% = fast but lower quality
 
 
-  ## Benchmarks
+  ### Queries Per Second (QPS)
+
+  - Throughput measure
+
+  - Higher is better
+
+  - Depends on recall target
 
 
-  - ANN-Benchmarks
+  ### Build Time
 
-  - Big-ANN Challenge
+  - Time to create index
 
-  - MTEB (for embeddings)
+  - One-time cost
+
+  - Varies widely by algorithm
+
+
+  ## Recall-Speed Trade-off
+
+
+  All ANN algorithms allow tuning:
+
+  - Higher recall → slower queries
+
+  - Lower recall → faster queries
+
+  - Configure per application needs
+
+
+  Example HNSW parameters:
+
+  - ef_search: controls search quality
+
+  - Higher ef_search = better recall, slower
+
+
+  ## Benchmarking
+
+
+  **ANN-Benchmarks.com**
+
+  - Standard comparison framework
+
+  - Tests algorithms on real datasets
+
+  - Shows recall vs QPS curves
+
+
+  **Key findings**:
+
+  - HNSW: best overall
+
+  - ScaNN: strong for specific configs
+
+  - IVF-PQ: memory-constrained scenarios
+
+
+  ## Choosing an ANN Algorithm
+
+
+  Consider:
+
+  - Dataset size (millions vs billions)
+
+  - Query latency requirements
+
+  - Memory constraints
+
+  - Update frequency
+
+  - Recall requirements
 
 
   ## Pricing
 
 
-  Algorithms, no licensing.
-updated_at: 2026-03-11 12:14
+  Core technology; implementations vary by platform.
+updated_at: 2026-03-22 13:28
