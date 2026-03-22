@@ -23,7 +23,7 @@
 - id: full-text-search
   name: full-text search
 - id: rag
-  name: RAG
+  name: Rag
 - id: graph-database
   name: Graph Database
 - id: enterprise
@@ -105,7 +105,7 @@
 - id: milvus
   name: Milvus
 - id: postgresql
-  name: PostgreSQL
+  name: Postgresql
 - id: gpu-acceleration
   name: Gpu Acceleration
 - id: python
@@ -155,7 +155,7 @@
 - id: dynamic-data
   name: dynamic data
 - id: llm
-  name: LLM
+  name: Llm
 - id: proprietary
   name: proprietary
 - id: high-performance
@@ -193,7 +193,7 @@
 - id: topic-modeling
   name: topic modeling
 - id: nlp
-  name: NLP
+  name: Nlp
 - id: directory
   name: directory
 - id: learning
@@ -245,7 +245,7 @@
 - id: java
   name: Java
 - id: extension
-  name: extension
+  name: Extension
 - id: relational-database
   name: relational database
 - id: vector-store
@@ -531,7 +531,7 @@
 - id: format
   name: Format
 - id: colbert
-  name: ColBERT
+  name: Colbert
 - id: streaming
   name: Streaming
 - id: ai-gateway
@@ -567,11 +567,11 @@
 - id: browser
   name: Browser
 - id: webassembly
-  name: WebAssembly
+  name: Webassembly
 - id: graph
   name: Graph
 - id: bm25
-  name: BM25
+  name: Bm25
 - id: zero-shot
   name: Zero Shot
 - id: leaderboard
@@ -684,31 +684,21 @@
   name: Agent Memory
 - id: rest-api
   name: Rest Api
-- id: placeholder
-  name: Placeholder
-- id: approximate
-  name: Approximate
-- id: challenge
-  name: Challenge
-- id: system-design
-  name: System Design
+- id: chinese
+  name: Chinese
+- id: client-library
+  name: Client Library
+- id: chroma
+  name: Chroma
+- id: faiss
+  name: Faiss
+- id: text-to-sql
+  name: Text To Sql
+- id: experiment-tracking
+  name: Experiment Tracking
 - id: prompt-engineering
   name: Prompt Engineering
-- id: automated
-  name: Automated
-- id: latency
-  name: Latency
-- id: efficient
-  name: Efficient
-- id: memory-optimization
-  name: Memory Optimization
-- id: fundamental
-  name: Fundamental
-- id: saas
-  name: SaaS
-- id: maintenance
-  name: Maintenance
-- id: mathematics
-  name: Mathematics
-- id: quality
-  name: Quality
+- id: model-serving
+  name: Model Serving
+- id: inference
+  name: Inference
