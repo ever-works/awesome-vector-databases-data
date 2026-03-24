@@ -175,7 +175,7 @@
 - id: optimization
   name: Optimization
 - id: accuracy
-  name: accuracy
+  name: Accuracy
 - id: weaviate
   name: Weaviate
 - id: examples
@@ -702,3 +702,99 @@
   name: Model Serving
 - id: inference
   name: Inference
+- id: multi-agent
+  name: Multi Agent
+- id: event-driven
+  name: Event Driven
+- id: async
+  name: Async
+- id: protocol
+  name: Protocol
+- id: ide
+  name: Ide
+- id: orchestration
+  name: Orchestration
+- id: coordination
+  name: Coordination
+- id: sovereign-ai
+  name: Sovereign Ai
+- id: sandbox
+  name: Sandbox
+- id: perpetual
+  name: Perpetual
+- id: microvm
+  name: Microvm
+- id: llm-evaluation
+  name: Llm Evaluation
+- id: efficiency
+  name: Efficiency
+- id: code-editor
+  name: Code Editor
+- id: ai-coding
+  name: Ai Coding
+- id: infrastructure
+  name: Infrastructure
+- id: workflow-automation
+  name: Workflow Automation
+- id: agents
+  name: Agents
+- id: virtualization
+  name: Virtualization
+- id: web-scraping
+  name: Web Scraping
+- id: data-extraction
+  name: Data Extraction
+- id: llm-ready
+  name: Llm Ready
+- id: storage-engine
+  name: Storage Engine
+- id: mcp
+  name: Mcp
+- id: graph-vector
+  name: Graph Vector
+- id: containers
+  name: Containers
+- id: stateful
+  name: Stateful
+- id: incremental
+  name: Incremental
+- id: agent-framework
+  name: Agent Framework
+- id: observational-memory
+  name: Observational Memory
+- id: search-api
+  name: Search Api
+- id: gpu
+  name: Gpu
+- id: open-standard
+  name: Open Standard
+- id: mvcc
+  name: Mvcc
+- id: transactions
+  name: Transactions
+- id: local-first
+  name: Local First
+- id: workflow
+  name: Workflow
+- id: modularity
+  name: Modularity
+- id: training
+  name: Training
+- id: minimalist
+  name: Minimalist
+- id: code-first
+  name: Code First
+- id: vector-compute
+  name: Vector Compute
+- id: multi-modal
+  name: Multi Modal
+- id: asmr
+  name: Asmr
+- id: 3d
+  name: 3d
+- id: code-generation
+  name: Code Generation
+- id: multimodal-search
+  name: Multimodal Search
+- id: business-intelligence
+  name: Business Intelligence
