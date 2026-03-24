@@ -1,85 +1,94 @@
 name: StreamingDiskANN
-description: Disk-based vector indexing algorithm from Timescale that extends
-  Microsoft's DiskANN for dynamically updating datasets, enabling terabyte-scale
-  vector search with streaming post-filtering capabilities.
+description: DiskANN-inspired index type in pgvectorscale optimized for
+  disk-based storage with streaming updates, enabling billion-scale vectors with
+  limited memory.
 source_url: https://github.com/timescale/pgvectorscale
-category: Concepts & Definitions
+category: SDKs & Libraries
 tags:
-  - algorithm
-  - disk-based
+  - indexing
+  - diskann
   - postgresql
+featured: false
 markdown: >-
   ## Overview
 
 
-  StreamingDiskANN is a new index type developed by Timescale, inspired by
-  Microsoft's DiskANN algorithm. It's explicitly designed for dynamically
-  changing datasets that update continuously.
+  StreamingDiskANN is a custom index type in pgvectorscale inspired by
+  Microsoft's DiskANN algorithm, optimized for disk-based storage with efficient
+  streaming updates.
 
 
   ## Key Features
 
 
-  - **Disk-Based Storage**: Stores ANN index on disk rather than memory, using
-  SSDs to handle terabytes of vectors
+  - Disk-based index supporting billions of vectors
 
-  - **Streaming Post-Filtering**: Uses get_next() function to continuously
-  retrieve nearest vectors until filter conditions are met
+  - Streaming updates without full rebuilds
 
-  - **No Cutoff**: Unlike traditional ef_search, uses streaming model to
-  potentially traverse entire graph
+  - SSD-optimized for sequential I/O
 
-  - **Dynamic Updates**: Designed for datasets that change continuously
+  - Memory-efficient with configurable cache
+
+  - PostgreSQL-native implementation
+
+
+  ## Architecture
+
+
+  The index uses:
+
+  - Graph-based ANN structure (HNSW-like)
+
+  - Disk layout optimized for SSDs
+
+  - Incremental updates via streaming
+
+  - LRU cache for hot data
+
+  - Background compaction
 
 
   ## Performance
 
 
-  On 50 million Cohere embeddings (768 dimensions), PostgreSQL with
-  pgvectorscale achieves:
+  On 50 million Cohere embeddings:
 
-  - 28x lower p95 latency vs Pinecone's storage optimized index
+  - 471 QPS at 99% recall
 
-  - 16x higher query throughput
+  - 28x lower p95 latency vs Pinecone
 
-  - 99% recall accuracy
+  - 16x higher throughput vs Qdrant
 
-
-  ## Technical Advantages
+  - 75% lower cost when self-hosted
 
 
-  **Cost Efficiency**: Using SSDs enables terabyte-scale storage without
-  prohibitive RAM costs
+  ## Comparison to Alternatives
 
 
-  **Accurate Filtering**: Streaming approach guarantees accurate results even
-  with secondary filters applied
+  - **In-memory HNSW**: Faster but memory-limited
+
+  - **Traditional DiskANN**: Requires full rebuilds
+
+  - **StreamingDiskANN**: Best of both worlds
 
 
-  **PostgreSQL Integration**: Seamlessly integrated via pgvectorscale extension
+  ## Integration
 
 
-  ## Use Cases
+  Seamlessly integrates with PostgreSQL:
 
+  - Standard SQL syntax
 
-  - Large-scale vector search (billions of vectors)
+  - Transaction support
 
-  - Applications with strict memory constraints
+  - pg vector compatibility
 
-  - Filtered vector search scenarios
-
-  - Real-time data ingestion with vector search
-
-
-  ## Implementation
-
-
-  Available through pgvectorscale PostgreSQL extension.
+  - Familiar tooling
 
 
   ## Pricing
 
 
-  Free and open-source (PostgreSQL license).
+  Open-source as part of pgvectorscale.
 brand: Timescale
-updated_at: 2026-03-18 13:02
+updated_at: 2026-03-24 13:36

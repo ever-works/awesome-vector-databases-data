@@ -1,0 +1,85 @@
+name: USD Search NIM
+description: NVIDIA NIM microservice enabling natural language and image-based
+  search through massive libraries of OpenUSD, 3D, and image data for content
+  discovery.
+source_url: https://nvidianews.nvidia.com/news/nvidia-announces-generative-ai-models-and-nim-microservices-for-openusd
+category: LLM Tools
+tags:
+  - 3d
+  - multimodal-search
+  - nvidia
+featured: false
+markdown: >-
+  ## Overview
+
+
+  USD Search NIM is an NVIDIA NIM microservice announced in January 2026 that
+  enables developers to search through massive libraries of OpenUSD, 3D and
+  image data using natural language or image inputs.
+
+
+  ## Capabilities
+
+
+  - Natural language search across 3D assets
+
+  - Image-based similarity search
+
+  - OpenUSD scene search
+
+  - Multi-modal content discovery
+
+  - Integration with asset management systems
+
+
+  ## Search Modalities
+
+
+  - Text queries ("find all red cars")
+
+  - Image queries (visual similarity)
+
+  - Combined text+image queries
+
+  - Semantic 3D asset search
+
+
+  ## Use Cases
+
+
+  - 3D asset library management
+
+  - Digital twin asset discovery
+
+  - Game development asset search
+
+  - Manufacturing part libraries
+
+  - Architectural model databases
+
+
+  ## Technical Architecture
+
+
+  - Optimized for NVIDIA GPUs
+
+  - Multimodal embedding models
+
+  - Vector search backend
+
+  - Real-time indexing
+
+
+  ## Integration
+
+
+  Seamlessly integrates with NVIDIA Omniverse and OpenUSD workflows for
+  industrial metaverse applications.
+
+
+  ## Pricing
+
+
+  Enterprise licensing through NVIDIA NIM.
+brand: NVIDIA
+updated_at: 2026-03-24 13:36
