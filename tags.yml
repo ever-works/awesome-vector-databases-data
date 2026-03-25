@@ -21,7 +21,7 @@
 - id: open-source
   name: Open Source
 - id: full-text-search
-  name: full-text search
+  name: Full Text Search
 - id: rag
   name: Rag
 - id: graph-database
@@ -798,3 +798,9 @@
   name: Multimodal Search
 - id: business-intelligence
   name: Business Intelligence
+- id: decentralized
+  name: Decentralized
+- id: web3
+  name: Web3
+- id: hpc
+  name: Hpc
