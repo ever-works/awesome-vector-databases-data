@@ -804,3 +804,31 @@
   name: Web3
 - id: hpc
   name: Hpc
+- id: clickhouse
+  name: Clickhouse
+- id: duckdb
+  name: Duckdb
+- id: index
+  name: Index
+- id: hybrid-approach
+  name: Hybrid Approach
+- id: long-context
+  name: Long Context
+- id: alibaba
+  name: Alibaba
+- id: c
+  name: C++
+- id: kd-tree
+  name: Kd Tree
+- id: header-only
+  name: Header Only
+- id: transactional
+  name: Transactional
+- id: mysql-compatible
+  name: Mysql Compatible
+- id: file-based
+  name: File Based
+- id: scann
+  name: Scann
+- id: token-retrieval
+  name: Token Retrieval
