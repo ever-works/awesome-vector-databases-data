@@ -11,7 +11,7 @@
 - id: data-integration-migration
   name: Data Integration & Migration
 - id: sdks-libraries
-  name: SDKs & Libraries
+  name: Sdks Libraries
 - id: commerce
   name: Commerce
 - id: open-sources
@@ -34,3 +34,17 @@
   name: Security & Governance
 - id: vector-database-extensions
   name: Vector Database Extensions
+- id: vector-database
+  name: Vector Database
+- id: search-retrieval
+  name: Search & Retrieval
+- id: evaluation-observability
+  name: Evaluation & Observability
+- id: graph-database
+  name: Graph Database
+- id: data-processing
+  name: Data Processing
+- id: edge-database
+  name: Edge Database
+- id: rag-frameworks-pipelines
+  name: RAG Frameworks & Pipelines

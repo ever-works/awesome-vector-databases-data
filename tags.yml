@@ -31,9 +31,9 @@
 - id: cloud-native
   name: Cloud Native
 - id: document-database
-  name: document database
+  name: Document Database
 - id: knn
-  name: KNN
+  name: Knn
 - id: scalable
   name: Scalable
 - id: managed-service
@@ -111,7 +111,7 @@
 - id: python
   name: Python
 - id: vector-embeddings
-  name: vector embeddings
+  name: Vector Embeddings
 - id: sdk
   name: Sdk
 - id: data-synchronization
@@ -163,7 +163,7 @@
 - id: data-structure
   name: Data Structure
 - id: nearest-neighbor
-  name: nearest neighbor
+  name: Nearest Neighbor
 - id: spatial-indexing
   name: Spatial Indexing
 - id: metric-space
@@ -207,7 +207,7 @@
 - id: data-integration
   name: Data Integration
 - id: vector-database
-  name: vector database
+  name: Vector Database
 - id: data-science
   name: data science
 - id: search-library
@@ -225,9 +225,9 @@
 - id: predicate-agnostic
   name: predicate-agnostic
 - id: graph-index
-  name: graph index
+  name: Graph Index
 - id: graph-construction
-  name: graph construction
+  name: Graph Construction
 - id: hashing
   name: Hashing
 - id: tree-based
@@ -259,11 +259,11 @@
 - id: hugging-face
   name: Hugging Face
 - id: tokenization
-  name: tokenization
+  name: Tokenization
 - id: aws
   name: Aws
 - id: mongodb
-  name: MongoDB
+  name: Mongodb
 - id: openai
   name: Openai
 - id: api
@@ -293,7 +293,7 @@
 - id: azure
   name: Azure
 - id: multi-model
-  name: multi-model
+  name: Multi Model
 - id: k-nn
   name: k-NN
 - id: data-warehousing
@@ -832,3 +832,377 @@
   name: Scann
 - id: token-retrieval
   name: Token Retrieval
+- id: ray-tracing
+  name: Ray Tracing
+- id: ppopp22
+  name: Ppopp22
+- id: cpu-optimization
+  name: Cpu Optimization
+- id: context-engineering
+  name: Context Engineering
+- id: self-improvement
+  name: Self Improvement
+- id: adaptive-index
+  name: Adaptive Index
+- id: metric-spaces
+  name: Metric Spaces
+- id: dynamic
+  name: Dynamic
+- id: kv-cache
+  name: Kv Cache
+- id: inference-integration
+  name: Inference Integration
+- id: benchmarking
+  name: Benchmarking
+- id: reproducible
+  name: Reproducible
+- id: community
+  name: Community
+- id: recommender-systems
+  name: Recommender Systems
+- id: candidate-generation
+  name: Candidate Generation
+- id: spotify
+  name: Spotify
+- id: random-projection-trees
+  name: Random Projection Trees
+- id: arangosearch
+  name: Arangosearch
+- id: document-graph-vector
+  name: Document Graph Vector
+- id: acid
+  name: Acid
+- id: document
+  name: Document
+- id: approximate-nearest-neighbor
+  name: Approximate Nearest Neighbor
+- id: key-value-store
+  name: Key Value Store
+- id: code-search
+  name: Code Search
+- id: embedding-models
+  name: Embedding Models
+- id: developer-tools
+  name: Developer Tools
+- id: github
+  name: Github
+- id: competition-winner
+  name: Competition Winner
+- id: out-of-core
+  name: Out Of Core
+- id: disk-based-index
+  name: Disk Based Index
+- id: billion-scale
+  name: Billion Scale
+- id: partitions
+  name: Partitions
+- id: ai-search
+  name: Ai Search
+- id: developer-api
+  name: Developer Api
+- id: e-commerce
+  name: E Commerce
+- id: distribution-transformation
+  name: Distribution Transformation
+- id: filtered-search
+  name: Filtered Search
+- id: partition-index
+  name: Partition Index
+- id: developer-friendly
+  name: Developer Friendly
+- id: simple
+  name: Simple
+- id: llm-architecture
+  name: Llm Architecture
+- id: retrieval-augmented-generation
+  name: Retrieval Augmented Generation
+- id: system-design
+  name: System Design
+- id: rapids
+  name: Rapids
+- id: cuda
+  name: Cuda
+- id: gpu-accelerated
+  name: Gpu Accelerated
+- id: cagra
+  name: Cagra
+- id: jvector
+  name: Jvector
+- id: globally-distributed
+  name: Globally Distributed
+- id: hash-based
+  name: Hash Based
+- id: locality-sensitive
+  name: Locality Sensitive
+- id: dynamic-bucketing
+  name: Dynamic Bucketing
+- id: tree-index
+  name: Tree Index
+- id: document-types
+  name: Document Types
+- id: serialization
+  name: Serialization
+- id: transport
+  name: Transport
+- id: personalization
+  name: Personalization
+- id: experimentation
+  name: Experimentation
+- id: learning-based
+  name: Learning Based
+- id: early-termination
+  name: Early Termination
+- id: knn-graph
+  name: Knn Graph
+- id: enterprise-search
+  name: Enterprise Search
+- id: adaptive-search
+  name: Adaptive Search
+- id: meta
+  name: Meta
+- id: facebook
+  name: Facebook
+- id: foundational
+  name: Foundational
+- id: hallucination-detection
+  name: Hallucination Detection
+- id: rag-quality
+  name: Rag Quality
+- id: prompt-optimization
+  name: Prompt Optimization
+- id: genetic-algorithms
+  name: Genetic Algorithms
+- id: dspy
+  name: Dspy
+- id: multi-hop
+  name: Multi Hop
+- id: acceleration
+  name: Acceleration
+- id: distance-comparison
+  name: Distance Comparison
+- id: apache
+  name: Apache
+- id: baidu
+  name: Baidu
+- id: voronoi
+  name: Voronoi
+- id: geometric-index
+  name: Geometric Index
+- id: deduplication
+  name: Deduplication
+- id: fast24
+  name: Fast24
+- id: inference-api
+  name: Inference Api
+- id: ai-native
+  name: Ai Native
+- id: hardware-acceleration
+  name: Hardware Acceleration
+- id: datastax
+  name: Datastax
+- id: property-graph
+  name: Property Graph
+- id: vector-index
+  name: Vector Index
+- id: data-versioning
+  name: Data Versioning
+- id: ci-cd
+  name: Ci Cd
+- id: ai-governance
+  name: Ai Governance
+- id: lance-format
+  name: Lance Format
+- id: chain
+  name: Chain
+- id: integrations
+  name: Integrations
+- id: web-scale
+  name: Web Scale
+- id: production-system
+  name: Production System
+- id: large-scale
+  name: Large Scale
+- id: data-framework
+  name: Data Framework
+- id: query-engine
+  name: Query Engine
+- id: hard-negatives
+  name: Hard Negatives
+- id: medical
+  name: Medical
+- id: retieval-benchmark
+  name: Retieval Benchmark
+- id: text-to-image
+  name: Text To Image
+- id: automatic-embedding
+  name: Automatic Embedding
+- id: video-deduplication
+  name: Video Deduplication
+- id: cypher
+  name: Cypher
+- id: mage-library
+  name: Mage Library
+- id: graph-analytics
+  name: Graph Analytics
+- id: multimodal-memory
+  name: Multimodal Memory
+- id: lifelong-learning
+  name: Lifelong Learning
+- id: lucene
+  name: Lucene
+- id: atlas
+  name: Atlas
+- id: multi-probe
+  name: Multi Probe
+- id: natural-language-processing
+  name: Natural Language Processing
+- id: sw-graph
+  name: Sw Graph
+- id: backend
+  name: Backend
+- id: dataframe
+  name: Dataframe
+- id: apache-arrow
+  name: Apache Arrow
+- id: multi-index
+  name: Multi Index
+- id: acm
+  name: Acm
+- id: nmslib
+  name: Nmslib
+- id: parallel-computing
+  name: Parallel Computing
+- id: deterministic
+  name: Deterministic
+- id: postgresql-extension
+  name: Postgresql Extension
+- id: multi-region
+  name: Multi Region
+- id: ivfflat
+  name: Ivfflat
+- id: hybrid-relational
+  name: Hybrid Relational
+- id: production
+  name: Production
+- id: relational
+  name: Relational
+- id: probabilistic
+  name: Probabilistic
+- id: pdf
+  name: Pdf
+- id: text-extraction
+  name: Text Extraction
+- id: query-aware
+  name: Query Aware
+- id: columnar
+  name: Columnar
+- id: analytical
+  name: Analytical
+- id: payload
+  name: Payload
+- id: edge-devices
+  name: Edge Devices
+- id: query-optimization
+  name: Query Optimization
+- id: approximate-search
+  name: Approximate Search
+- id: theoretical-guarantees
+  name: Theoretical Guarantees
+- id: dense-retrieval
+  name: Dense Retrieval
+- id: reasoning-aware
+  name: Reasoning Aware
+- id: llm-based
+  name: Llm Based
+- id: generative
+  name: Generative
+- id: encoder-decoder
+  name: Encoder Decoder
+- id: llm-reranking
+  name: LLM Reranking
+- id: listwise-ranking
+  name: Listwise Ranking
+- id: retrieval-planning
+  name: Retrieval Planning
+- id: complex-rag
+  name: Complex Rag
+- id: sub-millisecond
+  name: Sub Millisecond
+- id: redisearch
+  name: Redisearch
+- id: redis-cloud
+  name: Redis Cloud
+- id: reinforcement-learning
+  name: Reinforcement Learning
+- id: asymmetric-distance
+  name: Asymmetric Distance
+- id: google-research
+  name: Google Research
+- id: asymmetric-quantization
+  name: Asymmetric Quantization
+- id: anisotropic-vq
+  name: Anisotropic Vq
+- id: range-filtering
+  name: Range Filtering
+- id: distributed-sql
+  name: Distributed Sql
+- id: hybrid-workload
+  name: Hybrid Workload
+- id: embedding-pipeline
+  name: Embedding Pipeline
+- id: workflows
+  name: Workflows
+- id: neurips
+  name: Neurips
+- id: io-efficient
+  name: Io Efficient
+- id: query-analysis
+  name: Query Analysis
+- id: theoretical-analysis
+  name: Theoretical Analysis
+- id: systematic-review
+  name: Systematic Review
+- id: query-reasoning
+  name: Query Reasoning
+- id: tool-retrieval
+  name: Tool Retrieval
+- id: agent
+  name: Agent
+- id: pruning
+  name: Pruning
+- id: s3
+  name: S3
+- id: chunk-compression
+  name: Chunk Compression
+- id: lazily-loaded
+  name: Lazily Loaded
+- id: unified-index
+  name: Unified Index
+- id: simd
+  name: Simd
+- id: sub-microsecond
+  name: Sub Microsecond
+- id: unum
+  name: Unum
+- id: server-hardware
+  name: Server Hardware
+- id: yahoo
+  name: Yahoo
+- id: big-data
+  name: Big Data
+- id: unified-platform
+  name: Unified Platform
+- id: in-browser
+  name: In Browser
+- id: graphql
+  name: Graphql
+- id: modules
+  name: Modules
+- id: incremental-update
+  name: Incremental Update
+- id: maintenance
+  name: Maintenance
+- id: milvus-managed
+  name: Milvus Managed
+- id: scaling
+  name: Scaling
