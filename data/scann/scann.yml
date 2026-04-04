@@ -1,13 +1,14 @@
 name: ScaNN
-description: A library by Google Research for efficient vector similarity
-  search, suitable for large-scale nearest neighbor applications in AI.
+description: Google Research's efficient vector similarity search implementation
+  using asymmetric quantization and anisotropic quantization, optimized for
+  billion-scale retrieval with high recall.
 source_url: https://research.google/blog/announcing-scann-efficient-vector-similarity-search/
-category: sdks-libraries
+category: SDKs & Libraries
 tags:
-  - open-source
-  - ann
-  - vector-search
-  - ai
+  - google
+  - asymmetric-quantization
+  - anisotropic-vq
+  - billion-scale
 markdown: |-
   # ScaNN
 
@@ -36,4 +37,4 @@ markdown: |-
   ## Links
   - [Official Blog Announcement](https://research.google/blog/announcing-scann-efficient-vector-similarity-search/)
   - [GitHub Repository](https://github.com/google-research/google-research/tree/master/scann)
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-04 23:01

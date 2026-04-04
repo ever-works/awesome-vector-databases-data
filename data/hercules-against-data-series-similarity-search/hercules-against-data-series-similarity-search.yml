@@ -1,0 +1,39 @@
+name: Hercules — Against Data Series Similarity Search
+description: VLDB 2022 paper introducing Hercules, an approach for efficient
+  data series (time series) similarity search at scale, leveraging advanced
+  indexing and pruning techniques for billion-scale sequence datasets.
+source_url: https://www.vldb.org/pvldb/vol15/p2625-echihabi.pdf
+category: Research Papers & Surveys
+tags:
+  - time-series
+  - similarity-search
+  - billion-scale
+markdown: >-
+  ## Overview
+
+
+  Hercules addresses the challenge of data series similarity search at
+  billion-scale using advanced indexing and pruning techniques.
+
+
+  ## Key Contributions
+
+
+  - Index structures optimized for data series similarity search
+
+  - Advanced pruning strategies for efficient query processing
+
+  - Scales to billion-scale sequence datasets
+
+  - Published in VLDB 2022
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2022
+
+  - **Authors**: Echihabi et al.
+
+  - **Abbreviation**: Hercules
+updated_at: 2026-04-04 23:01

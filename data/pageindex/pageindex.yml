@@ -1,0 +1,14 @@
+name: PageIndex
+description: Open-source tool by VectifyAI for pagewise document indexing that
+  converts PDF pages into image representations for downstream multimodal
+  embedding and retrieval. Designed to support late-interaction-based retrieval
+  approaches like ColPali by preserving original document layout and visual
+  structure.
+source_url: https://github.com/VectifyAI/PageIndex
+category: Data Processing
+tags:
+  - open-source
+  - multimodal
+  - document-parsing
+brand: VectifyAI
+updated_at: 2026-04-04 23:01

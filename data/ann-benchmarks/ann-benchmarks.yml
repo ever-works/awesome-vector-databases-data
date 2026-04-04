@@ -1,14 +1,16 @@
 name: ANN-Benchmarks
-description: A comprehensive benchmarking project that evaluates and compares
-  implementations of approximate nearest neighbor algorithms. Provides
-  standardized datasets and metrics for comparing ANN libraries including FAISS,
-  HNSW, Annoy, and ScaNN.
+description: The community-maintained benchmarking framework for approximate
+  nearest neighbor (ANN) search algorithms, comparing libraries like FAISS,
+  HNSWLib, Annoy, ScaNN across datasets and providing reproducible performance
+  evaluations.
 source_url: https://ann-benchmarks.com/
 category: Benchmarks & Evaluation
 tags:
-  - benchmark
+  - benchmarking
   - ann
-  - performance
+  - reproducible
+  - community
+  - comparison
 featured: false
 markdown: >-
   ## Overview
@@ -370,4 +372,4 @@ markdown: >-
 
 
   Free and open-source (MIT license).
-updated_at: 2026-03-15 12:39
+updated_at: 2026-04-04 23:01

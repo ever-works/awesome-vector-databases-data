@@ -1,0 +1,40 @@
+name: Wolverine — Highly Efficient Monotonic Search Path Repair for Graph-based
+  ANN Index Updates
+description: VLDB 2025 paper introducing Wolverine, a highly efficient method
+  for maintaining and repairing monotonic search paths during incremental
+  updates to graph-based approximate nearest neighbor indexes.
+source_url: https://www.vldb.org/pvldb/vol18/p3088-liu.pdf
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - incremental-update
+  - maintenance
+markdown: >-
+  ## Overview
+
+
+  Wolverine addresses the challenge of efficiently updating graph-based ANN
+  indexes by repairing monotonic search paths after data modifications.
+
+
+  ## Key Contributions
+
+
+  - Efficient incremental update for graph-based ANN indexes
+
+  - Monotonic search path repair after insertions and deletions
+
+  - Maintains search quality after dynamic updates
+
+  - Published in VLDB 2025
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2025
+
+  - **Authors**: Liu et al.
+
+  - **Abbreviation**: Wolverine
+updated_at: 2026-04-04 23:01

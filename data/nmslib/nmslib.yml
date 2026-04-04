@@ -1,14 +1,15 @@
 name: NMSLIB
-description: NMSLIB is an efficient similarity search library and toolkit for
-  high-dimensional vector spaces, supporting a variety of indexing algorithms
-  for vector database use cases.
+description: A library for efficient similarity search and creation of nearest
+  neighbor indices in metric spaces, implementing HNSW, SW-graph, and other ANN
+  algorithms, widely used as a backend for vector search engines.
 source_url: https://github.com/nmslib/nmslib
-category: sdks-libraries
+category: SDKs & Libraries
 tags:
-  - open-source
+  - hnsw
+  - sw-graph
   - ann
-  - similarity-search
-  - high-dimensional
+  - metric-spaces
+  - backend
 markdown: >
   # NMSLIB
 
@@ -72,4 +73,4 @@ markdown: >
 
 
   NMSLIB is open-source and free to use under the Apache-2.0 license.
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-04 23:01

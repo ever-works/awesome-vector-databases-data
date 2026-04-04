@@ -1,21 +1,22 @@
 name: OpenSearch
-description: OpenSearch is a fully open-source, community-driven search and
-  analytics suite that supports vector search, providing a transparent and
-  flexible alternative for organizations seeking advanced search features.
+description: AWS-backed open-source search and analytics suite with vector
+  search capabilities via faiss and nmslib engines, neural search plugins, and
+  tight AWS ecosystem integration.
 source_url: https://opensearch.org/
-category: vector-database-engines
+category: Search & Retrieval
 tags:
+  - aws
+  - faiss
+  - nmslib
+  - neural-search
   - open-source
-  - vector-search
-  - analytics
-  - scalable
-markdown: >
+markdown: >-
   # OpenSearch
 
 
-  **Category:** Vector Database Engines  
+  **Category:** Search & Retrieval  
 
-  **Tags:** open-source, vector-search, analytics, scalable
+  **Tags:** aws, faiss, nmslib, neural-search, open-source
 
 
   [Website](https://opensearch.org/)
@@ -40,8 +41,12 @@ markdown: >
   - **Search and Analytics Engine:** Powerful search and analytics capabilities
   built on Apache Lucene.
 
-  - **Vector Search:** Supports vector search, enabling AI and machine
-  learning-powered applications.
+  - **Vector Search:** Supports vector search via faiss and nmslib approximate
+  nearest neighbor engines, enabling AI and machine learning-powered
+  applications.
+
+  - **Neural Search:** Neural search plugins for semantic retrieval and hybrid
+  search combining dense retrieval with traditional keyword search.
 
   - **Machine Learning & AI:** Built-in tools for anomaly detection and
   integration with generative AI.
@@ -70,6 +75,9 @@ markdown: >
   - **Community Driven:** Extensive community resources, forums, and open
   development model.
 
+  - **AWS Ecosystem Integration:** Tight integration with Amazon OpenSearch
+  Service and broader AWS services.
+
   - **Scalability:** Designed for handling large volumes of unstructured data at
   enterprise scale.
 
@@ -83,7 +91,5 @@ markdown: >
   ## Pricing
 
   OpenSearch is free and open source, licensed under the Apache 2.0 license.
-
-
-  ---
-updated_at: 2025-05-13 22:29
+  Amazon OpenSearch Service offers managed hosting with pay-as-you-go pricing.
+updated_at: 2026-04-04 23:01

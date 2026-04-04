@@ -1,25 +1,20 @@
 name: cuVS
-description: cuVS is an open-source library from RAPIDS for fast,
-  GPU-accelerated vector search, useful for building high-performance vector
-  databases.
+description: NVIDIA RAPIDS' GPU-accelerated library for vector search and
+  clustering, providing CUDA-optimized implementations of HNSW, IVF, CAGRA, and
+  PQ, enabling billion-scale search on GPU hardware.
 source_url: https://github.com/rapidsai/cuvs
-category: open-sources
+category: sdks-libraries
 tags:
-  - open-source
-  - gpu-acceleration
-  - vector-search
-  - high-performance
+  - nvidia
+  - rapids
+  - cuda
+  - gpu-accelerated
+  - cagra
 markdown: >
   # cuVS
 
 
   **Source:** [GitHub - rapidsai/cuvs](https://github.com/rapidsai/cuvs)
-
-
-  **Category:** Open-source
-
-
-  **Tags:** open-source, gpu-acceleration, vector-search, high-performance
 
 
   ---
@@ -93,4 +88,4 @@ markdown: >
 
   cuVS is released under an open-source license (see the repository for
   details).
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-04 23:01

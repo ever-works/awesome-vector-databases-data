@@ -1,73 +1,56 @@
 name: DocArray
-description: An open-source library for creating, storing, and searching
-  multimodal data and vector embeddings, supporting AI and ML workflows.
+description: Jina AI's data type library for multi-modal data handling,
+  providing Document types for images, text, audio, and embeddings with built-in
+  serialization and transport capabilities.
 source_url: https://docarray.org/
-category: open-sources
+category: SDKs & Libraries
 tags:
-  - open-source
-  - multimodal
-  - vector-embeddings
-  - ai
-markdown: >
-  # DocArray
+  - multi-modal
+  - document-types
+  - serialization
+  - transport
+markdown: >-
+  ## Overview
 
 
-  [DocArray](https://docarray.org/) is an open-source Python library designed
-  for representing, storing, and retrieving multimodal data, making it suitable
-  for AI and machine learning workflows involving complex data types such as
-  images, text, audio, and video.
+  DocArray is Jina AI's data type library for multi-modal data handling. It
+  provides Document types for images, text, audio, and embeddings with built-in
+  serialization and transport capabilities.
 
 
   ## Features
 
 
-  - **Multimodal Data Representation:** Define and work with documents
+  - **Multi-modal Data Representation**: Define and work with documents
   containing various data types (images, text, audio, video) using Python
-  classes.
+  classes
 
-  - **Pydantic Compatibility:** Built on top of Pydantic, allowing type
-  validation and integration with other Pydantic-based tools.
+  - **Document Types**: Typed schemas via `BaseDoc` for different modalities and
+  data structures
 
-  - **Custom Data Models:** Create custom document schemas using `BaseDoc`,
-  specifying fields for different modalities and types.
+  - **Pydantic Compatibility**: Built on Pydantic for type validation and
+  integration with the broader Python ecosystem
 
-  - **Tensor Shape Specification:** Ability to specify tensor shapes for data
-  fields, supporting frameworks like PyTorch, NumPy, and TensorFlow.
+  - **Tensor Shape Specification**: Support for tensor shapes with PyTorch,
+  NumPy, and TensorFlow
 
-  - **Nested Documents:** Compose complex, nested document structures for
-  handling multimodal datasets.
+  - **Serialization**: Built-in serialization formats for data persistence and
+  exchange
 
-  - **Batch Processing:** Process and manipulate batches of documents via
-  `DocVec` and `DocList` collections, enabling bulk operations and efficient
-  workflows.
+  - **Transport Capabilities**: Efficient transport of multi-modal documents
+  across services
 
-  - **Bulk Field Access:** Retrieve and manipulate fields across all documents
-  in a collection with simple syntax.
+  - **Batch Processing**: `DocVec` and `DocList` collections for bulk operations
 
-  - **Flexible Embedding Storage:** Store and manage vector embeddings computed
-  from any model, facilitating downstream search and retrieval tasks.
+  - **Flexible Embedding Storage**: Store and manage vector embeddings from any
+  model
 
-  - **Open Source:** Distributed under the Apache License 2.0 and part of the LF
-  AI & Data Foundation as a sandbox project.
-
-  - **Python Ecosystem Integration:** Seamlessly integrates with the broader
-  Python and machine learning ecosystem.
-
-  - **Installation via pip:** Easily installable and updatable from PyPI.
+  - **Open Source**: Distributed under Apache License 2.0, part of the LF AI &
+  Data Foundation
 
 
   ## Pricing
 
 
   DocArray is open-source software and free to use under the Apache License 2.0.
-
-
-  ## Links
-
-
-  - [Website](https://docarray.org/)
-
-  - [GitHub Repository](https://github.com/docarray/docarray/)
-
-  - [Documentation](https://docarray.org/)
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-04 23:01

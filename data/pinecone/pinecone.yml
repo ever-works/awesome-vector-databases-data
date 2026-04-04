@@ -1,21 +1,17 @@
 name: Pinecone
-description: Pinecone is a fully managed vector database designed for
-  high‑performance semantic search and AI applications. It provides scalable,
-  low-latency storage and retrieval of vector embeddings, allowing developers to
-  build semantic search, recommendation, and RAG (Retrieval-Augmented
-  Generation) systems without managing infrastructure.
+description: Fully managed cloud-native vector database with a serverless
+  offering, providing built-in hybrid search, metadata filtering, and
+  enterprise-grade reliability. Designed as the primary choice for production AI
+  applications at scale.
 source_url: https://www.pinecone.io
-featured: true
-brand: pinecone
-brand_logo_url: https://www.pinecone.io/favicon-32x32.png
-images:
-  - https://www.pinecone.io/assets/img/og-image.png
-  - https://www.pinecone.io/assets/img/home/hero.png
-category: managed-vector-databases
+category: Managed Vector Databases
 tags:
-  - managed-service
-  - vector-database
-  - semantic-search
+  - serverless
+  - managed
+  - hybrid-search
+  - enterprise
+  - production
+featured: true
 markdown: >-
   # Pinecone
 
@@ -92,7 +88,7 @@ markdown: >-
   - **Bring-your-own vectors** – use your own embedding models and ingest their
   vectors.
 
-  - **Hosted embedding models** – option to use Pinecone’s provided models for
+  - **Hosted embedding models** – option to use Pinecone's provided models for
   generating embeddings.
 
   - **Namespaces** – logical partitions of data to support isolation (e.g.,
@@ -146,4 +142,9 @@ markdown: >-
 
   The provided content does not include any specific pricing details or plan
   names. Refer to the Pinecone website for current pricing information.
-updated_at: 2025-12-31 19:02
+brand: pinecone
+brand_logo_url: https://www.pinecone.io/favicon-32x32.png
+images:
+  - https://www.pinecone.io/assets/img/og-image.png
+  - https://www.pinecone.io/assets/img/home/hero.png
+updated_at: 2026-04-04 23:01

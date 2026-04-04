@@ -1,0 +1,40 @@
+name: UNIFY — Unified Index for Range Filtered ANNS
+description: VLDB 2025 paper presenting UNIFY, a unified index structure for
+  range-filtered approximate nearest neighbor search, enabling efficient
+  retrieval with both vector similarity and range constraints on structured
+  attributes.
+source_url: https://arxiv.org/abs/2405.02392
+category: Research Papers & Surveys
+tags:
+  - hybrid-search
+  - range-filtering
+  - unified-index
+markdown: >-
+  ## Overview
+
+
+  UNIFY introduces a unified index structure that supports efficient
+  range-filtered approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Unified index combining vector and range filtering
+
+  - Efficient retrieval under range constraints
+
+  - Single structure handles multiple query types
+
+  - Published in VLDB 2025
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2025
+
+  - **Authors**: Liang et al.
+
+  - **Abbreviation**: UNIFY
+updated_at: 2026-04-04 23:01

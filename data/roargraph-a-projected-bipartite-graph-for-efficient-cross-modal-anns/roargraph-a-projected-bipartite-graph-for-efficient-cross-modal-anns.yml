@@ -1,0 +1,50 @@
+name: RoarGraph — A Projected Bipartite Graph for Efficient Cross-Modal ANNS
+description: VLDB 2024 paper proposing RoarGraph, a projected bipartite graph
+  structure for efficient cross-modal approximate nearest neighbor search. The
+  method addresses the challenges of searching across different modalities
+  (e.g., text, image) using graph-based indexing.
+source_url: https://www.vldb.org/pvldb/vol17/p2351-chen.pdf
+category: Research Papers & Surveys
+tags:
+  - cross-modal
+  - graph-index
+  - ann
+markdown: >-
+  ## Overview
+
+
+  RoarGraph introduces a projected bipartite graph structure for efficient
+  cross-modal approximate nearest neighbor search, enabling effective retrieval
+  across different data modalities.
+
+
+  ## Key Contributions
+
+
+  - Novel bipartite graph construction for cross-modal search
+
+  - Projection-based graph navigation for efficient traversal
+
+  - Handles text-image and other cross-modal retrieval tasks
+
+  - Demonstrates strong performance on cross-modal benchmarks
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2024
+
+  - **Authors**: Chen et al.
+
+  - **Abbreviation**: RoarGraph
+
+
+  ## Impact
+
+
+  RoarGraph provides a graph-based solution for cross-modal retrieval, which is
+  increasingly important for multi-modal AI applications including
+  retrieval-augmented generation scenarios involving different data types.
+brand: Chen et al.
+updated_at: 2026-04-04 23:01

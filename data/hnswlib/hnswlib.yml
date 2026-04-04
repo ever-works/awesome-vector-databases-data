@@ -1,13 +1,15 @@
 name: HNSWlib
-description: Header-only C++/Python library for fast approximate nearest
-  neighbor search implementing the HNSW algorithm. Used by Spotify and others,
-  offers 10x speed increase over Annoy. This is an OSS library.
+description: A fast C++/Python library for Hierarchical Navigable Small World
+  (HNSW) graph-based vector search, offering high performance for dense vector
+  retrieval with incremental insert support.
 source_url: https://github.com/nmslib/hnswlib
-category: Sdks & Libraries
+category: SDKs & Libraries
 tags:
-  - open-source
   - hnsw
-  - cpp
+  - graph-based
+  - incremental
+  - c++
+  - python
 featured: true
 markdown: >-
   ## Overview
@@ -130,4 +132,4 @@ markdown: >-
 
   Free and open-source under Apache 2.0 license. No licensing costs.
 brand: NMSLib
-updated_at: 2026-03-06 18:05
+updated_at: 2026-04-04 23:01

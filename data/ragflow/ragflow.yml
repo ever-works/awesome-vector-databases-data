@@ -1,14 +1,15 @@
 name: RAGFlow
-description: Open-source RAG engine based on deep document understanding with
-  citation-backed responses. RAGFlow extracts tables, images, and structured
-  data from complex documents, providing truthful question-answering with
-  well-founded citations.
+description: An open-source RAG engine that provides end-to-end document
+  understanding with automated chunking, embedding, retrieval and generation
+  pipeline, supporting multiple document formats and LLM backends.
 source_url: https://ragflow.io/
-category: LLM Frameworks
+category: RAG Frameworks & Pipelines
 tags:
-  - open-source
   - rag
+  - chunking
   - document-understanding
+  - open-source
+  - pipeline
 markdown: >-
   ## Overview
 
@@ -117,4 +118,4 @@ markdown: >-
 
   Free and open-source with self-hosting options.
 brand: InfiniFlow
-updated_at: 2026-03-11 12:14
+updated_at: 2026-04-04 23:01

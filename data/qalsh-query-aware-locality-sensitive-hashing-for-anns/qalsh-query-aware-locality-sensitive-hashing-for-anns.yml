@@ -1,0 +1,39 @@
+name: QALSH — Query-Aware Locality-Sensitive Hashing for ANNS
+description: VLDB 2015 paper introducing QALSH, a query-aware locality-sensitive
+  hashing scheme that improves retrieval accuracy by dynamically adjusting hash
+  functions based on query characteristics.
+source_url: https://www.vldb.org/pvldb/vol8/p1166-huang.pdf
+category: Research Papers & Surveys
+tags:
+  - hash-based
+  - locality-sensitive
+  - query-aware
+markdown: >-
+  ## Overview
+
+
+  QALSH introduces query-aware adaptation in locality-sensitive hashing for
+  improved approximate nearest neighbor search accuracy.
+
+
+  ## Key Contributions
+
+
+  - Query-aware hash function adjustment
+
+  - Improved retrieval accuracy over static LSH
+
+  - Efficient probing strategy
+
+  - Published in VLDB 2015
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2015
+
+  - **Authors**: Huang et al.
+
+  - **Abbreviation**: QALSH
+updated_at: 2026-04-04 23:01

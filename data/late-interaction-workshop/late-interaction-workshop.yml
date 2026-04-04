@@ -1,0 +1,13 @@
+name: Late Interaction Workshop
+description: Community workshop dedicated to late interaction techniques in
+  information retrieval, a retrieval approach where fine-grained similarity is
+  computed between query and document token-level representations rather than
+  single global embeddings. Addresses research in ColBERT, ColPali, MUVERA, and
+  related methods.
+source_url: https://www.lateinteraction.com/
+category: Research Papers & Surveys
+tags:
+  - late-interaction
+  - community
+featured: false
+updated_at: 2026-04-04 23:01

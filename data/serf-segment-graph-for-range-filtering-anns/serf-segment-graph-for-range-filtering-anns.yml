@@ -1,0 +1,50 @@
+name: SeRF — Segment Graph for Range-Filtering ANNS
+description: SIGMOD 2024 paper introducing SeRF, a segment graph approach for
+  range-filtering approximate nearest neighbor search, enabling efficient hybrid
+  queries that combine vector similarity with range constraints on attributes.
+source_url: https://arxiv.org/abs/2401.08467
+category: Research Papers & Surveys
+tags:
+  - hybrid-search
+  - graph-index
+  - range-filtering
+markdown: >-
+  ## Overview
+
+
+  SeRF introduces a segment graph data structure for efficient range-filtering
+  approximate nearest neighbor search, supporting queries that combine vector
+  similarity with attribute range constraints.
+
+
+  ## Key Contributions
+
+
+  - Segment graph construction for range-filtering search
+
+  - Efficient hybrid query processing
+
+  - Combines vector similarity with attribute range filtering
+
+  - Published in SIGMOD 2024
+
+
+  ## Publication
+
+
+  - **Venue**: SIGMOD 2024
+
+  - **Authors**: Zuo et al.
+
+  - **Abbreviation**: SeRF
+
+
+  ## Features
+
+
+  - Range-filtered ANNS support
+
+  - Segment-based graph index
+
+  - Efficient attribute constraint handling
+updated_at: 2026-04-04 23:01

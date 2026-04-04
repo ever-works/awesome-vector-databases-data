@@ -1,70 +1,38 @@
 name: Survey of Vector Database Management Systems
-description: A comprehensive 2023 survey that systematically analyzes the
-  design, architecture, indexing techniques, and system implementations of
-  modern vector database management systems, serving as a foundational reference
-  for understanding the vector database ecosystem used in AI applications.
-source_url: https://arxiv.org/abs/2310.14021
-featured: true
-brand_logo_url: null
-images: null
-category: curated-resource-lists
-tags: []
+description: VLDB 2024 paper presenting a comprehensive survey of vector
+  database management systems, covering architecture, indexing techniques, query
+  processing, and emerging trends in the rapidly evolving field of vector
+  databases.
+source_url: https://arxiv.org/abs/2308.11858
+category: Research Papers & Surveys
+tags:
+  - survey
+  - vector-database
+  - systematic-review
 markdown: >-
-  # Survey of Vector Database Management Systems
-
-
-  **Type:** Academic paper / survey (2023)  
-
-  **Category:** Curated Resource Lists  
-
-  **Source:** [arXiv:2310.14021](https://arxiv.org/abs/2310.14021)  
-
-  **Length:** 25 pages  
-
-  **Discipline:** Computer Science – Databases (cs.DB)
-
-
   ## Overview
 
-  “Survey of Vector Database Management Systems” is a 25‑page academic survey
-  that analyzes the design and architecture of modern vector database management
-  systems. It focuses on how these systems store, index, and serve
-  high-dimensional vector data, particularly for AI and machine learning
-  applications.
+
+  A comprehensive academic survey covering the landscape of vector database
+  management systems.
 
 
-  ## Features
-
-  - **Comprehensive 2023 survey** of vector database management systems and
-  their ecosystem.
-
-  - **Systematic analysis of design and architecture**, including how vector
-  DBMSs are structured and how they differ from traditional databases.
-
-  - **Coverage of indexing techniques** for high-dimensional vectors (e.g., ANN
-  and related vector search methods).
-
-  - **Discussion of system implementations**, describing how modern vector
-  databases are built in practice.
-
-  - **Positioning within AI workflows**, focusing on how vector DBMSs support AI
-  and ML applications that rely on vector search and embeddings.
-
-  - **Foundational reference** for understanding the broader vector database
-  ecosystem, suitable for researchers, practitioners, and engineers working with
-  vector data.
+  ## Key Contributions
 
 
-  ## Access
+  - Systematic classification of VDBMS architectures
 
-  - **ArXiv record:**
-  [https://arxiv.org/abs/2310.14021](https://arxiv.org/abs/2310.14021)  
+  - Survey of indexing techniques (graph, tree, hash, quantization)
 
-  - **DOI:** https://doi.org/10.48550/arXiv.2310.14021
+  - Coverage of query processing and optimization
+
+  - Discussion of emerging trends and open challenges
 
 
-  ## Pricing
+  ## Publication
 
-  - Access via arXiv is typically free to read and download (no listed pricing
-  on the source page).
-updated_at: 2025-12-25 16:52
+
+  - **Venue**: VLDB 2024
+
+  - **Authors**: Pan et al.
+updated_at: 2026-04-04 23:01

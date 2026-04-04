@@ -1,0 +1,40 @@
+name: DIMS — Distributed Index for Similarity Search in Metric Spaces
+description: TKDE 2024 paper presenting DIMS, a distributed indexing method for
+  efficient similarity search across metric spaces. The approach enables
+  parallel processing of vector similarity queries at scale.
+source_url: https://ieeexplore.ieee.org/document/10470961
+category: Research Papers & Surveys
+tags:
+  - distributed
+  - similarity-search
+  - metric-spaces
+markdown: >-
+  ## Overview
+
+
+  DIMS provides a distributed indexing framework for similarity search in
+  general metric spaces, enabling scalable approximate nearest neighbor search
+  through distributed computation.
+
+
+  ## Key Contributions
+
+
+  - Distributed index construction and query processing
+
+  - Support for general metric spaces beyond Euclidean distance
+
+  - Distributed computation for billion-scale datasets
+
+  - Strong performance on large benchmarks
+
+
+  ## Publication
+
+
+  - **Venue**: TKDE 2024
+
+  - **Authors**: Zhu et al.
+
+  - **Abbreviation**: DIMS
+updated_at: 2026-04-04 23:01

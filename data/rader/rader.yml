@@ -1,0 +1,13 @@
+name: RaDeR
+description: RaDeR (Reasoning-aware Dense Retrieval) is a research model
+  specifically trained on datasets that require reasoning, enabling it to learn
+  how to retrieve relevant theorems and principles during intermediate reasoning
+  steps. This approach allows the retriever to better generalize to diverse
+  reasoning-intensive retrieval tasks.
+source_url: https://arxiv.org/abs/2505.18405
+category: Machine Learning Models
+tags:
+  - dense-retrieval
+  - reasoning-aware
+  - research
+updated_at: 2026-04-04 23:01

@@ -1,18 +1,16 @@
 name: Elasticsearch
-description: Elasticsearch is a distributed search engine supporting various
-  data types, including vectors, and provides scalable vector search
-  capabilities, making it a popular choice for modern AI-powered applications.
-  It can be extended with the k-NN plugin to provide scalable vector search
-  using HNSW and Lucene, enabling hybrid semantic and keyword search
-  capabilities.
+description: Distributed search and analytics engine with vector search (kNN)
+  capabilities, combining BM25 text search with semantic search. Widely used for
+  enterprise search and observability workloads.
 source_url: https://www.elastic.co/elasticsearch/
-category: vector-database-engines
+category: Search & Retrieval
 tags:
-  - open-source
-  - vector-search
-  - hybrid-search
-  - scalable
-markdown: >
+  - distributed
+  - bm25
+  - knn
+  - enterprise-search
+  - observability
+markdown: >-
   # Elasticsearch
 
 
@@ -44,7 +42,7 @@ markdown: >
   - **Elasticsearch Query Language (ES|QL)**: Advanced query language for
   transforming and simplifying data investigation and workflows.
 
-  - **AI Integration**: The Elasticsearch Relevance Engine™ enables semantic
+  - **AI Integration**: The Elasticsearch Relevance Engine enables semantic
   search, integration with LLMs (Large Language Models), hybrid search, and use
   of transformer models.
 
@@ -77,25 +75,9 @@ markdown: >
   security.
 
 
-  ## Category
-
-  - Vector Database Engines
-
-
-  ## Tags
-
-  - Open-source
-
-  - Vector search
-
-  - Hybrid search
-
-  - Scalable
-
-
   ## Pricing
 
-  - **Not specified in provided content.** (Elastic offers open source
-  downloads, hosted cloud, and serverless options; specific pricing details can
-  be found on their website.)
-updated_at: 2025-05-13 22:29
+  Not specified in provided content. Elastic offers open source downloads,
+  hosted cloud, and serverless options; specific pricing details can be found on
+  their website.
+updated_at: 2026-04-04 23:01

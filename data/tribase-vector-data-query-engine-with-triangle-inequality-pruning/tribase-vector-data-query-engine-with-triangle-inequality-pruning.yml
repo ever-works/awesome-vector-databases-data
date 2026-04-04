@@ -1,0 +1,37 @@
+name: Tribase — Vector Data Query Engine with Triangle Inequality Pruning
+description: SIGMOD 2025 paper introducing Tribase, a vector data query engine
+  that uses triangle inequalities for reliable and lossless pruning compression,
+  achieving efficient similarity search without sacrificing accuracy.
+source_url: https://arxiv.org/abs/2504.04156
+category: Vector Database Engines
+tags:
+  - similarity-search
+  - pruning
+  - high-performance
+markdown: >-
+  ## Overview
+
+
+  Tribase is a vector data query engine introduced at SIGMOD 2025 that leverages
+  triangle inequalities for reliable and lossless pruning in similarity search.
+
+
+  ## Key Features
+
+
+  - Uses triangle inequality for pruning distance comparisons
+
+  - Provides lossless pruning guarantees (no accuracy loss)
+
+  - Efficient compression of search space
+
+  - Applicable to various metric spaces
+
+
+  ## Publication
+
+
+  - **Venue**: SIGMOD 2025
+
+  - **Authors**: Xu et al.
+updated_at: 2026-04-04 23:01

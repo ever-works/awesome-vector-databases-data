@@ -1,22 +1,25 @@
 name: Chroma
-description: Chroma is an open-source AI-native vector database that provides
-  semantic, full-text, and regex search as a memory layer for LLM and RAG
-  applications.
+description: Chroma is a Python-first vector database engine designed for
+  simplicity, offering an embedded mode that runs in-process and a
+  developer-friendly API tailored for AI application prototyping and production.
+  It provides semantic search, full-text search, and regex search capabilities
+  as a memory and retrieval layer for LLM and RAG applications. Primary use
+  cases include building RAG pipelines, implementing semantic search over
+  document corpora, and managing contextual memory for AI agents and chatbots.
 source_url: https://github.com/chroma-core/chroma
-featured: false
-brand: chroma
-brand_logo_url: https://www.trychroma.com/_next/static/media/logo.5a2cf918.svg
-images:
-  - https://raw.githubusercontent.com/chroma-core/chroma/main/docs/assets/chroma-logo.png
-category: curated-resource-lists
-tags: []
+category: Vector Database Engines
+tags:
+  - python
+  - embedded
+  - developer-friendly
+  - simple
 markdown: >
   # Chroma
 
 
   **Website:** https://github.com/chroma-core/chroma  
 
-  **Category:** Curated Resource Lists / Tools for RAG & LLM apps  
+  **Category:** Vector Database Engines  
 
   **Type:** Open-source vector database
 
@@ -41,14 +44,13 @@ markdown: >
 
   - **Open-source**
     - Source code available on GitHub under an open-source license.
-    - Actively developed in a public repository with multiple language components (e.g., Rust, Go directories present).
+    - Actively developed in a public repository with multiple language components.
 
   - **Ecosystem and structure (from repo layout)**
     - `clients` directory indicating client libraries or SDKs.
     - `examples` and `sample_apps` for reference implementations and example usage.
     - `docs` for documentation and guides.
     - `deployments` and `k8s` for deployment configurations (e.g., containerized or Kubernetes setups).
-    - Multi-language support in implementation (`go`, `rust` directories) and associated tooling/config files.
 
   ## Typical Use Cases
 
@@ -61,7 +63,11 @@ markdown: >
 
   ## Pricing
 
-  - Chroma is offered as **open-source software** via its GitHub repository.  
+  - Chroma is offered as **open-source software** via its GitHub repository.
 
   - No paid pricing plans are described in the provided content.
-updated_at: 2025-12-25 16:52
+brand: chroma
+brand_logo_url: https://www.trychroma.com/_next/static/media/logo.5a2cf918.svg
+images:
+  - https://raw.githubusercontent.com/chroma-core/chroma/main/docs/assets/chroma-logo.png
+updated_at: 2026-04-04 23:01

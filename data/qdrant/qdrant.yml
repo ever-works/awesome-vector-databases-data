@@ -1,16 +1,20 @@
 name: Qdrant
-description: Qdrant is a dedicated vector database and similarity search engine
-  supporting advanced filtering and efficient retrieval, suitable for faceted
-  search and retrieval-augmented generation. It offers self-hosted and cloud
-  deployment options, making it highly relevant for vector search applications.
+description: Qdrant is a high-performance vector database engine built in Rust,
+  providing efficient similarity search with rich filtering capabilities and
+  flexible payload storage for metadata alongside vectors. It offers a built-in
+  recommendation API with multiple strategies and supports complex query
+  patterns for personalized and context-aware results. Primary use cases include
+  Retrieval-Augmented Generation (RAG), recommendation systems, faceted search,
+  anomaly detection, and AI-powered applications requiring low-latency vector
+  retrieval with fine-grained filtering.
 source_url: https://qdrant.tech/
-category: vector-database-engines
+category: Vector Database Engines
 tags:
-  - open-source
-  - vector-search
-  - similarity-search
-  - rag
-markdown: >-
+  - rust
+  - filtering
+  - payload
+  - recommendation
+markdown: >
   # Qdrant
 
 
@@ -70,15 +74,4 @@ markdown: >-
 
   - **Managed Cloud:** Enterprise-grade managed cloud with scalable pricing
   (specific details not provided in the available content).
-
-
-  ## Tags
-
-  open-source, vector-search, similarity-search, rag
-
-
-  ---
-
-  **Note:** For full pricing details, visit the [official Qdrant
-  website](https://qdrant.tech/).
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-04 23:01

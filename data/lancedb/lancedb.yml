@@ -1,14 +1,16 @@
 name: LanceDB
-description: LanceDB is a columnar vector database optimized for real-time AI
-  use cases and analytics workloads, providing efficient vector storage and fast
-  similarity search.
+description: Open-source embedded vector database built on the Lance columnar
+  format, supporting disk-based storage without data movement and offering
+  seamless Python and JavaScript integration for local and edge AI use cases.
 source_url: https://lancedb.com/
-category: vector-database-engines
+category: Vector Database Engines
 tags:
-  - vector-search
-  - real-time
-  - analytics
-  - ai
+  - embedded
+  - lance-format
+  - disk-based
+  - python
+  - javascript
+  - local-first
 markdown: >-
   # LanceDB
 
@@ -74,11 +76,15 @@ markdown: >-
 
   ## Tags
 
-  - vector-search
+  - embedded
 
-  - real-time
+  - lance-format
 
-  - analytics
+  - disk-based
 
-  - ai
-updated_at: 2025-05-13 22:29
+  - python
+
+  - javascript
+
+  - local-first
+updated_at: 2026-04-04 23:01

@@ -1,0 +1,39 @@
+name: Steiner-Hardness — A Query Hardness Measure for Graph-based ANN Indexes
+description: VLDB 2025 paper introducing Steiner-Hardness, a novel query
+  hardness measure for graph-based approximate nearest neighbor search that
+  characterizes query difficulty based on graph topology.
+source_url: https://www.vldb.org/pvldb/vol18/p3088-wang.pdf
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - query-analysis
+  - theoretical-analysis
+markdown: >-
+  ## Overview
+
+
+  Introduces a hardness metric for graph-based ANN search queries based on
+  Steiner tree analysis.
+
+
+  ## Key Contributions
+
+
+  - Novel query hardness measure for graph-based ANNS
+
+  - Characterizes query difficulty through graph topology
+
+  - Enables adaptive search strategies based on predicted hardness
+
+  - Published in VLDB 2025
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2025
+
+  - **Authors**: Wang et al.
+
+  - **Abbreviation**: Steiner-Hardness
+updated_at: 2026-04-04 23:01

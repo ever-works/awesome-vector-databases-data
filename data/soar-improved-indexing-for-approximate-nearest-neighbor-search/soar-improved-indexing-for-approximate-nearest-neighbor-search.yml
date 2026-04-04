@@ -1,0 +1,50 @@
+name: SOAR — Improved Indexing for Approximate Nearest Neighbor Search
+description: NeurIPS 2023 paper proposing SOAR, a method for improved indexing
+  in approximate nearest neighbor search, focusing on better space partitioning
+  and search optimization.
+source_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/2c4b83622652a2b28c458c6d7e6a660e-Abstract-Conference.html
+category: Research Papers & Surveys
+tags:
+  - indexing
+  - approximate-nearest-neighbor
+  - neurips
+markdown: >-
+  ## Overview
+
+
+  SOAR presents improved indexing methods for approximate nearest neighbor
+  search published at NeurIPS 2023.
+
+
+  ## Key Contributions
+
+
+  - Advanced space partitioning for ANN indexing
+
+  - Improved search accuracy and efficiency
+
+  - Novel optimization techniques for high-dimensional data
+
+  - Published in NeurIPS 2023
+
+
+  ## Publication
+
+
+  - **Venue**: NeurIPS 2023
+
+  - **Authors**: Sun et al.
+
+  - **Abbreviation**: SOAR
+
+
+  ## Features
+
+
+  - Enhanced indexing structure for ANN search
+
+  - Improved partitioning strategy
+
+  - Better empirical performance on benchmark datasets
+brand: Sun et al.
+updated_at: 2026-04-04 23:01

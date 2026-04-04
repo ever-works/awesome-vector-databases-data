@@ -1,13 +1,16 @@
 name: usearch
-description: usearch is a fast, open-source search and clustering engine
-  designed for efficient vector search across multiple programming languages.
+description: Ultra-fast vector similarity search library from Unum with
+  SIMD-optimized HNSW implementation, supporting multiple languages (Python,
+  JavaScript, Rust), quantization, and designed for sub-microsecond search
+  latencies.
 source_url: https://github.com/unum-cloud/usearch
 category: sdks-libraries
 tags:
-  - open-source
-  - vector-search
-  - clustering
+  - simd
   - multi-language
+  - quantization
+  - sub-microsecond
+  - unum
 markdown: |
   # usearch
 
@@ -58,4 +61,4 @@ markdown: |
 
   ## Pricing
   - No pricing information provided; open-source project.
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-04 23:01

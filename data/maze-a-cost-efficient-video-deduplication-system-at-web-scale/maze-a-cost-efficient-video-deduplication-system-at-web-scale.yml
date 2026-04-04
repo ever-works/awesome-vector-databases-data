@@ -1,0 +1,13 @@
+name: "Maze: A Cost-Efficient Video Deduplication System at Web-scale"
+description: Research paper presenting Maze, a web-scale video deduplication
+  system designed for cost efficiency. Published at the 30th ACM International
+  Conference on Multimedia in 2022, it addresses large-scale video similarity
+  detection.
+source_url: https://dl.acm.org/doi/10.1145/3503161.3551627
+category: Research Papers & Surveys
+tags:
+  - video-deduplication
+  - web-scale
+  - similarity-search
+featured: false
+updated_at: 2026-04-04 23:01

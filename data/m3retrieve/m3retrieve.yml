@@ -1,0 +1,13 @@
+name: M3Retrieve
+description: Benchmark dataset designed for evaluating multimodal retrieval
+  systems in the medical domain. Tests retrieval performance on medical
+  literature tasks involving both text and visual information, providing
+  standardized evaluation for multimodal RAG systems.
+source_url: https://arxiv.org/abs/2510.06888
+category: Benchmarks & Evaluation
+tags:
+  - multimodal
+  - medical
+  - retieval-benchmark
+featured: false
+updated_at: 2026-04-04 23:01

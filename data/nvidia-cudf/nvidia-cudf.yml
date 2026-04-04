@@ -1,0 +1,58 @@
+name: NVIDIA cuDF
+description: Open-source Python GPU DataFrame library that accelerates popular
+  data engines like Apache Spark, pandas, and Polars on NVIDIA AI
+  infrastructure. Built on Apache Arrow, it utilizes GPU parallelism and memory
+  bandwidth to accelerate data processing and analytics workflows, serving as
+  the data-processing foundation for the Sirius GPU-accelerated database
+  project.
+source_url: https://github.com/rapidsai/cudf
+category: Data Processing
+tags:
+  - GPU-accelerated
+  - dataframe
+  - Apache Arrow
+featured: false
+markdown: >-
+  ## Overview
+
+
+  NVIDIA cuDF is an open-source GPU DataFrame library that provides pandas-like
+  APIs for data processing accelerated by NVIDIA GPUs. Built on Apache Arrow, it
+  utilizes GPU parallelism and memory bandwidth to accelerate data processing
+  and analytics workflows.
+
+
+  ## Key Capabilities
+
+
+  - Accelerates popular data engines including Apache Spark, pandas, and Polars
+
+  - Built on Apache Arrow columnar memory format
+
+  - Utilizes GPU parallelism and memory bandwidth for high-throughput processing
+
+  - Native compatibility with DuckDB
+
+  - Serves as the data-processing foundation of the Sirius GPU-accelerated
+  database
+
+
+  ## Use Cases
+
+
+  - Large-scale data processing and analytics
+
+  - Real-time data transformation pipelines
+
+  - GPU-accelerated SQL query execution
+
+  - Data preprocessing for machine learning and AI workloads
+
+
+  ## Licensing
+
+
+  Free and open-source.
+brand: NVIDIA
+brand_logo_url: https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2color-new.svg
+updated_at: 2026-04-04 23:01

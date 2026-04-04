@@ -1,0 +1,13 @@
+name: Augment Code
+description: AI-powered code search and coding assistant tool that uses
+  fine-tuned specialized embedding models for code semantics rather than relying
+  on simple string matching (Grep). Provides context for coding assistants
+  through semantically similar code snippets beyond exact string matching.
+source_url: https://www.augmentcode.com/
+category: LLM Tools
+tags:
+  - code-search
+  - embedding-models
+  - developer-tools
+featured: false
+updated_at: 2026-04-04 23:01

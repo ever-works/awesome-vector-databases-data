@@ -1,0 +1,51 @@
+name: LIRA — Learning-based Query-aware Partition Framework for Large-scale ANN
+  Search
+description: WWW 2025 paper proposing LIRA, a learning-based query-aware
+  partition framework designed for large-scale approximate nearest neighbor
+  search, adapting partitions based on query characteristics to improve search
+  efficiency.
+source_url: https://arxiv.org/abs/2408.09154
+category: Research Papers & Surveys
+tags:
+  - learning-based
+  - partitions
+  - large-scale
+markdown: >-
+  ## Overview
+
+
+  LIRA introduces a learning-based, query-aware partition framework for
+  large-scale approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Learned partitioning based on query patterns
+
+  - Adapts to query distribution for improved search
+
+  - Scalable to large vector datasets
+
+  - Published in WWW 2025
+
+
+  ## Publication
+
+
+  - **Venue**: WWW 2025
+
+  - **Authors**: Zeng et al.
+
+  - **Abbreviation**: LIRA
+
+
+  ## Features
+
+
+  - Query-aware learning for partition optimization
+
+  - Dynamic partitioning strategies
+
+  - Improved search efficiency on large-scale datasets
+updated_at: 2026-04-04 23:01

@@ -1,0 +1,38 @@
+name: Accelerating Graph Indexing for ANNS on Modern CPUs
+description: SIGMOD 2025 paper proposing optimizations for graph-based
+  approximate nearest neighbor search indexing on modern CPU architectures,
+  leveraging SIMD instructions and cache-aware algorithms for improved index
+  construction performance.
+source_url: https://dl.acm.org/doi/10.1145/3743414
+category: Research Papers & Surveys
+tags:
+  - cpu-optimization
+  - graph-index
+  - high-performance
+markdown: >-
+  ## Overview
+
+
+  Proposes CPU-specific optimizations for accelerating graph index construction
+  in approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - SIMD-optimized graph construction algorithms
+
+  - Cache-aware data layout for graph indexes
+
+  - Parallel construction strategies for modern multi-core CPUs
+
+  - Published in SIGMOD 2025
+
+
+  ## Publication
+
+
+  - **Venue**: SIGMOD 2025
+
+  - **Authors**: Wang et al.
+updated_at: 2026-04-04 23:01

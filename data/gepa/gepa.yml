@@ -1,0 +1,14 @@
+name: GEPA
+description: Genetic algorithm-based prompt optimizer within the DSPy framework.
+  Uses evolutionary strategies to iteratively improve prompt text, including
+  prompts containing tool usage logic. Part of DSPy's suite of optimization
+  methods for automatically enhancing language model program performance.
+source_url: https://dspy.ai/api/optimizers/GEPA/overview/
+category: LLM Tools
+tags:
+  - prompt-optimization
+  - genetic-algorithms
+  - dspy
+featured: false
+brand: Stanford NLP
+updated_at: 2026-04-04 23:01

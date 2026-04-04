@@ -1,0 +1,12 @@
+name: TongSearch-QR
+description: TongSearch-QR (Reinforced Query Reasoning for Retrieval) is a
+  research model that applies reinforcement learning techniques to query
+  reasoning in retrieval systems, enabling improved reasoning capabilities for
+  complex query understanding and retrieval planning in vector search.
+source_url: https://arxiv.org/pdf/2506.11603
+category: Research Papers & Surveys
+tags:
+  - query-reasoning
+  - reinforcement-learning
+  - retrieval
+updated_at: 2026-04-04 23:01

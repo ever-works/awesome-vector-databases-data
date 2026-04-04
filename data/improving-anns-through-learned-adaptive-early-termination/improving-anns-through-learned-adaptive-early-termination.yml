@@ -1,0 +1,37 @@
+name: Improving ANNS through Learned Adaptive Early Termination
+description: SIGMOD 2020 paper proposing learned adaptive early termination for
+  approximate nearest neighbor search, using machine learning to predict when to
+  stop searching, balancing accuracy and latency dynamically.
+source_url: https://dl.acm.org/doi/10.1145/3318464.3389706
+category: Research Papers & Surveys
+tags:
+  - learning-based
+  - early-termination
+  - graph-index
+markdown: >-
+  ## Overview
+
+
+  Introduces learned models to determine optimal early stopping points during
+  graph-based approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Machine learning model for dynamic early termination
+
+  - Balances search accuracy with computational cost
+
+  - Adapts to query-specific search patterns
+
+  - Published in SIGMOD 2020
+
+
+  ## Publication
+
+
+  - **Venue**: SIGMOD 2020
+
+  - **Authors**: Li et al.
+updated_at: 2026-04-04 23:01

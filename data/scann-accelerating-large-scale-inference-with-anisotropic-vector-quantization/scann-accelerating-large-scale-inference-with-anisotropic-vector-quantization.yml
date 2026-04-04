@@ -1,0 +1,48 @@
+name: ScaNN — Accelerating Large-Scale Inference with Anisotropic Vector Quantization
+description: ICML 2020 paper introducing ScaNN (Scalable Nearest Neighbors), a
+  system for accelerating large-scale vector similarity search using anisotropic
+  vector quantization, combining quantization with asymmetric distance
+  computation for high-performance ANN search.
+source_url: https://arxiv.org/abs/1908.10396
+category: Research Papers & Surveys
+tags:
+  - quantization
+  - asymmetric-distance
+  - google-research
+markdown: >-
+  ## Overview
+
+
+  ScaNN introduces anisotropic vector quantization combined with asymmetric
+  distance computation for fast large-scale vector similarity search.
+
+
+  ## Key Contributions
+
+
+  - Anisotropic vector quantization for high-dimensional search
+
+  - Product quantization with optimized codebooks
+
+  - Asymmetric distance computation for improved accuracy
+
+  - Achieves state-of-the-art speed-accuracy tradeoffs
+
+
+  ## Publication
+
+
+  - **Venue**: ICML 2020
+
+  - **Authors**: Guo, Kakade, Krishnamurthy, Khanna
+
+  - **Abbreviation**: ScaNN
+
+
+  ## Impact
+
+
+  ScaNN became a core component of Google's large-scale retrieval systems,
+  enabling fast semantic search and recommendation at scale.
+brand: Google
+updated_at: 2026-04-04 23:01

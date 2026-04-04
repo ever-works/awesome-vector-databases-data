@@ -1,13 +1,15 @@
 name: Turbopuffer
-description: Serverless vector and full-text search database built on object
-  storage with sub-10ms p50 latency. 10x cheaper than alternatives while hosting
-  2.5T+ documents and serving 10k+ queries per second.
+description: Object storage-first vector database that achieves high performance
+  at dramatically lower costs by separating compute from storage, using
+  chunk-based compression and lazy loading from S3-compatible storage.
 source_url: https://turbopuffer.com/
-category: Cloud Services
+category: Vector Database Engines
 tags:
-  - serverless
   - object-storage
-  - cost-effective
+  - s3
+  - cost-optimization
+  - chunk-compression
+  - lazily-loaded
 markdown: >-
   ## Overview
 
@@ -114,4 +116,4 @@ markdown: >-
 
   10x more cost-effective than traditional vector database solutions.
 brand: Turbopuffer
-updated_at: 2026-03-11 12:14
+updated_at: 2026-04-04 23:01

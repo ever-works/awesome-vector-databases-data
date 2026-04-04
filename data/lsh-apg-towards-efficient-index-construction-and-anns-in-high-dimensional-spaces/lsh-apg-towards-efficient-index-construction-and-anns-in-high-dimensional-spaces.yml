@@ -1,0 +1,53 @@
+name: LSH-APG — Towards Efficient Index Construction and ANNS in
+  High-Dimensional Spaces
+description: VLDB 2023 paper proposing LSH-APG, a method combining
+  locality-sensitive hashing with adaptive proximity graphs for efficient index
+  construction and approximate nearest neighbor search in high-dimensional
+  spaces.
+source_url: https://www.vldb.org/pvldb/vol16/p3688-zhao.pdf
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - hash-based
+  - high-dimensional
+markdown: >-
+  ## Overview
+
+
+  LSH-APG combines locality-sensitive hashing techniques with adaptive proximity
+  graph construction for efficient high-dimensional approximate nearest neighbor
+  search.
+
+
+  ## Key Contributions
+
+
+  - Hybrid approach combining LSH with graph-based methods
+
+  - Efficient index construction for high-dimensional vectors
+
+  - Improved search quality over pure graph or LSH methods
+
+  - Published in VLDB 2023
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2023
+
+  - **Authors**: Zhao et al.
+
+  - **Abbreviation**: LSH-APG
+
+
+  ## Features
+
+
+  - Integrates hashing and graph structures for complementary benefits
+
+  - Reduces construction time while maintaining search accuracy
+
+  - Suitable for high-dimensional vector search scenarios
+brand: Zhao et al.
+updated_at: 2026-04-04 23:01

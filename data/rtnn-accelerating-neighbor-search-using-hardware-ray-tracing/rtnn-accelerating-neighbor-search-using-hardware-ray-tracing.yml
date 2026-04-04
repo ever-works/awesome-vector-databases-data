@@ -1,0 +1,13 @@
+name: "RTNN: Accelerating Neighbor Search Using Hardware Ray Tracing"
+description: Research paper by Yuhao Zhu presenting RTNN, a novel approach that
+  leverages hardware ray tracing capabilities to accelerate approximate nearest
+  neighbor search. Published at the 27th ACM SIGPLAN Symposium on Principles and
+  Practice of Parallel Programming in 2022.
+source_url: https://dl.acm.org/doi/10.1145/3503221.3508426
+category: Research Papers & Surveys
+tags:
+  - ray-tracing
+  - gpu
+  - ppopp22
+featured: false
+updated_at: 2026-04-04 23:01

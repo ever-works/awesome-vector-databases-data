@@ -1,70 +1,56 @@
 name: Vespa
-description: Open-source AI search platform combining vector search, keyword
-  retrieval, structured filtering, and ML ranking. Powers applications at
-  Spotify, Yahoo, and Wix with sub-100ms response times. This is an OSS platform
-  under Apache 2.0 with managed cloud option.
+description: Open-source big data serving engine from Yahoo that supports vector
+  search, tensor computations, text search, and structured data queries in a
+  unified platform. Used by major companies for billion-scale retrieval.
 source_url: https://vespa.ai/
 category: Vector Database Engines
 tags:
-  - open-source
-  - enterprise
-  - hybrid-search
-featured: true
+  - yahoo
+  - big-data
+  - tensor
+  - unified-platform
+  - billion-scale
+featured: false
 markdown: >-
   ## Overview
 
 
-  Vespa is a fully open-source AI search platform for developing and operating
-  large-scale applications that combine big data, vector search, machine-learned
-  ranking, and real-time inference. Used by major enterprises including Spotify,
-  Yahoo, and Wix.
+  Vespa is an open-source big data serving engine originally built at Yahoo. It
+  enables vector search, tensor computations, text search, and structured data
+  queries within a single unified platform, designed for billion-scale retrieval
+  workloads.
 
 
   ## Key Features
 
 
-  - **Unified Platform**: Combines vector search, keyword retrieval, structured
-  filtering, and ML ranking
+  - **Vector Search**: Approximate nearest neighbor (ANN) algorithms with
+  multiple distance metrics
 
-  - **Real-Time**: Sub-100ms response times for thousands of queries per second
+  - **Tensor Computations**: First-class support for tensor operations at query
+  time
 
-  - **Scalable**: Handles billions of data items
+  - **Text Search**: Traditional keyword and phrase-based text search
 
-  - **Machine Learning**: Built-in support for ML model inference
+  - **Structured Data Queries**: Filtering and querying of structured metadata
 
-  - **High Availability**: Enterprise-grade reliability
+  - **Unified Platform**: All search capabilities integrated in one engine
 
-  - **Flexible Schema**: Dynamic document types and fields
+  - **Real-Time**: Immediate visibility of new and updated data
 
-
-  ## Vector Search Capabilities
-
-
-  - Native vector similarity search
-
-  - Approximate nearest neighbor (ANN) algorithms
-
-  - Hybrid search combining vectors with keywords
-
-  - Metadata filtering with vector search
-
-  - Multiple distance metrics
-
-  - Real-time vector indexing
+  - **Scalable**: Proven at billion-scale with major enterprises
 
 
   ## Performance
 
 
-  - **Throughput**: Thousands of queries per second
+  - **Scale**: Billions of documents and vectors
 
   - **Latency**: Sub-100ms response times
 
-  - **Scale**: Billions of documents
+  - **Throughput**: Thousands of queries per second
 
-  - **Concurrent Users**: High concurrency support
-
-  - **Real-Time**: Immediate visibility of new data
+  - **High Concurrency**: Designed for large-scale serving
 
 
   ## Deployment Options
@@ -72,26 +58,20 @@ markdown: >-
 
   ### Open Source (Apache 2.0)
 
-  - Self-hosted on your infrastructure
+  - Self-hosted deployment
 
-  - Complete feature set
-
-  - Full source code available
+  - Full feature set
 
   - Community support
 
 
-  ### Vespa Cloud (Managed Service)
+  ### Vespa Cloud
 
-  - Fully managed infrastructure
+  - Fully managed service
 
   - Auto-scaling and optimization
 
-  - Expert performance tuning available
-
   - Enterprise support and SLA
-
-  - Resource usage optimization tools
 
 
   ## Use Cases
@@ -103,49 +83,9 @@ markdown: >-
 
   - Personalized content delivery
 
-  - Real-time analytics dashboards
-
-  - E-commerce product search
-
   - Enterprise knowledge search
 
-
-  ## Enterprise Adoption
-
-
-  ### Spotify
-
-  - Powers music recommendation
-
-  - Handles massive scale search
-
-
-  ### Yahoo
-
-  - News and content delivery
-
-  - Advertising platform
-
-
-  ### Wix
-
-  - Website search
-
-  - Content management
-
-
-  ## Architecture
-
-
-  - Distributed system design
-
-  - Elastic scaling
-
-  - Built-in redundancy
-
-  - Automatic failover
-
-  - Stateful serving with search and recommendation
+  - Real-time analytics
 
 
   ## Machine Learning Integration
@@ -153,27 +93,11 @@ markdown: >-
 
   - Deploy ML models directly in Vespa
 
-  - Real-time model inference during queries
-
   - ONNX model support
 
   - Feature computation at query time
 
-  - A/B testing and experimentation
-
-
-  ## Community and Ecosystem
-
-
-  - Active open-source community
-
-  - Comprehensive documentation
-
-  - Sample applications and tutorials
-
-  - Regular releases and updates
-
-  - Enterprise consulting available
+  - A/B testing capabilities
 
 
   ## Pricing
@@ -181,24 +105,12 @@ markdown: >-
 
   ### Open Source
 
-  Free under Apache 2.0 license. No licensing costs.
+  Free under Apache 2.0 license.
 
 
   ### Vespa Cloud
 
-  Usage-based pricing:
-
-  - Starts free for small projects
-
-  - Scales with usage
-
-  - Resource-based billing
-
-  - Enterprise plans with SLA and dedicated support
-
-  - Cost optimization tools included
-
-
-  Detailed pricing at: vespa.ai/pricing
+  Usage-based pricing with free tier for small projects. Scales with resource
+  usage. Enterprise plans with SLA available.
 brand: Vespa
-updated_at: 2026-03-06 18:05
+updated_at: 2026-04-04 23:01

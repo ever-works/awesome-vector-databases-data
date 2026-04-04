@@ -1,0 +1,48 @@
+name: "RAGOps: Operating and Managing Retrieval-Augmented Generation Pipelines"
+description: Research paper on operating and managing Retrieval-Augmented
+  Generation (RAG) pipelines at scale, covering production infrastructure
+  patterns, monitoring, microservices decomposition, and multi-model
+  architecture for enterprise embedding systems.
+source_url: https://arxiv.org/abs/2506.03401
+category: Research Papers & Surveys
+tags:
+  - rag
+  - production-system
+  - observability
+featured: false
+markdown: >-
+  ## Overview
+
+
+  This research paper addresses the operational challenges of deploying and
+  managing Retrieval-Augmented Generation (RAG) pipelines in production
+  environments. It covers key aspects of microservices decomposition for
+  embedding infrastructure and system-wide observability.
+
+
+  ## Key Topics
+
+
+  - Microservices decomposition: Separating embedding concerns into independent
+  services (document embedding, query embedding, batch pipeline)
+
+  - Multi-model architecture: Domain specialization with router patterns (e.g.,
+  PubMedBERT for medical, CodeBERT for code)
+
+  - Production monitoring: Comprehensive observability for embedding generation
+  latency, cache hit rates, vector search recall, GPU utilization, and queue
+  depth
+
+  - Quality monitoring: Tracking retrieval precision, detecting embedding drift,
+  and alerting on quality degradation thresholds
+
+  - Service-level agreements per component type for independent scaling
+
+
+  ## Relevance
+
+
+  Provides a framework for engineering teams transitioning RAG systems from
+  prototypes to production infrastructure, addressing real-world scaling
+  challenges.
+updated_at: 2026-04-04 23:01

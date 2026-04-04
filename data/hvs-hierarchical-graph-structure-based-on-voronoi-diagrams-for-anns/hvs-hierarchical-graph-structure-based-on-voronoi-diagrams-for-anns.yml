@@ -1,0 +1,39 @@
+name: HVS — Hierarchical Graph Structure Based on Voronoi Diagrams for ANNS
+description: VLDB 2021 paper introducing HVS, a hierarchical graph structure
+  based on Voronoi diagrams for solving approximate nearest neighbor search with
+  improved search efficiency through geometric partitioning.
+source_url: https://www.vldb.org/pvldb/vol15/p1280-lu.pdf
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - voronoi
+  - geometric-index
+markdown: >-
+  ## Overview
+
+
+  HVS builds a hierarchical graph structure using Voronoi diagrams for efficient
+  approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Voronoi diagram-based graph construction
+
+  - Hierarchical structure for multi-granularity search
+
+  - Geometric partitioning for improved pruning
+
+  - Published in VLDB 2021
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2021
+
+  - **Authors**: Lu et al.
+
+  - **Abbreviation**: HVS
+updated_at: 2026-04-04 23:01

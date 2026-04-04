@@ -1,0 +1,37 @@
+name: Locality-Sensitive Indexing for Graph-Based ANNS
+description: SIGIR 2025 paper proposing a locality-sensitive indexing approach
+  for graph-based approximate nearest neighbor search, combining LSH principles
+  with graph structure for improved search accuracy.
+source_url: https://arxiv.org/abs/2412.05135
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - hash-based
+  - locality-sensitive
+markdown: >-
+  ## Overview
+
+
+  Combines locality-sensitive hashing principles with graph-based indexing for
+  approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - LSH-guided graph construction
+
+  - Improved search accuracy through locality awareness
+
+  - Combines two complementary indexing paradigms
+
+  - Published in SIGIR 2025
+
+
+  ## Publication
+
+
+  - **Venue**: SIGIR 2025
+
+  - **Authors**: Chung et al.
+updated_at: 2026-04-04 23:01

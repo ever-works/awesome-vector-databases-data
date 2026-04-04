@@ -1,0 +1,13 @@
+name: ToolSearch Dataset
+description: Benchmark dataset for evaluating tool retrieval systems in AI Agent
+  applications. Provides test cases for assessing how well systems can select
+  the most relevant tools from large tool repositories based on conversational
+  context and task objectives.
+source_url: https://huggingface.co/datasets/bowang0911/ToolSearch
+category: Benchmarks & Evaluation
+tags:
+  - tool-retrieval
+  - agent
+  - benchmark
+featured: false
+updated_at: 2026-04-04 23:01

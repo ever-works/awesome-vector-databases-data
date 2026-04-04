@@ -1,0 +1,37 @@
+name: Routing-Guided Learned Product Quantization for Graph-Based ANNS
+description: ICDE 2024 paper proposing a routing-guided learned product
+  quantization method that enhances graph-based approximate nearest neighbor
+  search by learning optimal quantization guided by graph routing information.
+source_url: https://arxiv.org/abs/2401.08452
+category: Research Papers & Surveys
+tags:
+  - quantization
+  - graph-index
+  - learning-based
+markdown: >-
+  ## Overview
+
+
+  A learned product quantization method guided by graph routing for improved
+  graph-based approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Learned product quantization with routing guidance
+
+  - Enhances graph-based ANNS with quantization
+
+  - Optimizes codebook learning through graph structure
+
+  - Published in ICDE 2024
+
+
+  ## Publication
+
+
+  - **Venue**: ICDE 2024
+
+  - **Authors**: Yue et al.
+updated_at: 2026-04-04 23:01

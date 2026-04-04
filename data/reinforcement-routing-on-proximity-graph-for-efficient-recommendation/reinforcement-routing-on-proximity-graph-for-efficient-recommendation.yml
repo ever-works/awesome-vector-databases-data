@@ -1,0 +1,38 @@
+name: Reinforcement Routing on Proximity Graph for Efficient Recommendation
+description: TOIS 2023 paper proposing reinforcement learning-based routing on
+  proximity graphs for efficient recommendation, applying graph traversal
+  optimization to recommendation systems using vector-based item
+  representations.
+source_url: https://dl.acm.org/doi/10.1145/3577185
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - reinforcement-learning
+  - recommendation
+markdown: >-
+  ## Overview
+
+
+  Applies reinforcement learning to optimize routing decisions on proximity
+  graphs for recommendation tasks.
+
+
+  ## Key Contributions
+
+
+  - Reinforcement learning for graph-based search routing
+
+  - Optimizes traversal strategy for recommendation scenarios
+
+  - Data-driven edge selection during search
+
+  - Published in TOIS 2023
+
+
+  ## Publication
+
+
+  - **Venue**: TOIS 2023
+
+  - **Authors**: Feng et al.
+updated_at: 2026-04-04 23:01

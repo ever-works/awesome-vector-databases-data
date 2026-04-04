@@ -1,15 +1,16 @@
 name: PGVector
-description: PostgreSQL supports vector indexing and similarity search via the
-  PGVector extension, allowing relational databases to manage and retrieve
-  vector embeddings efficiently.
+description: PostgreSQL extension that enables vector similarity search within
+  Postgres databases, supporting HNSW and IVFFlat indexes — ideal for
+  applications that want to keep vectors alongside relational data.
 source_url: https://github.com/pgvector/pgvector
-category: sdks-libraries
+category: Vector Database Extensions
 tags:
-  - open-source
-  - vector-search
   - postgresql
-  - similarity-search
-markdown: >
+  - extension
+  - hnsw
+  - ivfflat
+  - hybrid-relational
+markdown: >-
   # PGVector
 
 
@@ -75,4 +76,4 @@ markdown: >
 
 
   - [Source code and documentation](https://github.com/pgvector/pgvector)
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-04 23:01

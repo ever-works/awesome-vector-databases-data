@@ -1,0 +1,38 @@
+name: Residual Quantization with Implicit Neural Codebooks
+description: ICML 2024 paper presenting a novel residual quantization approach
+  using implicit neural codebooks for vector compression in high-dimensional
+  similarity search, replacing traditional fixed codebooks with learned
+  representations.
+source_url: https://proceedings.mlr.press/v235/huijben24a
+category: Research Papers & Surveys
+tags:
+  - quantization
+  - neural-networks
+  - compression
+markdown: >-
+  ## Overview
+
+
+  Proposes residual quantization with implicit neural codebooks as an
+  alternative to traditional product quantization.
+
+
+  ## Key Contributions
+
+
+  - Neural codebooks replace quantization lookup tables
+
+  - Residual encoding with learned implicit representations
+
+  - Improved compression accuracy for vector search
+
+  - Published in ICML 2024
+
+
+  ## Publication
+
+
+  - **Venue**: ICML 2024
+
+  - **Authors**: Huijben et al.
+updated_at: 2026-04-04 23:01

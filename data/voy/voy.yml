@@ -1,14 +1,15 @@
 name: Voy
-description: A portable WebAssembly vector similarity search engine written in
-  Rust with a tiny footprint (75KB gzipped). Designed for edge deployment,
-  browsers, and IoT devices with support for k-d tree indexing and optimized for
-  modern web applications.
+description: A lightweight, WASM-compatible vector similarity search engine
+  written in Rust, enabling in-browser vector search with support for HNSW index
+  and multiple distance metrics.
 source_url: https://github.com/tantaraio/voy
 category: SDKs & Libraries
 tags:
   - wasm
   - rust
   - browser
+  - hnsw
+  - in-browser
 markdown: >-
   ## Overview
 
@@ -120,4 +121,4 @@ markdown: >-
   - **npm**: voy-search package
 
   - **Language**: Rust (compiled to WASM)
-updated_at: 2026-03-17 12:44
+updated_at: 2026-04-04 23:01

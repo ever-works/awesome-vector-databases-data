@@ -1,0 +1,13 @@
+name: "IDEA: Inverted Deduplication-Aware Index"
+description: Research paper presenting IDEA, an inverted deduplication-aware
+  index that compares physical vs. logical indexing approaches for vector
+  search. Published at the 22nd USENIX Conference on File and Storage
+  Technologies (FAST 24) in 2024.
+source_url: https://www.usenix.org/conference/fast24/presentation/levi
+category: Research Papers & Surveys
+tags:
+  - indexing
+  - deduplication
+  - fast24
+featured: false
+updated_at: 2026-04-04 23:01

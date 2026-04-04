@@ -1,0 +1,11 @@
+name: BenchmarkQED
+description: Open benchmarking framework for Retrieval-Augmented Generation
+  (RAG) systems designed to push the community toward fairer, comparably
+  measured retrieval evaluation methods.
+source_url: https://github.com/project-baize/BenchmarkQED
+category: Benchmarks & Evaluation
+tags:
+  - rag
+  - evaluation
+  - benchmarking
+updated_at: 2026-04-04 23:01

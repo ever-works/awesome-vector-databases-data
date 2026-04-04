@@ -1,0 +1,39 @@
+name: ARKGraph — All-Range Approximate K-Nearest-Neighbor Graph
+description: VLDB 2023 paper proposing ARKGraph, a graph-based method for
+  all-range approximate k-nearest neighbor search that adapts to various recall
+  requirements.
+source_url: https://www.vldb.org/pvldb/vol16/p3413-zuo.pdf
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - knn
+  - approximate-nearest-neighbor
+markdown: >-
+  ## Overview
+
+
+  ARKGraph constructs a versatile graph structure for all-range approximate
+  k-nearest neighbor search, supporting flexible recall-accuracy trade-offs.
+
+
+  ## Key Contributions
+
+
+  - Graph construction supporting multiple search ranges
+
+  - Flexible recall control through parameterization
+
+  - Single graph adapts to different query requirements
+
+  - Published in VLDB 2023
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2023
+
+  - **Authors**: Zuo et al.
+
+  - **Abbreviation**: ARKGraph
+updated_at: 2026-04-04 23:01

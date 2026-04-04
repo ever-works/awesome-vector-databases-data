@@ -1,0 +1,39 @@
+name: PM-LSH — A Fast and Accurate In-memory Framework for High-Dimensional ANNS
+description: VLDB 2022 paper introducing PM-LSH, an in-memory locality-sensitive
+  hashing framework for high-dimensional approximate nearest neighbor and
+  closest pair search with strong accuracy guarantees.
+source_url: https://www.vldb.org/pvldb/vol15/p2479-zheng.pdf
+category: Research Papers & Surveys
+tags:
+  - hash-based
+  - in-memory
+  - locality-sensitive
+markdown: >-
+  ## Overview
+
+
+  PM-LSH provides a fast and accurate in-memory LSH framework for
+  high-dimensional approximate nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Polytope-based LSH with improved accuracy
+
+  - In-memory optimized data structure
+
+  - Efficient both-point and closest-pair search
+
+  - Published in VLDB 2022
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2022
+
+  - **Authors**: Zheng et al.
+
+  - **Abbreviation**: PM-LSH
+updated_at: 2026-04-04 23:01

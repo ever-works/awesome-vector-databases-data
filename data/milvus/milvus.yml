@@ -1,16 +1,21 @@
 name: Milvus
-description: Milvus is a mature, open-source vector database maintained by
-  Zilliz, supporting large-scale similarity search with multiple indexing
-  strategies and GPU acceleration. It includes variants such as Milvus Lite
-  (lightweight version), Milvus Standalone (single-machine deployment), and
-  Milvus Distributed (Kubernetes-based deployment for large scale).
+description: Milvus is a cloud-native, distributed vector database engine
+  designed for billion-scale vector similarity search with support for HNSW,
+  IVF, and other advanced index types. It features a decoupled compute-storage
+  architecture that scales elastically on Kubernetes, enabling efficient hybrid
+  search that combines vector embeddings with traditional metadata filtering.
+  Primary use cases include Retrieval-Augmented Generation (RAG), multimodal
+  search, recommendation systems, and large-scale AI applications requiring
+  high-throughput vector retrieval.
 source_url: https://milvus.io/
-category: vector-database-engines
+category: Vector Database Engines
 tags:
-  - open-source
-  - vector-search
-  - scalable
-  - gpu-acceleration
+  - distributed
+  - cloud-native
+  - billion-scale
+  - hnsw
+  - ivf
+  - hybrid-search
 markdown: >
   # Milvus
 
@@ -63,9 +68,4 @@ markdown: >
   No explicit pricing information is provided for Milvus open source
   deployments. Zilliz Cloud, the fully managed Milvus service, may have its own
   pricing structure, but details are not included in the provided content.
-
-
-  ## Tags
-
-  open-source, vector-search, scalable, gpu-acceleration
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-04 23:01

@@ -1,0 +1,39 @@
+name: DIDS — Double Indices and Double Summarizations for Fast Similarity Search
+description: VLDB 2024 paper presenting DIDS, a fast similarity search method
+  using double indices and double summarizations to accelerate high-dimensional
+  vector queries.
+source_url: https://www.vldb.org/pvldb/vol17/p3267-hu.pdf
+category: Research Papers & Surveys
+tags:
+  - tree-index
+  - similarity-search
+  - high-dimensional
+markdown: >-
+  ## Overview
+
+
+  DIDS introduces a double-index approach with summarization techniques for fast
+  high-dimensional similarity search.
+
+
+  ## Key Contributions
+
+
+  - Double index structure for improved search
+
+  - Double summarization for query pruning
+
+  - Fast similarity search on high-dimensional data
+
+  - Published in VLDB 2024
+
+
+  ## Publication
+
+
+  - **Venue**: VLDB 2024
+
+  - **Authors**: Hu et al.
+
+  - **Abbreviation**: DIDS
+updated_at: 2026-04-04 23:01

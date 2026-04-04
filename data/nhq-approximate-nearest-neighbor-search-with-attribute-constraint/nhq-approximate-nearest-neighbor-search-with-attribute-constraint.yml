@@ -1,0 +1,49 @@
+name: NHQ — Approximate Nearest Neighbor Search with Attribute Constraint
+description: NeurIPS 2023 paper presenting NHQ, an efficient and robust
+  framework for approximate nearest neighbor search with attribute constraints,
+  enabling hybrid queries combining vector similarity with structured filtering.
+source_url: https://arxiv.org/abs/2305.13980
+category: Research Papers & Surveys
+tags:
+  - hybrid-search
+  - filtering
+  - similarity-search
+markdown: >-
+  ## Overview
+
+
+  NHQ provides an efficient and robust framework for approximate nearest
+  neighbor search with attribute constraints.
+
+
+  ## Key Contributions
+
+
+  - Framework for hybrid vector search with attribute constraints
+
+  - Efficient filtering during ANN search
+
+  - Maintains search accuracy under constraints
+
+  - Published in NeurIPS 2023
+
+
+  ## Publication
+
+
+  - **Venue**: NeurIPS 2023
+
+  - **Authors**: Wang et al.
+
+  - **Abbreviation**: NHQ
+
+
+  ## Features
+
+
+  - Attribute-constrained ANN search
+
+  - Robust filtering mechanism
+
+  - Efficient query processing
+updated_at: 2026-04-04 23:01

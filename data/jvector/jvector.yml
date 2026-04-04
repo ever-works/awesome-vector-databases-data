@@ -1,15 +1,16 @@
 name: jvector
-description: jvector is a high-performance Java-based library and engine for
-  vector search and approximate nearest neighbor indexing.
+description: DataStax's advanced embedded vector search engine, powering Astra
+  DB's vector capabilities, featuring HNSW with optimizations for streaming
+  inserts, quantization, and high-dimensional data.
 source_url: https://github.com/jbellis/jvector
-featured: false
-brand_logo_url: null
-images: null
 category: sdks-libraries
 tags:
-  - ann
-  - vector-search
-  - high-performance
+  - datastax
+  - embedded
+  - hnsw
+  - streaming
+  - quantization
+featured: false
 markdown: >-
   ## jvector
 
@@ -68,4 +69,5 @@ markdown: >-
 
   - Not specified in the provided content (open-source GitHub project; see
   repository for license and usage terms).
-updated_at: 2025-12-25 16:52
+brand_logo_url: null
+updated_at: 2026-04-04 23:01

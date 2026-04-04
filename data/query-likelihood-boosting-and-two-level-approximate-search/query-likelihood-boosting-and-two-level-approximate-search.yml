@@ -1,0 +1,13 @@
+name: Query Likelihood Boosting and Two-Level Approximate Search
+description: Research on search optimization using query likelihood boosting
+  combined with two-level approximate search algorithms optimized for edge
+  devices. Addresses the challenge of performing efficient vector similarity
+  search in resource-constrained environments.
+source_url: https://www.mdpi.com/journal/computers/special_issues/edge_search
+category: Research Papers & Surveys
+tags:
+  - edge-devices
+  - query-optimization
+  - approximate-search
+featured: false
+updated_at: 2026-04-04 23:01

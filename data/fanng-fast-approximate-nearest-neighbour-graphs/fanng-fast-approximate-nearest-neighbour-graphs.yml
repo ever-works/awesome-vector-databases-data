@@ -1,0 +1,50 @@
+name: FANNG — Fast Approximate Nearest Neighbour Graphs
+description: Paper introducing FANNG, a fast algorithm for constructing
+  approximate nearest neighbor graphs. The method builds graphs that enable
+  efficient nearest neighbor queries while maintaining high quality
+  approximations.
+source_url: https://ieeexplore.ieee.org/document/7780805
+category: Research Papers & Surveys
+tags:
+  - graph-construction
+  - ann
+  - approximate-nearest-neighbor
+markdown: >-
+  ## Overview
+
+
+  FANNG presents algorithms for fast construction of approximate nearest
+  neighbor graphs, improving the efficiency of both index building and query
+  time for graph-based search.
+
+
+  ## Key Contributions
+
+
+  - Novel approach to approximate kNN graph construction
+
+  - Balances construction speed with graph quality
+
+  - Provides theoretical guarantees on graph connectivity
+
+  - Demonstrated on computer vision benchmarks at CVPR 2016
+
+
+  ## Publication
+
+
+  - **Venue**: CVPR 2016
+
+  - **Authors**: Harwood et al.
+
+  - **Abbreviation**: FANNG
+
+
+  ## Impact
+
+
+  FANNG contributed to the development of more efficient graph construction
+  algorithms that became important building blocks for graph-based vector search
+  systems.
+brand: Ben Harwood
+updated_at: 2026-04-04 23:01

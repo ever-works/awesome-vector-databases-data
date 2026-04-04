@@ -1,0 +1,37 @@
+name: Optimizing Clusters for Billion-Scale Quantization-Based NNS
+description: TKDE 2024 paper on optimizing the number of clusters for
+  billion-scale quantization-based nearest neighbor search, providing methods to
+  determine optimal clustering for quantized vector indexing.
+source_url: https://ieeexplore.ieee.org/document/10574201
+category: Research Papers & Surveys
+tags:
+  - quantization
+  - clustering
+  - billion-scale
+markdown: >-
+  ## Overview
+
+
+  Addresses the challenge of determining optimal cluster counts for
+  quantization-based nearest neighbor search at billion scale.
+
+
+  ## Key Contributions
+
+
+  - Optimal cluster number for billion-scale quantization
+
+  - Improved index quality through optimized partitioning
+
+  - Practical guidance for large-scale index construction
+
+  - Published in TKDE 2024
+
+
+  ## Publication
+
+
+  - **Venue**: TKDE 2024
+
+  - **Authors**: Fu et al.
+updated_at: 2026-04-04 23:01

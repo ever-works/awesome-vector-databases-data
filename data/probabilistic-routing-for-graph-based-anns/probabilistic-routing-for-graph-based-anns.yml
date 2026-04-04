@@ -1,0 +1,35 @@
+name: Probabilistic Routing for Graph-Based ANNS
+description: Paper from 2024 proposing a probabilistic routing approach for
+  graph-based approximate nearest neighbor search, introducing probability
+  models to guide search traversal on proximity graphs.
+source_url: https://arxiv.org/abs/2401.09410
+category: Research Papers & Surveys
+tags:
+  - graph-index
+  - probabilistic
+  - ann
+markdown: >-
+  ## Overview
+
+
+  Introduces probabilistic routing strategies for graph-based approximate
+  nearest neighbor search.
+
+
+  ## Key Contributions
+
+
+  - Probabilistic models for graph traversal
+
+  - Improved search accuracy through statistical guidance
+
+  - Generalizable to various graph-based indexes
+
+  - Published in 2024
+
+
+  ## Publication
+
+
+  - **Authors**: Lu et al.
+updated_at: 2026-04-04 23:01
