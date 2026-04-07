@@ -19,7 +19,7 @@
 - id: cloud-services
   name: Cloud Services
 - id: llm-frameworks
-  name: LLM Frameworks
+  name: Llm Frameworks
 - id: llm-tools
   name: LLM Tools
 - id: machine-learning-models
@@ -48,3 +48,7 @@
   name: Edge Database
 - id: rag-frameworks-pipelines
   name: RAG Frameworks & Pipelines
+- id: rust-based-vector-databases
+  name: Rust Based Vector Databases
+- id: embedded-vector-databases
+  name: Embedded Vector Databases

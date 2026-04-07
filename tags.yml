@@ -117,7 +117,7 @@
 - id: data-synchronization
   name: data synchronization
 - id: cli
-  name: CLI
+  name: Cli
 - id: management
   name: Management
 - id: sizing
@@ -1206,3 +1206,119 @@
   name: Milvus Managed
 - id: scaling
   name: Scaling
+- id: rust-lang
+  name: Rust Lang
+- id: performance-critical
+  name: Performance Critical
+- id: wasm-support
+  name: Wasm Support
+- id: no-server
+  name: No Server
+- id: neuromorphic
+  name: Neuromorphic
+- id: distributed-clustering
+  name: Distributed Clustering
+- id: milvus-2x
+  name: Milvus 2.x
+- id: sql-hybrid
+  name: Sql Hybrid
+- id: acid-compliant
+  name: Acid Compliant
+- id: coherence
+  name: Coherence
+- id: graph-neural-networks
+  name: Graph Neural Networks
+- id: rust-engine
+  name: Rust Engine
+- id: payload-filtering
+  name: Payload Filtering
+- id: quantum
+  name: Quantum
+- id: attention
+  name: Attention
+- id: attention-mechanisms
+  name: Attention Mechanisms
+- id: transformers
+  name: Transformers
+- id: gnn
+  name: Gnn
+- id: crdt
+  name: Crdt
+- id: napi
+  name: Napi
+- id: transformer
+  name: Transformer
+- id: hypergraph
+  name: Hypergraph
+- id: sparql
+  name: Sparql
+- id: lora
+  name: Lora
+- id: min-cut
+  name: Min Cut
+- id: ai-safety
+  name: Ai Safety
+- id: postgres
+  name: Postgres
+- id: robotics
+  name: Robotics
+- id: planning
+  name: Planning
+- id: scientific
+  name: Scientific
+- id: grpc
+  name: Grpc
+- id: http-server
+  name: Http Server
+- id: solvers
+  name: Solvers
+- id: sublinear
+  name: Sublinear
+- id: sona
+  name: Sona
+- id: sparsifier
+  name: Sparsifier
+- id: spectral
+  name: Spectral
+- id: routing
+  name: Routing
+- id: verification
+  name: Verification
+- id: proofs
+  name: Proofs
+- id: os-kernel
+  name: Os Kernel
+- id: llm-inference
+  name: Llm Inference
+- id: webgpu
+  name: Webgpu
+- id: genomics
+  name: Genomics
+- id: ebpf
+  name: Ebpf
+- id: xdp
+  name: Xdp
+- id: networking
+  name: Networking
+- id: qemu
+  name: Qemu
+- id: runtime
+  name: Runtime
+- id: cow
+  name: Cow
+- id: compaction
+  name: Compaction
+- id: no-std
+  name: No Std
+- id: types
+  name: Types
+- id: file-format
+  name: File Format
+- id: cognitive-containers
+  name: Cognitive Containers
+- id: standalone
+  name: Standalone
+- id: thermodynamic
+  name: Thermodynamic
+- id: graphql-api
+  name: Graphql Api
