@@ -1,0 +1,41 @@
+name: "@ruvector/attention"
+description: Library implementing 46 attention mechanisms including dot-product,
+  multi-head, Flash, linear, hyperbolic, graph, and sheaf attention. Supports
+  SIMD optimization, streaming, caching, hard negative mining, and hyperbolic
+  math functions for transformers and GNNs.
+source_url: https://www.npmjs.com/package/@ruvector/attention
+category: Sdks Libraries
+tags:
+  - attention-mechanisms
+  - transformers
+  - gnn
+  - simd
+featured: false
+markdown: |-
+  ## Overview
+
+  Comprehensive attention for transformers and graphs.
+
+  ## Core Mechanisms
+
+  | Mechanism | Complexity | Best For |
+  |-|-|-|
+  | DotProductAttention | O(n²) | Basic |
+  | FlashAttention | O(n²) | Long sequences |
+  | LinearAttention | O(n·d) | Streaming |
+
+  Graph, hyperbolic, sparse variants included.
+
+  ## Installation
+
+  ```sh
+  npm install @ruvector/attention
+  ```
+
+  CLI: npx ruvector attention benchmark
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

@@ -1,0 +1,30 @@
+name: ruvector-postgres
+description: PostgreSQL extension providing 230+ SQL functions as pgvector
+  replacement, enabling vector search, graph queries, and AI features directly
+  in relational databases.
+source_url: https://hub.docker.com/r/ruvnet/ruvector-postgres
+category: Vector Database Extensions
+tags:
+  - postgres
+  - sql
+  - extension
+  - pgvector
+featured: false
+markdown: |-
+  ## Overview
+
+  Drop-in upgrade for PostgreSQL with vector capabilities.
+
+  ## Installation
+
+  ```sh
+  docker pull ruvnet/ruvector-postgres
+  ```
+
+  77+ SQL functions.
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

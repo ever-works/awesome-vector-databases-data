@@ -1,0 +1,24 @@
+name: ruvector-graph-transformer-wasm
+description: WASM bindings for browser-side graph transformers with proof verification.
+source_url: https://crates.io/crates/ruvector-graph-transformer-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - wasm
+  - graph
+featured: false
+markdown: |-
+  ## Overview
+
+  WASM graph transformers.
+
+  ## Features
+
+  - Proof receipts per op
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

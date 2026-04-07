@@ -1,0 +1,28 @@
+name: micro-hnsw-wasm
+description: WASM library for brain-inspired neuromorphic HNSW vector search in
+  11.8KB. Optimized for edge devices with spiking neurons for energy-efficient
+  similarity search.
+source_url: https://crates.io/crates/micro-hnsw-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - wasm
+  - hnsw
+  - neuromorphic
+featured: false
+markdown: |-
+  ## Overview
+
+  Ultra-lightweight HNSW for browser and IoT.
+
+  ## Features
+
+  - 11.8KB binary
+  - Spiking neural integration
+  - Offline AI search
+
+  ## Pricing
+
+  Free and open-source.
+brand: ruvnet
+updated_at: 2026-04-07 10:19

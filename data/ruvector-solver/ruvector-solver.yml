@@ -1,0 +1,45 @@
+name: ruvector-solver
+description: Library providing sublinear-time solvers for large-scale math
+  problems like PageRank, graph Laplacians, and AI attention using 8 algorithms
+  including Neumann Series, Conjugate Gradient, Forward/Backward Push, and more.
+  Optimized for scale with SIMD SpMV, fused kernels, and arena allocators;
+  supports WASM and NAPI bindings.
+source_url: https://crates.io/crates/ruvector-solver
+category: Sdks Libraries
+tags:
+  - solvers
+  - sublinear
+  - simd
+  - graph
+featured: false
+markdown: |-
+  ## Overview
+
+  Solves problems faster as data grows, powering real-time self-learning.
+
+  ## Algorithms
+
+  | Algorithm | Complexity | Best For |
+  |-|-|-|
+  | Neumann Series | O(k · nnz) | Diagonally dominant |
+  | Conjugate Gradient | O(√κ · log(1/ε) · nnz) | SPD systems |
+  | Forward Push | O(1/ε) | Single-source PageRank |
+  | Backward Push | O(1/ε) | Reverse relevance |
+  | Hybrid Random Walk | O(√n/ε) | Pairwise relevance |
+  | TRUE | O(log n) amortized | Laplacian systems |
+  | BMSSP | O(nnz · log n) | Multigrid solve |
+  | Auto Router | Automatic | Optimal selection |
+
+  Key optimizations: AVX2 SIMD, fused residuals, bounds-check elimination.
+
+  ## Installation
+
+  ```sh
+  cargo add ruvector-solver --features all-algorithms
+  ```
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

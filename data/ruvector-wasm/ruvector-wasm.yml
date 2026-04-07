@@ -1,0 +1,34 @@
+name: ruvector-wasm
+description: WASM bindings for RuVector vector database, enabling browser and
+  edge runtime vector search and storage.
+source_url: https://www.npmjs.com/package/@ruvector/wasm
+category: Sdks Libraries
+tags:
+  - wasm
+  - browser
+  - edge
+  - open-source
+featured: false
+markdown: |-
+  ## Overview
+
+  WebAssembly bindings for RuVector, suitable for browsers and serverless edge.
+
+  ## Features
+
+  - Vector insert and search in WASM
+  - Lightweight for client-side use
+
+  ## Usage
+
+  ```javascript
+  import { RuVectorWasm } from '@ruvector/wasm';
+  const db = await RuVectorWasm.create({ dimensions: 384 });
+  await db.insert('doc1', embedding);
+  const results = await db.search(query, 5);
+  ```
+
+  ## Pricing
+
+  Open-source, free.
+updated_at: 2026-04-07 10:19

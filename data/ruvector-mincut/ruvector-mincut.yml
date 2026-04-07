@@ -1,0 +1,30 @@
+name: ruvector-mincut
+description: Rust implementation of subpolynomial fully-dynamic min-cut
+  algorithm for AI coherence checks, network resilience, and agent coordination.
+  Features 256-core parallel optimization and WASM bindings for browser use.
+source_url: https://crates.io/crates/ruvector-mincut
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - min-cut
+  - wasm
+  - ai-safety
+featured: false
+markdown: |-
+  ## Overview
+
+  Dynamic min-cut for real-time graph analysis in AI systems.
+
+  ## Features
+
+  - Subpolynomial update time (n^0.12)
+  - Blake3 hash chain audits
+  - Applications: hallucination gates, neural pruning
+  - Node.js/WASM bindings
+
+  ## Pricing
+
+  Free and open-source.
+brand: ruvnet
+updated_at: 2026-04-07 10:19

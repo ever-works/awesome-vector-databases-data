@@ -1,0 +1,29 @@
+name: rvf-runtime
+description: Runtime engine for RVF including store API, copy-on-write, and
+  compaction features. Powers persistent and efficient vector data management in
+  RuVector applications.
+source_url: https://crates.io/crates/rvf-runtime
+category: Vector Database Engines
+tags:
+  - rust
+  - runtime
+  - cow
+  - compaction
+  - open-source
+featured: false
+markdown: |-
+  ## Overview
+
+  RVF runtime provides the core execution environment for RVF containers.
+
+  ## Features
+
+  - Store API
+  - Copy-on-write (COW) engine
+  - Automatic compaction
+  - High-performance vector storage
+
+  ## Pricing
+
+  Open source under MIT license.
+updated_at: 2026-04-07 10:19

@@ -1,0 +1,37 @@
+name: rvf-types
+description: Core type definitions for RVF segments, headers, and structures in
+  no_std Rust. Essential foundation for building verified vector data containers
+  in the RuVector project.
+source_url: https://crates.io/crates/rvf-types
+category: Sdks Libraries
+tags:
+  - rust
+  - no-std
+  - types
+  - open-source
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Provides segment types and headers for RVF cognitive containers without
+  standard library dependency.
+
+
+  ## Features
+
+
+  - no_std compatible
+
+  - RVF segment types
+
+  - Headers and metadata structures
+
+  - Used across RVF runtime and other crates
+
+
+  ## Pricing
+
+
+  Open source under MIT license.
+updated_at: 2026-04-07 10:19

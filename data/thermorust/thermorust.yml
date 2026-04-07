@@ -1,0 +1,28 @@
+name: thermorust
+description: Thermodynamic neural motif engine using Ising/soft-spin
+  Hamiltonians, Langevin dynamics, and Landauer dissipation for bio-inspired
+  vector neural networks.
+source_url: https://crates.io/crates/thermorust
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - neuromorphic
+  - thermodynamic
+featured: false
+markdown: |-
+  ## Overview
+
+  Thermodynamic engine for neural motifs.
+
+  ## Features
+
+  - Ising/soft-spin Hamiltonians
+  - Langevin dynamics
+  - Landauer dissipation
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

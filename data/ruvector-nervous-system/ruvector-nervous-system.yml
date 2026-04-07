@@ -1,0 +1,37 @@
+name: ruvector-nervous-system
+description: Rust crate implementing spiking neural networks with BTSP learning
+  and EWC plasticity for neuromorphic and bio-inspired vector processing in AI
+  applications. Provides energy-efficient alternatives to traditional ANNs with
+  10-50x efficiency gains. Designed for integration into vector databases and
+  real-time AI systems.
+source_url: https://crates.io/crates/ruvector-nervous-system
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - neuromorphic
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Spiking neural networks (SNNs) crate with Behavioral Time-Scale Synaptic
+  Plasticity (BTSP) learning and Elastic Weight Consolidation (EWC) plasticity.
+
+
+  ## Features
+
+
+  - Spiking Neural Networks (SNNs) for 10-50x energy efficiency over ANNs
+
+  - BTSP for rapid adaptation
+
+  - EWC for plasticity preservation
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

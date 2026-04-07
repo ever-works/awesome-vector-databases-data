@@ -1,0 +1,29 @@
+name: ruvector-gnn
+description: Rust crate for Graph Neural Network layers and training integrated
+  with vector search. Powers GNN-enhanced HNSW reranking and semantic routing in
+  RuVector. Supports browser and edge deployment via WASM.
+source_url: https://crates.io/crates/ruvector-gnn
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - gnn
+  - wasm
+featured: false
+markdown: |-
+  ## Overview
+
+  Graph Neural Networks for enhancing vector retrieval and agent routing.
+
+  ## Features
+
+  - GNN-backed HNSW reranking
+  - 8 graph transformer modules (physics, bio, temporal, etc.)
+  - Node.js and WASM bindings
+  - Real-time adaptation
+
+  ## Pricing
+
+  Free and open-source.
+brand: ruvnet
+updated_at: 2026-04-07 10:19

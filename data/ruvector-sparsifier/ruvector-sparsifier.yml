@@ -1,0 +1,40 @@
+name: ruvector-sparsifier
+description: Incremental graph sparsifier that compresses large graphs into a
+  'shadow graph' preserving key properties like connectivity, cuts, and flow.
+  Uses random walks for importance scoring, spectral sampling, union-find
+  backbone, and periodic auditing to maintain accuracy without full rebuilds.
+source_url: https://crates.io/crates/ruvector-sparsifier
+category: Sdks Libraries
+tags:
+  - graph
+  - sparsifier
+  - spectral
+  - incremental
+featured: false
+markdown: |-
+  ## Overview
+
+  Maintains a small graph behaving like the large one for efficient queries.
+
+  ## Components
+
+  | Component | What it does |
+  |-|-|
+  | Backbone | Spanning forest guaranteeing connectivity |
+  | Importance scorer | Random walks for edge importance |
+  | Spectral sampler | Proportional edge keeping, reweighting |
+  | Auditor | Verifies approximation quality |
+
+  49 tests, benchmarks, WASM bindings.
+
+  ## Installation
+
+  ```sh
+  cargo add ruvector-sparsifier
+  ```
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

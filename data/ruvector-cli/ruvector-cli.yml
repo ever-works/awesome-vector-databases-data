@@ -1,0 +1,53 @@
+name: ruvector-cli
+description: Command-line interface for RuVector vector database, supporting
+  initialization, insert, search, and hooks for AI coding assistants.
+source_url: https://crates.io/crates/ruvector-cli
+category: Sdks Libraries
+tags:
+  - rust
+  - cli
+  - open-source
+featured: false
+markdown: >-
+  ## Overview
+
+
+  CLI tool for managing RuVector databases and integrations like hooks for
+  self-learning AI.
+
+
+  ## Features
+
+
+  - Database init, insert, search
+
+  - Hooks for Claude Code integration
+
+  - Shell completions
+
+  - PostgreSQL support
+
+
+  ## Usage
+
+
+  ```bash
+
+  cargo install ruvector-cli
+
+  ruvector init mydb --dim 1536
+
+  ruvector insert mydb --file embeddings.json
+
+  ruvector search mydb --query "[0.1, 0.2, ...]" --limit 10
+
+  ruvector hooks init
+
+  ```
+
+
+  ## Pricing
+
+
+  Open-source, free.
+updated_at: 2026-04-07 10:19

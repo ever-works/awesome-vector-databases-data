@@ -1,0 +1,34 @@
+name: ruvector-node
+description: Native Node.js bindings for RuVector via napi-rs, providing
+  high-performance vector database operations in Node.js environments.
+source_url: https://crates.io/crates/ruvector-node
+category: Sdks Libraries
+tags:
+  - rust
+  - nodejs
+  - napi
+  - open-source
+featured: false
+markdown: |-
+  ## Overview
+
+  Native bindings for RuVector vector database in Node.js using napi-rs.
+
+  ## Features
+
+  - Full RuVector API access in Node.js
+  - High performance via native Rust
+
+  ## Usage
+
+  ```javascript
+  const { RuVector } = require('@ruvector/node');
+  const db = new RuVector({ dimensions: 1536 });
+  db.insert('doc1', embedding, { title: 'Hello' });
+  const results = db.search(queryEmbedding, 10);
+  ```
+
+  ## Pricing
+
+  Open-source, free.
+updated_at: 2026-04-07 10:19

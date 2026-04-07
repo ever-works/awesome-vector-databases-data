@@ -1,0 +1,29 @@
+name: ruvector-sona
+description: Rust crate for Self-Optimizing Neural Architecture (SONA) with LoRA
+  adaptation, EWC++ plasticity, and ReasoningBank learning. Enables continuous
+  improvement in LLM routers and agents without forgetting.
+source_url: https://crates.io/crates/ruvector-sona
+category: llm-frameworks
+tags:
+  - open-source
+  - rust
+  - sona
+  - lora
+featured: false
+markdown: |-
+  ## Overview
+
+  Self-learning neural architecture for adaptive AI systems.
+
+  ## Features
+
+  - Two-tier LoRA + EWC++
+  - Runtime-adaptive learning
+  - Prevents catastrophic forgetting
+  - Hierarchical pattern learning
+
+  ## Pricing
+
+  Free and open-source.
+brand: ruvnet
+updated_at: 2026-04-07 10:19

@@ -1,0 +1,26 @@
+name: ruvector-graph-transformer-node
+description: Node.js NAPI-RS bindings for ruvector-graph-transformer with 22+
+  methods and 20 tests.
+source_url: https://www.npmjs.com/package/@ruvector/graph-transformer
+category: Sdks Libraries
+tags:
+  - open-source
+  - nodejs
+  - graph
+  - napi
+featured: false
+markdown: |-
+  ## Overview
+
+  Node.js bindings for graph transformer.
+
+  ## Features
+
+  - 22+ methods
+  - Proof-gated ops
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

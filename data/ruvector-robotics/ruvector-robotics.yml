@@ -1,0 +1,29 @@
+name: ruvector-robotics
+description: Rust crate for cognitive robotics platform with perception, A*
+  planning, behavior trees, and swarm coordination using vector search. Supports
+  no_std and cross-domain transfer learning.
+source_url: https://crates.io/crates/ruvector-robotics
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - robotics
+  - planning
+featured: false
+markdown: |-
+  ## Overview
+
+  Perception-think-act-learn loop for autonomous robots.
+
+  ## Features
+
+  - OccupancyGrid and PointCloud processing
+  - A* pathfinding and potential fields
+  - Swarm coordination
+  - Domain expansion for transfer learning
+
+  ## Pricing
+
+  Free and open-source.
+brand: ruvnet
+updated_at: 2026-04-07 10:19

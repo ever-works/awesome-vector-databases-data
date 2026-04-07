@@ -1,0 +1,26 @@
+name: ruvllm-wasm
+description: Browser-based LLM inference using WebGPU for RuVector ecosystem,
+  enabling lightweight AI model execution in WASM environments.
+source_url: https://crates.io/crates/ruvllm-wasm
+category: Sdks Libraries
+tags:
+  - wasm
+  - llm-inference
+  - webgpu
+  - open-source
+featured: false
+markdown: |-
+  ## Overview
+
+  WASM module for LLM inference in browsers with WebGPU acceleration.
+
+  ## Features
+
+  - LLM inference in browser/edge
+  - WebGPU support
+  - Integration with RuVector
+
+  ## Pricing
+
+  Open-source, free.
+updated_at: 2026-04-07 10:19

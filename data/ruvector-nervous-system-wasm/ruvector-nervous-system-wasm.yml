@@ -1,0 +1,28 @@
+name: ruvector-nervous-system-wasm
+description: WASM bindings for ruvector-nervous-system, enabling browser and
+  edge deployment of spiking neural networks with BTSP and EWC for vector
+  similarity tasks. Supports neuromorphic learning in web environments for AI
+  vector applications.
+source_url: https://crates.io/crates/ruvector-nervous-system-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - wasm
+  - neuromorphic
+featured: false
+markdown: |-
+  ## Overview
+
+  WebAssembly bindings for neuromorphic spiking neural networks.
+
+  ## Features
+
+  - WASM-compatible SNNs with BTSP and EWC
+  - Browser/edge deployment for vector ops
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

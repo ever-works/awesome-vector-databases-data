@@ -1,0 +1,59 @@
+name: ruvector-core
+description: Core Rust crate for the RuVector vector database engine featuring
+  HNSW indexing, SIMD acceleration, and adaptive compression for
+  high-performance similarity search. Supports multi-threaded queries achieving
+  up to 3,597 QPS with 100% recall on 50K vectors. Ideal for AI applications
+  requiring low-latency retrieval in RAG pipelines and agent memory systems.
+source_url: https://crates.io/crates/ruvector-core
+category: Rust-based Vector Databases
+tags:
+  - open-source
+  - rust
+  - hnsw
+  - simd
+  - rust-lang
+  - performance-critical
+  - wasm-support
+featured: false
+markdown: >-
+  ## Overview
+
+
+  ruvector-core provides the foundational vector database engine with HNSW
+  indexing optimized for speed and accuracy.
+
+
+  ## Features
+
+
+  - HNSW indexing with configurable ef_search for 100% recall
+
+  - SIMD-optimized distance calculations (Euclidean, Cosine, Dot Product)
+
+  - Adaptive compression tiers (f32 to binary, 1x-32x)
+
+  - Multi-threaded search and batch inserts
+
+  - Persistence via snapshots
+
+
+  ## Performance
+
+
+  | Config | QPS | p50 Latency |
+
+  |--------|-----|-------------|
+
+  | Single-threaded | 394 | 1.80ms |
+
+  | Multi-threaded (16) | 3,597 | 2.86ms |
+
+  | SIMD Optimized | 1,216 | 0.78ms |
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: ruvnet
+updated_at: 2026-04-07 10:19

@@ -1,0 +1,29 @@
+name: ruvector-verified
+description: Rust crate for proof-carrying vector operations using lean-agentic
+  dependent types, providing formal verification with ~500ns proofs for secure
+  vector computations in AI systems.
+source_url: https://crates.io/crates/ruvector-verified
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - verification
+  - proofs
+featured: false
+markdown: |-
+  ## Overview
+
+  Proof-carrying vector ops with dependent types.
+
+  ## Features
+
+  - ~500ns proofs
+  - 82-byte attestations
+  - 3-tier gated proof routing (Reflex <10ns, Standard <1us, Deep <100us)
+  - FastTermArena O(1) dedup
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

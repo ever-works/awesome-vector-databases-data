@@ -1,0 +1,36 @@
+name: Prime Radiant
+description: Coherence Gate engine using sheaf Laplacian for mathematical
+  consistency checks in AI responses. Implements compute ladder routing (Reflex
+  to Human), LLM hallucination blocking, GPU/SIMD acceleration, and
+  cryptographic audit trails.
+source_url: https://crates.io/crates/prime-radiant
+category: Evaluation & Observability
+tags:
+  - coherence
+  - hallucination-detection
+  - graph-neural-networks
+  - simd
+featured: false
+markdown: |-
+  ## Overview
+
+  Proves AI coherence mathematically.
+
+  ## Features
+
+  - Sheaf Laplacian: E(S) = Σ wₑ · ‖ρᵤ(xᵤ) - ρᵥ(xᵥ)‖²
+  - Compute Ladder: <1ms Reflex to async Human
+  - GPU/SIMD: wgpu + AVX-512
+  - Governance: Blake3 witnesses
+
+  ## Installation
+
+  ```sh
+  cargo add prime-radiant --features gpu,simd
+  ```
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

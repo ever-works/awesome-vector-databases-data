@@ -1,0 +1,28 @@
+name: ruvector-graph-transformer
+description: Unified graph transformer with proof-gated mutation substrate for
+  verified graph-vector operations, featuring 8 modules and 186 tests.
+source_url: https://crates.io/crates/ruvector-graph-transformer
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - graph
+  - transformer
+featured: false
+markdown: |-
+  ## Overview
+
+  Graph transformer with proof-gated mutations.
+
+  ## Features
+
+  - Proof-gated mutation
+  - Sublinear attention
+  - Physics-informed, biological, self-organizing modules
+  - Verified training
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

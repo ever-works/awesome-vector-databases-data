@@ -1,0 +1,39 @@
+name: ruvllm
+description: Local LLM inference engine supporting GGUF models with hardware
+  acceleration on Metal, CUDA, ANE, WebGPU. Features Flash Attention, MicroLoRA,
+  RoPE, quantization (Q4-Q8, π-Quantization), MoE routing, and streaming tokens
+  for browser and edge deployment.
+source_url: https://crates.io/crates/ruvllm
+category: LLM Tools
+tags:
+  - llm-inference
+  - wasm
+  - quantization
+  - open-source
+featured: false
+markdown: |-
+  ## Overview
+
+  ruvllm enables local AI without cloud APIs.
+
+  ## Features
+
+  - ruvllm-wasm: Browser WASM runtime (435 KB)
+  - Hardware: Metal/CUDA/ANE/WebGPU
+  - Quantization: Q4, Q5, Q8, π-Quantization (2-bit weights)
+  - MoE Memory-Aware Routing
+  - Streaming tokens, KV cache
+
+  ## Installation
+
+  ```sh
+  npm install @ruvector/ruvllm
+  npm install @ruvector/ruvllm-wasm
+  cargo add ruvllm
+  ```
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

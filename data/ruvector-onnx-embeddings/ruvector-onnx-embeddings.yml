@@ -1,0 +1,66 @@
+name: ruvector-onnx-embeddings
+description: Production-ready ONNX embedding generation in pure Rust using ONNX
+  Runtime, no Python required. Supports 8+ pretrained models including
+  all-MiniLM-L6-v2, BGE, E5, GTE with pooling strategies and GPU acceleration
+  (CUDA, TensorRT, CoreML, WebGPU). Enables direct integration with RuVector
+  indices for RAG pipelines and semantic similarity computation.
+source_url: https://crates.io/crates/ruvector-onnx-embeddings
+category: Sdks Libraries
+tags:
+  - rust
+  - onnx
+  - embeddings
+  - open-source
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Native embedding generation using ONNX Runtime in pure Rust. Supports multiple
+  pretrained models and hardware acceleration.
+
+
+  ## Features
+
+
+  - Pretrained models: all-MiniLM-L6-v2 (384 dim), BgeSmallEnV15 (384 dim),
+  AllMpnetBaseV2 (768 dim)
+
+  - Pooling strategies
+
+  - GPU support: CUDA, TensorRT, CoreML, WebGPU
+
+  - Semantic similarity computation
+
+  - RuVector index integration for RAG
+
+
+  ## Usage
+
+
+  ```rust
+
+  use ruvector_onnx_embeddings::{Embedder, PretrainedModel};
+
+
+  #[tokio::main]
+
+  async fn main() -> anyhow::Result<()> {
+      let mut embedder = Embedder::default_model().await?;
+      let embedding = embedder.embed_one("Hello, world!")?; 
+      let sim = embedder.similarity(
+          "I love programming in Rust",
+          "Rust is my favorite language"
+      )?;
+      println!("Similarity: {:.4}", sim);
+      Ok(()) 
+  }
+
+  ```
+
+
+  ## Pricing
+
+
+  Open-source, free.
+updated_at: 2026-04-07 10:19

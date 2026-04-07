@@ -1,0 +1,29 @@
+name: ospipe
+description: RuVector-enhanced personal AI memory for Screenpipe, replacing
+  SQLite with semantic vector search, knowledge graphs, and attention reranking.
+source_url: https://crates.io/crates/ospipe
+category: Vector Database Engines
+tags:
+  - open-source
+  - rust
+  - memory
+  - semantic-search
+featured: false
+markdown: |-
+  ## Overview
+
+  Personal AI memory with HNSW, graph, attention.
+
+  ## Features
+
+  - HNSW 61us latency
+  - Knowledge graph
+  - Attention reranking
+  - PII redaction
+  - 4-tier quantization
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

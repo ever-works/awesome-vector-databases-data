@@ -1,0 +1,26 @@
+name: ruvector-attention-unified-wasm
+description: Unified WASM bindings for 18+ attention mechanisms including
+  neural, DAG, and Mamba SSM, optimized for vector search and processing.
+source_url: https://crates.io/crates/ruvector-attention-unified-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - wasm
+  - attention
+featured: false
+markdown: |-
+  ## Overview
+
+  Unified attention mechanisms in WASM.
+
+  ## Features
+
+  - 18+ mechanisms: Neural, DAG, Mamba SSM
+  - For vector similarity
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

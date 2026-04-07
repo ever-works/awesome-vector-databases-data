@@ -1,0 +1,26 @@
+name: ruvector-verified-wasm
+description: WASM bindings for ruvector-verified, enabling browser/edge formal
+  verification of vector operations.
+source_url: https://crates.io/crates/ruvector-verified-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - wasm
+  - verification
+featured: false
+markdown: |-
+  ## Overview
+
+  WASM for formal vector verification.
+
+  ## Features
+
+  - Browser/edge proofs
+  - Type-safe pipelines
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

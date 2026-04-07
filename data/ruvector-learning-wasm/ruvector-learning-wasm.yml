@@ -1,0 +1,27 @@
+name: ruvector-learning-wasm
+description: WASM library for MicroLoRA adaptation with sub-100µs latency,
+  enabling fast fine-tuning for vector embeddings and AI models in browser
+  environments.
+source_url: https://crates.io/crates/ruvector-learning-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - wasm
+  - lora
+featured: false
+markdown: |-
+  ## Overview
+
+  MicroLoRA for sub-microsecond fine-tuning.
+
+  ## Features
+
+  - MicroLoRA adaptation (<100µs latency)
+  - Per-operator learning for vectors
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19

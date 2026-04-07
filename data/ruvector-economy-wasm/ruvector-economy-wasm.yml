@@ -1,0 +1,26 @@
+name: ruvector-economy-wasm
+description: CRDT-based autonomous credit economy in WASM for decentralized
+  vector resource allocation and AI agent economics.
+source_url: https://crates.io/crates/ruvector-economy-wasm
+category: Sdks Libraries
+tags:
+  - open-source
+  - rust
+  - wasm
+  - crdt
+featured: false
+markdown: |-
+  ## Overview
+
+  CRDT-based economy for AI agents.
+
+  ## Features
+
+  - Autonomous credit allocation
+  - Decentralized via CRDTs
+
+  ## Pricing
+
+  Free and open-source.
+brand: RuVector
+updated_at: 2026-04-07 10:19
