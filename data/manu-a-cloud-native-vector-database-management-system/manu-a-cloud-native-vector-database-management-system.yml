@@ -3,11 +3,14 @@ description: VLDB 2022 paper introducing Manu, a cloud-native vector database
   management system designed for scalable similarity search in cloud
   environments with separated storage and compute architecture.
 source_url: https://www.vldb.org/pvldb/vol15/p2270-guo.pdf
-category: Vector Database
+category: Vector Database Engines
 tags:
   - cloud-native
   - distributed
   - billion-scale
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 markdown: >-
   ## Overview
 
@@ -45,4 +48,4 @@ markdown: >-
   - Distributed indexing across nodes
 
   - Elastic scaling capabilities
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-20 22:13

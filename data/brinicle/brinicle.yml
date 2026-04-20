@@ -1,0 +1,26 @@
+name: brinicle
+description: Brinicle is a Meilisearch-inspired lightweight vector index in Rust
+  for fast, disk-based ANN search with HNSW, aimed at embeddable use. Minimalist
+  design for local apps. Emerging for edge/low-resource vs full DBs like Chroma.
+source_url: https://github.com/meilisearch/brinicle
+category: Vector Database Engines
+tags:
+  - rust-brinicle
+  - disk-hnsw
+  - meilisearch-inspired
+featured: false
+markdown: >-
+  ## Overview
+
+  brinicle is a C++ vector index engine optimized for resource-constrained
+  environments.
+
+
+  ## Features
+
+  - Efficient indexing for low-RAM setups
+
+  - High performance on production workloads
+
+  - Approximate nearest neighbor search
+updated_at: 2026-04-20 22:13

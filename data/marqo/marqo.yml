@@ -1,15 +1,15 @@
 name: Marqo
-description: A neural search engine that handles multi-modal search with
-  built-in text-to-image search capabilities, automatic embedding generation,
-  and a simple REST API for powering AI-powered search experiences.
+description: "Marqo is a vector search engine with managed cloud and self-hosted
+  options, auto-vectorization via HuggingFace models, and unified API for
+  multi-model search including multimodal. Simplifies end-to-end from ingest to
+  query. Use cases: no-code AI search apps; abstracts embeddings unlike raw DBs
+  like Weaviate, faster prototyping but less control."
 source_url: https://www.marqo.ai/
 category: vector-database-engines
 tags:
-  - neural-search
-  - multi-modal
-  - text-to-image
-  - rest-api
-  - automatic-embedding
+  - auto-vectorization
+  - multimodal-marqo
+  - no-code-search
 markdown: >-
   ## Overview
 
@@ -121,4 +121,6 @@ markdown: >-
 
   Contact Marqo for pricing details. The platform promises measurable ROI in 14
   days.
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.marqo.ai/favicon.ico
+updated_at: 2026-04-20 22:13

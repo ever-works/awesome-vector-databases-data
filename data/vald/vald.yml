@@ -1,8 +1,9 @@
 name: Vald
-description: Vald is an open-source, highly scalable distributed vector search
-  engine known for its asynchronous auto-indexing and ability to efficiently
-  handle large-scale vector data in real time, making it suitable for demanding
-  vector search applications.
+description: Vald is a distributed vector search engine using NGT for ANN with
+  Go/Rust clients, auto-scaling via Kubernetes, and layer-based sharding.
+  Focuses on high availability and dynamic data. Suited for microservices, IoT
+  similarity; more auto-managing than Milvus standalone, Japanese-originated
+  with strong redundancy.
 source_url: https://vald.vdaas.org/
 category: vector-database-engines
 tags:
@@ -10,6 +11,9 @@ tags:
   - distributed
   - scalable
   - real-time
+  - distributed-ngt
+  - k8s-autoscale
+  - go-vald
 markdown: >-
   # Vald
 
@@ -73,4 +77,6 @@ markdown: >-
   ## Pricing
 
   No pricing information was provided; Vald is open-source.
-updated_at: 2025-05-13 22:29
+images:
+  - https://vald.vdaas.org/favicon.ico
+updated_at: 2026-04-20 22:13

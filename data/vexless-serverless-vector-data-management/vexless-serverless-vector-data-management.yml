@@ -3,11 +3,14 @@ description: SIGMOD 2024 paper introducing Vexless, a serverless vector data
   management system built on cloud functions that decouples compute and storage
   for elastic, pay-per-use vector similarity search.
 source_url: https://github.com/datasys-sysu/Vexless
-category: Vector Database
+category: Vector Database Engines
 tags:
   - serverless
   - cloud-native
   - similarity-search
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 markdown: >-
   ## Overview
 
@@ -46,4 +49,4 @@ markdown: >-
   - Cost-sensitive vector search applications
 
   - Prototyping and development environments
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-20 22:13

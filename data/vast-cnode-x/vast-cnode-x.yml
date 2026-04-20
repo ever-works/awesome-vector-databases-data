@@ -5,11 +5,14 @@ description: GPU-accelerated server from VAST Data that combines the VAST AI OS
   high-throughput vector search, data vectorization, and inference, it leverages
   the NVIDIA AI Data Platform reference design.
 source_url: https://www.vastdata.com/solutions/compute/
-category: Vector Database
+category: Vector Database Engines
 tags:
   - GPU-accelerated
   - server-hardware
   - enterprise
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 featured: false
 markdown: >-
   ## Overview
@@ -69,4 +72,4 @@ markdown: >-
   Commercial product from VAST Data. Contact VAST Data for pricing details.
 brand: VAST Data
 brand_logo_url: https://www.vastdata.com/wp-content/uploads/2023/06/VAST-Data-Logo-Color.svg
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-20 22:13

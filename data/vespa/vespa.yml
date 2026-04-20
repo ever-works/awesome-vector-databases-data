@@ -1,7 +1,10 @@
 name: Vespa
-description: Open-source big data serving engine from Yahoo that supports vector
-  search, tensor computations, text search, and structured data queries in a
-  unified platform. Used by major companies for billion-scale retrieval.
+description: "Vespa is an open-source big data serving engine combining vector
+  search, lexical search, and ML inference with real-time ranking and
+  low-latency serving. It uses HNSW/ANN with tensor computations and supports
+  structured data. Use cases: e-commerce search, recommendation at Yahoo-scale;
+  more feature-rich for hybrid workloads than pure vector DBs like Weaviate,
+  with built-in A/B testing."
 source_url: https://vespa.ai/
 category: Vector Database Engines
 tags:
@@ -10,6 +13,9 @@ tags:
   - tensor
   - unified-platform
   - billion-scale
+  - big-data-engine
+  - real-time-ranking
+  - yahoo-vespa
 featured: false
 markdown: >-
   ## Overview
@@ -113,4 +119,6 @@ markdown: >-
   Usage-based pricing with free tier for small projects. Scales with resource
   usage. Enterprise plans with SLA available.
 brand: Vespa
-updated_at: 2026-04-04 23:01
+images:
+  - https://vespa.ai/assets/favicon/favicon-32x32.png
+updated_at: 2026-04-20 22:13

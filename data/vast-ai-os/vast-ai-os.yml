@@ -5,11 +5,14 @@ description: GPU-accelerated platform from VAST Data that includes a native
   with structured data and metadata in unified tables, enabling hybrid queries
   across modalities without orchestration layers or external indexes.
 source_url: https://www.vastdata.com/
-category: Vector Database
+category: Vector Database Engines
 tags:
   - GPU-accelerated
   - enterprise
   - hybrid-search
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 featured: false
 markdown: >-
   ## Overview
@@ -102,4 +105,4 @@ markdown: >-
   Commercial product from VAST Data. Contact VAST Data for pricing details.
 brand: VAST Data
 brand_logo_url: https://www.vastdata.com/wp-content/uploads/2023/06/VAST-Data-Logo-Color.svg
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-20 22:13

@@ -4,10 +4,13 @@ description: Integrated database-and-inference engine that processes document
   system. Advocated as an approach to optimize the retrieval-context pipeline by
   combining storage and inference into a unified architecture.
 source_url: https://alaya.io/
-category: Vector Database
+category: Vector Database Engines
 tags:
   - kv-cache
   - inference-integration
   - context-engineering
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 featured: false
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-20 22:13

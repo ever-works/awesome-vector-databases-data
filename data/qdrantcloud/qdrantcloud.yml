@@ -2,11 +2,13 @@ name: QdrantCloud
 description: QdrantCloud is the managed cloud version of Qdrant, a vector
   database tailored for AI-powered similarity search and matching.
 source_url: https://cloud.qdrant.io/
-category: commerce
+category: Serverless & Managed Vector DBs
 tags:
   - managed-service
   - vector-database
   - similarity-search
   - ai
-markdown: ""
-updated_at: 2025-06-07 14:17
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
+updated_at: 2026-04-20 22:13

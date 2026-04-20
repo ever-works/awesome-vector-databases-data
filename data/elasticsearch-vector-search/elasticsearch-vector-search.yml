@@ -3,11 +3,14 @@ description: Search and analytics engine with k-nearest neighbor (kNN) search
   for semantic similarity. Features approximate and exact kNN, HNSW indexing,
   and advanced quantization. This is commercial with OSS version available.
 source_url: https://www.elastic.co/elasticsearch/
-category: Multi Model & Hybrid Databases
+category: Hybrid Search Engines
 tags:
   - commercial
   - open-source
   - search-engine
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 featured: true
 markdown: >-
   ## Overview
@@ -226,4 +229,4 @@ markdown: >-
 
   - Performance tuning guides
 brand: Elastic
-updated_at: 2026-03-06 18:05
+updated_at: 2026-04-20 22:13

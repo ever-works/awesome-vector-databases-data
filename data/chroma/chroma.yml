@@ -1,11 +1,9 @@
 name: Chroma
-description: Chroma is a Python-first vector database engine designed for
-  simplicity, offering an embedded mode that runs in-process and a
-  developer-friendly API tailored for AI application prototyping and production.
-  It provides semantic search, full-text search, and regex search capabilities
-  as a memory and retrieval layer for LLM and RAG applications. Primary use
-  cases include building RAG pipelines, implementing semantic search over
-  document corpora, and managing contextual memory for AI agents and chatbots.
+description: "Chroma is an AI-native open-source embedding database focused on
+  developer simplicity for LLM apps, with in-memory or persistent storage and
+  HNSW indexing. Features client-side embedding, multi-modal support, and easy
+  Python integration. Use cases: prototyping RAG, local AI agents; lighter than
+  Milvus for small-scale, but lacks enterprise scaling compared to Qdrant."
 source_url: https://github.com/chroma-core/chroma
 category: Vector Database Engines
 tags:
@@ -13,6 +11,9 @@ tags:
   - embedded
   - developer-friendly
   - simple
+  - embedding-database
+  - python-first
+  - local-rag
 markdown: >
   # Chroma
 
@@ -70,4 +71,5 @@ brand: chroma
 brand_logo_url: https://www.trychroma.com/_next/static/media/logo.5a2cf918.svg
 images:
   - https://raw.githubusercontent.com/chroma-core/chroma/main/docs/assets/chroma-logo.png
-updated_at: 2026-04-04 23:01
+  - https://docs.trychroma.com/logo-light.png
+updated_at: 2026-04-20 22:13

@@ -1,14 +1,22 @@
 name: Redis Vector Search
-description: Native vector database capabilities in Redis combining ultra-low
-  latency in-memory operations with vector similarity search. Redis 8.0
-  introduced vector sets as native data type for semantic search, RAG pipelines,
-  and recommendations.
+description: "Redis Vector Search, powered by RediSearch module, enables vector
+  similarity search on Redis with HNSW/Flat indexes, supporting hybrid
+  BM25+vector queries and on-disk persistence. It leverages Redis' speed for
+  real-time apps with filtering on JSON payloads. Use cases: caching embeddings
+  for chatbots, fraud detection; faster than Postgres for low-latency but less
+  scalable than distributed like Milvus without clustering."
 source_url: https://redis.io/solutions/vector-database/
-category: Vector Database Extensions
+category: Hybrid Search Engines
 tags:
   - redis
   - in-memory
   - real-time
+  - redis-vss
+  - hybrid-bm25
+  - real-time-cache
+  - vector-database-2026
+  - ann-benchmarks
+  - rag-optimized
 markdown: >-
   ## Overview
 
@@ -89,4 +97,6 @@ markdown: >-
   pricing.
 brand: Redis
 brand_logo_url: https://redis.io/favicon.ico
-updated_at: 2026-03-11 13:24
+images:
+  - https://redis.io/docs/latest/develop/get-started/logo.png
+updated_at: 2026-04-20 22:13
