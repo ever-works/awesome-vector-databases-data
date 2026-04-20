@@ -11,7 +11,7 @@
 - id: data-integration-migration
   name: Data Integration & Migration
 - id: sdks-libraries
-  name: Sdks Libraries
+  name: SDKs & Libraries
 - id: commerce
   name: Commerce
 - id: open-sources
@@ -52,3 +52,7 @@
   name: Rust Based Vector Databases
 - id: embedded-vector-databases
   name: Embedded Vector Databases
+- id: hybrid-search-engines
+  name: Hybrid Search Engines
+- id: serverless-managed-vector-dbs
+  name: Serverless & Managed Vector DBs

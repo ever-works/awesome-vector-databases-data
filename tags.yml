@@ -923,7 +923,7 @@
 - id: cuda
   name: Cuda
 - id: gpu-accelerated
-  name: Gpu Accelerated
+  name: GPU Accelerated
 - id: cagra
   name: Cagra
 - id: jvector
@@ -1322,3 +1322,89 @@
   name: Thermodynamic
 - id: graphql-api
   name: Graphql Api
+- id: vector-database-2026
+  name: Vector Database 2026
+- id: ann-benchmarks
+  name: Ann Benchmarks
+- id: rag-optimized
+  name: Rag Optimized
+- id: rust-brinicle
+  name: Rust Brinicle
+- id: disk-hnsw
+  name: Disk Hnsw
+- id: meilisearch-inspired
+  name: Meilisearch Inspired
+- id: embedding-database
+  name: Embedding Database
+- id: python-first
+  name: Python First
+- id: local-rag
+  name: Local Rag
+- id: ann-library
+  name: Ann Library
+- id: gpu-faiss
+  name: Gpu Faiss
+- id: facebook-ai
+  name: Facebook Ai
+- id: columnar-vector-db
+  name: Columnar Vector Db
+- id: embeddable-lancedb
+  name: Embeddable Lancedb
+- id: multimodal-storage
+  name: Multimodal Storage
+- id: auto-vectorization
+  name: Auto Vectorization
+- id: multimodal-marqo
+  name: Multimodal Marqo
+- id: no-code-search
+  name: No Code Search
+- id: hybrid-search-milvus
+  name: Hybrid Search Milvus
+- id: hnsw-postgres
+  name: Hnsw Postgres
+- id: serverless-vector-db
+  name: Serverless Vector Db
+- id: managed-pinecone
+  name: Managed Pinecone
+- id: sparse-dense-hybrid
+  name: Sparse Dense Hybrid
+- id: payload-storage
+  name: Payload Storage
+- id: redis-vss
+  name: Redis Vss
+- id: hybrid-bm25
+  name: Hybrid Bm25
+- id: real-time-cache
+  name: Real Time Cache
+- id: free-tier
+  name: Free Tier
+- id: rust-vector-db
+  name: Rust Vector Db
+- id: edge-rivestack
+  name: Edge Rivestack
+- id: lightweight-local
+  name: Lightweight Local
+- id: distributed-ngt
+  name: Distributed Ngt
+- id: k8s-autoscale
+  name: K8s Autoscale
+- id: go-vald
+  name: Go Vald
+- id: experimental-vdb
+  name: Experimental Vdb
+- id: high-dim-search
+  name: High Dim Search
+- id: big-data-engine
+  name: Big Data Engine
+- id: real-time-ranking
+  name: Real Time Ranking
+- id: yahoo-vespa
+  name: Yahoo Vespa
+- id: modules-integration
+  name: Modules Integration
+- id: semantic-search-weaviate
+  name: Semantic Search Weaviate
+- id: enterprise-vector-cloud
+  name: Enterprise Vector Cloud
+- id: gpu-zilliz
+  name: Gpu Zilliz
