@@ -1,15 +1,21 @@
 name: RediSearch
-description: RediSearch is a Redis module that provides high-performance vector
-  search and similarity search capabilities on top of Redis, enabling advanced
-  search and retrieval features for AI and data applications.
+description: "Redis as vector database via RediSearch module supports HNSW/Flat
+  indexes for real-time vector search in key-value store. Features: sub-ms
+  latency, JSON payloads, modules ecosystem; use cases: caching + search
+  hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
+  pure vectors."
 source_url: https://github.com/RediSearch/RediSearch
-category: sdks-libraries
+category: Hybrid Search Engines
 tags:
+  - redis-vss
+  - hybrid-bm25
+  - real-time-cache
+  - redisearch
   - vector-search
   - redis
   - open-source
   - similarity-search
-markdown: >
+markdown: >-
   # RediSearch
 
 
@@ -66,18 +72,6 @@ markdown: >
   - **Cluster support:**
     - Distributed cluster mode for scaling to billions of documents across many servers (available in Redis Cloud and Redis Enterprise Software)
 
-  ## Category
-
-
-  - SDKs & Libraries
-
-
-  ## Tags
-
-
-  vector-search, redis, open-source, similarity-search
-
-
   ## License
 
 
@@ -91,4 +85,4 @@ markdown: >
   - RediSearch is open source. Distributed cluster features are available as
   part of Redis Cloud and Redis Enterprise Software (pricing details for those
   are not provided here).
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-21 10:14

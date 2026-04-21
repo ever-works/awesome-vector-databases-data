@@ -5,7 +5,7 @@ description: Open-source reranking model based on fine-tuned decoder-only LLMs
   query-document relevance scoring beyond what zero-shot LLM prompts can
   achieve.
 source_url: https://github.com/castorini/rank_zephyr
-category: Search & Retrieval
+category: Vector Database Engines
 tags:
   - open-source
   - LLM-reranking
@@ -68,4 +68,4 @@ markdown: >-
   - Part of the family of supervised LLM rerankers showing promise for retrieval
   tasks
 brand: University of Waterloo
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 10:14

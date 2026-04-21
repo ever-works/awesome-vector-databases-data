@@ -1,16 +1,21 @@
 name: Chroma
-description: Chroma (ChromaDB) is a lightweight, open-source embedding database
-  for AI apps, with in-memory and persistent storage, Python-first API, and
-  automatic indexing. It integrates easily with LLMs for local RAG prototypes.
-  Best for developers needing simplicity; less scalable than production DBs like
-  Qdrant but faster setup.
+description: "Chroma is an open-source, AI-native embedding database focused on
+  developer simplicity for local and production LLM apps. It supports
+  in-memory/persistent storage with HNSW indexing, automatic embedding via LLMs,
+  and easy Python integration. Features: single-binary deploy, collections API,
+  multimodal; use cases: prototyping RAG, local agents. Compared to Weaviate,
+  Chroma is minimalist and file-based, ideal for quick starts but less suited
+  for massive scales."
 source_url: https://github.com/chroma-core/chroma
-category: Edge & Embedded Vector DBs
+category: Embedded Vector Databases
 tags:
   - lightweight
   - python-first
   - local-rag
   - embedding-database
+  - ai-native
+  - persistent-storage
+  - local-llm
 markdown: >
   # Chroma
 
@@ -70,4 +75,5 @@ images:
   - https://raw.githubusercontent.com/chroma-core/chroma/main/docs/assets/chroma-logo.png
   - https://docs.trychroma.com/logo-light.png
   - https://trychroma.com/logo.png
-updated_at: 2026-04-21 07:12
+  - https://docs.trychroma.com/logo.png
+updated_at: 2026-04-21 10:14

@@ -3,7 +3,7 @@ description: Distributed search and analytics engine with vector search (kNN)
   capabilities, combining BM25 text search with semantic search. Widely used for
   enterprise search and observability workloads.
 source_url: https://www.elastic.co/elasticsearch/
-category: Search & Retrieval
+category: Vector Database Engines
 tags:
   - distributed
   - bm25
@@ -80,4 +80,4 @@ markdown: >-
   Not specified in provided content. Elastic offers open source downloads,
   hosted cloud, and serverless options; specific pricing details can be found on
   their website.
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 10:14

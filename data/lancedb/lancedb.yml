@@ -1,11 +1,12 @@
 name: LanceDB
-description: LanceDB is an embedded, columnar vector database using Apache Arrow
-  and Lance format for multimodal data, supporting SQL queries and disk-based
-  storage. It excels in serverless, local AI apps with zero-copy reads and
-  upsert capabilities. Better for data lakes than Chroma for large datasets;
-  embeddable like SQLite but vector-native.
+description: "LanceDB is an open-source columnar vector database embedded in
+  Lance format for multimodal AI apps, supporting fast queries on billions of
+  vectors without a server. It features IVF-PQ/HNSW indexes, SQL-like queries,
+  zero-copy reads, and Python/JS SDKs; use cases: RAG, computer vision,
+  time-series. Versus Chroma, LanceDB emphasizes columnar storage for analytics
+  and Arrow integration, enabling serverless scale."
 source_url: https://lancedb.com/
-category: Edge & Embedded Vector DBs
+category: Embedded Vector Databases
 tags:
   - embedded
   - lance-format
@@ -14,6 +15,9 @@ tags:
   - javascript
   - local-first
   - columnar-vector-db
+  - columnar-storage
+  - multimodal-db
+  - arrow-integration
 markdown: >-
   # LanceDB
 
@@ -93,4 +97,4 @@ markdown: >-
 images:
   - https://lancedb.com/logo.png
   - https://lancedb.com/favicon.ico
-updated_at: 2026-04-21 07:12
+updated_at: 2026-04-21 10:14

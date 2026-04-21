@@ -4,7 +4,7 @@ description: Open-source reranking model that uses an encoder-decoder (T5)
   query-document pairs are relevant or irrelevant. Formulates document ranking
   as a generation task.
 source_url: https://github.com/castorini/RankT5
-category: Search & Retrieval
+category: Vector Database Engines
 tags:
   - open-source
   - encoder-decoder
@@ -60,4 +60,4 @@ markdown: >-
   window strategies
 
   - Open-source and can be self-hosted, avoiding API costs
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 10:14

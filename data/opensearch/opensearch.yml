@@ -3,7 +3,7 @@ description: AWS-backed open-source search and analytics suite with vector
   search capabilities via faiss and nmslib engines, neural search plugins, and
   tight AWS ecosystem integration.
 source_url: https://opensearch.org/
-category: Search & Retrieval
+category: Vector Database Engines
 tags:
   - aws
   - faiss
@@ -14,7 +14,7 @@ markdown: >-
   # OpenSearch
 
 
-  **Category:** Search & Retrieval  
+  **Category:** Vector Database Engines  
 
   **Tags:** aws, faiss, nmslib, neural-search, open-source
 
@@ -92,4 +92,4 @@ markdown: >-
 
   OpenSearch is free and open source, licensed under the Apache 2.0 license.
   Amazon OpenSearch Service offers managed hosting with pay-as-you-go pricing.
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 10:14

@@ -4,7 +4,7 @@ description: LLM-based document reranking approach that fine-tunes decoder-only
   generative capabilities of large language models to improve retrieval ranking
   in search and RAG systems.
 source_url: https://github.com/sunnweiwei/RankGPT
-category: Search & Retrieval
+category: Vector Database Engines
 tags:
   - llm-based
   - reranking
@@ -78,4 +78,4 @@ markdown: >-
   - Practical deployment hindered by inefficiency
 
   - Requires significant resources for fine-tuning and inference
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 10:14

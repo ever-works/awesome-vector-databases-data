@@ -3,7 +3,7 @@ description: A benchmarking resource for evaluating approximate nearest neighbor
   search (ANNS) methods on billion-scale datasets, highly relevant for assessing
   the scalability of vector databases.
 source_url: https://github.com/harsha-simhadri/big-ann-benchmarks
-category: 2026 Benchmarks & Trends
+category: Benchmarks & Evaluation
 tags:
   - benchmark
   - anns
@@ -44,4 +44,4 @@ markdown: >-
 
 
   - No pricing information provided (open source project).
-updated_at: 2026-04-21 04:17
+updated_at: 2026-04-21 10:14

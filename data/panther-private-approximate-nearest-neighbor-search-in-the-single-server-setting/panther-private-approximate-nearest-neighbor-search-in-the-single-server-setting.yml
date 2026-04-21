@@ -1,0 +1,26 @@
+name: "PANTHER: Private Approximate Nearest Neighbor Search in the Single Server
+  Setting"
+description: PANTHER provides private ANN search in single server settings.
+  Relevant for secure vector databases in AI. Cryptology ePrint Archive (2024)
+  by Jingyu Li et al.
+source_url: https://eprint.iacr.org/2024/XXX
+category: Research Papers & Surveys
+tags:
+  - research
+  - privacy
+  - ann
+featured: false
+markdown: |-
+  ## Overview
+
+  Private ANN in single-server model.
+
+  ## Features
+
+  - Privacy guarantees
+  - Approximate NN search
+
+  ## Pricing
+
+  Free.
+updated_at: 2026-04-21 10:14

@@ -4,10 +4,10 @@ description: Research paper introducing CAPS, a practical partition index
   2023 by Gaurav Gupta et al., it addresses the challenge of combining attribute
   filtering with approximate nearest neighbor search efficiently.
 source_url: https://arxiv.org/abs/2308.15014
-category: Research Papers & Surveys
+category: Vector Indexing Research
 tags:
   - filtered-search
   - partition-index
   - similarity-search
 featured: false
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 10:14

@@ -1,0 +1,27 @@
+name: "Distance Comparison Operators for Approximate Nearest Neighbor Search:
+  Exploration and Benchmark"
+description: Explores and benchmarks distance comparison operators for ANN.
+  arXiv preprint arXiv:2403.13491 (2024) by Zeyu Wang et al. Aids in vector
+  search optimization.
+source_url: https://arxiv.org/abs/2403.13491
+category: Research Papers & Surveys
+tags:
+  - research
+  - ann
+  - distance-metrics
+  - benchmark
+featured: false
+markdown: |-
+  ## Overview
+
+  Benchmark of distance operators in ANN search.
+
+  ## Features
+
+  - Exploration of operators
+  - Performance benchmarks
+
+  ## Pricing
+
+  Free arXiv.
+updated_at: 2026-04-21 10:14

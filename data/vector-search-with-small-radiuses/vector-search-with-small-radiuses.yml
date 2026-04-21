@@ -1,0 +1,25 @@
+name: Vector search with small radiuses
+description: Research on vector search using small radius queries. arXiv
+  preprint arXiv:2403.10746 (2024) by Gergely Szilvasy et al. Optimizes ANN for
+  narrow searches.
+source_url: https://arxiv.org/abs/2403.10746
+category: Research Papers & Surveys
+tags:
+  - research
+  - ann
+  - radius-search
+featured: false
+markdown: |-
+  ## Overview
+
+  Techniques for small-radius vector search.
+
+  ## Features
+
+  - Efficient small radius queries
+  - ANN improvements
+
+  ## Pricing
+
+  Free.
+updated_at: 2026-04-21 10:14
