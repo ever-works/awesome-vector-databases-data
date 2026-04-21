@@ -27,7 +27,7 @@
 - id: managed-vector-databases
   name: Managed Vector Databases
 - id: multi-model-hybrid-databases
-  name: Multi Model & Hybrid Databases
+  name: Multi Model Hybrid Databases
 - id: relational-databases
   name: Relational Databases
 - id: security-governance
@@ -72,3 +72,11 @@
   name: GPU Accelerated Vector DBs
 - id: open-source-vector-databases
   name: Open Source Vector Databases
+- id: vector-similarity-libraries
+  name: Vector Similarity Libraries
+- id: hybrid-managed-vector-dbs
+  name: Hybrid & Managed Vector DBs
+- id: disk-optimized-indexes
+  name: Disk Optimized Indexes
+- id: key-value-vector-stores
+  name: Key Value Vector Stores

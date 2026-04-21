@@ -297,7 +297,7 @@
 - id: k-nn
   name: k-NN
 - id: data-warehousing
-  name: data warehousing
+  name: Data Warehousing
 - id: knowledge-graph
   name: Knowledge Graph
 - id: vector-indexes
@@ -333,7 +333,7 @@
 - id: product-quantization
   name: product quantization
 - id: vector-quantization
-  name: vector quantization
+  name: Vector Quantization
 - id: parallel
   name: Parallel
 - id: indexing
@@ -1536,3 +1536,67 @@
   name: Managed Milvus
 - id: gpu-scale
   name: Gpu Scale
+- id: disk-persistence
+  name: Disk Persistence
+- id: embedding-db
+  name: Embedding Db
+- id: local-dev
+  name: Local Dev
+- id: llm-apps
+  name: Llm Apps
+- id: columnar-olap
+  name: Columnar Olap
+- id: ann-indexes
+  name: Ann Indexes
+- id: analytical-queries
+  name: Analytical Queries
+- id: billion-rows
+  name: Billion Rows
+- id: embeddable-sql
+  name: Embeddable Sql
+- id: vss-hnsw
+  name: Vss Hnsw
+- id: olap-local
+  name: Olap Local
+- id: edge-ai
+  name: Edge Ai
+- id: prototyping
+  name: Prototyping
+- id: ivf-pq-hnsw
+  name: Ivf Pq Hnsw
+- id: arrow-lance
+  name: Arrow Lance
+- id: sql-queries
+  name: Sql Queries
+- id: zero-copy
+  name: Zero Copy
+- id: self-hosted
+  name: Self Hosted
+- id: knn-hnsw-ivf
+  name: Knn Hnsw Ivf
+- id: aws-fork
+  name: Aws Fork
+- id: hybrid-semantic
+  name: Hybrid Semantic
+- id: open-governance
+  name: Open Governance
+- id: dynamic-reindexing
+  name: Dynamic Reindexing
+- id: redis-module
+  name: Redis Module
+- id: hnsw-flat
+  name: Hnsw Flat
+- id: auto-scaling
+  name: Auto Scaling
+- id: grpc-rest
+  name: Grpc Rest
+- id: hybrid-lexical
+  name: Hybrid Lexical
+- id: ml-inference
+  name: Ml Inference
+- id: auto-embedding
+  name: Auto Embedding
+- id: gpu-clusters
+  name: Gpu Clusters
+- id: petabyte-scale
+  name: Petabyte Scale
