@@ -3,7 +3,7 @@ description: Billion-scale approximate nearest neighbor search benchmark
   competition. Features datasets like SIFT1B, Deep1B with standardized
   evaluation metrics for comparing vector search algorithms at scale.
 source_url: https://big-ann-benchmarks.com/
-category: Benchmarks & Evaluation
+category: 2026 Vector DB Benchmarks
 tags:
   - benchmark
   - ann
@@ -103,4 +103,4 @@ markdown: >-
   - Algorithm development
 
   - Production system design decisions
-updated_at: 2026-03-08 17:56
+updated_at: 2026-04-21 04:17

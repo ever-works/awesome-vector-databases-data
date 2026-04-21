@@ -1,0 +1,37 @@
+name: PISA
+description: PISA is an inverted index library for semantic search, supporting
+  sparse and dense vectors with advanced compression techniques. It offers
+  multi-threaded querying and learned indexes, primarily oriented towards
+  research applications in information retrieval.
+source_url: https://github.com/pisa-engine/pisa
+category: Vector Search Libraries
+tags:
+  - inverted-index
+  - learned-compression
+  - research-lib
+featured: false
+markdown: >-
+  ## Overview
+
+
+  PISA is a research-oriented inverted index library designed for efficient
+  semantic search using sparse and dense vectors.
+
+
+  ## Features
+
+
+  - Support for sparse/dense vectors
+
+  - Advanced compression techniques
+
+  - Multi-threaded query processing
+
+  - Learned indexes
+
+
+  ## Pricing
+
+
+  Open-source under Apache 2.0 license.
+updated_at: 2026-04-21 04:17

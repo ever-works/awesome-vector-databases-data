@@ -6,7 +6,7 @@ description: Zilliz Cloud is a managed service for Milvus, offering fully-hosted
   Milvus with cloud SLAs, competes with Pinecone on price/performance for
   high-QPS workloads.
 source_url: https://zilliz.com/
-category: Serverless & Managed Vector DBs
+category: Managed Vector Databases
 tags:
   - milvus-managed
   - serverless
@@ -83,4 +83,4 @@ markdown: >-
   (Specific pricing details are not provided in the content.)
 images:
   - https://zilliz.com/favicon.ico
-updated_at: 2026-04-20 22:13
+updated_at: 2026-04-21 04:17

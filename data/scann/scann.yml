@@ -3,7 +3,7 @@ description: Google Research's efficient vector similarity search implementation
   using asymmetric quantization and anisotropic quantization, optimized for
   billion-scale retrieval with high recall.
 source_url: https://research.google/blog/announcing-scann-efficient-vector-similarity-search/
-category: SDKs & Libraries
+category: Vector Search Libraries
 tags:
   - google
   - asymmetric-quantization
@@ -37,4 +37,4 @@ markdown: |-
   ## Links
   - [Official Blog Announcement](https://research.google/blog/announcing-scann-efficient-vector-similarity-search/)
   - [GitHub Repository](https://github.com/google-research/google-research/tree/master/scann)
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 04:17

@@ -4,7 +4,7 @@ description: Weaviate Cloud is the fully managed cloud deployment of the
   operating AI applications with scalable vector search, without managing
   infrastructure.
 source_url: https://weaviate.io/cloud
-category: Serverless & Managed Vector DBs
+category: Managed Vector Databases
 tags:
   - managed-service
   - cloud-native
@@ -19,4 +19,4 @@ brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5b9a8f
 images:
   - https://weaviate.io/assets/images/cloud-hero-5d5a5f2b44a3e0c6a9f4b0e8d9c2f5b7.png
   - https://weaviate.io/assets/images/cloud-diagram-architecture-3ac7c58e0f90419e8c3d992152e6c2c3.png
-updated_at: 2026-04-20 22:13
+updated_at: 2026-04-21 04:17

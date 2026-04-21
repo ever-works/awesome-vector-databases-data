@@ -3,7 +3,7 @@ description: Spotify's lightweight C++ library for approximate nearest neighbor
   search using random projection trees, known for its simplicity, read-only
   file-based indexes, and use in recommendation systems.
 source_url: https://github.com/spotify/annoy
-category: SDKs & Libraries
+category: Vector Search Libraries
 tags:
   - spotify
   - c++
@@ -89,4 +89,4 @@ markdown: >-
   - [PyPI Package](https://pypi.org/project/annoy/)
 
   - [Documentation (README)](https://github.com/spotify/annoy#readme)
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 04:17

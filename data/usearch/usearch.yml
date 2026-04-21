@@ -4,7 +4,7 @@ description: Ultra-fast vector similarity search library from Unum with
   JavaScript, Rust), quantization, and designed for sub-microsecond search
   latencies.
 source_url: https://github.com/unum-cloud/usearch
-category: sdks-libraries
+category: Vector Search Libraries
 tags:
   - simd
   - multi-language
@@ -61,4 +61,4 @@ markdown: |
 
   ## Pricing
   - No pricing information provided; open-source project.
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 04:17

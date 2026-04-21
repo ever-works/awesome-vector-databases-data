@@ -4,7 +4,7 @@ description: Powerful open-source object-relational database system that, with
   applications. Widely used from small projects to large-scale enterprise
   systems, and offered as managed services by major cloud providers.
 source_url: https://www.postgresql.org
-category: Vector Database
+category: Vector Database Engines
 tags:
   - open-source
   - relational
@@ -58,4 +58,4 @@ markdown: >-
   - Feature complexity can lead to a steeper learning curve for new users
 
   - Requires the pgvector extension specifically for vector search capabilities
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-21 04:17

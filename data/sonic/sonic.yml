@@ -1,0 +1,44 @@
+name: Sonic
+description: Sonic is a fast in-memory search backend with vector support via
+  HNSW, serving as a lightweight alternative to heavier databases and search
+  engines. It features JSON document storage and hybrid full-text plus vector
+  search capabilities. Optimized for high-speed ingest and retrieval in memory,
+  ideal for performance-critical applications.
+source_url: https://github.com/valeriansaliou/sonic
+category: Embedded Vector Databases
+tags:
+  - in-memory-fast
+  - lightweight-search
+  - open-source
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Sonic is a lightweight, in-memory search backend written in Rust, providing
+  fast full-text and vector search as a schema-less alternative.
+
+
+  ## Features
+
+
+  - In-memory storage for sub-millisecond ingest and search
+
+  - JSON document storage
+
+  - Full-text search
+
+  - Vector search powered by HNSW indexing
+
+  - Hybrid full-text + vector queries
+
+  - HTTP/JSON API for easy integration
+
+  - Multi-threaded for high concurrency
+
+
+  ## Pricing
+
+
+  Free and open-source (Mozilla Public License 2.0).
+updated_at: 2026-04-21 04:17

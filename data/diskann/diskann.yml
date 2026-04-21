@@ -5,12 +5,13 @@ description: DiskANN is a graph-based approximate nearest neighbor search (ANNS)
   large-scale vector database applications requiring efficient vector search at
   scale.
 source_url: https://arxiv.org/abs/2105.09613
-category: sdks-libraries
+category: Vector Search Libraries
 tags:
   - ann
   - high-performance
   - scalable
   - vector-search
+  - disk-based
 markdown: >
   # DiskANN
 
@@ -22,10 +23,6 @@ markdown: >
   vector search.
 
   - **Source:** [arXiv:2105.09613](https://arxiv.org/abs/2105.09613)
-
-  - **Category:** SDKs & Libraries
-
-  - **Tags:** ann, high-performance, scalable, vector-search
 
 
   ## Features
@@ -44,4 +41,4 @@ markdown: >
   ## Pricing
 
   - No pricing information provided.
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-21 04:17
