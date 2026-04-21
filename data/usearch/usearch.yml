@@ -1,16 +1,15 @@
 name: usearch
-description: Ultra-fast vector similarity search library from Unum with
-  SIMD-optimized HNSW implementation, supporting multiple languages (Python,
-  JavaScript, Rust), quantization, and designed for sub-microsecond search
-  latencies.
+description: Unum uSearch is a lightweight, single-header C library for ANN
+  search with HNSW and scalar quantization, supporting CPU-only high-dim vectors
+  up to 64k dims. Embeddable with no deps, ideal for edge/mobile. Faster than
+  FAISS for small datasets, simpler than full DBs like LanceDB.
 source_url: https://github.com/unum-cloud/usearch
 category: Vector Search Libraries
 tags:
-  - simd
-  - multi-language
-  - quantization
-  - sub-microsecond
-  - unum
+  - lightweight-search
+  - single-header
+  - cpu-optimization
+  - edge-devices
 markdown: |
   # usearch
 
@@ -61,4 +60,6 @@ markdown: |
 
   ## Pricing
   - No pricing information provided; open-source project.
-updated_at: 2026-04-21 04:17
+images:
+  - https://github.com/unum-cloud/usearch/raw/master/artwork/usearch_logo.svg
+updated_at: 2026-04-21 07:12

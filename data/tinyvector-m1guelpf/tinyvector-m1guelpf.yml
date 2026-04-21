@@ -6,7 +6,7 @@ description: A tiny embedding database in pure Rust, implemented as a
   vector databases. Open-source under the MIT license, ideal for simple setups
   like document chat or website search.
 source_url: https://github.com/m1guelpf/tinyvector
-category: Embedded Vector Databases
+category: Edge & Embedded Vector DBs
 tags:
   - open-source
   - rust
@@ -74,4 +74,4 @@ markdown: >-
 
 
   MIT License.
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-21 07:12

@@ -1,10 +1,10 @@
 name: PGVector
 description: pgvector is an open-source PostgreSQL extension for vector
-  similarity search, enabling vector operations within a relational DB. Supports
-  HNSW, IVFFlat indexes, cosine/L2 distances, and SQL queries with metadata
-  filtering. Perfect for apps needing ACID transactions and hybrid SQL+vector;
-  compares to dedicated DBs like Pinecone by leveraging existing Postgres infra
-  but lower scale without sharding.
+  similarity search, supporting HNSW, IVFFlat indexes, and distance operators
+  like L2, cosine. It enables hybrid SQL+vector queries on existing Postgres
+  setups without new infrastructure. Ideal for relational apps adding semantic
+  search; more integrated than dedicated VDBs like Pinecone but less optimized
+  for billion-scale than Milvus.
 source_url: https://github.com/pgvector/pgvector
 category: Vector Database Extensions
 tags:
@@ -19,6 +19,10 @@ tags:
   - hnsw-postgres
   - postgres-extension
   - acid
+  - postgresql-extension
+  - hybrid-sql
+  - hnsw-postgres
+  - cost-efficient
 featured: false
 markdown: >-
   # PGVector
@@ -87,6 +91,7 @@ markdown: >-
 
   - [Source code and documentation](https://github.com/pgvector/pgvector)
 images:
+  - https://github.com/pgvector/pgvector/raw/master/img/logo.svg
   - https://github.com/pgvector/pgvector/raw/master/img/pgvector_logo.png
   - https://github.com/pgvector/pgvector/raw/master/img/pgvector.png
-updated_at: 2026-04-21 04:17
+updated_at: 2026-04-21 07:12

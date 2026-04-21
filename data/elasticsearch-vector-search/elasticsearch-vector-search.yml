@@ -1,13 +1,19 @@
 name: Elasticsearch Vector Search
-description: Search and analytics engine with k-nearest neighbor (kNN) search
-  for semantic similarity. Features approximate and exact kNN, HNSW indexing,
-  and advanced quantization. This is commercial with OSS version available.
+description: Elasticsearch Vector Search (k-NN plugin) enables dense vector
+  retrieval with HNSW/IVF, hybrid lexical+semantic search, and ELSER for sparse
+  embeddings. Integrated with Lucene ecosystem for enterprise logs/search. Ideal
+  for observability and e-commerce; scales better than Weaviate for text-heavy
+  workloads but heavier footprint than Qdrant.
 source_url: https://www.elastic.co/elasticsearch/
 category: Hybrid Search Engines
 tags:
   - commercial
   - open-source
   - search-engine
+  - knn-plugin
+  - elser-sparse
+  - enterprise-search
+  - lucene-based
   - vector-database-2026
   - ann-benchmarks
   - rag-optimized
@@ -229,4 +235,6 @@ markdown: >-
 
   - Performance tuning guides
 brand: Elastic
-updated_at: 2026-04-20 22:13
+images:
+  - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
+updated_at: 2026-04-21 07:12

@@ -1,17 +1,15 @@
 name: DiskANN
-description: DiskANN is a graph-based approximate nearest neighbor search (ANNS)
-  system optimized for fast and accurate billion-point nearest neighbor search
-  on a single node, leveraging SSD storage. It is highly relevant for
-  large-scale vector database applications requiring efficient vector search at
-  scale.
+description: DiskANN is a Microsoft Research disk-based ANN index for
+  billion-scale recall@10 with Vamana graphs and pruning, supporting dynamic
+  updates. Excels in out-of-core scenarios without GPU. Better recall than HNSW
+  on large disks vs in-memory like Qdrant; basis for some production systems.
 source_url: https://arxiv.org/abs/2105.09613
 category: Vector Search Libraries
 tags:
-  - ann
-  - high-performance
-  - scalable
-  - vector-search
-  - disk-based
+  - disk-based-index
+  - billion-scale
+  - microsoft-research
+  - out-of-core
 markdown: >
   # DiskANN
 
@@ -41,4 +39,6 @@ markdown: >
   ## Pricing
 
   - No pricing information provided.
-updated_at: 2026-04-21 04:17
+images:
+  - https://microsoft.github.io/DiskANN/logo.png
+updated_at: 2026-04-21 07:12

@@ -1,12 +1,12 @@
 name: Redis Vector Search
-description: "Redis Vector Search, powered by RediSearch module, enables vector
+description: Redis Vector Search, part of Redis Stack, provides vector
   similarity search on Redis with HNSW/Flat indexes, supporting hybrid
-  BM25+vector queries and on-disk persistence. It leverages Redis' speed for
-  real-time apps with filtering on JSON payloads. Use cases: caching embeddings
-  for chatbots, fraud detection; faster than Postgres for low-latency but less
-  scalable than distributed like Milvus without clustering."
+  keyword+vector queries and RediSearch integration. It offers sub-millisecond
+  latencies, JSON payloads, and easy scaling for caching-heavy apps. Suited for
+  real-time RAG and personalization; more versatile than pure VDBs like Chroma
+  with TTL/eviction, but memory-intensive vs disk-based like pgvector.
 source_url: https://redis.io/solutions/vector-database/
-category: Hybrid Search Engines
+category: Vector Database Extensions
 tags:
   - redis
   - in-memory
@@ -14,6 +14,7 @@ tags:
   - redis-vss
   - hybrid-bm25
   - real-time-cache
+  - redisearch
   - vector-database-2026
   - ann-benchmarks
   - rag-optimized
@@ -99,4 +100,5 @@ brand: Redis
 brand_logo_url: https://redis.io/favicon.ico
 images:
   - https://redis.io/docs/latest/develop/get-started/logo.png
-updated_at: 2026-04-20 22:13
+  - https://redis.io/wp-content/uploads/2023/06/redis-logo.svg
+updated_at: 2026-04-21 07:12
