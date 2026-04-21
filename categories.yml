@@ -64,3 +64,5 @@
   name: 2026 Benchmarks & Trends
 - id: open-source
   name: Open Source
+- id: edge-embedded-vector-dbs
+  name: Edge & Embedded Vector DBs

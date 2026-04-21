@@ -1440,3 +1440,23 @@
   name: Real Time Apps
 - id: modular
   name: Modular
+- id: microsoft-research
+  name: Microsoft Research
+- id: knn-plugin
+  name: Knn Plugin
+- id: elser-sparse
+  name: Elser Sparse
+- id: lucene-based
+  name: Lucene Based
+- id: hybrid-sql
+  name: Hybrid Sql
+- id: metadata-filtering
+  name: Metadata Filtering
+- id: on-disk
+  name: On Disk
+- id: single-header
+  name: Single Header
+- id: high-availability
+  name: High Availability
+- id: global-distribution
+  name: Global Distribution
