@@ -19,7 +19,7 @@
 - id: cloud-services
   name: Cloud Services
 - id: llm-frameworks
-  name: Llm Frameworks
+  name: LLM Frameworks
 - id: llm-tools
   name: LLM Tools
 - id: machine-learning-models

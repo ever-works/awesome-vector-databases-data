@@ -97,7 +97,7 @@
 - id: analytics
   name: Analytics
 - id: vector-data
-  name: vector data
+  name: Vector Data
 - id: migration
   name: Migration
 - id: integration
@@ -179,7 +179,7 @@
 - id: weaviate
   name: Weaviate
 - id: examples
-  name: examples
+  name: Examples
 - id: lightweight
   name: Lightweight
 - id: rust
@@ -211,7 +211,7 @@
 - id: data-science
   name: data science
 - id: search-library
-  name: search library
+  name: Search Library
 - id: sqlite
   name: Sqlite
 - id: embedding
@@ -239,7 +239,7 @@
 - id: time-series
   name: Time Series
 - id: ml
-  name: ML
+  name: Ml
 - id: search-engine
   name: Search Engine
 - id: java
@@ -1494,3 +1494,45 @@
   name: Zilliz Cloud
 - id: enterprise-vector-db
   name: Enterprise Vector Db
+- id: high-throughput
+  name: High Throughput
+- id: python-api
+  name: Python Api
+- id: rdma
+  name: Rdma
+- id: gpu-accel
+  name: Gpu Accel
+- id: library
+  name: Library
+- id: cpu-gpu
+  name: Cpu Gpu
+- id: distance-estimating
+  name: Distance Estimating
+- id: codes
+  name: Codes
+- id: arrow-format
+  name: Arrow Format
+- id: rust-performance
+  name: Rust Performance
+- id: disk-ann
+  name: Disk Ann
+- id: clustered-hnsw
+  name: Clustered Hnsw
+- id: subspace
+  name: Subspace
+- id: ngt-index
+  name: Ngt Index
+- id: distributed-replication
+  name: Distributed Replication
+- id: real-time-serving
+  name: Real Time Serving
+- id: k8s
+  name: K8s
+- id: partitioning
+  name: Partitioning
+- id: hypersphere
+  name: Hypersphere
+- id: managed-milvus
+  name: Managed Milvus
+- id: gpu-scale
+  name: Gpu Scale
