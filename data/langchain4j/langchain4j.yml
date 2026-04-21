@@ -3,7 +3,7 @@ description: langchain4j is an open-source framework for developing LLM-powered
   Java applications, with built-in support for integrating vector databases as
   memory stores.
 source_url: https://github.com/langchain4j/langchain4j
-category: open-sources
+category: LLM Frameworks
 tags:
   - open-source
   - llm
@@ -62,4 +62,4 @@ markdown: >
   ## Tags
 
   open-source, LLM, Java, vector-database
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

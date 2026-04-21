@@ -1,13 +1,15 @@
 name: SPANN
-description: Highly-efficient billion-scale approximate nearest neighbor search
-  system from Microsoft Research. Uses a memory-disk hybrid architecture storing
-  centroid points in memory and large posting lists on disk.
-source_url: https://www.microsoft.com/en-us/research/publication/spann-highly-efficient-billion-scale-approximate-nearest-neighborhood-search/
-category: Sdks & Libraries
+description: "SPANN is a highly efficient billion-scale ANN search system using
+  clustered HNSW indexes with dynamic partitioning for balanced load. Key
+  features: disk-based, high recall, low latency on commodity hardware. Use
+  cases: web-scale recommendation, image retrieval. Improves on DiskANN with
+  better build time; competitive FAISS GPU in CPU perf."
+source_url: https://www.microsoft.com/en-us/research/publication/spann-highly-efficient-billion-scale-approximate-neighborhood-search/
+category: Vector Indexing Research
 tags:
-  - ann
-  - hybrid-search
-  - microsoft
+  - disk-ann
+  - clustered-hnsw
+  - billion-scale
 featured: false
 markdown: >-
   ## Overview
@@ -53,4 +55,4 @@ markdown: >-
   disk-based vector indexing technologies and serves as a benchmark for hybrid
   vector search systems.
 brand: Microsoft Research
-updated_at: 2026-03-08 17:56
+updated_at: 2026-04-21 13:24

@@ -1,0 +1,46 @@
+name: Qdrant ANN-Filtering-Benchmark-Datasets
+description: Curated datasets for benchmarking filtered approximate nearest
+  neighbor (ANN) search in vector databases. Enriched with payload metadata and
+  pre-generated filtering requests, including synthetic and real-world data for
+  keyword and geo-spatial queries.
+source_url: https://github.com/qdrant/ann-filtering-benchmark-datasets
+category: Benchmarks & Evaluation
+tags:
+  - open-source
+  - datasets
+  - filtered-search
+  - ann
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Datasets similar to those in ann-benchmarks but augmented with filtering
+  capabilities to test complex filtered vector search scenarios.
+
+
+  ## Purpose
+
+
+  Evaluates integration of ANN indices (e.g., HNSW) with filtering:
+
+  - Post-filtering: Scales poorly, loses results or needs extra candidates.
+
+  - Pre-filtering: Requires full-dataset binary masks, linear size growth.
+
+  - Accuracy: HNSW graph disconnection when many vectors filtered.
+
+
+  Qdrant addresses via specialized approach without pre/post-filtering.
+
+
+  ## Contents
+
+
+  - Synthetic and real-world datasets.
+
+  - Various filter types: keywords, geo-spatial.
+
+  - Pre-generated requests for reproducible benchmarks.
+brand: Qdrant
+updated_at: 2026-04-21 13:24

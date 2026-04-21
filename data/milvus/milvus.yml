@@ -1,15 +1,14 @@
 name: Milvus
-description: Milvus is a high-performance, open-source vector database built for
-  managing and searching massive-scale embedding vectors in AI applications. It
-  excels in similarity search using advanced indexes like HNSW, IVF_PQ, and
-  DiskANN, supporting billions of vectors with low latency. Key features include
-  distributed clustering, hybrid search (vector + scalar), multi-modal data
-  handling, and GPU acceleration; ideal for RAG pipelines, recommendation
-  engines, and image retrieval. Unlike managed services like Pinecone, Milvus
-  offers self-hosted deployment with full control and cost savings,
-  outperforming in scalability benchmarks.
+description: "Milvus is a popular open-source vector database designed for
+  efficient similarity search on massive embedding vectors, supporting billions
+  of vectors with low-latency queries. Key features include distributed
+  architecture, multiple index types like HNSW and IVF, hybrid search (vector +
+  scalar), and integrations with PyTorch/TensorFlow. Use cases: RAG pipelines,
+  recommendation engines, anomaly detection. Compared to Pinecone (serverless
+  managed), Milvus is self-hostable and cost-effective for large-scale on-prem;
+  outperforms pgvector in distributed scalability."
 source_url: https://milvus.io/
-category: GPU Accelerated Vector DBs
+category: Vector Database Engines
 tags:
   - distributed
   - cloud-native
@@ -76,9 +75,10 @@ markdown: >
   No explicit pricing information is provided for Milvus open source
   deployments. Zilliz Cloud, the fully managed Milvus service, may have its own
   pricing structure, but details are not included in the provided content.
+brand_logo_url: https://milvus.io/milvus-vector-database-logo.svg
 images:
   - https://milvus.io/img/milvus-architecture.png
   - https://milvus.io/milvus-dark-icon-only.png
   - https://milvus.io/logo.png
   - https://milvus.io/milvus-vector-database-logo.svg
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 13:24

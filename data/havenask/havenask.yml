@@ -2,7 +2,7 @@ name: Havenask
 description: Havenask is an open-source distributed search engine with support
   for vector search, designed for large-scale AI and search applications.
 source_url: https://github.com/alibaba/havenask
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - distributed
@@ -58,4 +58,4 @@ markdown: >-
   ## Links
 
   - [GitHub Repository](https://github.com/alibaba/havenask)
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

@@ -2,7 +2,7 @@ name: Crate
 description: Crate is an open-source distributed SQL database with support for
   vector data types and vector search, suitable for AI-driven applications.
 source_url: https://github.com/crate/crate
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - distributed
@@ -61,4 +61,4 @@ markdown: >-
   ## Tags
 
   open-source, distributed, sql, vector-search
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

@@ -5,7 +5,7 @@ description: Vector database built from scratch in Rust for efficient similarity
   and Cosine. Features HTTP/gRPC servers, TUI client, and RocksDB storage
   backend.
 source_url: https://github.com/sdslabs/VortexDB
-category: Edge & Embedded Vector DBs
+category: Embedded Vector Databases
 tags:
   - open-source
   - rust
@@ -92,9 +92,9 @@ markdown: >-
 
   | GRPC_PORT | gRPC Server port | 50051 |
 
-  | STORAGE_TYPE | inmemory \| rocksdb | inmemory |
+  | STORAGE_TYPE | inmemory || rocksdb | inmemory |
 
-  | INDEX_TYPE | flat \| kdtree \| hnsw | flat |
+  | INDEX_TYPE | flat || kdtree || hnsw | flat |
 
   | LOGGING | Enable logs | true |
 
@@ -128,4 +128,4 @@ markdown: >-
 
   Free and open-source under Apache License 2.0.
 brand: SDS Labs
-updated_at: 2026-04-21 07:12
+updated_at: 2026-04-21 13:24

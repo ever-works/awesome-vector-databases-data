@@ -4,7 +4,7 @@ description: HVS is a graph-based index structure leveraging Voronoi diagrams
   is directly relevant to vector databases as it provides efficient similarity
   search capabilities for large-scale vector data.
 source_url: https://github.com/chuanxiao1983/HVS
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - ann
@@ -79,4 +79,4 @@ markdown: >
 
 
   - [GitHub Repository](https://github.com/chuanxiao1983/HVS)
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

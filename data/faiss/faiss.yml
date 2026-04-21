@@ -1,32 +1,16 @@
 name: FAISS
 description: "FAISS (Facebook AI Similarity Search) is a library for efficient
-  similarity search and clustering of dense vectors, developed by Meta AI. It
-  supports multiple index types like Flat, IVF, HNSW, PQ for GPU/CPU, enabling
-  billion-scale ANN with trade-offs in speed/accuracy. Key features:
-  quantization, GPU acceleration, indexing tools; use cases: recommendation
-  systems, duplicate detection. Unlike full DBs like Milvus, FAISS is a
-  lightweight library without persistence, often used as a backend."
+  similarity search and clustering of dense vectors, supporting GPU
+  acceleration. Features: multiple indexes (IVF, HNSW, PQ), quantization, exact
+  search fallback. Use cases: billion-scale ANN, recommendation, image search.
+  Not a full DB like Milvus, but core indexing engine; integrates with many
+  frameworks, outperforms NMSLIB in GPU perf."
 source_url: https://faiss.ai/
 category: Vector Search Libraries
 tags:
-  - meta
-  - facebook
-  - gpu
-  - ivf
-  - pq
-  - foundational
-  - ann-library
-  - gpu-faiss
-  - facebook-ai
-  - gpu-accelerated
-  - ann-library
-  - gpu-faiss
-  - facebook-ai
+  - gpu-accel
   - quantization
-  - ann-library
-  - facebook-ai
-  - gpu-indexing
-  - quantization
+  - library
 markdown: >-
   # FAISS
 
@@ -93,8 +77,9 @@ markdown: >-
   ## Pricing
 
   - **Free and open-source**
+brand_logo_url: https://faiss.ai/favicon.ico
 images:
   - https://faiss.ai/assets/images/faiss_logo.svg
   - https://faiss.ai/favicon.ico
   - https://faiss.ai/favicon.ico
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 13:24

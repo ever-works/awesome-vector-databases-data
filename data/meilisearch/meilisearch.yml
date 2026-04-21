@@ -3,7 +3,7 @@ description: MeiliSearch is an open-source, fast, and relevant search engine
   that supports vector search capabilities, making it suitable for AI
   applications requiring vector database functionality.
 source_url: https://github.com/meilisearch/meilisearch
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - search-engine
@@ -53,4 +53,4 @@ markdown: >-
   - vector-search
 
   - ai
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

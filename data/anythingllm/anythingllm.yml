@@ -3,7 +3,7 @@ description: AnythingLLM is an open-source AI application that integrates with
   vector databases to facilitate storage and retrieval of embeddings, supporting
   various AI and LLM workflows.
 source_url: https://github.com/Mintplex-Labs/anything-llm
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - ai
@@ -54,4 +54,4 @@ markdown: >-
   ## Category
 
   open-sources
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

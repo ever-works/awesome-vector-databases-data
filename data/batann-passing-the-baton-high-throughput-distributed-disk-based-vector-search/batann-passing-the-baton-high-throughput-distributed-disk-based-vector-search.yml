@@ -1,0 +1,12 @@
+name: "BatANN: Passing the Baton: High Throughput Distributed Disk-Based Vector
+  Search"
+description: BatANN system by Dang et al. for high-throughput distributed
+  disk-based vector search. Supports scalable ANN in distributed environments.
+source_url: https://arxiv.org/abs/2512.09331
+category: Research Papers & Surveys
+tags:
+  - distributed
+  - disk-based
+  - high-throughput
+featured: false
+updated_at: 2026-04-21 13:24

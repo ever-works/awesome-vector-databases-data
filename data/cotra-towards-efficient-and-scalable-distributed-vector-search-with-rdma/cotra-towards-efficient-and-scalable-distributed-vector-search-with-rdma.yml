@@ -1,0 +1,11 @@
+name: "CoTra: Towards Efficient and Scalable Distributed Vector Search with RDMA"
+description: CoTra system by Zhi et al. for efficient distributed vector search
+  using RDMA. Published in SIGMOD 2026 proceedings.
+source_url: https://dl.acm.org/doi/10.1145/xxxxxxxxx
+category: Research Papers & Surveys
+tags:
+  - distributed
+  - rdma
+  - scalable
+featured: false
+updated_at: 2026-04-21 13:24

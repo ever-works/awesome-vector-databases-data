@@ -1,0 +1,13 @@
+name: "Subspace Collision: An Efficient and Accurate Framework for
+  High-dimensional Approximate Nearest Neighbor Search"
+description: Framework by Wei et al. for high-dimensional ANN search using
+  subspace collision techniques. Offers efficiency and accuracy improvements for
+  vector databases.
+source_url: https://arxiv.org/abs/2411.14754
+category: Research Papers & Surveys
+tags:
+  - ann
+  - high-dimensional
+  - subspace
+featured: false
+updated_at: 2026-04-21 13:24

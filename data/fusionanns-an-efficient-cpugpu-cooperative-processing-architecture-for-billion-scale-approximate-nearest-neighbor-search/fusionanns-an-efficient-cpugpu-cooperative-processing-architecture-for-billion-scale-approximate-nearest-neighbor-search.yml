@@ -1,26 +1,12 @@
 name: "FusionANNS: An Efficient CPU/GPU Cooperative Processing Architecture for
   Billion-scale Approximate Nearest Neighbor Search"
-description: FusionANNS architecture for billion-scale ANN using CPU/GPU
-  cooperation. By Bing Tian et al. (2024). Enhances scalable vector search.
+description: FusionANNS architecture by Bing Tian et al. for billion-scale ANN
+  search using CPU/GPU cooperation.
 source_url: https://arxiv.org/search/cs?query=FusionANNS
 category: Research Papers & Surveys
 tags:
-  - research
   - ann
-  - gpu
+  - cpu-gpu
   - billion-scale
 featured: false
-markdown: |-
-  ## Overview
-
-  CPU/GPU cooperative ANN architecture.
-
-  ## Features
-
-  - Billion-scale efficiency
-  - Hybrid processing
-
-  ## Pricing
-
-  Free.
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 13:24

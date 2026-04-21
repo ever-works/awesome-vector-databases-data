@@ -1,0 +1,12 @@
+name: "iDEC: Indexable Distance Estimating Codes for Approximate Nearest
+  Neighbor Search"
+description: iDEC by Gong et al. for approximate nearest neighbor search using
+  indexable distance estimating codes. VLDB Endowment 13.9 (2020).
+source_url: https://www.vldb.org/pvldb/vol13/p917-gong.pdf
+category: Research Papers & Surveys
+tags:
+  - ann
+  - distance-estimating
+  - codes
+featured: false
+updated_at: 2026-04-21 13:24

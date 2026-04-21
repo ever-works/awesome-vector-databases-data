@@ -2,7 +2,7 @@ name: Bleve
 description: Bleve is an open-source search library with experimental support
   for vector search, enabling hybrid search and retrieval in applications.
 source_url: https://github.com/blevesearch/bleve
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - search-library
@@ -50,4 +50,4 @@ markdown: >-
   ## Tags
 
   open-source, search-library, hybrid-search, vector-search
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

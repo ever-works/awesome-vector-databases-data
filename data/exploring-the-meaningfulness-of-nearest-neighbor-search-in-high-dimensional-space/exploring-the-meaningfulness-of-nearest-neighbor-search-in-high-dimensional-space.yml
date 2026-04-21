@@ -1,0 +1,14 @@
+name: Exploring the Meaningfulness of Nearest Neighbor Search in
+  High-Dimensional Space
+description: Research paper by Chen et al. examining the meaningfulness of
+  nearest neighbor search in high-dimensional spaces. Analyzes limitations and
+  implications for vector similarity search. Key for understanding ANN
+  effectiveness.
+source_url: https://arxiv.org/abs/2410.05752
+category: Research Papers & Surveys
+tags:
+  - ann
+  - high-dimensional
+  - nearest-neighbor
+featured: false
+updated_at: 2026-04-21 13:24

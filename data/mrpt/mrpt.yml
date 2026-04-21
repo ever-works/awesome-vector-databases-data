@@ -3,7 +3,7 @@ description: MRPT (Multi-Resolution Proximity Trees) is an open-source library
   for fast approximate nearest neighbor search in high-dimensional vector
   spaces, applicable to vector database backends.
 source_url: https://github.com/vioshyvo/mrpt
-category: open-sources
+category: Vector Database Engines
 tags:
   - open-source
   - ann
@@ -78,4 +78,4 @@ markdown: >
   ## Pricing
 
   - **Free and open-source** (MIT License)
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

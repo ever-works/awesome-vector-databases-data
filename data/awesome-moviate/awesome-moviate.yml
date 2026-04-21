@@ -4,15 +4,12 @@ description: Awesome-Moviate is a movie search and recommendation engine demo
   using Weaviate as the underlying vector database, serving as a practical
   example of hybrid retrieval for media content.
 source_url: https://github.com/weaviate-tutorials/awesome-moviate
-featured: false
-brand: weaviate
-brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5f2b6b9b.svg
-images: null
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - hybrid-search
   - examples
   - open-source
+featured: false
 markdown: >-
   # Awesome-Moviate
 
@@ -91,4 +88,6 @@ markdown: >-
   ## Pricing
 
   - Not applicable — Awesome-Moviate is an open-source demo project.
-updated_at: 2025-12-25 16:52
+brand: weaviate
+brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5f2b6b9b.svg
+updated_at: 2026-04-21 13:24

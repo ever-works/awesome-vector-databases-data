@@ -5,7 +5,7 @@ description: Apache Arrow is a cross-language development platform for in-memory
   for data exchange that is useful for storing and querying high-dimensional
   vectors in AI applications.
 source_url: https://arrow.apache.org/
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - in-memory
@@ -59,4 +59,4 @@ markdown: >-
 
   Apache Arrow is open-source software and is freely available under the Apache
   License 2.0.
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

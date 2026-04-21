@@ -1,37 +1,17 @@
 name: Qdrant
-description: "Qdrant is a high-performance vector similarity search engine and
-  database optimized for production-scale AI workloads. It uses custom HNSW and
-  Lucas indexes for fast, accurate ANN search on dense/sparse vectors, with
-  payload filtering and quantization. Key features: Rust-based for speed/safety,
-  multi-modal support, cloud/edge deployments, API-first; use cases:
-  recommendation, fraud detection, neural search. Versus Milvus, Qdrant is
-  lighter-weight, easier to deploy standalone, with superior filtering recall."
+description: "Qdrant is a Rust-based open-source vector database focused on
+  high-performance vector similarity search with advanced filtering. Key
+  features: HNSW indexing, payload filtering, multi-vector support, quantization
+  for efficiency, and cloud deployment options. Use cases: recommendation
+  systems, semantic search in RAG, fraud detection. Compared to Weaviate (more
+  modular/ML-focused), Qdrant prioritizes speed and Rust safety; faster than
+  Chroma for large-scale production."
 source_url: https://qdrant.tech/
-category: Vector Database Engines
+category: Open Source Vector Databases
 tags:
-  - rust
+  - rust-performance
   - filtering
-  - payload
-  - recommendation
-  - rust-engine
-  - payload-filtering
-  - cloud-native
-  - rust-lang
-  - performance-critical
-  - wasm-support
-  - rust-engine
-  - filtered-search
-  - payload-storage
-  - rust-core
   - quantization
-  - rust-engine
-  - on-disk
-  - payload-filtering
-  - quantization
-  - rust-engine
-  - payload-filtering
-  - quantization
-  - edge-deployable
 markdown: >
   # Qdrant
 
@@ -92,9 +72,10 @@ markdown: >
 
   - **Managed Cloud:** Enterprise-grade managed cloud with scalable pricing
   (specific details not provided in the available content).
+brand_logo_url: https://qdrant.tech/favicon.ico
 images:
   - https://qdrant.tech/logo.png
   - https://qdrant.tech/qdrant-logo.png
   - https://qdrant.to/logo.png
   - https://qdrant.tech/qdrant-logo.svg
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 13:24

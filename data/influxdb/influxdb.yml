@@ -3,7 +3,7 @@ description: InfluxDB 3 OSS provides high-performance time series workloads with
   new support for vector data, making it suitable for AI/ML and vector search
   applications. Relevant as a vector-capable database.
 source_url: https://www.influxdata.com/products/influxdb3/
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - vector-data
@@ -52,4 +52,4 @@ markdown: >-
   - [Download](https://www.influxdata.com/products/influxdb3/)
 
   - [Documentation](https://docs.influxdata.com/)
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-21 13:24

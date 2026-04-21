@@ -1,9 +1,10 @@
 name: Vespa
-description: "Vespa is a big data serving engine from Yahoo for real-time AI
-  apps, combining vector search, lexical search, and ML models in one platform.
-  Supports HNSW/ANN, ranking, tensor computations; features: auto-scaling,
-  multi-phase retrieval. Use cases: search engines, recommendations. Outperforms
-  pure VDBs like Qdrant in hybrid search + ranking pipelines."
+description: "Vespa is an open-source big data serving engine combining vector
+  search, lexical search, and ML models in real-time apps. Features: HNSW/ANN
+  indexing, tensor computations, ranking pipelines, Kubernetes-native. Use
+  cases: e-commerce search, recommendations at Yahoo scale. Outperforms
+  Elasticsearch in ANN speed; more comprehensive than FAISS for production
+  serving vs pure library."
 source_url: https://vespa.ai/
 category: Hybrid Search Engines
 tags:
@@ -12,6 +13,8 @@ tags:
   - yahoo-vespa
   - hybrid-bm25
   - tensor-ranking
+  - real-time-serving
+  - k8s
 featured: false
 markdown: >-
   ## Overview
@@ -120,4 +123,4 @@ images:
   - https://vespa.ai/assets/favicon/favicon-32x32.png
   - https://vespa.ai/assets/images/vespa-logo.svg
   - https://vespa.ai/assets/img/favicon.ico
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 13:24

@@ -1,0 +1,13 @@
+name: "SPANN: Highly-efficient Billion-scale Approximate Nearest Neighbor Search"
+description: Highly-efficient billion-scale approximate nearest neighbor search
+  algorithm introduced by Chen et al. Focuses on scalability and performance for
+  large datasets in high-dimensional spaces. Relevant for vector database
+  indexing techniques.
+source_url: https://arxiv.org/abs/2111.08566
+category: Research Papers & Surveys
+tags:
+  - ann
+  - billion-scale
+  - approximate-nearest-neighbor
+featured: false
+updated_at: 2026-04-21 13:24
