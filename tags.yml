@@ -57,7 +57,7 @@
 - id: technologies
   name: technologies
 - id: anns
-  name: ANNS
+  name: Anns
 - id: architecture
   name: Architecture
 - id: definition
@@ -923,7 +923,7 @@
 - id: cuda
   name: Cuda
 - id: gpu-accelerated
-  name: GPU Accelerated
+  name: Gpu Accelerated
 - id: cagra
   name: Cagra
 - id: jvector
@@ -1408,3 +1408,35 @@
   name: Enterprise Vector Cloud
 - id: gpu-zilliz
   name: Gpu Zilliz
+- id: alibaba-cloud
+  name: Alibaba Cloud
+- id: managed-opensearch
+  name: Managed Opensearch
+- id: columnar-storage
+  name: Columnar Storage
+- id: postgres-extension
+  name: Postgres Extension
+- id: managed-scale
+  name: Managed Scale
+- id: pod-index
+  name: Pod Index
+- id: inverted-index
+  name: Inverted Index
+- id: learned-compression
+  name: Learned Compression
+- id: research-lib
+  name: Research Lib
+- id: rust-core
+  name: Rust Core
+- id: in-memory-fast
+  name: In Memory Fast
+- id: lightweight-search
+  name: Lightweight Search
+- id: big-data-serving
+  name: Big Data Serving
+- id: tensor-ranking
+  name: Tensor Ranking
+- id: real-time-apps
+  name: Real Time Apps
+- id: modular
+  name: Modular

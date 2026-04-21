@@ -56,3 +56,11 @@
   name: Hybrid Search Engines
 - id: serverless-managed-vector-dbs
   name: Serverless & Managed Vector DBs
+- id: 2026-vector-db-benchmarks
+  name: 2026 Vector DB Benchmarks
+- id: vector-search-libraries
+  name: Vector Search Libraries
+- id: 2026-benchmarks-trends
+  name: 2026 Benchmarks & Trends
+- id: open-source
+  name: Open Source
