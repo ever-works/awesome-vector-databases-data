@@ -1,0 +1,12 @@
+name: Pixeltable
+description: Pixeltable is an open-source database featuring automatic
+  incremental embedding indexing for efficient vector search. It supports Apache
+  License 2.0 and is designed for handling embeddings in AI applications.
+source_url: https://pixeltable.ai/
+category: Vector Database Engines
+tags:
+  - open-source
+  - incremental
+  - embeddings
+featured: false
+updated_at: 2026-04-21 22:15

@@ -3,7 +3,7 @@ description: A fast C++/Python library for Hierarchical Navigable Small World
   (HNSW) graph-based vector search, offering high performance for dense vector
   retrieval with incremental insert support.
 source_url: https://github.com/nmslib/hnswlib
-category: Vector Search Libraries
+category: Vector Similarity Libraries
 tags:
   - hnsw
   - graph-based
@@ -132,4 +132,4 @@ markdown: >-
 
   Free and open-source under Apache 2.0 license. No licensing costs.
 brand: NMSLib
-updated_at: 2026-04-21 04:17
+updated_at: 2026-04-21 22:15

@@ -1,0 +1,12 @@
+name: YDB
+description: YDB is an open-source distributed SQL database with vector search
+  capabilities under Apache License 2.0. It supports high-performance vector
+  similarity search for AI and machine learning applications.
+source_url: https://ydb.tech/
+category: Vector Database Engines
+tags:
+  - open-source
+  - distributed
+  - sql
+featured: false
+updated_at: 2026-04-21 22:15

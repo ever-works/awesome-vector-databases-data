@@ -4,11 +4,12 @@ description: Lightweight and simple vector similarity search engine based on
   search services without the operational overhead of larger vector database
   solutions.
 source_url: https://github.com/VQLite/VQLite
-category: Open Source Vector Databases
+category: Vector Database Engines
 tags:
   - lightweight
   - scann
   - rest-api
+  - vector-quantization
 featured: false
 markdown: >-
   ## Overview
@@ -70,4 +71,4 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 22:15

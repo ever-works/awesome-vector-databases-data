@@ -1,7 +1,8 @@
 name: OpenSearch
-description: AWS-backed open-source search and analytics suite with vector
-  search capabilities via faiss and nmslib engines, neural search plugins, and
-  tight AWS ecosystem integration.
+description: OpenSearch, AWS fork of Elasticsearch, offers k-NN vector search
+  with HNSW/IVF indexes, neural search plugins for hybrid semantic+keyword.
+  Forked for open governance; similar to ES but with AWS integrations, good
+  alternative for cloud-agnostic setups vs proprietary ES.
 source_url: https://opensearch.org/
 category: Vector Database Engines
 tags:
@@ -10,6 +11,10 @@ tags:
   - nmslib
   - neural-search
   - open-source
+  - knn-hnsw-ivf
+  - aws-fork
+  - hybrid-semantic
+  - open-governance
 markdown: >-
   # OpenSearch
 
@@ -92,4 +97,6 @@ markdown: >-
 
   OpenSearch is free and open source, licensed under the Apache 2.0 license.
   Amazon OpenSearch Service offers managed hosting with pay-as-you-go pricing.
-updated_at: 2026-04-21 10:14
+images:
+  - https://opensearch.org/assets/img/opensearch-logo-full.svg
+updated_at: 2026-04-21 22:15

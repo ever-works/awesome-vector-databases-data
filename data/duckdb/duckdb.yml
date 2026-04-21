@@ -1,16 +1,21 @@
 name: DuckDB
-description: An in-memory, open-source, and free analytical database that speaks
-  SQL, heavily based on vectorization. It can store and process vector
-  embeddings using Array and List data types to enable vector search, bridging
-  the gap between data engineering and AI workflows with fast response times.
+description: DuckDB is an embeddable SQL OLAP engine with VSS extension for HNSW
+  vector search on local files. Perfect for prototyping, desktop analytics, and
+  edge AI; lightweight alternative to LanceDB with SQL-first but in-memory
+  focused.
 source_url: https://duckdb.org
-featured: true
 category: multi-model-hybrid-databases
 tags:
   - in-memory
   - open-source
   - analytics
   - sql
+  - embeddable-sql
+  - vss-hnsw
+  - olap-local
+  - edge-ai
+  - prototyping
+featured: true
 markdown: >-
   DuckDB is a fast, in-memory, open-source, and free analytical database system
   that speaks SQL. It is heavily based on vectorization and can store and
@@ -64,4 +69,6 @@ markdown: >-
   *   Rust (cargo)
 
   *   Go (go get)
-updated_at: 2025-07-01 00:28
+images:
+  - https://duckdb.org/logo-white.svg
+updated_at: 2026-04-21 22:15

@@ -5,7 +5,7 @@ description: "Redis as vector database via RediSearch module supports HNSW/Flat
   hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
   pure vectors."
 source_url: https://github.com/RediSearch/RediSearch
-category: Hybrid Search Engines
+category: Hybrid & Managed Vector DBs
 tags:
   - redis-vss
   - hybrid-bm25
@@ -15,6 +15,8 @@ tags:
   - redis
   - open-source
   - similarity-search
+  - metadata-filtering
+  - rag-optimized
 markdown: >-
   # RediSearch
 
@@ -85,4 +87,4 @@ markdown: >-
   - RediSearch is open source. Distributed cluster features are available as
   part of Redis Cloud and Redis Enterprise Software (pricing details for those
   are not provided here).
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 22:15

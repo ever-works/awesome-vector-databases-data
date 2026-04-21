@@ -4,12 +4,13 @@ description: DiskANN is a Microsoft Research disk-based ANN index for
   updates. Excels in out-of-core scenarios without GPU. Better recall than HNSW
   on large disks vs in-memory like Qdrant; basis for some production systems.
 source_url: https://arxiv.org/abs/2105.09613
-category: Vector Search Libraries
+category: Disk-Optimized Indexes
 tags:
   - disk-based-index
   - billion-scale
   - microsoft-research
   - out-of-core
+  - disk-persistence
 markdown: >
   # DiskANN
 
@@ -41,4 +42,4 @@ markdown: >
   - No pricing information provided.
 images:
   - https://microsoft.github.io/DiskANN/logo.png
-updated_at: 2026-04-21 07:12
+updated_at: 2026-04-21 22:15

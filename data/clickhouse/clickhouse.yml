@@ -1,8 +1,8 @@
 name: ClickHouse
-description: ClickHouse is an open-source column-oriented database that supports
-  vectorized computation and now offers vector search features. Its architecture
-  enables efficient real-time analytics and vector operations, making it a
-  relevant choice for vector database use cases.
+description: ClickHouse columnar OLAP DB with vector indexes (ANN for HNSW/PQ),
+  excelling in analytical queries over billion-row tables with vectors. Suited
+  for data warehousing + similarity search; faster analytics than Postgres but
+  less transactional vs pgvector.
 source_url: https://clickhouse.com/
 category: vector-database-engines
 tags:
@@ -10,6 +10,11 @@ tags:
   - analytics
   - vector-search
   - real-time
+  - columnar-olap
+  - ann-indexes
+  - analytical-queries
+  - billion-rows
+  - data-warehousing
 markdown: >-
   # ClickHouse
 
@@ -86,4 +91,6 @@ markdown: >-
   ## Category
 
   vector-database-engines
-updated_at: 2025-05-13 22:30
+images:
+  - https://clickhouse.com/logo-clickhouse.svg
+updated_at: 2026-04-21 22:15

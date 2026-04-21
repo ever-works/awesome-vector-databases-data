@@ -5,7 +5,7 @@ description: Elasticsearch Vector Search (k-NN plugin) enables dense vector
   for observability and e-commerce; scales better than Weaviate for text-heavy
   workloads but heavier footprint than Qdrant.
 source_url: https://www.elastic.co/elasticsearch/
-category: Hybrid Search Engines
+category: Hybrid & Managed Vector DBs
 tags:
   - commercial
   - open-source
@@ -17,6 +17,8 @@ tags:
   - vector-database-2026
   - ann-benchmarks
   - rag-optimized
+  - metadata-filtering
+  - hybrid-search
 featured: true
 markdown: >-
   ## Overview
@@ -237,4 +239,4 @@ markdown: >-
 brand: Elastic
 images:
   - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
-updated_at: 2026-04-21 07:12
+updated_at: 2026-04-21 22:15

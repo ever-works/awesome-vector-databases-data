@@ -5,7 +5,7 @@ description: "Redis as vector database via RediSearch module supports HNSW/Flat
   hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
   pure vectors."
 source_url: https://redis.io/blog/rag-at-scale/
-category: Hybrid Search Engines
+category: Hybrid & Managed Vector DBs
 tags:
   - redis-vss
   - hybrid-bm25
@@ -14,6 +14,8 @@ tags:
   - caching
   - rag
   - optimization
+  - rag-optimized
+  - metadata-filtering
 markdown: >-
   ## Overview
 
@@ -39,4 +41,4 @@ markdown: >-
 
   - Based on memory and throughput
 brand: Redis
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 22:15

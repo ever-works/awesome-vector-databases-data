@@ -1,12 +1,11 @@
 name: Milvus
-description: "Milvus is a popular open-source vector database designed for
-  efficient similarity search on massive embedding vectors, supporting billions
-  of vectors with low-latency queries. Key features include distributed
-  architecture, multiple index types like HNSW and IVF, hybrid search (vector +
-  scalar), and integrations with PyTorch/TensorFlow. Use cases: RAG pipelines,
-  recommendation engines, anomaly detection. Compared to Pinecone (serverless
-  managed), Milvus is self-hostable and cost-effective for large-scale on-prem;
-  outperforms pgvector in distributed scalability."
+description: Milvus is an open-source vector database built for scalable AI
+  applications, specializing in similarity search on massive embedding datasets.
+  It supports billion-scale vector data with features like HNSW and IVF
+  indexing, hybrid search (vector + scalar filtering), and multi-vector support.
+  Ideal for RAG pipelines, recommendation systems, and multimodal search;
+  compares to Pinecone for managed scalability but offers self-hosted
+  flexibility superior to Chroma for production-scale deployments.
 source_url: https://milvus.io/
 category: Vector Database Engines
 tags:
@@ -23,6 +22,11 @@ tags:
   - gpu-support
   - hybrid-search
   - billion-scale
+  - billion-scale
+  - hnsw
+  - ivf
+  - hybrid-search
+  - self-hosted
 markdown: >
   # Milvus
 
@@ -45,7 +49,7 @@ markdown: >
 
   - **Open Source:** Freely available and maintained by an active community.
 
-  - **Multiple Deployment Options:**
+  - **Multiple Deployment Options:
     - **Milvus Lite:** Lightweight version for easy and quick start.
     - **Milvus Standalone:** Robust, single-machine deployment for smaller scale.
     - **Milvus Distributed:** Kubernetes-based deployment for enterprise-grade scalability.
@@ -81,4 +85,5 @@ images:
   - https://milvus.io/milvus-dark-icon-only.png
   - https://milvus.io/logo.png
   - https://milvus.io/milvus-vector-database-logo.svg
-updated_at: 2026-04-21 13:24
+  - https://milvus.io/images/milvus-logo.png
+updated_at: 2026-04-21 22:15

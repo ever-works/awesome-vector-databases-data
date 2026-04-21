@@ -5,12 +5,16 @@ description: "Redis as vector database via RediSearch module supports HNSW/Flat
   hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
   pure vectors."
 source_url: https://redis.io/
-category: Hybrid Search Engines
+category: Key-Value Vector Stores
 tags:
   - redis-vss
   - hybrid-bm25
   - real-time-cache
   - redisearch
+  - key-value-store
+  - disk-persistence
+  - metadata-filtering
+  - rag-optimized
 markdown: >-
   ## Overview
 
@@ -100,4 +104,4 @@ markdown: >-
   ### Redis Enterprise
 
   Available upon request for on-premises deployments.
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 22:15

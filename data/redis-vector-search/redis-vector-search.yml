@@ -1,16 +1,22 @@
 name: Redis Vector Search
-description: "Redis as vector database via RediSearch module supports HNSW/Flat
-  indexes for real-time vector search in key-value store. Features: sub-ms
-  latency, JSON payloads, modules ecosystem; use cases: caching + search
-  hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
-  pure vectors."
+description: Redis Vector Search extends Redis with vector similarity
+  capabilities using HNSW/Flat indexes, supporting hybrid BM25+vector queries
+  and on-disk persistence. Ideal for caching, real-time search, and RAG in
+  high-throughput apps; leverages Redis ecosystem for speed but less specialized
+  than dedicated VDBs like Qdrant for complex filtering.
 source_url: https://redis.io/solutions/vector-database/
-category: Hybrid Search Engines
+category: Hybrid & Managed Vector DBs
 tags:
   - redis-vss
   - hybrid-bm25
   - real-time-cache
   - redisearch
+  - redis-module
+  - hnsw-flat
+  - high-throughput
+  - metadata-filtering
+  - rag-optimized
+  - disk-persistence
 markdown: >-
   ## Overview
 
@@ -94,4 +100,5 @@ brand_logo_url: https://redis.io/favicon.ico
 images:
   - https://redis.io/docs/latest/develop/get-started/logo.png
   - https://redis.io/wp-content/uploads/2023/06/redis-logo.svg
-updated_at: 2026-04-21 10:14
+  - https://redis.io/docs/latest/develop/get-started/vss/assets/redis-vss-logo.png
+updated_at: 2026-04-21 22:15

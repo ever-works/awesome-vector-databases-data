@@ -5,7 +5,7 @@ description: "Redis as vector database via RediSearch module supports HNSW/Flat
   hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
   pure vectors."
 source_url: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview-vector-similarity
-category: Hybrid Search Engines
+category: Hybrid & Managed Vector DBs
 tags:
   - redis-vss
   - hybrid-bm25
@@ -15,6 +15,8 @@ tags:
   - redis
   - cloud
   - managed
+  - metadata-filtering
+  - rag-optimized
 markdown: >-
   ## Overview
 
@@ -102,4 +104,4 @@ markdown: >-
 
   Azure Cache for Redis (Premium/Enterprise tiers)
 brand: Microsoft
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-21 22:15
