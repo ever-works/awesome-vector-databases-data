@@ -66,3 +66,9 @@
   name: Open Source
 - id: edge-embedded-vector-dbs
   name: Edge & Embedded Vector DBs
+- id: vector-indexing-research
+  name: Vector Indexing Research
+- id: gpu-accelerated-vector-dbs
+  name: GPU Accelerated Vector DBs
+- id: open-source-vector-databases
+  name: Open Source Vector Databases

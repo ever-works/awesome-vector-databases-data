@@ -1460,3 +1460,37 @@
   name: High Availability
 - id: global-distribution
   name: Global Distribution
+- id: persistent-storage
+  name: Persistent Storage
+- id: distance-metrics
+  name: Distance Metrics
+- id: gpu-indexing
+  name: Gpu Indexing
+- id: multimodal-db
+  name: Multimodal Db
+- id: arrow-integration
+  name: Arrow Integration
+- id: distributed-vector-db
+  name: Distributed Vector Db
+- id: gpu-support
+  name: Gpu Support
+- id: hnsw-index
+  name: Hnsw Index
+- id: global-replication
+  name: Global Replication
+- id: edge-deployable
+  name: Edge Deployable
+- id: go-lang
+  name: Go Lang
+- id: k8s-native
+  name: K8s Native
+- id: faiss-inspired
+  name: Faiss Inspired
+- id: radius-search
+  name: Radius Search
+- id: llm-modules
+  name: Llm Modules
+- id: zilliz-cloud
+  name: Zilliz Cloud
+- id: enterprise-vector-db
+  name: Enterprise Vector Db
