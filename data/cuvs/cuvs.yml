@@ -3,14 +3,14 @@ description: NVIDIA RAPIDS' GPU-accelerated library for vector search and
   clustering, providing CUDA-optimized implementations of HNSW, IVF, CAGRA, and
   PQ, enabling billion-scale search on GPU hardware.
 source_url: https://github.com/rapidsai/cuvs
-category: sdks-libraries
+category: Vector Similarity Libraries
 tags:
   - nvidia
   - rapids
   - cuda
   - gpu-accelerated
   - cagra
-markdown: >
+markdown: >-
   # cuVS
 
 
@@ -88,4 +88,4 @@ markdown: >
 
   cuVS is released under an open-source license (see the repository for
   details).
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-22 07:22

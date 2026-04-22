@@ -1,13 +1,14 @@
 name: Qdrant Cloud
-description: Managed vector database service with 1GB free forever cluster (no
-  credit card required). Fully managed with multi-cloud support across AWS, GCP,
-  and Azure. This is a commercial managed service.
+description: Qdrant Cloud is the managed SaaS version of Qdrant, offering
+  serverless scaling, backups, and multi-region. Features seamless upgrade from
+  open-source. For production without ops; like Pinecone but with Qdrant
+  filtering.
 source_url: https://qdrant.tech/cloud/
 category: Managed Vector Databases
 tags:
-  - commercial
-  - managed service
-  - multi-cloud
+  - managed
+  - serverless
+  - rust
 featured: true
 markdown: >-
   ## Overview
@@ -44,4 +45,6 @@ markdown: >-
 
   Commercial service with generous free tier and flexible scaling options.
 brand: Qdrant
-updated_at: 2026-03-06 18:05
+images:
+  - https://cloud.qdrant.io/logo.svg
+updated_at: 2026-04-22 07:22

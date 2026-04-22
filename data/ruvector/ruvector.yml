@@ -6,7 +6,7 @@ description: A self-learning, self-optimizing vector database with graph
   including browsers and edge devices. Open-source under MIT license, free
   forever.
 source_url: https://github.com/ruvnet/ruvector
-category: Rust-based Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
   - open-source
   - hybrid-search
@@ -153,4 +153,4 @@ markdown: >-
 
   Free and open-source under the MIT license.
 brand: rUv
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-22 07:22

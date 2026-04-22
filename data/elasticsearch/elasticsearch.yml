@@ -1,7 +1,8 @@
 name: Elasticsearch
-description: Distributed search and analytics engine with vector search (kNN)
-  capabilities, combining BM25 text search with semantic search. Widely used for
-  enterprise search and observability workloads.
+description: Elasticsearch adds vector search via dense_vector fields, kNN
+  plugin, with Lucene integration for hybrid lexical+semantic. Scales
+  horizontally, aggregations. Enterprise search powerhouse; better full-text
+  hybrid than Vespa for logs, but heavier than Qdrant.
 source_url: https://www.elastic.co/elasticsearch/
 category: Vector Database Engines
 tags:
@@ -80,4 +81,4 @@ markdown: >-
   Not specified in provided content. Elastic offers open source downloads,
   hosted cloud, and serverless options; specific pricing details can be found on
   their website.
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-22 07:22

@@ -1,22 +1,44 @@
 name: Weaviate Cloud
-description: Weaviate Cloud is the fully managed cloud deployment of the
-  Weaviate vector database, providing a hosted environment for building and
-  operating AI applications with scalable vector search, without managing
-  infrastructure.
+description: Weaviate Cloud provides managed hosting with auto-scaling,
+  security, and disaster recovery. Integrates modules. Enterprise alternative to
+  self-hosted.
 source_url: https://weaviate.io/cloud
 category: Managed Vector Databases
 tags:
-  - managed-service
-  - cloud-native
-  - vector-search
-  - vector-database-2026
-  - ann-benchmarks
-  - rag-optimized
+  - managed
+  - graphql
 featured: false
-markdown: ""
+markdown: >-
+  ## Overview
+
+
+  Weaviate Cloud (WCD) is the fully managed cloud platform for Weaviate vector
+  database, handling scaling, backups, security, and updates.
+
+
+  ## Features
+
+
+  - Auto-scaling clusters
+
+  - Multi-tenancy support
+
+  - Disaster recovery
+
+  - Module integrations (e.g., transformers, Q&A)
+
+  - Security & compliance
+
+  - Global regions
+
+
+  ## Pricing
+
+
+  Pay-as-you-go with free tier available.
 brand: weaviate
 brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5b9a8f1b.svg
 images:
+  - https://weaviate.io/cloud/logo.svg
   - https://weaviate.io/assets/images/cloud-hero-5d5a5f2b44a3e0c6a9f4b0e8d9c2f5b7.png
-  - https://weaviate.io/assets/images/cloud-diagram-architecture-3ac7c58e0f90419e8c3d992152e6c2c3.png
-updated_at: 2026-04-21 04:17
+updated_at: 2026-04-22 07:22

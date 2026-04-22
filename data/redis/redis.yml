@@ -1,20 +1,15 @@
 name: Redis
-description: "Redis as vector database via RediSearch module supports HNSW/Flat
-  indexes for real-time vector search in key-value store. Features: sub-ms
-  latency, JSON payloads, modules ecosystem; use cases: caching + search
-  hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
-  pure vectors."
+description: Redis with Vector Search (RediSearch/RedisStack) enables in-memory
+  vector similarity on key-value store, supporting HNSW/Flat indexes, filtering,
+  and JSON payloads. High-speed for caching/RAG; more versatile than pure VDBs
+  like Chroma for sessions, but memory-limited vs disk-based LanceDB.
 source_url: https://redis.io/
-category: Key-Value Vector Stores
+category: Key Value Vector Stores
 tags:
-  - redis-vss
-  - hybrid-bm25
-  - real-time-cache
-  - redisearch
-  - key-value-store
-  - disk-persistence
-  - metadata-filtering
-  - rag-optimized
+  - in-memory
+  - redis
+  - hnsw
+  - filtering
 markdown: >-
   ## Overview
 
@@ -104,4 +99,5 @@ markdown: >-
   ### Redis Enterprise
 
   Available upon request for on-premises deployments.
-updated_at: 2026-04-21 22:15
+brand_logo_url: https://redis.io/docs/about/images/redis_logo.svg
+updated_at: 2026-04-22 07:22

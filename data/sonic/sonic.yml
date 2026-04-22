@@ -5,7 +5,7 @@ description: Sonic is a fast in-memory search backend with vector support via
   search capabilities. Optimized for high-speed ingest and retrieval in memory,
   ideal for performance-critical applications.
 source_url: https://github.com/valeriansaliou/sonic
-category: Embedded Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
   - in-memory-fast
   - lightweight-search
@@ -41,4 +41,4 @@ markdown: >-
 
 
   Free and open-source (Mozilla Public License 2.0).
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-22 07:22

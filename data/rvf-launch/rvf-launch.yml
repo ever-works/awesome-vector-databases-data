@@ -3,7 +3,7 @@ description: QEMU microVM launcher for RVF cognitive containers. Facilitates
   isolated, secure deployment of vector processing environments in the RuVector
   stack.
 source_url: https://crates.io/crates/rvf-launch
-category: Edge Database
+category: Embedded & Edge Vector Databases
 tags:
   - rust
   - microvm
@@ -25,4 +25,4 @@ markdown: |-
   ## Pricing
 
   Open source under MIT license.
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-22 07:22

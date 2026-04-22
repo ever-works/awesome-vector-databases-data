@@ -1,26 +1,21 @@
 name: Weaviate
-description: "Weaviate is a cloud-native, open-source vector database combining
-  vector search with GraphQL, modules for auto-embedding (OpenAI/HuggingFace),
-  and hybrid search. Supports structured filtering, multi-tenancy, and backups;
-  great for knowledge graphs and LLM apps. More developer-friendly than raw
-  Milvus with built-in ML modules, but less GPU-focused than Zilliz; use cases:
-  enterprise semantic search, RAG."
+description: Weaviate is a cloud-native, open-source vector database that
+  seamlessly integrates vector similarity search with structured filtering via a
+  GraphQL API, enabling sophisticated data modeling and querying. Key features
+  include modular plugins for automatic embeddings from OpenAI or Hugging Face,
+  hybrid search combining vector and keyword methods, and schema-driven
+  organization for complex datasets. It is particularly suited for knowledge
+  graphs, semantic search platforms, and AI agent development; it offers a
+  GraphQL-focused interface superior to Qdrant for developers and simpler
+  complex query handling than raw Milvus, while providing self-managed options
+  unlike Pinecone's serverless emphasis.
 source_url: https://weaviate.io/
 category: Vector Database Engines
 tags:
   - graphql
-  - modular
-  - multimodal
-  - graphql
-  - auto-embedding
+  - hybrid-search
   - modules
-  - knowledge-graph
-  - cloud-native
-  - metadata-filtering
-  - rag-optimized
-  - graphql-api
-  - auto-embedding
-  - knowledge-graph
+  - open-source
   - cloud-native
 markdown: >-
   # Weaviate
@@ -87,4 +82,5 @@ images:
   - https://weaviate.io/blog/img/logo.svg
   - https://weaviate.io/images/weaviate-logo.svg
   - https://weaviate.io/weaviate-logo.png
-updated_at: 2026-04-22 04:16
+  - https://weaviate.io/assets/weaviate-logo.svg
+updated_at: 2026-04-22 07:22

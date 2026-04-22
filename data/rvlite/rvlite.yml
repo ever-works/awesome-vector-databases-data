@@ -3,7 +3,7 @@ description: Standalone 2MB edge vector database for IoT, mobile, and embedded
   applications, providing full vector search capabilities without server
   dependency.
 source_url: https://www.npmjs.com/package/rvlite
-category: Embedded Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
   - edge
   - embedded
@@ -34,4 +34,4 @@ markdown: >-
 
   Free and open-source.
 brand: RuVector
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-22 07:22

@@ -4,7 +4,7 @@ description: The community-maintained benchmarking framework for approximate
   HNSWLib, Annoy, ScaNN across datasets and providing reproducible performance
   evaluations.
 source_url: https://ann-benchmarks.com/
-category: Benchmarks & Evaluation
+category: Benchmark & Evaluation Tools
 tags:
   - benchmarking
   - ann
@@ -372,4 +372,4 @@ markdown: >-
 
 
   Free and open-source (MIT license).
-updated_at: 2026-04-21 10:14
+updated_at: 2026-04-22 07:22

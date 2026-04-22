@@ -5,7 +5,7 @@ description: Core Rust crate for the RuVector vector database engine featuring
   up to 3,597 QPS with 100% recall on 50K vectors. Ideal for AI applications
   requiring low-latency retrieval in RAG pipelines and agent memory systems.
 source_url: https://crates.io/crates/ruvector-core
-category: Rust-based Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
   - open-source
   - rust
@@ -56,4 +56,4 @@ markdown: >-
 
   Free and open-source.
 brand: ruvnet
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-22 07:22

@@ -1,18 +1,18 @@
 name: Lantern
-description: Lantern is a multimodal vector database for embeddings, images,
-  audio, and video, featuring fast indexing and a Rust core suitable for edge
-  and real-time applications. It supports hybrid search and is lighter than
-  alternatives like Qdrant, enabling on-device deployment. Use cases include
-  mobile AI and visual search.
+description: Lantern is a high-performance vector search library in Rust,
+  focusing on low-latency ANN with HNSW and custom optimizations. Embeddable
+  with no external deps, supports multiple metrics. For edge devices and
+  real-time apps; lighter than full DBs like Weaviate, Rust-speed rival to
+  usearch.
 source_url: https://lantern.dev/
-category: Embedded & Edge Vector DBs
+category: Vector Similarity Libraries
 tags:
-  - multimodal-db
-  - rust-core
-  - edge-deployable
-  - real-time-apps
+  - rust
+  - hnsw
+  - embeddable
+  - low-latency
 featured: false
-markdown: >-
+markdown: >
   # Lantern
 
 
@@ -61,6 +61,7 @@ markdown: >-
 
   *   **Free tier:** $0.00/month. This is a multi-tenant setup that never pauses
   and includes vector search and indexing capabilities.
+brand_logo_url: https://lantern.dev/logo.svg
 images:
-  - https://lantern.dev/logo.png
-updated_at: 2026-04-22 04:16
+  - https://lantern.dev/logo.svg
+updated_at: 2026-04-22 07:22

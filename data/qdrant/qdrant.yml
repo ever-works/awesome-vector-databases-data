@@ -1,31 +1,22 @@
 name: Qdrant
-description: Qdrant is a high-performance vector search engine and database with
-  Rust-based core for speed and safety, enabling filtered ANN search on
-  dense/sparse vectors. Features payload filtering, dynamic reindexing,
-  multi-modal support, and cloud/edge deployments; excels in real-time apps like
-  semantic search and agentic AI. Outperforms Faiss in production scalability
-  while being lighter than Milvus; use cases include RAG with metadata
-  filtering.
+description: Qdrant is a high-performance vector search engine built on a Rust
+  core for exceptional speed and memory safety, supporting advanced filtered
+  searches, payload storage, and efficient on-disk persistence for billion-scale
+  vector operations. It delivers sub-second queries using HNSW indexing,
+  accommodates multi-vector objects, and offers hassle-free Docker deployments
+  for both cloud and edge scenarios. Excellent for production RAG workflows,
+  recommendation engines, and real-time semantic applications; it is lighter and
+  edge-optimized compared to Milvus, provides richer filtering than Faiss, and
+  delivers open-source production scalability as an alternative to Pinecone and
+  Weaviate.
 source_url: https://qdrant.tech/
-category: Production & Scalable Vector DBs
+category: Vector Database Engines
 tags:
-  - rust-performance
-  - filtering
-  - quantization
-  - rust-core
+  - rust
+  - payloads
   - filtered-search
-  - payload
-  - dynamic-reindexing
-  - edge
-  - vector-quantization
-  - disk-persistence
-  - metadata-filtering
-  - rag-optimized
-  - edge-deploy
-  - rust-engine
-  - payload-filtering
-  - edge-deployable
-  - sparse-vectors
+  - on-disk
+  - open-source
 markdown: >-
   # Qdrant
 
@@ -93,4 +84,5 @@ images:
   - https://qdrant.to/logo.png
   - https://qdrant.tech/qdrant-logo.svg
   - https://qdrant.tech/images/qdrant-logo.svg
-updated_at: 2026-04-22 04:16
+  - https://qdrant.tech/qdrant-logo.svg
+updated_at: 2026-04-22 07:22

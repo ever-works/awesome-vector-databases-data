@@ -1,82 +1,23 @@
 name: Memgraph
-description: In-memory graph database with vector search capabilities, offering
-  real-time graph analytics combined with semantic search via its MAGE library
-  of graph algorithms and Cypher-compatible query language.
+description: In-memory graph database with vector search via HNSW, for real-time
+  graph analytics + semantic search (GraphRAG).
 source_url: https://memgraph.com/
-category: Graph Database
+category: Graph-Enhanced Vector DBs
 tags:
   - in-memory
   - cypher
-  - real-time
-  - mage-library
-  - graph-analytics
-markdown: >-
+  - hnsw
+  - graphrag
+markdown: |-
   ## Overview
 
+  Graph DB with native vector search.
 
-  Memgraph is an in-memory graph database platform that features native vector
-  search capabilities powered by USearch, a high-performance C++ library
-  implementing the Hierarchical Navigable Small World (HNSW) index structure.
-
-
-  ## Key Features
-
-
-  - **Native Vector Search**: Built-in vector search using HNSW algorithm (since
-  version 3.2)
-
-  - **Single Platform**: Combines graph database and vector search in one system
-
-  - **Production Ready**: Fully supported with CREATE VECTOR INDEX, persists
-  across restarts
-
-  - **High Performance**: In-memory architecture for fast graph traversal and
-  vector queries
-
-  - **GraphRAG Support**: Seamless integration of vector embeddings with
-  knowledge graphs
-
-
-  ## GraphRAG Applications
-
-
-  Memgraph enables powerful GraphRAG patterns by combining:
-
-  - **Graph Database**: Stores entities and relationships for multi-hop
-  reasoning
-
-  - **Vector Search**: Semantic similarity matching for natural language queries
-
-  - **Dynamic Updates**: Real-time knowledge graph updates
-
-
-  ## Integration
-
-
-  - Python client library
-
-  - Cypher query language (extended for vector operations)
-
-  - REST API
-
-  - Kafka, Pulsar streaming integrations
-
-  - LangChain compatibility for RAG workflows
-
+  ## Features
+  - Cypher + vector indexes
 
   ## Pricing
-
-
-  Memgraph offers:
-
-  - Open-source Community Edition (free)
-
-  - Enterprise Edition with advanced features
-
-  - Cloud-managed options
-
-
-  Contact sales for enterprise pricing details.
+  OSS free, Enterprise.
 brand: Memgraph
 brand_logo_url: https://memgraph.com/images/logo.svg
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-22 07:22

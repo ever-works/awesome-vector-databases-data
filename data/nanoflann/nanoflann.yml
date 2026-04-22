@@ -4,7 +4,7 @@ description: C++11 header-only library for Nearest Neighbor (NN) search with
   searches in spatial data structures, particularly suited for robotics and
   computer vision applications.
 source_url: https://github.com/jlblancoc/nanoflann
-category: SDKs & Libraries
+category: Vector Similarity Libraries
 tags:
   - c++
   - kd-tree
@@ -74,4 +74,4 @@ markdown: >-
 
 
   Free and open-source under BSD license.
-updated_at: 2026-03-26 13:53
+updated_at: 2026-04-22 07:22

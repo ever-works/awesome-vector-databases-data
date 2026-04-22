@@ -3,7 +3,7 @@ description: Automatic index selection and tuning library for FAISS that selects
   optimal KNN index configurations to maximize recall given memory and query
   speed constraints, eliminating manual hyperparameter tuning.
 source_url: https://github.com/criteo/autofaiss
-category: Developer Tools & Libraries
+category: Vector Similarity Libraries
 tags:
   - open-source
   - python
@@ -69,4 +69,4 @@ markdown: >-
 
   - Memory-constrained vector search applications
 brand: Criteo
-updated_at: 2026-04-22 04:16
+updated_at: 2026-04-22 07:22

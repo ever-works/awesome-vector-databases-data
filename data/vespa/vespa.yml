@@ -1,20 +1,17 @@
 name: Vespa
-description: Vespa is a big data serving engine combining vector search, lexical
-  search, and ML inference at scale. Supports HNSW/ANN, real-time updates,
-  tensor computations, and multi-phase ranking. Powers Yahoo search and
-  recommendations; more feature-rich than Pinecone for hybrid workloads but
-  complex setup vs managed services.
+description: Vespa is an open-source big data serving engine combining vector
+  search, lexical search, and ML inference at scale. Features real-time updates,
+  tensor computations, and multi-phase ranking. Suited for e-commerce search and
+  recommendations; more full-featured for hybrid search than pure vector DBs
+  like Qdrant, with built-in ML ranking unlike Pinecone.
 source_url: https://vespa.ai/
-category: Hybrid & Managed Vector DBs
+category: Hybrid Search Engines
 tags:
-  - big-data-serving
-  - hybrid-lexical
-  - ml-inference
+  - hybrid-search
   - real-time
-  - tensor
-  - metadata-filtering
-  - rag-optimized
-  - billion-scale
+  - ml-ranking
+  - open-source
+  - big-data
 featured: false
 markdown: >-
   ## Overview
@@ -123,4 +120,5 @@ images:
   - https://vespa.ai/assets/favicon/favicon-32x32.png
   - https://vespa.ai/assets/images/vespa-logo.svg
   - https://vespa.ai/assets/img/favicon.ico
-updated_at: 2026-04-21 22:15
+  - https://vespa.ai/assets/vespa_logo.svg
+updated_at: 2026-04-22 07:22

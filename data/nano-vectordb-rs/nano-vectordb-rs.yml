@@ -3,7 +3,7 @@ description: A simple, easy-to-hack vector database library implemented in Rust.
   It supports fast cosine similarity searches with Rayon parallelism, embedded
   persistence, and a minimal API ideal for prototyping and educational purposes.
 source_url: https://github.com/VectorInstitute/nano-vectordb-rs
-category: Rust-based Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
   - rust
   - open-source
@@ -72,4 +72,4 @@ markdown: >-
   Advanced example with Hugging Face embeddings: `cargo run --example
   advanced_usage`.
 brand: Vector Institute
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-22 07:22
