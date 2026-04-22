@@ -1129,7 +1129,7 @@
 - id: sub-millisecond
   name: Sub Millisecond
 - id: redisearch
-  name: Redisearch
+  name: RediSearch
 - id: redis-cloud
   name: Redis Cloud
 - id: reinforcement-learning
@@ -1646,3 +1646,37 @@
   name: Ngt
 - id: ml-ranking
   name: Ml Ranking
+- id: static-index
+  name: Static Index
+- id: python-sdk
+  name: Python Sdk
+- id: similarity-library
+  name: Similarity Library
+- id: indexing-algorithms
+  name: Indexing Algorithms
+- id: arrow-native
+  name: Arrow Native
+- id: disk-optimized
+  name: Disk Optimized
+- id: simd-optimized
+  name: Simd Optimized
+- id: tiered-indexing
+  name: Tiered Indexing
+- id: sub-ms-queries
+  name: Sub Ms Queries
+- id: hnsw-ivfflat
+  name: Hnsw Ivfflat
+- id: hybrid-fusion
+  name: Hybrid Fusion
+- id: filtered-ann
+  name: Filtered Ann
+- id: real-time-ingestion
+  name: Real Time Ingestion
+- id: cache-hybrid
+  name: Cache Hybrid
+- id: real-time-ml
+  name: Real Time Ml
+- id: graph-enhanced
+  name: Graph Enhanced
+- id: enterprise-security
+  name: Enterprise Security
