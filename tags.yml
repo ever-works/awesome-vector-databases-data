@@ -209,7 +209,7 @@
 - id: vector-database
   name: Vector Database
 - id: data-science
-  name: data science
+  name: Data Science
 - id: search-library
   name: Search Library
 - id: sqlite
@@ -219,7 +219,7 @@
 - id: quantization
   name: Quantization
 - id: vector-compression
-  name: vector compression
+  name: Vector Compression
 - id: search-system
   name: search system
 - id: predicate-agnostic
@@ -345,7 +345,7 @@
 - id: etl
   name: Etl
 - id: services
-  name: services
+  name: Services
 - id: diskann
   name: Diskann
 - id: ruby
@@ -1620,3 +1620,9 @@
   name: Hnsw From Scratch
 - id: educational
   name: Educational
+- id: langchain-integration
+  name: Langchain Integration
+- id: embedded-sql
+  name: Embedded Sql
+- id: production-scale
+  name: Production Scale

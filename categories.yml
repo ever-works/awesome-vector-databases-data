@@ -84,3 +84,11 @@
   name: Vector DB Benchmark Frameworks
 - id: experimental-learning-vector-dbs
   name: Experimental & Learning Vector DBs
+- id: developer-tools-libraries
+  name: Developer Tools & Libraries
+- id: embedded-edge-vector-dbs
+  name: Embedded & Edge Vector DBs
+- id: production-scalable-vector-dbs
+  name: Production & Scalable Vector DBs
+- id: benchmark-evaluation-tools
+  name: Benchmark & Evaluation Tools
