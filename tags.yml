@@ -7,7 +7,7 @@
 - id: ann
   name: Ann
 - id: vector-databases
-  name: vector databases
+  name: Vector Databases
 - id: blogs
   name: blogs
 - id: semantic-search
@@ -133,7 +133,7 @@
 - id: apache-spark
   name: Apache Spark
 - id: sql
-  name: SQL
+  name: Sql
 - id: redis
   name: Redis
 - id: multimodal
@@ -249,7 +249,7 @@
 - id: relational-database
   name: relational database
 - id: vector-store
-  name: vector store
+  name: Vector Store
 - id: embeddings
   name: Embeddings
 - id: serverless
@@ -1129,7 +1129,7 @@
 - id: sub-millisecond
   name: Sub Millisecond
 - id: redisearch
-  name: RediSearch
+  name: Redisearch
 - id: redis-cloud
   name: Redis Cloud
 - id: reinforcement-learning
@@ -1195,7 +1195,7 @@
 - id: in-browser
   name: In Browser
 - id: graphql
-  name: GraphQL
+  name: Graphql
 - id: modules
   name: Modules
 - id: incremental-update
@@ -1325,9 +1325,9 @@
 - id: vector-database-2026
   name: Vector Database 2026
 - id: ann-benchmarks
-  name: Ann Benchmarks
+  name: ANN Benchmarks
 - id: rag-optimized
-  name: Rag Optimized
+  name: RAG Optimized
 - id: rust-brinicle
   name: Rust Brinicle
 - id: disk-hnsw
@@ -1684,3 +1684,89 @@
   name: Vldb
 - id: hybrid-ranking
   name: Hybrid Ranking
+- id: ann-theory
+  name: ANN Theory
+- id: index-survey
+  name: Index Survey
+- id: academic-review
+  name: Academic Review
+- id: llm-vector-store
+  name: LLM Vector Store
+- id: agentic-ai
+  name: Agentic AI
+- id: tool-integration
+  name: Tool Integration
+- id: scalable-ann
+  name: Scalable ANN
+- id: production-ready
+  name: Production Ready
+- id: 2026-trends
+  name: 2026 Trends
+- id: hybrid-inference
+  name: Hybrid Inference
+- id: serverless-scaling
+  name: Serverless Scaling
+- id: enterprise-rag
+  name: Enterprise RAG
+- id: auto-indexing
+  name: Auto Indexing
+- id: vector-data-privacy
+  name: Vector Data Privacy
+- id: rbac-access
+  name: RBAC Access
+- id: gdpr-compliant
+  name: GDPR Compliant
+- id: multi-language-sdk
+  name: Multi Language SDK
+- id: async-client
+  name: Async Client
+- id: langchain-compatible
+  name: LangChain Compatible
+- id: graph-vector-hybrid
+  name: Graph Vector Hybrid
+- id: multi-hop-rag
+  name: Multi Hop RAG
+- id: cloud-auto-scale
+  name: Cloud Auto Scale
+- id: pay-per-query
+  name: Pay Per Query
+- id: perf-metrics
+  name: Perf Metrics
+- id: qps-testing
+  name: QPS Testing
+- id: rag-enhanced
+  name: Rag Enhanced
+- id: global
+  name: Global
+- id: edge-computing
+  name: Edge Computing
+- id: quantized
+  name: Quantized
+- id: free-oss
+  name: Free OSS
+- id: community-driven
+  name: Community Driven
+- id: rag-pipeline
+  name: RAG Pipeline
+- id: hybrid-rag
+  name: Hybrid RAG
+- id: image-video-vectors
+  name: Image Video Vectors
+- id: clip-compatible
+  name: CLIP Compatible
+- id: serverless-first
+  name: Serverless First
+- id: gpu-native
+  name: GPU Native
+- id: gpu-ann
+  name: GPU ANN
+- id: rapids-cuvs
+  name: RAPIDS CuVS
+- id: retrieval-augmentation
+  name: Retrieval Augmentation
+- id: memory-safe
+  name: Memory Safe
+- id: embedded-rust
+  name: Embedded Rust
+- id: postgresql-compatible
+  name: Postgresql Compatible

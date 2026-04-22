@@ -104,3 +104,7 @@
   name: Cloud Managed Vector DBs
 - id: rust-vector-databases
   name: Rust Vector Databases
+- id: multimodal-vector-stores
+  name: Multimodal Vector Stores
+- id: ai-agent-memory-stores
+  name: AI Agent Memory Stores
