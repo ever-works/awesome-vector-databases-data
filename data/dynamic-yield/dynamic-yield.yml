@@ -1,15 +1,17 @@
 name: Dynamic Yield
-description: Experience optimization suite (Mastercard) providing
-  recommendations, targeting, and personalization without requiring vector
-  database infrastructure. Operates at the application level with turnkey
-  personalization and experimentation capabilities for marketing and growth
-  teams.
+description: Dynamic Yield provides cloud-hosted vector-powered personalization
+  and recommendations with auto-scaling, GPU-optimized inference, and seamless
+  AWS/Azure integrations for real-time targeting. Enables enterprise RAG-like
+  experiences and global e-commerce search without dedicated vector DBs. Simpler
+  than Pinecone for non-technical teams; more experimentation-focused vs Zilliz
+  Cloud.
 source_url: https://www.dynamicyield.com
 category: Cloud Services
 tags:
-  - personalization
-  - experimentation
-  - recommendation
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
+featured: false
 markdown: >-
   ## Overview
 
@@ -47,4 +49,6 @@ markdown: >-
 
   Enterprise pricing; contact sales for details.
 brand: Mastercard
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.dynamicyield.com/wp-content/uploads/2023/10/dynamic-yield-platform.png
+updated_at: 2026-04-22 13:39

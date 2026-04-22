@@ -1,13 +1,16 @@
 name: Baseten
-description: GPU inference platform providing optimized model serving for
-  embedding models and LLMs, featuring the high-performance Baseten Performance
-  Client built in Rust for superior batch embedding throughput.
+description: Baseten delivers cloud-hosted GPU-accelerated vector operations for
+  embedding models and LLMs, with auto-scaling deployments, Rust-optimized
+  clients for high-throughput batching, and integrations across AWS, GCP, Azure.
+  Perfect for enterprise RAG preprocessing and global-scale inference pipelines.
+  Offers 12x better embedding throughput than standard clients, superior to
+  Pinecone in GPU efficiency and more flexible than Zilliz Cloud.
 source_url: https://www.baseten.co
 category: Cloud Services
 tags:
-  - model-serving
-  - inference
-  - high-performance
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
 featured: false
 markdown: >-
   ## Overview
@@ -50,4 +53,6 @@ markdown: >-
   type, GPU class, and request volume.
 brand: Baseten
 brand_logo_url: https://storage.googleapis.com/baseten-assets/baseten_logo_dark.svg
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.baseten.co/images/home/hero-embeddings.png
+updated_at: 2026-04-22 13:39

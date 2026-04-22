@@ -1,13 +1,17 @@
 name: Neon Serverless Postgres
-description: Fully managed serverless PostgreSQL platform that supports pgvector
-  for vector similarity search, with auto-scaling compute, branching for
-  development/testing, and seamless Postgres compatibility for AI workloads.
+description: Neon delivers cloud-hosted serverless PostgreSQL with pgvector for
+  vector operations, featuring compute-storage separation for auto-scaling,
+  GPU-compatible via extensions, and integrations with AWS S3, Azure storage.
+  Optimized for enterprise RAG applications and global development workflows
+  with database branching. More cost-effective scale-to-zero than Pinecone;
+  superior Postgres ecosystem vs Zilliz Cloud.
 source_url: https://neon.com/
 category: Cloud Services
 tags:
-  - serverless
-  - postgresql
-  - pgvector
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
+  - Serverless First
 featured: true
 markdown: >-
   ## Overview
@@ -470,4 +474,6 @@ markdown: >-
 
   - Better observability
 brand: Neon
-updated_at: 2026-04-04 23:01
+images:
+  - https://neon.com/images/neon-pgvector-diagram.png
+updated_at: 2026-04-22 13:39

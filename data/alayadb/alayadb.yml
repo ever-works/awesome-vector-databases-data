@@ -1,8 +1,10 @@
 name: AlayaDB
-description: Integrated database-and-inference engine that processes document
-  data through an LLM's forward pass into tensors stored in a dedicated KV Cache
-  system. Advocated as an approach to optimize the retrieval-context pipeline by
-  combining storage and inference into a unified architecture.
+description: Hybrid database-inference engine that converts documents to tensors
+  via LLM forward pass, storing in a KV cache for optimized retrieval. Features
+  integrated storage and inference with advanced indexing for fast context
+  retrieval in RAG pipelines. Suited for LLM applications and semantic search;
+  differs from Milvus by embedding inference, more specialized than Qdrant's
+  pure vector storage.
 source_url: https://alaya.io/
 category: Vector Database Engines
 tags:
@@ -12,5 +14,10 @@ tags:
   - vector-database-2026
   - ann-benchmarks
   - rag-optimized
+  - Scalable ANN
+  - Production Ready
+  - hybrid-inference
 featured: false
-updated_at: 2026-04-20 22:13
+images:
+  - https://alaya.io/logo.svg
+updated_at: 2026-04-22 13:39

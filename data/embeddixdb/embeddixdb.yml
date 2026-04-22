@@ -1,10 +1,9 @@
 name: EmbeddixDB
-description: High-performance vector database designed for LLM memory and RAG
-  applications. Provides an MCP (Model Context Protocol) server for seamless
-  integration with AI assistants like Claude, and a REST API for traditional
-  applications. Supports HNSW and flat indexes with 256x memory compression via
-  quantization, flexible storage backends, auto-embedding, and advanced
-  analytics.
+description: High-throughput vector database for RAG and LLM memory, utilizing
+  HNSW/flat indexes with 256x quantization for memory efficiency and 65k QPS
+  performance. Includes MCP server for AI agents, auto-embedding, and pluggable
+  storage like BadgerDB. Fits real-time recommendations and analytics; lighter
+  open-source option vs Milvus, adds MCP unlike standard Qdrant.
 source_url: https://github.com/dshills/EmbeddixDB
 category: Vector Database Engines
 tags:
@@ -12,6 +11,9 @@ tags:
   - hnsw
   - rag
   - mcp
+  - Scalable ANN
+  - Production Ready
+  - quantized
 featured: false
 markdown: >-
   ## Overview
@@ -92,4 +94,6 @@ markdown: >-
 
 
   Free and open-source under the MIT License.
-updated_at: 2026-04-07 10:19
+images:
+  - https://github.com/dshills/EmbeddixDB/raw/main/logo.png
+updated_at: 2026-04-22 13:39

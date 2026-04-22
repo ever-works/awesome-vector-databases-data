@@ -7,17 +7,12 @@ description: A premium vector database capability within the DataRobot
   to LLM blueprints in the playground to ground model responses in proprietary
   data.
 source_url: https://community.datarobot.com/t5/product-support/set-optional-feature-on-prediction-through-api/m-p/15168
-featured: false
-brand: datarobot
-brand_logo_url: https://www.datarobot.com/wp-content/uploads/2023/09/datarobot-logo.svg
-images:
-  - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-waterfall-1.png
-  - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-waterfall-2.png
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - rag
   - vector-store
   - enterprise
+featured: false
 markdown: |-
   # DataRobot Vector Databases (GenAI)
 
@@ -69,4 +64,9 @@ markdown: |-
     - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-waterfall-1.png  
     - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-waterfall-2.png  
   - **Source URL:** https://community.datarobot.com/t5/product-support/set-optional-feature-on-prediction-through-api/m-p/15168
-updated_at: 2025-12-26 16:56
+brand: datarobot
+brand_logo_url: https://www.datarobot.com/wp-content/uploads/2023/09/datarobot-logo.svg
+images:
+  - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-waterfall-1.png
+  - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-waterfall-2.png
+updated_at: 2026-04-22 13:39

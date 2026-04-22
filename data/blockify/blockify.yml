@@ -1,7 +1,10 @@
 name: Blockify
-description: AI search and vector database platform that provides unified vector
-  search with semantic understanding, hybrid search capabilities, and
-  developer-friendly APIs for building intelligent search applications.
+description: Vector database platform with semantic chunking and hybrid search,
+  preprocessing data into IdeaBlocks for enhanced RAG accuracy using ANN
+  indexing. Offers scalability through deduplication and metadata enrichment,
+  reducing dataset size dramatically. Use cases include enterprise search and
+  recommendations; improves on standard vector DBs like Milvus with
+  preprocessing, more integrated than Qdrant for data quality.
 source_url: https://iternal.ai/blockify-vector-databases
 category: Vector Database Engines
 tags:
@@ -9,6 +12,9 @@ tags:
   - hybrid-search
   - semantic-search
   - developer-api
+  - Scalable ANN
+  - Production Ready
+  - rag-enhanced
 featured: false
 markdown: >-
   ## Overview
@@ -125,4 +131,6 @@ markdown: >-
   savings of approximately $738K in enterprise testing, and the 40x data
   reduction typically lowers storage and query costs across vector database
   platforms.
-updated_at: 2026-04-04 23:01
+images:
+  - https://iternal.ai/assets/blockify-logo.png
+updated_at: 2026-04-22 13:39

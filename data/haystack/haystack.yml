@@ -1,88 +1,68 @@
 name: Haystack
-description: Mature, modular open-source Python framework for building
-  production-grade RAG pipelines, AI agents, and semantic search systems,
-  trusted by The European Commission and The Economist.
+description: Modular open-source RAG framework for production LLM apps with
+  pipeline-based chunking, hybrid retrieval (dense/sparse), reranking, and
+  generation for scalable semantic search and QA systems.
 source_url: https://haystack.deepset.ai/
-category: Llm Frameworks
+category: RAG Frameworks & Pipelines
 tags:
-  - rag
-  - python
-  - enterprise
+  - RAG Pipeline
+  - RAG Optimized
+  - Hybrid RAG
 featured: true
 markdown: >-
-  ## Overview
+  ## RAG Integration
 
 
-  Haystack is an open-source Python framework designed specifically for building
-  production-grade RAG pipelines, AI agents, and semantic search systems that
-  dominates in accuracy and evaluation capabilities.
+  Haystack integrates RAG via customizable pipelines: index documents with
+  splitters/embedders, retrieve via hybrid retrievers, rerank candidates, and
+  generate with LLMs, all orchestrated in modular flows.
 
 
   ## Features
 
 
-  - Mature, modular framework architecture
+  - **Chunking**: Overlapping splitters, sentence/embed-aware
 
-  - Pipeline-based approach for component composition
+  - **Retrieval**: Dense (DPR), sparse (BM25), hybrid fusion
 
-  - Lowest token usage (~1.57k per operation)
+  - **Rerank**: Cohere, BGE-reranker, cross-encoders
 
-  - ~5.9 ms framework overhead
-
-  - Easy combination of retrievers, readers, and generators
-
-  - Production-ready with enterprise customers
-
-  - Comprehensive evaluation tools
-
-
-  ## Enterprise Adoption
-
-
-  Trusted by leading organizations:
-
-  - The European Commission
-
-  - The Economist
-
-  - Oxford University Press
-
-  - Meets requirements of regulated industries
-
-
-  ## Technical Capabilities
-
-
-  - Modular pipeline architecture
-
-  - Support for multiple vector databases
-
-  - Advanced retrieval strategies
-
-  - Built-in evaluation framework
-
-  - Agent capabilities
-
-  - Semantic search optimization
+  - **Pipelines**: Extractive QA, generative, indexing, evaluation
 
 
   ## Use Cases
 
 
-  - Enterprise RAG applications
+  - Enterprise semantic search
 
-  - Regulated industry deployments
+  - Document QA chatbots
 
-  - Production semantic search
+  - Knowledge-grounded agents
 
-  - AI agent systems
+  - Multi-lingual RAG apps
 
-  - Question answering platforms
+
+  ## Haystack vs LlamaIndex
+
+
+  | Feature | Haystack | LlamaIndex |
+
+  |---------|----------|------------|
+
+  | Design | Pipeline nodes | Indexes/Engines |
+
+  | Strengths | Modularity, benchmarks | Data connectors, simplicity |
+
+  | Maturity | Battle-tested enterprise | Fast-evolving ecosystem |
+
+  | Best For | Complex pipelines | Quick RAG setups |
 
 
   ## Pricing
 
 
-  Free and open-source framework, commercial support available through deepset
+  Free open-source (Apache 2.0). Enterprise support via deepset.
 brand: deepset
-updated_at: 2026-03-10 11:58
+images:
+  - https://haystack.deepset.ai/assets/images/overview_diagram.svg
+updated_at: 2026-04-22 13:39

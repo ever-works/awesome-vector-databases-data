@@ -1,15 +1,15 @@
 name: Apache Lucene
-description: Apache Lucene is a high-performance, full-featured open-source text
-  search engine library written in Java. It provides approximate nearest
-  neighbor (ANN) vector search capabilities using Hierarchical Navigable Small
-  World (HNSW) graphs, enabling semantic search on high-dimensional embedding
-  vectors up to 1024 dimensions by default (extendable via custom codecs).
+description: High-performance Java library providing SDK functions for vector
+  search with HNSW-based ANN, supporting async indexing via IndexWriter futures,
+  batch document ingestion, and configurable dimensions up to 1024+. Ideal for
+  Java app integration, LangChain via wrappers, offering finer control and lower
+  latency vs native REST APIs of cloud vector DBs.
 source_url: https://lucene.apache.org
 category: SDKs & Libraries
 tags:
-  - open-source
-  - vector-search
-  - full-text-search
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 featured: false
 markdown: >-
   ## Overview
@@ -74,5 +74,6 @@ markdown: >-
   Free and open-source under the Apache License 2.0.
 brand: Apache Software Foundation
 brand_logo_url: https://www.apache.org/logos/res/asf/asf_logo_wide.svg
-images: []
-updated_at: 2026-04-04 23:01
+images:
+  - https://lucene.apache.org/images/lucene_transparent.png
+updated_at: 2026-04-22 13:39

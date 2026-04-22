@@ -1,14 +1,16 @@
 name: SkyPilot
-description: Open-source framework for running AI and batch workloads on any
-  cloud, enabling distributed GPU orchestration across cloud regions. Optimizes
-  cost and throughput by accessing GPU resources across multiple regions and
-  instance types.
+description: SkyPilot orchestrates cloud-hosted distributed GPU clusters for
+  vector embedding generation and batch workloads across AWS, GCP, Azure with
+  auto-scaling and spot instance optimization. Enables enterprise RAG
+  preprocessing at global scale by accessing GPUs across regions for maximum
+  throughput. More cost-efficient than Pinecone for batch jobs via spot pricing;
+  flexible multi-cloud vs Zilliz Cloud single-provider.
 source_url: https://skypilot.co
 category: Cloud Services
 tags:
-  - distributed-computing
-  - cloud-native
-  - gpu-acceleration
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
 featured: false
 markdown: >-
   ## Overview
@@ -54,4 +56,6 @@ markdown: >-
   infrastructure. Spot instances can reduce compute costs by up to 61% compared
   to on-demand pricing.
 brand: Skypilot
-updated_at: 2026-04-04 23:01
+images:
+  - https://skypilot.co/images/architecture-diagram.png
+updated_at: 2026-04-22 13:39

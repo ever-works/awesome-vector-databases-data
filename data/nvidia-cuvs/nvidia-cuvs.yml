@@ -1,14 +1,15 @@
 name: NVIDIA cuVS
-description: GPU-accelerated vector search and clustering library from NVIDIA
-  RAPIDS. Provides 8-12x faster index building and queries with multiple
-  language support (C, C++, Python, Rust). This is an OSS library.
+description: NVIDIA cuVS provides GPU-powered approximate nearest neighbor (ANN)
+  search using cuVS/CAGRA indexes for billion-scale datasets. It features NVIDIA
+  RAPIDS acceleration for up to 12x faster index building and low-latency
+  high-QPS queries versus CPU Milvus. Suited for real-time recommendation
+  systems and GenAI retrieval tasks.
 source_url: https://rapids.ai/cuvs/
 category: GPU Accelerated Vector DBs
 tags:
-  - open-source
-  - gpu-acceleration
-  - nvidia
-  - rapids
+  - GPU ANN
+  - RAPIDS cuVS
+  - Billion Scale
 featured: true
 markdown: >-
   ## Overview
@@ -59,4 +60,4 @@ markdown: >-
 
   Free and open-source under Apache 2.0 license.
 brand: NVIDIA
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 13:39

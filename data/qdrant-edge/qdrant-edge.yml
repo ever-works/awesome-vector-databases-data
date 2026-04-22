@@ -3,7 +3,7 @@ description: Lightweight embedded vector search engine designed for real-time
   vector search on edge devices like robots, kiosks, and mobile phones with
   limited computational resources and offline capabilities.
 source_url: https://qdrant.tech/edge/
-category: Vector Database Engines
+category: Embedded & Edge Vector Databases
 tags:
   - edge
   - embedded
@@ -90,4 +90,4 @@ markdown: >-
 
   Part of Qdrant's product offerings - check Qdrant pricing page for details.
 brand: Qdrant
-updated_at: 2026-03-13 12:21
+updated_at: 2026-04-22 13:39

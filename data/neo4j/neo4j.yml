@@ -1,12 +1,16 @@
 name: Neo4j
-description: Native graph database with vector indexes for hybrid graph+vector
-  (GraphRAG) queries using Cypher.
+description: Graph-enhanced vector database enabling hybrid graph+vector search
+  for KG RAG applications. Supports Cypher queries with HNSW vector indexes for
+  efficient multi-hop retrieval over knowledge graphs. Unlike pure vector
+  databases like Pinecone, it natively models relationships for superior
+  connected data reasoning and traversal.
 source_url: https://neo4j.com
-category: Graph-Enhanced Vector DBs
+category: Graph Enhanced Vector DBs
 tags:
-  - cypher
-  - graphrag
-  - vector-index
+  - Graph Vector Hybrid
+  - Knowledge Graph
+  - Multi-Hop RAG
+featured: false
 markdown: |-
   ## Overview
 
@@ -17,4 +21,6 @@ markdown: |-
 
   ## Pricing
   Free community, Aura cloud.
-updated_at: 2026-04-22 07:22
+images:
+  - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
+updated_at: 2026-04-22 13:39

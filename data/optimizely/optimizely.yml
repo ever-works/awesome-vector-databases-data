@@ -1,14 +1,17 @@
 name: Optimizely
-description: Experience optimization and experimentation platform providing
-  recommendations, targeting, and A/B testing without requiring vector database
-  infrastructure. Focuses on personalization at the application level with
-  minimal engineering setup for marketing teams.
+description: Optimizely enables cloud-hosted vector-driven personalization and
+  A/B testing with auto-scaling infrastructure, GPU inference support, and
+  integrations with AWS, Azure for enterprise experimentation. Supports
+  enterprise RAG-style recommendations and global user targeting without vector
+  DB management. Easier integration than Pinecone for marketing teams; broader
+  testing features vs Zilliz Cloud.
 source_url: https://www.optimizely.com
 category: Cloud Services
 tags:
-  - experimentation
-  - personalization
-  - testing
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
+featured: false
 markdown: >-
   ## Overview
 
@@ -46,4 +49,6 @@ markdown: >-
 
   Usage-based and enterprise pricing tiers available; contact sales for details.
 brand: Optimizely
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.optimizely.com/assets/images/platform-overview.png
+updated_at: 2026-04-22 13:39

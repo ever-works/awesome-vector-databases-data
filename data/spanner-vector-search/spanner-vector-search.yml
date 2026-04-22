@@ -1,14 +1,16 @@
 name: Spanner Vector Search
-description: High-performance vector search capability built into Google Cloud
-  Spanner that enables semantic search and similarity matching on
-  high-dimensional vector data within a transactional database, eliminating the
-  need for separate vector databases.
+description: Google Cloud Spanner provides transactional cloud-hosted vector
+  search with auto-scaling nodes, GPU integration via Vertex AI, and
+  multi-region global distribution compatible with AWS/Azure hybrid setups.
+  Excels in enterprise RAG requiring ACID guarantees and global low-latency
+  search. Combines transactions better than Pinecone; more scalable globally
+  than Zilliz Cloud.
 source_url: https://docs.cloud.google.com/spanner/docs/vector-search-overview
 category: Cloud Services
 tags:
-  - google-cloud
-  - transactional
-  - hybrid-search
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
 featured: false
 markdown: >-
   ## Overview
@@ -112,4 +114,6 @@ markdown: >-
   Pricing based on Spanner Enterprise or Enterprise Plus edition. Consult Google
   Cloud pricing documentation for details.
 brand: Google Cloud
-updated_at: 2026-03-26 13:53
+images:
+  - https://docs.cloud.google.com/spanner/images/vector-search-diagram.png
+updated_at: 2026-04-22 13:39

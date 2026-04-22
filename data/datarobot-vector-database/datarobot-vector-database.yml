@@ -6,17 +6,12 @@ description: DataRobot Vector Database is a managed vector store capability
   built-in and bring-your-own embeddings for building production-grade vector
   search solutions.
 source_url: https://www.datarobot.com/platform/generative-ai/
-featured: false
-brand: datarobot
-brand_logo_url: https://www.datarobot.com/wp-content/uploads/2022/04/datarobot-logo.svg
-images:
-  - https://www.datarobot.com/wp-content/uploads/2023/06/generative-ai-hero@2x.jpg
-  - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-rag-architecture@2x.png
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - managed-service
   - rag
   - semantic-search
+featured: false
 markdown: >-
   # DataRobot Vector Database
 
@@ -130,4 +125,9 @@ markdown: >-
   No specific pricing or plan details are provided in the available content.
   Users are directed to DataRobot’s main platform site and trial page for access
   and commercial information.
-updated_at: 2025-12-26 16:56
+brand: datarobot
+brand_logo_url: https://www.datarobot.com/wp-content/uploads/2022/04/datarobot-logo.svg
+images:
+  - https://www.datarobot.com/wp-content/uploads/2023/06/generative-ai-hero@2x.jpg
+  - https://www.datarobot.com/wp-content/uploads/2023/09/product-genai-rag-architecture@2x.png
+updated_at: 2026-04-22 13:39

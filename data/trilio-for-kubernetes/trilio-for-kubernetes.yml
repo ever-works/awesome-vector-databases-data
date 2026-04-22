@@ -1,14 +1,14 @@
 name: Trilio for Kubernetes
-description: An application-aware backup and disaster recovery solution for
-  Kubernetes that provides specialized support for vector databases like Milvus,
-  featuring immutable backups, 40x faster recovery with Continuous Restore, and
-  CSI-native snapshots.
+description: Immutable backups, CSI snapshots, and Continuous Restore (40x
+  faster) with RBAC and encryption for vector DBs like Milvus. Ensures
+  enterprise data privacy and GDPR compliance via ransomware protection.
+  Superior recovery speed vs open-source backup tools.
 source_url: https://trilio.io/products/kubernetes-backup-and-recovery/
 category: Security & Governance
 tags:
-  - backup
-  - disaster-recovery
-  - kubernetes
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: >-
   ## Overview
@@ -254,4 +254,6 @@ markdown: >-
 
   - Free trial available
 brand: Trilio
-updated_at: 2026-03-20 13:25
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

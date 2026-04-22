@@ -1,14 +1,20 @@
 name: Algolia AI Search
-description: AI-powered search platform that evolved from a traditional keyword
-  search engine to include vector embeddings and semantic retrieval. Offers
-  federated indexing and developer-friendly APIs for teams already using
-  Algolia, adding semantic search without managing a separate vector database.
+description: Algolia AI Search provides managed vector storage and search
+  optimized for AI applications, evolving from keyword search to include
+  semantic vector retrieval. Key features include serverless scaling, hybrid
+  search combining keywords and vectors, and integrations with
+  developer-friendly APIs. Ideal for RAG pipelines and enterprise AI use cases,
+  it offers simpler operations and no infrastructure management compared to
+  self-hosted solutions like Milvus.
 source_url: https://www.algolia.com/
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - semantic-search
   - search-engine
   - hybrid-search
+  - Serverless Scaling
+  - Enterprise RAG
+  - Auto Indexing
 markdown: >-
   ## Overview
 
@@ -48,4 +54,6 @@ markdown: >-
 
   Usage-based pricing; contact sales for AI Search add-on details.
 brand: Algolia
-updated_at: 2026-04-22 04:16
+images:
+  - https://www.algolia.com/static1.v4.0.0/images/press/logo-algolia-dark.svg
+updated_at: 2026-04-22 13:39

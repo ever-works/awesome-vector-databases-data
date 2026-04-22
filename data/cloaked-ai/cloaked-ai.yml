@@ -1,13 +1,15 @@
 name: Cloaked AI
-description: Application-layer encryption solution for securing vector
-  embeddings and enabling searchable/queryable encryption in vector databases,
-  protecting AI data without compromising search functionality.
+description: Application-layer encryption for vector embeddings with searchable
+  encryption supporting RBAC integration and GDPR compliance. Ideal for
+  enterprise data privacy in multi-tenant AI applications using vector
+  databases. Outperforms open-source encryption libraries by enabling queries on
+  encrypted data without decryption.
 source_url: https://ironcorelabs.com/docs/cloaked-ai/
 category: Security & Governance
 tags:
-  - encryption
-  - security
-  - privacy
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: >-
   ## Overview
@@ -98,4 +100,6 @@ markdown: >-
 
   Enterprise pricing through IronCore Labs.
 brand: IronCore Labs
-updated_at: 2026-03-13 12:21
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

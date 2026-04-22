@@ -1,16 +1,15 @@
 name: ruvector-graph
-description: Rust crate implementing a hypergraph database with Neo4j-compatible
-  Cypher queries and W3C SPARQL support for vector-enhanced knowledge graphs.
-  Enables semantic queries combining vector search with graph traversal. Used in
-  recommendations, RAG, and multi-hop reasoning applications.
+description: Graph-enhanced vector database enabling hybrid graph+vector search
+  for KG RAG applications. Supports Cypher queries with HNSW vector indexes for
+  efficient multi-hop retrieval over knowledge graphs. Unlike pure vector
+  databases like Pinecone, it natively models relationships for superior
+  connected data reasoning and traversal.
 source_url: https://crates.io/crates/ruvector-graph
-category: graph-database
+category: Graph Enhanced Vector DBs
 tags:
-  - open-source
-  - rust
-  - cypher
-  - hypergraph
-  - sparql
+  - Graph Vector Hybrid
+  - Knowledge Graph
+  - Multi-Hop RAG
 featured: false
 markdown: >-
   ## Overview
@@ -47,4 +46,6 @@ markdown: >-
 
   Free and open-source.
 brand: ruvnet
-updated_at: 2026-04-07 10:19
+images:
+  - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
+updated_at: 2026-04-22 13:39

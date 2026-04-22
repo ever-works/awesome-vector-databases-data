@@ -1,14 +1,19 @@
 name: Actian VectorAI DB
-description: Edge-native vector database designed for deployment at remote
-  locations and edge devices with no cloud dependency. Supports real-time
-  decision making with sub-15ms query latency and operates independently during
-  network outages.
+description: Edge-native vector database enabling sub-15ms ANN queries on remote
+  devices without cloud dependency, using efficient disk-based indexing for
+  real-time processing. Supports offline operation with synchronization
+  capabilities, optimized for low-resource environments. Ideal for edge RAG,
+  facial recognition, and IoT recommendations; more compact than Milvus for
+  disconnected setups, edge-focused unlike Qdrant's distributed architecture.
 source_url: https://www.actian.com/databases/vectorai-db/
 category: Vector Database Engines
 tags:
   - edge
   - on-premises
   - offline
+  - Scalable ANN
+  - Production Ready
+  - low-latency
 featured: false
 markdown: >-
   ## Overview
@@ -57,4 +62,6 @@ markdown: >-
   VectorAI DB addresses the native edge deployment gap with a database that
   accounts for the physical and network realities of offline scenarios.
 brand: Actian
-updated_at: 2026-03-08 17:56
+images:
+  - https://www.actian.com/wp-content/uploads/2022/10/actian-logo.svg
+updated_at: 2026-04-22 13:39

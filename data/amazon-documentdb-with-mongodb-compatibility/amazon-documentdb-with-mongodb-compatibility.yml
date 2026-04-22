@@ -2,12 +2,12 @@ name: Amazon DocumentDB (with MongoDB compatibility)
 description: An AWS document database service compatible with MongoDB,
   identified as a great choice for vector database needs.
 source_url: https://aws.amazon.com/documentdb/
-featured: false
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - managed-service
   - document-database
   - mongodb
+featured: false
 markdown: >-
   # Amazon DocumentDB (with MongoDB compatibility)
 
@@ -41,4 +41,4 @@ markdown: >-
   Specific pricing plans and details are not provided in the given content. The
   content indicates that more information can be found on Amazon DocumentDB
   pricing.
-updated_at: 2025-07-01 00:28
+updated_at: 2026-04-22 13:39

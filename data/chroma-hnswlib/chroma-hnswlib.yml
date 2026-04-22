@@ -1,13 +1,14 @@
 name: Chroma-hnswlib
-description: Chroma's optimized fork of hnswlib for high-performance vector
-  similarity search, providing the core indexing engine for ChromaDB with over
-  400K weekly downloads.
+description: Python library (chroma-hnswlib) fork of hnswlib for ChromaDB
+  indexing with async batch vector ingest, HNSW param tuning
+  (ef_construction/search). Core for Python/JS app embedding pipelines and
+  LangChain; faster in-process ANN vs remote API calls to vector DBs.
 source_url: https://pypi.org/project/chroma-hnswlib/
 category: SDKs & Libraries
 tags:
-  - python
-  - hnsw
-  - indexing
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 markdown: >-
   ## Overview
 
@@ -70,4 +71,6 @@ markdown: >-
 
   - Research and experimentation with HNSW parameters
 brand: Chroma
-updated_at: 2026-03-22 13:39
+images:
+  - https://chroma-db.org/assets/images/hnsw-diagram.png
+updated_at: 2026-04-22 13:39

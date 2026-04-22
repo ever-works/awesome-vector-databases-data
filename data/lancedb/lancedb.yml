@@ -1,71 +1,31 @@
 name: LanceDB
-description: LanceDB is an open-source embedding database built on Apache
-  Arrow/Lance format for multimodal data, supporting SQL queries and zero-copy
-  reads. Features disk-optimized indexes and serverless cloud option. Suited for
-  computer vision/ML workloads; more columnar/analytical than Chroma, comparable
-  to Pinecone in ease but open-source.
+description: LanceDB is an open-source multimodal vector database built on Rust
+  and Apache Arrow/Lance format, with disk-optimized indexes like IVF-PQ for
+  efficient storage/search of embeddings. Supports SQL queries and zero-copy
+  reads for prototyping and analytics. Great for local RAG/CV workloads; more
+  analytical than Chroma (in-memory), similar embedded ease to PGVector but
+  columnar vs relational.
 source_url: https://lancedb.com/
-category: Multimodal Vector Databases
+category: Open Source Vector Databases
 tags:
-  - arrow-native
-  - multimodal
-  - embeddable-sql
-markdown: >-
+  - Free OSS
+  - Self-Hosted
+  - Community Driven
+markdown: |-
   # LanceDB
 
-
-  [LanceDB](https://lancedb.com/) is an open source, developer-friendly columnar
-  vector database optimized for real-time AI use cases and analytics workloads.
-  It is designed to efficiently store vectors and provide fast similarity
-  search, making it suitable for multimodal AI applications.
-
+  Open-source columnar vector DB for AI.
 
   ## Features
 
-  - **Open Source & Developer Friendly**: Easily integrates into existing data
-  and AI toolchains.
-
-  - **Embedded Database**: Can be installed in seconds and deployed anywhere,
-  similar to SQLite or DuckDB.
-
-  - **Native Object Storage Integration**: Supports native integration with
-  object storage for scalable data handling.
-
-  - **Scalable to Zero**: Efficiently scales down when not in use to save
-  resources.
-
-  - **Blazing Fast Performance**: Capable of searching billions of vectors in
-  real-time, even on a laptop.
-
-  - **Cost Effective Scalability**: Scales to billions of vectors and petabytes
-  of multimodal data (text, images, video) at a low cost.
-
-  - **Multimodal Support**: Handles various data types for AI, such as text,
-  images, and videos.
-
-  - **Advanced Retrieval**: Supports hybrid vector and full-text search, rich
-  metadata filters, and custom reranking.
-
-  - **Streaming Training Data**: Enables direct streaming of training data from
-  object storage to maximize GPU utilization.
-
-  - **Rich Ecosystem Integration**: Compatible with data processing frameworks
-  like Spark and Ray for large-scale data ingestion.
-
-  - **Powered by Lance Format**: Uses a new columnar format optimized for AI
-  workloads, offering up to 100x speed improvement over Parquet for certain
-  tasks.
-
-  - **Security & Compliance**: LanceDB Cloud is SOC2 Type II and HIPAA
-  certified.
-
+  - Arrow/Lance format
+  - SQL queries
+  - Multimodal support
+  - Hybrid search, filters
 
   ## Pricing
 
-  - **LanceDB Cloud**: Currently in private beta. Pricing details are not
-  disclosed; early access can be requested.
-
-  - **LanceDB Open Source**: Available for free as open source software.
+  Free open-source.
 brand_logo_url: https://lancedb.com/favicon.ico
 images:
   - https://lancedb.com/logo.png
@@ -74,4 +34,4 @@ images:
   - https://lancedb.com/logo.svg
   - https://lancedb.com/img/logo.png
   - https://docs.lancedb.com/en/latest/_images/basic.png
-updated_at: 2026-04-22 10:21
+updated_at: 2026-04-22 13:39

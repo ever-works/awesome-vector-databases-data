@@ -1,13 +1,17 @@
 name: Big-ANN Benchmarks
-description: Billion-scale approximate nearest neighbor search benchmark
-  competition. Features datasets like SIFT1B, Deep1B with standardized
-  evaluation metrics for comparing vector search algorithms at scale.
+description: Big-ANN Benchmarks tests vector DB scalability by evaluating ANN
+  algorithms on billion-scale datasets like SIFT1B and Deep1B, measuring QPS,
+  latency, recall at massive scale. Key features include standardized
+  competition tracks for out-of-distribution and streaming scenarios with
+  memory/throughput metrics. Ideal for prod vector DB selection at scale;
+  extends ANN-Benchmarks to billion-scale unlike VectorDBBench's system-level
+  tests.
 source_url: https://big-ann-benchmarks.com/
 category: Benchmarks & Evaluation
 tags:
-  - benchmark
-  - ann
-  - competition
+  - Perf Metrics
+  - ANN Benchmarks
+  - QPS Testing
 featured: false
 markdown: >-
   ## Overview
@@ -103,4 +107,6 @@ markdown: >-
   - Algorithm development
 
   - Production system design decisions
-updated_at: 2026-04-21 10:14
+images:
+  - https://big-ann-benchmarks.com/static/leaderboard.png
+updated_at: 2026-04-22 13:39

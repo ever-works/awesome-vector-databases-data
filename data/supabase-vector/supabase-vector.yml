@@ -4,7 +4,7 @@ description: Open-source toolkit for developing AI applications using Postgres
   client (vecs), and AI features. This is a commercial managed service with OSS
   components.
 source_url: https://supabase.com/vector
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - commercial
   - open-source
@@ -180,4 +180,4 @@ markdown: >-
 
   All plans include pgvector and vector capabilities. Self-hosting is free.
 brand: Supabase
-updated_at: 2026-03-06 18:05
+updated_at: 2026-04-22 13:39

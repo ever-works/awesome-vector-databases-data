@@ -1,126 +1,32 @@
 name: Vespa
-description: Vespa is an open-source big data serving engine for low-latency
-  search with vector embeddings, hybrid ranking, and real-time ML models.
-  Supports tensor computation and multi-phase retrieval. Used by Yahoo for
-  production search; more full-featured than Weaviate for complex ranking but
-  steeper learning curve.
+description: Vespa is an open-source big data serving engine in C++/Java for
+  low-latency vector search using HNSW-like ANN, hybrid ranking, and tensor
+  computations on embeddings. Supports real-time updates and multi-phase
+  retrieval for production search. Ideal for large-scale semantic search and
+  recommendations; more comprehensive ranking than Weaviate, comparable to
+  Milvus for scale but with steeper setup vs Qdrant.
 source_url: https://vespa.ai/
-category: Production & Scalable Vector DBs
+category: Open Source Vector Databases
 tags:
-  - hybrid-search
-  - real-time
-  - ml-ranking
-  - open-source
-  - big-data
-  - big-data-serving
-  - tensor-ranking
-  - real-time-ml
-  - yahoo-vespa
-  - real-time-serving
-  - hybrid-ranking
-  - tensor
+  - Free OSS
+  - Self-Hosted
+  - Community Driven
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
+  Vespa is an open-source big data serving engine for vector search and ML.
 
-  Vespa is an open-source big data serving engine originally built at Yahoo. It
-  enables vector search, tensor computations, text search, and structured data
-  queries within a single unified platform, designed for billion-scale retrieval
-  workloads.
+  ## Features
 
-
-  ## Key Features
-
-
-  - **Vector Search**: Approximate nearest neighbor (ANN) algorithms with
-  multiple distance metrics
-
-  - **Tensor Computations**: First-class support for tensor operations at query
-  time
-
-  - **Text Search**: Traditional keyword and phrase-based text search
-
-  - **Structured Data Queries**: Filtering and querying of structured metadata
-
-  - **Unified Platform**: All search capabilities integrated in one engine
-
-  - **Real-Time**: Immediate visibility of new and updated data
-
-  - **Scalable**: Proven at billion-scale with major enterprises
-
-
-  ## Performance
-
-
-  - **Scale**: Billions of documents and vectors
-
-  - **Latency**: Sub-100ms response times
-
-  - **Throughput**: Thousands of queries per second
-
-  - **High Concurrency**: Designed for large-scale serving
-
-
-  ## Deployment Options
-
-
-  ### Open Source (Apache 2.0)
-
-  - Self-hosted deployment
-
-  - Full feature set
-
-  - Community support
-
-
-  ### Vespa Cloud
-
-  - Fully managed service
-
-  - Auto-scaling and optimization
-
-  - Enterprise support and SLA
-
-
-  ## Use Cases
-
-
-  - Semantic search at scale
-
-  - Recommendation engines
-
-  - Personalized content delivery
-
-  - Enterprise knowledge search
-
-  - Real-time analytics
-
-
-  ## Machine Learning Integration
-
-
-  - Deploy ML models directly in Vespa
-
-  - ONNX model support
-
-  - Feature computation at query time
-
-  - A/B testing capabilities
-
+  - ANN vector search
+  - Tensor computations
+  - Hybrid text/structured search
+  - Real-time ML ranking
 
   ## Pricing
 
-
-  ### Open Source
-
-  Free under Apache 2.0 license.
-
-
-  ### Vespa Cloud
-
-  Usage-based pricing with free tier for small projects. Scales with resource
-  usage. Enterprise plans with SLA available.
+  Free Apache 2.0.
 brand: Vespa
 brand_logo_url: https://vespa.ai/assets/img/vespa_logo.png
 images:
@@ -130,4 +36,4 @@ images:
   - https://vespa.ai/assets/vespa_logo.svg
   - https://vespa.ai/assets/img/vespa_logo.png
   - https://docs.vespa.ai/assets/img/overview.png
-updated_at: 2026-04-22 10:21
+updated_at: 2026-04-22 13:39

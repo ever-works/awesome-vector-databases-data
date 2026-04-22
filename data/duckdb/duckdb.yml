@@ -4,7 +4,7 @@ description: DuckDB is an embeddable SQL OLAP engine with VSS extension for HNSW
   edge AI; lightweight alternative to LanceDB with SQL-first but in-memory
   focused.
 source_url: https://duckdb.org
-category: multi-model-hybrid-databases
+category: Embedded & Edge Vector Databases
 tags:
   - in-memory
   - open-source
@@ -14,7 +14,7 @@ tags:
   - vss-hnsw
   - olap-local
   - edge-ai
-  - prototyping
+  - Edge Deployable
 featured: true
 markdown: >-
   DuckDB is a fast, in-memory, open-source, and free analytical database system
@@ -71,4 +71,4 @@ markdown: >-
   *   Go (go get)
 images:
   - https://duckdb.org/logo-white.svg
-updated_at: 2026-04-21 22:15
+updated_at: 2026-04-22 13:39

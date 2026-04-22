@@ -1,15 +1,17 @@
 name: BEIR Benchmark
-description: A heterogeneous benchmark for evaluating information retrieval
-  models across 18 diverse datasets and 9 different retrieval tasks. BEIR
-  (Benchmarking IR) measures zero-shot retrieval performance, testing how well
-  models generalize without task-specific fine-tuning, making it a standard
-  evaluation for embedding models and retrieval systems.
+description: BEIR Benchmark facilitates vector DB performance evaluation for
+  embedding models via zero-shot retrieval testing on 18 diverse datasets,
+  measuring NDCG@10, Recall@100 correlating to production QPS and latency. Key
+  features include heterogeneous tasks like QA, fact-checking, and bio-medical
+  retrieval for robust model comparison. Helps select embeddings for prod vector
+  DB RAG pipelines; complements ANN-Benchmarks (indexing) and differs from
+  VectorDBBench (full DB perf).
 source_url: https://github.com/beir-cellar/beir
 category: Benchmarks & Evaluation
 tags:
-  - benchmark
-  - information-retrieval
-  - evaluation
+  - Perf Metrics
+  - ANN Benchmarks
+  - QPS Testing
 markdown: >-
   ## Overview
 
@@ -154,4 +156,6 @@ markdown: >-
 
 
   Free and open-source benchmark.
-updated_at: 2026-03-22 13:28
+images:
+  - https://github.com/beir-cellar/beir/raw/main/assets/leaderboard.png
+updated_at: 2026-04-22 13:39

@@ -1,14 +1,16 @@
 name: Billion-scale ANNS Benchmarks
-description: A benchmarking resource for evaluating approximate nearest neighbor
-  search (ANNS) methods on billion-scale datasets, highly relevant for assessing
-  the scalability of vector databases.
+description: Billion-scale ANNS Benchmarks evaluates vector DB scalability on
+  massive datasets with QPS, latency, recall metrics for ANNS algorithms in
+  NeurIPS competitions. Key features include tools for dataset prep, evaluation,
+  and visualization on billion-point scales. Crucial for prod vector DBs
+  handling extreme scale; builds on ANN-Benchmarks datasets, distinct from
+  VectorDBBench system benchmarks.
 source_url: https://github.com/harsha-simhadri/big-ann-benchmarks
 category: Benchmarks & Evaluation
 tags:
-  - benchmark
-  - anns
-  - scalability
-  - performance
+  - Perf Metrics
+  - ANN Benchmarks
+  - QPS Testing
 markdown: >-
   # Billion-scale ANNS Benchmarks
 
@@ -44,4 +46,6 @@ markdown: >-
 
 
   - No pricing information provided (open source project).
-updated_at: 2026-04-21 10:14
+images:
+  - https://github.com/harsha-simhadri/big-ann-benchmarks/raw/master/leaderboard.png
+updated_at: 2026-04-22 13:39

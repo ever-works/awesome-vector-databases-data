@@ -1,15 +1,14 @@
 name: FastEmbed
-description: A lightweight Python library by Qdrant for fast embedding
-  generation using ONNX Runtime. FastEmbed doesn't require GPU, avoids heavy
-  PyTorch dependencies, and is optimized for serverless deployments like AWS
-  Lambda.
+description: Python/Rust/Go/JS SDK for fast embedding generation via ONNX
+  Runtime with batch embed (list inputs), async multiprocessing support.
+  Optimized for app integration, LangChain embedding modules; 12x CPU speedup vs
+  PyTorch libs, no GPU/API dependency.
 source_url: https://github.com/qdrant/fastembed
 category: SDKs & Libraries
 tags:
-  - embeddings
-  - python
-  - lightweight
-  - onnx
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 markdown: >-
   ## Overview
 
@@ -81,4 +80,6 @@ markdown: >-
 
   Supports LangChain integration
 brand: Qdrant
-updated_at: 2026-03-20 13:13
+images:
+  - https://github.com/qdrant/fastembed/raw/main/assets/teaser.png
+updated_at: 2026-04-22 13:39

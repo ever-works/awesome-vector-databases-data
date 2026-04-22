@@ -1,14 +1,14 @@
 name: Vectorsight
-description: The world's first purpose-built observability platform for vector
-  databases, providing real-time monitoring, intelligent alerts, and performance
-  optimization for AI applications using Pinecone, Qdrant, Milvus, Weaviate, and
-  ChromaDB.
+description: Observability with security monitoring, audit logs, and compliance
+  analytics including RBAC enforcement tracking for vector DBs. Facilitates
+  enterprise data privacy governance via anomaly detection. Purpose-built for
+  vectors vs general open-source tools like Prometheus.
 source_url: https://vectorsight.tech/
 category: Security & Governance
 tags:
-  - observability
-  - monitoring
-  - analytics
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: >-
   ## Overview
@@ -54,4 +54,12 @@ markdown: >-
 
   The platform is coming soon. Interested users can sign up to be notified when
   it launches.
-updated_at: 2026-03-14 12:39
+
+
+  ## Pricing
+
+
+  Coming soon.
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

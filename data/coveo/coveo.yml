@@ -1,14 +1,17 @@
 name: Coveo
-description: Enterprise AI search and discovery platform combining keyword,
-  semantic, and personalized retrieval with analytics, permissions, and
-  governance. Abstracts vector database complexity while adding enterprise-ready
-  features for large knowledge bases and commerce catalogs.
+description: Coveo offers cloud-hosted vector operations for enterprise AI
+  search and discovery, with auto-scaling, hybrid semantic/keyword retrieval,
+  and deep integrations with AWS, Azure for permissions and analytics. Tailored
+  for enterprise RAG, global knowledge bases, and commerce search. Provides
+  superior governance and analytics over Pinecone; more enterprise-focused than
+  Zilliz Cloud.
 source_url: https://www.coveo.com
 category: Cloud Services
 tags:
-  - enterprise
-  - ai
-  - search
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
+featured: false
 markdown: >-
   ## Overview
 
@@ -49,4 +52,6 @@ markdown: >-
 
   Enterprise pricing; contact sales for details.
 brand: Coveo
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.coveo.com/wp-content/uploads/2023/05/coveo-platform-diagram.png
+updated_at: 2026-04-22 13:39

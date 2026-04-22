@@ -1,14 +1,17 @@
 name: Shaped
-description: AI-native personalization and hybrid search platform that replaces
-  the need for a standalone vector DB stack. Combines hybrid search (keyword +
-  vector retrieval), multi-stage ranking, real-time session adaptation, and
-  business-objective modeling with warehouse-native architecture.
+description: Shaped provides cloud-hosted hybrid vector search and
+  personalization with auto-scaling, GPU-accelerated ranking, and native
+  integrations to AWS, Azure warehouses like Snowflake. Ideal for enterprise
+  RAG, global recommendations, and real-time search adapting to sessions.
+  Warehouse-native outperforms Pinecone in multi-stage ranking; more flexible
+  business modeling than Zilliz Cloud.
 source_url: https://www.shaped.ai
 category: Cloud Services
 tags:
-  - personalization
-  - hybrid-search
-  - recommendation
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
+featured: false
 markdown: >-
   ## Overview
 
@@ -47,4 +50,6 @@ markdown: >-
 
   Contact-based pricing; no public self-serve tier listed.
 brand: Shaped
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.shaped.ai/images/hybrid-search-diagram.png
+updated_at: 2026-04-22 13:39

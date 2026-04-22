@@ -1,14 +1,16 @@
 name: HONEYBEE RBAC Framework
-description: Efficient role-based access control framework for vector databases
-  using dynamic partitioning. Achieves up to 13.5X lower query latency than
-  row-level security with only 1.24X memory overhead, while providing 90.4%
-  memory reduction compared to dedicated per-role indexes.
+description: Dynamic partitioning-based RBAC for vector databases with
+  encryption support and compliance features, achieving 13.5X lower latency than
+  row-level security. Suited for enterprise data privacy in multi-tenant RAG
+  systems. Significantly reduces memory (90.4%) compared to open-source
+  dedicated per-role indexes.
 source_url: https://arxiv.org/abs/2505.01538
 category: Security & Governance
 tags:
-  - rbac
-  - access-control
-  - research
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
+featured: false
 markdown: >-
   ## Overview
 
@@ -352,4 +354,4 @@ markdown: >-
   - Multi-tenant database architectures
 
   - Secure information retrieval
-updated_at: 2026-03-16 12:44
+updated_at: 2026-04-22 13:39

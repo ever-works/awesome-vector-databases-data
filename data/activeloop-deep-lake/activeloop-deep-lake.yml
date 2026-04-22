@@ -4,11 +4,12 @@ description: Multi-modal vector database with tensor storage for vectors,
   travel, ACID transactions, and terabyte-scale visualization for AI data
   management.
 source_url: https://www.activeloop.ai
-category: Multi Model & Hybrid Databases
+category: Multimodal Vector Stores
 tags:
   - multimodal
+  - 2026 Trends
   - tensor
-  - data-lake
+featured: false
 markdown: >-
   ## Overview
 
@@ -44,7 +45,7 @@ markdown: >-
 
 
   Serverless managed service that eliminates self-hosting complexity and
-  substantially lowers costs. Specify `runtime = {"tensor_db": True}` when
+  substantially lowers costs. Specify `runtime = {\"tensor_db\": True}` when
   creating Vector Store.
 
 
@@ -84,4 +85,4 @@ markdown: >-
   Open-source for self-hosting. Managed Tensor Database offers serverless
   pricing with usage-based costs.
 brand: Activeloop
-updated_at: 2026-03-11 13:24
+updated_at: 2026-04-22 13:39

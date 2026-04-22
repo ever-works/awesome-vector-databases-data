@@ -1,13 +1,15 @@
 name: HugeGraph
-description: Apache distributed graph DB with HNSW/DiskANN vector search for
-  billion-scale graph+vector.
+description: Graph-enhanced vector database enabling hybrid graph+vector search
+  for KG RAG applications. Supports graph queries with HNSW/DiskANN vector
+  indexes for efficient multi-hop retrieval over knowledge graphs. Unlike pure
+  vector databases like Pinecone, it natively models relationships for superior
+  connected data reasoning and traversal.
 source_url: https://hugegraph.apache.org
-category: Graph-Enhanced Vector DBs
+category: Graph Enhanced Vector DBs
 tags:
-  - apache
-  - distributed
-  - hnsw
-  - diskann
+  - Graph Vector Hybrid
+  - Knowledge Graph
+  - Multi-Hop RAG
 featured: false
 markdown: |-
   ## Overview
@@ -18,4 +20,6 @@ markdown: |-
   Apache 2.0 free.
 brand: Apache Software Foundation
 brand_logo_url: https://www.apache.org/foundation/press/kit/poweredBy/apache_powered_by.svg
-updated_at: 2026-04-22 07:22
+images:
+  - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
+updated_at: 2026-04-22 13:39

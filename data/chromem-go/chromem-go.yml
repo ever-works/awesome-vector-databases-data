@@ -1,13 +1,14 @@
 name: chromem-go
-description: Embeddable vector database for Go with Chroma-like interface and
-  zero third-party dependencies. In-memory with optional persistence, designed
-  for simplicity and performance in Go applications.
+description: Go embedded SDK (chromem-go) mimicking Chroma interface for
+  in-memory/persistent vector DB ops with async queries via channels, batch
+  upsert. For Rust/Go app integration without deps; LangChain-like chains;
+  zero-overhead vs external JS/Python clients or APIs.
 source_url: https://github.com/philippgille/chromem-go
 category: SDKs & Libraries
 tags:
-  - golang
-  - embedded
-  - in-memory
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 markdown: >-
   ## Overview
 
@@ -50,4 +51,6 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-03-11 12:14
+images:
+  - https://github.com/philippgille/chromem-go/raw/main/img/architecture.png
+updated_at: 2026-04-22 13:39

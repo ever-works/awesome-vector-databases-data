@@ -1,13 +1,19 @@
 name: Couchbase Lite Vector
-description: Developer-friendly, full-featured embedded NoSQL database with
-  vector search for offline-first GenAI apps running on mobile, IoT devices, and
-  web browsers with no internet dependencies.
+description: Embedded NoSQL document database with vector search capabilities
+  for offline GenAI on mobile, IoT, and browsers, using ANN indexing for
+  low-latency semantic queries. Provides ACID compliance, sync replication, and
+  multi-platform deployment with no cloud reliance. Suited for edge RAG and
+  personalized recommendations; more mobile-focused than Milvus, embedded unlike
+  Qdrant's server model.
 source_url: https://www.couchbase.com/products/lite/
-category: Vector Database Engines
+category: Embedded & Edge Vector Databases
 tags:
   - embedded
   - offline
   - mobile
+  - Scalable ANN
+  - Production Ready
+  - edge-computing
 featured: false
 markdown: >-
   ## Overview
@@ -107,4 +113,6 @@ markdown: >-
   Part of Couchbase product suite - contact Couchbase for licensing details.
 brand: Couchbase
 brand_logo_url: https://www.couchbase.com/wp-content/uploads/2021/03/couchbase-logo.svg
-updated_at: 2026-03-13 12:21
+images:
+  - https://www.couchbase.com/hubfs/logo-couchbase.svg
+updated_at: 2026-04-22 13:39

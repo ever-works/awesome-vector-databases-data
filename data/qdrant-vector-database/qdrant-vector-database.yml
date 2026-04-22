@@ -6,17 +6,12 @@ description: Qdrant is an open‑source vector database designed for
   features like filtering, hybrid search, and production‑grade APIs for
   integrating with machine learning workloads.
 source_url: https://qdrant.tech/qdrant-vector-database/
-featured: true
-brand: qdrant
-brand_logo_url: https://qdrant.tech/img/qdrant-logo.svg
-images:
-  - https://qdrant.tech/img/qdrant-logo.svg
-  - https://qdrant.tech/img/menu/qdrant-vector-database.svg
 category: vector-database-engines
 tags:
-  - vector-database
   - open-source
-  - hybrid-search
+  - RAG Optimized
+  - 2026 Trends
+featured: true
 markdown: >-
   # Qdrant Vector Database
 
@@ -90,4 +85,9 @@ markdown: >-
 
 
   More information: https://qdrant.tech/pricing/
-updated_at: 2025-12-26 16:56
+brand: qdrant
+brand_logo_url: https://qdrant.tech/img/qdrant-logo.svg
+images:
+  - https://qdrant.tech/img/qdrant-logo.svg
+  - https://qdrant.tech/img/menu/qdrant-vector-database.svg
+updated_at: 2026-04-22 13:39

@@ -3,12 +3,12 @@ description: A managed relational database service from AWS that can host
   PostgreSQL, including specific community versions, and is a suitable choice
   for deploying the pgvector extension for vector storage.
 source_url: https://aws.amazon.com/rds/postgresql/
-featured: false
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - managed-service
   - cloud-native
   - postgresql
+featured: false
 markdown: >-
   ## Amazon RDS for PostgreSQL
 
@@ -56,4 +56,4 @@ markdown: >-
   ### Pricing
 
   Pricing information is not available in the provided content.
-updated_at: 2025-07-01 00:28
+updated_at: 2026-04-22 13:39

@@ -7,44 +7,13 @@ description: The DataRobot vector databases feature provides FAISS-based
   databases within the DataRobot AI platform to power retrieval-augmented
   generation and other AI use cases.
 source_url: https://docs.datarobot.com/en/docs/api/reference/sdk/CHANGES.html
-featured: true
-brand: datarobot
-brand_logo_url: https://www.datarobot.com/wp-content/uploads/2024/01/datarobot-logo.svg
-images:
-  - https://www.datarobot.com/wp-content/uploads/2023/06/genai-hero.png
-  - https://www.datarobot.com/wp-content/uploads/2024/01/GenAI-BG.jpg
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - vector-databases
   - rag
   - managed-service
+featured: true
 markdown: >-
-  ---
-
-  name: DataRobot Vector Databases
-
-  slug: datarobot-vector-databases
-
-  url: https://docs.datarobot.com/en/docs/api/reference/sdk/CHANGES.html
-
-  vendor: DataRobot
-
-  category: managed-vector-databases
-
-  featured: true
-
-  images:
-    - https://www.datarobot.com/wp-content/uploads/2023/06/genai-hero.png
-    - https://www.datarobot.com/wp-content/uploads/2024/01/GenAI-BG.jpg
-  logo: https://www.datarobot.com/wp-content/uploads/2024/01/datarobot-logo.svg
-
-  labels:
-    - vector-databases
-    - rag
-    - managed-service
-  ---
-
-
   ## Overview
 
 
@@ -140,4 +109,9 @@ markdown: >-
   Pricing information is not provided in the available content. Refer to
   DataRobot’s official pricing or sales materials for details on plans and costs
   related to vector databases.
-updated_at: 2025-12-26 16:56
+brand: datarobot
+brand_logo_url: https://www.datarobot.com/wp-content/uploads/2024/01/datarobot-logo.svg
+images:
+  - https://www.datarobot.com/wp-content/uploads/2023/06/genai-hero.png
+  - https://www.datarobot.com/wp-content/uploads/2024/01/GenAI-BG.jpg
+updated_at: 2026-04-22 13:39

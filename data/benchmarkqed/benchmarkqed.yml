@@ -1,11 +1,49 @@
 name: BenchmarkQED
-description: Open benchmarking framework for Retrieval-Augmented Generation
-  (RAG) systems designed to push the community toward fairer, comparably
-  measured retrieval evaluation methods.
+description: BenchmarkQED provides vector DB perf testing for RAG systems with
+  standardized retrieval evaluations on QPS, latency, and accuracy metrics
+  across diverse datasets. Key features include fair, comparable methodologies
+  for benchmarking full RAG pipelines including vector search components.
+  Critical for selecting production-ready RAG stacks with vector DBs; emphasizes
+  retrieval fairness unlike VectorDBBench's end-to-end DB focus.
 source_url: https://github.com/project-baize/BenchmarkQED
 category: Benchmarks & Evaluation
 tags:
-  - rag
-  - evaluation
-  - benchmarking
-updated_at: 2026-04-04 23:01
+  - Perf Metrics
+  - ANN Benchmarks
+  - QPS Testing
+markdown: >-
+  ## Overview
+
+
+  BenchmarkQED is an open benchmarking framework for Retrieval-Augmented
+  Generation (RAG) systems designed to push the community toward fairer,
+  comparably measured retrieval evaluation methods.
+
+
+  ## Features
+
+
+  - Standardized RAG evaluation protocols
+
+  - Focus on retrieval component fairness
+
+  - Comprehensive metrics including QPS and latency
+
+  - Open-source and extensible
+
+
+  ## Use Cases
+
+
+  - RAG system selection and optimization
+
+  - Vector DB integration testing
+
+  - Production performance validation
+
+
+  ## Pricing
+
+
+  Free and open-source.
+updated_at: 2026-04-22 13:39

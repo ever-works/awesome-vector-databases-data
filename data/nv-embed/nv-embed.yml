@@ -7,7 +7,7 @@ category: Machine Learning Models
 tags:
   - embeddings
   - nvidia
-  - llm
+  - GPU Native
 featured: true
 markdown: >-
   ## Overview
@@ -112,4 +112,4 @@ markdown: >-
   - Research paper on arXiv
 brand: NVIDIA
 brand_logo_url: https://www.nvidia.com/content/nvidiaGDC/us/en_US/about-nvidia/legal-info/logo-brand-usage/_jcr_content/root/responsivegrid/nv_container_392921705/nv_container/nv_image.coreimg.100.1070.png/1703060329053/nvidia-logo-vert.png
-updated_at: 2026-03-08 17:56
+updated_at: 2026-04-22 13:39

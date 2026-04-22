@@ -1,14 +1,15 @@
 name: lakeFS
-description: Scalable data version control platform that delivers a Git-like
-  experience for object-storage based data lakes, with specialized capabilities
-  for managing embeddings, index artifacts, and vector-related metadata across
-  the AI lifecycle.
+description: Data version control with immutable commits, audit trails for
+  compliance (GDPR), and RBAC-compatible governance for vector data lakes.
+  Supports enterprise data privacy through reproducible embeddings and instant
+  rollback. Outperforms open-source Git with zero-copy branching and AI
+  lifecycle management.
 source_url: https://lakefs.io
 category: Security & Governance
 tags:
-  - data-versioning
-  - ci-cd
-  - ai-governance
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: >-
   ## Overview
@@ -84,4 +85,6 @@ markdown: >-
   enterprise features.
 brand: lakeFS
 brand_logo_url: https://lakefs.io/wp-content/uploads/2023/06/lakefs-logo.svg
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

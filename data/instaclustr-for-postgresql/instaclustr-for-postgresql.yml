@@ -3,12 +3,12 @@ description: A managed service for PostgreSQL that includes support for
   pgvector, enabling PostgreSQL to function as a vector database for AI
   workloads.
 source_url: https://www.instaclustr.com/platform/managed-postgresql/
-featured: false
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - managed-service
   - postgresql
   - ai
+featured: false
 markdown: >-
   ### Instaclustr for PostgreSQL
 
@@ -50,4 +50,4 @@ markdown: >-
 
   Pricing information and specific plans are not provided in the given content.
   Please refer to the Instaclustr website for detailed pricing.
-updated_at: 2025-07-01 00:28
+updated_at: 2026-04-22 13:39

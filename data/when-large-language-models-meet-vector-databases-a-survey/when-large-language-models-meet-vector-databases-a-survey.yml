@@ -1,110 +1,44 @@
 name: "When Large Language Models Meet Vector Databases: A Survey"
-description: Comprehensive 2026 research survey examining the integration of
-  LLMs with vector databases, addressing challenges like hallucination, bias,
-  and real-time knowledge updates through vector-based retrieval.
+description: ArXiv 2024 survey on LLM-vector DB integration for RAG, addressing
+  hallucination/bias via retrieval. Reviews ANN benchmarks in LLM contexts;
+  theory/practice gaps in real-time retrieval. Academic use cases for RAG
+  research selection; compares LLM-focused review with VLDB VDBMS surveys and
+  NeurIPS pure ANN benchmarks.
 source_url: https://arxiv.org/abs/2402.01763
-category: Research Papers & Surveys
+category: Research Papers Surveys
 tags:
-  - research
-  - llm
-  - survey
-  - academic
-markdown: >-
+  - ANN Theory
+  - Index Survey
+  - Academic Review
+featured: true
+markdown: |-
   ## Overview
 
+  Survey on LLM + vector DB synergies, focusing on RAG architectures.
 
-  This 2026 research survey presents a systematic review of recent advances in
-  combinations of Large Language Models (LLMs) and vector databases. Published
-  on arXiv (2402.01763) in January 2026, it addresses critical challenges in LLM
-  applications.
+  ## Features
 
+  - Hallucination mitigation via retrieval
+  - Hybrid search for LLMs
+  - Benchmark reviews in RAG contexts
 
-  ## Key Topics Covered
+  ## Theory/Practice Gaps
 
+  - Theoretical retrieval optimality vs LLM context limits
+  - Academic RAG vs production latency constraints
 
-  ### Integration Challenges
+  ## Use Cases
 
+  - Academic selection for LLM retrieval papers
+  - RAG system design guidance
 
-  - **Hallucination Mitigation**: How vector databases provide factual grounding
-  for LLM outputs
+  ## Comparisons
 
-  - **Bias Reduction**: Using diverse vector stores to balance LLM responses
+  | Aspect | This Survey | VLDB | NeurIPS |
+  |--------|-------------|------|---------|
+  | Focus | LLM+RAG | VDBMS | ANN algos |
 
-  - **Real-Time Knowledge**: Enabling LLMs to access current information through
-  vector retrieval
+  ## Publication
 
-  - **Context Management**: Efficient handling of large context windows with
-  vector search
-
-
-  ### Technical Approaches
-
-
-  - Retrieval-Augmented Generation (RAG) architectures
-
-  - Hybrid search strategies combining dense and sparse retrieval
-
-  - Vector database selection criteria for LLM applications
-
-  - Performance optimization techniques
-
-  - Cost-effectiveness analysis
-
-
-  ### Applications Analyzed
-
-
-  - Question-answering systems
-
-  - Chatbots and conversational AI
-
-  - Code generation and programming assistants
-
-  - Document analysis and summarization
-
-  - Enterprise knowledge management
-
-
-  ## Research Methodology
-
-
-  The survey analyzes:
-
-  - 100+ research papers from 2023-2026
-
-  - Production system architectures
-
-  - Benchmark comparisons
-
-  - Real-world deployment case studies
-
-
-  ## Key Findings
-
-
-  - Vector databases significantly reduce LLM hallucinations
-
-  - Hybrid retrieval approaches outperform pure vector or keyword search
-
-  - Proper chunking strategies critical for retrieval quality
-
-  - Cost-performance trade-offs vary significantly across use cases
-
-
-  ## Target Audience
-
-
-  - AI researchers and practitioners
-
-  - LLM application developers
-
-  - System architects designing RAG systems
-
-  - Graduate students in AI/ML
-
-
-  ## Citation
-
-
-  Published on arXiv, freely accessible for academic and commercial use.
-updated_at: 2026-03-25 13:37
+  ArXiv 2402.01763 (2024)
+updated_at: 2026-04-22 13:39

@@ -1,13 +1,14 @@
 name: EntityDB
-description: A powerful, lightweight in-browser vector database that wraps
-  IndexedDB and Transformers.js over WebAssembly, enabling semantic search and
-  AI memory entirely in the browser without server requirements.
+description: JavaScript SDK for browser-based vector DB using IndexedDB and
+  Transformers.js (WASM), with batch insert/query via async promises, cosine
+  similarity. For JS app integration, LangChain browser agents; fully
+  client-side vs server APIs.
 source_url: https://github.com/babycommando/entity-db
 category: SDKs & Libraries
 tags:
-  - browser
-  - javascript
-  - webassembly
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 featured: false
 markdown: >-
   ## Overview
@@ -66,4 +67,6 @@ markdown: >-
   - GitHub: https://github.com/babycommando/entity-db
 
   - Landing Page: https://entity-db-landing.vercel.app/
-updated_at: 2026-03-14 12:39
+images:
+  - https://github.com/babycommando/entity-db/raw/main/demo.gif
+updated_at: 2026-04-22 13:39

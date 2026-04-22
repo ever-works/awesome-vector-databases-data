@@ -3,7 +3,7 @@ description: Industry-first managed vector database deployable in any
   environment - cloud, on-premise, or edge. Kubernetes-native with complete data
   sovereignty while maintaining managed service convenience.
 source_url: https://qdrant.tech/hybrid-cloud/
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - hybrid-cloud
   - kubernetes
@@ -86,4 +86,4 @@ markdown: >-
   Available as part of Qdrant Enterprise plan.
 brand: Qdrant
 brand_logo_url: https://qdrant.tech/img/logo.svg
-updated_at: 2026-03-11 12:14
+updated_at: 2026-04-22 13:39

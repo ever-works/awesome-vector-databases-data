@@ -1,13 +1,16 @@
 name: Confident AI
-description: All-in-one AI quality platform with integrated evaluation,
-  observability, and monitoring for LLM applications. Built by creators of
-  DeepEval with 50+ research-backed metrics.
+description: Confident AI evaluates vector DB-integrated LLM apps with 50+
+  metrics on faithfulness, relevance, tracking QPS/latency in production traces
+  for RAG performance. Key features include DeepEval-powered scoring,
+  observability dashboards, and quality-aware alerting across datasets. Supports
+  prod vector DB RAG selection via real-world eval; broader than ANN-Benchmarks
+  (indexing) or VectorDBBench (DB perf).
 source_url: https://www.confident-ai.com/
 category: Benchmarks & Evaluation
 tags:
-  - llm-evaluation
-  - observability
-  - monitoring
+  - Perf Metrics
+  - ANN Benchmarks
+  - QPS Testing
 featured: false
 markdown: >-
   ## Overview
@@ -67,4 +70,6 @@ markdown: >-
 
   - Enterprise plans with SOC 2 and HIPAA compliance
 brand: Confident AI
-updated_at: 2026-03-24 13:36
+images:
+  - https://www.confident-ai.com/images/dashboard-screenshot.png
+updated_at: 2026-04-22 13:39

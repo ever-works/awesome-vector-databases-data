@@ -5,7 +5,7 @@ description: Rivestack is a new Rust-based vector database emphasizing
   APIs. Emerging alternative to Chroma for Rust ecosystems; minimal footprint vs
   full-featured like Qdrant.
 source_url: https://rivestack.com/
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - managed-service
   - postgresql
@@ -36,4 +36,4 @@ markdown: >-
   ## Pricing
 
   Free tier available; paid plans for production workloads.
-updated_at: 2026-04-20 22:13
+updated_at: 2026-04-22 13:39

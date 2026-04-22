@@ -1,13 +1,19 @@
 name: AlloyDB for PostgreSQL with Vector Search
-description: Google Cloud's PostgreSQL-compatible database with state-of-the-art
-  HNSW index build performance, achieving 9x speedup over pgvector on CPU for
-  vector workloads.
+description: AlloyDB for PostgreSQL offers managed vector storage and search for
+  AI workloads on Google Cloud, with optimized HNSW indexing. It supports
+  serverless scaling, hybrid vector-relational queries, and integrations with
+  Google Cloud ecosystem and pgvector. Suited for RAG pipelines and enterprise
+  AI requiring ACID compliance, it provides superior performance and management
+  ease versus self-hosted databases like Milvus.
 source_url: https://cloud.google.com/alloydb
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - postgresql
   - google-cloud
   - managed-service
+  - Serverless Scaling
+  - Enterprise RAG
+  - Auto Indexing
 featured: false
 markdown: >-
   ## Overview
@@ -135,4 +141,6 @@ markdown: >-
   Pay-as-you-go pricing based on compute and storage, with committed use
   discounts available through Google Cloud
 brand: Google Cloud
-updated_at: 2026-04-22 04:16
+images:
+  - https://cloud.google.com/alloydb/docs/images/alloydb-logo.svg
+updated_at: 2026-04-22 13:39

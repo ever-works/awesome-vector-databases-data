@@ -1,14 +1,18 @@
 name: Azure AI Search
-description: Microsoft's cloud-based search service with integrated vector
-  search, hybrid search, and semantic ranking capabilities. Provides both
-  traditional full-text search and modern vector-based semantic search with
-  built-in AI enrichment.
+description: Azure AI Search delivers managed vector storage and semantic search
+  for AI applications on Microsoft Azure. It features serverless scaling, hybrid
+  keyword-vector search, semantic reranking, and integrations with Azure OpenAI.
+  Suited for RAG pipelines and enterprise AI, it provides built-in AI enrichment
+  and security advantages over self-hosted databases like Milvus.
 source_url: https://learn.microsoft.com/en-us/azure/search/search-api-preview
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - microsoft
   - azure
   - hybrid-search
+  - Serverless Scaling
+  - Enterprise RAG
+  - Auto Indexing
 featured: false
 markdown: >-
   ## Overview
@@ -88,4 +92,6 @@ markdown: >-
 
   Pricing available at Azure pricing calculator.
 brand: Microsoft Azure
-updated_at: 2026-04-22 04:16
+images:
+  - https://learn.microsoft.com/en-us/azure/search/media/search-what-is-azure-search/azure-search-logo.png
+updated_at: 2026-04-22 13:39

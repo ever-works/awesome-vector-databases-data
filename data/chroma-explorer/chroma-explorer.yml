@@ -1,14 +1,15 @@
 name: Chroma Explorer
-description: Native macOS desktop application designed for working with ChromaDB
-  vector databases. Provides an intuitive interface to easily browse and manage
-  collections, documents, embeddings, and metadata without relying heavily on
-  API calls.
+description: macOS desktop client library/app for ChromaDB with GUI for managing
+  collections and embeddings. Features batch operations, real-time queries, and
+  direct integration without heavy API reliance. Suited for app development
+  workflows and LangChain debugging; simpler than raw Python/JS SDKs for visual
+  exploration.
 source_url: https://www.chroma-explorer.com/
 category: SDKs & Libraries
 tags:
-  - macos
-  - gui
-  - chromadb
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 markdown: >-
   ## Overview
 
@@ -76,4 +77,6 @@ markdown: >-
 
 
   Commercial desktop application with free trial available.
-updated_at: 2026-03-16 12:44
+images:
+  - https://www.chroma-explorer.com/screenshot-main.png
+updated_at: 2026-04-22 13:39

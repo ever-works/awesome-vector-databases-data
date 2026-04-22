@@ -1,14 +1,19 @@
 name: BBANN
-description: Track 2 winning entry for the NeurIPS'21 Billion-Scale ANNS
-  Competition, developed by a team from Zilliz and Southern University of
-  Science and Technology. Competed in the out-of-core indices track where search
-  uses Azure Standard_L8s_v2 VMs with 8 vCPUs, 64GB RAM, and a 1TB local SSD.
+description: High-performance out-of-core vector index winner of NeurIPS'21
+  billion-scale ANN competition, leveraging disk-based structures for massive
+  datasets beyond RAM limits. Employs advanced approximate search algorithms for
+  high QPS on limited hardware. Applicable to large-scale recommendations and
+  search; competitive with DiskANN baseline, outperforms in benchmarks unlike
+  pure in-memory like Qdrant.
 source_url: https://big-ann-benchmarks.com/neurips21.html
 category: Vector Database Engines
 tags:
   - competition-winner
   - out-of-core
   - disk-based-index
+  - Scalable ANN
+  - Production Ready
+  - billion-scale
 featured: false
 markdown: >-
   ## Overview
@@ -43,4 +48,6 @@ markdown: >-
   Xiaomeng Yi, Xiaofan Luan, Weizhi Xu, Qianya Cheng, Jigao Luo, Xiangyu Wang,
   Jiquan Long, Xiao Yan, Zheng Bian, Jiarui Luo, Shengjun Li, Chengming Li from
   Zilliz and Southern University of Science and Technology.
-updated_at: 2026-04-04 23:01
+images:
+  - https://big-ann-benchmarks.com/leaderboard.png
+updated_at: 2026-04-22 13:39

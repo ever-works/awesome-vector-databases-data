@@ -3,11 +3,11 @@ description: Graph-vector database purpose-built for multimodal data, combining
   vector search with graph relationships for storing and managing images,
   videos, documents, embeddings, and metadata in a unified platform.
 source_url: https://www.aperturedata.io/
-category: Multimodal Vector Databases
+category: Multimodal Vector Stores
 tags:
   - multimodal
   - graph-database
-  - vector-search
+  - 2026 Trends
 featured: false
 markdown: >-
   ## Overview
@@ -88,4 +88,4 @@ markdown: >-
 
   Available as a unified platform for industries including healthcare, retail,
   and finance, supporting both cloud and on-premises deployments.
-updated_at: 2026-04-22 10:21
+updated_at: 2026-04-22 13:39

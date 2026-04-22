@@ -1,14 +1,17 @@
 name: Snowflake Cortex Search
-description: Hybrid search service within Snowflake that combines vector search,
-  keyword search, and semantic reranking for retrieval tasks on data stored in
-  Snowflake tables.
+description: Snowflake Cortex Search offers fully managed cloud-hosted hybrid
+  vector and keyword search with serverless auto-scaling, GPU-accelerated
+  reranking, and seamless integrations with AWS S3, Azure storage via Snowflake
+  ecosystem. Designed for enterprise RAG on data warehouses and global semantic
+  search over structured/unstructured data. Superior data governance than
+  Pinecone; warehouse-native efficiency over Zilliz Cloud.
 source_url: https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview
 category: Cloud Services
 tags:
-  - hybrid-search
-  - managed-service
-  - serverless
-  - enterprise
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
+featured: false
 markdown: >-
   ## Overview
 
@@ -95,4 +98,6 @@ markdown: >-
   Fully integrated with Snowflake ecosystem including Snowpark, Streamlit, and
   Snowflake's security features.
 brand: Snowflake
-updated_at: 2026-03-25 13:37
+images:
+  - https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/_images/cortex-search-overview.png
+updated_at: 2026-04-22 13:39

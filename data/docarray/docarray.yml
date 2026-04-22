@@ -1,14 +1,14 @@
 name: DocArray
-description: Jina AI's data type library for multi-modal data handling,
-  providing Document types for images, text, audio, and embeddings with built-in
-  serialization and transport capabilities.
+description: Python SDK for multi-modal Document handling with serialization,
+  batch transport via DocList/DocVec, async processing with Pydantic validation.
+  Suited for Python/JS/Rust app integration, LangChain document loaders; more
+  structured than raw tensor APIs.
 source_url: https://docarray.org/
 category: SDKs & Libraries
 tags:
-  - multi-modal
-  - document-types
-  - serialization
-  - transport
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 markdown: >-
   ## Overview
 
@@ -53,4 +53,6 @@ markdown: >-
 
 
   DocArray is open-source software and free to use under the Apache License 2.0.
-updated_at: 2026-04-04 23:01
+images:
+  - https://docarray.org/pics/docarray_overview.png
+updated_at: 2026-04-22 13:39

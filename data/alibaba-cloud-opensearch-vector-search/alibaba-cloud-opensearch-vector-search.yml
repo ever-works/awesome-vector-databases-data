@@ -3,7 +3,7 @@ description: Alibaba Cloud OpenSearch provides managed vector search with
   approximate nearest neighbor (ANN) algorithms. It integrates with DingTalk AI
   for intelligent search and retrieval in enterprise applications.
 source_url: https://www.alibabacloud.com/product/opensearch
-category: managed-vector-databases
+category: Managed & Serverless Vector DBs
 tags:
   - alibaba-cloud
   - managed-opensearch
@@ -39,4 +39,4 @@ brand_logo_url: https://www.alibabacloud.com/-/media/images/product/logos/alibab
 images:
   - https://www.alibabacloud.com/-/media/images/product/opensearch/opensearch-hero.png
   - https://www.alibabacloud.com/-/media/images/product/opensearch/opensearch-architecture.png
-updated_at: 2026-04-21 04:17
+updated_at: 2026-04-22 13:39

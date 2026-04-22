@@ -2,7 +2,7 @@ name: KDB.AI
 description: Cloud-native vector database platform for AI applications with
   high-performance similarity search.
 source_url: https://kdb.ai/
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - cloud-native
   - real-time
@@ -22,4 +22,4 @@ markdown: |-
   ## Pricing
 
   Free tier and enterprise pricing.
-updated_at: 2026-04-21 04:17
+updated_at: 2026-04-22 13:39

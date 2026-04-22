@@ -1,13 +1,16 @@
 name: AWS OpenSearch k-NN
-description: Managed OpenSearch service with k-nearest neighbor search
-  capabilities. Uses HNSW, Faiss, and Lucene libraries for approximate nearest
-  neighbor searches. This is a commercial managed service.
+description: AWS OpenSearch Service delivers cloud-hosted vector operations with
+  k-NN search powered by HNSW, Faiss, and Lucene, featuring auto-scaling
+  clusters and GPU support via EC2 integration. Ideal for enterprise RAG
+  pipelines and global search, it seamlessly integrates with AWS services like
+  S3, Lambda, and SageMaker. Compared to Pinecone, offers hybrid search and
+  lower costs; outperforms Zilliz Cloud in managed OpenSearch scalability.
 source_url: https://aws.amazon.com/opensearch-service/
 category: Cloud Services
 tags:
-  - commercial
-  - aws
-  - managed service
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
 featured: false
 markdown: >-
   ## Overview
@@ -271,4 +274,6 @@ markdown: >-
 
   Detailed pricing: aws.amazon.com/opensearch-service/pricing/
 brand: Amazon Web Services
-updated_at: 2026-03-06 18:05
+images:
+  - https://aws.amazon.com/opensearch-service/_images/opensearch-service-logo.png
+updated_at: 2026-04-22 13:39

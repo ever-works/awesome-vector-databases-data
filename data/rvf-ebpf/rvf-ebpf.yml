@@ -1,15 +1,15 @@
 name: rvf-ebpf
-description: eBPF programs for RVF including XDP, TC, and socket filters.
-  Enables kernel-level networking and filtering for secure vector data flows in
-  RuVector.
+description: eBPF-based kernel-level networking filters (XDP, TC) with
+  encryption enforcement and access controls for secure vector data flows.
+  Enables enterprise data privacy in RuVector deployments with compliance
+  monitoring. More efficient than open-source eBPF tools with vector-optimized
+  filtering.
 source_url: https://crates.io/crates/rvf-ebpf
 category: Security & Governance
 tags:
-  - rust
-  - ebpf
-  - xdp
-  - networking
-  - open-source
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: |-
   ## Overview
@@ -25,4 +25,6 @@ markdown: |-
   ## Pricing
 
   Open source under MIT license.
-updated_at: 2026-04-07 10:19
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

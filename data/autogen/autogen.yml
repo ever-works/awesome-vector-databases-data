@@ -1,89 +1,61 @@
 name: AutoGen
-description: Open-source framework from Microsoft Research for building AI
-  agents and facilitating multi-agent cooperation with support for two-agent
-  chat, sequential chat, and group chat patterns.
+description: Microsoft's open-source framework for multi-agent conversations
+  with tool use, memory persistence, and vector retrieval integration for
+  collaborative LLM agents and chat systems.
 source_url: https://github.com/microsoft/autogen
 category: LLM Frameworks
 tags:
-  - microsoft
-  - multi-agent
-  - conversational-ai
+  - LLM Vector Store
+  - Agentic AI
+  - Tool Integration
 markdown: >-
   ## Overview
 
 
-  AutoGen is an open-source programming framework from Microsoft Research for
-  building AI agents and facilitating cooperation among multiple agents to solve
-  tasks. It offers a unified multi-agent conversation framework as a high-level
-  abstraction for using foundation models.
+  AutoGen enables multi-agent systems where agents converse, use tools, and
+  retrieve from vector stores.
+
+
+  ## Vector Integration
+
+
+  Supports retrieval from vector DBs via tool calling and custom functions,
+  e.g., Qdrant retrievers in agent loops.
 
 
   ## Features
 
 
-  - **Customizable Agents**: Agents integrate LLMs, tools, and humans via
-  automated agent chat
+  - **Tool Calling**: Code execution, API calls, custom functions
 
-  - **Multiple Conversation Patterns**: Supports two-agent chat, sequential chat
-  (chained conversations), and group chat (3+ agents)
+  - **Memory**: Conversation history, group chat memory
 
-  - **Automated Collaboration**: Agents can collectively perform tasks
-  autonomously or with human feedback
-
-  - **Tool Integration**: Agents can use tools via code execution
-
-  - **Asynchronous Architecture**: Version 0.4 features event-driven,
-  asynchronous messaging for better scalability
-
-  - **AutoGen Studio**: No-code GUI for building multi-agent applications
-
-
-  ## Conversation Patterns
-
-
-  - **Two-agent chat**: Simple conversation between two agents
-
-  - **Sequential chat**: Sequence of chats between two agents, chained by a
-  carryover mechanism
-
-  - **Group chat**: Single chat involving more than two agents with dynamic
-  speaker selection
+  - **Agents**: Customizable agents with LLM backends
 
 
   ## Use Cases
 
 
-  The framework has demonstrated effectiveness across various domains:
+  - Group chat agents for complex problem-solving
 
-  - Mathematics problem solving
+  - Tool-using chatbots
 
-  - Code generation and debugging
-
-  - Question-answering systems
-
-  - Supply-chain optimization
-
-  - Online decision-making
-
-  - Content generation
+  - Collaborative task agents
 
 
-  ## Architecture
+  ## Comparisons
 
 
-  AutoGen v0.4 features an asynchronous, event-driven architecture with:
-
-  - Asynchronous messaging between agents
-
-  - Support for both event-driven and request/response patterns
-
-  - Improved scalability and performance
+  AutoGen emphasizes conversational multi-agent vs LangChain's structured
+  chains.
 
 
   ## Pricing
 
 
-  Free and open-source under the Apache 2.0 license.
+  Open-source (Apache 2.0).
 brand: Microsoft
 brand_logo_url: https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg
-updated_at: 2026-03-18 13:02
+images:
+  - https://microsoft.github.io/autogen/docs/images/autogen-agent-diagram.png
+updated_at: 2026-04-22 13:39

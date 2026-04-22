@@ -1,14 +1,15 @@
 name: Vector Database Security & Access Control
-description: Security practices for protecting sensitive vector data including
-  Role-Based Access Control (RBAC), encryption at rest and in transit,
-  attribute-based policies, and protection against vector injection attacks and
-  data reconstruction threats.
+description: RBAC, ABAC, encryption at rest/transit, and attribute policies with
+  GDPR compliance for protecting vector data against injection and
+  reconstruction attacks. Enables enterprise data privacy in multi-tenant
+  environments. More comprehensive than open-source access controls with
+  integrated threat mitigations.
 source_url: https://qdrant.tech/articles/data-privacy/
 category: Security & Governance
 tags:
-  - security
-  - rbac
-  - encryption
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: >-
   ## Overview
@@ -438,4 +439,6 @@ markdown: >-
 
 
   Security features typically included in enterprise tiers of managed services.
-updated_at: 2026-03-14 12:39
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

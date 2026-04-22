@@ -1,14 +1,19 @@
 name: Chroma Local Embedding Database
-description: Lightweight, in-process vector database designed for local
-  development and prototyping. Chroma emphasizes developer experience with
-  batteries-included features and minimal setup.
+description: Lightweight in-process vector store for prototyping AI apps,
+  featuring HNSW indexing, built-in embeddings, and metadata filtering for quick
+  local RAG setups. Offers persistence and simple APIs in Python/JS, handling up
+  to 1M vectors efficiently on single nodes. Best for developer workflows and
+  notebooks; simpler setup than Milvus, less distributed than Qdrant clusters.
 source_url: https://www.trychroma.com/
-category: Vector Database Engines
+category: Embedded & Edge Vector Databases
 tags:
   - local
   - embedded
   - developer-tools
   - open-source
+  - Scalable ANN
+  - Production Ready
+  - prototyping
 markdown: >-
   ## Overview
 
@@ -95,4 +100,6 @@ markdown: >-
 
   Open-source with managed cloud option
 brand: Chroma
-updated_at: 2026-03-20 13:13
+images:
+  - https://trychroma.com/images/chroma-logo.svg
+updated_at: 2026-04-22 13:39

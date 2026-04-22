@@ -6,7 +6,7 @@ description: OpenSearch Vector Search is the vector similarity search and AI
   It enables building RAG and conversational search applications using either
   user-provided embeddings or embeddings generated automatically by OpenSearch.
 source_url: https://docs.opensearch.org/latest/vector-search/
-category: Hybrid & Managed Vector DBs
+category: Managed & Serverless Vector DBs
 tags:
   - vector-search
   - hybrid-search
@@ -171,4 +171,4 @@ brand_logo_url: https://opensearch.org/assets/img/opensearch-logo-themed.svg
 images:
   - https://opensearch.org/assets/img/hero/hero-opensearch.png
   - https://opensearch.org/assets/img/products/search/opensearch-dashboards.png
-updated_at: 2026-04-21 22:15
+updated_at: 2026-04-22 13:39

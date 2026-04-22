@@ -1,13 +1,15 @@
 name: Chroma-go
-description: Go client library for Chroma vector database with support for
-  in-process persistent storage, HNSW parameter configuration, and full
-  compatibility with Chroma v1.x.
+description: Go SDK (chroma-go) client library for ChromaDB with async
+  goroutine-based queries, batch collection creation/ingest via HNSW config,
+  in-process persistence. Enables Go app integration and LangChain workflows;
+  offers native speed and type-safety vs Python/JS HTTP clients or native REST
+  APIs.
 source_url: https://github.com/amikos-tech/chroma-go
 category: SDKs & Libraries
 tags:
-  - go
-  - client-library
-  - chroma
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 markdown: >-
   ## Overview
 
@@ -62,4 +64,6 @@ markdown: >-
   - Vector search for Go microservices
 
   - Integration with Go web frameworks
-updated_at: 2026-03-22 13:39
+images:
+  - https://raw.githubusercontent.com/amikos-tech/chroma-go/main/docs/images/overview.png
+updated_at: 2026-04-22 13:39

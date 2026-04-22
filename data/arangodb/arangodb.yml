@@ -1,14 +1,15 @@
 name: ArangoDB
-description: Multi-model database with native support for documents, graphs, and
-  vector search via ArangoSearch, enabling hybrid BM25 + kNN queries.
+description: Graph-enhanced vector database enabling hybrid graph+vector search
+  for KG RAG applications. Supports AQL queries with HNSW vector indexes for
+  efficient multi-hop retrieval over knowledge graphs. Unlike pure vector
+  databases like Pinecone, it natively models relationships for superior
+  connected data reasoning and traversal.
 source_url: https://www.arangodb.com
-category: Graph-Enhanced Vector DBs
+category: Graph Enhanced Vector DBs
 tags:
-  - multi-model
-  - arangosearch
-  - bm25
-  - knn
-  - hybrid-search
+  - Graph Vector Hybrid
+  - Knowledge Graph
+  - Multi-Hop RAG
 featured: false
 markdown: |-
   ## Overview
@@ -23,4 +24,6 @@ markdown: |-
   Community free (100GB limit), Enterprise.
 brand: arango.ai
 brand_logo_url: https://www.arangodb.com/wp-content/uploads/2024/03/ArangoDB-Logo-Color.svg
-updated_at: 2026-04-22 07:22
+images:
+  - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
+updated_at: 2026-04-22 13:39

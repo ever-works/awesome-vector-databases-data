@@ -4,7 +4,7 @@ description: Unified search and AI engine with seamless scaling, intelligent
   support, multi-phase ranking, and hybrid retrieval blending semantic, textual,
   and structured signals at scale.
 source_url: https://cloud.vespa.ai
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - hybrid-search
   - ranking
@@ -78,4 +78,4 @@ markdown: >-
   Managed cloud service with usage-based pricing. Free tier available for
   development.
 brand: Vespa
-updated_at: 2026-03-11 13:24
+updated_at: 2026-04-22 13:39

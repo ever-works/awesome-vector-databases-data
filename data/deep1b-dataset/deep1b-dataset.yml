@@ -1,13 +1,16 @@
 name: Deep1B Dataset
-description: Billion-scale benchmark dataset containing 96-dimensional deep
-  learning image embeddings. Provides real-world proxy for testing distributed
-  systems and GPU-accelerated vector search at scale.
+description: Deep1B Dataset powers vector DB perf testing as a billion-scale
+  benchmark with 96D deep learning embeddings, used in ANN-Benchmarks and
+  Big-ANN for QPS/latency/recall at scale. Key features include realistic neural
+  feature distributions for scalability validation. Vital for selecting prod
+  vector DBs handling billion-vector workloads; dataset core to benchmarks vs
+  VectorDBBench full systems.
 source_url: http://corpus-texmex.irisa.fr/
 category: Benchmarks & Evaluation
 tags:
-  - benchmark
-  - datasets
-  - deep-learning
+  - Perf Metrics
+  - ANN Benchmarks
+  - QPS Testing
 featured: false
 markdown: >-
   ## Overview
@@ -82,5 +85,13 @@ markdown: >-
   - Modern vector database benchmarking
 
   - Distributed search system testing
+
+
+  ## Pricing
+
+
+  Free dataset.
 brand: IRISA
-updated_at: 2026-03-08 17:56
+images:
+  - http://corpus-texmex.irisa.fr/deep1b.png
+updated_at: 2026-04-22 13:39

@@ -1,14 +1,44 @@
-name: "Vector database management systems: Fundamental concepts, use-cases, and
-  current challenges"
-description: A comprehensive research paper outlining the fundamental concepts,
-  practical use-cases, and current challenges in the field of vector database
-  management systems.
+name: "Vector Database Management Systems: Fundamental Concepts, Use Cases, and
+  Current Challenges"
+description: Cognitive Systems 2024 paper surveying VDBMS fundamentals, use
+  cases, challenges including ANN indexing reviews. Features theory/practice
+  gaps in high-dim data handling; academic selection for VDB research. Compares
+  conceptual focus with VLDB architectures and NeurIPS benchmarks.
 source_url: https://doi.org/10.1016/J.COGSYS.2024.101216
-category: research-papers-surveys
+category: Research Papers Surveys
 tags:
-  - vector-databases
-  - use-cases
-  - challenges
-  - survey
-markdown: ""
-updated_at: 2025-05-13 22:29
+  - ANN Theory
+  - Index Survey
+  - Academic Review
+featured: true
+markdown: |-
+  ## Overview
+
+  Foundational survey on VDBMS concepts and challenges.
+
+  ## Features
+
+  - Core concepts and use cases
+  - ANN techniques review
+  - Open challenges discussion
+
+  ## Theory/Practice Gaps
+
+  - Fundamental limits vs engineering solutions
+  - Use case theory vs real deployments
+
+  ## Use Cases
+
+  - Academic foundational reading
+  - Challenge identification for research
+
+  ## Comparisons
+
+  | Aspect | This Paper | VLDB | NeurIPS |
+  |--------|------------|------|---------|
+  | Scope | Concepts | Systems | Benchmarks |
+
+  ## Publication
+
+  Cognitive Systems 2024
+updated_at: 2026-04-22 13:39

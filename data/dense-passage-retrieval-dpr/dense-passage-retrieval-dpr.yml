@@ -1,13 +1,14 @@
 name: Dense Passage Retrieval (DPR)
-description: Set of tools and models from Meta AI Research for open domain Q&A
-  using dense representations, outperforming BM25 by 9%-19% in passage retrieval
-  accuracy with a dual-encoder BERT framework.
+description: Python SDK from Meta for dense passage retrieval using dual BERT
+  encoders and FAISS indexing, supporting batch embedding generation, async
+  queries via multiprocessing. Enables Python/JS app Q&A pipelines and LangChain
+  retrievers; 9-19% better accuracy than BM25 lexical APIs.
 source_url: https://github.com/facebookresearch/DPR
 category: SDKs & Libraries
 tags:
-  - retrieval
-  - open-source
-  - nlp
+  - Multi-Language SDK
+  - Async Client
+  - LangChain Compatible
 featured: false
 markdown: >-
   ## Overview
@@ -66,4 +67,6 @@ markdown: >-
 
   Free and open-source.
 brand: Meta AI
-updated_at: 2026-03-13 12:21
+images:
+  - https://github.com/facebookresearch/DPR/raw/main/images/dpr_diagram.png
+updated_at: 2026-04-22 13:39

@@ -1,13 +1,15 @@
 name: Amnesiac Architecture
-description: Zero-data-retention security architecture where data exists only in
-  encrypted memory during inference and is never logged or persisted. Pioneered
-  by Prem AI for sovereign AI deployments.
+description: Zero-data-retention security architecture with in-memory encryption
+  processing, no persistent logs, and cryptographic verification for GDPR/HIPAA
+  compliance. Enables enterprise data privacy use cases in healthcare, finance,
+  and sovereign AI deployments. Offers superior privacy compared to open-source
+  alternatives lacking zero-retention and verifiable guarantees.
 source_url: https://www.premai.io/
 category: Security & Governance
 tags:
-  - privacy
-  - security
-  - sovereign-ai
+  - Vector Data Privacy
+  - RBAC Access
+  - GDPR Compliant
 featured: false
 markdown: >-
   ## Overview
@@ -51,7 +53,7 @@ markdown: >-
   ## Benefits
 
 
-  - **Privacy**: Complete data ephemeral ity
+  - **Privacy**: Complete data ephemerality
 
   - **Compliance**: Meets GDPR, HIPAA requirements
 
@@ -100,4 +102,7 @@ markdown: >-
 
   Architectural pattern, implemented in Prem AI platform.
 brand: Prem AI
-updated_at: 2026-03-24 13:36
+brand_logo_url: ""
+images:
+  - https://www.svgrepo.com/show/491270/security.svg
+updated_at: 2026-04-22 13:39

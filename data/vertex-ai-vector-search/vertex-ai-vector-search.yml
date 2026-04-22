@@ -1,13 +1,15 @@
 name: Vertex AI Vector Search
-description: Google Cloud's vector search engine (formerly Matching Engine)
-  built on ScaNN algorithm. Version 2.0 features unified data model with hybrid
-  search and auto-generated embeddings. This is a commercial managed service.
+description: Vertex AI Vector Search delivers scalable cloud-hosted vector
+  operations using ScaNN with auto-scaling endpoints, GPU acceleration, and
+  hybrid search integrations across GCP, AWS, Azure ecosystems. Optimized for
+  enterprise RAG and global similarity search at billion-scale. Excels in
+  accuracy over Pinecone; hybrid features surpass Zilliz Cloud.
 source_url: https://cloud.google.com/vertex-ai/docs/vector-search/overview
 category: Cloud Services
 tags:
-  - commercial
-  - google-cloud
-  - managed service
+  - Cloud Auto-Scale
+  - Multi-Cloud
+  - Pay-Per-Query
 featured: true
 markdown: >-
   ## Overview
@@ -223,4 +225,6 @@ markdown: >-
 
   Detailed pricing: cloud.google.com/vertex-ai/pricing
 brand: Google Cloud
-updated_at: 2026-03-06 18:05
+images:
+  - https://cloud.google.com/vertex-ai/docs/vector-search/images/overview.png
+updated_at: 2026-04-22 13:39

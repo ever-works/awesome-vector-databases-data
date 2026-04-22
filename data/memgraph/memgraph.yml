@@ -1,13 +1,16 @@
 name: Memgraph
-description: In-memory graph database with vector search via HNSW, for real-time
-  graph analytics + semantic search (GraphRAG).
+description: Graph-enhanced vector database enabling hybrid graph+vector search
+  for KG RAG applications. Supports Cypher queries with HNSW vector indexes for
+  efficient multi-hop retrieval over knowledge graphs. Unlike pure vector
+  databases like Pinecone, it natively models relationships for superior
+  connected data reasoning and traversal.
 source_url: https://memgraph.com/
-category: Graph-Enhanced Vector DBs
+category: Graph Enhanced Vector DBs
 tags:
-  - in-memory
-  - cypher
-  - hnsw
-  - graphrag
+  - Graph Vector Hybrid
+  - Knowledge Graph
+  - Multi-Hop RAG
+featured: false
 markdown: |-
   ## Overview
 
@@ -20,4 +23,6 @@ markdown: |-
   OSS free, Enterprise.
 brand: Memgraph
 brand_logo_url: https://memgraph.com/images/logo.svg
-updated_at: 2026-04-22 07:22
+images:
+  - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
+updated_at: 2026-04-22 13:39

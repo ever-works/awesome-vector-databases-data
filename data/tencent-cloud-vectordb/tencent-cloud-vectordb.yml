@@ -3,7 +3,7 @@ description: Fully managed, enterprise-level distributed vector database from
   Tencent Cloud, supporting billion-scale vector search with millisecond latency
   and millions of QPS using the self-developed Olama engine.
 source_url: https://www.tencentcloud.com/product/vdb
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - cloud-native
   - distributed
@@ -89,4 +89,4 @@ markdown: >-
 
   - REST API access
 brand: Tencent Cloud
-updated_at: 2026-03-22 13:39
+updated_at: 2026-04-22 13:39

@@ -1,14 +1,19 @@
 name: Amazon Aurora Machine Learning
-description: A feature of Amazon Aurora that enables making calls to ML models
-  like Amazon Bedrock or Amazon SageMaker through SQL functions, allowing direct
-  generation of embeddings within the database and abstracting the vectorization
-  process.
+description: Amazon Aurora Machine Learning provides managed vector storage and
+  search capabilities integrated into Aurora PostgreSQL for AI workloads on AWS.
+  Key features include serverless scaling, direct ML model calls via SQL for
+  embeddings, and seamless integrations with Bedrock and SageMaker. Perfect for
+  RAG pipelines and enterprise AI applications, it simplifies vectorization and
+  abstracts infrastructure compared to self-hosted options like Milvus.
 source_url: https://aws.amazon.com/rds/aurora/machine-learning/
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - machine-learning
   - embeddings
   - aws
+  - Serverless Scaling
+  - Enterprise RAG
+  - Auto Indexing
 featured: true
 markdown: >-
   ## Amazon Aurora Machine Learning
@@ -39,4 +44,6 @@ markdown: >-
 
   Pricing information for Amazon Aurora Machine Learning is not detailed in the
   provided content.
-updated_at: 2026-04-22 04:16
+images:
+  - https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa6a4f4e09037c17b9e82b3d5da3e5b/2023/07/12/aurora-ml-feature.png
+updated_at: 2026-04-22 13:39

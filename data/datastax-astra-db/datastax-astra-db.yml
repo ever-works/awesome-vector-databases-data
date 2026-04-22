@@ -1,15 +1,21 @@
 name: DataStax Astra DB
-description: Cloud database service built on Apache Cassandra with integrated
-  vector search via JVector, offering scalable, globally distributed AI data
-  storage with seamless LLM integrations.
+description: DataStax Astra DB is a managed, serverless vector database built on
+  Apache Cassandra with integrated JVector for AI vector storage and search. It
+  offers serverless scaling, global distribution, hybrid search capabilities,
+  and seamless integrations with LangChain and LlamaIndex. Ideal for enterprise
+  RAG pipelines and real-time AI applications, it provides multi-region
+  replication and zero-ops management superior to self-hosted Milvus.
 source_url: https://www.datastax.com/products/datastax-astra
-category: Managed Vector Databases
+category: Managed & Serverless Vector DBs
 tags:
   - cassandra
   - jvector
   - globally-distributed
   - cloud
   - enterprise
+  - Serverless Scaling
+  - Enterprise RAG
+  - Auto Indexing
 featured: false
 markdown: >-
   ## Overview
@@ -86,4 +92,7 @@ markdown: >-
   Enterprise plan with SLAs available.
 brand: DataStax
 brand_logo_url: https://www.datastax.com/favicon.ico
-updated_at: 2026-04-04 23:01
+images:
+  - https://www.datastax.com/themes/custom/datastax_og/logo.svg
+  - https://www.datastax.com/sites/default/files/styles/og/public/2024-04/astra-db-hero.jpg
+updated_at: 2026-04-22 13:39
