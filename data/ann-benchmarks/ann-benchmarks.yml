@@ -5,7 +5,7 @@ description: Benchmark survey reviewing ANN algorithms performance on standard
   comparison. Compares algorithm review with VLDB system surveys and NeurIPS
   billion-scale benchmarks.
 source_url: https://ann-benchmarks.com/
-category: Benchmark & Evaluation Tools
+category: Benchmarks & Evaluation
 tags:
   - ANN Theory
   - Index Survey
@@ -42,4 +42,4 @@ markdown: |-
   Free open-source.
 images:
   - https://ann-benchmarks.com/static/plots/sift-128-euclidean.hnsw.svg
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 19:20

@@ -5,7 +5,7 @@ description: Lightweight in-process vector store for prototyping AI apps,
   to 1M vectors efficiently on single nodes. Best for developer workflows and
   notebooks; simpler setup than Milvus, less distributed than Qdrant clusters.
 source_url: https://www.trychroma.com/
-category: Embedded & Edge Vector DBs
+category: Embedded & Edge Vector Databases
 tags:
   - local
   - embedded
@@ -102,4 +102,4 @@ markdown: >-
 brand: Chroma
 images:
   - https://trychroma.com/images/chroma-logo.svg
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 19:20

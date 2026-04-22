@@ -1,17 +1,16 @@
 name: uSearch
-description: USearch is a fast, lightweight library for ANN search in C with
-  Python/JS bindings, using mutation-robust HNSW. Features binary quantization,
-  multi-metric support, and single-header build. Perfect for production
-  embedding search; simpler and faster than FAISS for CPU, with easier
-  integration than NMSLIB.
+description: uSearch is a high-performance vector search library from Unum,
+  supporting HNSW, IVF, and scalar quantization with SIMD acceleration for
+  CPU/GPU. Features single-header C API and bindings, disk persistence. Ideal
+  for embedded/production apps; outperforms NMSLIB in QPS and lower memory vs
+  FAISS for high-dim data.
 source_url: https://github.com/unum-cloud/usearch
-category: Vector Similarity Libraries
+category: Vector Search Libraries
 tags:
-  - c
-  - hnsw
+  - library
+  - simd
   - quantization
-  - lightweight
-  - open-source
+  - single-header
 markdown: |
   # usearch
 
@@ -65,4 +64,5 @@ markdown: |
 brand_logo_url: https://github.com/unum-cloud/usearch/raw/master/media/logo.svg
 images:
   - https://github.com/unum-cloud/usearch/raw/master/media/logo.svg
-updated_at: 2026-04-22 07:22
+  - https://github.com/unum-cloud/usearch/raw/main/artwork/logo.png
+updated_at: 2026-04-22 19:20

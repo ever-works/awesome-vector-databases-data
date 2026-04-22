@@ -2,7 +2,7 @@ name: arroy
 description: Arroy is an open-source library for efficient similarity search and
   management of vector embeddings, useful in vector database systems.
 source_url: https://github.com/meilisearch/arroy
-category: Embedded & Edge Vector DBs
+category: Embedded & Edge Vector Databases
 tags:
   - open-source
   - vector-embeddings
@@ -96,4 +96,4 @@ markdown: >-
   - [Documentation](https://docs.rs/arroy)
 
   - [Crates.io](https://crates.io/crates/arroy)
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 19:20

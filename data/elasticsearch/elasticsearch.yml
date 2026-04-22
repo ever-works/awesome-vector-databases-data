@@ -1,20 +1,16 @@
 name: Elasticsearch
-description: Scalable distributed search and analytics engine with kNN vector
-  search powered by HNSW and Lucene, enabling hybrid semantic+keyword queries at
-  massive scale. Supports horizontal sharding, aggregations, and ML for
-  enterprise observability and search. Used in RAG for logs/security; richer
-  full-text than Qdrant, more battle-tested than Milvus for hybrid workloads.
+description: Elasticsearch is a distributed search and analytics engine with
+  native vector search using k-NN and approximate algorithms, supporting
+  dense/sparse vectors and hybrid scoring. Features Lucene-based indexing, ML
+  integrations, and Elastic Cloud. Used for enterprise search and observability;
+  powerful for logs + vectors but heavier than lightweight DBs like Qdrant.
 source_url: https://www.elastic.co/elasticsearch/
-category: Vector Database Engines
+category: Hybrid Search Engines
 tags:
   - distributed
-  - bm25
   - knn
-  - enterprise-search
-  - observability
-  - Scalable ANN
-  - Production Ready
-  - hybrid-search
+  - enterprise
+  - lucene
 markdown: >-
   # Elasticsearch
 
@@ -87,4 +83,5 @@ markdown: >-
   their website.
 images:
   - https://www.elastic.co/assets/blte5d899b4d07eb5f0/logo-elastic.svg
-updated_at: 2026-04-22 13:39
+  - https://www.elastic.co/assets/blte5d899b648ba5d4e/logo-elastic.svg
+updated_at: 2026-04-22 19:20

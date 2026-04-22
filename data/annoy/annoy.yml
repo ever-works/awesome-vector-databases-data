@@ -1,15 +1,17 @@
 name: Annoy
-description: Annoy (Approximate Nearest Neighbors Oh Yeah) is Spotify's
-  lightweight C++ library for fast ANN search using random projection trees,
-  memory-mapped for billion-scale static indexes. Best for read-heavy,
-  non-updatable data like recs vs. FAISS for GPU/dynamic needs.
+description: Annoy (Approximate Nearest Neighbors Oh Yeah) is a lightweight C++
+  library with Python bindings from Spotify for fast approximate vector search
+  using random projection trees, optimized for read-heavy workloads with static
+  indexes. Supports memory-mapped files for large datasets. Best for
+  recommendation systems and offline indexing; simpler and faster build than
+  HNSWlib for static data but no dynamic updates.
 source_url: https://github.com/spotify/annoy
 category: Vector Similarity Libraries
 tags:
+  - library
+  - spotify
   - random-projection-trees
   - memory-mapped
-  - static-index
-  - spotify
 markdown: >-
   # Annoy
 
@@ -90,4 +92,6 @@ markdown: >-
 
   - [Documentation (README)](https://github.com/spotify/annoy#readme)
 brand_logo_url: https://github.com/spotify/annoy/raw/master/icon.png
-updated_at: 2026-04-22 08:50
+images:
+  - https://github.com/spotify/annoy/raw/master/annoy-logo.png
+updated_at: 2026-04-22 19:20

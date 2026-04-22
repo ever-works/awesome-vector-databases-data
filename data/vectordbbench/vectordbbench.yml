@@ -3,7 +3,7 @@ description: Open-source vector database benchmarking tool testing databases
   across production-critical scenarios including static collection, filtering,
   and streaming cases with modern embedding model datasets.
 source_url: https://github.com/zilliztech/VectorDBBench
-category: Benchmark & Evaluation Tools
+category: Benchmarks & Evaluation
 tags:
   - benchmark
   - open-source
@@ -107,4 +107,4 @@ markdown: >-
 
   Free and open-source.
 brand: Zilliz
-updated_at: 2026-04-22 04:16
+updated_at: 2026-04-22 19:20

@@ -6,7 +6,7 @@ description: PostgreSQL-compatible distributed SQL database with built-in vector
   vector similarity search with relational queries including joins and
   aggregations.
 source_url: https://www.yugabyte.com/yugabytedb/
-category: Multi Model Hybrid Databases
+category: Hybrid Search Engines
 tags:
   - distributed
   - sql
@@ -14,4 +14,4 @@ tags:
   - acid
   - hnsw
 featured: false
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 19:20

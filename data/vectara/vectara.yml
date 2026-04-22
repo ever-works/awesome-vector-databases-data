@@ -2,7 +2,7 @@ name: Vectara
 description: Vectara is a commercial vector database and search platform that
   enables semantic and hybrid AI-powered search using vector embeddings.
 source_url: https://www.vectara.com/
-category: commerce
+category: Cloud & Managed Services
 tags:
   - commercial
   - vector-search
@@ -56,4 +56,4 @@ markdown: >-
   ## Tags
 
   commercial, vector-search, semantic-search, ai
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 19:20

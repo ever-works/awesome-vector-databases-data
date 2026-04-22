@@ -3,7 +3,7 @@ description: On-device vector database with out-of-the-box data sync, designed
   for resource-efficiency on mobile, IoT, and embedded devices, enabling
   offline-first AI applications without internet dependency.
 source_url: https://objectbox.io/
-category: Embedded Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
   - edge
   - embedded
@@ -86,4 +86,4 @@ markdown: >-
 
   Commercial product with developer-friendly pricing tiers.
 brand: ObjectBox
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 19:20

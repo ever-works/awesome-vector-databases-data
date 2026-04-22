@@ -1,13 +1,17 @@
 name: SurrealDB
-description: A multi-model database that supports various data types and query
-  languages, including capabilities for handling vector data.
+description: SurrealDB is a multi-model database supporting vectors, graphs, and
+  documents with SQL-like queries and real-time subscriptions. Features
+  embedded/serverless modes and ACID transactions. Suited for full-stack apps
+  needing vectors + relational data; more versatile than PGVector for
+  non-Postgres stacks.
 source_url: https://surrealdb.com/
-featured: false
-category: multi-model-hybrid-databases
+category: Hybrid Search Engines
 tags:
   - multi-model
-  - vector-data
-  - nosql
+  - embedded
+  - real-time
+  - sql
+featured: false
 markdown: >-
   # SurrealDB
 
@@ -73,4 +77,6 @@ markdown: >-
 
 
   SurrealDB is free to use for production applications in any environment.
-updated_at: 2025-07-01 00:28
+images:
+  - https://surrealdb.com/assets/images/logo.svg
+updated_at: 2026-04-22 19:20

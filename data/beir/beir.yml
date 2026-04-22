@@ -3,7 +3,7 @@ description: BEIR (Benchmarking IR) is a benchmark suite for evaluating
   information retrieval and vector search systems across multiple tasks and
   datasets. Useful for comparing vector database performance.
 source_url: https://github.com/beir-cellar/beir
-category: Benchmark & Evaluation Tools
+category: Benchmarks & Evaluation
 tags:
   - benchmark
   - evaluation
@@ -76,4 +76,4 @@ markdown: >-
   ## Tags
 
   benchmark, evaluation, vector-search, datasets
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 19:20

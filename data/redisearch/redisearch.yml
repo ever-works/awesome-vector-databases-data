@@ -1,22 +1,16 @@
 name: RediSearch
-description: "Redis as vector database via RediSearch module supports HNSW/Flat
-  indexes for real-time vector search in key-value store. Features: sub-ms
-  latency, JSON payloads, modules ecosystem; use cases: caching + search
-  hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
-  pure vectors."
+description: RediSearch is a search engine module for Redis, enabling full-text,
+  vector, and hybrid search with HNSW indexing, synonyms, and aggregations.
+  Supports JSON documents and secondary indexes. Ideal for real-time apps like
+  chatbots and personalization; more versatile than pure vector DBs like Chroma
+  for combined workloads.
 source_url: https://github.com/RediSearch/RediSearch
-category: Managed & Serverless Vector DBs
+category: Vector Database Extensions
 tags:
-  - redis-vss
-  - hybrid-bm25
-  - real-time-cache
-  - redisearch
-  - vector-search
-  - redis
-  - open-source
-  - similarity-search
-  - metadata-filtering
-  - rag-optimized
+  - module
+  - full-text
+  - hybrid
+  - real-time
 markdown: >-
   # RediSearch
 
@@ -87,4 +81,6 @@ markdown: >-
   - RediSearch is open source. Distributed cluster features are available as
   part of Redis Cloud and Redis Enterprise Software (pricing details for those
   are not provided here).
-updated_at: 2026-04-22 13:39
+images:
+  - https://redis.io/docs/stack/search/images/redisearch_logo.svg
+updated_at: 2026-04-22 19:20

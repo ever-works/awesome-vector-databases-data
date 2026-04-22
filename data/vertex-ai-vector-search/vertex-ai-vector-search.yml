@@ -5,7 +5,7 @@ description: Vertex AI Vector Search delivers scalable cloud-hosted vector
   enterprise RAG and global similarity search at billion-scale. Excels in
   accuracy over Pinecone; hybrid features surpass Zilliz Cloud.
 source_url: https://cloud.google.com/vertex-ai/docs/vector-search/overview
-category: Cloud Services
+category: Cloud & Managed Services
 tags:
   - Cloud Auto-Scale
   - Multi-Cloud
@@ -227,4 +227,4 @@ markdown: >-
 brand: Google Cloud
 images:
   - https://cloud.google.com/vertex-ai/docs/vector-search/images/overview.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 19:20

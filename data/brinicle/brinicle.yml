@@ -5,7 +5,7 @@ description: Lightweight Rust-based vector index inspired by Meilisearch,
   high query performance. Suitable for edge RAG and prototyping; simpler than
   Milvus for single-node use, lighter alternative to Qdrant.
 source_url: https://github.com/meilisearch/brinicle
-category: Embedded & Edge Vector DBs
+category: Embedded & Edge Vector Databases
 tags:
   - rust-brinicle
   - disk-hnsw
@@ -30,4 +30,4 @@ markdown: >-
   - Approximate nearest neighbor search
 images:
   - https://github.com/meilisearch/brinicle/raw/main/assets/brinicle-logo.png
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 19:20

@@ -1,15 +1,17 @@
 name: Redis
-description: Redis with Vector Search (RediSearch/RedisStack) enables in-memory
-  vector similarity on key-value store, supporting HNSW/Flat indexes, filtering,
-  and JSON payloads. High-speed for caching/RAG; more versatile than pure VDBs
-  like Chroma for sessions, but memory-limited vs disk-based LanceDB.
+description: Redis is a high-performance in-memory key-value store with vector
+  search extensions via RediSearch module, supporting HNSW/Flat indexes, modular
+  filtering, and real-time ingestion. Excels in caching, session stores, and
+  low-latency vector similarity for AI apps; integrates with LangChain, cheaper
+  than Pinecone for small-scale but requires clustering for massive scale.
 source_url: https://redis.io/
-category: Key-Value Vector Stores
+category: Key Value Vector Stores
 tags:
   - in-memory
-  - redis
-  - hnsw
-  - filtering
+  - redisearch
+  - low-latency
+  - modular
+featured: false
 markdown: >-
   ## Overview
 
@@ -100,4 +102,6 @@ markdown: >-
 
   Available upon request for on-premises deployments.
 brand_logo_url: https://redis.io/docs/about/images/redis_logo.svg
-updated_at: 2026-04-22 16:16
+images:
+  - https://redis.io/docs/latest/develop/get-started/images/logo.svg
+updated_at: 2026-04-22 19:20

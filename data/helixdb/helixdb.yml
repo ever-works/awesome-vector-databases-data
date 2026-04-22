@@ -5,7 +5,7 @@ description: HelixDB is a powerful, open-source graph-vector database built in
   search, making it directly relevant to AI and machine learning workflows that
   require vector data management.
 source_url: https://github.com/HelixDB/helix-db
-category: Rust Vector Databases
+category: Graph Enhanced Vector DBs
 tags:
   - open-source
   - graph-database
@@ -53,4 +53,4 @@ markdown: >-
   ## Tags
 
   open-source, graph-database, vector-search, rag, rust
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 19:20
