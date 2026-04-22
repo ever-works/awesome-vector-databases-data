@@ -1,10 +1,10 @@
 name: Weaviate
-description: Weaviate is a cloud-native, open-source vector database that
-  combines vector search with structured filtering and GraphQL APIs. It
-  auto-generates embeddings via modules (e.g., OpenAI, Hugging Face) and
-  supports hybrid search, multi-tenancy, and knowledge graphs. Use cases include
-  semantic search, Q&A, and agentic AI; stands out from Qdrant with built-in ML
-  modules and from pgvector with native vector operations and scalability.
+description: "Weaviate is an open-source, cloud-native vector database combining
+  vector search with structured filtering, GraphQL API, and modular ML modules
+  for auto-embedding. Supports HNSW/PQ indexes, multimodality, and hybrid
+  search. Suited for knowledge graphs and agentic AI; outperforms Qdrant in
+  schema flexibility, similar to Neo4j for graph features. Use cases: Q&A
+  systems, enterprise search."
 source_url: https://weaviate.io/
 category: Vector Database Engines
 tags:
@@ -82,4 +82,4 @@ images:
   - https://weaviate.io/logo.svg
   - https://weaviate.io/blog/img/logo.svg
   - https://weaviate.io/images/weaviate-logo.svg
-updated_at: 2026-04-21 22:15
+updated_at: 2026-04-22 01:10

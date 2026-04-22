@@ -1,9 +1,9 @@
 name: Qdrant
-description: Qdrant is a high-performance vector search engine with Rust-based
-  core for speed and safety. Supports filtered search, payload storage, dynamic
-  reindexing, and multi-modal collections. Suited for recommendation, neural
-  search, and edge deployments; excels over Faiss in persistence and filtering,
-  competitive with Milvus in scalability but lighter for single-node use.
+description: "Qdrant is a high-performance vector search engine and database
+  with Rust core, supporting filtered ANN search, payloads, and on-disk storage
+  for efficiency. Features HNSW, quantization, and cloud/edge deployments. Great
+  for real-time apps; faster than Faiss in production, with better filtering
+  than Chroma. Use cases: recommendation engines, anomaly detection."
 source_url: https://qdrant.tech/
 category: Vector Database Engines
 tags:
@@ -19,6 +19,7 @@ tags:
   - disk-persistence
   - metadata-filtering
   - rag-optimized
+  - edge-deploy
 markdown: >-
   # Qdrant
 
@@ -86,4 +87,4 @@ images:
   - https://qdrant.to/logo.png
   - https://qdrant.tech/qdrant-logo.svg
   - https://qdrant.tech/images/qdrant-logo.svg
-updated_at: 2026-04-21 22:15
+updated_at: 2026-04-22 01:10

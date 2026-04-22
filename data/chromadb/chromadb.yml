@@ -1,10 +1,9 @@
 name: ChromaDB
-description: ChromaDB (also known as Chroma or chroma-core) is an open-source
-  vector database focused on LLM applications, emphasizing simplicity and
-  in-memory HNSW-based dense vector search. It is suited for prototyping,
-  metadata filtering, and offers a user-friendly interface for building and
-  testing vector search applications, though it currently lacks hybrid and
-  distributed features.
+description: "ChromaDB (Chroma) is an open-source embedding database for AI
+  apps, lightweight and embeddable with in-memory/persistent storage using HNSW.
+  Features auto-embedding, multi-modal support, and easy Python integration for
+  local dev. Great for prototyping RAG/agents; simpler than Weaviate but less
+  enterprise-ready. Use cases: local LLM apps, document search."
 source_url: https://www.trychroma.com/
 category: vector-database-engines
 tags:
@@ -12,6 +11,9 @@ tags:
   - in-memory
   - vector-search
   - llm
+  - embeddable
+  - python-first
+  - local-rag
 markdown: >-
   # ChromaDB
 
@@ -71,4 +73,6 @@ markdown: >-
   ## Source
 
   [https://www.trychroma.com/](https://www.trychroma.com/)
-updated_at: 2025-05-13 22:29
+images:
+  - https://docs.trychroma.com/logo.png
+updated_at: 2026-04-22 01:10
