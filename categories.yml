@@ -3,7 +3,7 @@
 - id: vector-database-engines
   name: Vector Database Engines
 - id: research-papers-surveys
-  name: Research Papers & Surveys
+  name: Research Papers Surveys
 - id: concepts-definitions
   name: Concepts & Definitions
 - id: benchmarks-evaluation
@@ -55,7 +55,7 @@
 - id: hybrid-search-engines
   name: Hybrid Search Engines
 - id: serverless-managed-vector-dbs
-  name: Serverless & Managed Vector DBs
+  name: Serverless Managed Vector Dbs
 - id: 2026-vector-db-benchmarks
   name: 2026 Vector DB Benchmarks
 - id: vector-search-libraries
@@ -98,3 +98,9 @@
   name: Embedded & Edge Vector Databases
 - id: managed-serverless-vector-dbs
   name: Managed & Serverless Vector DBs
+- id: multimodal-vector-databases
+  name: Multimodal Vector Databases
+- id: cloud-managed-vector-dbs
+  name: Cloud Managed Vector DBs
+- id: rust-vector-databases
+  name: Rust Vector Databases

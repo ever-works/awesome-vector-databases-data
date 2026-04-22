@@ -133,7 +133,7 @@
 - id: apache-spark
   name: Apache Spark
 - id: sql
-  name: Sql
+  name: SQL
 - id: redis
   name: Redis
 - id: multimodal
@@ -1075,7 +1075,7 @@
 - id: deterministic
   name: Deterministic
 - id: postgresql-extension
-  name: Postgresql Extension
+  name: PostgreSQL Extension
 - id: multi-region
   name: Multi Region
 - id: ivfflat
@@ -1195,7 +1195,7 @@
 - id: in-browser
   name: In Browser
 - id: graphql
-  name: Graphql
+  name: GraphQL
 - id: modules
   name: Modules
 - id: incremental-update
@@ -1543,7 +1543,7 @@
 - id: local-dev
   name: Local Dev
 - id: llm-apps
-  name: Llm Apps
+  name: LLM Apps
 - id: columnar-olap
   name: Columnar Olap
 - id: ann-indexes
@@ -1680,3 +1680,7 @@
   name: Graph Enhanced
 - id: enterprise-security
   name: Enterprise Security
+- id: vldb
+  name: Vldb
+- id: hybrid-ranking
+  name: Hybrid Ranking
