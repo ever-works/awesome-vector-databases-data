@@ -80,3 +80,7 @@
   name: Disk Optimized Indexes
 - id: key-value-vector-stores
   name: Key Value Vector Stores
+- id: vector-db-benchmark-frameworks
+  name: Vector DB Benchmark Frameworks
+- id: experimental-learning-vector-dbs
+  name: Experimental & Learning Vector DBs

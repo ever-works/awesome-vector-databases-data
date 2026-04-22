@@ -765,7 +765,7 @@
 - id: search-api
   name: Search Api
 - id: gpu
-  name: Gpu
+  name: GPU
 - id: open-standard
   name: Open Standard
 - id: mvcc
@@ -1600,3 +1600,23 @@
   name: Gpu Clusters
 - id: petabyte-scale
   name: Petabyte Scale
+- id: embeddable
+  name: Embeddable
+- id: gpu-indexes
+  name: Gpu Indexes
+- id: sql-vector
+  name: Sql Vector
+- id: edge-deploy
+  name: Edge Deploy
+- id: comparison-table
+  name: Comparison Table
+- id: db-evaluation
+  name: Db Evaluation
+- id: resource
+  name: Resource
+- id: rust-learning
+  name: Rust Learning
+- id: hnsw-from-scratch
+  name: Hnsw From Scratch
+- id: educational
+  name: Educational
