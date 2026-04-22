@@ -110,3 +110,5 @@
   name: AI Agent Memory Stores
 - id: serverless-vector-dbs
   name: Serverless Vector DBs
+- id: cloud-managed-services
+  name: Cloud & Managed Services

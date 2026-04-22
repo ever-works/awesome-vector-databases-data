@@ -85,7 +85,7 @@
 - id: tutorials
   name: Tutorials
 - id: tools
-  name: tools
+  name: Tools
 - id: awesome-list
   name: awesome list
 - id: libraries
@@ -1772,3 +1772,17 @@
   name: Postgresql Compatible
 - id: relational-vector
   name: Relational Vector
+- id: meta-ai
+  name: Meta Ai
+- id: ann-algorithms
+  name: Ann Algorithms
+- id: cpu-optimized
+  name: Cpu Optimized
+- id: fork
+  name: Fork
+- id: module
+  name: Module
+- id: full-text
+  name: Full Text
+- id: milvus-based
+  name: Milvus Based
