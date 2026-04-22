@@ -112,3 +112,7 @@
   name: Serverless Vector DBs
 - id: cloud-managed-services
   name: Cloud & Managed Services
+- id: gpu-high-perf-vector-dbs
+  name: GPU & High Perf Vector DBs
+- id: 2026-trends-startups
+  name: 2026 Trends & Startups

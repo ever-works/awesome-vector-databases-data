@@ -1721,7 +1721,7 @@
 - id: async-client
   name: Async Client
 - id: langchain-compatible
-  name: LangChain Compatible
+  name: Langchain Compatible
 - id: graph-vector-hybrid
   name: Graph Vector Hybrid
 - id: multi-hop-rag
@@ -1786,3 +1786,17 @@
   name: Full Text
 - id: milvus-based
   name: Milvus Based
+- id: vision-text
+  name: Vision Text
+- id: dynamic-datasets
+  name: Dynamic Datasets
+- id: "2026"
+  name: "2026"
+- id: startups
+  name: Startups
+- id: benchmarks
+  name: Benchmarks
+- id: disk-persistent
+  name: Disk Persistent
+- id: easy-scaling
+  name: Easy Scaling
