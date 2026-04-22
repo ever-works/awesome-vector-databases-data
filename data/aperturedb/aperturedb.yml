@@ -8,6 +8,9 @@ tags:
   - multimodal
   - graph-database
   - 2026 Trends
+  - multimodal
+  - vision-text
+  - clip-compatible
 featured: false
 markdown: >-
   ## Overview
@@ -88,4 +91,4 @@ markdown: >-
 
   Available as a unified platform for industries including healthcare, retail,
   and finance, supporting both cloud and on-premises deployments.
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 22:18

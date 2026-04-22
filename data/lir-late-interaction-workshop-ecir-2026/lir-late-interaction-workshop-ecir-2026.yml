@@ -4,11 +4,17 @@ description: The first workshop dedicated to late interaction and multi-vector
   (ColBERT creator) and focusing on advances in token-level representations,
   multi-modal retrieval, and long-context search.
 source_url: https://www.lateinteraction.com/
-category: Research Papers & Surveys
+category: 2026 Trends & Startups
 tags:
   - workshop
   - late-interaction
   - academic
+  - "2026"
+  - trends
+  - startups
+  - 2026-trends
+  - startups
+  - benchmarks
 featured: false
 markdown: >-
   ## Overview
@@ -159,4 +165,4 @@ markdown: >-
   - Multi-modal search applications
 
   - Context-preserving similarity matching
-updated_at: 2026-03-20 13:25
+updated_at: 2026-04-22 22:18

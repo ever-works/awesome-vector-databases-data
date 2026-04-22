@@ -5,7 +5,7 @@ description: Open-source project demonstrating GPU-accelerated approximate
   supports configurable CUDA kernels for coarse and fine search stages.
   Applicable for efficient vector querying in AI applications.
 source_url: https://github.com/PranavGrandhi/GPU_Accelerated_Vector_Indexing
-category: GPU Accelerated Vector DBs
+category: GPU & High-Perf Vector DBs
 tags:
   - open-source
   - gpu-accelerated
@@ -101,4 +101,4 @@ markdown: >-
 
 
   Free and open-source (GitHub repository).
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 22:18

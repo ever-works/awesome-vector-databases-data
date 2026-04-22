@@ -5,7 +5,7 @@ description: NVIDIA cuVS provides GPU-powered approximate nearest neighbor (ANN)
   high-QPS queries versus CPU Milvus. Suited for real-time recommendation
   systems and GenAI retrieval tasks.
 source_url: https://rapids.ai/cuvs/
-category: GPU Accelerated Vector DBs
+category: GPU & High-Perf Vector DBs
 tags:
   - GPU ANN
   - RAPIDS cuVS
@@ -60,4 +60,4 @@ markdown: >-
 
   Free and open-source under Apache 2.0 license.
 brand: NVIDIA
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 22:18

@@ -5,7 +5,7 @@ description: "SPANN is a highly efficient billion-scale ANN search system using
   cases: web-scale recommendation, image retrieval. Improves on DiskANN with
   better build time; competitive FAISS GPU in CPU perf."
 source_url: https://www.microsoft.com/en-us/research/publication/spann-highly-efficient-billion-scale-approximate-neighborhood-search/
-category: Vector Indexing Research
+category: research-papers-surveys
 tags:
   - disk-ann
   - clustered-hnsw
@@ -55,4 +55,4 @@ markdown: >-
   disk-based vector indexing technologies and serves as a benchmark for hybrid
   vector search systems.
 brand: Microsoft Research
-updated_at: 2026-04-21 13:24
+updated_at: 2026-04-22 22:18

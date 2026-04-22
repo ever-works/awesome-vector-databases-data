@@ -13,6 +13,9 @@ tags:
   - vector-search
   - ai
   - multimodal
+  - multimodal
+  - vision-text
+  - clip-compatible
 markdown: >-
   # Deep Lake
 
@@ -65,4 +68,4 @@ markdown: >-
   - ai
 
   - multimodal
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-22 22:18
