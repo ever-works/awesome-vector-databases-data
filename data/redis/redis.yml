@@ -4,7 +4,7 @@ description: Redis with Vector Search (RediSearch/RedisStack) enables in-memory
   and JSON payloads. High-speed for caching/RAG; more versatile than pure VDBs
   like Chroma for sessions, but memory-limited vs disk-based LanceDB.
 source_url: https://redis.io/
-category: Key Value Vector Stores
+category: Key-Value Vector Stores
 tags:
   - in-memory
   - redis
@@ -100,4 +100,4 @@ markdown: >-
 
   Available upon request for on-premises deployments.
 brand_logo_url: https://redis.io/docs/about/images/redis_logo.svg
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 16:16

@@ -4,7 +4,7 @@ description: Object storage-first vector database that achieves high performance
   chunk-based compression and lazy loading from S3-compatible storage.
   Serverless.
 source_url: https://turbopuffer.com/
-category: Managed & Serverless Vector DBs
+category: Serverless Vector DBs
 tags:
   - object-storage
   - s3
@@ -22,4 +22,4 @@ markdown: |-
   ## Pricing
   10x cheaper than traditional DBs.
 brand: Turbopuffer
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 16:16

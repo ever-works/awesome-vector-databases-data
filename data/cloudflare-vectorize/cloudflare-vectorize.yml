@@ -3,7 +3,7 @@ description: Cloudflare Vectorize is a managed vector database/indexing service
   integrated with Cloudflare Workers AI. Globally distributed, serverless, with
   automatic index optimization.
 source_url: https://developers.cloudflare.com/vectorize/
-category: Managed & Serverless Vector DBs
+category: Serverless Vector DBs
 tags:
   - serverless
   - managed-service
@@ -25,4 +25,4 @@ brand: cloudflare
 brand_logo_url: https://www.cloudflare.com/img/logo-cloudflare-dark.svg
 images:
   - https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_22PXh4.svg
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 16:16

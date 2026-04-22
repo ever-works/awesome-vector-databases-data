@@ -1,14 +1,14 @@
 name: Vald
-description: Vald is a distributed open-source vector search engine using NGT
-  indexing, designed for high availability and auto-scaling on Kubernetes.
-  Go-based for performance. Good for cloud-native deployments; similar to Milvus
-  but lighter with Go ecosystem focus.
+description: Vald is a distributed vector search engine inspired by Faiss, with
+  NGT indexing and Go-based microservices for high availability. Features
+  auto-scaling on Kubernetes. Suited for cloud-native deployments; more
+  lightweight than Milvus for distributed setups.
 source_url: https://vald.vdaas.org/
 category: Production & Scalable Vector DBs
 tags:
-  - distributed
-  - k8s-native
   - go-lang
+  - k8s-native
+  - ngt-index
 featured: false
 markdown: >
   # Vald
@@ -63,4 +63,4 @@ images:
   - https://vald.vdaas.org/images/vald-logo.svg
   - https://vald.vdaas.org/assets/images/vald-logo.png
   - https://vald.vdaas.org/images/system-design.en.svg
-updated_at: 2026-04-22 10:21
+updated_at: 2026-04-22 16:16

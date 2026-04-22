@@ -1,16 +1,15 @@
 name: LanceDB
-description: LanceDB is an open-source multimodal vector database built on Rust
-  and Apache Arrow/Lance format, with disk-optimized indexes like IVF-PQ for
-  efficient storage/search of embeddings. Supports SQL queries and zero-copy
-  reads for prototyping and analytics. Great for local RAG/CV workloads; more
-  analytical than Chroma (in-memory), similar embedded ease to PGVector but
-  columnar vs relational.
+description: LanceDB is an embedded, columnar vector database built on Apache
+  Arrow and Lance format for multimodal data. Enables SQL queries over vectors,
+  zero-copy reads, and disk persistence without servers. Excels in local ML
+  workflows; faster ingestion than Chroma for large datasets and Arrow
+  integration beats Faiss for analytics.
 source_url: https://lancedb.com/
-category: Open Source Vector Databases
+category: Multimodal Vector Stores
 tags:
-  - Free OSS
-  - Self-Hosted
-  - Community Driven
+  - arrow-native
+  - sql-queries
+  - multimodal-storage
 markdown: |-
   # LanceDB
 
@@ -34,4 +33,4 @@ images:
   - https://lancedb.com/logo.svg
   - https://lancedb.com/img/logo.png
   - https://docs.lancedb.com/en/latest/_images/basic.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 16:16

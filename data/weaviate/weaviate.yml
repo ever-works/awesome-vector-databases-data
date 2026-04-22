@@ -1,17 +1,16 @@
 name: Weaviate
-description: Weaviate is an open-source vector database with semantic and hybrid
-  search capabilities, using HNSW indexing for fast ANN on embeddings and
-  supporting GraphQL queries with modules for auto-vectorization. Implemented
-  primarily in Go, it excels in knowledge graphs, semantic apps, local RAG
-  prototyping, and LLM integrations. Offers richer ML modules than Chroma for
-  prototyping but trails Qdrant in raw Rust performance and Milvus in
-  distributed scale.
+description: Weaviate is an open-source vector database that combines vector
+  search with structured data filtering using GraphQL. Key features include
+  modular storage, hybrid search (vector + keyword), and built-in modules for
+  embeddings and LLM integration. Suited for knowledge graphs and semantic
+  search; more developer-friendly than Milvus with easier GraphQL API, but less
+  optimized for ultra-high throughput.
 source_url: https://weaviate.io/
-category: Open Source Vector Databases
+category: Vector Database Engines
 tags:
-  - Free OSS
-  - Self-Hosted
-  - Community Driven
+  - graphql-api
+  - hybrid-search
+  - knowledge-graph
 featured: false
 markdown: >-
   ## Overview
@@ -48,4 +47,4 @@ images:
   - https://weaviate.io/weaviate-logo.png
   - https://weaviate.io/assets/weaviate-logo.svg
   - https://weaviate.io/developers/weaviate/current/assets/11-query-lifecycle.svg
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 16:16

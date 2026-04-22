@@ -3,10 +3,10 @@ description: Distributed extension of PostgreSQL designed for multi-region and
   edge deployments, enabling data to be processed closer to users while
   maintaining consistency across geographically distributed nodes.
 source_url: https://www.pgedge.com/
-category: Embedded & Edge Vector Databases
+category: Embedded Vector Databases
 tags:
   - distributed
   - postgresql-extension
   - multi-region
 brand: pgEdge
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 16:16

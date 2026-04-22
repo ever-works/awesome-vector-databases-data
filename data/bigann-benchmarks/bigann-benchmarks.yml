@@ -4,7 +4,7 @@ description: Main competition for large-scale vector database algorithms held at
   search algorithms on billion-scale datasets with standardized metrics and
   datasets.
 source_url: https://big-ann-benchmarks.com
-category: Benchmarks & Evaluation
+category: Benchmark & Evaluation Tools
 tags:
   - benchmark
   - competition
@@ -85,4 +85,4 @@ markdown: >-
 
 
   Datasets and evaluation code are publicly available for research purposes.
-updated_at: 2026-03-11 13:24
+updated_at: 2026-04-22 16:16

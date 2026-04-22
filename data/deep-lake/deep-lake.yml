@@ -7,7 +7,7 @@ description: Deep Lake is a vector database designed as a data lake for AI,
   multimodal data, with seamless integration with frameworks like PyTorch and
   TensorFlow.
 source_url: https://deeplake.ai/
-category: vector-database-engines
+category: Multimodal Vector Stores
 tags:
   - open-source
   - vector-search
@@ -65,4 +65,4 @@ markdown: >-
   - ai
 
   - multimodal
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-22 16:16

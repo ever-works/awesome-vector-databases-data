@@ -1,18 +1,14 @@
 name: Qdrant
-description: Qdrant is an open-source vector storage and search engine
-  implemented in Rust, supporting HNSW and DiskANN indexes for efficient
-  approximate nearest neighbor search on high-dimensional embeddings. It offers
-  payload storage, filtering, quantization, and real-time updates, ideal for
-  local RAG prototyping, self-hosted AI applications, and edge deployments.
-  Compared to Milvus (Go/C++), Qdrant provides superior memory safety and
-  single-node performance, while Milvus scales better for distributed
-  billion-vector workloads.
+description: Qdrant is a high-performance vector search engine with Rust-based
+  core for speed and safety. Supports filtered ANN search, payloads, and on-disk
+  storage with HNSW indexing. Great for edge deployments and real-time apps;
+  faster than Faiss in filtered queries and offers cloud managed service.
 source_url: https://qdrant.tech/
-category: Open Source Vector Databases
+category: Vector Database Engines
 tags:
-  - Free OSS
-  - Self-Hosted
-  - Community Driven
+  - rust-core
+  - filtered-ann
+  - edge-deployable
 featured: false
 markdown: >-
   ## Overview
@@ -58,4 +54,4 @@ images:
   - https://qdrant.tech/images/qdrant-logo.svg
   - https://qdrant.tech/qdrant-logo.svg
   - https://qdrant.tech/images/binary-quantization.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 16:16

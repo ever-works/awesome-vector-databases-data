@@ -6,7 +6,7 @@ description: Embedded NoSQL document database with vector search capabilities
   personalized recommendations; more mobile-focused than Milvus, embedded unlike
   Qdrant's server model.
 source_url: https://www.couchbase.com/products/lite/
-category: Embedded & Edge Vector Databases
+category: Embedded & Edge Vector DBs
 tags:
   - embedded
   - offline
@@ -115,4 +115,4 @@ brand: Couchbase
 brand_logo_url: https://www.couchbase.com/wp-content/uploads/2021/03/couchbase-logo.svg
 images:
   - https://www.couchbase.com/hubfs/logo-couchbase.svg
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 16:16

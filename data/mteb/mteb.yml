@@ -5,7 +5,7 @@ description: Massive Text Embedding Benchmark (MTEB) - a comprehensive benchmark
   quality across classification, clustering, retrieval, reranking, semantic
   textual similarity, and summarization tasks.
 source_url: https://huggingface.co/spaces/mteb/leaderboard
-category: Benchmarks & Evaluation
+category: Benchmark & Evaluation Tools
 tags:
   - benchmark
   - embeddings
@@ -167,4 +167,4 @@ markdown: >-
 
   Free and open-source benchmark.
 brand: Hugging Face
-updated_at: 2026-03-22 13:28
+updated_at: 2026-04-22 16:16

@@ -1,8 +1,8 @@
 name: Elasticsearch Vector Search
-description: Elasticsearch Vector Search integrates dense vector fields with
-  k-NN and approximate search in its Lucene-based engine, enabling hybrid
-  lexical+semantic search at scale. Supports ELSER sparse vectors, neural
-  reranking; powers enterprise search vs. Vespa for simpler ML serving.
+description: Elasticsearch Vector Search integrates kNN and dense vector fields
+  with Lucene for hybrid lexical-vector search and reranking. Scales
+  horizontally for logs/search use cases with ELSER sparse embeddings. More
+  mature ecosystem than Weaviate for enterprise search but heavier footprint.
 source_url: https://www.elastic.co/elasticsearch/
 category: Hybrid Search Engines
 tags:
@@ -19,6 +19,9 @@ tags:
   - metadata-filtering
   - hybrid-search
   - hybrid-lexical
+  - lucene-based
+  - hybrid-lexical
+  - enterprise-search
 featured: true
 markdown: >-
   ## Overview
@@ -241,4 +244,4 @@ brand_logo_url: https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.s
 images:
   - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
   - https://www.elastic.co/assets/images/elasticsearch-logo.png
-updated_at: 2026-04-22 08:50
+updated_at: 2026-04-22 16:16

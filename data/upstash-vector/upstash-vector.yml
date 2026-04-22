@@ -3,7 +3,7 @@ description: Serverless vector database with pay-per-use pricing and
   scale-to-zero capability. Fully managed service that scales to billions of
   vectors.
 source_url: https://upstash.com/
-category: Managed & Serverless Vector DBs
+category: Serverless Vector DBs
 tags:
   - serverless
   - managed
@@ -17,4 +17,4 @@ markdown: |-
   ## Pricing
   $0.4/100k requests, $0.25/GB storage.
 brand: Upstash
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 16:16

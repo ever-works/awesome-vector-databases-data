@@ -1,16 +1,18 @@
 name: FAISS
-description: FAISS is an open-source C++ library from Meta for efficient dense
-  vector similarity search and clustering, supporting FAISS indexes (IVF, PQ,
-  HNSW), GPU acceleration for billion-scale ANN. Integrates with
-  PyTorch/HuggingFace for prototyping/research. Not a full DB like Qdrant (adds
-  persistence), but faster raw indexing than pure Rust/Go impls; core for many
-  OSS vector stores.
+description: FAISS (Facebook AI Similarity Search) is a library for efficient
+  similarity search and clustering of dense vectors, with CPU/GPU support for
+  IVF, PQ, HNSW. Not a full DB but foundational for indexing billions of
+  vectors. Basis for many DBs; raw speed outperforms full DBs like Milvus for
+  offline indexing but requires custom persistence.
 source_url: https://faiss.ai/
-category: Open Source Vector Databases
+category: Vector Search Libraries
 tags:
   - Free OSS
   - Self-Hosted
   - Community Driven
+  - ann-library
+  - gpu-support
+  - billion-scale
 featured: false
 markdown: |-
   # FAISS
@@ -30,4 +32,4 @@ markdown: |-
 brand_logo_url: https://faiss.ai/favicon.ico
 images:
   - https://faiss.ai/assets/images/faiss_logo.svg
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-22 16:16
