@@ -5,11 +5,12 @@ description: "Marqo is a vector search engine with managed cloud and self-hosted
   query. Use cases: no-code AI search apps; abstracts embeddings unlike raw DBs
   like Weaviate, faster prototyping but less control."
 source_url: https://www.marqo.ai/
-category: vector-database-engines
+category: Multimodal Vector Databases
 tags:
   - auto-vectorization
   - multimodal-marqo
   - no-code-search
+  - multimodal
 markdown: >-
   ## Overview
 
@@ -50,7 +51,7 @@ markdown: >-
   to meet business KPIs.
 
   - **Recommendations** — Power product recommendations by finding similar
-  products and showing customers products with the highest likelihood to convert
+  products and showing customers products with highest likelihood to convert
   based on their profile.
 
   - **Automated Merchandising** — Automate ranking, boosts, filters, and
@@ -123,4 +124,4 @@ markdown: >-
   days.
 images:
   - https://www.marqo.ai/favicon.ico
-updated_at: 2026-04-20 22:13
+updated_at: 2026-04-22 10:21
