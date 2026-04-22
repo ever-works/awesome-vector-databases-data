@@ -4,7 +4,7 @@ description: Scalable Nearest Neighbors library by Google Research that provides
   quantization and advanced compression techniques to handle twice as many
   queries per second compared to alternatives.
 source_url: https://github.com/google-research/google-research/tree/master/scann
-category: SDKs & Libraries
+category: Developer Tools & Libraries
 tags:
   - ann
   - google
@@ -70,4 +70,4 @@ markdown: >-
 
   Free and open-source.
 brand: Google Research
-updated_at: 2026-03-15 12:39
+updated_at: 2026-04-22 04:16

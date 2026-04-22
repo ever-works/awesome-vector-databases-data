@@ -4,7 +4,7 @@ description: AI-powered search platform that evolved from a traditional keyword
   federated indexing and developer-friendly APIs for teams already using
   Algolia, adding semantic search without managing a separate vector database.
 source_url: https://www.algolia.com/
-category: Cloud Services
+category: Managed Vector Databases
 tags:
   - semantic-search
   - search-engine
@@ -48,4 +48,4 @@ markdown: >-
 
   Usage-based pricing; contact sales for AI Search add-on details.
 brand: Algolia
-updated_at: 2026-04-04 23:01
+updated_at: 2026-04-22 04:16

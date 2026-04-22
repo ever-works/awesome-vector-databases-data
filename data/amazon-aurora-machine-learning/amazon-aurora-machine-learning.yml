@@ -4,12 +4,12 @@ description: A feature of Amazon Aurora that enables making calls to ML models
   generation of embeddings within the database and abstracting the vectorization
   process.
 source_url: https://aws.amazon.com/rds/aurora/machine-learning/
-featured: true
-category: cloud-services
+category: Managed Vector Databases
 tags:
   - machine-learning
   - embeddings
   - aws
+featured: true
 markdown: >-
   ## Amazon Aurora Machine Learning
 
@@ -39,4 +39,4 @@ markdown: >-
 
   Pricing information for Amazon Aurora Machine Learning is not detailed in the
   provided content.
-updated_at: 2025-07-01 00:28
+updated_at: 2026-04-22 04:16

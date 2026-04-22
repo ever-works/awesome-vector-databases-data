@@ -3,7 +3,7 @@ description: sqlite-vec is an open-source extension for SQLite that adds vector
   data types and similarity search, enabling lightweight vector database
   capabilities.
 source_url: https://github.com/asg017/sqlite-vec
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - sqlite
@@ -63,4 +63,4 @@ markdown: >
 
   sqlite-vec is open-source software and is available for free under open-source
   licenses.
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 04:16

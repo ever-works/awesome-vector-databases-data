@@ -4,7 +4,7 @@ description: A C++ library for approximate nearest neighbor searching in
   University of Maryland. Provides data structures and algorithms for both exact
   and approximate nearest neighbor searching.
 source_url: https://www.cs.umd.edu/~mount/ANN/
-category: SDKs & Libraries
+category: Developer Tools & Libraries
 tags:
   - ann
   - cpp
@@ -48,4 +48,4 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-03-15 12:39
+updated_at: 2026-04-22 04:16

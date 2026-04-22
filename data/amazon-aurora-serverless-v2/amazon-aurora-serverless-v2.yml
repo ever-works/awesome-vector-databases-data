@@ -4,12 +4,12 @@ description: An on-demand, auto-scaling configuration for Amazon Aurora DB
   load, integrated with Knowledge Bases for Amazon Bedrock to simplify
   vectorization and database capacity management.
 source_url: https://aws.amazon.com/rds/aurora/serverless/
-featured: true
-category: cloud-services
+category: Managed Vector Databases
 tags:
   - cloud-native
   - serverless
   - aws
+featured: true
 markdown: >-
   ## Amazon Aurora Serverless v2
 
@@ -81,4 +81,4 @@ markdown: >-
 
 
   Pricing information was not provided in the source content.
-updated_at: 2025-07-01 00:28
+updated_at: 2026-04-22 04:16

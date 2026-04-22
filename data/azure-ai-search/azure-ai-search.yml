@@ -4,7 +4,7 @@ description: Microsoft's cloud-based search service with integrated vector
   traditional full-text search and modern vector-based semantic search with
   built-in AI enrichment.
 source_url: https://learn.microsoft.com/en-us/azure/search/search-api-preview
-category: Cloud Services
+category: Managed Vector Databases
 tags:
   - microsoft
   - azure
@@ -88,4 +88,4 @@ markdown: >-
 
   Pricing available at Azure pricing calculator.
 brand: Microsoft Azure
-updated_at: 2026-03-15 12:39
+updated_at: 2026-04-22 04:16

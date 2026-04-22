@@ -5,7 +5,7 @@ description: Vector Bible is a GitHub repository comparing popular vector
   pricing information. It complements ANN-Benchmarks as an essential resource
   for DB evaluation and decision-making, not a tool itself.
 source_url: https://github.com/tot-ra/vector-bible
-category: Vector DB Benchmark Frameworks
+category: Benchmark & Evaluation Tools
 tags:
   - comparison-table
   - db-evaluation
@@ -36,4 +36,4 @@ markdown: |-
   ## Notes
 
   Excludes cloud-only (Pinecone, etc.). Links to other benchmarks: vectorview.ai, vendor-specific. Subjective ease based on docs/API/UI setup.
-updated_at: 2026-04-22 01:10
+updated_at: 2026-04-22 04:16

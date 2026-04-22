@@ -1,11 +1,12 @@
 name: Chroma
-description: Chroma is an open-source embedding database tailored for LLM apps,
-  with in-memory and persistent storage options. Easy Python API for prototyping
-  RAG and agents, supports HNSW indexing and multi-client langs.
-  Beginner-friendly alternative to pgvector for non-SQL users, less scalable
-  than production DBs like Qdrant but ideal for local dev and lightweight apps.
+description: "Chroma is an open-source embedding database optimized for LLM apps
+  and RAG, with simple Python API for local persistence using DuckDB or
+  in-memory storage. Features automatic HNSW indexing, metadata filtering,
+  multi-modal support, and easy LangChain integration; lightweight alternative
+  to Weaviate for prototyping, but less scalable than Milvus for production. Use
+  cases: local dev, agent memory, document retrieval."
 source_url: https://github.com/chroma-core/chroma
-category: Embedded Vector Databases
+category: Open Source Vector Databases
 tags:
   - lightweight
   - python-first
@@ -20,6 +21,8 @@ tags:
   - hnsw
   - local-dev
   - llm-apps
+  - hnsw-index
+  - langchain-integration
 markdown: >
   # Chroma
 
@@ -81,4 +84,5 @@ images:
   - https://trychroma.com/logo.png
   - https://docs.trychroma.com/logo.png
   - https://docs.trychroma.com/images/logo-light.png
-updated_at: 2026-04-21 22:15
+  - https://www.trychroma.com/chroma-logo.png
+updated_at: 2026-04-22 04:16

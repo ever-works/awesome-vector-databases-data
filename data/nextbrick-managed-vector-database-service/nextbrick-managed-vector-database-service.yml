@@ -6,20 +6,15 @@ description: A fully managed vector database infrastructure and operations
   optimization, backups, and disaster recovery so organizations can offload
   operational management and focus on building AI applications.
 source_url: https://nextbrick.com/
-featured: false
-brand: nextbrick
-brand_logo_url: null
-images: null
-category: cloud-services
+category: Managed Vector Databases
 tags:
   - managed-service
   - vector-database
   - services
+featured: false
 markdown: >-
   # Nextbrick Managed Vector Database Service
 
-
-  **Category:** Cloud Services  
 
   **Brand:** Nextbrick  
 
@@ -83,4 +78,6 @@ markdown: >-
 
   Pricing details are not provided in the available content. Contact Nextbrick
   via their website for current plans and pricing information.
-updated_at: 2025-12-31 19:02
+brand: nextbrick
+brand_logo_url: null
+updated_at: 2026-04-22 04:16

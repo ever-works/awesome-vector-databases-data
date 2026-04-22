@@ -4,16 +4,12 @@ description: Milvus Distributed is a horizontally scalable, distributed
   offering high reliability and the ability to handle billions of vectors with a
   comprehensive management toolkit.
 source_url: https://milvus.io/
-featured: false
-brand: milvus
-brand_logo_url: https://milvus.io/img/milvus-logo.svg
-images:
-  - https://milvus.io/img/milvus-architecture.png
-category: vector-database-engines
+category: Production & Scalable Vector DBs
 tags:
   - distributed
   - scalable
   - vector-database
+featured: false
 markdown: >-
   # Milvus Distributed
 
@@ -55,7 +51,7 @@ markdown: >-
     - Suitable for mission‑critical and always‑on applications.
 
   - **Comprehensive deployment toolkit**
-    - Kubernetes/Helm‑based deployment (per "Get Started" prereq: Helm).
+    - Kubernetes/Helm‑based deployment (per \"Get Started\" prereq: Helm).
     - Integrates with Milvus ecosystem tools such as:
       - Milvus CLI
       - Attu (web-based management UI)
@@ -76,4 +72,8 @@ markdown: >-
   No explicit pricing information is provided for Milvus Distributed on the
   referenced content. It is offered as an open‑source deployment model of Milvus
   that you self‑host and operate on your own infrastructure.
-updated_at: 2025-12-26 16:56
+brand: milvus
+brand_logo_url: https://milvus.io/img/milvus-logo.svg
+images:
+  - https://milvus.io/img/milvus-architecture.png
+updated_at: 2026-04-22 04:16

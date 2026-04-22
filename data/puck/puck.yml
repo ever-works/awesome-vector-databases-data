@@ -2,7 +2,7 @@ name: puck
 description: Puck is an open-source vector search engine designed for fast
   similarity search and retrieval of embedding vectors.
 source_url: https://github.com/baidu/puck
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - vector-search
@@ -101,4 +101,4 @@ markdown: >
 
   - [Benchmark
   details](https://github.com/baidu/puck/blob/main/ann-benchmarks/README.md)
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 04:16

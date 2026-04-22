@@ -6,7 +6,7 @@ description: Valkey is an open-source in-memory key-value data store that
   high-dimensional vector data, offering advanced APIs and optimized storage for
   AI workloads.
 source_url: https://valkey.io/
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - vector-search
@@ -82,4 +82,4 @@ markdown: >-
   - in-memory
 
   - ai
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 04:16

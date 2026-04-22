@@ -3,7 +3,7 @@ description: A C++ library for performing fast approximate nearest neighbor
   searches in high dimensional spaces. Contains multiple ANN algorithms and
   automatic algorithm selection based on dataset characteristics.
 source_url: https://github.com/flann-lib/flann
-category: SDKs & Libraries
+category: Developer Tools & Libraries
 tags:
   - ann
   - cpp
@@ -178,4 +178,4 @@ markdown: >-
 
 
   Free and open-source (BSD license).
-updated_at: 2026-03-15 12:39
+updated_at: 2026-04-22 04:16

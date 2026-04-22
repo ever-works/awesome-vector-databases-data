@@ -2,7 +2,7 @@ name: reor
 description: reor is an open-source vector database solution focused on fast and
   scalable storage of high-dimensional vectors for AI and ML applications.
 source_url: https://press.ai/best-vector-databases/
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - vector-database
@@ -40,4 +40,4 @@ markdown: >-
   ## Tags
 
   open-source, vector-database, scalable, ai
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 04:16

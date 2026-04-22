@@ -3,7 +3,7 @@ description: llm-app is an open-source project that provides an AI application
   framework with integrated support for vector databases, enabling the
   development of LLM-powered solutions.
 source_url: https://zilliz.com/blog/10-open-source-llm-frameworks-developers-cannot-ignore-in-2025
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - ai
@@ -29,4 +29,4 @@ markdown: |-
 
   ## Pricing
   No pricing information is provided; llm-app is open-source.
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 04:16

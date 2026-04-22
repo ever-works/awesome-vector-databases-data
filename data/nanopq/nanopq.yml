@@ -4,7 +4,7 @@ description: nanopq is a lightweight product quantization library for efficient
   vector databases that need to store and query large-scale vector data
   efficiently.
 source_url: https://github.com/matsui528/nanopq
-category: open-sources
+category: Open Source Vector Databases
 tags:
   - open-source
   - quantization
@@ -50,4 +50,4 @@ markdown: >-
   ## Tags
 
   open-source, quantization, vector-compression, similarity-search
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-22 04:16
