@@ -1,16 +1,19 @@
 name: Lantern
-description: Lantern is a high-performance vector search library in Rust,
-  focusing on low-latency ANN with HNSW and custom optimizations. Embeddable
-  with no external deps, supports multiple metrics. For edge devices and
-  real-time apps; lighter than full DBs like Weaviate, Rust-speed rival to
-  usearch.
+description: Lantern is a high-performance vector database using LanternDB
+  engine for sub-ms queries on billions of vectors with disk persistence and
+  SIMD optimizations. Features tiered indexing; suits real-time apps vs. Qdrant
+  for Rust purity.
 source_url: https://lantern.dev/
-category: Vector Similarity Libraries
+category: Disk Optimized Indexes
 tags:
   - rust
   - hnsw
   - embeddable
   - low-latency
+  - simd-optimized
+  - disk-persistence
+  - tiered-indexing
+  - sub-ms-queries
 featured: false
 markdown: >
   # Lantern
@@ -64,4 +67,4 @@ markdown: >
 brand_logo_url: https://lantern.dev/logo.svg
 images:
   - https://lantern.dev/logo.svg
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 08:50

@@ -1,14 +1,17 @@
 name: Milvus Lite
-description: Milvus Lite is a lightweight, embeddable version of Milvus for
-  Python apps, supporting local persistence and HNSW indexing without cluster
-  setup. Ideal for prototyping RAG in notebooks; easier local use than full
-  Milvus, similar to Chroma but with Milvus ecosystem.
+description: Milvus Lite is the lightweight, embeddable version of Milvus for
+  local development and edge AI applications, running in-process with zero
+  dependencies beyond Python. It supports core vector search features like HNSW
+  indexing and persistence via SQLite, ideal for prototyping RAG apps or
+  on-device inference without server setup. Unlike full Milvus, it's single-node
+  only but excels in simplicity vs. Chroma for production readiness path.
 source_url: https://milvus.io/
-category: Embedded & Edge Vector Databases
+category: Embedded Vector Databases
 tags:
-  - lite
-  - python
-  - local
+  - embedded
+  - python-first
+  - local-dev
+  - edge-ai
 featured: false
 markdown: >-
   # Milvus Lite
@@ -64,8 +67,9 @@ markdown: >-
 
   Free and open-source under the Apache 2.0 license.
 brand: milvus
-brand_logo_url: https://milvus.io/img/milvus-logo.svg
+brand_logo_url: https://milvus.io/assets/images/milvus-logo.png
 images:
+  - https://milvus.io/assets/images/milvus-logo.png
   - https://milvus.io/assets/milvus-lite.svg
   - https://milvus.io/img/milvus-overview.png
-updated_at: 2026-04-22 07:22
+updated_at: 2026-04-22 08:50

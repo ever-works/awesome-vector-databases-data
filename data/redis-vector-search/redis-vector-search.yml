@@ -1,22 +1,15 @@
 name: Redis Vector Search
-description: Redis Vector Search extends Redis with vector similarity
-  capabilities using HNSW/Flat indexes, supporting hybrid BM25+vector queries
-  and on-disk persistence. Ideal for caching, real-time search, and RAG in
-  high-throughput apps; leverages Redis ecosystem for speed but less specialized
-  than dedicated VDBs like Qdrant for complex filtering.
+description: Redis Vector Search (Redis Stack) adds k-NN vector search to Redis
+  with RediSearch, supporting HNSW/Flat indexes, filtering, and real-time
+  ingestion. Excels as cache+vector hybrid for low-latency apps vs. dedicated
+  DBs; use for session-based recs.
 source_url: https://redis.io/solutions/vector-database/
-category: Hybrid & Managed Vector DBs
+category: Key Value Vector Stores
 tags:
-  - redis-vss
-  - hybrid-bm25
-  - real-time-cache
-  - redisearch
   - redis-module
-  - hnsw-flat
-  - high-throughput
-  - metadata-filtering
-  - rag-optimized
-  - disk-persistence
+  - real-time-ingestion
+  - cache-hybrid
+  - RediSearch
 markdown: >-
   ## Overview
 
@@ -96,9 +89,9 @@ markdown: >-
   Redis Stack is free. Redis Enterprise offers managed services with usage-based
   pricing.
 brand: Redis
-brand_logo_url: https://redis.io/favicon.ico
+brand_logo_url: https://redis.io/wp-content/uploads/2021/01/redis-logo.png
 images:
   - https://redis.io/docs/latest/develop/get-started/logo.png
   - https://redis.io/wp-content/uploads/2023/06/redis-logo.svg
   - https://redis.io/docs/latest/develop/get-started/vss/assets/redis-vss-logo.png
-updated_at: 2026-04-21 22:15
+updated_at: 2026-04-22 08:50
