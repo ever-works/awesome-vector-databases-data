@@ -1075,7 +1075,7 @@
 - id: deterministic
   name: Deterministic
 - id: postgresql-extension
-  name: PostgreSQL Extension
+  name: Postgresql Extension
 - id: multi-region
   name: Multi Region
 - id: ivfflat
@@ -1325,9 +1325,9 @@
 - id: vector-database-2026
   name: Vector Database 2026
 - id: ann-benchmarks
-  name: ANN Benchmarks
+  name: Ann Benchmarks
 - id: rag-optimized
-  name: RAG Optimized
+  name: Rag Optimized
 - id: rust-brinicle
   name: Rust Brinicle
 - id: disk-hnsw
@@ -1707,7 +1707,7 @@
 - id: serverless-scaling
   name: Serverless Scaling
 - id: enterprise-rag
-  name: Enterprise RAG
+  name: Enterprise Rag
 - id: auto-indexing
   name: Auto Indexing
 - id: vector-data-privacy
@@ -1770,3 +1770,5 @@
   name: Embedded Rust
 - id: postgresql-compatible
   name: Postgresql Compatible
+- id: relational-vector
+  name: Relational Vector

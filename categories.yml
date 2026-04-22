@@ -108,3 +108,5 @@
   name: Multimodal Vector Stores
 - id: ai-agent-memory-stores
   name: AI Agent Memory Stores
+- id: serverless-vector-dbs
+  name: Serverless Vector DBs
