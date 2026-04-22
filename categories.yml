@@ -92,3 +92,9 @@
   name: Production & Scalable Vector DBs
 - id: benchmark-evaluation-tools
   name: Benchmark & Evaluation Tools
+- id: graph-enhanced-vector-dbs
+  name: Graph Enhanced Vector DBs
+- id: embedded-edge-vector-databases
+  name: Embedded & Edge Vector Databases
+- id: managed-serverless-vector-dbs
+  name: Managed & Serverless Vector DBs

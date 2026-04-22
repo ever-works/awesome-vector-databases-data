@@ -817,7 +817,7 @@
 - id: alibaba
   name: Alibaba
 - id: c
-  name: C++
+  name: C
 - id: kd-tree
   name: Kd Tree
 - id: header-only
@@ -1626,3 +1626,23 @@
   name: Embedded Sql
 - id: production-scale
   name: Production Scale
+- id: annoy
+  name: Annoy
+- id: memory-mapped
+  name: Memory Mapped
+- id: arrow
+  name: Arrow
+- id: low-latency
+  name: Low Latency
+- id: lite
+  name: Lite
+- id: hybrid-sparse
+  name: Hybrid Sparse
+- id: payloads
+  name: Payloads
+- id: pay-per-use
+  name: Pay Per Use
+- id: ngt
+  name: Ngt
+- id: ml-ranking
+  name: Ml Ranking
