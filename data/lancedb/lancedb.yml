@@ -1,13 +1,17 @@
 name: LanceDB
-description: Embeddable columnar DB for vectors and multimodal data. Features
-  Arrow integration, zero-copy reads, and SQL queries. More scalable with OLAP
-  capabilities versus Chroma.
+description: LanceDB is a lightweight, embeddable database providing on-device
+  vector similarity search without servers, ensuring low-latency performance for
+  edge computing scenarios. Key features include Apache Arrow columnar storage
+  for multimodal data, zero-copy reads, full SQL support, and disk persistence.
+  It excels in mobile AI, IoT devices, and local RAG applications, offering
+  superior scalability over cloud databases or pure in-memory stores for
+  decentralized deployments.
 source_url: https://lancedb.com/
-category: Embedded Vector Databases
+category: Embedded & Edge Vector Databases
 tags:
+  - lightweight
+  - edge-computing
   - columnar
-  - arrow-native
-  - embeddable-sql
 featured: false
 markdown: |-
   ## Features
@@ -28,4 +32,4 @@ brand_logo_url: https://lancedb.com/favicon.ico
 images:
   - https://lancedb.com/favicon.ico
   - https://lancedb.com/logo.png
-updated_at: 2026-04-22 22:18
+updated_at: 2026-04-23 01:18

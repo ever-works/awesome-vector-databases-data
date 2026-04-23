@@ -1,17 +1,15 @@
 name: BigVectorBench
-description: BigVectorBench tests vector DB performance on heterogeneous
-  embeddings (text/image/audio) and compound queries, measuring QPS, latency
-  across multimodal workloads and GPU-accelerated setups. Key features include
-  Docker-based testing for databases like Milvus and support for real-world
-  cross-modal retrieval scenarios. Aids production vector DB selection for
-  multimodal apps; focuses on hybrid queries unlike pure ANN-Benchmarks or
-  VectorDBBench.
+description: Tests vector DBs on multimodal QPS/latency for heterogeneous
+  embeddings and compound queries including GPU setups. Features Docker-based
+  eval for Milvus etc. on cross-modal retrieval. For selecting multimodal vector
+  DBs; differs from ANN-Benchmarks text-only by adding hybrid workloads vs
+  custom single-DB tests.
 source_url: https://github.com/BenchCouncil/BigVectorBench
-category: Benchmarks & Evaluation
+category: Benchmarks & Evaluation Tools
 tags:
-  - Perf Metrics
-  - ANN Benchmarks
-  - QPS Testing
+  - benchmarking
+  - performance-evaluation
+  - multimodal
 featured: false
 markdown: >-
   ## Overview
@@ -66,4 +64,4 @@ markdown: >-
 brand: BenchCouncil
 images:
   - https://raw.githubusercontent.com/BenchCouncil/BigVectorBench/main/images/overview.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

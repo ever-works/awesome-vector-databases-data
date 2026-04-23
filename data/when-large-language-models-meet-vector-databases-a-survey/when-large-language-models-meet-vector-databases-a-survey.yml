@@ -1,44 +1,36 @@
 name: "When Large Language Models Meet Vector Databases: A Survey"
-description: ArXiv 2024 survey on LLM-vector DB integration for RAG, addressing
-  hallucination/bias via retrieval. Reviews ANN benchmarks in LLM contexts;
-  theory/practice gaps in real-time retrieval. Academic use cases for RAG
-  research selection; compares LLM-focused review with VLDB VDBMS surveys and
-  NeurIPS pure ANN benchmarks.
+description: ArXiv 2024 survey paper on LLM-vector DB integration for RAG,
+  reviewing ANN benchmarks in LLM contexts. Addresses hallucination mitigation;
+  highlights real-time gaps. For academic/research in RAG; compares 2024 LLM
+  focus with prior VDBMS surveys and 2026 benchmarks.
 source_url: https://arxiv.org/abs/2402.01763
-category: Research Papers Surveys
+category: Vector DB Research & Surveys
 tags:
-  - ANN Theory
-  - Index Survey
-  - Academic Review
+  - research-paper
+  - ann-survey
 featured: true
 markdown: |-
   ## Overview
 
-  Survey on LLM + vector DB synergies, focusing on RAG architectures.
+  LLM-vector DB survey for RAG.
 
   ## Features
 
-  - Hallucination mitigation via retrieval
-  - Hybrid search for LLMs
-  - Benchmark reviews in RAG contexts
-
-  ## Theory/Practice Gaps
-
-  - Theoretical retrieval optimality vs LLM context limits
-  - Academic RAG vs production latency constraints
+  - ANN benchmarks in RAG
+  - Hybrid retrieval reviews
 
   ## Use Cases
 
-  - Academic selection for LLM retrieval papers
-  - RAG system design guidance
+  - RAG research selection
+  - LLM retrieval design
 
   ## Comparisons
 
-  | Aspect | This Survey | VLDB | NeurIPS |
-  |--------|-------------|------|---------|
-  | Focus | LLM+RAG | VDBMS | ANN algos |
+  | Aspect | This 2024 | Prior VLDB | 2026 Benchmarks |
+  |--------|-----------|------------|-----------------|
+  | Focus  | LLM+RAG  | Systems   | Enterprise trends|
 
   ## Publication
 
-  ArXiv 2402.01763 (2024)
-updated_at: 2026-04-22 13:39
+  ArXiv 2402.01763
+updated_at: 2026-04-23 01:18

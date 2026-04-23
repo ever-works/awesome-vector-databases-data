@@ -1,16 +1,17 @@
 name: ApertureDB
-description: Graph-vector database purpose-built for multimodal data, combining
-  vector search with graph relationships for storing and managing images,
-  videos, documents, embeddings, and metadata in a unified platform.
+description: Graph-vector DB for multimodal data (images/videos/docs/embeddings)
+  with hybrid vector similarity + graph traversal + metadata/keyword filtering.
+  Enables complex multimodal RAG queries. Combines FAISS vectors with graphs
+  unlike pure vector DBs like Qdrant.
 source_url: https://www.aperturedata.io/
-category: Multimodal Vector Stores
+category: Hybrid Search & Multimodal DBs
 tags:
   - multimodal
   - graph-database
   - 2026 Trends
-  - multimodal
   - vision-text
   - clip-compatible
+  - hybrid-search
 featured: false
 markdown: >-
   ## Overview
@@ -20,6 +21,14 @@ markdown: >-
   unifies multimodal AI data into a single, scalable platform. It combines
   vector similarity search with graph-based relationships to enable
   comprehensive data management for AI applications.
+
+
+  ## Hybrid Capabilities
+
+
+  - Vector search (FAISS) + graph relationships + keyword/metadata filters.
+
+  - Unified queries across modalities with reranking potential.
 
 
   ## Key Features
@@ -61,8 +70,7 @@ markdown: >-
   ## Use Cases
 
 
-  - **Retrieval-Augmented Generation (RAG)**: Enhanced context retrieval for LLM
-  applications
+  - Multimodal RAG: Vector+graph retrieval for enriched LLM context.
 
   - **Semantic Search**: Multi-modal similarity search across different data
   types
@@ -71,6 +79,20 @@ markdown: >-
 
   - **Smart Retail**: Annotation management and nearest neighbor search for
   retail applications
+
+
+  ## Comparisons vs Pure Vector DBs (e.g., Qdrant)
+
+
+  | Feature | ApertureDB | Pure Vector DB |
+
+  |---------|------------|----------------|
+
+  | Graph Support | Native | No |
+
+  | Multimodal | Images/videos | Vectors only |
+
+  | Unified Query | Vector+graph | Vector-focused |
 
 
   ## Benefits
@@ -91,4 +113,4 @@ markdown: >-
 
   Available as a unified platform for industries including healthcare, retail,
   and finance, supporting both cloud and on-premises deployments.
-updated_at: 2026-04-22 22:18
+updated_at: 2026-04-23 01:18

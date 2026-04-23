@@ -1,74 +1,37 @@
 name: Survey of Vector Database Management Systems
-description: VLDB 2024 comprehensive survey on vector database management
-  systems detailing architectures, ANN indexing techniques
-  (graph/tree/hash/quantization), query processing, and emerging trends.
-  Highlights theory/practice gaps in scaling ANN methods to distributed systems
-  and dynamic workloads. Essential for academic literature selection and
-  research; contrasts full-system analysis (VLDB) with algorithm benchmarks
-  (NeurIPS BigANN).
+description: VLDB 2024 survey paper on vector DB management systems, detailing
+  ANN indexing (graph/tree/hash/quantization), architectures, query processing.
+  Reviews benchmarks and scaling challenges. Key for academic/research
+  literature; compares full-system 2024 analysis with prior surveys and 2026
+  benchmarks.
 source_url: https://arxiv.org/abs/2308.11858
-category: Research Papers Surveys
+category: Vector DB Research & Surveys
 tags:
-  - ANN Theory
-  - Index Survey
-  - Academic Review
+  - research-paper
+  - ann-survey
 featured: true
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  VLDB 2024 paper providing systematic survey of vector DB management systems
-  (VDBMS).
-
+  VLDB 2024 systematic survey of VDBMS.
 
   ## Features
 
-
-  - Architecture classification (storage engines, query processors)
-
-  - ANN indexing review: graph (HNSW), tree, hash, quantization
-
-  - Query processing & optimization techniques
-
-  - Distributed systems and concurrency handling
-
-
-  ## Theory/Practice Gaps
-
-
-  - Theoretical ANN recall vs practical trade-offs under filtering/updates
-
-  - Memory-centric theory vs disk/persistent indexes in practice
-
-  - Single-node prototypes vs production-scale distribution
-
+  - ANN indexing: HNSW graphs, trees, etc.
+  - Distributed query benchmarks
 
   ## Use Cases
 
-
-  - Academic paper selection for literature reviews
-
-  - Identifying research gaps in VDBMS
-
-  - Guidance for building new vector databases
-
+  - Literature reviews in research
+  - VDBMS design guidance
 
   ## Comparisons
 
-
-  | Aspect | VLDB Survey (this paper) | NeurIPS BigANN |
-
-  |--------|--------------------------|----------------|
-
-  | Focus | Full VDBMS systems | Pure ANN algorithms |
-
-  | Scale | System-level | Billion-scale datasets |
-
-  | Metrics | Architecture completeness | QPS/recall |
-
+  | Aspect | VLDB 2024 | Prior Surveys | 2026 Benchmarks |
+  |--------|-----------|---------------|-----------------|
+  | Focus  | Systems  | Concepts     | Trends/perf    |
 
   ## Publication
 
-
-  **Venue**: VLDB 2024 (Pan et al.)
-updated_at: 2026-04-22 13:39
+  VLDB 2024
+updated_at: 2026-04-23 01:18

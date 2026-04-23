@@ -1,16 +1,15 @@
 name: Billion-scale ANNS Benchmarks
-description: Billion-scale ANNS Benchmarks evaluates vector DB scalability on
-  massive datasets with QPS, latency, recall metrics for ANNS algorithms in
-  NeurIPS competitions. Key features include tools for dataset prep, evaluation,
-  and visualization on billion-point scales. Crucial for prod vector DBs
-  handling extreme scale; builds on ANN-Benchmarks datasets, distinct from
-  VectorDBBench system benchmarks.
+description: Provides QPS/latency/recall benchmarks for ANNS algorithms on
+  billion-point datasets via NeurIPS tools for dataset prep and evaluation.
+  Features scalable testing for extreme throughput and visualization. Key for
+  production vector DBs at scale; extends ANN-Benchmarks with billion-scale
+  tools unlike full-system DB benchmarks.
 source_url: https://github.com/harsha-simhadri/big-ann-benchmarks
-category: Benchmarks & Evaluation
+category: Benchmarks & Evaluation Tools
 tags:
-  - Perf Metrics
-  - ANN Benchmarks
-  - QPS Testing
+  - benchmarking
+  - performance-evaluation
+  - anns-tools
 markdown: >-
   # Billion-scale ANNS Benchmarks
 
@@ -48,4 +47,4 @@ markdown: >-
   - No pricing information provided (open source project).
 images:
   - https://github.com/harsha-simhadri/big-ann-benchmarks/raw/master/leaderboard.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

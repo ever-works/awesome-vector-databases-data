@@ -1,49 +1,56 @@
 name: RAGatouille
-description: Retrieval library for RAG pipelines in LLM apps, specializing in
-  ColBERT-style late-interaction models for state-of-the-art dense retrieval and
-  reranking performance.
+description: Specialized retrieval tool for RAG in LLM apps using ColBERT
+  late-interaction for token-level matching, integrable with vector stores like
+  FAISS for high-precision retrieval and reranking.
 source_url: https://github.com/AnswerDotAI/RAGatouille
-category: RAG Frameworks & Pipelines
+category: RAG Frameworks & Tools
 tags:
-  - RAG Pipeline
-  - Retrieval Augmentation
-  - Hybrid RAG
+  - rag-pipeline
+  - llm-rag
+  - late-interaction
+featured: false
 markdown: >-
-  ## RAG Integration
+  ## Overview
 
 
-  RAGatouille slots into RAG workflows as retriever/reranker: index docs with
-  ColBERT tokenizer, retrieve top-k via late-interaction scoring, or rerank
-  BM25/embedding results for better precision.
+  RAGatouille provides ColBERT-style retrieval for superior RAG performance in
+  LLM pipelines, emphasizing late-interaction scoring over embeddings.
 
 
-  ## Features
+  ## Key RAG Features
 
 
-  - **Chunking**: Compatible with any preprocessor
+  - **Chunking**: Any preprocessor (LangChain loaders compatible)
 
-  - **Retrieval**: ColBERTv2 (zero-shot strong), multi-token matching
+  - **Retrieval**: Multi-vector token embeddings, max-sim scoring
 
-  - **Rerank**: Token-level alignment scoring
+  - **Vector Store Integrations**: FAISS (via HuggingFace), custom indexes
 
-  - **Training**: Fine-tune on domain data
+  - **Reranking**: Native token-level reranker
 
 
   ## Use Cases
 
 
-  - High-accuracy RAG apps
+  - Precision-critical QA systems
 
-  - Reranking layer in pipelines
+  - Domain-adapted retrieval
 
-  - Zero-shot domain adaptation
-
-
-  ## LlamaIndex vs Haystack
+  - Hybrid retriever augmentation
 
 
-  RAGatouille complements both as advanced retriever; LlamaIndex integrates
-  easily, Haystack via custom retriever node.
+  ## Comparisons
+
+
+  | Aspect | LangChain | LlamaIndex | RAGatouille |
+
+  |--------|-----------|------------|-------------|
+
+  | Focus | Full orchestration | Indexing | Retrieval precision |
+
+  | Retrieval | Bi-encoder | Embed-based | Late-interaction |
+
+  | Ease | Modular | Simple | Specialized |
 
 
   ## Pricing
@@ -52,4 +59,4 @@ markdown: >-
   Free open-source (MIT).
 images:
   - https://github.com/AnswerDotAI/RAGatouille/raw/main/img/overview.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

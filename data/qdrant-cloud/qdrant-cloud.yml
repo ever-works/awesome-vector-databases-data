@@ -1,12 +1,12 @@
 name: Qdrant Cloud
-description: Qdrant Cloud is a managed serverless vector database offering
-  scalable storage and search for AI with seamless OSS upgrade path. Features
-  serverless scaling, advanced filtering, backups, multi-region support, and
-  integrations with popular AI tools. Suited for enterprise RAG and production
-  AI, it delivers managed reliability and performance superior to self-hosted
-  Milvus.
+description: Qdrant Cloud is a fully managed serverless vector database for
+  scalable AI search and storage, with seamless upgrade from open-source Qdrant.
+  Key features include serverless scaling, advanced filtering, multi-region
+  deployments, automated backups, and integrations with AI frameworks. Perfect
+  for enterprise RAG and production workloads; offers managed operations and
+  performance exceeding self-hosted alternatives like Milvus.
 source_url: https://qdrant.tech/cloud/
-category: Managed & Serverless Vector DBs
+category: Managed & Serverless Vector Databases
 tags:
   - managed
   - serverless
@@ -15,15 +15,41 @@ tags:
   - Enterprise RAG
   - Auto Indexing
 featured: true
-markdown: "## Overview\\n\\nQdrant Cloud provides fully managed vector database
-  with 1GB free forever cluster (no credit card required) and multi-cloud
-  deployment.\\n\\n## Free Tier\\n\\n- **1GB RAM cluster** free forever\\n- **No
-  credit card required**\\n- **Multi-cloud**: AWS, GCP, Azure\\n-
-  Production-ready\\n\\n## Paid Tiers\\n\\n- **Managed Cloud**: Starting at $0,
-  scales with usage\\n- **Hybrid Cloud**: $0.014/hour starting\\n- **Premium**:
-  Custom enterprise pricing\\n\\n## Pricing\\n\\nCommercial service with
-  generous free tier and flexible scaling options."
+markdown: >-
+  ## Overview
+
+
+  Qdrant Cloud provides fully managed vector database with 1GB free forever
+  cluster (no credit card required) and multi-cloud deployment.
+
+
+  ## Free Tier
+
+
+  - **1GB RAM cluster** free forever
+
+  - **No credit card required**
+
+  - **Multi-cloud**: AWS, GCP, Azure
+
+  - Production-ready
+
+
+  ## Paid Tiers
+
+
+  - **Managed Cloud**: Starting at $0, scales with usage
+
+  - **Hybrid Cloud**: $0.014/hour starting
+
+  - **Premium**: Custom enterprise pricing
+
+
+  ## Pricing
+
+
+  Commercial service with generous free tier and flexible scaling options.
 brand: Qdrant
 images:
   - https://cloud.qdrant.io/logo.svg
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

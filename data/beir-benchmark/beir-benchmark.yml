@@ -1,17 +1,17 @@
 name: BEIR Benchmark
-description: BEIR Benchmark facilitates vector DB performance evaluation for
-  embedding models via zero-shot retrieval testing on 18 diverse datasets,
-  measuring NDCG@10, Recall@100 correlating to production QPS and latency. Key
-  features include heterogeneous tasks like QA, fact-checking, and bio-medical
-  retrieval for robust model comparison. Helps select embeddings for prod vector
-  DB RAG pipelines; complements ANN-Benchmarks (indexing) and differs from
-  VectorDBBench (full DB perf).
+description: Zero-shot benchmark for embedding model evaluation on 18 diverse
+  datasets with NDCG@10 and Recall@100 metrics correlating to vector DB
+  QPS/latency in production. Features heterogeneous tasks like QA,
+  fact-checking, biomedical retrieval for robust comparisons. Use cases include
+  selecting embeddings for RAG pipelines in vector DBs; complements
+  ANN-Benchmarks indexing focus with retrieval task evaluation, differs from
+  VectorDBBench full-DB tests.
 source_url: https://github.com/beir-cellar/beir
-category: Benchmarks & Evaluation
+category: Benchmarks & Evaluation Tools
 tags:
-  - Perf Metrics
-  - ANN Benchmarks
-  - QPS Testing
+  - benchmarking
+  - performance-evaluation
+  - zero-shot-retrieval
 markdown: >-
   ## Overview
 
@@ -158,4 +158,4 @@ markdown: >-
   Free and open-source benchmark.
 images:
   - https://github.com/beir-cellar/beir/raw/main/assets/leaderboard.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

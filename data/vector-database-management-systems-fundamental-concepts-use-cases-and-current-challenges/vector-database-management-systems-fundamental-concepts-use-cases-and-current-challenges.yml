@@ -1,44 +1,37 @@
 name: "Vector Database Management Systems: Fundamental Concepts, Use Cases, and
   Current Challenges"
-description: Cognitive Systems 2024 paper surveying VDBMS fundamentals, use
-  cases, challenges including ANN indexing reviews. Features theory/practice
-  gaps in high-dim data handling; academic selection for VDB research. Compares
-  conceptual focus with VLDB architectures and NeurIPS benchmarks.
+description: Cognitive Systems 2024 survey paper on VDBMS fundamentals, ANN
+  indexing, use cases, challenges. Reviews benchmarks in high-dim data; notes
+  theory/practice gaps. Academic/research essential; contrasts conceptual 2024
+  view with prior and 2026 practical benchmarks.
 source_url: https://doi.org/10.1016/J.COGSYS.2024.101216
-category: Research Papers Surveys
+category: Vector DB Research & Surveys
 tags:
-  - ANN Theory
-  - Index Survey
-  - Academic Review
+  - research-paper
+  - ann-survey
 featured: true
 markdown: |-
   ## Overview
 
-  Foundational survey on VDBMS concepts and challenges.
+  Foundational VDBMS survey.
 
   ## Features
 
-  - Core concepts and use cases
-  - ANN techniques review
-  - Open challenges discussion
-
-  ## Theory/Practice Gaps
-
-  - Fundamental limits vs engineering solutions
-  - Use case theory vs real deployments
+  - ANN techniques and benchmarks
+  - Challenges in high-dim search
 
   ## Use Cases
 
-  - Academic foundational reading
-  - Challenge identification for research
+  - Academic foundational research
+  - Identifying gaps
 
   ## Comparisons
 
-  | Aspect | This Paper | VLDB | NeurIPS |
-  |--------|------------|------|---------|
-  | Scope | Concepts | Systems | Benchmarks |
+  | Aspect | This 2024 | Prior VLDB | 2026 Benchmarks |
+  |--------|-----------|------------|-----------------|
+  | Scope  | Concepts | Architectures | Production     |
 
   ## Publication
 
   Cognitive Systems 2024
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

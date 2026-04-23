@@ -1,68 +1,66 @@
 name: Haystack
-description: Modular open-source RAG framework for production LLM apps with
-  pipeline-based chunking, hybrid retrieval (dense/sparse), reranking, and
-  generation for scalable semantic search and QA systems.
+description: Modular open-source framework for building RAG pipelines in LLM
+  apps, featuring advanced chunking strategies, hybrid retrieval with vector
+  store integrations (e.g., Pinecone, Weaviate, FAISS), reranking, and agentic
+  generation.
 source_url: https://haystack.deepset.ai/
-category: RAG Frameworks & Pipelines
+category: RAG Frameworks & Tools
 tags:
-  - RAG Pipeline
-  - RAG Optimized
-  - Hybrid RAG
+  - rag-pipeline
+  - llm-rag
+  - hybrid-retrieval
 featured: true
 markdown: >-
-  ## RAG Integration
+  ## Overview
 
 
-  Haystack integrates RAG via customizable pipelines: index documents with
-  splitters/embedders, retrieve via hybrid retrievers, rerank candidates, and
-  generate with LLMs, all orchestrated in modular flows.
+  Haystack enables scalable RAG for LLM applications through composable
+  pipelines handling ingestion, retrieval, and generation.
 
 
-  ## Features
+  ## Key RAG Features
 
 
-  - **Chunking**: Overlapping splitters, sentence/embed-aware
+  - **Chunking**: Semantic, fixed-size, recursive splitters with overlap
 
-  - **Retrieval**: Dense (DPR), sparse (BM25), hybrid fusion
+  - **Retrieval**: Hybrid (dense/sparse), MMR diversity, multi-query
 
-  - **Rerank**: Cohere, BGE-reranker, cross-encoders
+  - **Vector Store Integrations**: Pinecone, Weaviate, Elasticsearch, FAISS,
+  Milvus, Qdrant
 
-  - **Pipelines**: Extractive QA, generative, indexing, evaluation
+  - **Reranking & Post-Processing**: Cross-encoders, reciprocal rank fusion
 
 
   ## Use Cases
 
 
-  - Enterprise semantic search
+  - Knowledge retrieval for chatbots
 
-  - Document QA chatbots
+  - Enterprise search over docs
 
-  - Knowledge-grounded agents
-
-  - Multi-lingual RAG apps
+  - Multi-modal RAG agents
 
 
-  ## Haystack vs LlamaIndex
+  ## Comparisons
 
 
-  | Feature | Haystack | LlamaIndex |
+  | Aspect | LangChain | LlamaIndex | Haystack |
 
-  |---------|----------|------------|
+  |--------|-----------|------------|----------|
 
-  | Design | Pipeline nodes | Indexes/Engines |
+  | Modularity | Chains/Agents | Data-focused indexes | Pipeline nodes |
 
-  | Strengths | Modularity, benchmarks | Data connectors, simplicity |
+  | Vector Stores | 100+ loaders | Strong indexing | Optimized retrievers |
 
-  | Maturity | Battle-tested enterprise | Fast-evolving ecosystem |
-
-  | Best For | Complex pipelines | Quick RAG setups |
+  | Maturity | Broad ecosystem | Rapid iteration | Production pipelines |
 
 
   ## Pricing
 
 
-  Free open-source (Apache 2.0). Enterprise support via deepset.
+  Free open-source (Apache 2.0). Enterprise via deepset Cloud.
 brand: deepset
+brand_logo_url: ""
 images:
   - https://haystack.deepset.ai/assets/images/overview_diagram.svg
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

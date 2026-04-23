@@ -1,21 +1,18 @@
 name: Deep Lake
-description: Deep Lake is a vector database designed as a data lake for AI,
-  capable of storing and managing vector embeddings, text, images, and videos.
-  It utilizes a tensor format for efficient querying and integration with AI
-  algorithms, making it suitable for similarity search and machine learning
-  workflows. It is open-source and tailored for handling unstructured and
-  multimodal data, with seamless integration with frameworks like PyTorch and
-  TensorFlow.
+description: AI data lake for multimodal vectors (text/images/videos) with
+  hybrid embedding + metadata search, tensor querying, and versioning. Suited
+  for multimodal RAG datasets. Data lake features distinguish it from pure
+  vector stores like Qdrant.
 source_url: https://deeplake.ai/
-category: Multimodal Vector Stores
+category: Hybrid Search & Multimodal DBs
 tags:
   - open-source
   - vector-search
   - ai
   - multimodal
-  - multimodal
   - vision-text
   - clip-compatible
+  - hybrid-search
 markdown: >-
   # Deep Lake
 
@@ -27,6 +24,12 @@ markdown: >-
   efficient querying and seamless integration with AI algorithms and frameworks
   like PyTorch and TensorFlow. It is suitable for similarity search, machine
   learning workflows, and connecting data to large language models.
+
+
+  ## Hybrid Capabilities
+
+
+  - Vector similarity + tensor/metadata filtering.
 
 
   ## Features
@@ -49,23 +52,19 @@ markdown: >-
   - Designed to work with large language models
 
 
+  ## Use Cases
+
+
+  - Multimodal RAG pipelines.
+
+
+  ## Comparisons vs Pure Vector DBs
+
+
+  Tensor data lake vs vector index focus.
+
+
   ## Pricing
 
   No pricing information provided in the available content.
-
-
-  ## Category
-
-  - Vector Database Engines
-
-
-  ## Tags
-
-  - open-source
-
-  - vector-search
-
-  - ai
-
-  - multimodal
-updated_at: 2026-04-22 22:18
+updated_at: 2026-04-23 01:18

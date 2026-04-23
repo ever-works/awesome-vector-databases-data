@@ -1,13 +1,36 @@
 name: "Approximate Nearest Neighbour Search on Dynamic Datasets: An Investigation"
-description: arXiv paper investigating approximate nearest neighbor search
-  performance on dynamic datasets. Analyzes adaptability and efficiency of
-  vector indexing methods under data updates, relevant for real-world vector
-  database applications.
+description: arXiv 2024 research paper investigating ANN search performance on
+  dynamic datasets with updates. Reviews benchmarks for vector indexing
+  adaptability and efficiency. For academic/research use in dynamic vector DB
+  scenarios; compares to prior static benchmarks and 2026 dynamic trends.
 source_url: https://arxiv.org/abs/2404.19284
-category: Vector Indexing Research
+category: Vector DB Research & Surveys
 tags:
-  - research
-  - ann
-  - dynamic-datasets
+  - research-paper
+  - ann-survey
 featured: false
-updated_at: 2026-04-22 22:18
+markdown: |-
+  ## Overview
+
+  Investigation of ANN on dynamic datasets.
+
+  ## Features
+
+  - Benchmarks on data updates
+  - Indexing method adaptability
+
+  ## Use Cases
+
+  - Research on dynamic vector search
+  - Academic evaluation of ANN
+
+  ## Comparisons
+
+  | Aspect | This Paper | Prior Static | 2026 Trends |
+  |--------|------------|--------------|-------------|
+  | Data   | Dynamic   | Static      | Real-time updates |
+
+  ## Publication
+
+  arXiv:2404.19284
+updated_at: 2026-04-23 01:18

@@ -1,64 +1,38 @@
 name: frugal
-description: A platform focused on transforming AI/ML operations with
-  transparency, control, and cost optimization, including support for vector
-  database tasks.
+description: frugal is an open-source, self-hosted platform for AI/ML operations
+  with vector database support, focusing on cost optimization and transparency.
+  Key features include model-agnostic tracking, alerting, caching, and free use.
+  Useful for RAG prototypes monitoring costs, self-hosted alternative to managed
+  services like Pinecone for reduced expenses.
 source_url: https://github.com/NumexaHQ/frugal
 category: Open Source Vector Databases
 tags:
   - open-source
+  - self-hosted
   - ai
   - ml
-  - vector-database
 markdown: >-
-  # frugal
+  ## Overview
 
 
-  [frugal on GitHub](https://github.com/NumexaHQ/frugal)
-
-
-  **Category:** Open Source  
-
-  **Tags:** open-source, AI, ML, vector-database
-
-
-  ## Description
-
-  frugal is an open-source platform designed to transform AI and ML operations
-  by providing transparency, control, and cost optimization. It offers features
-  related to cost and resource management for large language models (LLMs) and
-  supports tasks involving vector databases.
+  frugal optimizes AI/ML ops with vector DB integration for cost and resource
+  management.
 
 
   ## Features
 
-  - **Model agnostic functionality:** Records unlimited requests from a variety
-  of providers, including OpenAI, Cohere, Anthropic, and more.
 
-  - **Model management:** Tools to manage different AI/ML models.
+  - Model-agnostic request logging
 
-  - **Alerting & notification:** Set up predefined alerting policies based on
-  error rate, thresholds, cost, and other metrics.
+  - Cost/latency tracking
 
-  - **Caching, custom rate limits, and retries:** Improve efficiency and
-  reliability of requests.
+  - Alerting and notifications
 
-  - **Cost and latency tracking:** Monitor costs and latencies by users,
-  applications, and endpoints.
-
-  - **(Planned) Intelligent caching and data retrieval:** Advanced mechanisms
-  for optimizing data access and storage.
-
-  - **(Planned) Cost and resource optimization:** Further tools for automated
-  optimization of resource usage and expenses.
+  - Caching and rate limits
 
 
   ## Pricing
 
-  frugal is open-source software and is available for free.
 
-
-  ## License
-
-  See the [LICENSE](https://github.com/NumexaHQ/frugal/blob/main/LICENSE) file
-  in the repository for details.
-updated_at: 2026-04-21 13:24
+  Free open-source.
+updated_at: 2026-04-23 01:18

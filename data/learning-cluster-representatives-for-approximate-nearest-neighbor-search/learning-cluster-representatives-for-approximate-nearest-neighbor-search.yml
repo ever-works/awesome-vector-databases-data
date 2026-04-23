@@ -1,12 +1,37 @@
 name: Learning Cluster Representatives for Approximate Nearest Neighbor Search
-description: arXiv paper proposing learned cluster representatives to improve
-  approximate nearest neighbor search efficiency. Focuses on vector quantization
-  and clustering techniques for scalable similarity search.
+description: arXiv 2024 research paper proposing learned cluster representatives
+  for efficient ANN search via vector quantization and clustering. Reviews
+  benchmarks for scalability in similarity search. Academic/research use for
+  advanced indexing techniques; contrasts with prior methods and 2026 learned
+  index trends.
 source_url: https://arxiv.org/abs/2412.05921
-category: Vector Indexing Research
+category: Vector DB Research & Surveys
 tags:
-  - research
-  - ann
-  - clustering
+  - research-paper
+  - ann-survey
 featured: false
-updated_at: 2026-04-22 22:18
+markdown: |-
+  ## Overview
+
+  Learned clustering for ANN search.
+
+  ## Features
+
+  - Vector quantization benchmarks
+  - Cluster representative learning
+
+  ## Use Cases
+
+  - Scalable similarity search research
+  - Academic ANN advancements
+
+  ## Comparisons
+
+  | Aspect | This Paper | Prior Quantization | 2026 Learned Indexes |
+  |--------|------------|--------------------|---------------------|
+  | Method | Learned clusters | Static PQ     | Adaptive learning |
+
+  ## Publication
+
+  arXiv:2412.05921
+updated_at: 2026-04-23 01:18

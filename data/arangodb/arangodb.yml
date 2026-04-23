@@ -5,11 +5,10 @@ description: Graph-enhanced vector database enabling hybrid graph+vector search
   databases like Pinecone, it natively models relationships for superior
   connected data reasoning and traversal.
 source_url: https://www.arangodb.com
-category: Graph Enhanced Vector DBs
+category: Graph-Enhanced Vector Databases
 tags:
-  - Graph Vector Hybrid
-  - Knowledge Graph
-  - Multi-Hop RAG
+  - graph-database
+  - kg-rag
 featured: false
 markdown: |-
   ## Overview
@@ -20,10 +19,18 @@ markdown: |-
   - AQL queries
   - Hybrid search
 
+  ## Use Cases
+  - Knowledge graphs
+  - KG-RAG pipelines
+  - Multi-hop retrieval
+
+  ## Comparisons
+  Vs pure vector DBs: Native graph traversal and relationships.
+
   ## Pricing
   Community free (100GB limit), Enterprise.
 brand: arango.ai
 brand_logo_url: https://www.arangodb.com/wp-content/uploads/2024/03/ArangoDB-Logo-Color.svg
 images:
   - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

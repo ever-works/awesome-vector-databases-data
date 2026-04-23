@@ -5,47 +5,33 @@ description: Graph-enhanced vector database enabling hybrid graph+vector search
   databases like Pinecone, it natively models relationships for superior
   connected data reasoning and traversal.
 source_url: https://crates.io/crates/ruvector-graph
-category: Graph Enhanced Vector DBs
+category: Graph-Enhanced Vector Databases
 tags:
-  - Graph Vector Hybrid
-  - Knowledge Graph
-  - Multi-Hop RAG
+  - graph-database
+  - kg-rag
+  - cypher
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  Hypergraph storage with Cypher query language inside RuVector, no separate
-  graph DB needed.
-
+  Hypergraph storage with Cypher query language inside RuVector.
 
   ## Features
-
-
   - Neo4j-style Cypher queries with GNN scoring
-
   - Hyperedge relationships
-
   - Vector embeddings per node/edge
 
-  - WASM and Node.js bindings
-
-
   ## Use Cases
+  - Knowledge graphs
+  - KG-RAG
+  - Product recommendations
 
-
-  - Product recommendations with similarity filters
-
-  - Knowledge graph Q&A
-
-  - Citation graph traversal
-
+  ## Comparisons
+  Vs pure vector: Hypergraph relationships.
 
   ## Pricing
-
-
   Free and open-source.
 brand: ruvnet
 images:
   - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

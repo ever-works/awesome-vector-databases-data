@@ -1,9 +1,11 @@
 name: Upstash Vector
-description: Serverless vector database with pay-per-use pricing and
-  scale-to-zero capability. Fully managed service that scales to billions of
-  vectors.
+description: Upstash Vector is a serverless vector database with scale-to-zero
+  and pay-per-use pricing, scaling to billions of vectors for AI applications.
+  Features include low-latency search and full management. Great for RAG and
+  similarity search; cost-effective alternative to Pinecone with usage-based
+  billing.
 source_url: https://upstash.com/
-category: Serverless Vector DBs
+category: Managed & Serverless Vector Databases
 tags:
   - serverless
   - managed
@@ -17,4 +19,4 @@ markdown: |-
   ## Pricing
   $0.4/100k requests, $0.25/GB storage.
 brand: Upstash
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-23 01:18

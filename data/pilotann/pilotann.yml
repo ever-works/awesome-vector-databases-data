@@ -1,19 +1,16 @@
 name: PilotANN
-description: PilotANN is a memory-bounded GPU-accelerated framework for
-  large-scale vector search, designed to improve performance and efficiency of
-  approximate nearest neighbor (ANN) search workloads, making it relevant as a
-  high-performance engine/component in vector database and vector search
-  systems.
+description: Memory-bounded GPU-accelerated framework for graph-based ANN vector
+  search using CUDA and LibTorch, optimized for large-scale workloads beyond GPU
+  memory. Features batch processing for high efficiency; outperforms CPU-only
+  ANN in speed for similarity search in vector databases.
 source_url: https://github.com/ytgui/PilotANN
-featured: false
-brand: ""
-brand_logo_url: /
-images: null
-category: sdks-libraries
+category: GPU Accelerated Vector Databases
 tags:
   - gpu-acceleration
+  - cuda
   - ann
   - high-performance
+featured: false
 markdown: >-
   ---
 
@@ -23,7 +20,7 @@ markdown: >-
 
   url: https://github.com/ytgui/PilotANN
 
-  category: sdks-libraries
+  category: GPU Accelerated Vector Databases
 
   featured: false
 
@@ -33,6 +30,7 @@ markdown: >-
 
   tags:
     - gpu-acceleration
+    - cuda
     - ann
     - high-performance
 
@@ -70,4 +68,6 @@ markdown: >-
   notes: |
     The repository README focuses on build, environment, and benchmarking instructions. Detailed internal algorithm descriptions, API reference, and configuration options beyond the benchmark script parameters are not included in the provided content.
   ---
-updated_at: 2025-12-25 16:52
+brand: ""
+brand_logo_url: /
+updated_at: 2026-04-23 01:18

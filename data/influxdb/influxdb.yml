@@ -1,55 +1,29 @@
 name: InfluxDB
-description: InfluxDB 3 OSS provides high-performance time series workloads with
-  new support for vector data, making it suitable for AI/ML and vector search
-  applications. Relevant as a vector-capable database.
-source_url: https://www.influxdata.com/products/influxdb3/
+description: InfluxDB 3 OSS is an open-source, self-hosted time-series database
+  with vector data support for AI/ML workloads. Key features include
+  high-ingest, vector search, and Apache 2.0 license. Ideal for RAG with
+  time-series vectors, free self-hosting vs managed Pinecone for cost savings.
+source_url: https://github.com/influxdata/influxdb3
 category: Open Source Vector Databases
 tags:
   - open-source
-  - vector-data
+  - self-hosted
   - time-series
   - vector-search
-markdown: >-
-  # InfluxDB 3 OSS
+markdown: |-
+  ## Overview
 
-
-  [InfluxDB 3 OSS](https://www.influxdata.com/products/influxdb3/) is an
-  open-source time series database with support for vector data, designed for
-  high-performance workloads and modern AI/ML applications.
-
+  InfluxDB 3 OSS handles time-series and vectors for AI.
 
   ## Features
 
-  - **Time Series Database**: Optimized for high-performance ingestion, storage,
-  and querying of time series data.
-
-  - **Vector Data Support**: Native support for vector data, enabling
-  applications in AI/ML and vector search.
-
-  - **Open Source**: Freely available under an open-source license.
-
-  - **Integration Ecosystem**: Works with a variety of client libraries and
-  integrations.
-
-  - **Use Cases**: Suitable for network and infrastructure monitoring, IoT
-  analytics and predictive maintenance, machine learning & AI workloads, and as
-  a modern data historian.
-
-  - **Industry Applications**: Used in manufacturing & IIoT, aerospace, energy &
-  utilities, financial services, consumer IoT, telecommunications, gaming, and
-  healthcare & life sciences.
-
+  - High-performance ingestion
+  - Vector data support
+  - Client integrations
+  - Monitoring/IoT use cases
 
   ## Pricing
 
-  - InfluxDB 3 OSS is open source and available for free download and use.
-
-
-  ## Links
-
-  - [Official Website](https://www.influxdata.com/products/influxdb3/)
-
-  - [Download](https://www.influxdata.com/products/influxdb3/)
-
-  - [Documentation](https://docs.influxdata.com/)
-updated_at: 2026-04-21 13:24
+  Free open-source (Apache 2.0).
+brand_logo_url: https://www.influxdata.com/static/img/logo.svg
+updated_at: 2026-04-23 01:18

@@ -1,14 +1,15 @@
 name: MTEB (Massive Text Embedding Benchmark)
-description: Comprehensive benchmark suite for evaluating embedding models
-  across 58 datasets spanning 112 languages and eight task types including
-  retrieval, clustering, and semantic similarity, the standard for comparing
-  embedding quality.
+description: Evaluates embeddings on 58 datasets/112 languages with
+  retrieval/clustering metrics for vector DB model selection via nDCG/Recall
+  throughput proxies. Features 8 task types for comprehensive perf eval.
+  Standard for RAG embedding choice; text-focused unlike BigVectorBench
+  multimodal, complements ANN-Benchmarks index benchmarks.
 source_url: https://github.com/embeddings-benchmark/mteb
-category: Benchmarks & Evaluation
+category: Benchmarks & Evaluation Tools
 tags:
-  - benchmark
-  - evaluation
-  - leaderboard
+  - benchmarking
+  - performance-evaluation
+  - embeddings
 featured: false
 markdown: >-
   ## Overview
@@ -174,20 +175,8 @@ markdown: >-
   - **Documentation**: https://embeddings-benchmark.github.io/mteb/
 
 
-  ## Integration
-
-
-  - Sentence Transformers
-
-  - Hugging Face
-
-  - Evaluation frameworks
-
-  - Research papers
-
-
   ## Pricing
 
 
   Free and open-source benchmark framework.
-updated_at: 2026-03-14 12:39
+updated_at: 2026-04-23 01:18

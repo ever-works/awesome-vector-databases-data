@@ -1,10 +1,11 @@
 name: Elasticsearch Vector Search
-description: Elasticsearch Vector Search integrates kNN and dense vector fields
-  with Lucene for hybrid lexical-vector search and reranking. Scales
-  horizontally for logs/search use cases with ELSER sparse embeddings. More
-  mature ecosystem than Weaviate for enterprise search but heavier footprint.
+description: Provides hybrid search combining dense/sparse vector similarity
+  (kNN/HNSW) with keyword (BM25/Lucene) matching and reranking for enhanced
+  relevance across text and multimodal data. Supports multimodal RAG use cases
+  in enterprise search. Offers mature ecosystem, analytics integration, and
+  scalability beyond pure vector DBs like Qdrant, though with larger footprint.
 source_url: https://www.elastic.co/elasticsearch/
-category: Hybrid Search Engines
+category: Hybrid Search & Multimodal DBs
 tags:
   - commercial
   - open-source
@@ -18,10 +19,7 @@ tags:
   - rag-optimized
   - metadata-filtering
   - hybrid-search
-  - hybrid-lexical
-  - lucene-based
-  - hybrid-lexical
-  - enterprise-search
+  - multimodal
 featured: true
 markdown: >-
   ## Overview
@@ -30,6 +28,17 @@ markdown: >-
   Elasticsearch provides robust k-nearest neighbor (kNN) search capabilities for
   finding semantically similar vectors using cosine or L2 norm metrics. Retrieve
   results based on semantic meaning rather than exact keyword matches.
+
+
+  ## Hybrid Capabilities
+
+
+  - Combines vector search with full-text keyword search (BM25) and structured
+  filters.
+
+  - Supports graph-like queries via nested documents and aggregations.
+
+  - Hybrid scoring fuses vector and lexical signals.
 
 
   ## kNN Search Methods
@@ -55,6 +64,14 @@ markdown: >-
   - Precise scoring
 
   - Higher computational cost
+
+
+  ## Reranking Features
+
+
+  - Post-retrieval reranking with cross-encoders or ELSER sparse embeddings.
+
+  - Adaptive fusion of hybrid scores for precision/recall balance.
 
 
   ## Recent Enhancements (2026)
@@ -96,33 +113,10 @@ markdown: >-
   - **Sparse Vector**: Support for sparse embeddings
 
 
-  ## Technical Capabilities
-
-
-  ### Indexing
-
-  - HNSW (Hierarchical Navigable Small World)
-
-  - Configurable graph parameters
-
-  - Optimized for query performance
-
-  - Dynamic index updates
-
-
-  ### Query Performance
-
-  - Sub-50ms with filters
-
-  - Scales to millions of documents
-
-  - Concurrent query execution
-
-  - Optimized resource usage
-
-
   ## Use Cases
 
+
+  - Multimodal RAG: Retrieve text, images, logs for LLM augmentation.
 
   - Semantic search applications
 
@@ -135,6 +129,22 @@ markdown: >-
   - Question answering systems
 
   - Fraud detection
+
+
+  ## Comparisons vs Pure Vector DBs (e.g., Qdrant)
+
+
+  | Feature | Elasticsearch | Pure Vector DB |
+
+  |---------|---------------|----------------|
+
+  | Hybrid Search | Native vector+keyword+rerank | Add-on keyword |
+
+  | Analytics/ML | Built-in | Limited |
+
+  | Ecosystem | Enterprise-grade | Developer-focused |
+
+  | Footprint | Heavy | Lightweight |
 
 
   ## Setup Requirements
@@ -225,23 +235,9 @@ markdown: >-
 
 
   All tiers include vector search capabilities. 14-day free trial available.
-
-
-  ## Documentation
-
-
-  Extensive resources:
-
-  - Elasticsearch Labs tutorials
-
-  - Vector search implementation guides
-
-  - API documentation
-
-  - Performance tuning guides
 brand: Elastic
 brand_logo_url: https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
 images:
   - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
   - https://www.elastic.co/assets/images/elasticsearch-logo.png
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-23 01:18

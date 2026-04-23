@@ -1,16 +1,19 @@
 name: rust-vector-db
-description: rust-vector-db is a Rust-based educational project for
-  high-performance vector storage, emphasizing memory safety with HNSW indexing
-  and product quantization. It implements key ANN search algorithms using cosine
-  similarity, Euclidean distance, and dot product metrics for similarity
-  retrieval. Perfect for learning edge AI and embedded use cases; lighter and
-  more focused than production Rust peers like Qdrant.
+description: rust-vector-db is a lightweight, educational vector database
+  implemented in Rust, leveraging memory safety, high performance, and SIMD
+  instructions for efficient vector storage and retrieval. It supports HNSW
+  indexing, product quantization, disk persistence, and distance metrics like
+  cosine similarity, Euclidean, and dot product. Perfect for high-perf embedded
+  and edge AI applications or learning purposes; more performant and safer than
+  Python-based libraries like Chroma.
 source_url: https://github.com/broisnischal/rust-vector-db
 category: Rust Vector Databases
 tags:
-  - Rust Performance
-  - Memory Safe
-  - Embedded Rust
+  - rust-lang
+  - memory-safe
+  - simd
+  - embedded-rust
+  - disk-persistence
 featured: false
 markdown: >-
   ## Overview
@@ -61,4 +64,4 @@ markdown: >-
   Free and open-source.
 images:
   - https://opengraph.githubassets.com/1/broisnischal/rust-vector-db
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

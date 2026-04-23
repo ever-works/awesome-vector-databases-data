@@ -1,12 +1,9 @@
 name: Marqo
-description: Marqo is a multimodal vector database that supports storage of
-  text, image, and video vectors with native cross-modal search capabilities
-  using CLIP embeddings and other models. It provides a unified API for
-  end-to-end multimodal retrieval, simplifying development compared to text-only
-  databases like Qdrant. Key use cases include visual RAG for image-grounded
-  generation and multimedia content retrieval systems.
+description: Multimodal vector DB with native cross-modal (text-to-image/video)
+  search using CLIP/HF models, plus keyword filtering for hybrid retrieval.
+  Unified API simplifies multimodal RAG vs text-only DBs like Qdrant.
 source_url: https://www.marqo.ai/
-category: Multimodal Vector Stores
+category: Hybrid Search & Multimodal DBs
 tags:
   - Cross-Modal
   - Image Video Vectors
@@ -14,6 +11,7 @@ tags:
   - multimodal
   - vision-text
   - clip-compatible
+  - hybrid-search
 featured: false
 markdown: >-
   ## Overview
@@ -22,6 +20,14 @@ markdown: >-
   Marqo is a vector search engine and database designed for multimodal data,
   supporting ingestion and querying of text, images, and videos via a unified
   API.
+
+
+  ## Hybrid Capabilities
+
+
+  - Cross-modal vector search + keyword/metadata filters.
+
+  - Auto-vectorization with reranking support.
 
 
   ## Features
@@ -41,14 +47,14 @@ markdown: >-
   ## Use Cases
 
 
-  - Visual RAG: Retrieve relevant images/videos to augment LLM prompts
+  - Multimodal RAG: Retrieve images/videos for LLM grounding.
 
   - Multimedia retrieval: Search large collections of mixed media content
 
   - E-commerce product discovery with image and text queries
 
 
-  ## Comparison vs Text-Only Qdrant
+  ## Comparison vs Pure Vector DBs (e.g., Qdrant)
 
 
   | Feature | Marqo | Qdrant |
@@ -80,4 +86,4 @@ markdown: >-
 brand: Marqo
 images:
   - https://www.marqo.ai/assets/images/product/demo.gif
-updated_at: 2026-04-22 22:18
+updated_at: 2026-04-23 01:18

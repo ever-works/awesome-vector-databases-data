@@ -1,12 +1,13 @@
 name: ClickHouse Vector Search
-description: Vector similarity search in ClickHouse using HNSW indexes for
-  high-performance approximate nearest-neighbor (ANN) searches. Supports both
-  exact brute-force and indexed search approaches with innovative QBit data type
-  for query-time precision adjustment.
+description: ClickHouse extension for vector similarity search using HNSW
+  indexes, combining analytical SQL queries with ANN in a columnar relational
+  database. Features ACID-like consistency for hybrid workloads on existing
+  ClickHouse infrastructure. More efficient than dedicated VDBs for
+  analytics+vector use cases.
 source_url: https://clickhouse.com/docs/engines/table-engines/mergetree-family/annindexes
-category: Relational Databases
+category: Relational Vector Extensions
 tags:
-  - clickhouse
+  - sql-hybrid
   - hnsw
   - analytics
 featured: false
@@ -105,4 +106,4 @@ markdown: >-
   Free and open-source (Apache 2.0 license). Commercial cloud offerings
   available through ClickHouse Cloud.
 brand: ClickHouse
-updated_at: 2026-03-26 13:53
+updated_at: 2026-04-23 01:18

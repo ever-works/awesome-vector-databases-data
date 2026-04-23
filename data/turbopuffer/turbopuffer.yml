@@ -1,10 +1,12 @@
 name: Turbopuffer
-description: Object storage-first vector database that achieves high performance
-  at dramatically lower costs by separating compute from storage, using
-  chunk-based compression and lazy loading from S3-compatible storage.
-  Serverless.
+description: Turbopuffer is a serverless vector database built on object
+  storage, separating compute from storage for cost-efficient high performance
+  using chunk compression and lazy loading. It supports scalability to billions
+  of vectors with pay-per-use pricing. Suited for RAG and recommendation
+  systems; significantly cheaper than Pinecone for large datasets while
+  maintaining low latency.
 source_url: https://turbopuffer.com/
-category: Serverless Vector DBs
+category: Managed & Serverless Vector Databases
 tags:
   - object-storage
   - s3
@@ -22,4 +24,4 @@ markdown: |-
   ## Pricing
   10x cheaper than traditional DBs.
 brand: Turbopuffer
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-23 01:18

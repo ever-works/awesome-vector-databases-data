@@ -1,12 +1,13 @@
 name: RUMMY
-description: A GPU-accelerated vector query processing system that supports
-  large vector datasets beyond GPU memory. RUMMY uses reordered pipelining to
-  efficiently overlap data transmission and GPU computation, achieving up to
-  135× better performance than traditional GPU-based approaches.
+description: GPU-accelerated vector query processing system using CUDA to handle
+  datasets larger than GPU memory via reordered pipelining and cluster-based
+  retrofitting. Supports batch queries with up to 135x speedup over traditional
+  GPU methods and 23x vs CPU-only for large-scale similarity search and MIPS.
 source_url: https://github.com/pkusys/Rummy
-category: Vector Database Engines
+category: GPU Accelerated Vector Databases
 tags:
   - gpu-acceleration
+  - cuda
   - high-performance
   - scalable
 markdown: >-
@@ -72,4 +73,4 @@ markdown: >-
 
 
   RUMMY is open-source and available on GitHub at pkusys/Rummy.
-updated_at: 2026-03-20 13:13
+updated_at: 2026-04-23 01:18

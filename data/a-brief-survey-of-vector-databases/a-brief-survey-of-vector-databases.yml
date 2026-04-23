@@ -1,46 +1,39 @@
 name: A Brief Survey of Vector Databases
-description: BigDIA 2023 brief survey overviewing vector database landscape,
-  technologies, and applications including ANN algorithms. Details features like
-  core indexing methods; highlights theory/practice gaps in deployment
-  scalability. Use cases for academic selection of vector DB research; contrasts
-  high-level overview with detailed VLDB system surveys and NeurIPS algorithm
-  benchmarks.
+description: BigDIA 2023 survey paper providing a concise overview of vector
+  databases, ANN algorithms, technologies, and applications. Reviews core
+  indexing methods and benchmarks; highlights gaps between theory and practice
+  in scalability. Ideal for academic and research use cases in selecting vector
+  DB literature; compares high-level 2023 overview with prior surveys and
+  emerging 2026 benchmarks.
 source_url: https://doi.org/10.1109/BigDIA60676.2023.10429609
-category: Research Papers Surveys
+category: Vector DB Research & Surveys
 tags:
-  - ANN Theory
-  - Index Survey
-  - Academic Review
+  - research-paper
+  - ann-survey
 featured: true
 markdown: |-
   ## Overview
 
-  Concise survey providing landscape overview of vector databases.
+  BigDIA 2023 brief survey on vector database landscape.
 
   ## Features
 
-  - Technologies and architectures review
-  - ANN search fundamentals
-  - Applications across domains
-
-  ## Theory/Practice Gaps
-
-  - Academic prototypes vs enterprise deployments
-  - Theoretical scalability vs real hardware limits
+  - Review of ANN algorithms and benchmarks
+  - Technologies, architectures, applications
 
   ## Use Cases
 
-  - Quick academic orientation to vector DB field
-  - Literature selection for beginners
+  - Academic orientation to vector DB field
+  - Literature selection for research
 
   ## Comparisons
 
-  | Aspect | This Survey | VLDB | NeurIPS BigANN |
-  |--------|--------------|------|---------------|
-  | Depth | Introductory | Systems | Algorithms |
-  | Focus | Landscape | Architectures | Performance |
+  | Aspect | This Survey (2023) | Prior VLDB Surveys | 2026 Benchmarks |
+  |--------|--------------------|--------------------|-----------------|
+  | Depth  | Introductory      | Systems-focused   | Performance trends |
+  | Focus  | Landscape         | Architectures     | Real-world scalability |
 
   ## Publication
 
   BigDIA 2023
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

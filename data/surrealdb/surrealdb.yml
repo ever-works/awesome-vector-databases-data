@@ -1,16 +1,17 @@
 name: SurrealDB
-description: SurrealDB is a multi-model database supporting vectors, graphs, and
-  documents with SQL-like queries and real-time subscriptions. Features
-  embedded/serverless modes and ACID transactions. Suited for full-stack apps
-  needing vectors + relational data; more versatile than PGVector for
-  non-Postgres stacks.
+description: Multi-model database with vector search, graph queries, full-text
+  keyword search, and real-time subscriptions for hybrid vector+keyword+graph
+  retrieval. Ideal for multimodal RAG in full-stack apps. More versatile than
+  pure vector DBs like Qdrant with embedded/multi-model support.
 source_url: https://surrealdb.com/
-category: Hybrid Search Engines
+category: Hybrid Search & Multimodal DBs
 tags:
   - multi-model
   - embedded
   - real-time
   - sql
+  - hybrid-search
+  - multimodal
 featured: false
 markdown: >-
   # SurrealDB
@@ -18,6 +19,16 @@ markdown: >-
 
   SurrealDB is a multi-model database that supports various data types and query
   languages, including capabilities for handling vector data.
+
+
+  ## Hybrid Capabilities
+
+
+  - Vector similarity search + full-text + graph traversals.
+
+  - SQL-like queries fusing modalities.
+
+  - Reranking via custom functions.
 
 
   ## Products
@@ -60,8 +71,10 @@ markdown: >-
   *   **Command-line tool**: Tooling for managing your SurrealDB database.
 
 
-  ## Solutions
+  ## Use Cases
 
+
+  - Multimodal RAG with vectors, graphs, documents.
 
   *   **Artificial Intelligence**: Simplified and scalable machine learning
   model inference.
@@ -73,10 +86,16 @@ markdown: >-
   scalable solution.
 
 
+  ## Comparisons vs Pure Vector DBs
+
+
+  Versatile multi-model vs vector-only focus.
+
+
   ## Licensing
 
 
   SurrealDB is free to use for production applications in any environment.
 images:
   - https://surrealdb.com/assets/images/logo.svg
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 01:18

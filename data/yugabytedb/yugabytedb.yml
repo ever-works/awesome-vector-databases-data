@@ -1,17 +1,64 @@
 name: YugabyteDB
-description: PostgreSQL-compatible distributed SQL database with built-in vector
-  search capabilities using HNSW indexing. Supports ACID transactions,
-  horizontal sharding, and auto-rebalancing to scale vector workloads from
-  millions to billions of embeddings for AI and GenAI applications. Combines
-  vector similarity search with relational queries including joins and
-  aggregations.
+description: PostgreSQL-compatible distributed SQL DB with HNSW vector search +
+  keyword/full-text + relational/graph joins/aggs for hybrid queries. Scales
+  ACID vector workloads for multimodal RAG. Unifies vectors with SQL unlike pure
+  vector DBs like Qdrant.
 source_url: https://www.yugabyte.com/yugabytedb/
-category: Hybrid Search Engines
+category: Hybrid Search & Multimodal DBs
 tags:
   - distributed
   - sql
   - postgresql-compatible
   - acid
   - hnsw
+  - hybrid-search
+  - multimodal
 featured: false
-updated_at: 2026-04-22 19:20
+markdown: >-
+  ## Overview
+
+
+  PostgreSQL-compatible distributed SQL database with built-in vector search
+  capabilities using HNSW indexing. Supports ACID transactions, horizontal
+  sharding, and auto-rebalancing to scale vector workloads from millions to
+  billions of embeddings for AI and GenAI applications.
+
+
+  ## Hybrid Capabilities
+
+
+  - Vector similarity + SQL keyword/full-text + joins/aggs.
+
+  - Post-query reranking via SQL windows.
+
+
+  ## Key Features
+
+
+  Combines vector similarity search with relational queries including joins and
+  aggregations.
+
+
+  ## Use Cases
+
+
+  - Multimodal RAG blending embeddings with relational data.
+
+
+  ## Comparisons vs Pure Vector DBs (e.g., Qdrant)
+
+
+  | Feature | YugabyteDB | Pure Vector DB |
+
+  |---------|------------|----------------|
+
+  | SQL Hybrid | Full Postgres+vector | Vector only |
+
+  | ACID Scale | Distributed | Often single-node |
+
+
+  ## Pricing
+
+
+  Open source core; enterprise features available.
+updated_at: 2026-04-23 01:18

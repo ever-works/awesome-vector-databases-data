@@ -1,15 +1,19 @@
 name: SingleStore
-description: Real-time distributed SQL database with vector search capabilities,
-  combining transactional, analytical, and vector workloads in a single engine
-  for hybrid AI applications.
+description: Distributed SQL database enabling hybrid workloads with vector
+  similarity search (HNSW) combined with keyword/SQL queries, transactions, and
+  analytics. Supports multimodal RAG by unifying operational data with
+  embeddings. Scales beyond pure vector DBs like Qdrant for mixed
+  transactional/analytical/vector use cases.
 source_url: https://www.singlestore.com/
-category: Hybrid Search Engines
+category: Hybrid Search & Multimodal DBs
 tags:
   - distributed-sql
   - real-time
   - hybrid-workload
   - transactional
   - analytical
+  - hybrid-search
+  - multimodal
 featured: false
 markdown: >-
   ## Overview
@@ -19,6 +23,17 @@ markdown: >-
   search capabilities. It unifies transactional, analytical, and vector
   workloads within a single engine, designed for hybrid AI and data-intensive
   applications.
+
+
+  ## Hybrid Capabilities
+
+
+  - Vector similarity search integrated with full SQL (keyword, joins,
+  aggregations).
+
+  - Hybrid queries fusing vector + relational/graph-like operations.
+
+  - Metadata filtering and reranking via SQL post-processing.
 
 
   ## Key Features
@@ -54,6 +69,8 @@ markdown: >-
   ## Use Cases
 
 
+  - Multimodal RAG: Combine embeddings with structured data for LLM context.
+
   - Hybrid AI applications integrating operational and vector data
 
   - Real-time analytics with ML inference
@@ -63,6 +80,20 @@ markdown: >-
   - Event-driven AI pipelines
 
   - Unified data platform for modern applications
+
+
+  ## Comparisons vs Pure Vector DBs (e.g., Qdrant)
+
+
+  | Feature | SingleStore | Pure Vector DB |
+
+  |---------|-------------|----------------|
+
+  | Hybrid Queries | Native SQL+vector | Vector-focused |
+
+  | Transactions | ACID | Limited |
+
+  | Analytics | Columnar | Basic |
 
 
   ## Pricing
@@ -76,4 +107,4 @@ markdown: >-
 
   - Commitment pricing available for production with volume discounts.
 brand: SingleStore
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 01:18

@@ -1,72 +1,42 @@
 name: A Comprehensive Survey on Vector Database
-description: ArXiv 2023 survey categorizing ANN algorithms
-  (hash/tree/graph/quantization) for vector databases,
-  architecture/storage/retrieval techniques, LLM integration. Details
-  theory/practice gaps in ANNS accuracy-scalability trade-offs. Use cases
-  include academic selection of ANN methods; compares algorithmic depth with
-  VLDB system surveys and NeurIPS benchmarks.
+description: ArXiv 2023 survey paper categorizing ANN algorithms
+  (hash/tree/graph/quantization) for vector databases, covering architecture,
+  storage, retrieval, and LLM integration. Details benchmarks reviewed and
+  accuracy-scalability trade-offs. Suited for academic/research use in ANN
+  method selection; contrasts 2023 algorithmic depth with prior system surveys
+  and 2026 benchmarks.
 source_url: https://arxiv.org/abs/2310.11703
-category: Research Papers Surveys
+category: Vector DB Research & Surveys
 tags:
-  - ANN Theory
-  - Index Survey
-  - Academic Review
+  - research-paper
+  - ann-survey
 featured: true
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  Comprehensive review of vector database technologies focusing on core ANN
-  search algorithms.
-
+  ArXiv 2023 comprehensive review of vector DB technologies and ANN algorithms.
 
   ## Features
 
-
-  - ANNS categorization: hash/tree/graph/quantization-based
-
-  - Vector DB architecture and storage models
-
-  - Retrieval techniques and LLM integration
-
-  - Challenges in high-dimensional search
-
-
-  ## Theory/Practice Gaps
-
-
-  - Optimal theoretical indexes vs real-world filtering support
-
-  - Static batch indexing vs online/dynamic updates
-
-  - Exact NN theory vs approximate practical deployments
-
+  - ANN categorization: hashing, trees, graphs, quantization
+  - Architecture, storage, retrieval techniques
+  - LLM integration benchmarks
 
   ## Use Cases
 
-
-  - Academic reviews of ANN literature
-
-  - Selecting index types for research prototypes
-
-  - Understanding LLM-vector DB synergies
-
+  - Academic ANN literature reviews
+  - Index selection for prototypes
+  - LLM-vector DB research
 
   ## Comparisons
 
-
-  | Aspect | This Survey | VLDB VDBMS | NeurIPS BigANN |
-
-  |--------|-------------|-------------|----------------|
-
-  | Scope | Algorithms + systems | Full systems | Algorithms only |
-
-  | ANN Coverage | Broad categories | Indexing subset | Billion-scale perf |
-
+  | Aspect | This Survey (2023) | Prior VLDB | 2026 Benchmarks |
+  |--------|--------------------|------------|-----------------|
+  | Scope  | Algorithms + systems | Full systems | Recent trends |
+  | ANN    | Broad categories   | Indexing   | Updated perf |
 
   ## Publication
 
-
   ArXiv:2310.11703 (2023)
 images: []
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

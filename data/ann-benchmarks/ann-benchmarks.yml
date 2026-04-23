@@ -1,15 +1,16 @@
 name: ANN-Benchmarks
-description: Benchmark survey reviewing ANN algorithms performance on standard
-  datasets (SIFT1M, Deep1B), detailing QPS/recall trade-offs. Features
-  theory/practice gaps in index selection; academic use for algorithm
-  comparison. Compares algorithm review with VLDB system surveys and NeurIPS
-  billion-scale benchmarks.
+description: Standardized benchmark for QPS/latency/recall tests on ANN
+  libraries using datasets like SIFT1M and Deep1B to compare throughput and
+  accuracy. Features metrics for build time, memory usage across HNSW, FAISS,
+  ScaNN. Used for vector DB index selection during development; contrasts with
+  BigANN billion-scale competitions by focusing on million-scale library
+  performance vs full-system custom benchmarks.
 source_url: https://ann-benchmarks.com/
-category: Benchmarks & Evaluation
+category: Benchmarks & Evaluation Tools
 tags:
-  - ANN Theory
-  - Index Survey
-  - Academic Review
+  - benchmarking
+  - performance-evaluation
+  - ann-libraries
 featured: true
 markdown: |-
   ## Overview
@@ -42,4 +43,4 @@ markdown: |-
   Free open-source.
 images:
   - https://ann-benchmarks.com/static/plots/sift-128-euclidean.hnsw.svg
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 01:18

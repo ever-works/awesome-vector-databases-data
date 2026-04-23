@@ -1,58 +1,56 @@
 name: RAGFlow
-description: Open-source RAG framework for LLM apps providing deep document
-  parsing, automated chunking, hybrid retrieval, fused reranking, and
-  citation-backed generation pipelines.
+description: Open-source RAG engine for LLM apps with deep document parsing,
+  multi-granularity chunking, hybrid retrieval integrating vector stores (e.g.,
+  Elasticsearch), and visual workflow builder.
 source_url: https://ragflow.io/
-category: RAG Frameworks & Pipelines
+category: RAG Frameworks & Tools
 tags:
-  - RAG Pipeline
-  - Retrieval Augmentation
-  - Hybrid RAG
+  - rag-pipeline
+  - llm-rag
+  - document-parsing
+featured: false
 markdown: >-
-  ## RAG Integration
+  ## Overview
 
 
-  RAGFlow streamlines RAG for LLM applications: upload/parse complex docs,
-  chunk/embed into knowledge base, query with hybrid retrieval + reranking,
-  generate traceable responses with source citations.
+  RAGFlow simplifies RAG deployment for LLM apps with end-to-end pipelines from
+  parsing to grounded generation.
 
 
-  ## Features
+  ## Key RAG Features
 
 
-  - **Chunking**: Structure-aware (tables/images), multi-granularity
+  - **Chunking**: Layout-aware (tables, images), adaptive granularity
 
-  - **Retrieval**: Multi-vector recall, full-text + semantic
+  - **Retrieval**: Semantic + keyword hybrid, multi-vector
 
-  - **Rerank**: Fused scoring across strategies
+  - **Vector Store Integrations**: Elasticsearch, Infinity (native)
 
-  - **Generation**: Multi-LLM support, agent fusion
+  - **Reranking**: Multi-strategy fusion, citations
 
 
   ## Use Cases
 
 
-  - Internal knowledge chat
+  - Complex doc analysis (PDFs, scans)
 
-  - Research assistants
+  - RAG chat interfaces
 
-  - Legal/financial doc analysis
-
-  - Customer support bots
+  - Enterprise knowledge bases
 
 
-  ## LlamaIndex vs Haystack
+  ## Comparisons
 
 
-  | Feature | LlamaIndex | Haystack | RAGFlow |
+  | Aspect | LangChain | LlamaIndex | RAGFlow |
 
-  |---------|------------|----------|---------|
+  |--------|-----------|------------|---------|
 
-  | Parsing | Good | Standard | Advanced (tables/images) |
+  | Parsing | Basic | Good | Advanced visual docs |
 
-  | UI | Basic | CLI/API | Visual workflow |
+  | UI/Workflow | Code-based | Index mgmt | Visual builder |
 
-  | Deployment | Cloud | Self-host | Self-host focus |
+  | Deployment | Flexible | Local/cloud | Self-hosted focus |
 
 
   ## Pricing
@@ -62,4 +60,4 @@ markdown: >-
 brand: InfiniFlow
 images:
   - https://ragflow.io/images/architecture.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

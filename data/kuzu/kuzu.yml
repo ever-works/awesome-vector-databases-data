@@ -5,20 +5,30 @@ description: Graph-enhanced vector database enabling hybrid graph+vector search
   databases like Pinecone, it natively models relationships for superior
   connected data reasoning and traversal.
 source_url: https://github.com/kuzudb/kuzu
-category: Graph Enhanced Vector DBs
+category: Graph-Enhanced Vector Databases
 tags:
-  - Graph Vector Hybrid
-  - Knowledge Graph
-  - Multi-Hop RAG
+  - graph-database
+  - kg-rag
+  - cypher
 featured: false
 markdown: |-
   ## Overview
 
   Embedded graph DB with vectors.
 
+  ## Features
+  - Cypher queries
+
+  ## Use Cases
+  - Knowledge graphs
+  - KG-RAG
+
+  ## Comparisons
+  Vs pure vector DBs: Relational traversal.
+
   ## Pricing
   MIT OSS free.
 brand: Kùzu Inc.
 images:
   - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-23 01:18

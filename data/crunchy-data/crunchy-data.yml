@@ -1,12 +1,13 @@
 name: Crunchy Data
-description: PostgreSQL solutions provider offering managed PostgreSQL services
-  for production workloads, including pgvector integration for vector search and
-  embedding similarity queries. Acquired by Snowflake in June 2025 for an
-  estimated $250M as part of a broader PostgreSQL consolidation trend.
+description: Managed PostgreSQL service with pgvector integration for hybrid
+  SQL+vector search on existing Postgres infrastructure. Provides ACID
+  transactions and enterprise features, offering cost-effective alternative to
+  dedicated vector databases.
 source_url: https://www.crunchydata.com/
-category: Relational Databases
+category: Relational Vector Extensions
 tags:
-  - postgresql
+  - sql-hybrid
+  - postgres-ext
   - managed-service
   - enterprise
 markdown: >-
@@ -34,4 +35,17 @@ markdown: >-
   - Open-source PostgreSQL distributions with additional enterprise features
 
   - Compliance-ready configurations for regulated industries
-updated_at: 2026-04-04 23:01
+
+
+  ## Comparisons
+
+
+  Leverages existing Postgres infra vs deploying separate VDBs; ACID compliance
+  included.
+
+
+  ## Pricing
+
+
+  Consult Snowflake pricing post-acquisition.
+updated_at: 2026-04-23 01:18
