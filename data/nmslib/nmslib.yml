@@ -3,7 +3,7 @@ description: A library for efficient similarity search and creation of nearest
   neighbor indices in metric spaces, implementing HNSW, SW-graph, and other ANN
   algorithms, widely used as a backend for vector search engines.
 source_url: https://github.com/nmslib/nmslib
-category: Vector Similarity Libraries
+category: Vector Indexing Libraries
 tags:
   - hnsw
   - sw-graph
@@ -73,4 +73,4 @@ markdown: >
 
 
   NMSLIB is open-source and free to use under the Apache-2.0 license.
-updated_at: 2026-04-21 22:15
+updated_at: 2026-04-23 10:13

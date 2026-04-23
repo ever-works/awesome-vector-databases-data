@@ -5,7 +5,7 @@ description: Milvus Distributed deployment enables horizontal scaling across
   etcd/Pulsar. Suited for enterprise AI apps needing high availability;
   contrasts with serverless options like Pinecone by offering full control.
 source_url: https://milvus.io/
-category: Production & Scalable Vector DBs
+category: Production & Scalable Vector Databases
 tags:
   - scalable
   - production-ready
@@ -76,4 +76,4 @@ brand: Milvus
 brand_logo_url: https://milvus.io/img/milvus-logo.svg
 images:
   - https://milvus.io/img/milvus-architecture.png
-updated_at: 2026-04-23 07:12
+updated_at: 2026-04-23 10:13

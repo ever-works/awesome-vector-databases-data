@@ -4,7 +4,7 @@ description: AI data lake for multimodal vectors (text/images/videos) with
   for multimodal RAG datasets. Data lake features distinguish it from pure
   vector stores like Qdrant.
 source_url: https://deeplake.ai/
-category: Hybrid Search & Multimodal DBs
+category: Multimodal Vector Databases
 tags:
   - open-source
   - vector-search
@@ -67,4 +67,4 @@ markdown: >-
   ## Pricing
 
   No pricing information provided in the available content.
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 10:13

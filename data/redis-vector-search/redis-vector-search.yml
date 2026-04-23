@@ -1,9 +1,8 @@
 name: Redis Vector Search
-description: Redis Vector Search extends Redis with vector similarity
-  capabilities using HNSW and Flat indexes, supporting hybrid search with JSON
-  payloads and real-time ingestion. Ideal for caching and low-latency RAG in
-  microservices; faster than Elasticsearch for simple vector ops but less suited
-  for complex analytics.
+description: "Redis Vector Search adds k-NN to Redis for real-time vector
+  similarity on in-memory data, with HNSW/Flat indexes, filtering. Features:
+  sub-ms latency, JSON payloads, modules. Use cases: caching + search, session
+  stores. Vs dedicated VDBs: leverages Redis speed/ecosystem."
 source_url: https://redis.io/solutions/vector-database/
 category: Key-Value Vector Stores
 tags:
@@ -12,6 +11,11 @@ tags:
   - redis-compatible
   - redis-module
   - hybrid-bm25
+  - real-time-cache
+  - redis-module
+  - in-memory-vdb
+  - sub-ms-latency
+  - redis-compatible
   - real-time-cache
 markdown: >-
   ## Overview
@@ -98,4 +102,5 @@ images:
   - https://redis.io/wp-content/uploads/2023/06/redis-logo.svg
   - https://redis.io/docs/latest/develop/get-started/vss/assets/redis-vss-logo.png
   - https://redis.io/wp-content/uploads/2023/10/redis-vector-search-diagram.png
-updated_at: 2026-04-22 16:16
+  - https://redis.io/wp-content/uploads/2021/01/redis-logo.svg
+updated_at: 2026-04-23 10:13

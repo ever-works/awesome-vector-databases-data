@@ -4,7 +4,7 @@ description: Graph-vector DB for multimodal data (images/videos/docs/embeddings)
   Enables complex multimodal RAG queries. Combines FAISS vectors with graphs
   unlike pure vector DBs like Qdrant.
 source_url: https://www.aperturedata.io/
-category: Hybrid Search & Multimodal DBs
+category: Multimodal Vector Databases
 tags:
   - multimodal
   - graph-database
@@ -113,4 +113,4 @@ markdown: >-
 
   Available as a unified platform for industries including healthcare, retail,
   and finance, supporting both cloud and on-premises deployments.
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 10:13

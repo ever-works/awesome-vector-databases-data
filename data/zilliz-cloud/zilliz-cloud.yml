@@ -1,10 +1,9 @@
 name: Zilliz Cloud
-description: Zilliz Cloud is a managed vector database powered by Milvus,
-  delivering GPU-accelerated search at petabyte scale with auto-scaling, global
-  replication, and enterprise security like RBAC. Key features include
-  high-performance Cardinal engine, monitoring, and backups for production AI
-  apps. Ideal for RAG and large-scale similarity search; provides managed SLAs
-  and ease surpassing self-hosted Milvus.
+description: "Zilliz Cloud is a managed Milvus service for scalable vector
+  search, supporting petabyte-scale data with real-time ingestion and GPU
+  acceleration. Features auto-scaling, multi-cloud, observability integrations.
+  Enterprise use cases: e-commerce search, drug discovery. Vs self-hosted
+  Milvus: zero-ops; vs Pinecone: open-core heritage."
 source_url: https://zilliz.com/
 category: Managed Vector Databases
 tags:
@@ -12,6 +11,10 @@ tags:
   - milvus-based
   - gpu-scale
   - enterprise
+  - milvus-managed
+  - petabyte-scale
+  - enterprise-vector
+  - auto-scaling
 featured: false
 markdown: >-
   # Zilliz Cloud
@@ -45,4 +48,5 @@ images:
   - https://zilliz.com/assets/images/logo.svg
   - https://zilliz.com/assets/images/logo.png
   - https://zilliz.com/assets/images/platform-diagram.png
-updated_at: 2026-04-23 04:24
+  - https://zilliz.com/logo.svg
+updated_at: 2026-04-23 10:13
