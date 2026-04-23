@@ -2,7 +2,7 @@ name: txtai
 description: Open-source embeddings database for semantic search, workflows, and
   AI applications with vector storage and retrieval capabilities.
 source_url: https://github.com/neuml/txtai
-category: Vector Database
+category: Vector Databases
 tags:
   - open-source
   - embeddings
@@ -30,4 +30,4 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

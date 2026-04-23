@@ -2,7 +2,7 @@ name: Algolia
 description: Search platform with vector search capabilities for fast and
   relevant AI-powered recommendations and discovery.
 source_url: https://www.algolia.com/
-category: Vector Database
+category: Vector Databases
 tags:
   - managed
   - search-engine
@@ -23,4 +23,4 @@ markdown: |-
 
   Freemium model with pay-as-you-go.
 brand: Algolia
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

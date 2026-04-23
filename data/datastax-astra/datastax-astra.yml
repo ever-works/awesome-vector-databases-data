@@ -3,7 +3,7 @@ description: Managed database built on Cassandra with vector search
   capabilities, excelling in real-time updates and immediate consistency. Ideal
   for operational workloads requiring high throughput.
 source_url: https://www.datastax.com/products/astra-db
-category: Vector Database
+category: Vector Databases
 tags:
   - managed
   - real-time
@@ -32,4 +32,4 @@ markdown: >-
 
   Enterprise, contact sales.
 brand: DataStax
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

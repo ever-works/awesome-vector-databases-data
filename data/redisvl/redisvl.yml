@@ -1,14 +1,14 @@
 name: RedisVL
-description: Redis Vector Library extending Redis for sub-millisecond latency
-  vector lookups and semantic caching. Ideal for real-time AI agents and
-  high-traffic applications. Delivers the fastest retrieval speeds in the
-  industry for smaller to mid-sized vector sets.
+description: RedisVL is a Python client library simplifying vector search
+  workflows on Redis, with pipeline abstractions for ingestion, search, and
+  eval. Integrates with OpenAI/HuggingFace embeddings. For RAG/agents;
+  streamlines Redis vector usage vs raw commands.
 source_url: https://redis.io/docs/latest/integrate/redisvl/
-category: Vector Database
+category: Vector Databases
 tags:
-  - low-latency
-  - real-time
-  - caching
+  - python-client
+  - rag-pipeline
+  - open-source
 featured: false
 markdown: >-
   ## Overview
@@ -30,4 +30,4 @@ markdown: >-
 
 
   - Fastest retrieval speeds for smaller to mid-sized vector sets.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

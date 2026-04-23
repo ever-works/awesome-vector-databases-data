@@ -3,7 +3,7 @@ description: All-in-one AI framework for semantic search, LLM orchestration, and
   language model workflows. Supports integration with vector databases for RAG
   applications.
 source_url: https://haystack.deepset.ai/
-category: Libraries
+category: Embedded Vector Libraries
 tags:
   - open-source
   - semantic-search
@@ -31,4 +31,4 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

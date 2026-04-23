@@ -1,16 +1,16 @@
 name: AstraDB
-description: AstraDB (also known as Astra DB by DataStax) is a cloud-native
-  vector database built on Apache Cassandra, supporting real-time AI
-  applications with scalable vector search. It is designed for large-scale
-  deployments and features a user-friendly Data API, robust vector capabilities,
-  and automation for AI-powered applications.
+description: Astra DB (DataStax Astra) is a managed Cassandra-based NoSQL
+  database with built-in vector search via Stargate API, supporting ANN with
+  custom metrics and hybrid queries. Serverless, multi-cloud, with $25 free
+  tier. Suited for scalable apps needing vectors + wide-column storage; competes
+  with Pinecone on durability.
 source_url: https://www.datastax.com/products/datastax-astra
-category: vector-database-engines
+category: Managed Vector Databases
 tags:
-  - cloud-native
-  - vector-search
-  - scalable
-  - ai
+  - cassandra-based
+  - serverless
+  - multi-cloud
+  - hybrid
 markdown: >
   # AstraDB
 
@@ -79,4 +79,4 @@ markdown: >
   ## Tags
 
   cloud-native, vector-search, scalable, ai
-updated_at: 2025-05-13 22:29
+updated_at: 2026-04-23 16:30

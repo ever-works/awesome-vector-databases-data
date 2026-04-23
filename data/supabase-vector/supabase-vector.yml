@@ -1,14 +1,18 @@
 name: Supabase Vector
-description: Open-source toolkit for developing AI applications using Postgres
-  and pgvector. Provides managed PostgreSQL with built-in vector support, Python
-  client (vecs), and AI features. This is a commercial managed service with OSS
-  components.
+description: Supabase Vector enables pgvector in Supabase's managed Postgres,
+  providing serverless vector search with auth, realtime, and edge functions.
+  Easy dashboard for indexes. For full-stack apps; managed pgvector alternative
+  to self-hosted.
 source_url: https://supabase.com/vector
-category: Managed & Serverless Vector DBs
+category: Managed Vector Databases
 tags:
   - commercial
   - open-source
   - postgresql
+  - managed-postgres
+  - realtime
+  - serverless
+  - pgvector-based
 featured: false
 markdown: >-
   ## Overview
@@ -180,4 +184,5 @@ markdown: >-
 
   All plans include pgvector and vector capabilities. Self-hosting is free.
 brand: Supabase
-updated_at: 2026-04-22 13:39
+brand_logo_url: https://supabase.com/assets/images/supabase-logo.svg
+updated_at: 2026-04-23 16:30

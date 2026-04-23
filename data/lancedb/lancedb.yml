@@ -1,15 +1,16 @@
 name: LanceDB
-description: Open-source, serverless vector database storing data in persistent
-  disk format, designed to run on edge devices or serverless functions without
-  an always-on server. Suited for mobile apps, edge computing, and
-  cost-efficient data lakes. Provides blazing fast zero-copy reads from cloud
-  storage or local disk.
+description: LanceDB is an open-source vector database built on the Lance
+  columnar format, enabling 100% vector search with SQL queries, zero-copy
+  access, and disk-based persistence without index staleness. Integrates with
+  Pandas/Polars for dataframes and supports multimodal data. Great for analytics
+  + AI workflows; differentiates from Chroma with SQL and columnar efficiency.
 source_url: https://lancedb.com/
-category: Vector Database
+category: Hybrid Vector Stores
 tags:
+  - sql
+  - columnar
+  - multimodal
   - open-source
-  - serverless
-  - edge
 featured: false
 markdown: >-
   ## Overview
@@ -34,4 +35,4 @@ markdown: >-
 
 
   - Blazing fast zero-copy reads directly from cloud storage or local disk.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

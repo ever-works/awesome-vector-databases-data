@@ -1,12 +1,16 @@
 name: Zilliz Cloud
-description: Fully managed cloud service for Milvus vector database, enabling
-  scalable vector similarity search.
+description: Zilliz Cloud is a fully managed vector database service powered by
+  Milvus, offering serverless scaling, real-time analytics, and enterprise
+  features like VPC peering. Supports billion-scale vectors with DiskANN/HNSW.
+  Managed alternative to self-hosted Milvus; ideal for production AI without
+  infra management.
 source_url: https://zilliz.com/cloud
-category: Vector Database
+category: Managed Vector Databases
 tags:
   - managed
-  - milvus
-  - cloud
+  - milvus-based
+  - serverless
+  - enterprise
 featured: false
 markdown: |-
   ## Overview
@@ -23,4 +27,4 @@ markdown: |-
 
   Free tier, usage-based billing.
 brand: Zilliz
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

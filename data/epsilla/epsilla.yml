@@ -2,7 +2,7 @@ name: Epsilla
 description: Open-source vector database designed for high performance
   similarity search and AI/ML workloads.
 source_url: https://www.epsilla.ai/
-category: Vector Database
+category: Vector Databases
 tags:
   - open-source
   - high-performance
@@ -22,4 +22,4 @@ markdown: |-
 
   Open-source free, cloud pricing available.
 brand: Epsilla
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

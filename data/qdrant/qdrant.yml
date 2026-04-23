@@ -1,14 +1,17 @@
 name: Qdrant
-description: Open-source vector database with excellent performance, high recall
-  rates using advanced ANN methods, and customizable distance metrics. Features
-  compact design, hybrid search combining vectors and filters, dynamic updates,
-  and metadata search. Compatible with Python and JavaScript via simple API.
+description: Qdrant is a high-performance vector search engine and database with
+  Rust-based core for speed and safety, supporting filtered searches, payload
+  storage, and custom HNSW configurations. Offers on-prem, cloud, and edge
+  deployments with binary quantization for efficiency. Great for real-time
+  recommendation, anomaly detection, and neural search; more lightweight than
+  Milvus for edge computing.
 source_url: https://qdrant.tech/
-category: Vector Database
+category: Vector Databases
 tags:
+  - rust
+  - edge-deployable
+  - filtered-search
   - open-source
-  - hybrid-search
-  - high-recall
 featured: false
 markdown: |-
   ## Overview
@@ -26,4 +29,5 @@ markdown: |-
   ## Pricing
 
   Cost-effective for self-hosting as open-source.
-updated_at: 2026-04-23 16:13
+brand_logo_url: https://raw.githubusercontent.com/qdrant/qdrant/main/web/logo.svg
+updated_at: 2026-04-23 16:30

@@ -1,7 +1,7 @@
 name: KBD.AI
 description: Vector database optimized for knowledge bases and AI applications.
 source_url: https://kbd.ai/
-category: Vector Database
+category: Vector Databases
 tags:
   - knowledge-base
   - ai
@@ -21,4 +21,4 @@ markdown: |-
 
   Cloud service with pricing tiers.
 brand: KBD.AI
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

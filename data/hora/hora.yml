@@ -1,7 +1,7 @@
 name: Hora
 description: High-performance vector search library with product quantization.
 source_url: https://github.com/hora-search/hora
-category: Libraries
+category: Embedded Vector Libraries
 tags:
   - open-source
   - quantization
@@ -20,4 +20,4 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

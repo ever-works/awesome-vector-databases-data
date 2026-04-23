@@ -2,7 +2,7 @@ name: Meilisearch
 description: Open-source search engine with support for vector and hybrid search
   for fast semantic retrieval.
 source_url: https://www.meilisearch.com/
-category: Vector Database
+category: Vector Databases
 tags:
   - open-source
   - hybrid-search
@@ -23,4 +23,4 @@ markdown: |-
 
   Free open-source, cloud hosted plans.
 brand: Meilisearch
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

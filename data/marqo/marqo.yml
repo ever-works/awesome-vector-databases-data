@@ -2,7 +2,7 @@ name: Marqo
 description: Managed vector database and search engine optimized for AI
   applications with multimodal search capabilities.
 source_url: https://www.marqo.ai/
-category: Vector Database
+category: Vector Databases
 tags:
   - managed
   - multimodal
@@ -31,4 +31,4 @@ markdown: >-
 
   Free tier available, paid plans for production.
 brand: Marqo
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

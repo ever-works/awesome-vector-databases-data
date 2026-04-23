@@ -1,15 +1,20 @@
 name: Elasticsearch
-description: Elasticsearch with integrated high-performance vector search,
-  leading in hybrid ranking that blends traditional text scoring with semantic
-  vector similarity. Suited for legacy enterprise search migrations and
-  keyword-heavy RAG. Offers mature security features and enterprise-grade
-  observability.
+description: Elasticsearch is a distributed search and analytics engine with
+  dense vector search capabilities via kNN plugin, supporting hybrid
+  lexical+vector queries, approximate search with HNSW, and integrations with
+  ELSER for sparse vectors. Scales horizontally with Lucene segments. Ideal for
+  log analytics + semantic search; more mature ecosystem than Vespa for
+  enterprise logs.
 source_url: https://www.elastic.co/elasticsearch/
-category: Vector Database
+category: Hybrid Vector Stores
 tags:
   - hybrid-search
   - enterprise
   - search-engine
+  - distributed-search
+  - knn-plugin
+  - hybrid-lexical
+  - open-source
 featured: false
 markdown: |-
   ## Overview
@@ -27,4 +32,5 @@ markdown: |-
   - Mature security features
   - Enterprise-grade observability.
 brand: Elastic
-updated_at: 2026-04-23 16:13
+brand_logo_url: https://www.elastic.co/assets/branding/product-logos/elasticsearch-logo.svg
+updated_at: 2026-04-23 16:30

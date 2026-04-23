@@ -1,15 +1,17 @@
 name: Chroma
-description: Vector database designed specifically to query high-dimensional
-  vector embeddings. Features an intuitive API for easy integration, high
-  accuracy with impressive recall rates, and support for embedding-based search
-  and advanced ANN methods. Suitable for small-to-medium workloads, open-source
-  with minimal deployment costs.
+description: Chroma is an open-source embedding database optimized for LLM
+  applications, providing in-memory or persistent storage with automatic
+  indexing via HNSW. It features easy Python/JS APIs, multi-modal support, and
+  integrations with LangChain/LlamaIndex for RAG pipelines. Suited for
+  developers building AI prototypes quickly; lighter and more embeddable than
+  full databases like Weaviate.
 source_url: https://www.trychroma.com/
-category: Vector Database
+category: Embedded Vector Libraries
 tags:
   - open-source
-  - easy-integration
-  - ANN
+  - llm-friendly
+  - persistent
+  - hnsw
 featured: false
 markdown: |-
   ## Overview
@@ -27,4 +29,4 @@ markdown: |-
   ## Pricing
 
   Open-source with minimal deployment costs unless scaled heavily.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

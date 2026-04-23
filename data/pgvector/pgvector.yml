@@ -1,13 +1,18 @@
 name: pgvector
-description: PostgreSQL extension enabling native vector search support. Allows
-  similarity searches on high-dimensional vectors within a relational database,
-  suitable for small datasets with mixed relational and vector workloads.
+description: pgvector is an open-source PostgreSQL extension that adds vector
+  similarity search capabilities to Postgres databases. It supports HNSW and
+  IVFFlat indexes for efficient approximate nearest neighbor (ANN) searches,
+  integrates seamlessly with SQL for hybrid queries, and handles up to thousands
+  of dimensions. Perfect for developers already using Postgres wanting to add
+  vector capabilities without new infrastructure; compares favorably to
+  dedicated DBs like Weaviate for cost-effective, relational vector storage.
 source_url: https://github.com/pgvector/pgvector
-category: Vector Database
+category: Vector Databases
 tags:
-  - open-source
   - postgres-extension
-  - relational
+  - sql-compatible
+  - open-source
+  - hybrid
 featured: false
 markdown: |-
   ## Overview
@@ -28,4 +33,4 @@ markdown: |-
   ## Pricing
 
   Free as open-source extension.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

@@ -4,7 +4,7 @@ description: HNSWLIB is an open-source C++ library for approximate nearest
   algorithm. It is designed for high-performance similarity search in
   large-scale datasets with various distance metrics.
 source_url: https://github.com/nmslib/hnswlib
-category: Vector Databases
+category: Embedded Vector Libraries
 tags:
   - open-source
   - hnsw
@@ -28,4 +28,4 @@ markdown: >-
 
   HNSWLIB can be installed using pip, and its API is easy to use with Python and
   C++ examples provided in the official repository.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

@@ -3,7 +3,7 @@ description: In-memory data store with vector similarity search via Redis
   Stack/RediSearch, optimized for low-latency, high-QPS retrieval suitable as a
   caching or hot-set layer in AI applications.
 source_url: https://redis.io/search/
-category: Vector Database
+category: Vector Databases
 tags:
   - low-latency
   - in-memory
@@ -44,4 +44,4 @@ markdown: >-
 
   - Cloud + self-hosted infrastructure costs
 brand: Redis
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

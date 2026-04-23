@@ -1,11 +1,12 @@
 name: Milvus Distributed
-description: Milvus Distributed deployment enables horizontal scaling across
-  clusters for production workloads handling petabyte-scale vector data.
-  Features leaderless architecture, sharding, and fault-tolerance via
-  etcd/Pulsar. Suited for enterprise AI apps needing high availability;
-  contrasts with serverless options like Pinecone by offering full control.
+description: Milvus Distributed is the scalable cluster deployment of Milvus,
+  enabling horizontal scaling across multiple nodes for handling petabyte-scale
+  vector data. It features fault-tolerant architecture with etcd coordination,
+  dynamic sharding, and load balancing for high availability. Use for enterprise
+  AI at massive scale like multimodal search; extends standalone Milvus for
+  production.
 source_url: https://milvus.io/
-category: Production & Scalable Vector Databases
+category: Vector Databases
 tags:
   - scalable
   - production-ready
@@ -13,6 +14,9 @@ tags:
   - cluster
   - sharding
   - high-availability
+  - distributed-cluster
+  - high-availability
+  - etcd
 featured: false
 markdown: >-
   ## Overview
@@ -76,4 +80,4 @@ brand: Milvus
 brand_logo_url: https://milvus.io/img/milvus-logo.svg
 images:
   - https://milvus.io/img/milvus-architecture.png
-updated_at: 2026-04-23 10:13
+updated_at: 2026-04-23 16:30

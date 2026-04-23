@@ -1,7 +1,7 @@
 name: USearch
 description: Lightweight and fast library for approximate nearest neighbor search.
 source_url: https://github.com/unum-cloud/usearch
-category: Libraries
+category: Embedded Vector Libraries
 tags:
   - open-source
   - lightweight
@@ -21,4 +21,4 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

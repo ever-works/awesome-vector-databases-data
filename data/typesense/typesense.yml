@@ -2,7 +2,7 @@ name: Typesense
 description: Open-source search engine with typo-tolerant search and vector
   search capabilities.
 source_url: https://typesense.org/
-category: Vector Database
+category: Vector Databases
 tags:
   - open-source
   - typo-tolerant
@@ -31,4 +31,4 @@ markdown: >-
 
   Open-source free, cloud plans.
 brand: Typesense
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30

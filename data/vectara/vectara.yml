@@ -2,7 +2,7 @@ name: Vectara
 description: Managed vector database platform for semantic search and retrieval
   augmented generation (RAG) in AI applications.
 source_url: https://vectara.com/
-category: Vector Database
+category: Vector Databases
 tags:
   - managed
   - rag
@@ -31,4 +31,4 @@ markdown: >-
 
   Usage-based pricing.
 brand: Vectara
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-23 16:30
