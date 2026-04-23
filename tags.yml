@@ -1844,3 +1844,13 @@
   name: Kubernetes Native
 - id: graph-search
   name: Graph Search
+- id: python-embeddable
+  name: Python Embeddable
+- id: local-prototyping
+  name: Local Prototyping
+- id: cluster
+  name: Cluster
+- id: rag-ready
+  name: Rag Ready
+- id: rust-native
+  name: Rust Native
