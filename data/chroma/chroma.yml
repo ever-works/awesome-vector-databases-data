@@ -6,7 +6,7 @@ description: Chroma is an open-source embedding database optimized for LLM
   developers building AI prototypes quickly; lighter and more embeddable than
   full databases like Weaviate.
 source_url: https://www.trychroma.com/
-category: Embedded Vector Libraries
+category: Edge Vector Databases
 tags:
   - open-source
   - llm-friendly
@@ -29,4 +29,4 @@ markdown: |-
   ## Pricing
 
   Open-source with minimal deployment costs unless scaled heavily.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-23 19:19

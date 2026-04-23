@@ -1,7 +1,7 @@
 name: sqlite-vec
 description: SQLite extension for efficient vector similarity search.
 source_url: https://github.com/asg017/sqlite-vec
-category: Embedded Vector Libraries
+category: Libraries
 tags:
   - sqlite
   - open-source
@@ -21,4 +21,4 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-23 19:19

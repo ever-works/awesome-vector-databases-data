@@ -4,7 +4,7 @@ description: Idiomatic open-source Java library for building LLM-powered
   stores, simplifying tool calling, agents, and RAG. Seamlessly integrates with
   Quarkus and Spring Boot.
 source_url: https://langchain4j.dev/
-category: Embedded Vector Libraries
+category: Libraries
 tags:
   - open-source
   - java
@@ -33,4 +33,4 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-23 19:19

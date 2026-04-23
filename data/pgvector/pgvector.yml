@@ -7,7 +7,7 @@ description: pgvector is an open-source PostgreSQL extension that adds vector
   vector capabilities without new infrastructure; compares favorably to
   dedicated DBs like Weaviate for cost-effective, relational vector storage.
 source_url: https://github.com/pgvector/pgvector
-category: Vector Databases
+category: Postgres Vector Extensions
 tags:
   - postgres-extension
   - sql-compatible
@@ -33,4 +33,4 @@ markdown: |-
   ## Pricing
 
   Free as open-source extension.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-23 19:19

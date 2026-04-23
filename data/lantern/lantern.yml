@@ -1,17 +1,15 @@
 name: Lantern
-description: Lantern provides disk persistence in PostgreSQL for vector indexes,
-  enabling out-of-core search on billions of vectors unlike pure in-memory
-  systems. Features tiered HNSW indexing with SIMD optimizations for sub-ms
-  queries. Suited for large datasets in real-time AI apps; contrasts HNSW by
-  leveraging database disk storage.
+description: Lantern is a multimodal vector database for images/videos/text,
+  enabling fast similarity search across media types with embedding models.
+  Supports GPU acceleration and disk persistence. Tailored for computer vision
+  AI apps; unique multimodal focus vs. text-only like pgvector, integrates with
+  CLIP-like models.
 source_url: https://lantern.dev/
-category: Disk-Optimized Vector Databases
+category: Multimodal Vector DBs
 tags:
-  - disk-persistent
-  - out-of-core
-  - rust
-  - hnsw
-  - postgresql
+  - Multimodal
+  - Computer Vision
+  - GPU
 featured: false
 markdown: >-
   # Lantern
@@ -72,4 +70,5 @@ markdown: >-
 brand_logo_url: https://lantern.dev/logo.svg
 images:
   - https://lantern.dev/logo.svg
-updated_at: 2026-04-23 01:18
+  - https://lantern.dev/logo.png
+updated_at: 2026-04-23 19:19

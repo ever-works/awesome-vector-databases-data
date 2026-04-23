@@ -2,7 +2,7 @@ name: LlamaIndex
 description: Data framework for building LLM applications with vector store
   integrations and retrieval capabilities.
 source_url: https://www.llamaindex.ai/
-category: Embedded Vector Libraries
+category: Libraries
 tags:
   - open-source
   - llm
@@ -30,4 +30,4 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-23 19:19

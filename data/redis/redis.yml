@@ -1,17 +1,16 @@
 name: Redis
-description: Redis is an in-memory data structure store that serves as a vector
-  database via RediSearch module, supporting HNSW/Flat indexes for ANN,
-  full-text search hybrid, and secondary indexing. Features JSON support,
-  modules ecosystem, and clustering for scalability. Popular for caching +
-  vector search in real-time apps; more versatile than dedicated VDBs like
-  Qdrant for multi-purpose use.
+description: Redis is an in-memory data store with vector search capabilities
+  via RediSearch/RedisVL modules, supporting HNSW/Flat indexes, filtering, and
+  high-throughput queries. Blazing fast for caching + semantic search in
+  real-time apps. Popular for RAG sidecars; combines key-value simplicity with
+  vector ops, lower latency than Postgres extensions but lacks persistence by
+  default.
 source_url: https://redis.io/
 category: Hybrid Vector Stores
 tags:
-  - in-memory
-  - hybrid-search
-  - clustering
-  - open-source
+  - In-Memory
+  - High Throughput
+  - Module Based
 featured: false
 markdown: >-
   ## Overview
@@ -105,4 +104,5 @@ markdown: >-
 brand_logo_url: https://redis.io/docs/about/images/redis_logo.svg
 images:
   - https://redis.io/docs/latest/develop/get-started/images/logo.svg
-updated_at: 2026-04-23 16:30
+  - https://redis.io/docs/about/pictures/redis-logo.png
+updated_at: 2026-04-23 19:19

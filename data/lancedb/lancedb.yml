@@ -1,16 +1,16 @@
 name: LanceDB
 description: LanceDB is an open-source vector database built on the Lance
-  columnar format, enabling 100% vector search with SQL queries, zero-copy
-  access, and disk-based persistence without index staleness. Integrates with
-  Pandas/Polars for dataframes and supports multimodal data. Great for analytics
-  + AI workflows; differentiates from Chroma with SQL and columnar efficiency.
+  columnar data format, enabling fast vector search on disk without loading
+  everything into memory. Features disk-based indexing (IVF-PQ), SQL queries,
+  and multimodal support. Great for embedded RAG and large datasets; more
+  storage-efficient than Chroma for persistent local use, integrates well with
+  DuckDB/Polars.
 source_url: https://lancedb.com/
-category: Hybrid Vector Stores
+category: RAG-Optimized Vector DBs
 tags:
-  - sql
-  - columnar
-  - multimodal
-  - open-source
+  - Disk-Based
+  - Columnar
+  - SQL Queries
 featured: false
 markdown: >-
   ## Overview
@@ -35,4 +35,6 @@ markdown: >-
 
 
   - Blazing fast zero-copy reads directly from cloud storage or local disk.
-updated_at: 2026-04-23 16:30
+images:
+  - https://lancedb.com/favicon.ico
+updated_at: 2026-04-23 19:19

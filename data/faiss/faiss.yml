@@ -1,17 +1,16 @@
 name: Faiss
-description: Faiss (Facebook AI Similarity Search) is a C++ library for
-  efficient similarity search and clustering of dense vectors, supporting GPU
-  acceleration, IVF, PQ quantization, and HNSW indexes. Used standalone or
-  integrated into pipelines; excels in billion-scale ANN with low latency. Ideal
-  for research and production ML; often paired with vector DBs like LanceDB for
-  storage.
+description: Faiss (Facebook AI Similarity Search) is a library for efficient
+  similarity search and clustering of dense vectors, supporting GPU acceleration
+  and advanced indexes like IVF, PQ, HNSW. CPU/GPU optimized for billion-scale
+  datasets. Core building block for many vector DBs; use directly for custom
+  pipelines or via wrappers like LangChain – faster on GPU than CPU-only
+  hnswlib.
 source_url: https://faiss.ai/
-category: Embedded Vector Libraries
+category: Libraries
 tags:
-  - c++
-  - gpu
-  - quantization
-  - ann-library
+  - GPU Support
+  - ANN Library
+  - Meta AI
 featured: false
 markdown: >-
   ## Features
@@ -32,4 +31,6 @@ markdown: >-
   Faiss can be installed using pip or conda, and its API is well-documented with
   examples available in the official repository.
 brand: Meta AI
-updated_at: 2026-04-23 16:30
+images:
+  - https://faiss.ai/assets/logo.svg
+updated_at: 2026-04-23 19:19

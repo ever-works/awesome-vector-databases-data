@@ -4,7 +4,7 @@ description: Memory-bounded GPU-accelerated framework for graph-based ANN vector
   memory. Features batch processing for high efficiency; outperforms CPU-only
   ANN in speed for similarity search in vector databases.
 source_url: https://github.com/ytgui/PilotANN
-category: GPU Accelerated Vector Databases
+category: GPU-Accelerated Vector DBs
 tags:
   - gpu-acceleration
   - cuda
@@ -70,4 +70,4 @@ markdown: >-
   ---
 brand: ""
 brand_logo_url: /
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-23 19:19

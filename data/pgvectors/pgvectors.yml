@@ -3,7 +3,7 @@ description: Rust-based Postgres extension for low-latency vector search with
   HNSW (20x faster than pgvector), supporting hybrid SQL+vector with ACID,
   FP16/INT8/binary vectors on existing Postgres.
 source_url: https://github.com/tensorchord/pgvecto.rs
-category: Relational Vector Extensions
+category: Postgres Vector Extensions
 tags:
   - sql-hybrid
   - postgres-ext
@@ -32,4 +32,4 @@ markdown: |-
 
   Free OSS.
 brand: TensorChord
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 19:19

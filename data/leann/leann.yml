@@ -2,7 +2,7 @@ name: LEANN
 description: RAG framework achieving 97% storage savings for fast, accurate, and
   private RAG applications on personal devices, presented at MLsys 2026.
 source_url: https://github.com/search?q=LEANN+RAG&type=repositories
-category: Embedded Vector Libraries
+category: Libraries
 tags:
   - open-source
   - rag
@@ -22,4 +22,4 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-23 19:19

@@ -3,7 +3,7 @@ description: Postgres extension extending pgvector with StreamingDiskANN for
   high-perf hybrid SQL+vector (28x lower latency vs Pinecone), ACID txns on
   existing infra.
 source_url: https://github.com/timescale/pgvectorscale
-category: Relational Vector Extensions
+category: Postgres Vector Extensions
 tags:
   - sql-hybrid
   - postgres-ext
@@ -31,4 +31,4 @@ markdown: |-
 
   Free OSS.
 brand: Timescale
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 19:19

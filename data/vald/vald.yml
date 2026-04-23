@@ -1,16 +1,14 @@
 name: Vald
-description: Vald is a distributed vector search engine powered by NG+ (Next
-  Generation) indexing for high-recall ANN, with auto-scaling and fault
-  tolerance via Raft consensus. Supports gRPC/REST, filtering, and
-  multi-tenancy. Designed for cloud-native deployments; alternative to Milvus
-  with focus on Japanese ecosystem and NG index.
+description: Vald is a distributed vector search engine based on NG+ and NGT,
+  designed for high-throughput ANN with fault tolerance via Raft consensus.
+  Cloud-native, Kubernetes-friendly with auto-sharding. Suited for global-scale
+  search; higher throughput than Qdrant in benchmarks but more complex ops.
 source_url: https://vald.vdaum.net/
 category: Vector Databases
 tags:
-  - distributed
-  - ngt-index
-  - grpc
-  - cloud-native
+  - NGT Index
+  - Kubernetes
+  - High Throughput
 featured: false
 markdown: |-
   ## Overview
@@ -26,4 +24,6 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 16:30
+images:
+  - https://vald.vdaum.net/assets/vald-logo.png
+updated_at: 2026-04-23 19:19

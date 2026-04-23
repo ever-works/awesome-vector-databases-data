@@ -6,11 +6,11 @@ description: NVIDIA cuVS is a GPU-accelerated approximate nearest neighbor
   recommendations. Delivers up to 12x faster index building and 8x lower query
   latency compared to CPU-only implementations like Milvus.
 source_url: https://rapids.ai/cuvs/
-category: GPU-accelerated Vector Databases
+category: GPU-Accelerated Vector DBs
 tags:
   - gpu-acceleration
   - cuda
-  - cagra
+  - GPU Support
 featured: true
 markdown: >-
   ## Overview
@@ -61,4 +61,4 @@ markdown: >-
 
   Free and open-source under Apache 2.0 license.
 brand: NVIDIA
-updated_at: 2026-04-23 04:24
+updated_at: 2026-04-23 19:19
