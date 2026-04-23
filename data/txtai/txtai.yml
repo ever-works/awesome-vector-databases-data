@@ -1,46 +1,33 @@
 name: txtai
-description: All-in-one open-source AI framework for semantic search, LLM
-  orchestration and language model workflows. Combines vector indexes
-  (sparse/dense), graph networks and relational databases. This is an OSS
-  framework.
+description: Open-source embeddings database for semantic search, workflows, and
+  AI applications with vector storage and retrieval capabilities.
 source_url: https://github.com/neuml/txtai
-category: Llm Frameworks
+category: Vector Database
 tags:
   - open-source
-  - python
-  - rag
+  - embeddings
+  - semantic-search
 featured: false
 markdown: >-
   ## Overview
 
 
-  txtai is an all-in-one open-source AI framework for semantic search, LLM
-  orchestration and language model workflows. Released February 2026, provides
-  comprehensive embeddings database.
+  All-in-one open-source embeddings database for semantic search, LLM
+  orchestration, and language model workflows.
 
 
-  ## Key Features
+  ## Features
 
 
-  - **Embeddings Database**: Union of vector indexes (sparse/dense), graph
-  networks, relational databases
+  - Semantic search and similarity
 
-  - **Semantic Search**: Natural language understanding beyond keywords
+  - Workflows for RAG and agentic systems
 
-  - **LLM Orchestration**: Autonomous agents and RAG processes  
-
-  - **70+ Examples**: Comprehensive learning resources
-
-
-  ## Technical Stack
-
-
-  Python 3.10+, Hugging Face Transformers, Sentence Transformers, FastAPI
+  - REST API and Python/SQL APIs
 
 
   ## Pricing
 
 
-  Free and open-source under Apache 2.0 license.
-brand: NeuML
-updated_at: 2026-03-06 18:05
+  Free and open-source.
+updated_at: 2026-04-23 16:13

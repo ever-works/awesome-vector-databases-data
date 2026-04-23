@@ -1,27 +1,35 @@
 name: Turbopuffer
-description: Turbopuffer is a serverless vector database built on object
-  storage, separating compute from storage for cost-efficient high performance
-  using chunk compression and lazy loading. It supports scalability to billions
-  of vectors with pay-per-use pricing. Suited for RAG and recommendation
-  systems; significantly cheaper than Pinecone for large datasets while
-  maintaining low latency.
+description: Managed serverless vector database optimized for multi-tenant SaaS
+  applications with no enforced namespace limits. Offers cost-effective
+  usage-based pricing starting at $64/month minimum, suitable for
+  production-scale AI workloads without operational overhead.
 source_url: https://turbopuffer.com/
-category: Managed Vector Databases
+category: Vector Database
 tags:
-  - object-storage
-  - s3
-  - cost-optimization
+  - managed
   - serverless
-markdown: |-
+  - multi-tenant
+featured: false
+markdown: >-
   ## Overview
 
-  Serverless vector DB on object storage for cost efficiency.
 
-  ## Performance
-  - Cold p90: 444ms
-  - Warm p50: 8ms
+  Turbopuffer is a managed serverless vector database designed for multi-tenant
+  SaaS products.
+
+
+  ## Key Features
+
+
+  - No enforced namespace limits
+
+  - Cheapest managed option
+
+  - Usage-based pricing
+
 
   ## Pricing
-  10x cheaper than traditional DBs.
-brand: Turbopuffer
-updated_at: 2026-04-23 04:24
+
+
+  Usage-based, $64/mo minimum. No free tier.
+updated_at: 2026-04-23 16:13

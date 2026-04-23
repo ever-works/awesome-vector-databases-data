@@ -1,21 +1,25 @@
 name: VelesDB
-description: VelesDB is an experimental vector database focusing on
-  high-dimensional search efficiency, possibly with novel indexing. Early-stage
-  OSS project for research. Potential for custom ANNs; watch for maturity vs
-  established like pgvector.
-source_url: https://github.com/VelesDB/VelesDB
-category: Embedded & Edge Vector Databases
+description: Embedded vector + graph + columnar database with HNSW indexing.
+source_url: https://github.com/velesdb/veles
+category: Vector Database
 tags:
-  - experimental-vdb
-  - high-dim-search
+  - embedded
+  - rust
+  - open-source
+  - graph
 featured: false
 markdown: |-
   ## Overview
-  VelesDB is an embedded database combining vector, graph, and columnar storage.
+
+  Rust core embedded DB (~6MB) with vector, graph, columnar support.
 
   ## Features
-  - Rust core with small footprint (~6MB)
-  - HNSW indexing with 5 distance metrics
-  - VelesQL query language (SQL + NEAR + MATCH)
-  - Python and Rust SDKs
-updated_at: 2026-04-22 07:22
+
+  - HNSW with 5 metrics
+  - VelesQL (SQL + NEAR + MATCH)
+  - Python/Rust SDKs
+
+  ## Pricing
+
+  Free and open-source.
+updated_at: 2026-04-23 16:13

@@ -1,30 +1,21 @@
 name: Vexvault
-description: Vexvault is an open-source vector database designed for efficient
-  storage, management, and similarity search of high-dimensional vector data.
-source_url: https://usefulai.com/tools/vector-databases
-category: vector-database-engines
+description: Vexvault is a 100% browser-based document storage system designed
+  to make files and data accessible to AI applications like ChatGPT while
+  ensuring user privacy and security. It aims to be easy to integrate and use.
+source_url: https://github.com/vexvault/vexvault
+category: Vector Databases
 tags:
   - open-source
-  - vector-databases
-  - similarity-search
-  - high-dimensional
+  - browser-based
+  - privacy-focused
+featured: false
 markdown: |-
-  # Vexvault
-
-  **Category:** Vector Database Engines  
-  **Tags:** open-source, vector-databases, similarity-search, high-dimensional
-
-  ## Description
-  Vexvault is an open-source vector database designed for efficient storage, management, and similarity search of high-dimensional vector data.
-
   ## Features
-  - Open-source vector database.
-  - Efficient storage and management of high-dimensional vector data.
-  - Supports similarity search operations.
 
-  ## Pricing
-  No pricing information is provided; Vexvault is open-source.
-
-  ## Source
-  [usefulai.com/tools/vector-databases](https://usefulai.com/tools/vector-databases)
-updated_at: 2025-05-13 22:30
+  - 100% browser based
+  - Based on HNSWlib + indexeddb
+  - Zero-cost
+  - Scalability by pushing embedding calculation to the edge
+  - Fast, because it can omit the network
+  - Large amount of storage through use of indexeddb
+updated_at: 2026-04-23 16:13

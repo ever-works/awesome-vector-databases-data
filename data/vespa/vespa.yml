@@ -1,66 +1,36 @@
 name: Vespa
-description: "Vespa is an open-source big data serving engine with real-time
-  vector/hybrid search, ranking, ML integration. Powers Yahoo-scale apps; excels
-  in complex queries vs Qdrant speed. Use cases: e-commerce search,
-  personalization."
+description: Open-source platform excelling in accuracy for hybrid use cases,
+  combining structured data, text, and vector search. Features optimized
+  indexing, custom ranking algorithms, and support for mixed workloads.
 source_url: https://vespa.ai/
-category: Hybrid & Multimodal Vector Databases
+category: Vector Database
 tags:
   - open-source
-  - ranking
-  - ml-inference
-  - yahoo
-  - hybrid-search
-  - multimodal
-  - hybrid-ranking
-  - real-time-ml
-  - big-data-engine
-  - yql-query
-  - yahoo-vespa
-  - big-data
+  - hybrid
+  - custom-ranking
 featured: false
-markdown: |-
+markdown: >-
   ## Overview
 
-  Vespa is an open-source big data serving engine for vector search and ML.
 
-  ## Hybrid Capabilities
+  Vespa is a platform for hybrid search including vectors.
 
-  - Vector ANN + lexical (BM25-like) + structured search.
-  - Graph/tensor ops for complex relations.
-  - Built-in phase ranking with ML rerankers.
 
   ## Features
 
-  - ANN vector search
-  - Tensor computations
-  - Hybrid text/structured search
-  - Real-time ML ranking
 
-  ## Use Cases
+  - High accuracy for hybrid use cases
 
-  - Multimodal RAG with hybrid retrieval.
-  - E-commerce recommendations.
+  - Optimized indexing for structured/unstructured data
 
-  ## Comparisons vs Pure Vector DBs (e.g., Qdrant)
+  - Custom ranking algorithms
 
-  | Feature | Vespa | Pure Vector DB |
-  |---------|-------|----------------|
-  | Hybrid Search | Full lexical+vector+rerank | Vector primary |
-  | ML Serving | Native | External |
-  | Real-time | Updates+ranks | Indexing |
+  - Support for mixed workloads
+
 
   ## Pricing
 
-  Free Apache 2.0.
-brand: Vespa
-brand_logo_url: https://vespa.ai/assets/img/vespa_logo.png
-images:
-  - https://vespa.ai/assets/favicon/favicon-32x32.png
-  - https://vespa.ai/assets/images/vespa-logo.svg
-  - https://vespa.ai/assets/img/favicon.ico
-  - https://vespa.ai/assets/vespa_logo.svg
-  - https://vespa.ai/assets/img/vespa_logo.png
-  - https://docs.vespa.ai/assets/img/overview.png
-  - https://vespa.ai/assets/img/vespa_logo.svg
-updated_at: 2026-04-23 13:22
+
+  Cost-effective for self-hosting as open-source; resource-intensive for large
+  clusters.
+updated_at: 2026-04-23 16:13

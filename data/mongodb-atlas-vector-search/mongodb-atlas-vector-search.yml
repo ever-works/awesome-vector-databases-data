@@ -1,73 +1,32 @@
 name: MongoDB Atlas Vector Search
-description: Vector search capability built into MongoDB Atlas, leveraging
-  Lucene-based kNN search, allowing hybrid search alongside MongoDB's document
-  database features and full-text search.
-source_url: https://www.mongodb.com/products/platform/atlas-vector-search
-category: Multi Model & Hybrid Databases
+description: Vector search capabilities integrated within the MongoDB ecosystem
+  for general-purpose use cases. Suitable for light vector workloads combined
+  with traditional database needs, offered as a managed service via MongoDB
+  Atlas.
+source_url: https://www.mongodb.com/products/vector-search
+category: Vector Database
 tags:
-  - mongodb
-  - lucene
-  - document-database
-  - atlas
-  - hybrid-search
+  - managed
+  - integrated
+  - relational
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
+  MongoDB Atlas Vector Search extends MongoDB for vector workloads.
 
-  MongoDB Atlas Vector Search is a native vector search capability integrated
-  into MongoDB Atlas. It leverages Lucene-based k-nearest neighbor (kNN) search,
-  enabling hybrid search that combines vector similarity with MongoDB's native
-  document query capabilities and full-text search.
+  ## Features
 
+  - Seamless integration in MongoDB ecosystem
+  - Works for light vector workloads with traditional DB needs
+  - Managed service via Atlas
 
-  ## Key Features
+  ## Limitations
 
-
-  - **Lucene-Based kNN Search**: Approximate nearest neighbor search using HNSW
-  graphs with Lucene indexing
-
-  - **Hybrid Search**: Combines vector queries with metadata filters,
-  aggregation pipelines, geo-spatial search, and lexical text search
-
-  - **Document Database Integration**: Operates within MongoDB's native document
-  model—no separate vector database needed
-
-  - **Full-Text Search**: Built-in lexical and text-based search alongside
-  vector search
-
-  - **$vectorSearch Stage**: Dedicated aggregation pipeline stage for vector
-  queries with the MongoDB Query API
-
-  - **Quantization Support**: Scalar and binary quantization for reduced memory
-  footprint
-
-  - **Scalability**: Scales independently from primary MongoDB workloads
-
-  - **Global Availability**: Available in 125+ regions via MongoDB Atlas
-
-  - **Ecosystem Integrations**: Works with LangChain, LlamaIndex, OpenAI,
-  Haystack, and other AI frameworks
-
-
-  ## Use Cases
-
-
-  - Retrieval-augmented generation (RAG)
-
-  - Semantic and similarity search
-
-  - Recommendation engines
-
-  - Conversational AI and chatbots
-
-  - Anomaly detection
-
+  - Not optimized for high-scale vector workloads
+  - Lags in ANN flexibility and vector-specific features
 
   ## Pricing
 
-
-  Part of the MongoDB Atlas platform. Pricing is based on underlying cluster
-  resources including compute, storage, and search nodes. See
-  [mongodb.com/pricing](https://www.mongodb.com/pricing) for details.
-updated_at: 2026-04-04 23:01
+  Managed services can be costly for large datasets.
+updated_at: 2026-04-23 16:13

@@ -1,46 +1,33 @@
 name: Vector.ai
-description: Vector.ai offers commercial vector database solutions for efficient
-  high-dimensional similarity search and machine learning applications.
-source_url: https://vector.ai/
-category: vector-database-engines
+description: Vector.ai is a managed vector search platform that provides an API
+  for creating, managing, and searching vector indices. It is designed to handle
+  large volumes of high-dimensional data for efficient similarity search in
+  machine learning and AI applications.
+source_url: https://www.vectordb.com/
+category: Vector Databases
 tags:
-  - commercial
-  - vector-search
-  - machine-learning
-  - similarity-search
+  - managed
+  - autoscaling
+  - ml-integration
+featured: false
 markdown: >-
-  # Vector.ai
-
-
-  **Website:** [https://vector.ai/](https://vector.ai/)
-
-
-  ## Description
-
-  Vector.ai offers commercial vector database solutions designed for efficient
-  high-dimensional similarity search and machine learning applications.
-
-
   ## Features
 
-  - Commercial vector database engine
 
-  - Optimized for high-dimensional similarity search
+  - Managed service with autoscaling
 
-  - Supports machine learning applications
+  - Indexing methods: HNSW, PQ, and more
+
+  - Python and RESTful API
+
+  - Data versioning and backup
+
+  - Integration with popular machine learning frameworks
 
 
   ## Pricing
 
-  No pricing information provided.
 
-
-  ## Tags
-
-  commercial, vector-search, machine-learning, similarity-search
-
-
-  ## Category
-
-  vector-database-engines
-updated_at: 2025-05-13 22:29
+  Offers a free tier with limited resources, as well as paid plans with
+  additional features, support, and custom pricing for enterprise customers.
+updated_at: 2026-04-23 16:13

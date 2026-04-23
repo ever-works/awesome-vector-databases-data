@@ -1,39 +1,26 @@
 name: Rivestack
-description: Rivestack is a new Rust-based vector database emphasizing
-  simplicity and performance for local AI apps, with HNSW indexing and
-  lightweight deployment. It focuses on edge computing and developer-friendly
-  APIs. Emerging alternative to Chroma for Rust ecosystems; minimal footprint vs
-  full-featured like Qdrant.
+description: Managed PostgreSQL with pgvector for AI workloads, featuring HNSW
+  indexing and embedding search.
 source_url: https://rivestack.com/
-category: Managed & Serverless Vector DBs
+category: Vector Database
 tags:
-  - managed-service
-  - postgresql
-  - hnsw
-  - free-tier
-  - rust-vector-db
-  - edge-rivestack
-  - lightweight-local
+  - managed
+  - postgres
+  - pgvector
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-  Rivestack provides managed PostgreSQL with pgvector for handling vector
-  embeddings in AI applications.
-
+  PostgreSQL as a service with built-in vector search for AI.
 
   ## Features
 
-  - Native pgvector support
-
-  - HNSW indexing for efficient similarity search
-
-  - Built-in SQL editor with embedding search
-
-  - Free tier available
-
+  - HNSW indexing
+  - SQL editor with embedding search
+  - Free tier
 
   ## Pricing
 
-  Free tier available; paid plans for production workloads.
-updated_at: 2026-04-22 13:39
+  Free tier available.
+brand: Rivestack
+updated_at: 2026-04-23 16:13

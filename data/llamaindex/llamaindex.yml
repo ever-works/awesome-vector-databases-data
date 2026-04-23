@@ -1,83 +1,33 @@
 name: LlamaIndex
-description: "Data framework for LLM applications emphasizing RAG with 160+ data
-  connectors, advanced indexing (vector/hybrid), tool calling via query engines,
-  and memory for building knowledgeable chatbots and agents. Vs LangChain:
-  focuses on data ingestion/indexing over general chains."
+description: Data framework for building LLM applications with vector store
+  integrations and retrieval capabilities.
 source_url: https://www.llamaindex.ai/
-category: LLM Frameworks
+category: Libraries
 tags:
-  - LLM Vector Store
-  - Agentic AI
-  - Tool Integration
-featured: true
+  - open-source
+  - llm
+  - rag
+featured: false
 markdown: >-
   ## Overview
 
 
-  LlamaIndex builds LLM apps with advanced data handling, vector integrations,
-  and agentic capabilities.
-
-
-  ## Vector Integration
-
-
-  40+ vector stores including Qdrant:
-
-
-  ```python
-
-  from llama_index.vector_stores.qdrant import QdrantVectorStore
-
-  from llama_index.embeddings.openai import OpenAIEmbedding
-
-
-  vector_store = QdrantVectorStore(...) 
-
-  ```
+  LlamaIndex provides tools for connecting LLMs with data sources using vector
+  embeddings and retrieval.
 
 
   ## Features
 
 
-  - **Tool Calling**: Query engines as tools for agents
+  - Multiple vector store integrations
 
-  - **Memory**: Chat memory, vector retriever memory
+  - Data connectors
 
-  - **Retrieval**: Hybrid search, reranking, multi-retriever fusion
-
-
-  ## Use Cases
-
-
-  - Knowledge chatbots
-
-  - RAG agents
-
-  - Multi-document QA agents
-
-
-  ## Comparisons
-
-
-  **LlamaIndex vs LangChain**:
-
-
-  | Feature | LlamaIndex | LangChain |
-
-  |---------|------------|-----------|
-
-  | Focus | RAG/data pipelines | Chains/agents |
-
-  | Vector Stores | 40+ | 50+ |
-
-  | Best For | Data connectors | Orchestration |
+  - Query engines for RAG
 
 
   ## Pricing
 
 
-  Open-source (MIT). LlamaCloud paid.
-brand: LlamaIndex
-images:
-  - https://docs.llamaindex.ai/en/stable/_images/index_query_pipeline.png
-updated_at: 2026-04-22 13:39
+  Free and open-source.
+updated_at: 2026-04-23 16:13

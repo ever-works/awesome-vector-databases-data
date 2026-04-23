@@ -1,110 +1,47 @@
 name: Redis Vector Search
-description: "Redis Vector Search (RediSearch module) adds vector similarity
-  (HNSW/Flat) to Redis, with hybrid/keyword search, real-time ingestion. Ideal
-  for caching/high-throughput apps; faster than Postgres pgvector for in-memory,
-  vs dedicated VDBs cheaper ops. Use cases: real-time recs, fraud."
-source_url: https://redis.io/solutions/vector-database/
-category: Key-Value Vector Stores
+description: In-memory data store with vector similarity search via Redis
+  Stack/RediSearch, optimized for low-latency, high-QPS retrieval suitable as a
+  caching or hot-set layer in AI applications.
+source_url: https://redis.io/search/
+category: Vector Database
 tags:
+  - low-latency
   - in-memory
-  - hybrid-bm25
-  - redis-compatible
-  - redis-module
-  - hybrid-bm25
-  - real-time-cache
-  - redis-module
-  - in-memory-vdb
-  - sub-ms-latency
-  - redis-compatible
-  - real-time-cache
-  - redis-module
-  - hybrid-bm25
-  - real-time-ingestion
+  - hybrid-search
+featured: false
 markdown: >-
   ## Overview
 
 
-  Redis offers vector database capabilities combining its legendary low-latency
-  performance with modern vector similarity search for AI applications. Redis
-  8.0 brought vector search into the core as a native data type.
+  Redis Vector Search provides vector similarity capabilities through the Redis
+  Stack, supporting fast ANN search in an in-memory environment.
 
 
-  ## Features
+  ## Key Features
 
 
-  - **Native Vector Type**: Vector sets as first-class data type in Redis 8.0
+  - HNSW indexing
 
-  - **In-Memory Speed**: Sub-millisecond query latencies
+  - Filtering (basic to strong, pattern-dependent)
 
-  - **Hybrid Capabilities**: Combines operational data, caching, and vector
-  search
+  - Hybrid search (limited)
 
-  - **Redis Query Engine**: Powerful querying with secondary indexing
+  - Integrations: LangChain
 
-  - **Real-Time Updates**: Immediate vector updates
+  - Low-latency retrieval near applications
 
-  - **Scalability**: Production-proven at massive scale
-
-
-  ## Redis 8.0 Innovation
+  - Supports high QPS workloads
 
 
-  Introduced vector sets as a new native data type, providing high-dimensional
-  similarity search directly in core, positioning Redis for:
-
-  - Semantic search
-
-  - RAG pipelines
-
-  - Recommendation systems
+  ## Deployment
 
 
-  ## Architecture Benefits
-
-
-  Redis combines all three in a single real-time data platform with memory-first
-  architecture:
-
-  - Operational data storage
-
-  - Caching layer
-
-  - Vector similarity search
-
-
-  ## Use Cases
-
-
-  - Real-time recommendation engines
-
-  - Semantic caching
-
-  - RAG applications requiring low latency
-
-  - Hybrid search systems
-
-  - Real-time AI applications
-
-
-  ## Performance
-
-
-  Single-digit millisecond latency for vector operations with billions of
-  vectors when using optimized deployment (e.g., Google Cloud Memorystore).
+  - Managed and self-hosted
 
 
   ## Pricing
 
 
-  Redis Stack is free. Redis Enterprise offers managed services with usage-based
-  pricing.
+  - Cloud + self-hosted infrastructure costs
 brand: Redis
-brand_logo_url: https://redis.io/wp-content/uploads/2021/04/redis-logo.svg
-images:
-  - https://redis.io/docs/latest/develop/get-started/logo.png
-  - https://redis.io/wp-content/uploads/2023/06/redis-logo.svg
-  - https://redis.io/docs/latest/develop/get-started/vss/assets/redis-vss-logo.png
-  - https://redis.io/wp-content/uploads/2023/10/redis-vector-search-diagram.png
-  - https://redis.io/wp-content/uploads/2021/01/redis-logo.svg
-  - https://redis.io/docs/latest/develop/get-started/redis-stack/images/redis-stack-logo.svg
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-23 16:13

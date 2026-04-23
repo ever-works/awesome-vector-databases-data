@@ -1,81 +1,24 @@
 name: Vald
-description: Vald is a distributed vector search engine inspired by Faiss,
-  implemented in Go with auto-indexing capabilities. It is cloud-native,
-  ensuring high availability, and offers scalability similar to Milvus but with
-  a lighter footprint. Ideal for microservices-based search applications.
-source_url: https://vald.vdaas.org/
-category: Production & Scalable Vector Databases
+description: Distributed vector search engine compatible with Milvus, using NG T for ANN.
+source_url: https://vald.vdaum.net/
+category: Vector Database
 tags:
-  - go-lang
-  - ngt-index
-  - distributed-ngt
-  - auto-scaling
-  - fault-tolerant
   - distributed
-  - faiss-inspired
+  - open-source
+  - ngt
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
+  Scalable vector search middleware.
 
-  Vald is an open-source distributed fast ANN search engine for large-scale
-  vector data, leveraging NGT indexing in a cloud-native microservices
-  architecture.
+  ## Features
 
-
-  ## Scalability
-
-
-  - Distributed sharding across ngt agents for billions of vectors
-
-  - High QPS with low-latency ANN search
-
-  - Horizontal scaling on Kubernetes with auto-rebalancing
-
-
-  ## Key Features
-
-
-  - High Availability via multi-replica indexes and failover rebalancing
-
-  - Asynchronous auto-indexing without downtime
-
-  - Automatic backups to object storage/PVs
-
-  - Customizable ingress/egress filtering
-
-  - gRPC-based with multi-lang SDKs (Go, Java, Python, Node)
-
-
-  ## Use Cases
-
-
-  - Enterprise RAG and semantic search at scale
-
-  - Real-time image/video retrieval
-
-  - Recommendation engines
-
-  - Dynamic data updates in production
-
-
-  ## Comparisons
-
-
-  Vs Milvus/Qdrant for distributed: Vald is lightweight Go-based with NGT
-  specialization and simple k8s ops; Milvus has richer indexes/ecosystem, Qdrant
-  Rust speed for filtering-heavy workloads.
-
+  - Auto scaling
+  - Fault tolerant
+  - gRPC and REST APIs
 
   ## Pricing
 
-
-  Free open-source.
-brand: VDAAS
-brand_logo_url: https://vald.vdaas.org/images/vald-logo.svg
-images:
-  - https://vald.vdaas.org/images/system-design.en.svg
-  - https://vald.vdaas.org/assets/images/vald_logo.png
-  - https://vald.vdaas.org/images/vald-logo.svg
-  - https://vald.vdaas.org/images/logo.svg
-updated_at: 2026-04-23 13:22
+  Free and open-source.
+updated_at: 2026-04-23 16:13

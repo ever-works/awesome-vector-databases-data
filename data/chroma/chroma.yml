@@ -1,41 +1,30 @@
-name: ChromaDB
-description: ChromaDB is an open-source embedding database for LLM apps,
-  lightweight and embeddable with Python-first API. Supports HNSW indexing,
-  persistence, and easy RAG prototyping. Great for local dev and small-scale vs
-  production-scale like Milvus; simple alternative to Pinecone for non-managed
-  needs.
+name: Chroma
+description: Vector database designed specifically to query high-dimensional
+  vector embeddings. Features an intuitive API for easy integration, high
+  accuracy with impressive recall rates, and support for embedding-based search
+  and advanced ANN methods. Suitable for small-to-medium workloads, open-source
+  with minimal deployment costs.
 source_url: https://www.trychroma.com/
-category: Embedded & Edge Vector Databases
+category: Vector Database
 tags:
-  - python-embeddable
-  - local-prototyping
-  - langchain-integration
-  - hnsw-index
-  - auto-embedding
-  - python-first
-  - langchain-ready
-  - local-persistence
-  - multimodal-embeddings
-  - prototyping
-  - local-rag
-  - embeddable
-markdown: >-
-  # ChromaDB
+  - open-source
+  - easy-integration
+  - ANN
+featured: false
+markdown: |-
+  ## Overview
 
+  Chroma is a vector DB for querying high-dimensional vector embeddings.
 
-  **Website:** [https://www.trychroma.com/](https://www.trychroma.com/)
+  ## Features
 
+  - Intuitive API
+  - High accuracy and recall rates
+  - Embedding-based search
+  - Advanced ANN methods
+  - Compact storage
 
-  **Main entry:** See chromadb.json for full details.
+  ## Pricing
 
-
-  ChromaDB (Chroma) is the primary open-source embedding database for AI-native
-  LLM applications.
-brand_logo_url: https://chroma-core.github.io/assets/chroma-logo.png
-images:
-  - https://chroma-core.github.io/assets/chroma-logo.png
-  - https://docs.trychroma.com/logo.png
-  - https://docs.trychroma.com/images/chroma-overview.png
-  - https://www.trychroma.com/logo.png
-  - https://www.trychroma.com/logo.svg
-updated_at: 2026-04-23 13:22
+  Open-source with minimal deployment costs unless scaled heavily.
+updated_at: 2026-04-23 16:13

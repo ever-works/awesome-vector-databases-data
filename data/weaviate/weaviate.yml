@@ -1,63 +1,29 @@
 name: Weaviate
-description: Weaviate is an open-source, cloud-native vector database with
-  GraphQL API, combining vector search with structured filtering and knowledge
-  graphs. Features modules for auto-embedding, hybrid search, and multi-tenancy.
-  Ideal for enterprise RAG and semantic apps; more feature-rich than Chroma for
-  complex queries vs Qdrant's speed focus.
+description: Open-source vector database leveraging hybrid search and
+  distributed architecture. Supports high recall rates, various distance
+  metrics, vector compression, metadata support, and real-time updates.
+  User-friendly API-first design integrates with external ML models.
 source_url: https://weaviate.io/
-category: Multimodal & Hybrid Vector Stores
+category: Vector Database
 tags:
   - open-source
-  - graph-enhanced
   - hybrid-search
-  - graphql
-  - modular
-  - graph-search
-  - cloud-native
-  - graph-rag
-  - auto-embedding
-  - graphql-api
-  - modular-search
-  - ai-native
-  - modules
-  - knowledge-graph
+  - distributed
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  Weaviate is an open-source, cloud-native vector database for AI-native
-  applications.
-
+  Weaviate is a vector database with hybrid search capabilities.
 
   ## Features
 
-
-  - Hybrid Search: Vector + keyword
-
-  - Modular Extensions: Embeddings, classification
-
-  - RAG and Generative AI support
-
-  - GraphQL API
-
-  - Fast Vector Similarity Search
-
+  - Hybrid search and distributed architecture
+  - High recall rates and various distance metrics
+  - Vector compression and modularity
+  - Metadata support, real-time updates
+  - API-first design for ML model integration
 
   ## Pricing
 
-
-  Free open-source.
-brand_logo_url: https://weaviate.io/images/weaviate-logo.png
-images:
-  - https://weaviate.io/logo.svg
-  - https://weaviate.io/logo.png
-  - https://weaviate.io/logo.svg
-  - https://weaviate.io/blog/img/logo.svg
-  - https://weaviate.io/images/weaviate-logo.svg
-  - https://weaviate.io/weaviate-logo.png
-  - https://weaviate.io/assets/weaviate-logo.svg
-  - https://weaviate.io/developers/weaviate/current/assets/11-query-lifecycle.svg
-  - https://weaviate.io/assets/logo.svg
-  - https://weaviate.io/assets/weaviate-logo.svg
-updated_at: 2026-04-23 13:22
+  Cost-effective as open-source.
+updated_at: 2026-04-23 16:13

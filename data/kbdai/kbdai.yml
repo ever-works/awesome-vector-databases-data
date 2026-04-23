@@ -1,0 +1,24 @@
+name: KBD.AI
+description: Vector database optimized for knowledge bases and AI applications.
+source_url: https://kbd.ai/
+category: Vector Database
+tags:
+  - knowledge-base
+  - ai
+featured: false
+markdown: |-
+  ## Overview
+
+  High-performance vector DB for RAG and semantic search.
+
+  ## Features
+
+  - Fast indexing
+  - Hybrid search
+  - Easy integration
+
+  ## Pricing
+
+  Cloud service with pricing tiers.
+brand: KBD.AI
+updated_at: 2026-04-23 16:13

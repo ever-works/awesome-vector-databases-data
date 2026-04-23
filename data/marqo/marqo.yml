@@ -1,89 +1,34 @@
 name: Marqo
-description: Multimodal vector DB with native cross-modal (text-to-image/video)
-  search using CLIP/HF models, plus keyword filtering for hybrid retrieval.
-  Unified API simplifies multimodal RAG vs text-only DBs like Qdrant.
+description: Managed vector database and search engine optimized for AI
+  applications with multimodal search capabilities.
 source_url: https://www.marqo.ai/
-category: Multimodal & Hybrid Vector Stores
+category: Vector Database
 tags:
-  - Cross-Modal
-  - Image Video Vectors
-  - CLIP Compatible
+  - managed
   - multimodal
-  - vision-text
-  - clip-compatible
-  - hybrid-search
+  - ai
 featured: false
 markdown: >-
   ## Overview
 
 
-  Marqo is a vector search engine and database designed for multimodal data,
-  supporting ingestion and querying of text, images, and videos via a unified
-  API.
-
-
-  ## Hybrid Capabilities
-
-
-  - Cross-modal vector search + keyword/metadata filters.
-
-  - Auto-vectorization with reranking support.
+  Marqo provides a vector database and search service for easy integration with
+  AI models.
 
 
   ## Features
 
 
-  - Multimodal storage for text, image, and video vectors
+  - Vector, keyword, and hybrid search
 
-  - Cross-modal search (e.g., text-to-image, image-to-text)
+  - Multimodal support
 
-  - CLIP embedding support alongside Hugging Face models for auto-vectorization
-
-  - Managed cloud and self-hosted deployment options
-
-  - Unified API for multi-model search
-
-
-  ## Use Cases
-
-
-  - Multimodal RAG: Retrieve images/videos for LLM grounding.
-
-  - Multimedia retrieval: Search large collections of mixed media content
-
-  - E-commerce product discovery with image and text queries
-
-
-  ## Comparison vs Pure Vector DBs (e.g., Qdrant)
-
-
-  | Feature | Marqo | Qdrant |
-
-  |---------|--------|--------|
-
-  | Modalities | Text, image, video | Primarily text vectors |
-
-  | Cross-Modal Search | Native support | Limited, requires external handling |
-
-  | Auto-Vectorization | Built-in via HF models | Manual embedding required |
-
-  | Deployment | Cloud/self-hosted | Self-hosted primarily |
+  - Managed cloud service
 
 
   ## Pricing
 
 
-  Contact Marqo for enterprise pricing details. Offers developer free tier for
-  prototyping.
-
-
-  ## Integrations
-
-
-  - LangChain, LlamaIndex
-
-  - Shopify, Adobe Commerce
+  Free tier available, paid plans for production.
 brand: Marqo
-images:
-  - https://www.marqo.ai/assets/images/product/demo.gif
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-23 16:13

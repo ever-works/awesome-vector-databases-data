@@ -1,74 +1,56 @@
 name: TiDB Vector Search
-description: MySQL-compatible relational database with built-in HNSW vector
-  search, enabling hybrid SQL+vector queries with ACID transactions on existing
-  TiDB infrastructure. Avoids separate VDBs by unifying operational and vector
-  data.
-source_url: https://docs.pingcap.com/tidbcloud/vector-search-get-started-using-sql/
-category: Relational Vector Extensions
+description: Open-source distributed SQL database with integrated vector search
+  for storing embeddings alongside relational data, offering strong SQL-based
+  filtering, hybrid search, and high scalability for production RAG and AI
+  applications.
+source_url: https://tidb.io/
+category: Vector Database
 tags:
-  - sql-hybrid
-  - mysql-compatible
-  - hnsw
+  - open-source
+  - hybrid-search
+  - distributed
+  - sql
 featured: false
 markdown: >-
   ## Overview
 
 
-  TiDB, a MySQL-compatible database, has introduced built-in vector search
-  capabilities, enabling seamless storage and search for vectors directly using
-  SQL. TiDB extends MySQL syntax to support Vector Search and introduces new
-  Vector data types and several vector functions.
+  TiDB Vector Search is an extension of TiDB, an open-source distributed SQL
+  database, adding support for vector embeddings and similarity search within
+  the same platform.
 
 
   ## Key Features
 
 
-  ### MySQL Compatibility
+  - Store vectors alongside relational data to simplify RAG stacks
 
-  TiDB Serverless brings built-in vector search to the MySQL landscape.
-  Developers can leverage the familiar SQL environment to effortlessly join,
-  index, and query both operational and vector data.
+  - SQL-based metadata filtering and joins
 
+  - HNSW vector indexing combined with SQL indexes
 
-  ### Vector Data Types
+  - Hybrid search (keyword + vector)
 
-  - **VECTOR**: A sequence of single-precision floating-point numbers with any
-  dimension
+  - Distributed scale-out for high workloads
 
+  - High availability, backups, and observability
 
-  ### Vector Indexes
-
-  TiDB implements vector indexes using the Hierarchical Navigable Small World
-  (HNSW) method.
+  - Integrations: LangChain, LlamaIndex
 
 
-  ## Benefits
+  ## Deployment
 
 
-  ### Unified Data Architecture
+  - Managed (TiDB Cloud)
 
-  Eliminates need for separate databases; ACID transactions on hybrid data.
-
-
-  ## Use Cases
-
-
-  - Semantic search in MySQL apps
-
-  - RAG applications
-
-  - Existing SQL infra upgrades
-
-
-  ## Comparisons
-
-
-  No data sync issues vs dedicated VDBs.
+  - Self-hosted
 
 
   ## Pricing
 
 
-  Varies by deployment; consult PingCAP.
+  - Cloud: usage-based
+
+  - Self-hosted: infrastructure costs
 brand: PingCAP
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 16:13

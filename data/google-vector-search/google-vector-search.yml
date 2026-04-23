@@ -1,0 +1,35 @@
+name: Google Vector Search
+description: Managed vector search service as part of Google Vertex AI, enabling
+  efficient similarity search over high-dimensional vectors for AI applications.
+source_url: https://cloud.google.com/vertex-ai/docs/vector-search/overview
+category: Vector Database
+tags:
+  - managed
+  - cloud
+  - google
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Google Vector Search is a fully managed service for high-scale vector
+  similarity searches using Approximate Nearest Neighbor (ANN) powered by ScaNN
+  technology.
+
+
+  ## Features
+
+
+  - Matches queries against billions of vectors
+
+  - Integrated with Vertex AI Matching Engine
+
+  - Supports filtering and metadata
+
+
+  ## Pricing
+
+
+  Usage-based pricing through Google Cloud.
+brand: Google Cloud
+updated_at: 2026-04-23 16:13

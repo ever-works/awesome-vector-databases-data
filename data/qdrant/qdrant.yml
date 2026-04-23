@@ -1,72 +1,29 @@
 name: Qdrant
-description: "Qdrant is a high-performance vector search engine with Rust core,
-  supporting filtered ANN search, payloads, and cloud/edge deployments. Excels
-  in speed for high-dim vectors, with HNSW indexing and quantization. Use cases:
-  real-time recommendation, fraud detection; faster than Faiss for dynamic data
-  vs Pinecone's managed ease."
+description: Open-source vector database with excellent performance, high recall
+  rates using advanced ANN methods, and customizable distance metrics. Features
+  compact design, hybrid search combining vectors and filters, dynamic updates,
+  and metadata search. Compatible with Python and JavaScript via simple API.
 source_url: https://qdrant.tech/
-category: Production & Scalable Vector Databases
+category: Vector Database
 tags:
-  - rust-native
-  - disk-persistent
-  - payload-filtering
-  - quantization
-  - edge-deployable
-  - rust-engine
-  - filtered-ann
-  - diskann
-  - high-throughput
-  - rust-core
-  - payloads
-  - edge-deploy
+  - open-source
+  - hybrid-search
+  - high-recall
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  Qdrant is an open-source vector database and similarity search engine,
-  purpose-built for handling high-dimensional vectors and powering large-scale
-  AI applications.
-
+  Qdrant is an open-source vector database for AI/ML applications.
 
   ## Features
 
-
-  - High-Performance Vector Search: Optimized for fast and scalable similarity
-  searches on billions of vectors.
-
-  - Open Source: Freely available and supported by a growing community.
-
-  - Cloud-Native Scalability: Managed cloud offering with vertical and
-  horizontal scaling.
-
-  - Self-Hosted & Easy Deployment: Deploy locally with Docker.
-
-  - Rust-Powered: Built in Rust for reliability and high-speed performance.
-
-  - Efficient Storage: Built-in compression and disk offload.
-
-  - Advanced Search: Semantic understanding, multimodal data.
-
-  - Integrations: Compatible with leading embedding models.
-
+  - High recall with advanced ANN
+  - Customizable distance metrics
+  - Compact storage and hybrid search
+  - Dynamic updates, metadata search
+  - Flexible with Python, JavaScript API
 
   ## Pricing
 
-
-  Free and open-source.
-brand_logo_url: https://qdrant.tech/qdrant-logo.svg
-images:
-  - https://qdrant.tech/logo.png
-  - https://qdrant.tech/qdrant-logo.png
-  - https://qdrant.to/logo.png
-  - https://qdrant.tech/qdrant-logo.svg
-  - https://qdrant.tech/images/qdrant-logo.svg
-  - https://qdrant.tech/qdrant-logo.svg
-  - https://qdrant.tech/images/binary-quantization.png
-  - https://qdrant.tech/qdrant-logo.svg
-  - https://qdrant.tech/logo.svg
-  - https://qdrant.tech/qdrant-logo.svg
-  - https://qdrant.tech/logo.svg
-  - https://qdrant.tech/logo.svg
-updated_at: 2026-04-23 13:22
+  Cost-effective for self-hosting as open-source.
+updated_at: 2026-04-23 16:13

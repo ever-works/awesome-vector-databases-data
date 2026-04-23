@@ -1,56 +1,24 @@
-name: JVector
-description: Java-based graph index for approximate nearest neighbor search that
-  combines HNSW hierarchical structure with Vamana from DiskANN. Supports
-  disk-based storage, two-pass searches with quantization (PQ, BQ, NVQ),
-  non-blocking concurrency, and larger-than-memory index construction. Designed
-  for high-dimensional vector similarity search in AI applications.
-source_url: https://github.com/datastax/jvector
-category: Vector Indexing Libraries
+name: jvector
+description: High-performance vector search engine for Java applications.
+source_url: https://jvector.io/
+category: Vector Database
 tags:
-  - open-source
   - java
-  - graph-index
-  - hnsw
-  - diskann
+  - high-performance
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  JVector is a graph-based ANN index merging the HNSW and DiskANN designs, with
-  composable extensions for vector search.
-
-
-  ## Architecture
-
-
-  - Multi-layer graph with non-blocking concurrency control, scaling linearly
-  with cores.
-
-  - Upper layers: in-memory adjacency lists for quick navigation without IO.
-
-  - Bottom layer: on-disk adjacency lists.
-
-  - Two-pass searches:
-    - First pass: lossily compressed vectors (Product Quantization with optional anisotropic weighting, Binary Quantization, Fused PQ).
-    - Second pass: full float32 vectors or NVQ (non-uniform quantization).
-  - Index construction uses two-pass searches for larger-than-memory datasets.
-
+  Java vector similarity search library using HNSW.
 
   ## Features
 
-
-  - Supports incremental construction and updates.
-
-  - Multi-release JAR for Java 11+ compatibility, with optimizations for Java
-  20+ Vector API.
-
-  - Includes benchmarks (Bench, SiftSmall) and tutorials.
-
+  - Embeddings storage
+  - ANN search
+  - REST API
 
   ## Pricing
 
-
-  Free and open-source.
-brand: DataStax
-updated_at: 2026-04-23 13:22
+  Open-source.
+brand: jvector
+updated_at: 2026-04-23 16:13

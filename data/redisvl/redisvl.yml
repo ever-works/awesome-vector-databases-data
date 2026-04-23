@@ -1,0 +1,33 @@
+name: RedisVL
+description: Redis Vector Library extending Redis for sub-millisecond latency
+  vector lookups and semantic caching. Ideal for real-time AI agents and
+  high-traffic applications. Delivers the fastest retrieval speeds in the
+  industry for smaller to mid-sized vector sets.
+source_url: https://redis.io/docs/latest/integrate/redisvl/
+category: Vector Database
+tags:
+  - low-latency
+  - real-time
+  - caching
+featured: false
+markdown: >-
+  ## Overview
+
+
+  RedisVL (Redis Vector Library) provides sub-millisecond latency for vector
+  lookups, evolving Redis beyond caching into a vector store.
+
+
+  ## Best For
+
+
+  - Real-time AI agents
+
+  - High-traffic applications
+
+
+  ## Key Edge
+
+
+  - Fastest retrieval speeds for smaller to mid-sized vector sets.
+updated_at: 2026-04-23 16:13

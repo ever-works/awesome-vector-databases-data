@@ -1,63 +1,32 @@
 name: SuperDuperDB
-description: Open-source AI-native database layer that adds vector search, model
-  integration, and AI workflows on top of existing databases like MongoDB and
-  Postgres.
-source_url: https://github.com/SuperDuperDB/superduperdb
-featured: false
-brand: superduperdb
-brand_logo_url: https://raw.githubusercontent.com/SuperDuperDB/superduperdb/main/docs/assets/logo.png
-images:
-  - https://raw.githubusercontent.com/SuperDuperDB/superduperdb/main/docs/assets/architecture.png
-  - https://raw.githubusercontent.com/SuperDuperDB/superduperdb/main/docs/assets/overview.png
-category: vector-database-extensions
+description: Open-source database that turns any DB into a vector DB with AI capabilities.
+source_url: https://github.com/SuperDuperDB/super-duperdb
+category: Vector Database
 tags:
-  - vector-search
-  - mongodb
-  - postgresql
-markdown: |-
-  # SuperDuperDB
-
-  **Website:** https://github.com/SuperDuperDB/superduperdb  
-  **Category:** Vector Database Extensions  
-  **Brand:** superduperdb
-
-  ![SuperDuperDB Logo](https://raw.githubusercontent.com/SuperDuperDB/superduperdb/main/docs/assets/logo.png)
-
+  - open-source
+  - ai-native
+  - flexible
+featured: false
+markdown: >-
   ## Overview
 
-  SuperDuperDB is an open-source, AI-native database layer that runs on top of existing databases such as MongoDB and PostgreSQL. It adds vector search, model integration, and AI workflows directly into your existing data stack so you can build database-integrated AI agents and applications with familiar tools.
+
+  SuperDuperDB enables vector search on existing databases like Postgres,
+  MongoDB.
+
 
   ## Features
 
-  - **Database integration**
-    - Works on top of existing databases (e.g., MongoDB, PostgreSQL)
-    - Treats your operational database as the core storage layer
 
-  - **Vector search**
-    - Adds vector search capabilities to existing databases
-    - Stores and queries vector embeddings alongside traditional data
+  - Model and vector management
 
-  - **Model integration**
-    - Integrates AI/ML models directly with the database layer
-    - Supports building AI-powered behaviors close to the data
+  - Live training and querying
 
-  - **AI workflows**
-    - Orchestrates AI workflows over data stored in your existing DB
-    - Designed for building end-to-end AI applications and agents
+  - Works with any LLM
 
-  - **Application & agent building**
-    - Framework for building custom AI applications
-    - Enables database-integrated AI agents using familiar tools and data schemas
-
-  - **Ecosystem & templates**
-    - Documentation and templates for common AI application patterns (via external docs/templates links)
-
-  ## Images
-
-  - Architecture: https://raw.githubusercontent.com/SuperDuperDB/superduperdb/main/docs/assets/architecture.png  
-  - Overview: https://raw.githubusercontent.com/SuperDuperDB/superduperdb/main/docs/assets/overview.png
 
   ## Pricing
 
-  - Not specified in the provided content. The project is open source; licensing details are available in the repository’s `LICENSE` file.
-updated_at: 2025-12-25 16:52
+
+  Free and open-source.
+updated_at: 2026-04-23 16:13

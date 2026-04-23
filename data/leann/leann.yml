@@ -1,0 +1,25 @@
+name: LEANN
+description: RAG framework achieving 97% storage savings for fast, accurate, and
+  private RAG applications on personal devices, presented at MLsys 2026.
+source_url: https://github.com/search?q=LEANN+RAG&type=repositories
+category: Libraries
+tags:
+  - open-source
+  - rag
+  - private
+featured: false
+markdown: |-
+  ## Overview
+
+  LEANN enables RAG on everything with significant storage savings.
+
+  ## Features
+
+  - 97% storage savings
+  - Fast and accurate RAG
+  - 100% private on device
+
+  ## Pricing
+
+  Free and open-source.
+updated_at: 2026-04-23 16:13

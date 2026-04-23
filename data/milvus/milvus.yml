@@ -1,43 +1,44 @@
 name: Milvus
-description: "Milvus is an open-source vector database for massive-scale
-  similarity search on embedding vectors, built for AI workloads. Supports
-  distributed architecture, multiple indexes (HNSW, IVF, etc.), GPU
-  acceleration, and multimodal data. Use cases: large-scale RAG, image/video
-  search; compares to Pinecone by being free/self-hosted but requires more ops,
-  outperforming in billion-scale benchmarks."
+description: Open-source vector database designed for handling massive-scale
+  vector data. It offers excellent performance with GPU acceleration,
+  distributed querying, and efficient indexing methods such as IVF, HNSW, and
+  PQ. Highly configurable, scalable, with native support for multiple languages
+  and integration with data pipelines like Kafka.
 source_url: https://milvus.io/
-category: Open Source Vector Databases
+category: Vector Database
 tags:
-  - distributed
   - open-source
-  - hnsw
-  - hybrid-search
-  - production-scale
-  - gpu-accel
-  - billion-scale
-markdown: |-
-  # Milvus
+  - GPU-accelerated
+  - scalable
+featured: false
+markdown: >-
+  ## Overview
 
-  Milvus is a mature, open-source vector database maintained by Zilliz.
+
+  Milvus is an open-source vector database for massive-scale vector data.
+
 
   ## Features
 
-  - Open Source
-  - Multiple Deployment Options: Lite, Standalone, Distributed
-  - Scalability to billions of vectors
+
   - GPU acceleration
-  - Metadata filtering, hybrid search
+
+  - Distributed querying
+
+  - Efficient indexing: IVF, HNSW, PQ
+
+  - Scalability with efficient index storage and shard management
+
+  - Native support for Python, Java, Go, etc.
+
+  - Integration with Kafka
+
+  - Real-time updates, hybrid search, rich metadata handling
+
 
   ## Pricing
 
-  Free open-source.
-brand_logo_url: https://milvus.io/milvus-vector-database-logo.svg
-images:
-  - https://milvus.io/img/milvus-architecture.png
-  - https://milvus.io/milvus-dark-icon-only.png
-  - https://milvus.io/logo.png
-  - https://milvus.io/milvus-vector-database-logo.svg
-  - https://milvus.io/images/milvus-logo.png
-  - https://milvus.io/assets/shared/logos/milvus-logo.svg
-  - https://milvus.io/logo.svg
-updated_at: 2026-04-23 13:22
+
+  Cost-effective for on-premise use as open-source; large-scale deployments may
+  require substantial resources.
+updated_at: 2026-04-23 16:13

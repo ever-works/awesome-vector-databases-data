@@ -1,66 +1,34 @@
 name: Haystack
-description: Modular open-source framework for building RAG pipelines in LLM
-  apps, featuring advanced chunking strategies, hybrid retrieval with vector
-  store integrations (e.g., Pinecone, Weaviate, FAISS), reranking, and agentic
-  generation.
+description: All-in-one AI framework for semantic search, LLM orchestration, and
+  language model workflows. Supports integration with vector databases for RAG
+  applications.
 source_url: https://haystack.deepset.ai/
-category: RAG Frameworks & Pipelines
+category: Libraries
 tags:
-  - rag-pipeline
-  - llm-rag
-  - hybrid-retrieval
-featured: true
+  - open-source
+  - semantic-search
+  - rag
+featured: false
 markdown: >-
   ## Overview
 
 
-  Haystack enables scalable RAG for LLM applications through composable
-  pipelines handling ingestion, retrieval, and generation.
+  Haystack is an open-source framework for building AI applications focused on
+  semantic search and LLM workflows.
 
 
-  ## Key RAG Features
+  ## Features
 
 
-  - **Chunking**: Semantic, fixed-size, recursive splitters with overlap
+  - Semantic search capabilities
 
-  - **Retrieval**: Hybrid (dense/sparse), MMR diversity, multi-query
+  - LLM orchestration
 
-  - **Vector Store Integrations**: Pinecone, Weaviate, Elasticsearch, FAISS,
-  Milvus, Qdrant
-
-  - **Reranking & Post-Processing**: Cross-encoders, reciprocal rank fusion
-
-
-  ## Use Cases
-
-
-  - Knowledge retrieval for chatbots
-
-  - Enterprise search over docs
-
-  - Multi-modal RAG agents
-
-
-  ## Comparisons
-
-
-  | Aspect | LangChain | LlamaIndex | Haystack |
-
-  |--------|-----------|------------|----------|
-
-  | Modularity | Chains/Agents | Data-focused indexes | Pipeline nodes |
-
-  | Vector Stores | 100+ loaders | Strong indexing | Optimized retrievers |
-
-  | Maturity | Broad ecosystem | Rapid iteration | Production pipelines |
+  - Language model workflow management
 
 
   ## Pricing
 
 
-  Free open-source (Apache 2.0). Enterprise via deepset Cloud.
-brand: deepset
-brand_logo_url: ""
-images:
-  - https://haystack.deepset.ai/assets/images/overview_diagram.svg
-updated_at: 2026-04-23 13:22
+  Free and open-source.
+updated_at: 2026-04-23 16:13
