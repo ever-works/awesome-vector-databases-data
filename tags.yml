@@ -1707,7 +1707,7 @@
 - id: serverless-scaling
   name: Serverless Scaling
 - id: enterprise-rag
-  name: Enterprise Rag
+  name: Enterprise RAG
 - id: auto-indexing
   name: Auto Indexing
 - id: vector-data-privacy
@@ -1747,7 +1747,7 @@
 - id: community-driven
   name: Community Driven
 - id: rag-pipeline
-  name: RAG Pipeline
+  name: Rag Pipeline
 - id: hybrid-rag
   name: Hybrid RAG
 - id: image-video-vectors
@@ -1800,3 +1800,37 @@
   name: Disk Persistent
 - id: easy-scaling
   name: Easy Scaling
+- id: research-paper
+  name: Research Paper
+- id: ann-survey
+  name: Ann Survey
+- id: performance-evaluation
+  name: Performance Evaluation
+- id: ann-libraries
+  name: Ann Libraries
+- id: kg-rag
+  name: Kg Rag
+- id: demo
+  name: Demo
+- id: zero-shot-retrieval
+  name: Zero Shot Retrieval
+- id: rag-benchmark
+  name: Rag Benchmark
+- id: anns-tools
+  name: Anns Tools
+- id: postgres-ext
+  name: Postgres Ext
+- id: llm-rag
+  name: Llm Rag
+- id: hybrid-retrieval
+  name: Hybrid Retrieval
+- id: sqlite-ext
+  name: Sqlite Ext
+- id: multi-user
+  name: Multi User
+- id: mysql-ext
+  name: Mysql Ext
+- id: spann
+  name: Spann
+- id: clickhouse-ext
+  name: Clickhouse Ext

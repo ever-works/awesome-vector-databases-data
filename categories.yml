@@ -116,3 +116,23 @@
   name: GPU & High Perf Vector DBs
 - id: 2026-trends-startups
   name: 2026 Trends & Startups
+- id: vector-db-research-surveys
+  name: Vector DB Research & Surveys
+- id: hybrid-search-multimodal-dbs
+  name: Hybrid Search & Multimodal DBs
+- id: benchmarks-evaluation-tools
+  name: Benchmarks & Evaluation Tools
+- id: graph-enhanced-vector-databases
+  name: Graph Enhanced Vector Databases
+- id: relational-vector-extensions
+  name: Relational Vector Extensions
+- id: managed-serverless-vector-databases
+  name: Managed & Serverless Vector Databases
+- id: gpu-accelerated-vector-databases
+  name: GPU Accelerated Vector Databases
+- id: rag-frameworks-tools
+  name: RAG Frameworks & Tools
+- id: disk-optimized-vector-databases
+  name: Disk Optimized Vector Databases
+- id: production-scalable-vector-databases
+  name: Production & Scalable Vector Databases
