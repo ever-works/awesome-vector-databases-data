@@ -47,7 +47,7 @@
 - id: similarity-search
   name: Similarity Search
 - id: gpu
-  name: Gpu
+  name: GPU
 - id: cloud
   name: Cloud
 - id: google
@@ -77,7 +77,7 @@
 - id: ai-agents
   name: Ai Agents
 - id: gpu-accelerated
-  name: GPU Accelerated
+  name: Gpu Accelerated
 - id: scalable
   name: Scalable
 - id: integrated
@@ -171,11 +171,11 @@
 - id: distributed-search
   name: Distributed Search
 - id: knn-plugin
-  name: Knn Plugin
+  name: KNN Plugin
 - id: hybrid-lexical
   name: Hybrid Lexical
 - id: ann-library
-  name: Ann Library
+  name: ANN Library
 - id: columnar
   name: Columnar
 - id: production-ready
@@ -221,7 +221,7 @@
 - id: deterministic
   name: Deterministic
 - id: ngt-index
-  name: Ngt Index
+  name: NGT Index
 - id: grpc
   name: Grpc
 - id: ranking
@@ -229,7 +229,7 @@
 - id: tensor
   name: Tensor
 - id: graphql
-  name: Graphql
+  name: GraphQL
 - id: saas
   name: Saas
 - id: graph-ql
@@ -238,3 +238,47 @@
   name: Multi Tenancy
 - id: milvus-based
   name: Milvus Based
+- id: nvidia
+  name: Nvidia
+- id: rapids
+  name: Rapids
+- id: cuda
+  name: Cuda
+- id: gpu-acceleration
+  name: Gpu Acceleration
+- id: cagra
+  name: Cagra
+- id: enterprise-scale
+  name: Enterprise Scale
+- id: gpu-support
+  name: GPU Support
+- id: meta-ai
+  name: Meta AI
+- id: disk-based
+  name: Disk Based
+- id: sql-queries
+  name: SQL Queries
+- id: computer-vision
+  name: Computer Vision
+- id: billion-scale
+  name: Billion Scale
+- id: sql-hybrid
+  name: Sql Hybrid
+- id: postgres-ext
+  name: Postgres Ext
+- id: diskann
+  name: Diskann
+- id: production-scale
+  name: Production Scale
+- id: module-based
+  name: Module Based
+- id: kubernetes
+  name: Kubernetes
+- id: tensor-compute
+  name: Tensor Compute
+- id: real-time-serving
+  name: Real Time Serving
+- id: big-data
+  name: Big Data
+- id: modular
+  name: Modular

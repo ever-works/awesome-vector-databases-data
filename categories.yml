@@ -10,3 +10,13 @@
   name: Embedded Vector Libraries
 - id: hybrid-vector-stores
   name: Hybrid Vector Stores
+- id: edge-vector-databases
+  name: Edge Vector Databases
+- id: gpu-accelerated-vector-dbs
+  name: GPU Accelerated Vector DBs
+- id: rag-optimized-vector-dbs
+  name: RAG Optimized Vector DBs
+- id: multimodal-vector-dbs
+  name: Multimodal Vector DBs
+- id: postgres-vector-extensions
+  name: Postgres Vector Extensions
