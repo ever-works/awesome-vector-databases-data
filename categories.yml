@@ -4,3 +4,9 @@
   name: Vector Databases
 - id: libraries
   name: Libraries
+- id: managed-vector-databases
+  name: Managed Vector Databases
+- id: embedded-vector-libraries
+  name: Embedded Vector Libraries
+- id: hybrid-vector-stores
+  name: Hybrid Vector Stores

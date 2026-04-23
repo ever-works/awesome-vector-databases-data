@@ -21,7 +21,7 @@
 - id: easy-integration
   name: Easy Integration
 - id: ann
-  name: ANN
+  name: Ann
 - id: edge
   name: Edge
 - id: serverless
@@ -47,7 +47,7 @@
 - id: similarity-search
   name: Similarity Search
 - id: gpu
-  name: GPU
+  name: Gpu
 - id: cloud
   name: Cloud
 - id: google
@@ -146,3 +146,95 @@
   name: Privacy Focused
 - id: milvus
   name: Milvus
+- id: cassandra-based
+  name: Cassandra Based
+- id: multi-cloud
+  name: Multi Cloud
+- id: llm-friendly
+  name: Llm Friendly
+- id: persistent
+  name: Persistent
+- id: columnar-olap
+  name: Columnar Olap
+- id: ann-indexes
+  name: Ann Indexes
+- id: analytical-queries
+  name: Analytical Queries
+- id: billion-rows
+  name: Billion Rows
+- id: data-warehousing
+  name: Data Warehousing
+- id: sql-analytics
+  name: Sql Analytics
+- id: high-throughput
+  name: High Throughput
+- id: distributed-search
+  name: Distributed Search
+- id: knn-plugin
+  name: Knn Plugin
+- id: hybrid-lexical
+  name: Hybrid Lexical
+- id: ann-library
+  name: Ann Library
+- id: columnar
+  name: Columnar
+- id: production-ready
+  name: Production Ready
+- id: cluster
+  name: Cluster
+- id: sharding
+  name: Sharding
+- id: high-availability
+  name: High Availability
+- id: distributed-cluster
+  name: Distributed Cluster
+- id: etcd
+  name: Etcd
+- id: sql-compatible
+  name: Sql Compatible
+- id: cloud-native
+  name: Cloud Native
+- id: edge-deployable
+  name: Edge Deployable
+- id: filtered-search
+  name: Filtered Search
+- id: clustering
+  name: Clustering
+- id: python-client
+  name: Python Client
+- id: rag-pipeline
+  name: Rag Pipeline
+- id: commercial
+  name: Commercial
+- id: postgresql
+  name: Postgresql
+- id: managed-postgres
+  name: Managed Postgres
+- id: realtime
+  name: Realtime
+- id: pgvector-based
+  name: Pgvector Based
+- id: cost-optimized
+  name: Cost Optimized
+- id: paged-storage
+  name: Paged Storage
+- id: deterministic
+  name: Deterministic
+- id: ngt-index
+  name: Ngt Index
+- id: grpc
+  name: Grpc
+- id: ranking
+  name: Ranking
+- id: tensor
+  name: Tensor
+- id: graphql
+  name: Graphql
+- id: saas
+  name: Saas
+- id: graph-ql
+  name: Graph Ql
+- id: multi-tenancy
+  name: Multi Tenancy
+- id: milvus-based
+  name: Milvus Based
