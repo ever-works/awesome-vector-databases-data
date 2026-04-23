@@ -136,3 +136,5 @@
   name: Disk Optimized Vector Databases
 - id: production-scalable-vector-databases
   name: Production & Scalable Vector Databases
+- id: cloud-managed-vector-databases
+  name: Cloud Managed Vector Databases
