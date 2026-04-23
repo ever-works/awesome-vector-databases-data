@@ -1,17 +1,18 @@
 name: Milvus Distributed
-description: Horizontally scalable distributed vector database with sharding
-  across nodes for high QPS (10k+ qps), low-latency queries on billions of
-  vectors. Provides high availability (HA) via replication, Kubernetes
-  auto-scaling, and fault tolerance for enterprise production workloads.
-  Optimized for use cases like enterprise RAG; Milvus offers extensive ecosystem
-  and multi-index support compared to Qdrant's Rust-efficient distributed
-  clusters.
+description: Milvus Distributed deployment enables horizontal scaling across
+  clusters for production workloads handling petabyte-scale vector data.
+  Features leaderless architecture, sharding, and fault-tolerance via
+  etcd/Pulsar. Suited for enterprise AI apps needing high availability;
+  contrasts with serverless options like Pinecone by offering full control.
 source_url: https://milvus.io/
 category: Production & Scalable Vector DBs
 tags:
   - scalable
   - production-ready
   - distributed
+  - cluster
+  - sharding
+  - high-availability
 featured: false
 markdown: >-
   ## Overview
@@ -75,4 +76,4 @@ brand: Milvus
 brand_logo_url: https://milvus.io/img/milvus-logo.svg
 images:
   - https://milvus.io/img/milvus-architecture.png
-updated_at: 2026-04-23 04:24
+updated_at: 2026-04-23 07:12
