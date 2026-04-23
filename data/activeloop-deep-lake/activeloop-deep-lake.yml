@@ -3,7 +3,7 @@ description: Multi-modal tensor DB for vectors/images/texts/videos with hybrid
   embedding + metadata/tensor search. Supports multimodal RAG datasets with
   versioning. Data lake scale vs pure vector stores like Qdrant.
 source_url: https://www.activeloop.ai
-category: Multimodal Vector Databases
+category: Multimodal & Hybrid Vector Stores
 tags:
   - multimodal
   - 2026 Trends
@@ -94,4 +94,4 @@ markdown: >-
   Open-source for self-hosting. Managed Tensor Database offers serverless
   pricing with usage-based costs.
 brand: Activeloop
-updated_at: 2026-04-23 10:13
+updated_at: 2026-04-23 13:22

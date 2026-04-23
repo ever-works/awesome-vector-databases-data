@@ -4,7 +4,7 @@ description: Serverless vector indexing service designed for real-time storage
   create complete indexes, featuring transparent pricing. This is a commercial
   managed service.
 source_url: https://www.gomomento.com/services/vector-index
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - commercial
   - serverless
@@ -134,4 +134,4 @@ markdown: >-
 
   - Lower operational overhead
 brand: Momento
-updated_at: 2026-04-23 04:24
+updated_at: 2026-04-23 13:22

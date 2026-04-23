@@ -4,7 +4,7 @@ description: Leveraging Amazon S3 as a storage layer for vector databases,
   make it attractive for large-scale vector datasets with appropriate access
   patterns.
 source_url: https://aws.amazon.com/s3/
-category: Cloud & Managed
+category: Cloud Managed Vector Databases
 tags:
   - storage
   - aws
@@ -127,4 +127,4 @@ markdown: >-
 
   Amazon S3 in all AWS regions
 brand: AWS
-updated_at: 2026-03-20 13:13
+updated_at: 2026-04-23 13:22

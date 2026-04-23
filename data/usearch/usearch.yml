@@ -1,16 +1,17 @@
 name: uSearch
-description: uSearch is a high-performance vector search library from Unum,
-  supporting HNSW, IVF, and scalar quantization with SIMD acceleration for
-  CPU/GPU. Features single-header C API and bindings, disk persistence. Ideal
-  for embedded/production apps; outperforms NMSLIB in QPS and lower memory vs
-  FAISS for high-dim data.
+description: uSearch is a lightweight C++ vector search library featuring HNSW
+  indexing, fast single-header implementation with no dependencies. Designed for
+  embedded and high-performance applications, it is simpler than Faiss and
+  supports optional disk persistence. Ideal for use cases on edge devices.
 source_url: https://github.com/unum-cloud/usearch
-category: Vector Search Libraries
+category: Vector Indexing Libraries
 tags:
   - library
   - simd
   - quantization
   - single-header
+  - lightweight
+  - cpp
 markdown: |
   # usearch
 
@@ -65,4 +66,5 @@ brand_logo_url: https://github.com/unum-cloud/usearch/raw/master/media/logo.svg
 images:
   - https://github.com/unum-cloud/usearch/raw/master/media/logo.svg
   - https://github.com/unum-cloud/usearch/raw/main/artwork/logo.png
-updated_at: 2026-04-22 19:20
+  - https://github.com/unum-cloud/usearch/raw/main/web/usearch-logo.png
+updated_at: 2026-04-23 13:22

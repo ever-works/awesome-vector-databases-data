@@ -6,7 +6,7 @@ description: Annoy (Approximate Nearest Neighbors Oh Yeah) is a lightweight C++
   recommendation systems and offline indexing; simpler and faster build than
   HNSWlib for static data but no dynamic updates.
 source_url: https://github.com/spotify/annoy
-category: Vector Similarity Libraries
+category: Vector Indexing Libraries
 tags:
   - library
   - spotify
@@ -94,4 +94,4 @@ markdown: >-
 brand_logo_url: https://github.com/spotify/annoy/raw/master/icon.png
 images:
   - https://github.com/spotify/annoy/raw/master/annoy-logo.png
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 13:22

@@ -1,11 +1,10 @@
 name: Milvus
-description: Milvus is an open-source, cloud-native vector database designed for
-  scalable similarity search on massive embedding datasets, supporting billions
-  of vectors with high QPS. Key features include HNSW, IVF, PQ indexing, hybrid
-  search (dense+sparse), metadata filtering, multi-tenancy, and integrations
-  with PyTorch/TensorFlow. Ideal for RAG, recommendation systems, and AI search;
-  compares to Pinecone (managed) by being self-hosted and more customizable,
-  outperforming in cost for large-scale deployments.
+description: "Milvus is an open-source vector database for massive-scale
+  similarity search on embedding vectors, built for AI workloads. Supports
+  distributed architecture, multiple indexes (HNSW, IVF, etc.), GPU
+  acceleration, and multimodal data. Use cases: large-scale RAG, image/video
+  search; compares to Pinecone by being free/self-hosted but requires more ops,
+  outperforming in billion-scale benchmarks."
 source_url: https://milvus.io/
 category: Open Source Vector Databases
 tags:
@@ -14,6 +13,8 @@ tags:
   - hnsw
   - hybrid-search
   - production-scale
+  - gpu-accel
+  - billion-scale
 markdown: |-
   # Milvus
 
@@ -38,4 +39,5 @@ images:
   - https://milvus.io/milvus-vector-database-logo.svg
   - https://milvus.io/images/milvus-logo.png
   - https://milvus.io/assets/shared/logos/milvus-logo.svg
-updated_at: 2026-04-22 22:18
+  - https://milvus.io/logo.svg
+updated_at: 2026-04-23 13:22

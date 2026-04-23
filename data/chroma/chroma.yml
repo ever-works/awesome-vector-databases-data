@@ -1,11 +1,9 @@
 name: ChromaDB
-description: "ChromaDB is an open-source embedding database optimized for LLM
-  apps and RAG, supporting local persistence, in-memory storage, and easy
-  integration with LangChain/LlamaIndex. Features HNSW indexing, automatic
-  batching, multi-modal embeddings, and Python-first API for quick prototyping.
-  Use cases: local RAG prototypes, chatbots, document Q&A. Vs pgvector: simpler
-  for non-SQL users; vs Pinecone: free local alternative without vendor
-  lock-in."
+description: ChromaDB is an open-source embedding database for LLM apps,
+  lightweight and embeddable with Python-first API. Supports HNSW indexing,
+  persistence, and easy RAG prototyping. Great for local dev and small-scale vs
+  production-scale like Milvus; simple alternative to Pinecone for non-managed
+  needs.
 source_url: https://www.trychroma.com/
 category: Embedded & Edge Vector Databases
 tags:
@@ -19,6 +17,8 @@ tags:
   - local-persistence
   - multimodal-embeddings
   - prototyping
+  - local-rag
+  - embeddable
 markdown: >-
   # ChromaDB
 
@@ -37,4 +37,5 @@ images:
   - https://docs.trychroma.com/logo.png
   - https://docs.trychroma.com/images/chroma-overview.png
   - https://www.trychroma.com/logo.png
-updated_at: 2026-04-23 10:13
+  - https://www.trychroma.com/logo.svg
+updated_at: 2026-04-23 13:22

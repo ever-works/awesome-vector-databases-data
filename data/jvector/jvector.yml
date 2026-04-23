@@ -5,7 +5,7 @@ description: Java-based graph index for approximate nearest neighbor search that
   non-blocking concurrency, and larger-than-memory index construction. Designed
   for high-dimensional vector similarity search in AI applications.
 source_url: https://github.com/datastax/jvector
-category: Vector Search Libraries
+category: Vector Indexing Libraries
 tags:
   - open-source
   - java
@@ -53,4 +53,4 @@ markdown: >-
 
   Free and open-source.
 brand: DataStax
-updated_at: 2026-04-23 04:24
+updated_at: 2026-04-23 13:22

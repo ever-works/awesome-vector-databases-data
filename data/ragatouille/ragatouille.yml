@@ -3,7 +3,7 @@ description: Specialized retrieval tool for RAG in LLM apps using ColBERT
   late-interaction for token-level matching, integrable with vector stores like
   FAISS for high-precision retrieval and reranking.
 source_url: https://github.com/AnswerDotAI/RAGatouille
-category: RAG Frameworks & Tools
+category: RAG Frameworks & Pipelines
 tags:
   - rag-pipeline
   - llm-rag
@@ -59,4 +59,4 @@ markdown: >-
   Free open-source (MIT).
 images:
   - https://github.com/AnswerDotAI/RAGatouille/raw/main/img/overview.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 13:22

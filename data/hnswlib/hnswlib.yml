@@ -5,7 +5,7 @@ description: HNSWlib is a high-performance hierarchical navigable small world
   supports CPU-only. Used in ChromaDB/Qdrant; excels over FAISS in dynamic
   scenarios and recall but less GPU support.
 source_url: https://github.com/nmslib/hnswlib
-category: Vector Search Libraries
+category: Vector Indexing Libraries
 tags:
   - library
   - hnsw
@@ -135,4 +135,4 @@ markdown: >-
 brand: NMSLib
 images:
   - https://github.com/nmslib/hnswlib/raw/master/logo.png
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 13:22

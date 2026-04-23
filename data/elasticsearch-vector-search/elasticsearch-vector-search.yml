@@ -5,7 +5,7 @@ description: Provides hybrid search combining dense/sparse vector similarity
   in enterprise search. Offers mature ecosystem, analytics integration, and
   scalability beyond pure vector DBs like Qdrant, though with larger footprint.
 source_url: https://www.elastic.co/elasticsearch/
-category: Hybrid Search & Multimodal DBs
+category: Hybrid & Multimodal Vector Databases
 tags:
   - commercial
   - open-source
@@ -240,4 +240,4 @@ brand_logo_url: https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.s
 images:
   - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
   - https://www.elastic.co/assets/images/elasticsearch-logo.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 13:22

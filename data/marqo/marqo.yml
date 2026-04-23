@@ -3,7 +3,7 @@ description: Multimodal vector DB with native cross-modal (text-to-image/video)
   search using CLIP/HF models, plus keyword filtering for hybrid retrieval.
   Unified API simplifies multimodal RAG vs text-only DBs like Qdrant.
 source_url: https://www.marqo.ai/
-category: Multimodal Vector Databases
+category: Multimodal & Hybrid Vector Stores
 tags:
   - Cross-Modal
   - Image Video Vectors
@@ -86,4 +86,4 @@ markdown: >-
 brand: Marqo
 images:
   - https://www.marqo.ai/assets/images/product/demo.gif
-updated_at: 2026-04-23 10:13
+updated_at: 2026-04-23 13:22

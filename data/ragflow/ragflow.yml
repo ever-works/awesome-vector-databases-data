@@ -3,7 +3,7 @@ description: Open-source RAG engine for LLM apps with deep document parsing,
   multi-granularity chunking, hybrid retrieval integrating vector stores (e.g.,
   Elasticsearch), and visual workflow builder.
 source_url: https://ragflow.io/
-category: RAG Frameworks & Tools
+category: RAG Frameworks & Pipelines
 tags:
   - rag-pipeline
   - llm-rag
@@ -60,4 +60,4 @@ markdown: >-
 brand: InfiniFlow
 images:
   - https://ragflow.io/images/architecture.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 13:22

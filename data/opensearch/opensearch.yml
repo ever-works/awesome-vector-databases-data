@@ -1,9 +1,7 @@
 name: OpenSearch
-description: OpenSearch is a community-driven fork of Elasticsearch, offering
-  vector search with k-NN plugins, neural search, and hybrid capabilities on
-  AWS/managed services. Supports HNSW/IVF indexes and multimodal embeddings.
-  Great for AWS ecosystems and cost-conscious enterprise; similar to
-  Elasticsearch but open governance.
+description: "OpenSearch (AWS fork) supports k-NN vector search, neural/hybrid
+  plugins. Open-source alternative to ES; good for cloud-managed semantic
+  search. Use cases: AWS RAG pipelines."
 source_url: https://opensearch.org/
 category: Managed & Serverless Vector DBs
 tags:
@@ -11,6 +9,8 @@ tags:
   - fork
   - neural-search
   - open-governance
+  - aws-fork
+  - k-nn
 markdown: >-
   # OpenSearch
 
@@ -96,4 +96,4 @@ markdown: >-
 images:
   - https://opensearch.org/assets/img/opensearch-logo-full.svg
   - https://opensearch.org/assets/img/opensearch_logo.svg
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 13:22

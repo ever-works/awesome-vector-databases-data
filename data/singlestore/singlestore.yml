@@ -5,7 +5,7 @@ description: Distributed SQL database enabling hybrid workloads with vector
   embeddings. Scales beyond pure vector DBs like Qdrant for mixed
   transactional/analytical/vector use cases.
 source_url: https://www.singlestore.com/
-category: Hybrid Search & Multimodal DBs
+category: Hybrid & Multimodal Vector Databases
 tags:
   - distributed-sql
   - real-time
@@ -107,4 +107,4 @@ markdown: >-
 
   - Commitment pricing available for production with volume discounts.
 brand: SingleStore
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 13:22

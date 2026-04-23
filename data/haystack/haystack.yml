@@ -4,7 +4,7 @@ description: Modular open-source framework for building RAG pipelines in LLM
   store integrations (e.g., Pinecone, Weaviate, FAISS), reranking, and agentic
   generation.
 source_url: https://haystack.deepset.ai/
-category: RAG Frameworks & Tools
+category: RAG Frameworks & Pipelines
 tags:
   - rag-pipeline
   - llm-rag
@@ -63,4 +63,4 @@ brand: deepset
 brand_logo_url: ""
 images:
   - https://haystack.deepset.ai/assets/images/overview_diagram.svg
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 13:22

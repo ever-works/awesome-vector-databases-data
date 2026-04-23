@@ -1,8 +1,8 @@
 name: Redis Vector Search
-description: "Redis Vector Search adds k-NN to Redis for real-time vector
-  similarity on in-memory data, with HNSW/Flat indexes, filtering. Features:
-  sub-ms latency, JSON payloads, modules. Use cases: caching + search, session
-  stores. Vs dedicated VDBs: leverages Redis speed/ecosystem."
+description: "Redis Vector Search (RediSearch module) adds vector similarity
+  (HNSW/Flat) to Redis, with hybrid/keyword search, real-time ingestion. Ideal
+  for caching/high-throughput apps; faster than Postgres pgvector for in-memory,
+  vs dedicated VDBs cheaper ops. Use cases: real-time recs, fraud."
 source_url: https://redis.io/solutions/vector-database/
 category: Key-Value Vector Stores
 tags:
@@ -17,6 +17,9 @@ tags:
   - sub-ms-latency
   - redis-compatible
   - real-time-cache
+  - redis-module
+  - hybrid-bm25
+  - real-time-ingestion
 markdown: >-
   ## Overview
 
@@ -103,4 +106,5 @@ images:
   - https://redis.io/docs/latest/develop/get-started/vss/assets/redis-vss-logo.png
   - https://redis.io/wp-content/uploads/2023/10/redis-vector-search-diagram.png
   - https://redis.io/wp-content/uploads/2021/01/redis-logo.svg
-updated_at: 2026-04-23 10:13
+  - https://redis.io/docs/latest/develop/get-started/redis-stack/images/redis-stack-logo.svg
+updated_at: 2026-04-23 13:22
