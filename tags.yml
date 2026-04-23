@@ -295,7 +295,7 @@
 - id: multi-model
   name: Multi Model
 - id: k-nn
-  name: k-NN
+  name: K Nn
 - id: data-warehousing
   name: Data Warehousing
 - id: knowledge-graph
@@ -817,7 +817,7 @@
 - id: alibaba
   name: Alibaba
 - id: c
-  name: C
+  name: C++
 - id: kd-tree
   name: Kd Tree
 - id: header-only
@@ -1878,3 +1878,5 @@
   name: Modular Search
 - id: enterprise-vector
   name: Enterprise Vector
+- id: storage
+  name: Storage

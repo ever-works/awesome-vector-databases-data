@@ -140,3 +140,7 @@
   name: Cloud Managed Vector Databases
 - id: vector-indexing-libraries
   name: Vector Indexing Libraries
+- id: multimodal-hybrid-vector-stores
+  name: Multimodal & Hybrid Vector Stores
+- id: hybrid-multimodal-vector-databases
+  name: Hybrid & Multimodal Vector Databases
