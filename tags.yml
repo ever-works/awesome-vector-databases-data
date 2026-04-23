@@ -1854,3 +1854,27 @@
   name: Rag Ready
 - id: rust-native
   name: Rust Native
+- id: langchain-ready
+  name: Langchain Ready
+- id: local-persistence
+  name: Local Persistence
+- id: multimodal-embeddings
+  name: Multimodal Embeddings
+- id: acid-transactions
+  name: Acid Transactions
+- id: high-qps
+  name: High Qps
+- id: in-memory-vdb
+  name: In Memory Vdb
+- id: sub-ms-latency
+  name: Sub Ms Latency
+- id: fault-tolerant
+  name: Fault Tolerant
+- id: yql-query
+  name: Yql Query
+- id: graph-rag
+  name: Graph Rag
+- id: modular-search
+  name: Modular Search
+- id: enterprise-vector
+  name: Enterprise Vector
