@@ -7,7 +7,7 @@ description: rust-vector-db is a lightweight, educational vector database
   and edge AI applications or learning purposes; more performant and safer than
   Python-based libraries like Chroma.
 source_url: https://github.com/broisnischal/rust-vector-db
-category: Rust Vector Databases
+category: Rust-based Vector Databases
 tags:
   - rust-lang
   - memory-safe
@@ -64,4 +64,4 @@ markdown: >-
   Free and open-source.
 images:
   - https://opengraph.githubassets.com/1/broisnischal/rust-vector-db
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

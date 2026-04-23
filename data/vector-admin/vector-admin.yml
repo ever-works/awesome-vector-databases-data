@@ -3,7 +3,7 @@ description: A universal tool suite for managing vector databases such as
   Pinecone, Chroma, Qdrant, and Weaviate. Facilitates straightforward management
   and integration of multiple vector database systems.
 source_url: https://vectoradmin.com/
-category: Cloud & Managed Services
+category: Cloud-managed Vector Databases
 tags:
   - management
   - tools
@@ -68,4 +68,4 @@ markdown: >-
   ## Tags
 
   management, tools, vector-databases, integration
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 04:24

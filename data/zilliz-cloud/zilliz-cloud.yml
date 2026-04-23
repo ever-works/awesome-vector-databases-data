@@ -6,7 +6,7 @@ description: Zilliz Cloud is a managed vector database powered by Milvus,
   apps. Ideal for RAG and large-scale similarity search; provides managed SLAs
   and ease surpassing self-hosted Milvus.
 source_url: https://zilliz.com/
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - managed
   - milvus-based
@@ -45,4 +45,4 @@ images:
   - https://zilliz.com/assets/images/logo.svg
   - https://zilliz.com/assets/images/logo.png
   - https://zilliz.com/assets/images/platform-diagram.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

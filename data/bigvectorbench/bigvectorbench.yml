@@ -5,7 +5,7 @@ description: Tests vector DBs on multimodal QPS/latency for heterogeneous
   DBs; differs from ANN-Benchmarks text-only by adding hybrid workloads vs
   custom single-DB tests.
 source_url: https://github.com/BenchCouncil/BigVectorBench
-category: Benchmarks & Evaluation Tools
+category: Benchmarks & Evaluation
 tags:
   - benchmarking
   - performance-evaluation
@@ -64,4 +64,4 @@ markdown: >-
 brand: BenchCouncil
 images:
   - https://raw.githubusercontent.com/BenchCouncil/BigVectorBench/main/images/overview.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

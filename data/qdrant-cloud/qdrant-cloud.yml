@@ -6,7 +6,7 @@ description: Qdrant Cloud is a fully managed serverless vector database for
   for enterprise RAG and production workloads; offers managed operations and
   performance exceeding self-hosted alternatives like Milvus.
 source_url: https://qdrant.tech/cloud/
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - managed
   - serverless
@@ -52,4 +52,4 @@ markdown: >-
 brand: Qdrant
 images:
   - https://cloud.qdrant.io/logo.svg
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

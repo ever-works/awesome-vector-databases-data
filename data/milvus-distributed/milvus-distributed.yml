@@ -7,7 +7,7 @@ description: Horizontally scalable distributed vector database with sharding
   and multi-index support compared to Qdrant's Rust-efficient distributed
   clusters.
 source_url: https://milvus.io/
-category: Production & Scalable Vector Databases
+category: Production & Scalable Vector DBs
 tags:
   - scalable
   - production-ready
@@ -75,4 +75,4 @@ brand: Milvus
 brand_logo_url: https://milvus.io/img/milvus-logo.svg
 images:
   - https://milvus.io/img/milvus-architecture.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

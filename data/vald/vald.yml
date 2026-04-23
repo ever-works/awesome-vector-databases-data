@@ -1,14 +1,12 @@
 name: Vald
-description: Cloud-native distributed vector search engine with agent-based
-  sharding for high scalability and QPS, using NGT for ANN search. Offers HA
-  through index replication/rebalancing, auto-indexing, and Kubernetes-native
-  deployment. Suited for production enterprise RAG; lighter Go alternative to
-  Milvus with NGT focus vs Milvus/Qdrant's broader indexes.
+description: Vald is a distributed vector search engine using NGT indexing for
+  high-dimensional vectors, cloud-native with Go/Rust core. Supports filtering,
+  horizontal scaling; alternative to Milvus for Go ecosystems.
 source_url: https://vald.vdaas.org/
-category: Production & Scalable Vector Databases
+category: Production & Scalable Vector DBs
 tags:
-  - scalable
-  - production-ready
+  - ngt-index
+  - go-lang
   - distributed
 featured: false
 markdown: >-
@@ -73,4 +71,4 @@ brand_logo_url: https://vald.vdaas.org/images/vald-logo.svg
 images:
   - https://vald.vdaas.org/images/system-design.en.svg
   - https://vald.vdaas.org/assets/images/vald_logo.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

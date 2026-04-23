@@ -6,7 +6,7 @@ description: Weaviate Cloud is a managed service for Weaviate vector database,
   search, and recommendation systems; enterprise-ready alternative to
   self-hosted Weaviate with reduced ops overhead compared to Pinecone.
 source_url: https://weaviate.io/cloud
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - managed
   - graphql
@@ -44,4 +44,4 @@ brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5b9a8f
 images:
   - https://weaviate.io/cloud/logo.svg
   - https://weaviate.io/assets/images/cloud-hero-5d5a5f2b44a3e0c6a9f4b0e8d9c2f5b7.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

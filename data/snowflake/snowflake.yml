@@ -3,7 +3,7 @@ description: A cloud data platform that offers capabilities for storing and
   querying various data types, including vector embeddings, often used in
   conjunction with its data warehousing features.
 source_url: https://www.snowflake.com/
-category: Cloud & Managed Services
+category: Cloud-managed Vector Databases
 tags:
   - cloud
   - data-warehousing
@@ -35,4 +35,4 @@ markdown: >-
   ### Pricing
 
   Pricing details are not available in the provided content.
-updated_at: 2026-04-22 19:20
+updated_at: 2026-04-23 04:24

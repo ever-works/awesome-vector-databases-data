@@ -6,7 +6,7 @@ description: Cloudflare Vectorize is a globally distributed, serverless vector
   and real-time AI apps; offers edge performance advantages over centralized
   services like Pinecone.
 source_url: https://developers.cloudflare.com/vectorize/
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - serverless
   - managed-service
@@ -28,4 +28,4 @@ brand: cloudflare
 brand_logo_url: https://www.cloudflare.com/img/logo-cloudflare-dark.svg
 images:
   - https://developers.cloudflare.com/_astro/privacyoptions.BWXSiJOZ_22PXh4.svg
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

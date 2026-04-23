@@ -6,7 +6,7 @@ description: Turbopuffer is a serverless vector database built on object
   systems; significantly cheaper than Pinecone for large datasets while
   maintaining low latency.
 source_url: https://turbopuffer.com/
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - object-storage
   - s3
@@ -24,4 +24,4 @@ markdown: |-
   ## Pricing
   10x cheaper than traditional DBs.
 brand: Turbopuffer
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

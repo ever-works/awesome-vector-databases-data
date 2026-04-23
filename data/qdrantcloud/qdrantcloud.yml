@@ -5,10 +5,10 @@ description: QdrantCloud is the managed cloud service for Qdrant vector
   and enterprise reliability. Ideal for RAG and recommendations; managed ease
   over self-hosted Qdrant.
 source_url: https://cloud.qdrant.io/
-category: Managed & Serverless Vector Databases
+category: Managed Vector Databases
 tags:
   - managed-service
   - vector-database
   - similarity-search
   - ai
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

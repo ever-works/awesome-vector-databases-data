@@ -1,20 +1,18 @@
 name: Qdrant
-description: Qdrant is a production-grade vector database built in Rust,
-  offering memory safety, exceptional performance, and concurrency without
-  garbage collection. It features SIMD-optimized HNSW and DISKANN indexes, disk
-  persistence, binary quantization, filtered ANN search, and payload support for
-  multi-modal data. Ideal for high-performance applications like real-time
-  recommendations, RAG pipelines, and semantic search; significantly faster and
-  more efficient than Python-based alternatives like Chroma due to Rust's
-  low-level optimizations.
+description: Qdrant is a high-performance open-source vector database optimized
+  for production-scale similarity search with advanced filtering on payloads. It
+  supports HNSW indexing, on-disk storage, multi-vector search, and quantization
+  for efficiency, making it suitable for recommendation systems, fraud
+  detection, and RAG workflows. Compared to Milvus, Qdrant excels in filtered
+  ANN queries and Rust-based reliability; vs. Pinecone, it offers self-hosting
+  with Kubernetes support.
 source_url: https://qdrant.tech/
-category: Rust Vector Databases
+category: Production & Scalable Vector DBs
 tags:
-  - rust-lang
-  - memory-safe
-  - high-performance
-  - simd
-  - disk-persistence
+  - filtered-search
+  - rust-engine
+  - kubernetes-native
+  - quantization
 featured: false
 markdown: >-
   ## Overview
@@ -62,4 +60,5 @@ images:
   - https://qdrant.tech/images/binary-quantization.png
   - https://qdrant.tech/qdrant-logo.svg
   - https://qdrant.tech/logo.svg
-updated_at: 2026-04-23 01:18
+  - https://qdrant.tech/qdrant-logo.svg
+updated_at: 2026-04-23 04:24

@@ -5,7 +5,7 @@ description: Evaluates embeddings on 58 datasets/112 languages with
   Standard for RAG embedding choice; text-focused unlike BigVectorBench
   multimodal, complements ANN-Benchmarks index benchmarks.
 source_url: https://github.com/embeddings-benchmark/mteb
-category: Benchmarks & Evaluation Tools
+category: Benchmarks & Evaluation
 tags:
   - benchmarking
   - performance-evaluation
@@ -179,4 +179,4 @@ markdown: >-
 
 
   Free and open-source benchmark framework.
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

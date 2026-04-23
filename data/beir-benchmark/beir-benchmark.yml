@@ -7,7 +7,7 @@ description: Zero-shot benchmark for embedding model evaluation on 18 diverse
   ANN-Benchmarks indexing focus with retrieval task evaluation, differs from
   VectorDBBench full-DB tests.
 source_url: https://github.com/beir-cellar/beir
-category: Benchmarks & Evaluation Tools
+category: Benchmarks & Evaluation
 tags:
   - benchmarking
   - performance-evaluation
@@ -158,4 +158,4 @@ markdown: >-
   Free and open-source benchmark.
 images:
   - https://github.com/beir-cellar/beir/raw/main/assets/leaderboard.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24

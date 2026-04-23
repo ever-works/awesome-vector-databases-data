@@ -5,7 +5,7 @@ description: NVIDIA RAPIDS cuVS is a GPU-accelerated library for vector search
   in GenAI apps. Achieves up to 12x faster indexing and lower latency vs
   CPU-only alternatives like FAISS CPU.
 source_url: https://github.com/rapidsai/cuvs
-category: GPU Accelerated Vector Databases
+category: GPU-accelerated Vector Databases
 tags:
   - nvidia
   - rapids
@@ -90,4 +90,4 @@ markdown: >-
 
   cuVS is released under an open-source license (see the repository for
   details).
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-23 04:24
