@@ -351,7 +351,7 @@
 - id: faiss-extension
   name: Faiss Extension
 - id: nodejs
-  name: Node.js
+  name: Nodejs
 - id: javascript
   name: Javascript
 - id: javascript-bindings
@@ -475,7 +475,7 @@
 - id: real-time-subs
   name: Real Time Subs
 - id: rls-multi-tenant
-  name: RLS Multi Tenant
+  name: Rls Multi Tenant
 - id: supabase
   name: Supabase
 - id: ml-serving
@@ -488,3 +488,125 @@
   name: Backups
 - id: modular-ml
   name: Modular ML
+- id: cloud-managed
+  name: Cloud Managed
+- id: managed-postgres-vector
+  name: Managed Postgres Vector
+- id: serverless-sql
+  name: Serverless Sql
+- id: pure-ann
+  name: Pure ANN
+- id: index-only
+  name: Index Only
+- id: benchmark-tool
+  name: Benchmark Tool
+- id: vector-embeddings
+  name: Vector Embeddings
+- id: rust-lang
+  name: Rust Lang
+- id: embeddable
+  name: Embeddable
+- id: local
+  name: Local
+- id: developer-tools
+  name: Developer Tools
+- id: scalable-ann
+  name: Scalable ANN
+- id: offline
+  name: Offline
+- id: mobile
+  name: Mobile
+- id: edge-computing
+  name: Edge Computing
+- id: embeddable-sql
+  name: Embeddable Sql
+- id: vss-hnsw
+  name: Vss Hnsw
+- id: olap-local
+  name: Olap Local
+- id: no-server
+  name: No Server
+- id: bm25
+  name: Bm25
+- id: cuda-optimized
+  name: CUDA Optimized
+- id: async-client
+  name: Async Client
+- id: pay-per-use
+  name: Pay Per Use
+- id: auto-scale
+  name: Auto Scale
+- id: zero-dep
+  name: Zero Dep
+- id: local-first
+  name: Local First
+- id: vision-language
+  name: Vision Language
+- id: fusion-search
+  name: Fusion Search
+- id: python
+  name: Python
+- id: performance-critical
+  name: Performance Critical
+- id: wasm-support
+  name: Wasm Support
+- id: postgresql-extension
+  name: Postgresql Extension
+- id: multi-region
+  name: Multi Region
+- id: crystal
+  name: Crystal
+- id: multi-language-sdk
+  name: Multi Language SDK
+- id: sql-vector
+  name: SQL Vector
+- id: postgres-native
+  name: Postgres Native
+- id: quantum
+  name: Quantum
+- id: vqas
+  name: VQAs
+- id: post-quantum-crypto
+  name: Post Quantum Crypto
+- id: bm25-fusion
+  name: BM25 Fusion
+- id: reranking
+  name: Reranking
+- id: coherence
+  name: Coherence
+- id: simd
+  name: Simd
+- id: graph-database
+  name: Graph Database
+- id: wasm
+  name: Wasm
+- id: microvm
+  name: Microvm
+- id: qemu
+  name: Qemu
+- id: virtualization
+  name: Virtualization
+- id: file-format
+  name: File Format
+- id: cognitive-containers
+  name: Cognitive Containers
+- id: ebpf
+  name: EBPF
+- id: agentic-workflows
+  name: Agentic Workflows
+- id: federated-learning
+  name: Federated Learning
+- id: standalone
+  name: Standalone
+- id: in-memory-fast
+  name: In Memory Fast
+- id: lightweight-search
+  name: Lightweight Search
+- id: federated-search
+  name: Federated Search
+- id: 2026-production
+  name: 2026 Production
+- id: production-use
+  name: Production Use
+- id: 2026-ready
+  name: 2026 Ready

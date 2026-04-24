@@ -32,3 +32,9 @@
   name: Serverless Vector DBs
 - id: search-engine-vector-extensions
   name: Search Engine Vector Extensions
+- id: embedded-edge-vector-databases
+  name: Embedded & Edge Vector Databases
+- id: quantum-resistant-vectors
+  name: Quantum Resistant Vectors
+- id: federated-vector-dbs
+  name: Federated Vector DBs
