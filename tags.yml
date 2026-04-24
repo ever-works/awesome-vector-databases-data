@@ -15,7 +15,7 @@
 - id: graph
   name: Graph
 - id: c
-  name: C++
+  name: C#
 - id: low-ram
   name: Low Ram
 - id: easy-integration
@@ -77,7 +77,7 @@
 - id: ai-agents
   name: Ai Agents
 - id: gpu-accelerated
-  name: Gpu Accelerated
+  name: GPU Accelerated
 - id: scalable
   name: Scalable
 - id: integrated
@@ -171,7 +171,7 @@
 - id: distributed-search
   name: Distributed Search
 - id: knn-plugin
-  name: KNN Plugin
+  name: Knn Plugin
 - id: hybrid-lexical
   name: Hybrid Lexical
 - id: ann-library
@@ -231,7 +231,7 @@
 - id: graphql
   name: GraphQL
 - id: saas
-  name: Saas
+  name: SaaS
 - id: graph-ql
   name: Graph Ql
 - id: multi-tenancy
@@ -282,3 +282,209 @@
   name: Big Data
 - id: modular
   name: Modular
+- id: managed-service
+  name: Managed Service
+- id: read-heavy
+  name: Read Heavy
+- id: static-index
+  name: Static Index
+- id: memory-mapped
+  name: Memory Mapped
+- id: aws
+  name: Aws
+- id: redis-vss
+  name: Redis VSS
+- id: hybrid-bm25
+  name: Hybrid BM25
+- id: real-time-cache
+  name: Real Time Cache
+- id: redisearch
+  name: Redisearch
+- id: azure
+  name: Azure
+- id: redis
+  name: Redis
+- id: metadata-filtering
+  name: Metadata Filtering
+- id: rag-optimized
+  name: Rag Optimized
+- id: developer-friendly
+  name: Developer Friendly
+- id: llm-apps
+  name: LLM Apps
+- id: multi-modal
+  name: Multi Modal
+- id: python-native
+  name: Python Native
+- id: disk-based-index
+  name: Disk Based Index
+- id: microsoft-research
+  name: Microsoft Research
+- id: out-of-core
+  name: Out Of Core
+- id: disk-persistence
+  name: Disk Persistence
+- id: vamana-graph
+  name: Vamana Graph
+- id: cached-search
+  name: Cached Search
+- id: elser-sparse
+  name: Elser Sparse
+- id: enterprise-search
+  name: Enterprise Search
+- id: lucene-based
+  name: Lucene Based
+- id: vector-database-2026
+  name: Vector Database 2026
+- id: ann-benchmarks
+  name: Ann Benchmarks
+- id: lucene-knn
+  name: Lucene KNN
+- id: hybrid-lexical-vector
+  name: Hybrid Lexical Vector
+- id: gpu-optimized
+  name: GPU Optimized
+- id: quantization-variant
+  name: Quantization Variant
+- id: high-qps
+  name: High QPS
+- id: faiss-extension
+  name: Faiss Extension
+- id: nodejs
+  name: Node.js
+- id: javascript
+  name: Javascript
+- id: javascript-bindings
+  name: JavaScript Bindings
+- id: v8-optimized
+  name: V8 Optimized
+- id: web-apps
+  name: Web Apps
+- id: npm
+  name: NPM
+- id: serverless-scaling
+  name: Serverless Scaling
+- id: enterprise-rag
+  name: Enterprise RAG
+- id: auto-indexing
+  name: Auto Indexing
+- id: disk-persistent
+  name: Disk Persistent
+- id: versioning
+  name: Versioning
+- id: python-first
+  name: Python First
+- id: local-dev
+  name: Local Dev
+- id: edge-ai
+  name: Edge Ai
+- id: embedded-milvus
+  name: Embedded Milvus
+- id: python-package
+  name: Python Package
+- id: prototyping
+  name: Prototyping
+- id: langchain
+  name: Langchain
+- id: no-deployment
+  name: No Deployment
+- id: visualization
+  name: Visualization
+- id: monitoring
+  name: Monitoring
+- id: web-ui
+  name: Web UI
+- id: monitoring-dashboard
+  name: Monitoring Dashboard
+- id: milvus-management
+  name: Milvus Management
+- id: visual-query
+  name: Visual Query
+- id: ops-tool
+  name: Ops Tool
+- id: kd-tree
+  name: Kd Tree
+- id: header-only
+  name: Header Only
+- id: cloud-auto-scale
+  name: Cloud Auto Scale
+- id: pay-per-query
+  name: Pay Per Query
+- id: serverless-first
+  name: Serverless First
+- id: sdk
+  name: Sdk
+- id: vector-store
+  name: Vector Store
+- id: net-client
+  name: .NET Client
+- id: async
+  name: Async
+- id: postgres-client
+  name: Postgres Client
+- id: enterprise-net
+  name: Enterprise .NET
+- id: elixir-client
+  name: Elixir Client
+- id: ecto-integration
+  name: Ecto Integration
+- id: phoenix
+  name: Phoenix
+- id: functional-programming
+  name: Functional Programming
+- id: concurrent
+  name: Concurrent
+- id: ivfflat
+  name: IVFFlat
+- id: sql-native
+  name: SQL Native
+- id: open-source-postgres
+  name: Open Source Postgres
+- id: hybrid-sparse-dense
+  name: Hybrid Sparse Dense
+- id: vector-database
+  name: Vector Database
+- id: hybrid-bm25-vector
+  name: Hybrid BM25 Vector
+- id: in-memory-vdb
+  name: In Memory VDB
+- id: module
+  name: Module
+- id: full-text
+  name: Full Text
+- id: rag-framework
+  name: RAG Framework
+- id: semantic-caching
+  name: Semantic Caching
+- id: redis-stack
+  name: Redis Stack
+- id: eval-tools
+  name: Eval Tools
+- id: google-research
+  name: Google Research
+- id: anisotropic-quantization
+  name: Anisotropic Quantization
+- id: high-recall-ann
+  name: High Recall ANN
+- id: scorer-based
+  name: Scorer Based
+- id: managed-pgvector
+  name: Managed Pgvector
+- id: serverless-postgres
+  name: Serverless Postgres
+- id: real-time-subs
+  name: Real Time Subs
+- id: rls-multi-tenant
+  name: RLS Multi Tenant
+- id: supabase
+  name: Supabase
+- id: ml-serving
+  name: ML Serving
+- id: managed-weaviate
+  name: Managed Weaviate
+- id: auto-scaling
+  name: Auto Scaling
+- id: backups
+  name: Backups
+- id: modular-ml
+  name: Modular ML

@@ -20,3 +20,15 @@
   name: Multimodal Vector DBs
 - id: postgres-vector-extensions
   name: Postgres Vector Extensions
+- id: cloud-postgres-vectors
+  name: Cloud Postgres Vectors
+- id: ann-indexing-libraries
+  name: ANN Indexing Libraries
+- id: search-engine-extensions
+  name: Search Engine Extensions
+- id: vector-clients-sdks
+  name: Vector Clients & SDKs
+- id: serverless-vector-dbs
+  name: Serverless Vector DBs
+- id: search-engine-vector-extensions
+  name: Search Engine Vector Extensions
