@@ -1,13 +1,21 @@
 name: hnswlib-node
-description: Node.js bindings for HNSWlib implementing approximate
-  nearest-neighbor search. Provides fast HNSW-based vector similarity search for
-  JavaScript/TypeScript applications with file persistence support.
+description: "hnswlib-node is the Node.js bindings for HNSWLib, providing fast
+  ANN vector search in JavaScript environments with V8 integration for
+  high-performance similarity matching. Supports build/query on dense vectors,
+  multi-threading; npm installable. Use cases: web apps, serverless JS RAG;
+  extends HNSW to Node vs. Python bindings, lighter than full DBs like Chroma
+  for JS stacks."
 source_url: https://github.com/yoshoku/hnswlib-node
-category: SDKs & Libraries
+category: Vector Clients & SDKs
 tags:
   - nodejs
   - javascript
   - hnsw
+  - Node.js
+  - JavaScript Bindings
+  - V8 Optimized
+  - Web Apps
+  - NPM
 markdown: >-
   ## Overview
 
@@ -162,4 +170,6 @@ markdown: >-
 
 
   Free and open-source under the Apache 2.0 license.
-updated_at: 2026-03-11 12:14
+images:
+  - https://github.com/yoshoku/hnswlib-node/raw/master/logo.png
+updated_at: 2026-04-24 07:22

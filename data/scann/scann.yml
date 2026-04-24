@@ -1,17 +1,18 @@
 name: ScaNN
-description: ScaNN supports disk-optimized vector similarity search through
-  efficient quantization for billion-scale retrieval, enabling out-of-core
-  handling vs pure in-memory HNSW. Uses asymmetric and anisotropic quantization
-  for high-recall MIPS. Ideal for large datasets in production retrieval
-  systems.
+description: "ScaNN (Scalable Nearest Neighbors) from Google Research is a
+  library for efficient high-recall ANN search using anisotropic vector
+  quantization and scorers, optimized for billion-scale inference on CPU/GPU.
+  Supports score-based search for better accuracy than PQ. Key use cases:
+  YouTube recommendations, large embedding search; outperforms Faiss on
+  recall/throughput in benchmarks, but more complex setup vs. simple HNSWLib."
 source_url: https://research.google/blog/announcing-scann-efficient-vector-similarity-search/
-category: Disk-Optimized Vector Databases
+category: ANN Indexing Libraries
 tags:
-  - disk-persistent
-  - out-of-core
-  - quantization
-  - google-research
-  - billion-scale
+  - Google Research
+  - Anisotropic Quantization
+  - High Recall ANN
+  - Scorer Based
+  - Billion Scale
 markdown: >-
   # ScaNN
 
@@ -62,4 +63,6 @@ markdown: >-
 
 
   Open-source, free.
-updated_at: 2026-04-23 01:18
+images:
+  - https://research.google/blog/images/announcing-scann-efficient-vector-similarity-search.png
+updated_at: 2026-04-24 07:22

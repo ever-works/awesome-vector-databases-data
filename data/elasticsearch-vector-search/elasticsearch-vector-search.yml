@@ -1,11 +1,11 @@
 name: Elasticsearch Vector Search
-description: Provides hybrid search combining dense/sparse vector similarity
-  (kNN/HNSW) with keyword (BM25/Lucene) matching and reranking for enhanced
-  relevance across text and multimodal data. Supports multimodal RAG use cases
-  in enterprise search. Offers mature ecosystem, analytics integration, and
-  scalability beyond pure vector DBs like Qdrant, though with larger footprint.
+description: Elasticsearch Vector Search (kNN plugin) enables dense vector ANN
+  with HNSW/IVF in Lucene, hybrid lexical+semantic, exact/approx modes for
+  RAG/search. Features dense_vector fields, script_score queries, integrations
+  with ELSER sparse. Enterprise scale for logs/search; outperforms pure vector
+  DBs in text-heavy hybrid but higher resource use vs. Qdrant.
 source_url: https://www.elastic.co/elasticsearch/
-category: Hybrid & Multimodal Vector Databases
+category: Search Engine Extensions
 tags:
   - commercial
   - open-source
@@ -20,6 +20,10 @@ tags:
   - metadata-filtering
   - hybrid-search
   - multimodal
+  - Lucene kNN
+  - Hybrid Lexical Vector
+  - Enterprise Search
+  - Elser Sparse
 featured: true
 markdown: >-
   ## Overview
@@ -240,4 +244,5 @@ brand_logo_url: https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.s
 images:
   - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
   - https://www.elastic.co/assets/images/elasticsearch-logo.png
-updated_at: 2026-04-23 13:22
+  - https://www.elastic.co/elasticsearch/img/logo-elastic-elasticsearch.svg
+updated_at: 2026-04-24 07:22

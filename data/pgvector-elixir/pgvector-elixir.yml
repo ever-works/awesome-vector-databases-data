@@ -1,17 +1,22 @@
 name: pgvector-elixir
-description: Elixir wrapper and examples for pgvector, integrating
-  PostgreSQL-based vector search into Elixir ecosystems like Phoenix.
+description: pgvector-elixir is the Elixir client for pgvector, allowing vector
+  similarity search and operations from Elixir/Phoenix apps connected to
+  Postgres. Supports Ecto integration for seamless queries with HNSW/IVF indexes
+  and distance metrics. Ideal for functional web apps with semantic search;
+  extends pgvector ecosystem to Elixir BEAM VM, offering concurrent
+  high-throughput vs. single-threaded clients.
 source_url: https://github.com/pgvector/pgvector-elixir
-featured: false
-brand: pgvector
-brand_logo_url: https://avatars.githubusercontent.com/u/101229709
-images:
-  - https://opengraph.githubassets.com/1/pgvector/pgvector-elixir
-category: sdks-libraries
+category: Postgres Vector Extensions
 tags:
   - sdk
   - pgvector
   - vector-store
+  - Elixir Client
+  - Ecto Integration
+  - Phoenix
+  - Functional Programming
+  - Concurrent
+featured: false
 markdown: >-
   # pgvector-elixir
 
@@ -49,7 +54,7 @@ markdown: >-
 
   - Integration with:
     - [Ecto](https://github.com/elixir-ecto/ecto)
-    - [Postgrex](https://github.com/elixir-ecto/postgrex)
+    - [Postgrex](https://github.com/elixir-ecto/postrex)
   - Provides vector column support for PostgreSQL-backed Elixir applications
 
   - Enables similarity / vector search workflows via pgvector from Elixir code
@@ -86,4 +91,9 @@ markdown: >-
   - Open-source library available under the **MIT License**
 
   - No paid plans mentioned; free to use under the terms of the MIT license.
-updated_at: 2025-12-30 18:03
+brand: pgvector
+brand_logo_url: https://avatars.githubusercontent.com/u/101229709
+images:
+  - https://opengraph.githubassets.com/1/pgvector/pgvector-elixir
+  - https://github.com/pgvector/pgvector-elixir/raw/main/logo.png
+updated_at: 2026-04-24 07:22

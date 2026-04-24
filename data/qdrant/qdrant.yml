@@ -1,16 +1,20 @@
 name: Qdrant
-description: "Qdrant is a vector similarity search engine and vector database
-  written in Rust, optimized for production-scale deployments with filtered
-  search and payload storage. Key features: HNSW indexing, on-disk storage,
-  multi-vector support, and easy Docker deployment. Excels in real-time AI apps
-  like semantic search and RAG; more memory-efficient than Milvus for edge use
-  cases and offers superior filtering vs. basic Faiss."
+description: "Qdrant is a high-performance vector similarity search engine with
+  Rust-based core for production workloads, supporting filtered ANN search via
+  HNSW/NGT-PANNS, payload filtering, and multi-vector collections. Offers
+  on-prem, cloud, and edge deployments with quantization for memory efficiency
+  and real-time recommendations. Use cases: semantic search, fraud detection;
+  outperforms Faiss in filtering speed and scales better than Chroma for large
+  datasets while remaining open-source and lightweight compared to managed
+  services like Pinecone."
 source_url: https://qdrant.tech/
 category: Vector Databases
 tags:
   - Rust
   - Filtered Search
-  - Production Scale
+  - Quantization
+  - Edge Deployable
+  - High Performance
 featured: false
 markdown: |-
   ## Overview
@@ -28,7 +32,8 @@ markdown: |-
   ## Pricing
 
   Cost-effective for self-hosting as open-source.
+brand: ""
 brand_logo_url: https://raw.githubusercontent.com/qdrant/qdrant/main/web/logo.svg
 images:
   - https://qdrant.tech/qdrant-logo.svg
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-24 07:22

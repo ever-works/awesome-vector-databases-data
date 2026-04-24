@@ -6,7 +6,7 @@ description: LanceDB Cloud is a fully managed serverless vector database for
   production AI apps, offering seamless ops and performance without the
   management burden of self-hosted Milvus.
 source_url: https://lancedb.com/cloud/
-category: Managed & Serverless Vector DBs
+category: Serverless Vector DBs
 tags:
   - serverless
   - managed
@@ -65,4 +65,4 @@ brand: LanceDB
 brand_logo_url: https://lancedb.com/logo.svg
 images:
   - https://lancedb.com/images/hero-cloud.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-24 07:22

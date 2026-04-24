@@ -7,7 +7,7 @@ description: HNSWLIB is a high-performance hierarchical navigable small world
   needing sub-ms queries on millions of vectors, outperforming brute-force by
   orders of magnitude.
 source_url: https://github.com/nmslib/hnswlib
-category: Libraries
+category: ANN Indexing Libraries
 tags:
   - HNSW
   - C++
@@ -33,4 +33,4 @@ markdown: >-
   C++ examples provided in the official repository.
 images:
   - https://github.com/nmslib/hnswlib/raw/master/logo.png
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-24 07:22

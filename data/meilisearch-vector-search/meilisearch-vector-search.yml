@@ -2,7 +2,7 @@ name: Meilisearch Vector Search
 description: Meilisearch offers vector search capabilities as part of its search
   engine, enabling hybrid and semantic search for AI applications.
 source_url: https://www.meilisearch.com/solutions/vector-search
-category: commerce
+category: Search Engine Vector Extensions
 tags:
   - vector-search
   - semantic-search
@@ -81,4 +81,4 @@ markdown: >-
 
 
   commerce
-updated_at: 2025-06-07 14:17
+updated_at: 2026-04-24 07:22

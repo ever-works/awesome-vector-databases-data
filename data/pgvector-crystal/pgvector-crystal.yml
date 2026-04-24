@@ -2,16 +2,12 @@ name: pgvector-crystal
 description: Crystal language client for pgvector, providing idiomatic Crystal
   access to vector operations in PostgreSQL.
 source_url: https://github.com/pgvector/pgvector-crystal
-featured: false
-brand: pgvector
-brand_logo_url: https://avatars.githubusercontent.com/u/101229709
-images:
-  - https://opengraph.githubassets.com/1/pgvector/pgvector-crystal
-category: sdks-libraries
+category: Vector Clients & SDKs
 tags:
   - sdk
   - pgvector
   - vector-store
+featured: false
 markdown: >
   # pgvector-crystal
 
@@ -101,4 +97,8 @@ markdown: >
 
   - Not applicable. This is an open-source project released under the MIT
   license.
-updated_at: 2025-12-30 18:03
+brand: pgvector
+brand_logo_url: https://avatars.githubusercontent.com/u/101229709
+images:
+  - https://opengraph.githubassets.com/1/pgvector/pgvector-crystal
+updated_at: 2026-04-24 07:22

@@ -1,15 +1,20 @@
 name: Vespa
-description: Vespa is a big data serving engine with built-in vector search,
-  tensor computations, and real-time ML serving. Supports HNSW/ANN, phased
-  ranking, and multi-phase retrieval for complex queries. Suited for large-scale
-  search apps like recommendations; more feature-rich than Qdrant with native
-  tensor ops but steeper learning curve.
+description: Vespa is an open-source platform for scalable ML serving, vector
+  search, and recommendations, combining HNSW ANN indexing with real-time tensor
+  computations, ranking models, and structured data queries. Supports billions
+  of vectors, phased ranking, multi-phase retrieval, and deployments on
+  cloud/K8s; features built-in grouping/aggregation. Ideal for e-commerce
+  search, news personalization; differentiates from Weaviate with stronger
+  ranking/ML inference and from Pinecone via open-source extensibility but
+  requires more setup.
 source_url: https://vespa.ai/
 category: Vector Databases
 tags:
+  - Real Time Serving
   - Tensor Compute
-  - Real-Time Serving
+  - Ranking
   - Big Data
+  - ML Serving
 featured: false
 markdown: >-
   ## Overview
@@ -37,4 +42,4 @@ markdown: >-
   clusters.
 images:
   - https://vespa.ai/assets/vespa_logo_horizontal_color.svg
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-24 07:22

@@ -2,16 +2,12 @@ name: pgvector-node
 description: JavaScript/TypeScript (Node.js) client for pgvector, enabling
   server-side JS apps to run vector queries on PostgreSQL.
 source_url: https://github.com/pgvector/pgvector-node
-featured: false
-brand: pgvector
-brand_logo_url: https://avatars.githubusercontent.com/u/101229709
-images:
-  - https://opengraph.githubassets.com/1/pgvector/pgvector-node
-category: sdks-libraries
+category: Vector Clients & SDKs
 tags:
   - sdk
   - pgvector
   - vector-store
+featured: false
 markdown: >-
   # pgvector-node
 
@@ -55,4 +51,8 @@ markdown: >-
   ## Pricing
 
   - Open-source under the MIT license (no usage fee)
-updated_at: 2025-12-30 18:03
+brand: pgvector
+brand_logo_url: https://avatars.githubusercontent.com/u/101229709
+images:
+  - https://opengraph.githubassets.com/1/pgvector/pgvector-node
+updated_at: 2026-04-24 07:22

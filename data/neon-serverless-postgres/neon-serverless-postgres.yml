@@ -6,7 +6,7 @@ description: Neon delivers cloud-hosted serverless PostgreSQL with pgvector for
   with database branching. More cost-effective scale-to-zero than Pinecone;
   superior Postgres ecosystem vs Zilliz Cloud.
 source_url: https://neon.com/
-category: Cloud Services
+category: Cloud Postgres Vectors
 tags:
   - Cloud Auto-Scale
   - Multi-Cloud
@@ -476,4 +476,4 @@ markdown: >-
 brand: Neon
 images:
   - https://neon.com/images/neon-pgvector-diagram.png
-updated_at: 2026-04-22 13:39
+updated_at: 2026-04-24 07:22

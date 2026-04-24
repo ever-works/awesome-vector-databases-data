@@ -1,13 +1,21 @@
 name: Milvus WebUI
-description: Built-in GUI introduced in Milvus v2.5 for system observability,
-  offering real-time monitoring of system health, collection management, and
-  query optimization from a unified dashboard.
+description: "Milvus WebUI is a browser-based management interface for Milvus
+  vector DB clusters, providing visual dashboards for collections, indexes,
+  queries, metrics, and data exploration. Supports real-time monitoring, TTL
+  policies, and bulk operations via intuitive UI. Use cases: ops teams managing
+  Milvus deployments; simplifies cluster admin vs. CLI/API, complements Zilliz
+  Cloud console for self-hosted setups."
 source_url: https://milvus.io/docs/milvus-webui.md
-category: LLM Tools
+category: Vector Databases
 tags:
   - visualization
   - monitoring
   - milvus
+  - Web UI
+  - Monitoring Dashboard
+  - Milvus Management
+  - Visual Query
+  - Ops Tool
 featured: false
 markdown: >-
   ## Overview
@@ -85,4 +93,6 @@ markdown: >-
 
   Included free with Milvus v2.5 and later.
 brand: Milvus
-updated_at: 2026-03-13 12:21
+images:
+  - https://milvus.io/webui-logo.png
+updated_at: 2026-04-24 07:22

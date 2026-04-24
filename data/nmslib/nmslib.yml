@@ -4,7 +4,7 @@ description: Non-Metric Space Library (NMSLIB) is an open-source, highly
   metric and non-metric spaces. It supports various similarity search algorithms
   and distance functions for a wide range of applications.
 source_url: https://github.com/nmslib/nmslib
-category: Vector Databases
+category: ANN Indexing Libraries
 tags:
   - open-source
   - non-metric
@@ -28,4 +28,4 @@ markdown: >-
 
   NMSLIB can be installed using pip or built from source, and it offers a Python
   API with examples and documentation.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-24 07:22

@@ -1,10 +1,13 @@
 name: Supabase Vector
-description: Supabase Vector enables pgvector in Supabase's managed Postgres,
-  providing serverless vector search with auth, realtime, and edge functions.
-  Easy dashboard for indexes. For full-stack apps; managed pgvector alternative
-  to self-hosted.
+description: "Supabase Vector is pgvector integration in Supabase's managed
+  Postgres platform, enabling serverless vector similarity search with SQL,
+  real-time subscriptions, and Edge Functions for AI apps. Features
+  auto-indexing HNSW, Row Level Security for multi-tenant, and dashboard UIs.
+  Use cases: full-stack RAG apps with auth/storage; cost-effective managed
+  pgvector alternative to Pinecone, with Postgres ecosystem but serverless
+  limits on compute."
 source_url: https://supabase.com/vector
-category: Managed Vector Databases
+category: Cloud Postgres Vectors
 tags:
   - commercial
   - open-source
@@ -13,6 +16,11 @@ tags:
   - realtime
   - serverless
   - pgvector-based
+  - Managed pgvector
+  - Serverless Postgres
+  - Real-time Subs
+  - RLS Multi-tenant
+  - Supabase
 featured: false
 markdown: >-
   ## Overview
@@ -185,4 +193,6 @@ markdown: >-
   All plans include pgvector and vector capabilities. Self-hosting is free.
 brand: Supabase
 brand_logo_url: https://supabase.com/assets/images/supabase-logo.svg
-updated_at: 2026-04-23 16:30
+images:
+  - https://supabase.com/images/vector-logo.svg
+updated_at: 2026-04-24 07:22

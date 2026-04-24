@@ -3,7 +3,7 @@ description: Vector search capabilities in Amazon ElastiCache enabling semantic
   caching and real-time vector similarity search with microsecond latencies.
   Supports billions of vectors with HNSW indexing and up to 99% recall.
 source_url: https://aws.amazon.com/blogs/database/announcing-vector-search-for-amazon-elasticache/
-category: Cloud Managed Vector Databases
+category: Search Engine Extensions
 tags:
   - aws
   - caching
@@ -90,4 +90,4 @@ markdown: >-
 
   Available in AWS ElastiCache for Redis
 brand: AWS
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-24 07:22

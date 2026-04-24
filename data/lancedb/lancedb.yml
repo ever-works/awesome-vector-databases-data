@@ -1,16 +1,20 @@
 name: LanceDB
-description: LanceDB is an open-source vector database built on the Lance
-  columnar data format, enabling fast vector search on disk without loading
-  everything into memory. Features disk-based indexing (IVF-PQ), SQL queries,
-  and multimodal support. Great for embedded RAG and large datasets; more
-  storage-efficient than Chroma for persistent local use, integrates well with
-  DuckDB/Polars.
+description: "LanceDB is an open-source embedded vector database leveraging the
+  Lance columnar format for efficient storage and querying of multimodal
+  embeddings (text, images, video) directly from disk with zero-copy access. It
+  supports SQL-based hybrid search, IVF-PQ indexing for ANN, automatic data
+  versioning, and integrations with LangChain/LlamaIndex; runs locally or in
+  cloud without servers. Key use cases: offline RAG, computer vision pipelines,
+  edge AI; stands out from Chroma with full SQL expressiveness and better
+  large-scale disk efficiency vs. in-memory options like Faiss."
 source_url: https://lancedb.com/
-category: RAG-Optimized Vector DBs
+category: Embedded Vector Libraries
 tags:
-  - Disk-Based
-  - Columnar
   - SQL Queries
+  - Multimodal
+  - Disk Persistent
+  - Embedded
+  - Versioning
 featured: false
 markdown: >-
   ## Overview
@@ -37,4 +41,4 @@ markdown: >-
   - Blazing fast zero-copy reads directly from cloud storage or local disk.
 images:
   - https://lancedb.com/favicon.ico
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-24 07:22

@@ -5,7 +5,7 @@ description: USearch is a fast, lightweight C++ library for ANN search with
   for edge devices and browser; outperforms Faiss on low-resource setups with
   simpler API.
 source_url: https://github.com/unum-cloud/usearch
-category: Edge Vector Databases
+category: ANN Indexing Libraries
 tags:
   - lightweight
   - quantization
@@ -27,4 +27,4 @@ markdown: |-
   Free and open-source.
 images:
   - https://github.com/unum-cloud/usearch/raw/main/artwork/logo.svg
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-24 07:22
