@@ -1,62 +1,63 @@
 name: Lantern
-description: Lantern is a multimodal vector database for images/videos/text,
-  enabling fast similarity search across media types with embedding models.
-  Supports GPU acceleration and disk persistence. Tailored for computer vision
-  AI apps; unique multimodal focus vs. text-only like pgvector, integrates with
-  CLIP-like models.
+description: Lantern is a multimodal vector database supporting text, image, and
+  video vectors for fast similarity search across media types. It features
+  multi-modal indexing, fusion techniques, and GPU acceleration with disk
+  persistence. Ideal for CV+text search and multimedia recommendations; provides
+  multimodal capabilities beyond text-only databases like pgvector.
 source_url: https://lantern.dev/
 category: Multimodal Vector DBs
 tags:
-  - Multimodal
-  - Computer Vision
-  - GPU
+  - Multi-Modal
+  - Vision-Language
+  - Fusion Search
 featured: false
 markdown: >-
   # Lantern
 
 
-  Lantern is a PostgreSQL extension and toolkit for efficient vector search with
-  disk persistence, scaling to billions of vectors.
+  Lantern is a PostgreSQL extension for multimodal vector search supporting
+  text, image, and video vectors.
 
 
-  ## Disk Persistence vs In-Memory
+  ## Multimodal Vector Support
 
 
-  Leverages PostgreSQL's disk storage for indexes, supporting out-of-core
-  operations on large datasets exceeding RAM. Unlike standalone in-memory vector
-  DBs, integrates with existing relational storage for persistent vectors.
+  Handles embeddings from models like CLIP for text-to-image/video similarity,
+  enabling cross-modal queries.
 
 
   ## Key Features
 
 
-  - Tiered HNSW indexing
+  - Multi-modal indexing with tiered HNSW
 
-  - SIMD-optimized queries for sub-ms latency
+  - Fusion search: hybrid vector + BM25 text
 
-  - Hybrid vector + BM25 text search
+  - GPU/SIMD acceleration for sub-ms latency
 
-  - Serverless offloaded indexing
+  - Disk persistence for billion-scale datasets
 
-  - Embedding/LLM integration via SQL
+  - Serverless indexing offload
+
+  - SQL-based embedding/LLM integration
 
 
   ## Use Cases
 
 
-  - Large-scale embeddings in databases
+  - Computer vision + text search (e.g., 'red car in city')
 
-  - Real-time AI applications
+  - Multimedia recommendations
 
-  - Hybrid search on persistent data
+  - Real-time AI apps with persistent data
 
 
   ## Comparisons
 
 
-  **DiskANN vs HNSW integration**: Builds on HNSW but adds disk persistence and
-  tiering for larger scales; DiskANN more focused on pure graph out-of-core,
-  Lantern on DB integration.
+  **Vs text-only pgvector**: Extends pgvector-like functionality with native
+  multimodal indexing, fusion, and GPU/disk optimizations for diverse media
+  beyond text embeddings.
 
 
   ## Pricing
@@ -71,4 +72,5 @@ brand_logo_url: https://lantern.dev/logo.svg
 images:
   - https://lantern.dev/logo.svg
   - https://lantern.dev/logo.png
-updated_at: 2026-04-23 19:19
+  - https://lantern.dev/assets/architecture.png
+updated_at: 2026-04-24 10:19

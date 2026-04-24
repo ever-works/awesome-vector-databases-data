@@ -1,18 +1,17 @@
 name: ScaNN
-description: "ScaNN (Scalable Nearest Neighbors) from Google Research is a
-  library for efficient high-recall ANN search using anisotropic vector
-  quantization and scorers, optimized for billion-scale inference on CPU/GPU.
-  Supports score-based search for better accuracy than PQ. Key use cases:
-  YouTube recommendations, large embedding search; outperforms Faiss on
-  recall/throughput in benchmarks, but more complex setup vs. simple HNSWLib."
-source_url: https://research.google/blog/announcing-scann-efficient-vector-similarity-search/
+description: ScaNN (Scalable Nearest Neighbors) is a pure ANN index library
+  using anisotropic vector quantization and scorers for high-recall,
+  high-throughput search at billion-scale. Features CPU/GPU support,
+  TensorFlow/Numpy bindings, advanced quantization. For custom vector engines in
+  recommendations, benchmarks; superior recall/throughput vs Faiss, building
+  block unlike full Qdrant.
+source_url: https://github.com/google-research/scann
 category: ANN Indexing Libraries
 tags:
-  - Google Research
-  - Anisotropic Quantization
-  - High Recall ANN
-  - Scorer Based
-  - Billion Scale
+  - Pure ANN
+  - Index Only
+  - Benchmark Tool
+featured: false
 markdown: >-
   # ScaNN
 
@@ -63,6 +62,8 @@ markdown: >-
 
 
   Open-source, free.
+brand: Google Research
+brand_logo_url: https://github.com/google-research/scann/raw/main/logo.png
 images:
   - https://research.google/blog/images/announcing-scann-efficient-vector-similarity-search.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

@@ -1,14 +1,18 @@
 name: LangChain4j
-description: Idiomatic open-source Java library for building LLM-powered
-  applications on the JVM. Provides a unified API over LLM providers and vector
-  stores, simplifying tool calling, agents, and RAG. Seamlessly integrates with
-  Quarkus and Spring Boot.
+description: LangChain4j is a Java library providing vector search and embedding
+  capabilities for LLM applications via integrations with ANN indexes like HNSW
+  and FAISS, without needing full vector databases. Features include support for
+  quantization, tool calling, and seamless embedding in JVM environments like
+  Spring Boot and Quarkus. Suited for prototyping RAG agents and embedded apps;
+  lighter and more JVM-native than Milvus, easier integration vs hnswlib.
 source_url: https://langchain4j.dev/
 category: Libraries
 tags:
   - open-source
   - java
   - rag
+  - ANN Library
+  - Embeddable
 featured: false
 markdown: >-
   ## Overview
@@ -33,4 +37,8 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 19:19
+brand: LangChain4j
+brand_logo_url: https://langchain4j.dev/favicon.ico
+images:
+  - https://langchain4j.dev/assets/images/langchain4j-logo.png
+updated_at: 2026-04-24 10:19

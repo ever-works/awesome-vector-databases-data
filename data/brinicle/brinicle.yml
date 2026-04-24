@@ -1,11 +1,19 @@
 name: brinicle
-description: Resource-efficient C++ vector index engine for low-RAM production workloads.
+description: Brinicle is a lightweight C++ library for approximate nearest
+  neighbor (ANN) vector search on embeddings, optimized for low-RAM environments
+  rather than full vector databases. It features efficient graph-based indexing
+  (HNSW-like), supports quantization for further memory reduction, and excels in
+  languages like C++. Ideal for rapid prototyping of ML prototypes and embedded
+  applications; lighter and more memory-efficient than Milvus, with better
+  low-resource performance vs hnswlib.
 source_url: https://github.com/spotify/brinicle
 category: Libraries
 tags:
   - c++
   - low-ram
   - open-source
+  - ANN Library
+  - Embeddable
 featured: false
 markdown: |-
   ## Overview
@@ -20,4 +28,8 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 19:19
+brand: Spotify
+brand_logo_url: https://developer.spotify.com/assets/images/spotify_logo_white@2x.png
+images:
+  - https://github.com/spotify/brinicle/raw/main/assets/performance.png
+updated_at: 2026-04-24 10:19

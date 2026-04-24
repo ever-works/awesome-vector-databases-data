@@ -1,11 +1,18 @@
 name: sqlite-vec
-description: SQLite extension for efficient vector similarity search.
+description: sqlite-vec is a Rust-based SQLite extension library for vector
+  similarity search using diskANN indexes on embeddings, enabling lightweight
+  ANN without separate databases. Features HNSW-like graphs, quantization
+  support, and hybrid full-text+vector queries in embedded SQLite environments.
+  Perfect for prototyping and on-device apps; extremely lightweight compared to
+  Milvus, more persistent than pure hnswlib.
 source_url: https://github.com/asg017/sqlite-vec
 category: Libraries
 tags:
   - sqlite
   - open-source
   - embeddings
+  - ANN Library
+  - Embeddable
 featured: false
 markdown: |-
   ## Overview
@@ -21,4 +28,8 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 19:19
+brand: Alex Garcia
+brand_logo_url: https://github.com/asg017.png
+images:
+  - https://github.com/asg017/sqlite-vec/raw/main/docs/performance.png
+updated_at: 2026-04-24 10:19

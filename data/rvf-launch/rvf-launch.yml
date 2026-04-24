@@ -1,7 +1,7 @@
 name: rvf-launch
-description: QEMU microVM launcher for RVF cognitive containers. Facilitates
-  isolated, secure deployment of vector processing environments in the RuVector
-  stack.
+description: QEMU microVM launcher for low-latency RVF cognitive containers in
+  RuVector stack, enabling secure on-device vector processing for edge AI
+  environments.
 source_url: https://crates.io/crates/rvf-launch
 category: Embedded & Edge Vector Databases
 tags:
@@ -10,19 +10,24 @@ tags:
   - qemu
   - virtualization
   - open-source
+  - Edge AI
 featured: false
 markdown: |-
   ## Overview
-
-  Launches QEMU-based microVMs for running RVF containers.
+  rvf-launch supports edge vector workloads via microVMs.
 
   ## Features
+  - QEMU microVMs
+  - Secure isolation
 
-  - QEMU integration
-  - MicroVM management
-  - Secure isolation for AI workloads
+  ## Use Cases
+  - IoT secure AI
+  - Edge CV containers
+
+  ## Comparisons
+  - Lightweight edge virtualization
 
   ## Pricing
-
-  Open source under MIT license.
-updated_at: 2026-04-22 07:22
+  Free open-source.
+images: []
+updated_at: 2026-04-24 10:19

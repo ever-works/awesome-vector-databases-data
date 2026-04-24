@@ -1,7 +1,6 @@
 name: rvLite
-description: Standalone 2MB edge vector database for IoT, mobile, and embedded
-  applications, providing full vector search capabilities without server
-  dependency.
+description: Compact 2MB standalone database for low-latency vector search on
+  IoT/mobile/embedded, no server needed for on-device real-time AI ops.
 source_url: https://www.npmjs.com/package/rvlite
 category: Embedded & Edge Vector Databases
 tags:
@@ -10,28 +9,27 @@ tags:
   - standalone
   - lightweight
   - no-server
+  - Edge AI
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
+  rvLite provides ultra-light edge vector search.
 
+  ## Features
+  - 2MB footprint
+  - Full vector ops
+  - No dependencies
 
-  rvLite is a compact edge database for vector operations in
-  resource-constrained environments.
+  ## Use Cases
+  - IoT real-time
+  - Mobile inference
 
-
-  ## Installation
-
-
-  ```sh
-
-  npm install rvlite
-
-  ```
-
+  ## Comparisons
+  - Tiny vs Qdrant edge
 
   ## Pricing
-
-
-  Free and open-source.
+  Free open-source.
 brand: RuVector
-updated_at: 2026-04-22 07:22
+images:
+  - https://raw.githubusercontent.com/ruvnet/rvlite/main/banner.png
+updated_at: 2026-04-24 10:19

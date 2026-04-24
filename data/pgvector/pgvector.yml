@@ -1,44 +1,61 @@
 name: pgvector
-description: pgvector is an open-source extension for PostgreSQL that enables
-  efficient vector similarity search directly within your Postgres database. It
-  supports indexing methods like HNSW and IVFFlat for high-performance
-  approximate nearest neighbor (ANN) searches on embeddings, integrates
-  seamlessly with SQL queries for hybrid search combining vectors and metadata
-  filters. Key features include distance calculations (L2, cosine, inner
-  product), GPU acceleration support, and compatibility with popular embedding
-  models; ideal for RAG applications, semantic search in relational data, and
-  cost-effective alternatives to managed vector DBs like Pinecone without
-  leaving Postgres ecosystem. Compared to dedicated vector DBs, pgvector offers
-  simplicity and zero extra cost for Postgres users but may require sharding for
-  billion-scale datasets.
+description: Open-source PostgreSQL extension for SQL vector similarity search
+  with HNSW and IVFFlat indexes enabling efficient ANN on embeddings. Supports
+  hybrid queries blending vector search with SQL filters and metadata, ideal for
+  in-DB RAG, analytics, and similarity tasks. Cost-effective alternative to
+  dedicated vector DBs like Weaviate, leveraging existing Postgres without data
+  movement or extra services.
 source_url: https://github.com/pgvector/pgvector
 category: Postgres Vector Extensions
 tags:
-  - Postgres Extension
+  - SQL Vector
+  - Postgres Native
   - HNSW
-  - IVFFlat
-  - SQL Native
-  - Open Source Postgres
-featured: false
-markdown: |-
+featured: true
+markdown: >-
   ## Overview
 
-  pgvector is a PostgreSQL extension for vector search.
+
+  pgvector brings efficient vector search to PostgreSQL using standard SQL,
+  eliminating the need for separate vector databases.
+
 
   ## Features
 
-  - Native vector similarity search
-  - Integrates with PostgreSQL
-  - Basic vector search methods
 
-  ## Limitations
+  - **Indexes**: HNSW (high recall, dynamic), IVFFlat (scalable IVF)
 
-  - Lacks advanced indexing
-  - Not optimized for high-speed/concurrent queries or large-scale
+  - **Operators**: <-> (L2), <#> (negative inner product), <=> (cosine)
+
+  - **Hybrid SQL**: Full PostgreSQL expressivity - WHERE, JOIN, GROUP BY with
+  vectors
+
+  - **Optimizations**: Binary quantization (pgv_512), GPU accel (experimental)
+
+
+  ## Use Cases
+
+
+  - **RAG in DB**: Embed/retrieve context alongside app data
+
+  - **Analytics**: Clustering, anomaly detection on embeddings
+
+  - **Search**: Semantic/hybrid in CRM, ecomm
+
+
+  ## Comparisons
+
+
+  **vs Weaviate**: Native Postgres ACID/SQL vs GraphQL/REST; no sync latency,
+  lower ops cost. Scales via pg_shard or Citus; dedicated DBs better for pure
+  vector QPS extremes.
+
 
   ## Pricing
 
-  Free as open-source extension.
+
+  Free open-source (PostgreSQL License).
+brand_logo_url: https://github.com/pgvector/pgvector/raw/master/img/pgvector-logo.png
 images:
   - https://github.com/pgvector/pgvector/raw/master/img/pgvector-logo.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

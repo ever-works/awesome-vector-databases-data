@@ -1,58 +1,62 @@
 name: pgvector-node
-description: JavaScript/TypeScript (Node.js) client for pgvector, enabling
-  server-side JS apps to run vector queries on PostgreSQL.
+description: JavaScript/TypeScript SDK/client (Node.js/Deno/Bun) for pgvector
+  PostgreSQL extension, enabling async vector storage and similarity queries.
+  Supports REST-like ops via pg driver, Prisma integration. For JS app
+  integration in RAG/semantic search; official bindings vs. direct SQL or other
+  SDKs.
 source_url: https://github.com/pgvector/pgvector-node
 category: Vector Clients & SDKs
 tags:
-  - sdk
-  - pgvector
-  - vector-store
+  - nodejs
+  - javascript
+  - Async Client
+  - Postgres Client
+  - Multi-Language SDK
 featured: false
 markdown: >-
-  # pgvector-node
+  ## Overview
 
 
-  **Website:** https://github.com/pgvector/pgvector-node  
-
-  **Category:** SDKs & Libraries  
-
-  **Tags:** sdk, pgvector, vector-store  
-
-  **License:** MIT  
+  pgvector-node provides JS/TS bindings for pgvector in Postgres, compatible
+  with Node.js, Deno, Bun.
 
 
-  ## Description
-
-  pgvector-node is a JavaScript/TypeScript client for working with the
-  `pgvector` extension on PostgreSQL from server-side runtimes including
-  Node.js, Deno, and Bun. It enables applications to store and query vector
-  embeddings directly in Postgres.
+  ## SDK Features
 
 
-  ## Features
+  - Async vector operations
 
-  - Supports Node.js, Deno, and Bun runtimes
+  - TypeScript definitions
 
-  - TypeScript support with type definitions
+  - Prisma integration
 
-  - Client utilities for working with the `pgvector` Postgres extension
+  - Similarity search (L2, cosine, etc.)
 
-  - Enables running vector similarity queries against PostgreSQL
+  - Embeddings storage/query
 
-  - Example projects included under `examples/`
 
-  - Prisma integration resources under `prisma/`
+  ## Use Cases
 
-  - Test suite provided under `tests/` for validating behavior
 
-  - Published as an npm package (configuration via `package.json`)
+  - Serverless JS RAG apps
+
+  - Semantic search backends
+
+  - App embedding integration
+
+
+  ## Comparisons
+
+
+  - Official JS SDK vs. Python/.NET/Crystal or raw SQL
 
 
   ## Pricing
 
-  - Open-source under the MIT license (no usage fee)
+
+  Free open-source (MIT).
 brand: pgvector
 brand_logo_url: https://avatars.githubusercontent.com/u/101229709
 images:
   - https://opengraph.githubassets.com/1/pgvector/pgvector-node
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

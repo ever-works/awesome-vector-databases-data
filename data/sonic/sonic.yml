@@ -1,44 +1,37 @@
 name: Sonic
-description: Sonic is a fast in-memory search backend with vector support via
-  HNSW, serving as a lightweight alternative to heavier databases and search
-  engines. It features JSON document storage and hybrid full-text plus vector
-  search capabilities. Optimized for high-speed ingest and retrieval in memory,
-  ideal for performance-critical applications.
+description: Fast in-memory backend with HNSW vector support for low-latency
+  on-device hybrid full-text + vector search, ideal for edge
+  performance-critical apps. Sub-ms ingest/retrieval; lightweight alternative to
+  cloud Qdrant.
 source_url: https://github.com/valeriansaliou/sonic
 category: Embedded & Edge Vector Databases
 tags:
   - in-memory-fast
   - lightweight-search
   - open-source
+  - Edge AI
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
-
-
-  Sonic is a lightweight, in-memory search backend written in Rust, providing
-  fast full-text and vector search as a schema-less alternative.
-
+  Sonic enables low-latency edge vector/hybrid search.
 
   ## Features
+  - HNSW vector + full-text
+  - In-memory sub-ms ops
+  - HTTP/JSON API
+  - Multi-threaded
 
+  ## Use Cases
+  - IoT real-time AI
+  - Edge semantic search
+  - CV inference
 
-  - In-memory storage for sub-millisecond ingest and search
-
-  - JSON document storage
-
-  - Full-text search
-
-  - Vector search powered by HNSW indexing
-
-  - Hybrid full-text + vector queries
-
-  - HTTP/JSON API for easy integration
-
-  - Multi-threaded for high concurrency
-
+  ## Comparisons
+  - Lightweight on-device vs cloud Qdrant
+  - Faster ingest than heavier DBs
 
   ## Pricing
-
-
-  Free and open-source (Mozilla Public License 2.0).
-updated_at: 2026-04-22 07:22
+  Free open-source (MPL 2.0).
+images:
+  - https://github.com/valeriansaliou/sonic/raw/main/assets/screenshots/dashboard.png
+updated_at: 2026-04-24 10:19

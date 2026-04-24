@@ -1,15 +1,16 @@
 name: USearch
-description: USearch is a fast, lightweight C++ library for ANN search with
-  product quantization and scalar quantization support, optimized for low RAM
-  and high speed. Single-file embeddable, bindings for 10+ languages. Perfect
-  for edge devices and browser; outperforms Faiss on low-resource setups with
-  simpler API.
+description: USearch is a pure ANN index library implementing HNSW with product
+  and scalar quantization for fast, low-RAM approximate nearest neighbor search.
+  Features single-header C++, bindings for 10+ languages, edge-device
+  optimization, no GPU needed. Perfect for custom vector engines on
+  resource-constrained setups, benchmarks; outperforms Faiss on low resources vs
+  full Qdrant.
 source_url: https://github.com/unum-cloud/usearch
 category: ANN Indexing Libraries
 tags:
-  - lightweight
-  - quantization
-  - edge
+  - Pure ANN
+  - Index Only
+  - Benchmark Tool
 featured: false
 markdown: |-
   ## Overview
@@ -25,6 +26,8 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
+brand: Unum Cloud
+brand_logo_url: https://github.com/unum-cloud/usearch/raw/main/artwork/logo.svg
 images:
   - https://github.com/unum-cloud/usearch/raw/main/artwork/logo.svg
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

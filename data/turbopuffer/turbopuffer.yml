@@ -1,8 +1,10 @@
 name: Turbopuffer
-description: Turbopuffer is a serverless vector database focused on
-  cost-efficiency with deterministic pricing, paged storage, and HNSW indexes
-  without cold starts. Supports metadata filtering and backups. Optimized for
-  long-term storage; cheaper than Pinecone for large indexes.
+description: Turbopuffer is a serverless, cloud-hosted vector database with
+  managed paged storage, auto-scaling HNSW indexes, deterministic pay-per-use
+  pricing, metadata filtering, and backups. Optimized for enterprise RAG and
+  production AI apps with long-term, cost-efficient storage at scale. More
+  economical operations than self-hosted Milvus or Zilliz Cloud for massive
+  indexes.
 source_url: https://turbopuffer.com/
 category: Managed Vector Databases
 tags:
@@ -10,6 +12,8 @@ tags:
   - cost-optimized
   - paged-storage
   - deterministic
+  - Cloud Managed
+  - Serverless Scaling
 featured: false
 markdown: >-
   ## Overview
@@ -33,4 +37,4 @@ markdown: >-
 
 
   Usage-based, $64/mo minimum. No free tier.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-24 10:19

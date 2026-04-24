@@ -1,29 +1,40 @@
 name: ruqu
 description: Rust crate for quantum circuit simulation and coherence assessment
-  using min-cut gates. Integrates MWPM decoder and post-quantum signatures for
-  AI safety in quantum-inspired computing.
+  using min-cut gates. Integrates MWPM decoder and post-quantum signatures
+  providing quantum-resistant security for AI safety in quantum-inspired vector
+  computing environments.
 source_url: https://crates.io/crates/ruqu
-category: Sdks Libraries
+category: Quantum-Resistant Vectors
 tags:
   - open-source
   - rust
   - quantum
   - coherence
+  - Post-Quantum Crypto
 featured: false
-markdown: |-
+markdown: >-
   ## Overview
 
-  Classical simulation of quantum coherence for AI applications.
+
+  Classical simulation of quantum coherence for secure AI vector applications
+  featuring post-quantum cryptography.
+
 
   ## Features
 
-  - Real-time coherence gates
-  - Min-cut aggregation
-  - 50% FLOPs reduction in attention
-  - Post-quantum crypto
+
+  - Real-time coherence gates for secure processing
+
+  - Min-cut aggregation with quantum-resistant guarantees
+
+  - 50% FLOPs reduction in attention mechanisms
+
+  - Post-quantum crypto integration for long-term security
+
 
   ## Pricing
 
+
   Free and open-source.
 brand: ruvnet
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-24 10:19

@@ -1,34 +1,62 @@
 name: pgvectorscale
-description: Postgres extension extending pgvector with StreamingDiskANN for
-  high-perf hybrid SQL+vector (28x lower latency vs Pinecone), ACID txns on
-  existing infra.
+description: Timescale extension for pgvector introducing StreamingDiskANN for
+  disk-optimized, high-recall ANN search (28x lower p95 latency vs Pinecone),
+  with hybrid SQL+vector capabilities. Supports binary quantization, filtered
+  queries; scales RAG/analytics to billions on existing Postgres without
+  sharding.
 source_url: https://github.com/timescale/pgvectorscale
 category: Postgres Vector Extensions
 tags:
-  - sql-hybrid
-  - postgres-ext
+  - SQL Vector
+  - Postgres Native
   - diskann
-markdown: |-
+  - HNSW
+featured: true
+markdown: >-
   ## Overview
 
-  DiskANN for Postgres; 28x lower p95 latency vs Pinecone.
+
+  pgvectorscale supercharges pgvector with DiskANN for massive-scale vector
+  search in Postgres.
+
 
   ## Features
 
-  - StreamingDiskANN
-  - Binary quantization
-  - Filtered search
+
+  - **StreamingDiskANN**: Disk-based, high-recall index
+
+  - **Hybrid Search**: SQL filters + vector ANN
+
+  - **Optimizations**: Binary quant, filtered search
+
+  - **Performance**: 16x throughput, 75% cost savings vs Pinecone
+
 
   ## Use Cases
 
-  - Scale RAG on Postgres
+
+  - **Enterprise RAG**: Billion-vector retrieval
+
+  - **Analytics**: Large-scale embedding ops
+
+  - **Production Search**: Low-latency, high QPS
+
 
   ## Comparisons
 
-  16x throughput, 75% lower cost vs Pinecone.
+
+  **vs Dedicated DBs (Weaviate/Pinecone)**: Unified Postgres stack, no ETL/sync,
+  ACID txns, mature ecosystem.
+
+  **vs pgvector**: Dramatically better scale/latency.
+
 
   ## Pricing
 
-  Free OSS.
+
+  Free open-source (Timescale License).
 brand: Timescale
-updated_at: 2026-04-23 19:19
+brand_logo_url: https://www.timescale.com/static/timescale-logo-horizontal-black-rgb.svg
+images:
+  - https://github.com/timescale/pgvectorscale/raw/main/docs/img/benchmark.png
+updated_at: 2026-04-24 10:19

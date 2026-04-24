@@ -1,10 +1,9 @@
 name: Weaviate Cloud
-description: "Weaviate Cloud is the managed SaaS offering for Weaviate,
-  providing serverless or dedicated clusters with auto-scaling, backups, and
-  monitoring for production vector search. Includes authentication,
-  multi-tenancy, and seamless upgrade from open-source. Use cases: enterprise
-  RAG, semantic apps; simplifies ops vs. self-hosted Weaviate like Pinecone does
-  for its core, with added GraphQL/modules."
+description: Weaviate Cloud is a cloud-hosted managed service for Weaviate
+  vector DB, providing serverless auto-scaling, dedicated clusters, pay-per-use
+  options, automated backups, multi-region support, and multi-tenancy. For
+  enterprise RAG, semantic AI apps, and production workloads. Easier ops than
+  self-hosted Weaviate or Milvus, with advanced modules beyond Zilliz.
 source_url: https://weaviate.io/cloud
 category: Managed Vector Databases
 tags:
@@ -13,6 +12,8 @@ tags:
   - Auto Scaling
   - Enterprise
   - Backups
+  - Cloud Managed
+  - Serverless Scaling
 featured: false
 markdown: >-
   ## Overview
@@ -48,4 +49,4 @@ images:
   - https://weaviate.io/cloud/logo.svg
   - https://weaviate.io/assets/images/cloud-hero-5d5a5f2b44a3e0c6a9f4b0e8d9c2f5b7.png
   - https://weaviate.io/cloud/logo.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

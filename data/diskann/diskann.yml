@@ -1,25 +1,16 @@
 name: DiskANN
-description: "DiskANN is a disk-based approximate nearest neighbor index from
-  Microsoft Research, optimized for billion-scale vector search with low memory
-  footprint via Vamana graphs and cached search. Supports GPU acceleration,
-  dynamic updates, and high-recall QPS on SSDs without full RAM loading. Key
-  features: offline graph construction, online queries with caching; ideal for
-  cold-start large datasets in search/recommendations. Compares to HNSWLib with
-  better disk efficiency for >1B vectors, basis for LibDiskANN but more
-  research-oriented than production Faiss."
-source_url: https://arxiv.org/abs/2105.09613
+description: DiskANN is a pure ANN index library implementing Vamana graphs for
+  disk-based billion-scale approximate nearest neighbor search with low memory
+  footprint. Features GPU acceleration, dynamic updates, cached SSD search,
+  C++/Python bindings. Suited for custom vector engines handling large cold
+  datasets in search/recommendations, benchmarks; more disk-efficient than
+  HNSWLib vs full DBs like Qdrant.
+source_url: https://github.com/microsoft/DiskANN
 category: ANN Indexing Libraries
 tags:
-  - disk-based-index
-  - billion-scale
-  - microsoft-research
-  - out-of-core
-  - disk-persistence
-  - Disk Based
-  - Billion Scale
-  - Vamana Graph
-  - Cached Search
-  - Microsoft Research
+  - Pure ANN
+  - Index Only
+  - Benchmark Tool
 markdown: >
   # DiskANN
 
@@ -49,7 +40,9 @@ markdown: >
   ## Pricing
 
   - No pricing information provided.
+brand: Microsoft Research
+brand_logo_url: https://microsoft.github.io/DiskANN/logo.png
 images:
   - https://microsoft.github.io/DiskANN/logo.png
   - https://microsoft.github.io/DiskANN/img/diskann_logo.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

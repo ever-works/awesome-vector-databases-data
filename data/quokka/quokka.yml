@@ -1,28 +1,28 @@
 name: Quokka
-description: An emerging solution diversifying the options available to data
-  engineers in the vector database landscape.
+description: Service-based ecosystem for executing quantum algorithms including
+  Variational Quantum Algorithms (VQAs), providing quantum-resistant vector
+  processing through hybrid classical-quantum task management.
 source_url: https://github.com/UST-QuAntiL/quokka
-featured: false
-category: vector-database-engines
+category: Quantum-Resistant Vectors
 tags:
-  - vector-database
-  - emerging
-  - data-engineering
+  - quantum
+  - VQAs
+  - Post-Quantum Crypto
+featured: false
 markdown: >-
-  Quokka is an ecosystem designed to enable the service-based execution of
-  quantum algorithms, specifically focusing on Variational Quantum Algorithms
-  (VQAs). It aims to provide various functionalities as services via a single
-  endpoint, addressing the need for implementing classical and quantum tasks in
-  hybrid quantum algorithms.
+  Quokka enables service-based execution of quantum algorithms via a single
+  endpoint, supporting secure hybrid classical-quantum workflows for vector
+  database applications.
 
 
   ### Features
 
 
-  *   Enables service-based execution of quantum algorithms.
+  - Service-based quantum algorithm execution
 
-  *   Supports Variational Quantum Algorithms (VQAs).
+  - Variational Quantum Algorithms (VQAs) support
 
-  *   Provides functionalities as services via a single endpoint for managing
-  classical and quantum tasks.
-updated_at: 2025-07-01 00:28
+  - Single endpoint for classical and quantum task management
+
+  - Quantum-safe processing capabilities
+updated_at: 2026-04-24 10:19

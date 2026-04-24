@@ -1,11 +1,11 @@
 name: Azure Cache for Redis Vector Search
-description: "Redis as vector database via RediSearch module supports HNSW/Flat
-  indexes for real-time vector search in key-value store. Features: sub-ms
-  latency, JSON payloads, modules ecosystem; use cases: caching + search
-  hybrids. Vs dedicated VDBs, Redis excels in low-latency but limited scale for
-  pure vectors."
+description: Vector search plugin for Azure Cache for Redis via RediSearch
+  module, supporting HNSW/Flat indexes, hybrid lexical+vector with BM25 fusion,
+  metadata filtering. Suited for enterprise semantic caching, real-time RAG, and
+  recommendations. Integrated caching layer provides sub-ms latency vs
+  standalone vector DBs like Weaviate.
 source_url: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview-vector-similarity
-category: Search Engine Extensions
+category: Search Engine Vector Extensions
 tags:
   - redis-vss
   - hybrid-bm25
@@ -17,6 +17,8 @@ tags:
   - managed
   - metadata-filtering
   - rag-optimized
+  - knn-plugin
+  - hybrid-lexical-vector
 markdown: >-
   ## Overview
 
@@ -104,4 +106,5 @@ markdown: >-
 
   Azure Cache for Redis (Premium/Enterprise tiers)
 brand: Microsoft
-updated_at: 2026-04-24 07:22
+brand_logo_url: https://azure.microsoft.com/svghandler/brand-red.svg
+updated_at: 2026-04-24 10:19

@@ -1,44 +1,61 @@
 name: LanceDB
-description: "LanceDB is an open-source embedded vector database leveraging the
-  Lance columnar format for efficient storage and querying of multimodal
-  embeddings (text, images, video) directly from disk with zero-copy access. It
-  supports SQL-based hybrid search, IVF-PQ indexing for ANN, automatic data
-  versioning, and integrations with LangChain/LlamaIndex; runs locally or in
-  cloud without servers. Key use cases: offline RAG, computer vision pipelines,
-  edge AI; stands out from Chroma with full SQL expressiveness and better
-  large-scale disk efficiency vs. in-memory options like Faiss."
+description: Lightweight, in-process vector database for multimodal embeddings
+  (text/images/video), with zero deps, disk-based persistence via Lance format,
+  SQL queries, and Python/Rust support. No server required; perfect for
+  mobile/edge AI, prototyping; faster startup than Qdrant client, more
+  SQL-expressive than Chroma.
 source_url: https://lancedb.com/
 category: Embedded Vector Libraries
 tags:
-  - SQL Queries
-  - Multimodal
-  - Disk Persistent
-  - Embedded
-  - Versioning
+  - Zero Dep
+  - Local First
+  - sql
+  - multimodal
+  - disk-persistent
 featured: false
 markdown: >-
   ## Overview
 
 
-  LanceDB is an open-source, serverless vector database that stores data in a
-  persistent disk format. It is designed to run on edge devices or within
-  serverless functions without requiring an always-on server.
+  LanceDB is a serverless, embedded vector DB using columnar Lance format for
+  efficient storage and zero-copy queries.
 
 
-  ## Best For
+  ## Features
 
 
-  - Mobile apps
+  - Zero dependencies
 
-  - Edge computing
+  - Persistent disk storage standard
 
-  - Cost-efficient data lakes
+  - SQL-based hybrid search (vector + full-text)
+
+  - IVF-PQ indexing, data versioning
+
+  - Python and Rust bindings
 
 
-  ## Key Edge
+  ## Use Cases
 
 
-  - Blazing fast zero-copy reads directly from cloud storage or local disk.
+  - Edge computing and mobile apps
+
+  - Computer vision pipelines, offline RAG
+
+
+  ## Comparisons
+
+
+  - Faster startup than Qdrant client
+
+  - Better disk efficiency and SQL vs Chroma/Faiss
+
+
+  ## Pricing
+
+
+  Open-source (Apache 2.0).
 images:
+  - https://lancedb.com/images/og-image.png
   - https://lancedb.com/favicon.ico
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

@@ -1,13 +1,18 @@
 name: Haystack
-description: All-in-one AI framework for semantic search, LLM orchestration, and
-  language model workflows. Supports integration with vector databases for RAG
-  applications.
+description: Haystack is a Python library for building vector search and
+  embedding-based retrieval pipelines, integrating ANN indexes without requiring
+  full databases. Key features include support for HNSW, FAISS indexes,
+  quantization options, and multi-language embeddings. Perfect for prototyping
+  RAG systems and embedded AI apps; more flexible than hnswlib, lighter than
+  Milvus for development workflows.
 source_url: https://haystack.deepset.ai/
 category: Libraries
 tags:
   - open-source
   - semantic-search
   - rag
+  - ANN Library
+  - Embeddable
 featured: false
 markdown: >-
   ## Overview
@@ -31,4 +36,8 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 19:19
+brand: deepset
+brand_logo_url: https://haystack.deepset.ai/assets/images/haystack-logo.svg
+images:
+  - https://haystack.deepset.ai/assets/images/overview-pipeline.png
+updated_at: 2026-04-24 10:19

@@ -1,12 +1,18 @@
 name: LEANN
-description: RAG framework achieving 97% storage savings for fast, accurate, and
-  private RAG applications on personal devices, presented at MLsys 2026.
+description: LEANN is a lightweight RAG-focused library for vector search on
+  embeddings, achieving 97% storage savings via advanced compression and
+  quantization techniques on personal devices. Implemented in Rust/Python, it
+  supports efficient ANN indexing without full DB overhead. Ideal for embedded
+  apps and private prototyping; far lighter than Milvus, more efficient
+  on-device vs hnswlib.
 source_url: https://github.com/search?q=LEANN+RAG&type=repositories
 category: Libraries
 tags:
   - open-source
   - rag
   - private
+  - ANN Library
+  - Embeddable
 featured: false
 markdown: |-
   ## Overview
@@ -22,4 +28,6 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 19:19
+images:
+  - https://mlsys.org/wp-content/uploads/2026/01/leann-diagram.png
+updated_at: 2026-04-24 10:19

@@ -1,14 +1,19 @@
 name: Amazon Aurora Serverless v2
-description: An on-demand, auto-scaling configuration for Amazon Aurora DB
-  instances that automatically adjusts compute and memory capacity based on
-  load, integrated with Knowledge Bases for Amazon Bedrock to simplify
-  vectorization and database capacity management.
+description: Amazon Aurora Serverless v2 is a cloud-hosted, serverless
+  relational database (Postgres/MySQL compatible) with pgvector support for
+  managed vector workloads, featuring auto-scaling compute/memory, pay-per-use
+  pricing, automated backups, and multi-AZ/multi-region high availability.
+  Suited for enterprise RAG via Amazon Bedrock Knowledge Bases and production AI
+  apps. Provides easier operations than self-hosted Milvus or Postgres, deeply
+  integrated with AWS unlike standalone Zilliz.
 source_url: https://aws.amazon.com/rds/aurora/serverless/
 category: Managed Vector Databases
 tags:
   - cloud-native
   - serverless
   - aws
+  - Cloud Managed
+  - Serverless Scaling
 featured: true
 markdown: >-
   ## Amazon Aurora Serverless v2
@@ -81,4 +86,4 @@ markdown: >-
 
 
   Pricing information was not provided in the source content.
-updated_at: 2026-04-22 16:16
+updated_at: 2026-04-24 10:19

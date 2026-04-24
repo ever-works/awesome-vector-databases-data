@@ -1,53 +1,40 @@
 name: Redis Vector Search
-description: "Redis Vector Search, part of Redis Stack, adds HNSW/Flat indexing
-  for vector similarity on in-memory Redis with sub-ms latency, hybrid
-  BM25+vector, and metadata filtering. Supports real-time updates, modular
-  deployment; ideal for caching-heavy RAG, recommendations. Vs. dedicated like
-  Pinecone: lower cost/latency for hot data but evicts cold vectors; scales via
-  Redis Cluster."
+description: "RediSearch vector extension for Redis, with HNSW/Flat k-NN, hybrid
+  BM25+vector fusion, metadata filtering. For enterprise real-time RAG, caching,
+  recommendations. Integrated in-memory vs standalone like Weaviate: ultra-low
+  latency for hot data, scales via cluster."
 source_url: https://redis.io/search/
-category: Search Engine Extensions
+category: Search Engine Vector Extensions
 tags:
   - Redis VSS
   - Hybrid BM25 Vector
   - Real Time Cache
   - In Memory VDB
+  - knn-plugin
+  - hybrid-lexical-vector
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  Redis Vector Search provides vector similarity capabilities through the Redis
-  Stack, supporting fast ANN search in an in-memory environment.
-
+  Redis Vector Search enables fast ANN similarity search via Redis Stack.
 
   ## Key Features
 
-
-  - HNSW indexing
-
-  - Filtering (basic to strong, pattern-dependent)
-
-  - Hybrid search (limited)
-
-  - Integrations: LangChain
-
-  - Low-latency retrieval near applications
-
-  - Supports high QPS workloads
-
+  - HNSW/Flat indexing
+  - Hybrid search
+  - Metadata filtering
+  - LangChain integration
+  - High QPS
 
   ## Deployment
 
-
-  - Managed and self-hosted
-
+  Managed/self-hosted
 
   ## Pricing
 
-
-  - Cloud + self-hosted infrastructure costs
+  Infrastructure-based.
 brand: Redis
+brand_logo_url: https://redis.io/favicon.svg
 images:
   - https://redis.io/docs/latest/search/reference/icons/redisearch.svg
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

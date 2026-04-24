@@ -1,13 +1,18 @@
 name: Amazon RDS for PostgreSQL
-description: A managed relational database service from AWS that can host
-  PostgreSQL, including specific community versions, and is a suitable choice
-  for deploying the pgvector extension for vector storage.
+description: Managed PostgreSQL service from AWS with pgvector extension for
+  vector embeddings and similarity search. Features include storage
+  auto-scaling, read replicas, Multi-AZ high availability, and Row Level
+  Security (RLS) enabling secure multi-tenant AI applications. Combines full SQL
+  power and ACID transactions with vector capabilities, superior to dedicated
+  vector DBs for complex relational queries and joins.
 source_url: https://aws.amazon.com/rds/postgresql/
 category: Cloud Postgres Vectors
 tags:
   - managed-service
   - cloud-native
   - postgresql
+  - managed-postgres-vector
+  - serverless-sql
 featured: false
 markdown: >-
   ## Amazon RDS for PostgreSQL
@@ -52,8 +57,48 @@ markdown: >-
   high-performance extensions on RDS using popular trusted languages without AWS
   certification.
 
+  *   **pgvector Support:** Native extension for vector storage and similarity
+  search (cosine, L2, inner product).
+
+  *   **Row Level Security (RLS):** Built-in Postgres feature for multi-tenant
+  isolation.
+
+
+  ### Use Cases
+
+  - Multi-tenant AI applications with vector search and relational data
+
+  - RAG systems requiring SQL joins on embeddings
+
+  - Enterprise apps needing ACID compliance with semantic search
+
+
+  ## Comparisons
+
+
+  **Managed Postgres + pgvector vs Dedicated Vector DBs:**
+
+
+  | Feature | RDS Postgres + pgvector | Dedicated Vector DBs (e.g., Pinecone) |
+
+  |---------|------------------------|--------------------------------------|
+
+  | SQL Power | Full relational SQL, joins, analytics | Limited SQL or none |
+
+  | Transactions | ACID | Often eventual consistency |
+
+  | Ecosystem | Postgres extensions/tools | Specialized SDKs |
+
+  | Scaling | Read replicas, Multi-AZ | Auto-scaling shards |
+
+  | Serverless | Aurora Serverless option | Native serverless |
+
 
   ### Pricing
 
-  Pricing information is not available in the provided content.
-updated_at: 2026-04-24 07:22
+  Managed service pricing based on instance size, storage, I/O. pgvector free.
+  Serverless v2 variant offers pay-per-use. See AWS pricing calculator.
+brand: Amazon Web Services
+brand_logo_url: https://d1.awsstatic.com/webteam/common/assets/logos/aws-logo-lockup_horizontal_full_color.svg
+images: []
+updated_at: 2026-04-24 10:19

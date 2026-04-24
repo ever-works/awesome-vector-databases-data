@@ -1,14 +1,15 @@
 name: NMSLIB
-description: Non-Metric Space Library (NMSLIB) is an open-source, highly
-  efficient library for similarity search and nearest neighbor search in generic
-  metric and non-metric spaces. It supports various similarity search algorithms
-  and distance functions for a wide range of applications.
+description: NMSLIB (Non-Metric Space Library) is a pure ANN index library for
+  similarity search in metric and non-metric spaces, implementing HNSW,
+  SW-graph, VPTree. Features Python/C++/Java bindings, custom distance metrics,
+  no built-in quantization/GPU. Ideal for custom vector engines, benchmarks
+  across spaces; versatile building block vs full DBs like Qdrant.
 source_url: https://github.com/nmslib/nmslib
 category: ANN Indexing Libraries
 tags:
-  - open-source
-  - non-metric
-  - efficient
+  - Pure ANN
+  - Index Only
+  - Benchmark Tool
 featured: false
 markdown: >-
   ## Features
@@ -28,4 +29,4 @@ markdown: >-
 
   NMSLIB can be installed using pip or built from source, and it offers a Python
   API with examples and documentation.
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

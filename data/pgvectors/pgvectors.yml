@@ -1,35 +1,63 @@
 name: pgvecto.rs
-description: Rust-based Postgres extension for low-latency vector search with
-  HNSW (20x faster than pgvector), supporting hybrid SQL+vector with ACID,
-  FP16/INT8/binary vectors on existing Postgres.
+description: Rust-based PostgreSQL extension accelerating vector similarity
+  search with diskless HNSW (20x faster than pgvector), DiskANN indexes, and
+  hybrid SQL for ANN on embeddings. Enables FP16/INT8/binary vectors with ACID
+  compliance; perfect for high-throughput RAG in DB, real-time analytics.
+  Superior speed/resource efficiency vs dedicated vector stores like Weaviate,
+  all within Postgres.
 source_url: https://github.com/tensorchord/pgvecto.rs
 category: Postgres Vector Extensions
 tags:
-  - sql-hybrid
-  - postgres-ext
+  - SQL Vector
+  - Postgres Native
+  - HNSW
   - rust
 featured: true
-markdown: |-
+markdown: >-
   ## Overview
 
-  Rust Postgres vector extension; 20x HNSW perf.
+
+  pgvecto.rs delivers blazing-fast vector search in PostgreSQL via Rust,
+  outperforming pgvector significantly.
+
 
   ## Features
 
-  - HNSW 20x faster
-  - FP16/INT8/binary
-  - WAL, filtering
+
+  - **Indexes**: Diskless HNSW (20x pgvector speed), DiskANN
+
+  - **Distances**: L2, cosine, inner product
+
+  - **Hybrid SQL**: Vectors + relational ops (filters, joins, aggs)
+
+  - **Quantization**: FP16/INT8/binary for efficiency
+
+  - **ACID/WAL**: Full Postgres guarantees
+
 
   ## Use Cases
 
-  - Large-scale Postgres AI
+
+  - **RAG Pipelines**: Low-latency retrieval in app DB
+
+  - **Analytics**: Embeddings clustering, recommendations
+
+  - **Real-time**: High QPS semantic search
+
 
   ## Comparisons
 
-  Faster/more efficient than pgvector vs VDBs.
+
+  **vs pgvector**: 20x faster HNSW, better concurrency.
+
+  **vs Weaviate**: No data sync, native SQL vs gRPC; Postgres scales via Citus.
+
 
   ## Pricing
 
-  Free OSS.
+
+  Free open-source (PostgreSQL License).
 brand: TensorChord
-updated_at: 2026-04-23 19:19
+brand_logo_url: https://tensorchord.ai/assets/images/pgvecto-rs-logo.png
+images: []
+updated_at: 2026-04-24 10:19

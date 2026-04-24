@@ -1,24 +1,27 @@
 name: RVF
-description: RuVector Format (RVF) is a universal binary file format that
-  combines database, model, graph engine, kernel, and attestation into a single
-  deployable cognitive container. Supports storing vector embeddings, LoRA
-  adapters, GNN state, self-booting Linux microkernel, WASM runtime, eBPF
-  acceleration, Git-like COW branching, tamper-evident witness chains, and
-  post-quantum signatures.
+description: RuVector Format (RVF) is a universal binary file format combining
+  database, model, graph engine, kernel, and attestation into a deployable
+  cognitive container. Provides quantum-resistant vector storage with
+  post-quantum signatures, tamper-evident chains, and support for federated AI
+  agent workflows.
 source_url: https://crates.io/crates/rvf-cli
-category: Sdks Libraries
+category: Quantum-Resistant Vectors
 tags:
   - file-format
   - cognitive-containers
   - eBPF
   - wasm
+  - Post-Quantum Crypto
+  - Agentic Workflows
+  - Federated Learning
 featured: false
 markdown: >-
   ## Overview
 
 
-  RVF is an executable knowledge unit, not just a database format. A single .rvf
-  file runs anywhere from browser to bare metal.
+  RVF serves as a secure, executable knowledge unit for quantum-resistant vector
+  operations and agent memory in distributed AI systems. Single .rvf files
+  deploy from browser to bare metal with built-in security.
 
 
   ## Features
@@ -28,28 +31,22 @@ markdown: >-
 
   |-|-|
 
-  | Self-boot as a microservice | Real Linux kernel in the file, boots in 125 ms
-  on QEMU/KVM |
+  | Self-boot as microservice | Real Linux kernel, 125ms boot |
 
-  | Hardware-speed lookups | eBPF programs (XDP, TC, socket filter) bypass
-  userspace |
+  | Hardware-speed lookups | eBPF bypasses userspace |
 
-  | Run in any browser | 5.5 KB WASM runtime, zero backend |
+  | Browser execution | 5.5KB WASM runtime |
 
-  | Git-like branching | COW at cluster granularity — 1M vectors, 100 edits =
-  ~2.5 MB child |
+  | Git-like branching | COW for vectors |
 
-  | Tamper-evident audit | Hash-linked witness chain for every insert, query,
-  deletion |
+  | Tamper-evident | Hash-linked witness chains |
 
-  | Post-quantum signatures | ML-DSA-65 and Ed25519 signing on every segment |
+  | Post-quantum signatures | ML-DSA-65 on segments |
 
-  | DNA-style lineage | Parent/child derivation chains with cryptographic
-  verification |
+  | Federated manifests | Secure multi-party learning support |
 
 
-  28 segment types including VEC, INDEX, KERNEL, EBPF, WASM, COW_MAP, WITNESS,
-  CRYPTO, FEDERATED_MANIFEST.
+  28 segment types for secure agentic workflows.
 
 
   ## Installation
@@ -73,4 +70,4 @@ markdown: >-
 
   Free and open-source.
 brand: RuVector
-updated_at: 2026-04-07 10:19
+updated_at: 2026-04-24 10:19

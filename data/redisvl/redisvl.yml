@@ -1,11 +1,7 @@
 name: RedisVL
-description: RedisVL is a Python library and framework for building RAG and AI
-  search apps on Redis, providing vector search with HNSW/Flat indexes, semantic
-  caching, and pipeline orchestration for embeddings/metadata. Integrates Redis
-  Stack modules for hybrid search, auto-embedding, and eval tools. Ideal for
-  real-time RAG, chatbots on Redis; combines vector DB with caching/key-value
-  strengths vs. pure vector like Chroma, with lower latency for hot data but
-  requires Redis cluster for scale.
+description: "Python library for Redis vector search apps with HNSW/Flat, hybrid
+  BM25+vector, semantic caching. Builds RAG pipelines on Redis Stack. Integrated
+  caching vs standalone: low-latency for real-time AI agents."
 source_url: https://redis.io/docs/latest/integrate/redisvl/
 category: Search Engine Vector Extensions
 tags:
@@ -17,27 +13,24 @@ tags:
   - Hybrid BM25
   - Redis Stack
   - Eval Tools
+  - knn-plugin
+  - hybrid-lexical-vector
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
 
-
-  RedisVL (Redis Vector Library) provides sub-millisecond latency for vector
-  lookups, evolving Redis beyond caching into a vector store.
-
+  RedisVL enables sub-ms vector lookups and RAG on Redis.
 
   ## Best For
 
-
   - Real-time AI agents
-
-  - High-traffic applications
-
+  - High-traffic apps
 
   ## Key Edge
 
-
-  - Fastest retrieval speeds for smaller to mid-sized vector sets.
+  Fastest retrieval for mid-sized sets.
+brand: Redis
+brand_logo_url: https://redis.io/favicon.svg
 images:
   - https://redis.io/docs/latest/integrate/redisvl/logo.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19

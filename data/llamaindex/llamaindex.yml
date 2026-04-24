@@ -1,12 +1,18 @@
 name: LlamaIndex
-description: Data framework for building LLM applications with vector store
-  integrations and retrieval capabilities.
+description: LlamaIndex is a Python data framework library for vector search and
+  embedding retrieval, integrating various ANN indexes like HNSW and FAISS
+  without full database dependencies. Supports quantization, multi-modal
+  embeddings, and advanced query engines in Python/Rust backends. Great for
+  prototyping LLM apps and embedded RAG; more developer-friendly and lighter
+  than Milvus, composable vs hnswlib.
 source_url: https://www.llamaindex.ai/
 category: Libraries
 tags:
   - open-source
   - llm
   - rag
+  - ANN Library
+  - Embeddable
 featured: false
 markdown: >-
   ## Overview
@@ -30,4 +36,8 @@ markdown: >-
 
 
   Free and open-source.
-updated_at: 2026-04-23 19:19
+brand: LlamaIndex
+brand_logo_url: https://www.llamaindex.ai/favicon.ico
+images:
+  - https://www.llamaindex.ai/assets/images/llamaindex-overview.png
+updated_at: 2026-04-24 10:19

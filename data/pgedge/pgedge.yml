@@ -1,12 +1,36 @@
 name: pgEdge
-description: Distributed extension of PostgreSQL designed for multi-region and
-  edge deployments, enabling data to be processed closer to users while
-  maintaining consistency across geographically distributed nodes.
+description: Distributed PostgreSQL extension for edge deployments enabling
+  low-latency vector processing closer to users across multi-region nodes with
+  consistency. Supports on-device vector ops in edge environments vs centralized
+  cloud DBs like Qdrant.
 source_url: https://www.pgedge.com/
 category: Embedded & Edge Vector Databases
 tags:
   - distributed
   - postgresql-extension
   - multi-region
+  - Edge AI
+markdown: |-
+  ## Overview
+  pgEdge enables distributed low-latency vector search at the edge.
+
+  ## Features
+  - Multi-region PostgreSQL
+  - Edge data processing
+  - Consistency guarantees
+
+  ## Use Cases
+  - IoT distributed AI
+  - Real-time edge analytics
+  - CV inference networks
+
+  ## Comparisons
+  - Edge-distributed vs cloud Qdrant
+  - Postgres-based edge vector ops
+
+  ## Pricing
+  Contact pgEdge.
 brand: pgEdge
-updated_at: 2026-04-22 19:20
+images:
+  - https://www.pgedge.com/hubfs/pgedge-logo.png
+updated_at: 2026-04-24 10:19

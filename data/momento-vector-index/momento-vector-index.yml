@@ -1,14 +1,18 @@
 name: Momento Vector Index
-description: Serverless vector indexing service designed for real-time storage
-  and retrieval of vector data. Developer-friendly with just 5 API calls to
-  create complete indexes, featuring transparent pricing. This is a commercial
-  managed service.
+description: Momento Vector Index is a serverless, cloud-hosted vector database
+  with managed auto-scaling infrastructure, pay-per-use pricing, real-time
+  backups, and low-latency retrieval for billions of vectors. Suited for
+  enterprise RAG, production AI apps like semantic search and recommendations.
+  Offers simpler operations than self-hosted Milvus, with more transparent
+  pricing than Zilliz or Pinecone.
 source_url: https://www.gomomento.com/services/vector-index
 category: Managed Vector Databases
 tags:
   - commercial
   - serverless
   - real-time
+  - Cloud Managed
+  - Serverless Scaling
 featured: false
 markdown: >-
   ## Overview
@@ -134,4 +138,4 @@ markdown: >-
 
   - Lower operational overhead
 brand: Momento
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-24 10:19

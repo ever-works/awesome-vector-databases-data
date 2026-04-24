@@ -1,14 +1,19 @@
 name: Amazon ElastiCache Vector Search
-description: Vector search capabilities in Amazon ElastiCache enabling semantic
-  caching and real-time vector similarity search with microsecond latencies.
-  Supports billions of vectors with HNSW indexing and up to 99% recall.
+description: Vector search extension for Amazon ElastiCache for Redis, featuring
+  HNSW indexing for k-NN similarity, hybrid lexical+vector search with BM25
+  fusion capabilities. Used for enterprise semantic caching, real-time
+  recommendations, and RAG applications. Integrated Redis module offers
+  sub-microsecond latency vs standalone like Weaviate, optimized for hot data
+  workloads.
 source_url: https://aws.amazon.com/blogs/database/announcing-vector-search-for-amazon-elasticache/
-category: Search Engine Extensions
+category: Search Engine Vector Extensions
 tags:
   - aws
   - caching
   - cloud
   - managed
+  - knn-plugin
+  - hybrid-lexical-vector
 markdown: >-
   ## Overview
 
@@ -90,4 +95,5 @@ markdown: >-
 
   Available in AWS ElastiCache for Redis
 brand: AWS
-updated_at: 2026-04-24 07:22
+brand_logo_url: https://d0.awsstatic.com/prod/assets/images/aws-logo.svg
+updated_at: 2026-04-24 10:19

@@ -1,7 +1,8 @@
 name: nano-vectordb-rs
-description: A simple, easy-to-hack vector database library implemented in Rust.
-  It supports fast cosine similarity searches with Rayon parallelism, embedded
-  persistence, and a minimal API ideal for prototyping and educational purposes.
+description: Minimal Rust library for fast on-device cosine similarity search
+  with Rayon parallelism and embedded persistence, ideal for low-latency
+  prototyping on edge hardware. Supports quick inserts/queries for real-time AI;
+  lighter than full DBs like Qdrant edge.
 source_url: https://github.com/VectorInstitute/nano-vectordb-rs
 category: Embedded & Edge Vector Databases
 tags:
@@ -13,63 +14,29 @@ tags:
   - rust-lang
   - performance-critical
   - wasm-support
+  - Edge AI
 featured: false
-markdown: >-
+markdown: |-
   ## Overview
-
-
-  nano-vectordb-rs is a Rust port of the popular nano-vectordb, designed as a
-  lightweight vector database.
-
+  nano-vectordb-rs offers low-latency vector search for edge Rust apps.
 
   ## Features
-
-
-  - Fast cosine similarity searches using Rayon parallelism
-
-  - Simple API surface
-
-  - Embedded persistence with compact serialization
-
-  - No abstractions, easy to hack
-
+  - Rayon-parallel cosine search
+  - Compact embedded persistence
+  - Minimal API
 
   ## Use Cases
+  - IoT embedding storage
+  - Real-time AI prototypes
+  - Edge CV similarity
 
+  ## Comparisons
+  - Simpler/lighter than Qdrant edge
+  - Pure Rust, hackable
 
-  - Rust ML pipelines needing lightweight vector storage
-
-  - Prototyping semantic search systems
-
-  - Educational use
-
-
-  ## Benchmarks
-
-
-  On MacBook M4 with 1024-dim embeddings:
-
-  - Inserting 100,000 vectors: ~175 ms
-
-  - Querying from 100,000 vectors: ~13 ms
-
-
-  ## Installation
-
-
-  ```
-
-  cargo install nano-vectordb-rs
-
-  ```
-
-
-  ## Examples
-
-
-  Basic usage example available via `cargo run --example basic_usage`.
-
-  Advanced example with Hugging Face embeddings: `cargo run --example
-  advanced_usage`.
+  ## Pricing
+  Free open-source.
 brand: Vector Institute
-updated_at: 2026-04-22 19:20
+images:
+  - https://github.com/VectorInstitute/nano-vectordb-rs/raw/main/banner.png
+updated_at: 2026-04-24 10:19

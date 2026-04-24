@@ -1,0 +1,57 @@
+name: TileDB Vector Search
+description: TileDB Vector Search is a scalable open-source vector database that
+  stores and performs approximate nearest neighbor searches on high-dimensional
+  dense and sparse vectors using TileDB's multi-dimensional array storage for
+  petabyte-scale data. Key features include Vamana graph and IVF-PQ indexing,
+  metadata filtering, multi-tenancy, serverless scalability on object stores
+  like S3, and APIs in Python/C++ with gRPC support. Suited for RAG pipelines,
+  recommendation systems, and anomaly detection; excels in sparse vector
+  efficiency and cost savings compared to Milvus or Pinecone, while scaling
+  better than Faiss for large production deployments.
+source_url: https://github.com/TileDB-Inc/TileDB-Vector-Search
+category: Vector Databases
+tags:
+  - open-source
+  - Scalable ANN
+  - 2026 Production
+  - production-use
+  - 2026-ready
+featured: false
+markdown: >-
+  ## Overview
+
+
+  TileDB Vector Search is a vector search solution leveraging the TileDB array
+  storage format for high-performance similarity search.
+
+
+  ## Key Components
+
+
+  - **apis/python**: Python bindings and APIs for integration.
+
+  - **demos**: Example applications and use cases.
+
+  - **documentation**: Comprehensive guides and references.
+
+  - **src**: Core C++ implementation.
+
+  - **.github/workflows**: CI/CD pipelines.
+
+
+  ## License
+
+
+  MIT License.
+
+
+  ## Pricing
+
+
+  Free and open-source.
+brand: TileDB Inc.
+brand_logo_url: https://github.com/TileDB-Inc.png
+images:
+  - https://raw.githubusercontent.com/TileDB-Inc/TileDB-Vector-Search/main/docs/images/architecture.png
+  - https://www.tiledb.com/hubfs/tiledb_logo_horizontal_color_rgb.png
+updated_at: 2026-04-24 10:19

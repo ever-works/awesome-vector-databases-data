@@ -1,17 +1,16 @@
 name: HNSWLIB
-description: HNSWLIB is a high-performance hierarchical navigable small world
-  graph library for approximate nearest neighbor search, implementing
-  state-of-the-art HNSW algorithm in C++ for speed and low memory use. Supports
-  L2, cosine, and inner product metrics; pure library with Python bindings.
-  Foundation for many vector DBs like Qdrant/Chroma; ideal for embedded apps
-  needing sub-ms queries on millions of vectors, outperforming brute-force by
-  orders of magnitude.
+description: HNSWLIB is a pure ANN index library implementing Hierarchical
+  Navigable Small World (HNSW) graphs for high-performance approximate nearest
+  neighbor search. Features L2/cosine metrics, multi-threading, low memory,
+  C++/Python bindings. Ideal for custom vector engines, benchmarks on millions
+  of vectors; core building block for DBs like Qdrant/Chroma vs complete
+  solutions.
 source_url: https://github.com/nmslib/hnswlib
 category: ANN Indexing Libraries
 tags:
-  - HNSW
-  - C++
-  - ANN Library
+  - Pure ANN
+  - Index Only
+  - Benchmark Tool
 featured: false
 markdown: >-
   ## Features
@@ -31,6 +30,7 @@ markdown: >-
 
   HNSWLIB can be installed using pip, and its API is easy to use with Python and
   C++ examples provided in the official repository.
+brand_logo_url: https://github.com/nmslib/hnswlib/raw/master/logo.png
 images:
   - https://github.com/nmslib/hnswlib/raw/master/logo.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-24 10:19
