@@ -1,0 +1,31 @@
+name: Endee
+description: High-performance vector database designed to handle up to 1B
+  vectors on a single node with optimized indexing and execution. Also available
+  as a managed cloud service.
+source_url: https://endee.io/
+category: Vector Databases
+tags:
+  - high-performance
+  - cloud-native
+featured: false
+markdown: >-
+  ## Overview
+
+
+  Endee is a high-performance vector database capable of managing up to 1
+  billion vectors on a single node.
+
+
+  ## Features
+
+
+  - Optimized indexing and execution engine for superior performance
+
+  - Self-hosted and cloud deployment options
+
+
+  ## Pricing
+
+
+  Pricing details available on the official website.
+updated_at: 2026-04-27 11:23
