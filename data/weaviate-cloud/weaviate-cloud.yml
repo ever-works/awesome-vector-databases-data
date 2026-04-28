@@ -1,52 +1,55 @@
 name: Weaviate Cloud
-description: Weaviate Cloud is a cloud-hosted managed service for Weaviate
-  vector DB, providing serverless auto-scaling, dedicated clusters, pay-per-use
-  options, automated backups, multi-region support, and multi-tenancy. For
-  enterprise RAG, semantic AI apps, and production workloads. Easier ops than
-  self-hosted Weaviate or Milvus, with advanced modules beyond Zilliz.
+description: "Managed cloud service for Weaviate open-source vector DB,
+  providing GraphQL API, hybrid search (vector+keyword), ML modules,
+  multi-tenancy, auto-classification, auto-scaling clusters. Use cases:
+  Knowledge graphs, semantic search at production scale. Vs self-hosted Milvus:
+  easier ops and schema-aware; vs managed pgvector: full-featured vector DB."
 source_url: https://weaviate.io/cloud
-category: Managed Vector Databases
+category: Graph-Enhanced Vector DBs
 tags:
-  - SaaS
-  - Managed Weaviate
-  - Auto Scaling
-  - Enterprise
-  - Backups
-  - Cloud Managed
-  - Serverless Scaling
+  - GraphQL Vector DB
+  - Hybrid Search
+  - Modular ML
+  - Multi-Tenancy
 featured: false
 markdown: >-
   ## Overview
 
 
-  Weaviate Cloud (WCD) is the fully managed cloud platform for Weaviate vector
-  database, handling scaling, backups, security, and updates.
+  Fully managed platform for Weaviate vector database, handling infrastructure,
+  scaling, backups, and security.
 
 
   ## Features
 
 
-  - Auto-scaling clusters
+  - Serverless and dedicated clusters with auto-scaling
 
-  - Multi-tenancy support
+  - Same core features as open-source: GraphQL, hybrid search, ML modules,
+  multi-tenancy
 
-  - Disaster recovery
+  - Automated backups, disaster recovery
 
-  - Module integrations (e.g., transformers, Q&A)
+  - Multi-region deployment
 
-  - Security & compliance
+  - Integrated monitoring and security
 
-  - Global regions
+
+  ## Use Cases
+
+
+  - Production semantic search and RAG
+
+  - Enterprise knowledge graphs
 
 
   ## Pricing
 
 
-  Pay-as-you-go with free tier available.
+  Pay-as-you-go pricing with free sandbox tier.
 brand: weaviate
 brand_logo_url: https://weaviate.io/_next/static/media/weaviate-logo-dark.5b9a8f1b.svg
 images:
   - https://weaviate.io/cloud/logo.svg
   - https://weaviate.io/assets/images/cloud-hero-5d5a5f2b44a3e0c6a9f4b0e8d9c2f5b7.png
-  - https://weaviate.io/cloud/logo.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

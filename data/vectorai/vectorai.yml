@@ -4,7 +4,7 @@ description: Vector.ai is a managed vector search platform that provides an API
   large volumes of high-dimensional data for efficient similarity search in
   machine learning and AI applications.
 source_url: https://www.vectordb.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - managed
   - autoscaling
@@ -30,4 +30,4 @@ markdown: >-
 
   Offers a free tier with limited resources, as well as paid plans with
   additional features, support, and custom pricing for enterprise customers.
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-28 11:38

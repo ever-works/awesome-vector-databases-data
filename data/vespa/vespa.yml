@@ -1,45 +1,66 @@
 name: Vespa
-description: Vespa is an open-source platform for scalable ML serving, vector
-  search, and recommendations, combining HNSW ANN indexing with real-time tensor
-  computations, ranking models, and structured data queries. Supports billions
-  of vectors, phased ranking, multi-phase retrieval, and deployments on
-  cloud/K8s; features built-in grouping/aggregation. Ideal for e-commerce
-  search, news personalization; differentiates from Weaviate with stronger
-  ranking/ML inference and from Pinecone via open-source extensibility but
-  requires more setup.
+description: Open-source big-data serving engine with vector search, hybrid
+  ranking, real-time ML. Supports SQL-like queries, tensor compute, multi-phase
+  ranking. Used for production search apps, personalized feeds. Native vectors
+  vs Elasticsearch; full serving platform vs Milvus.
 source_url: https://vespa.ai/
-category: Vector Databases
+category: Full-Text Vector Search Engines
 tags:
-  - Real Time Serving
+  - AI Serving Platform
+  - Hybrid Ranking
   - Tensor Compute
-  - Ranking
-  - Big Data
-  - ML Serving
+  - Real Time Serving
 featured: false
 markdown: >-
   ## Overview
 
 
-  Vespa is a platform for hybrid search including vectors.
+  Vespa is an open-source big data serving engine designed for real-time
+  computation over large datasets featuring vector search and ML inference.
 
 
   ## Features
 
 
-  - High accuracy for hybrid use cases
+  - SQL-like queries (Vespa Query Language)
 
-  - Optimized indexing for structured/unstructured data
+  - Tensor compute for advanced ML operations
 
-  - Custom ranking algorithms
+  - Multi-phase ranking pipelines
 
-  - Support for mixed workloads
+  - Hybrid search (vector, text, structured)
+
+  - Real-time updates and low-latency serving
+
+
+  ## Use Cases
+
+
+  - Production search applications
+
+  - Personalized recommendation feeds
+
+  - RAG and large-scale AI systems
+
+
+  ## Comparisons
+
+
+  | Tool | Vespa Difference |
+
+  |------|------------------|
+
+  | Elasticsearch | Native vector/tensor support |
+
+  | Milvus | Full serving platform with integrated ranking/ML |
 
 
   ## Pricing
 
 
-  Cost-effective for self-hosting as open-source; resource-intensive for large
-  clusters.
+  Free and open-source (Apache 2.0 license).
+brand: Vespa.ai
+brand_logo_url: https://vespa.ai/assets/vespa_logo_horizontal_color.svg
 images:
   - https://vespa.ai/assets/vespa_logo_horizontal_color.svg
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-28 11:38

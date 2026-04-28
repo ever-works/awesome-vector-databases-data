@@ -1,16 +1,16 @@
 name: pgvector
-description: Open-source PostgreSQL extension for SQL vector similarity search
-  with HNSW and IVFFlat indexes enabling efficient ANN on embeddings. Supports
-  hybrid queries blending vector search with SQL filters and metadata, ideal for
-  in-DB RAG, analytics, and similarity tasks. Cost-effective alternative to
-  dedicated vector DBs like Weaviate, leveraging existing Postgres without data
-  movement or extra services.
+description: "Open-source Postgres extension for vector similarity search with
+  HNSW/IVF indexes, SQL integration. Supports exact/approx KNN, L2/cosine/IP
+  distance, disk persistence. Use cases: RAG on Postgres data, hybrid SQL+vector
+  queries. Comparisons: Simpler than full DBs like Milvus for SQL users; vs
+  Lantern: more mature."
 source_url: https://github.com/pgvector/pgvector
 category: Postgres Vector Extensions
 tags:
-  - SQL Vector
-  - Postgres Native
-  - HNSW
+  - Postgres Extension
+  - SQL Vector Search
+  - HNSW Postgres
+  - Open Source Postgres
 featured: true
 markdown: >-
   ## Overview
@@ -58,4 +58,5 @@ markdown: >-
 brand_logo_url: https://github.com/pgvector/pgvector/raw/master/img/pgvector-logo.png
 images:
   - https://github.com/pgvector/pgvector/raw/master/img/pgvector-logo.png
-updated_at: 2026-04-24 10:19
+  - https://raw.githubusercontent.com/pgvector/pgvector/main/docs/assets/hnsw.png
+updated_at: 2026-04-28 11:38

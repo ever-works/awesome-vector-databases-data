@@ -1,45 +1,67 @@
 name: LanceDB Cloud
-description: Fully managed serverless vector DB with pay-per-query pricing and
-  auto-scaling for multimodal AI apps. Supports Python/TS/Rust SDKs, hybrid
-  search, auto-indexing. Seamless from OSS LanceDB; ideal for production RAG
-  without ops overhead vs. self-hosted alternatives.
+description: "Serverless managed service for LanceDB's columnar multimodal
+  vector DB (images/text), Arrow-based. Features: zero-copy reads, SQL queries,
+  auto-scaling, seamless sync from embedded version. Use cases: Computer vision
+  search, large-scale analytics. Vs Chroma: columnar/multimodal; vs Faiss: full
+  managed DB."
 source_url: https://lancedb.com/cloud/
 category: Serverless Vector DBs
 tags:
-  - serverless
-  - managed
-  - Pay Per Use
-  - Auto Scale
-  - multimodal
-markdown: |-
+  - Multimodal Vector DB
+  - Columnar Storage
+  - Arrow Native
+  - Vision Language
+featured: false
+markdown: >-
   ## Overview
 
-  LanceDB Cloud: serverless vector DB with pay-per-query and auto-scale.
+
+  LanceDB Cloud provides fully managed serverless access to LanceDB's columnar
+  multimodal capabilities.
+
 
   ## Features
 
-  - Pay-per-query billing
-  - Auto-scaling infrastructure
-  - Hybrid vector + full-text search
-  - Multimodal (text/image/video)
-  - Python/TS/Rust SDKs (gRPC/REST)
-  - Auto-indexing, compaction
+
+  - Zero-copy reads and Arrow integration
+
+  - SQL queries with hybrid search
+
+  - Pay-per-query pricing and auto-scaling
+
+  - Multimodal support (text/image/video)
+
+  - Python/TS/Rust SDKs, auto-indexing
+
 
   ## Use Cases
 
-  - Enterprise RAG pipelines
-  - Semantic search at scale
-  - AI agent memory
+
+  - Computer vision search at scale
+
+  - Large-scale analytics
+
+  - Production RAG without ops
+
 
   ## Comparisons
 
-  - Managed ease vs. OSS LanceDB self-host
+
+  | Competitor | LanceDB Cloud Advantages |
+
+  |------------|--------------------------|
+
+  | Chroma    | Columnar, multimodal, managed |
+
+  | Faiss     | Full DB + serverless     |
+
 
   ## Pricing
 
-  Usage-based: writes/queries/storage; $100 free credits; starts ~$16/mo.
+
+  Usage-based (writes/queries/storage); $100 free credits; ~$16/mo starting.
 brand: LanceDB
 brand_logo_url: https://lancedb.com/logo.svg
 images:
   - https://lancedb.com/images/hero-cloud.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

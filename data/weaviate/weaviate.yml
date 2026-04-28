@@ -1,39 +1,58 @@
 name: Weaviate
-description: "Weaviate is an open-source, AI-native vector database that
-  combines vector search with structured filtering, GraphQL API, and modular ML
-  integrations for semantic search and knowledge graphs. It supports HNSW
-  indexing, hybrid search (vector + keyword), multi-tenancy, and auto-embedding
-  modules (e.g., OpenAI, HuggingFace); deployable on-prem, cloud, or serverless.
-  Key use cases: RAG, question-answering, personalization; excels in multimodal
-  data vs. pure vector DBs like Pinecone by adding schema and modules, but less
-  specialized for ultra-high scale without clustering."
+description: "Open-source vector DB with GraphQL API, hybrid search
+  (vector+keyword), modules for ML integrations. Features: multi-tenancy,
+  auto-classification, cloud/embedded. Use cases: Knowledge graphs, semantic
+  search. Vs Milvus: more schema-aware; vs pgvector: full DB not extension."
 source_url: https://weaviate.io/
-category: Vector Databases
+category: Graph-Enhanced Vector DBs
 tags:
-  - GraphQL
+  - GraphQL Vector DB
+  - Hybrid Search
   - Modular ML
   - Multi-Tenancy
-  - Hybrid Search
-  - Open Source
 featured: false
-markdown: |-
+markdown: >-
   ## Overview
 
-  Weaviate is a vector database with hybrid search capabilities.
+
+  Open-source AI-native vector database designed for scalable semantic search
+  and knowledge graphs, with GraphQL API and modular extensions.
+
 
   ## Features
 
-  - Hybrid search and distributed architecture
-  - High recall rates and various distance metrics
-  - Vector compression and modularity
-  - Metadata support, real-time updates
-  - API-first design for ML model integration
+
+  - GraphQL API for querying
+
+  - Hybrid search: vector similarity + keyword (BM25)
+
+  - Modules ecosystem for ML integrations (e.g., text2vec, auto-classification)
+
+  - Multi-tenancy support
+
+  - Deployment flexibility: self-hosted, cloud (Weaviate Cloud),
+  embedded/serverless
+
+  - HNSW indexing, structured filtering
+
+
+  ## Use Cases
+
+
+  - Semantic search applications
+
+  - Knowledge graphs and RAG pipelines
+
+  - Multimodal data retrieval
+
 
   ## Pricing
 
-  Cost-effective as open-source.
+
+  Free and open-source (BSD-3-Clause license). Enterprise support via Weaviate
+  Cloud.
 brand_logo_url: https://raw.githubusercontent.com/weaviate/weaviate/main/logo.svg
 images:
   - https://weaviate.io/assets/logo.svg
   - https://weaviate.io/img/weaviate-logo.png
-updated_at: 2026-04-24 07:22
+updated_at: 2026-04-28 11:38

@@ -1,37 +1,64 @@
 name: Faiss
-description: Faiss (Facebook AI Similarity Search) is a pure ANN index library
-  for efficient dense vector similarity search and clustering at billion-scale.
-  Features GPU/CPU support, quantization (PQ), IVF/HNSW indexes, C++/Python
-  bindings. Used in custom vector engines, benchmarks, recommendations;
-  high-throughput GPU performer vs lighter Annoy or full DBs like Qdrant.
+description: FAISS is Meta's library for efficient similarity search and
+  clustering of dense vectors, supporting GPU/CPU indexes (IVF, HNSW, PQ). It
+  features billion-scale approximate nearest neighbor (ANN) search and
+  quantization for memory efficiency. Ideal for embedding search prototypes and
+  recommendation systems. Lower-level than full vector DBs like Qdrant; basis
+  for many vector DB indexes.
 source_url: https://faiss.ai/
 category: ANN Indexing Libraries
 tags:
-  - Pure ANN
-  - Index Only
-  - Benchmark Tool
+  - ANN Library
+  - GPU Optimized
+  - Quantization
+  - Meta AI
 featured: false
 markdown: >-
+  ## Overview
+
+
+  FAISS (Facebook AI Similarity Search) is an open-source library for efficient
+  similarity search and clustering of dense vectors at billion-scale.
+
+
   ## Features
 
 
-  - GPU and CPU support
+  - Multiple index types: Flat, IVF, PQ, HNSW, and more
 
-  - Indexing methods: LSH, PQ, HNSW, and more
+  - GPU/CPU support with CUDA acceleration
 
-  - Clustering algorithms: k-means, PCA
+  - Quantization (PQ, SQ) for memory efficiency
 
-  - Python and C++ interfaces
+  - C++ core with Python bindings
+
+  - Built-in clustering (k-means, etc.)
 
 
-  ## Installation and Usage
+  ## Use Cases
 
 
-  Faiss can be installed using pip or conda, and its API is well-documented with
-  examples available in the official repository.
+  - Embedding search prototypes
+
+  - Recommendation systems
+
+  - Large-scale image/video retrieval
+
+
+  ## Comparisons
+
+
+  Lower-level than complete vector DBs like Qdrant or Milvus; powers indexing in
+  many production vector stores.
+
+
+  ## Pricing
+
+
+  Free, open-source (MIT license).
 brand: Meta AI
 brand_logo_url: https://faiss.ai/assets/logo.svg
 images:
   - https://faiss.ai/assets/logo.svg
-  - https://faiss.ai/favicon.ico
-updated_at: 2026-04-24 10:19
+  - https://raw.githubusercontent.com/facebookresearch/faiss/main/figs/indexing_graph.png
+updated_at: 2026-04-28 11:38

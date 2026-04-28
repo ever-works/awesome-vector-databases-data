@@ -4,7 +4,7 @@ description: Open-source distributed SQL database with integrated vector search
   filtering, hybrid search, and high scalability for production RAG and AI
   applications.
 source_url: https://tidb.io/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - hybrid-search
@@ -53,4 +53,4 @@ markdown: >-
 
   - Self-hosted: infrastructure costs
 brand: PingCAP
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

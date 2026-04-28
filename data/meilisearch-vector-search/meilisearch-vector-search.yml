@@ -5,7 +5,7 @@ description: "Vector search extension for Meilisearch engine, supporting hybrid
   Weaviate: developer-friendly with typo-tolerant full-text but lighter scale
   for massive vectors."
 source_url: https://www.meilisearch.com/solutions/vector-search
-category: Search Engine Vector Extensions
+category: Full-Text Vector Search Engines
 tags:
   - vector-search
   - semantic-search
@@ -54,4 +54,4 @@ markdown: >-
   14-day free trial for Meilisearch Cloud.
 brand: Meilisearch
 brand_logo_url: https://www.meilisearch.com/_next/static/media/logo.a2d984a7.svg
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

@@ -4,7 +4,7 @@ description: "Lucene KNN vector plugin for Elasticsearch search engine, enabling
   enterprise search, RAG, multimodal apps. Integrated vs standalone like
   Weaviate: superior hybrid text handling but higher resource footprint."
 source_url: https://www.elastic.co/elasticsearch/
-category: Search Engine Vector Extensions
+category: Full-Text Vector Search Engines
 tags:
   - commercial
   - open-source
@@ -245,4 +245,4 @@ images:
   - https://www.elastic.co/assets/blteb5d2d93920be4e7/logo-elastic.svg
   - https://www.elastic.co/assets/images/elasticsearch-logo.png
   - https://www.elastic.co/elasticsearch/img/logo-elastic-elasticsearch.svg
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

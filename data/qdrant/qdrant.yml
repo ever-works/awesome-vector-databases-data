@@ -1,39 +1,43 @@
 name: Qdrant
-description: "Qdrant is a high-performance vector similarity search engine with
-  Rust-based core for production workloads, supporting filtered ANN search via
-  HNSW/NGT-PANNS, payload filtering, and multi-vector collections. Offers
-  on-prem, cloud, and edge deployments with quantization for memory efficiency
-  and real-time recommendations. Use cases: semantic search, fraud detection;
-  outperforms Faiss in filtering speed and scales better than Chroma for large
-  datasets while remaining open-source and lightweight compared to managed
-  services like Pinecone."
+description: "Rust-based vector search engine with filtered ANN (HNSW), payload
+  filtering, multi-modal support. Disk-persistent, supports
+  cloud/edge/self-hosted deployments, high QPS. Use cases: real-time
+  recommendations, semantic search. Lighter than Weaviate with Rust performance;
+  open-source alternative to Pinecone."
 source_url: https://qdrant.tech/
-category: Vector Databases
+category: Rust-Based Vector DBs
 tags:
-  - Rust
+  - Rust Vector DB
   - Filtered Search
-  - Quantization
   - Edge Deployable
-  - High Performance
+  - Disk Persistent
 featured: false
 markdown: |-
-  ## Overview
-
-  Qdrant is an open-source vector database for AI/ML applications.
-
   ## Features
 
-  - High recall with advanced ANN
-  - Customizable distance metrics
-  - Compact storage and hybrid search
-  - Dynamic updates, metadata search
-  - Flexible with Python, JavaScript API
+  - Filtered ANN (HNSW)
+  - Payload filtering
+  - Multi-modal support
+  - Disk-persistent storage
+  - Cloud/edge/self-hosted
+  - High QPS
+
+  ## Use Cases
+
+  - Real-time recommendations
+  - Semantic search
+
+  ## Comparisons
+
+  - Lighter, Rust perf vs Weaviate
+  - Open-source alt vs Pinecone
 
   ## Pricing
 
-  Cost-effective for self-hosting as open-source.
-brand: ""
-brand_logo_url: https://raw.githubusercontent.com/qdrant/qdrant/main/web/logo.svg
+  Free open-source (Apache 2.0).
+brand: Qdrant
+brand_logo_url: https://qdrant.tech/qdrant-logo.svg
 images:
   - https://qdrant.tech/qdrant-logo.svg
-updated_at: 2026-04-24 07:22
+  - https://qdrant.tech/images/qdrant-diagram.png
+updated_at: 2026-04-28 11:38

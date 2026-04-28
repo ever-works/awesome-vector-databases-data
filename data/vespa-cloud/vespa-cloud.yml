@@ -1,81 +1,69 @@
 name: Vespa Cloud
-description: Unified search and AI engine with seamless scaling, intelligent
-  retrieval, and precision ranking. Goes beyond simple vector search with tensor
-  support, multi-phase ranking, and hybrid retrieval blending semantic, textual,
-  and structured signals at scale.
+description: Managed service for Vespa, an open big-data serving engine with
+  vector search, hybrid ranking, real-time ML. Supports SQL-like queries, tensor
+  compute, multi-phase ranking. Used for production search apps, personalized
+  feeds without ops overhead. Native vectors vs Elasticsearch; full serving
+  platform vs Milvus.
 source_url: https://cloud.vespa.ai
-category: Managed & Serverless Vector DBs
+category: Full-Text Vector Search Engines
 tags:
-  - hybrid-search
-  - ranking
-  - scalable
+  - AI Serving Platform
+  - Hybrid Ranking
+  - Tensor Compute
+  - Real Time Serving
+featured: false
 markdown: >-
   ## Overview
 
 
-  Vespa Cloud is a fully managed service providing enterprise-scale search and
-  AI capabilities. It addresses performance and scale challenges at the
-  architectural level with native hybrid search and advanced ranking.
+  Vespa Cloud is the fully managed platform powered by the Vespa engine for
+  scalable AI search and serving.
 
 
   ## Features
 
 
-  - **Unified Engine**: Single platform for all search and AI needs
+  - SQL-like queries (Vespa Query Language)
 
-  - **Tensor Support**: Advanced tensor operations for ML models
+  - Tensor compute for advanced ML operations
 
-  - **Multi-Phase Ranking**: Sophisticated ranking pipelines
+  - Multi-phase ranking pipelines
 
-  - **Hybrid Retrieval**: Blends semantic, textual, and structured signals
+  - Hybrid search (vector, text, structured)
 
-  - **Seamless Scaling**: Automatic resource scaling
+  - Real-time updates and low-latency serving
 
-  - **Real-Time Updates**: Live document updates
-
-  - **Advanced Queries**: Complex query capabilities beyond simple similarity
-
-
-  ## Performance
-
-
-  In benchmarks with 50M vectors, Vespa achieved P50 latency of 16ms vs 140ms
-  for Milvus at identical infrastructure cost. Consistently ranked top in vector
-  database evaluations.
-
-
-  ## Why Vespa?
-
-
-  Marqo, a vector search company, chose Vespa as their underlying database after
-  benchmarking against Milvus, OpenSearch, Weaviate, Redis, and Qdrant.
+  - Automatic scaling and management
 
 
   ## Use Cases
 
 
-  - Enterprise search applications
+  - Production search applications
 
-  - Hybrid search systems
+  - Personalized recommendation feeds
 
-  - Large-scale recommendation engines
-
-  - Production AI applications requiring advanced ranking
-
-  - Multi-modal search
+  - Enterprise RAG systems
 
 
-  ## Integration
+  ## Comparisons
 
 
-  Provides APIs and SDKs for multiple languages. Supports ColBERT and other
-  advanced retrieval models.
+  | Tool | Vespa Difference |
+
+  |------|------------------|
+
+  | Elasticsearch | Native vector/tensor support |
+
+  | Milvus | Full serving platform with integrated ranking/ML |
 
 
   ## Pricing
 
 
-  Managed cloud service with usage-based pricing. Free tier available for
-  development.
-brand: Vespa
-updated_at: 2026-04-22 13:39
+  Usage-based pricing. Free trial and development tier available.
+brand: Vespa.ai
+brand_logo_url: https://vespa.ai/assets/vespa_logo_horizontal_color.svg
+images:
+  - https://vespa.ai/assets/vespa_logo_horizontal_color.svg
+updated_at: 2026-04-28 11:38

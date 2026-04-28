@@ -3,7 +3,7 @@ description: Analytics and vector database supporting real-time analytics
   combined with vector search. Handles high-performance queries on large-scale
   datasets.
 source_url: https://www.singlestore.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - analytics
   - real-time
@@ -23,4 +23,4 @@ markdown: |-
 
   Enterprise, contact sales.
 brand: SingleStore
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

@@ -1,61 +1,68 @@
 name: LanceDB
-description: Lightweight, in-process vector database for multimodal embeddings
-  (text/images/video), with zero deps, disk-based persistence via Lance format,
-  SQL queries, and Python/Rust support. No server required; perfect for
-  mobile/edge AI, prototyping; faster startup than Qdrant client, more
-  SQL-expressive than Chroma.
+description: Embedded columnar DB for multimodal vectors (images/text),
+  Arrow-based. Supports zero-copy reads, SQL queries, and cloud sync. Ideal for
+  computer vision search and large-scale analytics. Differentiates from Chroma
+  via columnar/multimodal design; from Faiss as a full DB.
 source_url: https://lancedb.com/
-category: Embedded Vector Libraries
+category: Multimodal Vector DBs
 tags:
-  - Zero Dep
-  - Local First
-  - sql
-  - multimodal
-  - disk-persistent
+  - Multimodal Vector DB
+  - Columnar Storage
+  - Arrow Native
+  - Vision Language
 featured: false
 markdown: >-
   ## Overview
 
 
-  LanceDB is a serverless, embedded vector DB using columnar Lance format for
-  efficient storage and zero-copy queries.
+  LanceDB is an embedded columnar database built on Apache Arrow's Lance format,
+  optimized for multimodal vectors (images, text, video).
 
 
   ## Features
 
 
-  - Zero dependencies
+  - Zero-copy reads leveraging Arrow
 
-  - Persistent disk storage standard
+  - SQL queries for hybrid vector + full-text search
 
-  - SQL-based hybrid search (vector + full-text)
+  - Cloud sync with LanceDB Cloud
 
-  - IVF-PQ indexing, data versioning
+  - IVF-PQ indexing and versioning
 
-  - Python and Rust bindings
+  - Python/Rust bindings, zero dependencies
 
 
   ## Use Cases
 
 
-  - Edge computing and mobile apps
+  - Computer vision search
 
-  - Computer vision pipelines, offline RAG
+  - Large-scale multimodal analytics
+
+  - Edge AI and prototyping
 
 
   ## Comparisons
 
 
-  - Faster startup than Qdrant client
+  | Feature          | LanceDB vs Chroma          | LanceDB vs Faiss     |
 
-  - Better disk efficiency and SQL vs Chroma/Faiss
+  |------------------|----------------------------|----------------------|
+
+  | Storage         | Columnar, multimodal      | Full DB w/ persistence |
+
+  | Queries         | SQL                       | Index-only           |
+
+  | Deployment      | Embedded, zero-copy       | Library              |
 
 
   ## Pricing
 
 
-  Open-source (Apache 2.0).
+  Open-source under Apache 2.0 license.
+brand: LanceDB
+brand_logo_url: https://lancedb.com/logo.svg
 images:
   - https://lancedb.com/images/og-image.png
-  - https://lancedb.com/favicon.ico
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

@@ -1,20 +1,16 @@
 name: RedisVL
-description: "Python library for Redis vector search apps with HNSW/Flat, hybrid
-  BM25+vector, semantic caching. Builds RAG pipelines on Redis Stack. Integrated
-  caching vs standalone: low-latency for real-time AI agents."
+description: "Redis Stack with vector search via RediSearch module, HNSW/Flat
+  indexes on in-memory store. Features: Hybrid BM25+vector, real-time cache,
+  multi-tenancy. Use cases: Caching LLM responses, high-throughput RAG.
+  Comparisons: Faster than disk DBs for hot data; vs Memgraph: simpler
+  key-value."
 source_url: https://redis.io/docs/latest/integrate/redisvl/
-category: Search Engine Vector Extensions
+category: In-Memory Hybrid Vector Stores
 tags:
-  - python-client
-  - rag-pipeline
-  - open-source
-  - RAG Framework
-  - Semantic Caching
+  - In-Memory Vector Search
   - Hybrid BM25
+  - High Throughput
   - Redis Stack
-  - Eval Tools
-  - knn-plugin
-  - hybrid-lexical-vector
 featured: false
 markdown: |-
   ## Overview
@@ -32,5 +28,5 @@ markdown: |-
 brand: Redis
 brand_logo_url: https://redis.io/favicon.svg
 images:
-  - https://redis.io/docs/latest/integrate/redisvl/logo.png
-updated_at: 2026-04-24 10:19
+  - https://redis.io/docs/latest/develop/get-started/vector-database/images/search-indexing.png
+updated_at: 2026-04-28 11:38

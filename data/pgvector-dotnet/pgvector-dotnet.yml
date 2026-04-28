@@ -5,7 +5,7 @@ description: Official .NET SDK/client (C#/F#) for pgvector, supporting async
   enterprise .NET app integration in RAG/semantic search; official bindings vs.
   community or direct SQL.
 source_url: https://github.com/pgvector/pgvector-dotnet
-category: Vector Clients & SDKs
+category: Postgres Vector Extensions
 tags:
   - .NET Client
   - C#
@@ -61,4 +61,4 @@ brand_logo_url: https://avatars.githubusercontent.com/u/101229709
 images:
   - https://opengraph.githubassets.com/1/pgvector/pgvector-dotnet
   - https://github.com/pgvector/pgvector-dotnet/raw/main/icon.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

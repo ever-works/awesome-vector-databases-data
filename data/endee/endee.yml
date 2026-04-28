@@ -3,7 +3,7 @@ description: High-performance vector database designed to handle up to 1B
   vectors on a single node with optimized indexing and execution. Also available
   as a managed cloud service.
 source_url: https://endee.io/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - high-performance
   - cloud-native
@@ -28,4 +28,4 @@ markdown: >-
 
 
   Pricing details available on the official website.
-updated_at: 2026-04-27 11:23
+updated_at: 2026-04-28 11:38

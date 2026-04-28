@@ -2,7 +2,7 @@ name: MyScale
 description: Cloud-native vector database built on ClickHouse for
   high-performance vector search and analytics.
 source_url: https://myscale.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - cloud
   - clickhouse
@@ -31,4 +31,4 @@ markdown: >-
 
   Pay-as-you-go cloud pricing.
 brand: MyScale
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

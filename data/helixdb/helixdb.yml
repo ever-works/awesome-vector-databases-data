@@ -5,7 +5,7 @@ description: Open-source graph-enhanced vector database built in Rust enabling
   vector databases, it natively models relationships for multi-hop reasoning and
   connected data retrieval.
 source_url: https://github.com/HelixDB/helix-db
-category: Graph-Enhanced Vector Databases
+category: Graph-Enhanced Vector DBs
 tags:
   - graph-database
   - kg-rag
@@ -30,4 +30,4 @@ markdown: |-
 
   ## Pricing
   Free open-source.
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-28 11:38

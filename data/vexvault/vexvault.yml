@@ -3,7 +3,7 @@ description: Vexvault is a 100% browser-based document storage system designed
   to make files and data accessible to AI applications like ChatGPT while
   ensuring user privacy and security. It aims to be easy to integrate and use.
 source_url: https://github.com/vexvault/vexvault
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - browser-based
@@ -18,4 +18,4 @@ markdown: |-
   - Scalability by pushing embedding calculation to the edge
   - Fast, because it can omit the network
   - Large amount of storage through use of indexeddb
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-28 11:38

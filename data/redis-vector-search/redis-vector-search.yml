@@ -1,17 +1,16 @@
 name: Redis Vector Search
-description: "RediSearch vector extension for Redis, with HNSW/Flat k-NN, hybrid
-  BM25+vector fusion, metadata filtering. For enterprise real-time RAG, caching,
-  recommendations. Integrated in-memory vs standalone like Weaviate: ultra-low
-  latency for hot data, scales via cluster."
+description: "Redis Stack with vector search via RediSearch module, HNSW/Flat
+  indexes on in-memory store. Features: Hybrid BM25+vector, real-time cache,
+  multi-tenancy. Use cases: Caching LLM responses, high-throughput RAG.
+  Comparisons: Faster than disk DBs for hot data; vs Memgraph: simpler
+  key-value."
 source_url: https://redis.io/search/
-category: Search Engine Vector Extensions
+category: In-Memory Hybrid Vector Stores
 tags:
-  - Redis VSS
-  - Hybrid BM25 Vector
-  - Real Time Cache
-  - In Memory VDB
-  - knn-plugin
-  - hybrid-lexical-vector
+  - In-Memory Vector Search
+  - Hybrid BM25
+  - High Throughput
+  - Redis Stack
 featured: false
 markdown: |-
   ## Overview
@@ -36,5 +35,5 @@ markdown: |-
 brand: Redis
 brand_logo_url: https://redis.io/favicon.svg
 images:
-  - https://redis.io/docs/latest/search/reference/icons/redisearch.svg
-updated_at: 2026-04-24 10:19
+  - https://redis.io/docs/latest/develop/get-started/vector-database/images/search-indexing.png
+updated_at: 2026-04-28 11:38

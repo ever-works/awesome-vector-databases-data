@@ -3,7 +3,7 @@ description: Managed edge database using SQLite with sqlite-vec for per-tenant
   vector stores. Provides isolation via one database per tenant, suitable for
   edge deployments.
 source_url: https://turso.tech/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - managed
   - edge
@@ -24,4 +24,4 @@ markdown: |-
 
   Free tier | $5/mo (25M queries).
 brand: Turso
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

@@ -1,7 +1,7 @@
 name: VelesDB
 description: Embedded vector + graph + columnar database with HNSW indexing.
 source_url: https://github.com/velesdb/veles
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - embedded
   - rust
@@ -22,4 +22,4 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

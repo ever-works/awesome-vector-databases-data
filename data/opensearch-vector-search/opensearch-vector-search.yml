@@ -4,7 +4,7 @@ description: "k-NN vector plugin for OpenSearch (Lucene-based), supporting
   enterprise RAG, semantic search. Integrated vs standalone like Weaviate:
   excels in hybrid text+vector but heavier footprint."
 source_url: https://docs.opensearch.org/latest/vector-search/
-category: Search Engine Vector Extensions
+category: Full-Text Vector Search Engines
 tags:
   - vector-search
   - hybrid-search
@@ -59,4 +59,4 @@ brand_logo_url: https://opensearch.org/assets/img/opensearch-logo-themed.svg
 images:
   - https://opensearch.org/assets/img/hero/hero-opensearch.png
   - https://opensearch.org/assets/img/products/search/opensearch-dashboards.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

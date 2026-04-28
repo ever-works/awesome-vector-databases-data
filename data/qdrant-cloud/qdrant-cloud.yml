@@ -1,56 +1,48 @@
 name: Qdrant Cloud
-description: Qdrant Cloud is a serverless, cloud-hosted managed vector database
-  with auto-sharding, scaling, pay-per-use pricing, automated backups, advanced
-  filtering, and multi-region deployments. Tailored for enterprise RAG and
-  high-scale production AI applications. Delivers easier operations than
-  self-hosted Milvus or Qdrant, with superior performance vs Zilliz in complex
-  queries.
+description: "Cloud-hosted Rust-based vector search engine with filtered ANN
+  (HNSW), payload filtering, multi-modal support. Disk-persistent, serverless
+  scaling, high QPS. Use cases: real-time recommendations, semantic search.
+  Lighter than Weaviate with Rust performance; open-source core alternative to
+  Pinecone."
 source_url: https://qdrant.tech/cloud/
-category: Managed Vector Databases
+category: Rust-Based Vector DBs
 tags:
-  - managed
-  - serverless
-  - rust
-  - Serverless Scaling
-  - Enterprise RAG
-  - Auto Indexing
-  - Cloud Managed
+  - Rust Vector DB
+  - Filtered Search
+  - Edge Deployable
+  - Disk Persistent
 featured: true
-markdown: >-
+markdown: |-
   ## Overview
 
+  Managed cloud vector database with free 1GB tier.
 
-  Qdrant Cloud provides fully managed vector database with 1GB free forever
-  cluster (no credit card required) and multi-cloud deployment.
+  ## Features
 
+  - Filtered ANN (HNSW)
+  - Payload filtering
+  - Multi-modal support
+  - Disk-persistent
+  - Serverless auto-scaling
+  - High QPS
 
-  ## Free Tier
+  ## Use Cases
 
+  - Real-time recommendations
+  - Semantic search
 
-  - **1GB RAM cluster** free forever
+  ## Comparisons
 
-  - **No credit card required**
-
-  - **Multi-cloud**: AWS, GCP, Azure
-
-  - Production-ready
-
-
-  ## Paid Tiers
-
-
-  - **Managed Cloud**: Starting at $0, scales with usage
-
-  - **Hybrid Cloud**: $0.014/hour starting
-
-  - **Premium**: Custom enterprise pricing
-
+  - Lighter, Rust perf vs Weaviate
+  - Open-source alt vs Pinecone
 
   ## Pricing
 
-
-  Commercial service with generous free tier and flexible scaling options.
+  - Free: 1GB forever
+  - Paid: Pay-per-use from $0.014/hour
 brand: Qdrant
+brand_logo_url: https://qdrant.tech/qdrant-logo.svg
 images:
   - https://cloud.qdrant.io/logo.svg
-updated_at: 2026-04-24 10:19
+  - https://qdrant.tech/images/cloud-diagram.png
+updated_at: 2026-04-28 11:38

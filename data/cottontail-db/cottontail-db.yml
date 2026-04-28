@@ -3,7 +3,7 @@ description: Cottontail DB is a column store aimed at multimedia retrieval,
   allowing classical boolean as well as vector-space retrieval (nearest
   neighbour search) using a unified data and query model.
 source_url: https://cottontaildb.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - column-store
@@ -18,4 +18,4 @@ markdown: |-
   - Free-text search
   - Relational data entities for metadata
   - gRPC interface with pre-built clients for Java/Kotlin and Python
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-28 11:38

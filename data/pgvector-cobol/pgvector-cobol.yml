@@ -2,16 +2,12 @@ name: pgvector-cobol
 description: COBOL bindings and examples for pgvector, letting legacy COBOL
   systems interact with PostgreSQL as a vector database.
 source_url: https://github.com/pgvector/pgvector-cobol
-featured: false
-brand: pgvector
-brand_logo_url: https://avatars.githubusercontent.com/u/101229709
-images:
-  - https://opengraph.githubassets.com/1/pgvector/pgvector-cobol
-category: sdks-libraries
+category: Postgres Vector Extensions
 tags:
   - sdk
   - pgvector
   - vector-store
+featured: false
 markdown: >
   ---
 
@@ -73,7 +69,7 @@ markdown: >
 
   - **Inserting vector data**
     - Shows how to assign vector values to COBOL variables and insert them into PostgreSQL:
-      - Move JSON-like array strings (e.g., `"[1,2,3]"`) into COBOL variables.
+      - Move JSON-like array strings (e.g., \"[1,2,3]\"") into COBOL variables.
       - Insert multiple embeddings into the `vector` column via embedded SQL.
 
   - **Vector similarity search**
@@ -104,4 +100,8 @@ markdown: >
 
   - pgvector-cobol is an open-source project released under the MIT license and
   is free to use.
-updated_at: 2025-12-30 18:03
+brand: pgvector
+brand_logo_url: https://avatars.githubusercontent.com/u/101229709
+images:
+  - https://opengraph.githubassets.com/1/pgvector/pgvector-cobol
+updated_at: 2026-04-28 11:38

@@ -2,7 +2,7 @@ name: Google Vector Search
 description: Managed vector search service as part of Google Vertex AI, enabling
   efficient similarity search over high-dimensional vectors for AI applications.
 source_url: https://cloud.google.com/vertex-ai/docs/vector-search/overview
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - managed
   - cloud
@@ -32,4 +32,4 @@ markdown: >-
 
   Usage-based pricing through Google Cloud.
 brand: Google Cloud
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

@@ -5,7 +5,7 @@ description: Crystal SDK/client for pgvector PostgreSQL extension, providing
   driver. For integrating Postgres vector ops into Crystal apps; official
   community client vs. direct SQL or other lang bindings.
 source_url: https://github.com/pgvector/pgvector-crystal
-category: Vector Clients & SDKs
+category: Postgres Vector Extensions
 tags:
   - crystal
   - pgvector
@@ -58,4 +58,4 @@ brand: pgvector
 brand_logo_url: https://avatars.githubusercontent.com/u/101229709
 images:
   - https://opengraph.githubassets.com/1/pgvector/pgvector-crystal
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

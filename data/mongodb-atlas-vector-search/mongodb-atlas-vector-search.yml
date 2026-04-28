@@ -4,7 +4,7 @@ description: Vector search capabilities integrated within the MongoDB ecosystem
   with traditional database needs, offered as a managed service via MongoDB
   Atlas.
 source_url: https://www.mongodb.com/products/vector-search
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - managed
   - integrated
@@ -29,4 +29,4 @@ markdown: |-
   ## Pricing
 
   Managed services can be costly for large datasets.
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

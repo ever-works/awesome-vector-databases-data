@@ -1,17 +1,16 @@
 name: Redis
-description: Redis powers hybrid search via the RediSearch module, fusing
-  HNSW/Flat vector similarity with BM25 full-text search, including reranking,
-  multi-query fusion, and multi-modal data processing. Perfect for real-time
-  e-commerce recommendations and enterprise semantic search, it provides better
-  recall than pure vector databases like Pinecone while offering lower latency
-  than Elasticsearch. Excels in high-throughput RAG, caching, and AI agent
-  contexts with in-memory efficiency.
+description: "Redis Stack with vector search via RediSearch module, HNSW/Flat
+  indexes on in-memory store. Features: Hybrid BM25+vector, real-time cache,
+  multi-tenancy. Use cases: Caching LLM responses, high-throughput RAG.
+  Comparisons: Faster than disk DBs for hot data; vs Memgraph: simpler
+  key-value."
 source_url: https://redis.io/
-category: Hybrid Vector Stores
+category: In-Memory Hybrid Vector Stores
 tags:
-  - Hybrid Search
-  - BM25 Fusion
-  - Reranking
+  - In-Memory Vector Search
+  - Hybrid BM25
+  - High Throughput
+  - Redis Stack
 featured: false
 markdown: >-
   ## Overview
@@ -104,7 +103,5 @@ markdown: >-
   Available upon request for on-premises deployments.
 brand_logo_url: https://redis.io/docs/about/images/redis_logo.svg
 images:
-  - https://redis.io/docs/latest/develop/get-started/images/logo.svg
-  - https://redis.io/docs/about/pictures/redis-logo.png
-  - https://redis.io/docs/latest/develop/get-started/vector-database/images/earch-indexing.png
-updated_at: 2026-04-24 10:19
+  - https://redis.io/docs/latest/develop/get-started/vector-database/images/search-indexing.png
+updated_at: 2026-04-28 11:38

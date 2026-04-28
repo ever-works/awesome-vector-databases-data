@@ -1,12 +1,12 @@
 name: Milvus WebUI
-description: "Milvus WebUI is a browser-based management interface for Milvus
-  vector DB clusters, providing visual dashboards for collections, indexes,
-  queries, metrics, and data exploration. Supports real-time monitoring, TTL
-  policies, and bulk operations via intuitive UI. Use cases: ops teams managing
-  Milvus deployments; simplifies cluster admin vs. CLI/API, complements Zilliz
-  Cloud console for self-hosted setups."
+description: Milvus WebUI provides management for the scalable open-source
+  vector DB ecosystem, enabling oversight of HNSW/IVF/NGT indexed collections in
+  distributed/cluster/embedded Milvus modes. Supports monitoring of
+  GPU-accelerated, billion-scale, real-time multi-modal operations. Facilitates
+  RAG, recommendations, image/video search management; pairs with self-hosted
+  Milvus vs Pinecone/Weaviate alternatives.
 source_url: https://milvus.io/docs/milvus-webui.md
-category: Vector Databases
+category: Scalable Distributed Vector DBs
 tags:
   - visualization
   - monitoring
@@ -16,6 +16,10 @@ tags:
   - Milvus Management
   - Visual Query
   - Ops Tool
+  - Distributed Vector DB
+  - GPU Support
+  - Billion Scale
+  - Open Source Scale
 featured: false
 markdown: >-
   ## Overview
@@ -95,4 +99,5 @@ markdown: >-
 brand: Milvus
 images:
   - https://milvus.io/webui-logo.png
-updated_at: 2026-04-24 07:22
+  - https://milvus.io/assets/logos/milvus-logo.png
+updated_at: 2026-04-28 11:38

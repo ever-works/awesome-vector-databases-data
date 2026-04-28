@@ -4,7 +4,7 @@ description: NucliaDB is a versatile vector database designed for data
   data pipeline platforms. Built on Tantivy in Rust and Python, it efficiently
   indexes large datasets with multi-tenant support.
 source_url: https://nucliadb.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - rust
@@ -41,4 +41,4 @@ markdown: >-
 
   Check NucliaDB's website for pricing details.
 brand: Nuclia
-updated_at: 2026-04-23 16:13
+updated_at: 2026-04-28 11:38

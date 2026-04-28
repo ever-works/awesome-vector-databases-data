@@ -9,7 +9,7 @@ description: TileDB Vector Search is a scalable open-source vector database that
   efficiency and cost savings compared to Milvus or Pinecone, while scaling
   better than Faiss for large production deployments.
 source_url: https://github.com/TileDB-Inc/TileDB-Vector-Search
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - Scalable ANN
@@ -54,4 +54,4 @@ brand_logo_url: https://github.com/TileDB-Inc.png
 images:
   - https://raw.githubusercontent.com/TileDB-Inc/TileDB-Vector-Search/main/docs/images/architecture.png
   - https://www.tiledb.com/hubfs/tiledb_logo_horizontal_color_rgb.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

@@ -5,7 +5,7 @@ description: Vector search plugin for Azure Cache for Redis via RediSearch
   recommendations. Integrated caching layer provides sub-ms latency vs
   standalone vector DBs like Weaviate.
 source_url: https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-overview-vector-similarity
-category: Search Engine Vector Extensions
+category: Full-Text Vector Search Engines
 tags:
   - redis-vss
   - hybrid-bm25
@@ -107,4 +107,4 @@ markdown: >-
   Azure Cache for Redis (Premium/Enterprise tiers)
 brand: Microsoft
 brand_logo_url: https://azure.microsoft.com/svghandler/brand-red.svg
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

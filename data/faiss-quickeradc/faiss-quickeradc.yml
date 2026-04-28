@@ -6,13 +6,12 @@ description: Optimized variant of Faiss with faster ADC quantization for
   hardware acceleration. Outperforms standard CPU Faiss and baselines like Annoy
   in GPU environments.
 source_url: https://github.com/technicolor-research/faiss-quickeradc
-category: GPU Accelerated Vector DBs
+category: ANN Indexing Libraries
 tags:
   - GPU Optimized
-  - Quantization Variant
-  - High QPS
+  - Quantization
   - Faiss Extension
-  - CUDA Optimized
+  - High QPS
 featured: false
 markdown: >-
   # faiss-quickeradc
@@ -62,4 +61,4 @@ images:
   - https://opengraph.githubassets.com/1/technicolor-research/faiss-quickeradc
   - https://github.com/technicolor-research/faiss-quickeradc/raw/main/logo.png
   - https://raw.githubusercontent.com/technicolor-research/faiss-quickeradc/main/docs/images/quickeradc.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

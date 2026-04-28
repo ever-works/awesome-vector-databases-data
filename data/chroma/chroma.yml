@@ -1,41 +1,48 @@
 name: Chroma
-description: Chroma is an open-source, embedding database focused on developer
-  productivity for LLM apps, offering in-memory or persistent storage with HNSW
-  indexing for fast similarity search on text/image embeddings. Features include
-  auto-chunking, metadata filtering, multi-modal support, and easy Python/JS
-  integration; runs embedded or client-server. Ideal for prototyping RAG,
-  chatbots; simpler than Milvus for small-medium scale but lacks distributed
-  sharding for production billions, positioning as lightweight alternative to
-  Pinecone.
+description: "Python-native embedding database for LLM apps, easy local
+  prototyping. Features HNSW index, metadata filtering, and persistent storage.
+  Use cases: local RAG development, agent memory. Easier onboarding than
+  LanceDB; vs pgvector: pure Python, no SQL."
 source_url: https://www.trychroma.com/
-category: Embedded Vector Libraries
+category: Embedded Python Vector DBs
 tags:
-  - open-source
-  - llm-friendly
-  - persistent
-  - hnsw
-  - Embedded
-  - Developer Friendly
-  - LLM Apps
-  - Multi-Modal
-  - Python Native
+  - Python Vector DB
+  - Local Dev
+  - LLM Friendly
+  - Prototyping
 featured: false
-markdown: |-
+markdown: >-
   ## Overview
 
-  Chroma is a vector DB for querying high-dimensional vector embeddings.
+
+  Chroma is a Python-native, open-source embedding database designed for LLM
+  applications, focusing on simplicity for local prototyping.
+
 
   ## Features
 
-  - Intuitive API
-  - High accuracy and recall rates
-  - Embedding-based search
-  - Advanced ANN methods
-  - Compact storage
+
+  - HNSW indexing for efficient similarity search
+
+  - Metadata filtering
+
+  - Persistent storage options (in-memory or disk)
+
+  - Simple Python API with client-server support
+
+
+  ## Use Cases
+
+
+  - Local RAG (Retrieval-Augmented Generation) development
+
+  - Agent memory and state management
+
 
   ## Pricing
 
-  Open-source with minimal deployment costs unless scaled heavily.
+
+  Free and open-source under Apache 2.0 license.
 images:
-  - https://www.trychroma.com/favicon.ico
-updated_at: 2026-04-24 07:22
+  - https://docs.trychroma.com/logo.png
+updated_at: 2026-04-28 11:38

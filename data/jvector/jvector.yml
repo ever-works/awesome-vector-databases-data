@@ -1,7 +1,7 @@
 name: jvector
 description: High-performance vector search engine for Java applications.
 source_url: https://jvector.io/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - java
   - high-performance
@@ -21,4 +21,4 @@ markdown: |-
 
   Open-source.
 brand: jvector
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

@@ -1,12 +1,13 @@
 name: Milvus Distributed
-description: Milvus Distributed is the scalable cluster deployment of Milvus,
-  enabling horizontal scaling across multiple nodes for handling petabyte-scale
-  vector data. It features fault-tolerant architecture with etcd coordination,
-  dynamic sharding, and load balancing for high availability. Use for enterprise
-  AI at massive scale like multimodal search; extends standalone Milvus for
-  production.
+description: Milvus Distributed is the cluster mode of the scalable open-source
+  vector database for AI embeddings search, supporting HNSW, IVF, and NGT
+  indexes in high-availability distributed setups. It provides GPU support,
+  billion-scale capacity, real-time upsert/query capabilities, and multi-modal
+  vector handling. Suited for RAG, recommendations, and image/video search at
+  enterprise scale. Self-hosted unlike Pinecone's managed offering, and more
+  ANN-centric than Weaviate.
 source_url: https://milvus.io/
-category: Vector Databases
+category: Scalable Distributed Vector DBs
 tags:
   - scalable
   - production-ready
@@ -17,6 +18,10 @@ tags:
   - distributed-cluster
   - high-availability
   - etcd
+  - Distributed Vector DB
+  - GPU Support
+  - Billion Scale
+  - Open Source Scale
 featured: false
 markdown: >-
   ## Overview
@@ -80,4 +85,5 @@ brand: Milvus
 brand_logo_url: https://milvus.io/img/milvus-logo.svg
 images:
   - https://milvus.io/img/milvus-architecture.png
-updated_at: 2026-04-23 16:30
+  - https://milvus.io/assets/logos/milvus-logo.png
+updated_at: 2026-04-28 11:38

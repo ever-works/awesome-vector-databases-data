@@ -1,16 +1,17 @@
 name: RediSearch
-description: "Redis module for full-text, vector k-NN (HNSW), hybrid search with
-  BM25 fusion, geospatial. Lucene-inspired for enterprise real-time apps.
-  Integrated vs standalone vector DBs: versatile multi-model but memory-bound."
+description: "Redis Stack with vector search via RediSearch module, HNSW/Flat
+  indexes on in-memory store. Features: Hybrid BM25+vector, real-time cache,
+  multi-tenancy. Use cases: Caching LLM responses, high-throughput RAG.
+  Comparisons: Faster than disk DBs for hot data; vs Memgraph: simpler
+  key-value."
 source_url: https://github.com/RediSearch/RediSearch
-category: Search Engine Vector Extensions
+category: In-Memory Hybrid Vector Stores
 tags:
-  - module
-  - full-text
-  - hybrid
-  - real-time
-  - knn-plugin
-  - hybrid-lexical-vector
+  - In-Memory Vector Search
+  - Hybrid BM25
+  - High Throughput
+  - Redis Stack
+featured: false
 markdown: >-
   ## Overview
 
@@ -42,5 +43,5 @@ markdown: >-
 
   Open-source; Enterprise for clusters.
 images:
-  - https://redis.io/docs/stack/search/images/redisearch_logo.svg
-updated_at: 2026-04-24 10:19
+  - https://redis.io/docs/latest/develop/get-started/vector-database/images/search-indexing.png
+updated_at: 2026-04-28 11:38

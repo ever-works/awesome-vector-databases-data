@@ -4,7 +4,7 @@ description: Vald is a distributed vector search engine based on NG+ and NGT,
   Cloud-native, Kubernetes-friendly with auto-sharding. Suited for global-scale
   search; higher throughput than Qdrant in benchmarks but more complex ops.
 source_url: https://vald.vdaum.net/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - NGT Index
   - Kubernetes
@@ -26,4 +26,4 @@ markdown: |-
   Free and open-source.
 images:
   - https://vald.vdaum.net/assets/vald-logo.png
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-28 11:38

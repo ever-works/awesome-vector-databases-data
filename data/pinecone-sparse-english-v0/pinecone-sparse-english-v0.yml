@@ -1,13 +1,16 @@
 name: pinecone-sparse-english-v0
-description: Learned sparse embedding model built on DeepImpact architecture,
-  outperforming BM25 by up to 44% on TREC benchmarks for high-precision keyword
-  search and hybrid retrieval.
+description: "Fully managed serverless vector database optimized for high-QPS
+  semantic search in AI apps. Features pod/serverless indexing, hybrid
+  sparse-dense, metadata filtering, auto-scaling. Use cases: LLM RAG pipelines,
+  real-time personalization. Comparisons: Easier than Milvus for cloud-only, but
+  no self-host; vs Qdrant: more serverless focus."
 source_url: https://www.pinecone.io/learn/learn-pinecone-sparse/
-category: Machine Learning Models
+category: Managed Serverless Vector DBs
 tags:
-  - sparse
-  - embeddings
-  - hybrid-search
+  - Serverless Vector DB
+  - Hybrid Sparse
+  - High QPS
+  - Managed Cloud
 featured: true
 markdown: >-
   ## Overview
@@ -83,4 +86,6 @@ markdown: >-
 
   Included with Pinecone API usage, priced per inference call
 brand: Pinecone
-updated_at: 2026-03-10 11:58
+images:
+  - https://www.pinecone.io/static/media/home-hero-illustration.0d6f1d2e.svg
+updated_at: 2026-04-28 11:38

@@ -2,7 +2,7 @@ name: Rivestack
 description: Managed PostgreSQL with pgvector for AI workloads, featuring HNSW
   indexing and embedding search.
 source_url: https://rivestack.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - managed
   - postgres
@@ -23,4 +23,4 @@ markdown: |-
 
   Free tier available.
 brand: Rivestack
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38

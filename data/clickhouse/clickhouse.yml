@@ -4,7 +4,7 @@ description: ClickHouse is a columnar OLAP database with vector indexes (ANN via
   petabyte scale. Excels in aggregations with vectors. For analytics workloads
   with embeddings; faster ingestion than Postgres pgvector for big data.
 source_url: https://clickhouse.com/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - analytics
@@ -97,4 +97,4 @@ markdown: >-
   vector-database-engines
 images:
   - https://clickhouse.com/logo-clickhouse.svg
-updated_at: 2026-04-23 19:19
+updated_at: 2026-04-28 11:38

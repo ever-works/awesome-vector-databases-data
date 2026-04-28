@@ -6,7 +6,7 @@ description: Vector search extension for Amazon ElastiCache for Redis, featuring
   sub-microsecond latency vs standalone like Weaviate, optimized for hot data
   workloads.
 source_url: https://aws.amazon.com/blogs/database/announcing-vector-search-for-amazon-elasticache/
-category: Search Engine Vector Extensions
+category: Full-Text Vector Search Engines
 tags:
   - aws
   - caching
@@ -96,4 +96,4 @@ markdown: >-
   Available in AWS ElastiCache for Redis
 brand: AWS
 brand_logo_url: https://d0.awsstatic.com/prod/assets/images/aws-logo.svg
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-28 11:38

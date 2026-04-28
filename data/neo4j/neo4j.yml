@@ -5,7 +5,7 @@ description: Graph-enhanced vector database enabling hybrid graph+vector search
   databases like Pinecone, it natively models relationships for superior
   connected data reasoning and traversal.
 source_url: https://neo4j.com
-category: Graph-Enhanced Vector Databases
+category: Graph-Enhanced Vector DBs
 tags:
   - graph-database
   - kg-rag
@@ -31,4 +31,4 @@ markdown: |-
   Free community, Aura cloud.
 images:
   - https://raw.githubusercontent.com/microsoft/graphrag/main/img/global_search.png
-updated_at: 2026-04-23 01:18
+updated_at: 2026-04-28 11:38

@@ -2,7 +2,7 @@ name: OpenSearch
 description: Open-source search and analytics suite with native k-NN vector
   search capabilities.
 source_url: https://opensearch.org/
-category: Vector Databases
+category: Core Vector Databases
 tags:
   - open-source
   - knn
@@ -23,4 +23,4 @@ markdown: |-
 
   Free and open-source.
 brand: OpenSearch
-updated_at: 2026-04-23 16:30
+updated_at: 2026-04-28 11:38
