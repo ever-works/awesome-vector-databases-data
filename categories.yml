@@ -38,3 +38,19 @@
   name: Quantum Resistant Vectors
 - id: federated-vector-dbs
   name: Federated Vector DBs
+- id: core-vector-databases
+  name: Core Vector Databases
+- id: graph-enhanced-vector-dbs
+  name: Graph Enhanced Vector DBs
+- id: full-text-vector-search-engines
+  name: Full Text Vector Search Engines
+- id: embedded-python-vector-dbs
+  name: Embedded Python Vector DBs
+- id: scalable-distributed-vector-dbs
+  name: Scalable Distributed Vector DBs
+- id: managed-serverless-vector-dbs
+  name: Managed Serverless Vector DBs
+- id: rust-based-vector-dbs
+  name: Rust Based Vector DBs
+- id: in-memory-hybrid-vector-stores
+  name: In Memory Hybrid Vector Stores

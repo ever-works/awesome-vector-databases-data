@@ -151,7 +151,7 @@
 - id: multi-cloud
   name: Multi Cloud
 - id: llm-friendly
-  name: Llm Friendly
+  name: LLM Friendly
 - id: persistent
   name: Persistent
 - id: columnar-olap
@@ -293,7 +293,7 @@
 - id: aws
   name: Aws
 - id: redis-vss
-  name: Redis VSS
+  name: Redis Vss
 - id: hybrid-bm25
   name: Hybrid BM25
 - id: real-time-cache
@@ -610,3 +610,43 @@
   name: Production Use
 - id: 2026-ready
   name: 2026 Ready
+- id: kg-rag
+  name: Kg Rag
+- id: python-vector-db
+  name: Python Vector DB
+- id: cypher
+  name: Cypher
+- id: multimodal-vector-db
+  name: Multimodal Vector DB
+- id: columnar-storage
+  name: Columnar Storage
+- id: arrow-native
+  name: Arrow Native
+- id: distributed-vector-db
+  name: Distributed Vector DB
+- id: open-source-scale
+  name: Open Source Scale
+- id: sql-vector-search
+  name: SQL Vector Search
+- id: hnsw-postgres
+  name: HNSW Postgres
+- id: serverless-vector-db
+  name: Serverless Vector DB
+- id: hybrid-sparse
+  name: Hybrid Sparse
+- id: managed-cloud
+  name: Managed Cloud
+- id: rust-vector-db
+  name: Rust Vector DB
+- id: in-memory-vector-search
+  name: In Memory Vector Search
+- id: memory-safe
+  name: Memory Safe
+- id: embedded-rust
+  name: Embedded Rust
+- id: ai-serving-platform
+  name: AI Serving Platform
+- id: hybrid-ranking
+  name: Hybrid Ranking
+- id: graphql-vector-db
+  name: GraphQL Vector DB
