@@ -54,3 +54,11 @@
   name: Rust Based Vector DBs
 - id: in-memory-hybrid-vector-stores
   name: In Memory Hybrid Vector Stores
+- id: multimodal-vector-databases
+  name: Multimodal Vector Databases
+- id: cloud-managed-postgres-vectors
+  name: Cloud Managed Postgres Vectors
+- id: developer-tools-benchmarks
+  name: Developer Tools & Benchmarks
+- id: embedded-vector-databases
+  name: Embedded Vector Databases

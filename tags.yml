@@ -15,7 +15,7 @@
 - id: graph
   name: Graph
 - id: c
-  name: C#
+  name: C++
 - id: low-ram
   name: Low Ram
 - id: easy-integration
@@ -221,7 +221,7 @@
 - id: deterministic
   name: Deterministic
 - id: ngt-index
-  name: NGT Index
+  name: Ngt Index
 - id: grpc
   name: Grpc
 - id: ranking
@@ -229,7 +229,7 @@
 - id: tensor
   name: Tensor
 - id: graphql
-  name: GraphQL
+  name: Graphql
 - id: saas
   name: SaaS
 - id: graph-ql
@@ -339,11 +339,11 @@
 - id: ann-benchmarks
   name: Ann Benchmarks
 - id: lucene-knn
-  name: Lucene KNN
+  name: Lucene Knn
 - id: hybrid-lexical-vector
   name: Hybrid Lexical Vector
 - id: gpu-optimized
-  name: GPU Optimized
+  name: Gpu Optimized
 - id: quantization-variant
   name: Quantization Variant
 - id: high-qps
@@ -559,7 +559,7 @@
 - id: multi-language-sdk
   name: Multi Language SDK
 - id: sql-vector
-  name: SQL Vector
+  name: Sql Vector
 - id: postgres-native
   name: Postgres Native
 - id: quantum
@@ -650,3 +650,35 @@
   name: Hybrid Ranking
 - id: graphql-vector-db
   name: GraphQL Vector DB
+- id: 2026-trends
+  name: 2026 Trends
+- id: vision-text
+  name: Vision Text
+- id: clip-compatible
+  name: Clip Compatible
+- id: benchmarking
+  name: Benchmarking
+- id: performance-evaluation
+  name: Performance Evaluation
+- id: ann-libraries
+  name: Ann Libraries
+- id: rag-benchmark
+  name: Rag Benchmark
+- id: ann-algorithms
+  name: Ann Algorithms
+- id: filtered-ann
+  name: Filtered Ann
+- id: cpu-optimized
+  name: Cpu Optimized
+- id: go-lang
+  name: Go Lang
+- id: testing
+  name: Testing
+- id: performance
+  name: Performance
+- id: modules
+  name: Modules
+- id: postgresql-compatible
+  name: Postgresql Compatible
+- id: acid
+  name: Acid
