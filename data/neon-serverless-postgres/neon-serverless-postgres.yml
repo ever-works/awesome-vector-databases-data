@@ -6,7 +6,7 @@ description: Serverless managed Postgres with pgvector extension for vector
   vectors, better than dedicated DBs for developer workflows and transactional
   AI use cases.
 source_url: https://neon.com/
-category: Cloud Postgres Vectors
+category: Cloud-Managed Postgres Vectors
 tags:
   - Cloud Auto-Scale
   - Multi-Cloud
@@ -128,4 +128,4 @@ brand: Neon
 brand_logo_url: https://neon.tech/assets/images/neon-logo.svg
 images:
   - https://neon.com/images/neon-pgvector-diagram.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31

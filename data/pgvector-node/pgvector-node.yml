@@ -5,7 +5,7 @@ description: JavaScript/TypeScript SDK/client (Node.js/Deno/Bun) for pgvector
   integration in RAG/semantic search; official bindings vs. direct SQL or other
   SDKs.
 source_url: https://github.com/pgvector/pgvector-node
-category: Vector Clients & SDKs
+category: Core Vector Databases
 tags:
   - nodejs
   - javascript
@@ -59,4 +59,4 @@ brand: pgvector
 brand_logo_url: https://avatars.githubusercontent.com/u/101229709
 images:
   - https://opengraph.githubassets.com/1/pgvector/pgvector-node
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31

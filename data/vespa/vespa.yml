@@ -1,15 +1,18 @@
 name: Vespa
-description: Open-source big-data serving engine with vector search, hybrid
-  ranking, real-time ML. Supports SQL-like queries, tensor compute, multi-phase
-  ranking. Used for production search apps, personalized feeds. Native vectors
-  vs Elasticsearch; full serving platform vs Milvus.
+description: Vespa is a big data serving engine with built-in vector search (ANN
+  with HNSW), real-time updates, and hybrid ranking (ML models + vectors). Used
+  by Yahoo for search ads; supports tensors and ranking phases. Differentiates
+  from Weaviate by stronger ML serving and tensor compute vs GraphQL focus.
 source_url: https://vespa.ai/
-category: Full-Text Vector Search Engines
+category: Full Text Vector Search Engines
 tags:
   - AI Serving Platform
   - Hybrid Ranking
   - Tensor Compute
   - Real Time Serving
+  - hybrid ranking
+  - real time serving
+  - tensor compute
 featured: false
 markdown: >-
   ## Overview
@@ -63,4 +66,5 @@ brand: Vespa.ai
 brand_logo_url: https://vespa.ai/assets/vespa_logo_horizontal_color.svg
 images:
   - https://vespa.ai/assets/vespa_logo_horizontal_color.svg
-updated_at: 2026-04-28 11:38
+  - https://vespa.ai/assets/vespa_logo.svg
+updated_at: 2026-04-29 11:31

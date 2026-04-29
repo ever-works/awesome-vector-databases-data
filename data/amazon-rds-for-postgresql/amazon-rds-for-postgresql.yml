@@ -6,7 +6,7 @@ description: Managed PostgreSQL service from AWS with pgvector extension for
   power and ACID transactions with vector capabilities, superior to dedicated
   vector DBs for complex relational queries and joins.
 source_url: https://aws.amazon.com/rds/postgresql/
-category: Cloud Postgres Vectors
+category: Cloud-Managed Postgres Vectors
 tags:
   - managed-service
   - cloud-native
@@ -101,4 +101,4 @@ markdown: >-
 brand: Amazon Web Services
 brand_logo_url: https://d1.awsstatic.com/webteam/common/assets/logos/aws-logo-lockup_horizontal_full_color.svg
 images: []
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31

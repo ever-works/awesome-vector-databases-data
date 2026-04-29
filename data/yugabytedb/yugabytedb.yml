@@ -4,7 +4,7 @@ description: PostgreSQL-compatible distributed SQL DB with HNSW vector search +
   ACID vector workloads for multimodal RAG. Unifies vectors with SQL unlike pure
   vector DBs like Qdrant.
 source_url: https://www.yugabyte.com/yugabytedb/
-category: Hybrid & Multimodal Vector Databases
+category: Multimodal Vector Databases
 tags:
   - distributed
   - sql
@@ -61,4 +61,4 @@ markdown: >-
 
 
   Open source core; enterprise features available.
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-29 11:31

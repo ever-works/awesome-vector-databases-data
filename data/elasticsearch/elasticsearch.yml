@@ -1,15 +1,14 @@
 name: Elasticsearch
-description: Elasticsearch provides dense vector search via kNN plugin,
-  integrating with Lucene for hybrid lexical + semantic search on massive
-  scales. Features approximate kNN, scripting, and ecosystem for logs/search.
-  Enterprise choice for observability + AI search; more mature ecosystem than
-  Weaviate but heavier footprint.
+description: Elasticsearch provides vector search via kNN plugin with HNSW/IVF,
+  hybrid lexical+vector (BM25+ANN), and Lucene-based dense retrieval. Ideal for
+  enterprise search with aggregations and security. Outperforms Vespa in
+  ecosystem integrations but heavier than lightweight DBs like Qdrant.
 source_url: https://www.elastic.co/elasticsearch/
-category: Hybrid Vector Stores
+category: Search Engine Vector Extensions
 tags:
-  - kNN Plugin
-  - Hybrid Lexical
-  - Enterprise Scale
+  - lucene knn
+  - hybrid lexical vector
+  - enterprise search
 featured: false
 markdown: |-
   ## Overview
@@ -30,4 +29,5 @@ brand: Elastic
 brand_logo_url: https://www.elastic.co/assets/branding/product-logos/elasticsearch-logo.svg
 images:
   - https://www.elastic.co/assets/blte1e3f7f5a4df0fbf/logo-elastic.svg
-updated_at: 2026-04-23 19:19
+  - https://www.elastic.co/assets/blteb24e739780ff3a5/logo-elastic.svg
+updated_at: 2026-04-29 11:31

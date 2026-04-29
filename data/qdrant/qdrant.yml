@@ -1,16 +1,15 @@
 name: Qdrant
-description: "Rust-based vector search engine with filtered ANN (HNSW), payload
-  filtering, multi-modal support. Disk-persistent, supports
-  cloud/edge/self-hosted deployments, high QPS. Use cases: real-time
-  recommendations, semantic search. Lighter than Weaviate with Rust performance;
-  open-source alternative to Pinecone."
+description: Qdrant is a high-performance vector search engine and database
+  written in Rust, supporting filtered ANN search with HNSW and custom payloads.
+  It excels in real-time updates, multi-tenancy, and quantization for memory
+  efficiency. Ideal for recommendation systems and RAG; outperforms Faiss in
+  filtering speed while being production-ready unlike pure libraries.
 source_url: https://qdrant.tech/
-category: Rust-Based Vector DBs
+category: Core Vector Databases
 tags:
-  - Rust Vector DB
-  - Filtered Search
-  - Edge Deployable
-  - Disk Persistent
+  - rust
+  - filtered ann
+  - quantization
 featured: false
 markdown: |-
   ## Features
@@ -40,4 +39,4 @@ brand_logo_url: https://qdrant.tech/qdrant-logo.svg
 images:
   - https://qdrant.tech/qdrant-logo.svg
   - https://qdrant.tech/images/qdrant-diagram.png
-updated_at: 2026-04-28 11:38
+updated_at: 2026-04-29 11:31

@@ -4,7 +4,7 @@ description: Open-source database specializing in unstructured and multimodal
   decent vector operations, high recall for multimodal integration, and tight
   compatibility with PyTorch and TensorFlow.
 source_url: https://www.deeplake.ai/
-category: Core Vector Databases
+category: Multimodal Vector Databases
 tags:
   - open-source
   - multimodal
@@ -25,4 +25,4 @@ markdown: |-
   ## Pricing
 
   Affordable for self-hosting as open-source.
-updated_at: 2026-04-28 11:38
+updated_at: 2026-04-29 11:31

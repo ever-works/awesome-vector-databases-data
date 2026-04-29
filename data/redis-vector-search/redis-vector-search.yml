@@ -1,16 +1,19 @@
 name: Redis Vector Search
-description: "Redis Stack with vector search via RediSearch module, HNSW/Flat
-  indexes on in-memory store. Features: Hybrid BM25+vector, real-time cache,
-  multi-tenancy. Use cases: Caching LLM responses, high-throughput RAG.
-  Comparisons: Faster than disk DBs for hot data; vs Memgraph: simpler
-  key-value."
+description: Redis Vector Search (part of Redis Stack) enables vector similarity
+  search on Redis with HNSW indexing, hybrid BM25+vector, and metadata
+  filtering. It leverages Redis caching for low-latency real-time apps like
+  semantic search. Vs dedicated DBs like Pinecone, Redis offers multi-model
+  (JSON/KV + vectors) but requires more config for scale.
 source_url: https://redis.io/search/
-category: In-Memory Hybrid Vector Stores
+category: Hybrid Vector Stores
 tags:
   - In-Memory Vector Search
   - Hybrid BM25
   - High Throughput
   - Redis Stack
+  - hybrid bm25
+  - real time cache
+  - redisearch
 featured: false
 markdown: |-
   ## Overview
@@ -36,4 +39,5 @@ brand: Redis
 brand_logo_url: https://redis.io/favicon.svg
 images:
   - https://redis.io/docs/latest/develop/get-started/vector-database/images/search-indexing.png
-updated_at: 2026-04-28 11:38
+  - https://redis.io/wp-content/uploads/2021/01/redis_logo.svg
+updated_at: 2026-04-29 11:31

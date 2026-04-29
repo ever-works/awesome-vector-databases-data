@@ -6,7 +6,7 @@ description: Node.js bindings (JavaScript/TypeScript SDK) for HNSWLib C++
   RAG; lighter JS alternative to Python hnswlib bindings vs. full vector DBs
   like Chroma.
 source_url: https://github.com/yoshoku/hnswlib-node
-category: Vector Clients & SDKs
+category: Core Vector Databases
 tags:
   - nodejs
   - javascript
@@ -73,4 +73,4 @@ markdown: >-
   Free and open-source (Apache 2.0).
 images:
   - https://github.com/yoshoku/hnswlib-node/raw/master/logo.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31

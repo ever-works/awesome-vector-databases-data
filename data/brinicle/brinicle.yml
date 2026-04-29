@@ -7,7 +7,7 @@ description: Brinicle is a lightweight C++ library for approximate nearest
   applications; lighter and more memory-efficient than Milvus, with better
   low-resource performance vs hnswlib.
 source_url: https://github.com/spotify/brinicle
-category: Libraries
+category: ANN Indexing Libraries
 tags:
   - c++
   - low-ram
@@ -32,4 +32,4 @@ brand: Spotify
 brand_logo_url: https://developer.spotify.com/assets/images/spotify_logo_white@2x.png
 images:
   - https://github.com/spotify/brinicle/raw/main/assets/performance.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31

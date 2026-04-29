@@ -6,7 +6,7 @@ description: Managed serverless Postgres with pgvector for vector similarity
   dedicated DBs in integrated app development and cost for RAG/multi-tenant use
   cases.
 source_url: https://supabase.com/vector
-category: Cloud Postgres Vectors
+category: Cloud-Managed Postgres Vectors
 tags:
   - commercial
   - open-source
@@ -92,4 +92,4 @@ brand: Supabase
 brand_logo_url: https://supabase.com/assets/images/supabase-logo.svg
 images:
   - https://supabase.com/images/vector-logo.svg
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31

@@ -4,7 +4,7 @@ description: Multi-model database with vector search, graph queries, full-text
   retrieval. Ideal for multimodal RAG in full-stack apps. More versatile than
   pure vector DBs like Qdrant with embedded/multi-model support.
 source_url: https://surrealdb.com/
-category: Hybrid & Multimodal Vector Databases
+category: Multimodal Vector Databases
 tags:
   - multi-model
   - embedded
@@ -98,4 +98,4 @@ markdown: >-
   SurrealDB is free to use for production applications in any environment.
 images:
   - https://surrealdb.com/assets/images/logo.svg
-updated_at: 2026-04-23 13:22
+updated_at: 2026-04-29 11:31

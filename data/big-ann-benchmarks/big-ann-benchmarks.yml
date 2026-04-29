@@ -6,7 +6,7 @@ description: Evaluates ANN algorithms on billion-scale datasets with
   ANN-Benchmarks million-scale libraries with billion-scale algorithm
   competitions.
 source_url: https://big-ann-benchmarks.com/
-category: Benchmarks & Evaluation
+category: Developer Tools & Benchmarks
 tags:
   - benchmarking
   - performance-evaluation
@@ -108,4 +108,4 @@ markdown: >-
   - Production system design decisions
 images:
   - https://big-ann-benchmarks.com/static/leaderboard.png
-updated_at: 2026-04-23 04:24
+updated_at: 2026-04-29 11:31

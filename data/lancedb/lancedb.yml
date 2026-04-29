@@ -1,15 +1,15 @@
 name: LanceDB
-description: Embedded columnar DB for multimodal vectors (images/text),
-  Arrow-based. Supports zero-copy reads, SQL queries, and cloud sync. Ideal for
-  computer vision search and large-scale analytics. Differentiates from Chroma
-  via columnar/multimodal design; from Faiss as a full DB.
+description: LanceDB is an embedded, columnar vector database built on Apache
+  Arrow, supporting SQL queries, zero-copy reads, and disk-persistent indexes
+  like IVF-PQ. It excels in multimodal data (images/text) and versioning for ML
+  workflows. Compared to Chroma, offers better analytics integration and full
+  SQL vs simple API.
 source_url: https://lancedb.com/
-category: Multimodal Vector DBs
+category: Embedded Vector Databases
 tags:
-  - Multimodal Vector DB
-  - Columnar Storage
-  - Arrow Native
-  - Vision Language
+  - columnar storage
+  - sql vector
+  - multimodal
 featured: false
 markdown: >-
   ## Overview
@@ -65,4 +65,5 @@ brand: LanceDB
 brand_logo_url: https://lancedb.com/logo.svg
 images:
   - https://lancedb.com/images/og-image.png
-updated_at: 2026-04-28 11:38
+  - https://lancedb.com/favicon.svg
+updated_at: 2026-04-29 11:31

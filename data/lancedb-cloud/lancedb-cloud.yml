@@ -5,7 +5,7 @@ description: "Serverless managed service for LanceDB's columnar multimodal
   search, large-scale analytics. Vs Chroma: columnar/multimodal; vs Faiss: full
   managed DB."
 source_url: https://lancedb.com/cloud/
-category: Serverless Vector DBs
+category: Managed Vector Databases
 tags:
   - Multimodal Vector DB
   - Columnar Storage
@@ -64,4 +64,4 @@ brand: LanceDB
 brand_logo_url: https://lancedb.com/logo.svg
 images:
   - https://lancedb.com/images/hero-cloud.png
-updated_at: 2026-04-28 11:38
+updated_at: 2026-04-29 11:31

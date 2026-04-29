@@ -6,7 +6,7 @@ description: sqlite-vec is a Rust-based SQLite extension library for vector
   Perfect for prototyping and on-device apps; extremely lightweight compared to
   Milvus, more persistent than pure hnswlib.
 source_url: https://github.com/asg017/sqlite-vec
-category: Libraries
+category: ANN Indexing Libraries
 tags:
   - sqlite
   - open-source
@@ -32,4 +32,4 @@ brand: Alex Garcia
 brand_logo_url: https://github.com/asg017.png
 images:
   - https://github.com/asg017/sqlite-vec/raw/main/docs/performance.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-29 11:31
