@@ -62,3 +62,15 @@
   name: Developer Tools & Benchmarks
 - id: embedded-vector-databases
   name: Embedded Vector Databases
+- id: managed-and-serverless-vector-dbs
+  name: Managed And Serverless Vector DBs
+- id: benchmark-eval-tools
+  name: Benchmark & Eval Tools
+- id: embedded-and-edge-vector-databases
+  name: Embedded And Edge Vector Databases
+- id: ai-agent-optimized-vdbs
+  name: AI Agent Optimized VDBs
+- id: wasmedge-runtime-vdbs
+  name: Wasm/Edge Runtime VDBs
+- id: quantum-safe-vector-dbs
+  name: Quantum Safe Vector DBs

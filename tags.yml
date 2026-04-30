@@ -175,7 +175,7 @@
 - id: hybrid-lexical
   name: Hybrid Lexical
 - id: ann-library
-  name: ANN Library
+  name: Ann Library
 - id: columnar
   name: Columnar
 - id: production-ready
@@ -251,7 +251,7 @@
 - id: enterprise-scale
   name: Enterprise Scale
 - id: gpu-support
-  name: GPU Support
+  name: Gpu Support
 - id: meta-ai
   name: Meta AI
 - id: disk-based
@@ -437,7 +437,7 @@
 - id: ivfflat
   name: IVFFlat
 - id: sql-native
-  name: SQL Native
+  name: Sql Native
 - id: open-source-postgres
   name: Open Source Postgres
 - id: hybrid-sparse-dense
@@ -445,7 +445,7 @@
 - id: vector-database
   name: Vector Database
 - id: hybrid-bm25-vector
-  name: Hybrid BM25 Vector
+  name: Hybrid Bm25 Vector
 - id: in-memory-vdb
   name: In Memory VDB
 - id: module
@@ -487,7 +487,7 @@
 - id: backups
   name: Backups
 - id: modular-ml
-  name: Modular ML
+  name: Modular Ml
 - id: cloud-managed
   name: Cloud Managed
 - id: managed-postgres-vector
@@ -682,3 +682,11 @@
   name: Postgresql Compatible
 - id: acid
   name: Acid
+- id: neuromorphic
+  name: Neuromorphic
+- id: rust-based
+  name: Rust Based
+- id: knowledge-graph
+  name: Knowledge Graph
+- id: memory
+  name: Memory
