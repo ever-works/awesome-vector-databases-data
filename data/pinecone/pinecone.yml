@@ -1,16 +1,15 @@
 name: Pinecone
-description: "Fully managed serverless vector database optimized for high-QPS
-  semantic search in AI apps. Features pod/serverless indexing, hybrid
-  sparse-dense, metadata filtering, auto-scaling. Use cases: LLM RAG pipelines,
-  real-time personalization. Comparisons: Easier than Milvus for cloud-only, but
-  no self-host; vs Qdrant: more serverless focus."
+description: "Pinecone is a managed, serverless vector database optimized for
+  low-latency semantic search and recommendations. Auto-scales, supports
+  pod/serverless pods, hybrid sparse-dense. Best for production RAG without ops
+  overhead; vs Weaviate more focused on pure vectors. Features: metadata
+  filtering, real-time updates."
 source_url: https://www.pinecone.io/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
-  - Serverless Vector DB
+  - Serverless Scaling
+  - Pay-Per-Use
   - Hybrid Sparse
-  - High QPS
-  - Managed Cloud
 featured: false
 markdown: |-
   ## Overview
@@ -40,6 +39,7 @@ markdown: |-
 
   Predictable usage-based; starter tiers available.
 images:
+  - https://www.pinecone.io/images/logo.svg
   - https://www.pinecone.io/static/pinecone-logo.svg
   - https://www.pinecone.io/static/media/home-hero-illustration.0d6f1d2e.svg
-updated_at: 2026-04-29 11:31
+updated_at: 2026-04-30 11:38

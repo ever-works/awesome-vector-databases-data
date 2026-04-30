@@ -4,7 +4,7 @@ description: Open-source LLM app development platform with an intuitive
   management, and observability features for rapid prototyping and production
   deployment.
 source_url: https://dify.ai
-category: LLM Frameworks
+category: AI Agent Optimized VDBs
 tags:
   - open-source
   - rag
@@ -71,4 +71,4 @@ markdown: >-
 
   Open-source and free for self-hosting. Dify Cloud offers managed hosting with
   usage-based pricing.
-updated_at: 2026-03-11 13:24
+updated_at: 2026-04-30 11:38

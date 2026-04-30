@@ -7,7 +7,7 @@ description: AstraDB is a serverless, cloud-hosted vector database built on
   easier operations than self-hosted Milvus, with greater durability compared to
   Zilliz.
 source_url: https://www.datastax.com/products/datastax-astra
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - cassandra-based
   - serverless
@@ -83,4 +83,4 @@ markdown: >
   ## Tags
 
   cloud-native, vector-search, scalable, ai
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

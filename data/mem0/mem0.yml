@@ -3,7 +3,7 @@ description: Knowledge engine for AI agent memory and memory layer for AI
   agents. Replaces complex RAG pipelines with serverless, single-file memory
   supporting instant retrieval and long-term memory.
 source_url: https://github.com/mem0ai/mem0
-category: Core Vector Databases
+category: AI Agent Optimized VDBs
 tags:
   - open-source
   - rag
@@ -23,4 +23,4 @@ markdown: |-
   ## Pricing
 
   Free and open-source.
-updated_at: 2026-04-28 11:38
+updated_at: 2026-04-30 11:38

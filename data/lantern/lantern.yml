@@ -5,7 +5,7 @@ description: Lantern is a multimodal vector database supporting text, image, and
   persistence. Ideal for CV+text search and multimedia recommendations; provides
   multimodal capabilities beyond text-only databases like pgvector.
 source_url: https://lantern.dev/
-category: Multimodal Vector DBs
+category: Multimodal Vector Databases
 tags:
   - Multi-Modal
   - Vision-Language
@@ -73,4 +73,4 @@ images:
   - https://lantern.dev/logo.svg
   - https://lantern.dev/logo.png
   - https://lantern.dev/assets/architecture.png
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

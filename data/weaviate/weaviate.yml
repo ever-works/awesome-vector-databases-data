@@ -1,16 +1,13 @@
 name: Weaviate
-description: Weaviate is an open-source vector database that combines vector
-  search with structured data filtering and GraphQL API. It supports multimodal
-  data, hybrid search (vector + keyword), and modules for integrations like
-  OpenAI and custom ML models. Use cases include knowledge graphs and enterprise
-  RAG; differentiates from Pinecone by being self-hosted with strong hybrid
-  capabilities.
+description: Weaviate is an open-source, cloud-native vector database with
+  GraphQL API, supporting hybrid search (vector+keyword), modules for ML
+  integrations. It features HNSW indexing and auto-vectorization. Excels in
+  knowledge graphs and multimodal RAG; vs Qdrant more schema-aware and modular.
 source_url: https://weaviate.io/
 category: Core Vector Databases
 tags:
   - graphql
-  - multimodal
-  - modules
+  - modular-ml
 featured: false
 markdown: >-
   ## Overview
@@ -54,7 +51,5 @@ markdown: >-
   Cloud.
 brand_logo_url: https://raw.githubusercontent.com/weaviate/weaviate/main/logo.svg
 images:
-  - https://weaviate.io/assets/logo.svg
-  - https://weaviate.io/img/weaviate-logo.png
-  - https://weaviate.io/assets/weaviate_logo-dark.svg
-updated_at: 2026-04-29 11:31
+  - https://weaviate.io/logo.svg
+updated_at: 2026-04-30 11:38

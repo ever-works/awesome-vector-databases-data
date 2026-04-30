@@ -4,7 +4,7 @@ description: Context engineering and agent memory platform for AI agents with
   relationship-aware context from chat history, business data, documents, and
   app events.
 source_url: https://www.getzep.com/
-category: LLM Tools
+category: AI Agent Optimized VDBs
 tags:
   - ai-agents
   - knowledge-graph
@@ -103,4 +103,4 @@ markdown: >-
   on usage.
 brand: Zep
 brand_logo_url: https://www.getzep.com/images/zep-logo.svg
-updated_at: 2026-03-11 12:14
+updated_at: 2026-04-30 11:38

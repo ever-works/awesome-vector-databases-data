@@ -1,15 +1,13 @@
 name: Chroma
-description: "Python-native embedding database for LLM apps, easy local
-  prototyping. Features HNSW index, metadata filtering, and persistent storage.
-  Use cases: local RAG development, agent memory. Easier onboarding than
-  LanceDB; vs pgvector: pure Python, no SQL."
+description: Chroma is an AI-native open-source embedding database for LLM apps
+  with simple Python API and persistent storage using HNSW. It includes DuckDB
+  integration and auto-embedding features. Great for prototyping RAG; vs
+  Pinecone easier local dev but less scalable managed.
 source_url: https://www.trychroma.com/
-category: Embedded Vector Databases
+category: Embedded and Edge Vector Databases
 tags:
-  - Python Vector DB
-  - Local Dev
-  - LLM Friendly
-  - Prototyping
+  - python-native
+  - local-first
 featured: false
 markdown: >-
   ## Overview
@@ -44,5 +42,5 @@ markdown: >-
 
   Free and open-source under Apache 2.0 license.
 images:
-  - https://docs.trychroma.com/logo.png
-updated_at: 2026-04-29 11:31
+  - https://www.trychroma.com/logo.png
+updated_at: 2026-04-30 11:38

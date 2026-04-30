@@ -4,7 +4,7 @@ description: Rust library for low-latency on-device vector similarity search
   devices. Supports concurrent multi-process access for real-time AI apps. Ideal
   for IoT and embedded systems vs cloud alternatives like Qdrant.
 source_url: https://github.com/meilisearch/arroy
-category: Embedded & Edge Vector Databases
+category: Embedded and Edge Vector Databases
 tags:
   - open-source
   - vector-embeddings
@@ -48,4 +48,4 @@ markdown: >-
   ## Pricing
 
   Free open-source (MIT).
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

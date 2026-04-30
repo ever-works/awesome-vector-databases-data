@@ -5,7 +5,7 @@ description: RuVector Format (RVF) is a universal binary file format combining
   post-quantum signatures, tamper-evident chains, and support for federated AI
   agent workflows.
 source_url: https://crates.io/crates/rvf-cli
-category: Quantum-Resistant Vectors
+category: Quantum-Safe Vector DBs
 tags:
   - file-format
   - cognitive-containers
@@ -70,4 +70,4 @@ markdown: >-
 
   Free and open-source.
 brand: RuVector
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

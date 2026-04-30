@@ -4,7 +4,7 @@ description: Serverless Postgres with native pgvector support for vector
   and scale-to-zero with separated compute and storage. This is a commercial
   managed service with free tier.
 source_url: https://neon.com/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - commercial
   - serverless
@@ -156,4 +156,4 @@ markdown: >-
 
   - Active community and documentation
 brand: Neon
-updated_at: 2026-03-06 18:05
+updated_at: 2026-04-30 11:38

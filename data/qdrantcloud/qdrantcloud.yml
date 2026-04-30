@@ -4,7 +4,7 @@ description: Managed serverless Qdrant with pay-per-query, auto-scale for vector
   (gRPC/REST/HTTP). Enterprise RAG/recommendations; easier scaling than
   self-hosted Qdrant.
 source_url: https://cloud.qdrant.io/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - serverless
   - Pay Per Use
@@ -36,4 +36,4 @@ markdown: |-
   ## Pricing
 
   Usage-based pay-per-query.
-updated_at: 2026-04-29 11:31
+updated_at: 2026-04-30 11:38

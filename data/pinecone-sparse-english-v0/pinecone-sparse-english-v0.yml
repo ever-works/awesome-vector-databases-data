@@ -5,7 +5,7 @@ description: "Fully managed serverless vector database optimized for high-QPS
   real-time personalization. Comparisons: Easier than Milvus for cloud-only, but
   no self-host; vs Qdrant: more serverless focus."
 source_url: https://www.pinecone.io/learn/learn-pinecone-sparse/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - Serverless Vector DB
   - Hybrid Sparse
@@ -88,4 +88,4 @@ markdown: >-
 brand: Pinecone
 images:
   - https://www.pinecone.io/static/media/home-hero-illustration.0d6f1d2e.svg
-updated_at: 2026-04-29 11:31
+updated_at: 2026-04-30 11:38

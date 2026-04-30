@@ -7,7 +7,7 @@ description: Amazon Aurora Serverless v2 is a cloud-hosted, serverless
   apps. Provides easier operations than self-hosted Milvus or Postgres, deeply
   integrated with AWS unlike standalone Zilliz.
 source_url: https://aws.amazon.com/rds/aurora/serverless/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - cloud-native
   - serverless
@@ -86,4 +86,4 @@ markdown: >-
 
 
   Pricing information was not provided in the source content.
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

@@ -4,7 +4,7 @@ description: Rust crate for quantum circuit simulation and coherence assessment
   providing quantum-resistant security for AI safety in quantum-inspired vector
   computing environments.
 source_url: https://crates.io/crates/ruqu
-category: Quantum-Resistant Vectors
+category: Quantum-Safe Vector DBs
 tags:
   - open-source
   - rust
@@ -37,4 +37,4 @@ markdown: >-
 
   Free and open-source.
 brand: ruvnet
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

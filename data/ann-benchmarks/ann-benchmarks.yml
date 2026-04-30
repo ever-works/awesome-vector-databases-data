@@ -6,7 +6,7 @@ description: Standardized benchmark for QPS/latency/recall tests on ANN
   BigANN billion-scale competitions by focusing on million-scale library
   performance vs full-system custom benchmarks.
 source_url: https://ann-benchmarks.com/
-category: Developer Tools & Benchmarks
+category: Benchmark & Eval Tools
 tags:
   - benchmarking
   - performance-evaluation
@@ -43,4 +43,4 @@ markdown: |-
   Free open-source.
 images:
   - https://ann-benchmarks.com/static/plots/sift-128-euclidean.hnsw.svg
-updated_at: 2026-04-29 11:31
+updated_at: 2026-04-30 11:38

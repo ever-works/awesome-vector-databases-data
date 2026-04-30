@@ -1,16 +1,13 @@
 name: RedisVL
-description: "Redis Stack with vector search via RediSearch module, HNSW/Flat
-  indexes on in-memory store. Features: Hybrid BM25+vector, real-time cache,
-  multi-tenancy. Use cases: Caching LLM responses, high-throughput RAG.
-  Comparisons: Faster than disk DBs for hot data; vs Memgraph: simpler
-  key-value."
+description: "RedisVL extends Redis with vector search via RediSearch module,
+  HNSW indexes, hybrid BM25+vector. Great for caching/real-time RAG; vs
+  dedicated VDBs leverages Redis speed/multi-model. Features: JSON payloads,
+  streaming."
 source_url: https://redis.io/docs/latest/integrate/redisvl/
 category: In-Memory Hybrid Vector Stores
 tags:
-  - In-Memory Vector Search
-  - Hybrid BM25
-  - High Throughput
-  - Redis Stack
+  - hybrid-bm25-vector
+  - real-time-cache
 featured: false
 markdown: |-
   ## Overview
@@ -29,4 +26,5 @@ brand: Redis
 brand_logo_url: https://redis.io/favicon.svg
 images:
   - https://redis.io/docs/latest/develop/get-started/vector-database/images/search-indexing.png
-updated_at: 2026-04-28 11:38
+  - https://redis.io/docs/latest/develop/get-started/redis-stack/logo.svg
+updated_at: 2026-04-30 11:38

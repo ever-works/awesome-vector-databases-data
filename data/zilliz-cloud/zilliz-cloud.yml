@@ -6,7 +6,7 @@ description: Zilliz Cloud is a serverless, cloud-hosted managed vector database
   simplicity over self-hosted Milvus, with enterprise-grade features comparable
   to Qdrant Cloud.
 source_url: https://zilliz.com/cloud
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - Milvus Based
   - Autoscaling
@@ -31,4 +31,4 @@ markdown: |-
 brand: Zilliz
 images:
   - https://zilliz.com/assets/logo.svg
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

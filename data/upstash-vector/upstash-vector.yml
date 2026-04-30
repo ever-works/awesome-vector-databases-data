@@ -5,7 +5,7 @@ description: Upstash Vector is a serverless, cloud-hosted vector database with
   and production AI similarity search applications. Simpler and more
   cost-effective than self-hosted Milvus or Zilliz for variable workloads.
 source_url: https://upstash.com/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - serverless
   - managed
@@ -21,4 +21,4 @@ markdown: |-
   ## Pricing
   $0.4/100k requests, $0.25/GB storage.
 brand: Upstash
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

@@ -6,7 +6,7 @@ description: Turbopuffer is a serverless, cloud-hosted vector database with
   economical operations than self-hosted Milvus or Zilliz Cloud for massive
   indexes.
 source_url: https://turbopuffer.com/
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - serverless
   - cost-optimized
@@ -37,4 +37,4 @@ markdown: >-
 
 
   Usage-based, $64/mo minimum. No free tier.
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

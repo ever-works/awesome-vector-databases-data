@@ -6,7 +6,7 @@ description: Momento Vector Index is a serverless, cloud-hosted vector database
   Offers simpler operations than self-hosted Milvus, with more transparent
   pricing than Zilliz or Pinecone.
 source_url: https://www.gomomento.com/services/vector-index
-category: Managed Vector Databases
+category: Managed and Serverless Vector DBs
 tags:
   - commercial
   - serverless
@@ -138,4 +138,4 @@ markdown: >-
 
   - Lower operational overhead
 brand: Momento
-updated_at: 2026-04-24 10:19
+updated_at: 2026-04-30 11:38

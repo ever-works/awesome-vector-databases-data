@@ -5,7 +5,7 @@ description: Lightweight, in-process Python library for vector similarity search
   prototyping, LangChain integration; faster startup than Qdrant client, easier
   than full Milvus vs Chroma.
 source_url: https://milvus.io/
-category: Embedded Vector Databases
+category: Embedded and Edge Vector Databases
 tags:
   - Zero Dep
   - Local First
@@ -60,4 +60,4 @@ brand_logo_url: https://milvus.io/assets/images/milvus-logo.png
 images:
   - https://milvus.io/assets/milvus-lite.svg
   - https://milvus.io/assets/images/milvus-logo.png
-updated_at: 2026-04-29 11:31
+updated_at: 2026-04-30 11:38
