@@ -1,0 +1,81 @@
+- url: https://dev.to/michaelaiglobal/beyond-pinecone-a-developers-deep-dive-into-the-top-10-vector-databases-for-genai-in-2024-4no9
+  normalized_url: https://dev.to/michaelaiglobal/beyond-pinecone-a-developers-deep-dive-into-the-top-10-vector-databases-for-genai-in-2024-4no9
+  first_seen_at: 2026-05-05T11:52:28.855Z
+  last_attempted_at: 2026-05-05T11:52:28.855Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://en.wikipedia.org/wiki/Vector_database
+  normalized_url: https://en.wikipedia.org/wiki/Vector_database
+  first_seen_at: 2026-05-05T12:03:02.767Z
+  last_attempted_at: 2026-05-05T12:03:02.767Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://github.com/dangkhoasdc/awesome-vector-database
+  normalized_url: https://github.com/dangkhoasdc/awesome-vector-database
+  first_seen_at: 2026-05-05T11:59:03.536Z
+  last_attempted_at: 2026-05-05T11:59:03.536Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://github.com/mileszim/awesome-vector-database
+  normalized_url: https://github.com/mileszim/awesome-vector-database
+  first_seen_at: 2026-05-05T12:27:52.627Z
+  last_attempted_at: 2026-05-05T12:27:52.627Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide-to-the-top-10-open-source-vector-databases-7d2805ed8970
+  normalized_url: https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide-to-the-top-10-open-source-vector-databases-7d2805ed8970
+  first_seen_at: 2026-05-05T12:16:43.517Z
+  last_attempted_at: 2026-05-05T12:16:43.517Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
+- url: https://milvus.io/
+  normalized_url: https://milvus.io/
+  first_seen_at: 2026-05-05T12:05:51.512Z
+  last_attempted_at: 2026-05-05T12:05:51.512Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
+- url: https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/master/README.md
+  normalized_url: https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/master/README.md
+  first_seen_at: 2026-05-05T12:21:55.738Z
+  last_attempted_at: 2026-05-05T12:21:55.738Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: No items extracted
+- url: https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024
+  normalized_url: https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024
+  first_seen_at: 2026-05-05T11:54:57.642Z
+  last_attempted_at: 2026-05-05T11:54:57.642Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://www.pinecone.io/
+  normalized_url: https://www.pinecone.io/
+  first_seen_at: 2026-05-05T12:07:01.513Z
+  last_attempted_at: 2026-05-05T12:07:01.513Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
