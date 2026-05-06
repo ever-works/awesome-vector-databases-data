@@ -52,6 +52,24 @@
   pipeline: agent-pipeline
   provider: Tavily
   error: No items extracted
+- url: https://planetcassandra.org/leaf/top-10-best-vector-databases-and-libraries/
+  normalized_url: https://planetcassandra.org/leaf/top-10-best-vector-databases-and-libraries
+  first_seen_at: 2026-05-06T11:50:07.771Z
+  last_attempted_at: 2026-05-06T11:50:07.771Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://qdrant.tech/
+  normalized_url: https://qdrant.tech/
+  first_seen_at: 2026-05-06T12:06:01.335Z
+  last_attempted_at: 2026-05-06T12:06:01.335Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
 - url: https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/master/README.md
   normalized_url: https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/master/README.md
   first_seen_at: 2026-05-05T12:21:55.738Z
@@ -60,6 +78,33 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Tavily
+  error: No items extracted
+- url: https://thenewstack.io/better-for-ai-apps-vector-libraries-or-vector-databases/
+  normalized_url: https://thenewstack.io/better-for-ai-apps-vector-libraries-or-vector-databases
+  first_seen_at: 2026-05-06T11:56:22.586Z
+  last_attempted_at: 2026-05-06T11:56:22.586Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://weaviate.io/
+  normalized_url: https://weaviate.io/
+  first_seen_at: 2026-05-06T12:08:11.975Z
+  last_attempted_at: 2026-05-06T12:08:11.975Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://www.amax.com/top-5-open-source-vector-databases-for-scalable-ai-solutions/
+  normalized_url: https://www.amax.com/top-5-open-source-vector-databases-for-scalable-ai-solutions
+  first_seen_at: 2026-05-06T11:59:21.638Z
+  last_attempted_at: 2026-05-06T11:59:21.638Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
   error: No items extracted
 - url: https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024
   normalized_url: https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024
@@ -74,6 +119,15 @@
   normalized_url: https://www.pinecone.io/
   first_seen_at: 2026-05-05T12:07:01.513Z
   last_attempted_at: 2026-05-05T12:07:01.513Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: No items extracted
+- url: https://www.zenml.io/blog/vector-databases-for-rag
+  normalized_url: https://www.zenml.io/blog/vector-databases-for-rag
+  first_seen_at: 2026-05-06T12:01:40.566Z
+  last_attempted_at: 2026-05-06T12:01:40.566Z
   status: empty
   items_created: 0
   pipeline: agent-pipeline
