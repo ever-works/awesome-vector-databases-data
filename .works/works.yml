@@ -96,7 +96,7 @@ name: Awesome Vector Databases
 providers:
   pipeline: agent-pipeline
   search: tavily
+  contentExtractor: tavily
   ai: openrouter
-  contentExtractor: local-content-extractor
 website_repo: ever-works/awesome-vector-databases-website
 deployProvider: vercel
