@@ -48,6 +48,15 @@
   provider: Local (Readability)
   error: "No items retrieved from URL:
     https://github.com/dangkhoasdc/awesome-vector-database"
+- url: https://github.com/facebookresearch/faiss
+  normalized_url: https://github.com/facebookresearch/faiss
+  first_seen_at: 2026-05-09T17:04:08.779Z
+  last_attempted_at: 2026-05-09T17:04:08.779Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: "No items retrieved from URL: https://github.com/facebookresearch/faiss"
 - url: https://github.com/mileszim/awesome-vector-database
   normalized_url: https://github.com/mileszim/awesome-vector-database
   first_seen_at: 2026-05-05T12:27:52.627Z
@@ -58,6 +67,24 @@
   provider: Local (Readability)
   error: "No items retrieved from URL:
     https://github.com/mileszim/awesome-vector-database"
+- url: https://github.com/milvus-io/milvus
+  normalized_url: https://github.com/milvus-io/milvus
+  first_seen_at: 2026-05-09T16:41:27.238Z
+  last_attempted_at: 2026-05-09T16:41:27.238Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: "No items retrieved from URL: https://github.com/milvus-io/milvus"
+- url: https://github.com/weaviate/weaviate
+  normalized_url: https://github.com/weaviate/weaviate
+  first_seen_at: 2026-05-09T16:58:15.460Z
+  last_attempted_at: 2026-05-09T16:58:15.460Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: "No items retrieved from URL: https://github.com/weaviate/weaviate"
 - url: https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide-to-the-top-10-open-source-vector-databases-7d2805ed8970
   normalized_url: https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide-to-the-top-10-open-source-vector-databases-7d2805ed8970
   first_seen_at: 2026-05-05T12:16:43.517Z
@@ -87,6 +114,15 @@
   pipeline: agent-pipeline
   provider: Tavily
   error: "No items retrieved from URL: https://milvus.io/"
+- url: https://milvus.io/docs/overview.md
+  normalized_url: https://milvus.io/docs/overview.md
+  first_seen_at: 2026-05-09T17:06:25.822Z
+  last_attempted_at: 2026-05-09T17:06:25.822Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: "No items retrieved from URL: https://milvus.io/docs/overview.md"
 - url: https://pinecone.io/
   normalized_url: https://pinecone.io/
   first_seen_at: 2026-05-09T11:00:20.622Z
@@ -209,3 +245,13 @@
   provider: Local (Readability)
   error: "No items retrieved from URL:
     https://www.zenml.io/blog/vector-databases-for-rag"
+- url: https://zilliz.com/blog/top-5-open-source-vector-search-engines
+  normalized_url: https://zilliz.com/blog/top-5-open-source-vector-search-engines
+  first_seen_at: 2026-05-09T16:19:21.007Z
+  last_attempted_at: 2026-05-09T16:19:21.007Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: "No items retrieved from URL:
+    https://zilliz.com/blog/top-5-open-source-vector-search-engines"
