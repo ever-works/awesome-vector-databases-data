@@ -6,7 +6,19 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://dev.to/michaelaiglobal/beyond-pinecone-a-developers-deep-dive-into-\
+    the-top-10-vector-databases-for-genai-in-2024-4no9"
+- url: https://en.wikipedia.org/wiki/Category:Vector_databases
+  normalized_url: https://en.wikipedia.org/wiki/Category:Vector_databases
+  first_seen_at: 2026-05-09T11:04:52.424Z
+  last_attempted_at: 2026-05-09T11:04:52.424Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: "No items retrieved from URL:
+    https://en.wikipedia.org/wiki/Category:Vector_databases"
 - url: https://en.wikipedia.org/wiki/Vector_database
   normalized_url: https://en.wikipedia.org/wiki/Vector_database
   first_seen_at: 2026-05-05T12:03:02.767Z
@@ -15,7 +27,17 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL: https://en.wikipedia.org/wiki/Vector_database"
+- url: https://github.com/currentslab/awesome-vector-search
+  normalized_url: https://github.com/currentslab/awesome-vector-search
+  first_seen_at: 2026-05-09T11:07:15.649Z
+  last_attempted_at: 2026-05-09T11:07:15.649Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: "No items retrieved from URL:
+    https://github.com/currentslab/awesome-vector-search"
 - url: https://github.com/dangkhoasdc/awesome-vector-database
   normalized_url: https://github.com/dangkhoasdc/awesome-vector-database
   first_seen_at: 2026-05-05T11:59:03.536Z
@@ -24,7 +46,8 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://github.com/dangkhoasdc/awesome-vector-database"
 - url: https://github.com/mileszim/awesome-vector-database
   normalized_url: https://github.com/mileszim/awesome-vector-database
   first_seen_at: 2026-05-05T12:27:52.627Z
@@ -33,7 +56,8 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://github.com/mileszim/awesome-vector-database"
 - url: https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide-to-the-top-10-open-source-vector-databases-7d2805ed8970
   normalized_url: https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide-to-the-top-10-open-source-vector-databases-7d2805ed8970
   first_seen_at: 2026-05-05T12:16:43.517Z
@@ -42,7 +66,18 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Tavily
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://medium.com/@techlatest.net/from-milvus-to-qdrant-the-ultimate-guide\
+    -to-the-top-10-open-source-vector-databases-7d2805ed8970"
+- url: https://meetcody.ai/blog/top-vector-databases/
+  normalized_url: https://meetcody.ai/blog/top-vector-databases
+  first_seen_at: 2026-05-09T10:55:53.116Z
+  last_attempted_at: 2026-05-09T10:55:53.116Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: "No items retrieved from URL: https://meetcody.ai/blog/top-vector-databases/"
 - url: https://milvus.io/
   normalized_url: https://milvus.io/
   first_seen_at: 2026-05-05T12:05:51.512Z
@@ -51,7 +86,16 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Tavily
-  error: No items extracted
+  error: "No items retrieved from URL: https://milvus.io/"
+- url: https://pinecone.io/
+  normalized_url: https://pinecone.io/
+  first_seen_at: 2026-05-09T11:00:20.622Z
+  last_attempted_at: 2026-05-09T11:00:20.622Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: "No items retrieved from URL: https://pinecone.io/"
 - url: https://planetcassandra.org/leaf/top-10-best-vector-databases-and-libraries/
   normalized_url: https://planetcassandra.org/leaf/top-10-best-vector-databases-and-libraries
   first_seen_at: 2026-05-06T11:50:07.771Z
@@ -60,7 +104,9 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://planetcassandra.org/leaf/top-10-best-vector-databases-and-libraries\
+    /"
 - url: https://qdrant.tech/
   normalized_url: https://qdrant.tech/
   first_seen_at: 2026-05-06T12:06:01.335Z
@@ -69,7 +115,7 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL: https://qdrant.tech/"
 - url: https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/master/README.md
   normalized_url: https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/master/README.md
   first_seen_at: 2026-05-05T12:21:55.738Z
@@ -78,7 +124,9 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Tavily
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://raw.githubusercontent.com/dangkhoasdc/awesome-vector-database/maste\
+    r/README.md"
 - url: https://thenewstack.io/better-for-ai-apps-vector-libraries-or-vector-databases/
   normalized_url: https://thenewstack.io/better-for-ai-apps-vector-libraries-or-vector-databases
   first_seen_at: 2026-05-06T11:56:22.586Z
@@ -87,7 +135,9 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://thenewstack.io/better-for-ai-apps-vector-libraries-or-vector-databa\
+    ses/"
 - url: https://weaviate.io/
   normalized_url: https://weaviate.io/
   first_seen_at: 2026-05-06T12:08:11.975Z
@@ -96,7 +146,7 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL: https://weaviate.io/"
 - url: https://www.amax.com/top-5-open-source-vector-databases-for-scalable-ai-solutions/
   normalized_url: https://www.amax.com/top-5-open-source-vector-databases-for-scalable-ai-solutions
   first_seen_at: 2026-05-06T11:59:21.638Z
@@ -105,7 +155,9 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://www.amax.com/top-5-open-source-vector-databases-for-scalable-ai-sol\
+    utions/"
 - url: https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024
   normalized_url: https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024
   first_seen_at: 2026-05-05T11:54:57.642Z
@@ -114,7 +166,30 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://www.kdnuggets.com/the-5-best-vector-databases-you-must-try-in-2024"
+- url: https://www.linkedin.com/posts/washija-kazim_8-best-vector-databases-for-2024-based-on-activity-7211615469026312192-sxBx
+  normalized_url: https://www.linkedin.com/posts/washija-kazim_8-best-vector-databases-for-2024-based-on-activity-7211615469026312192-sxBx
+  first_seen_at: 2026-05-09T10:52:46.065Z
+  last_attempted_at: 2026-05-09T10:52:46.065Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Local (Readability)
+  error: "No items retrieved from URL:
+    https://www.linkedin.com/posts/washija-kazim_8-best-vector-databases-for-20\
+    24-based-on-activity-7211615469026312192-sxBx"
+- url: https://www.orczhou.com/wp-content/uploads/2024/10/The-Forrester-Wave%E2%84%A2_-Vector-Databases-Q3-2024-_-0013n00001ylAuOAAU-_-6e412d8a.pdf
+  normalized_url: https://www.orczhou.com/wp-content/uploads/2024/10/The-Forrester-Wave%E2%84%A2_-Vector-Databases-Q3-2024-_-0013n00001ylAuOAAU-_-6e412d8a.pdf
+  first_seen_at: 2026-05-09T10:58:18.142Z
+  last_attempted_at: 2026-05-09T10:58:18.142Z
+  status: empty
+  items_created: 0
+  pipeline: agent-pipeline
+  provider: Tavily
+  error: "No items retrieved from URL:
+    https://www.orczhou.com/wp-content/uploads/2024/10/The-Forrester-Wave%E2%84\
+    %A2_-Vector-Databases-Q3-2024-_-0013n00001ylAuOAAU-_-6e412d8a.pdf"
 - url: https://www.pinecone.io/
   normalized_url: https://www.pinecone.io/
   first_seen_at: 2026-05-05T12:07:01.513Z
@@ -123,7 +198,7 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL: https://www.pinecone.io/"
 - url: https://www.zenml.io/blog/vector-databases-for-rag
   normalized_url: https://www.zenml.io/blog/vector-databases-for-rag
   first_seen_at: 2026-05-06T12:01:40.566Z
@@ -132,4 +207,5 @@
   items_created: 0
   pipeline: agent-pipeline
   provider: Local (Readability)
-  error: No items extracted
+  error: "No items retrieved from URL:
+    https://www.zenml.io/blog/vector-databases-for-rag"
