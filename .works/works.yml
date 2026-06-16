@@ -100,3 +100,5 @@ providers:
   ai: openrouter
 website_repo: ever-works/awesome-vector-databases-website
 deployProvider: vercel
+activity_sync:
+  mode: pull
