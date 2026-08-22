@@ -90,6 +90,11 @@ settings:
     subscribe_enabled: true
     version_enabled: true
     theme_selector_enabled: true
+  monetization:
+    sponsor_ads:
+      currency: USD
+      weekly_price: 100
+      monthly_price: 300
 custom_menu:
   header: []
   footer: []
