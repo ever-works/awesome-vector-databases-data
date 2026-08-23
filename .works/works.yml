@@ -112,3 +112,5 @@ activity_sync:
 logo:
   logo_image: https://raw.githubusercontent.com/ever-works/awesome-vector-databases-data/master/pages/logo-light.png
   logo_image_dark: https://raw.githubusercontent.com/ever-works/awesome-vector-databases-data/master/pages/logo-dark.png
+auth:
+  credentials: true
