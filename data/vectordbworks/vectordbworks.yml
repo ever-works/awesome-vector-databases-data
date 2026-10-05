@@ -2,7 +2,7 @@ name: VectorDB.Works
 description: A web-based directory of vector database solutions, libraries, and
   resources for AI applications, serving as an accessible resource for exploring
   and comparing vector databases.
-source_url: https://vectordb.works
+source_url: https://vectordb.ever.works
 category: curated-resource-lists
 tags:
   - resources
@@ -13,7 +13,7 @@ markdown: >-
   # VectorDB.Works
 
 
-  **Website:** [https://vectordb.works](https://vectordb.works)
+  **Website:** [https://vectordb.ever.works](https://vectordb.ever.works)
 
 
   **Category:** Curated Resource Lists
