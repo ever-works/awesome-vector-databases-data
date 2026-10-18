@@ -1,0 +1,17 @@
+name: AI Image Cleaner
+description: "AI Image Cleaner: Remove Objects from Photos"
+source_url: https://ai-image-cleaner.com/
+category:
+  - vector-database
+  - embedded-vector-libraries
+  - postgres-vector-extensions
+tags:
+  - managed
+  - search-engine
+  - memory-efficient
+collections: []
+featured: false
+updated_at: 2026-10-18 04:55
+status: pending
+submitted_by: b2caf603-44eb-4db4-ada6-a84b26e12677
+submitted_at: 2026-10-18 04:55
